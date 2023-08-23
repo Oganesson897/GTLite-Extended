@@ -1,0 +1,87 @@
+#  Modpack additions
+
+#! Some textures from GT5u, GT++, and Gregicality (Legacy), thanks for authors of these mods.
+#! Sort by first letter (A-Z) for every class
+#! Some may not be effective or no recipes
+
+#  Common blocks
+tile.contenttweaker.dust_block.name=尘土块
+
+#  Circuit Components
+item.contenttweaker.untreated_flexible_pezoelectric_cpu.name=未处理的FPCPU晶圆
+item.contenttweaker.flexible_piezoelectric_cpu.name=FPCPU晶圆
+item.contenttweaker.flexible_piezoelectric_cpu_chip.name=FPCPU晶片
+item.contenttweaker.cosmic_cpu.name=宇宙信息承载模块
+item.contenttweaker.cosmic_cpu_unit.name=宇宙信息簇
+item.contenttweaker.cosmic_capacitor.name=全息能量荷
+item.contenttweaker.cosmic_diode.name=宇宙离子极管
+item.contenttweaker.cosmic_resistor.name=微型星际物质信息壁
+item.contenttweaker.cosmic_transistor.name=晶体信息载荷
+item.contenttweaker.cosmic_inductor.name=天顶星偏振器
+item.contenttweaker.nuclear_clock.name=核时钟
+item.contenttweaker.ultrashort_pulse_laser.name=超短脉冲激光器
+item.contenttweaker.high_frequency_laser.name=高频激光器
+item.contenttweaker.diffractor_grating_mirror.name=衍射光栅镜
+item.contenttweaker.photocoated_wafer.name=光聚合物涂覆的触面晶圆
+item.contenttweaker.scintillator.name=闪烁体
+item.contenttweaker.scintillator_crystal.name=闪烁晶体
+item.contenttweaker.separation_electromagnet.name=分离用电磁铁
+
+#  Components
+item.contenttweaker.motor_ulv.name=电动马达（ULV）
+item.contenttweaker.piston_ulv.name=电力活塞（ULV）
+item.contenttweaker.conveyor_module_ulv.name=传送带（ULV）
+item.contenttweaker.robot_arm_ulv.name=机械臂（ULV）
+item.contenttweaker.electric_pump_ulv.name=电动泵（ULV）
+item.contenttweaker.emitter_ulv.name=发射器（ULV）
+item.contenttweaker.sensor_ulv.name=传感器（ULV）
+item.contenttweaker.field_generator_ulv.name=力场发生器（ULV）
+
+#  Endgame
+item.contenttweaker.singularity_of_universe.name=宇宙奇点
+item.contenttweaker.heart_container.name=心之容器
+item.contenttweaker.heart_of_universe.name=宇宙之心
+item.contenttweaker.hyperdimensional_oscillating_matter.name=超维度时空振荡物质
+
+#  Fuel rods
+item.contenttweaker.empty_fuel_rod.name=燃料棒（空）
+item.contenttweaker.naquadah_fuel_rod.name=燃料棒（硅岩）
+item.contenttweaker.dual_naquadah_fuel_rod.name=双联燃料棒（硅岩）
+item.contenttweaker.quad_naquadah_fuel_rod.name=四联燃料棒（硅岩）
+item.contenttweaker.depleted_naquadah_fuel_rod.name=燃料棒（枯竭硅岩）
+item.contenttweaker.depleted_dual_naquadah_fuel_rod.name=双联燃料棒（枯竭硅岩）
+item.contenttweaker.depleted_quad_naquadah_fuel_rod.name=四联燃料棒（枯竭硅岩）
+item.contenttweaker.thorium_fuel_rod.name=燃料棒（钍）
+item.contenttweaker.dual_thorium_fuel_rod.name=双联燃料棒（钍）
+item.contenttweaker.quad_thorium_fuel_rod.name=四联燃料棒（钍）
+item.contenttweaker.depleted_thorium_fuel_rod.name=燃料棒（枯竭钍）
+item.contenttweaker.depleted_dual_thorium_fuel_rod.name=双联燃料棒（枯竭钍）
+item.contenttweaker.depleted_quad_thorium_fuel_rod.name=四联燃料棒（枯竭钍）
+item.contenttweaker.uranium_fuel_rod.name=燃料棒（铀）
+item.contenttweaker.dual_uranium_fuel_rod.name=双联燃料棒（铀）
+item.contenttweaker.quad_uranium_fuel_rod.name=四联燃料棒（铀）
+item.contenttweaker.depleted_uranium_fuel_rod.name=燃料棒（枯竭铀）
+item.contenttweaker.depleted_dual_uranium_fuel_rod.name=双联燃料棒（枯竭铀）
+item.contenttweaker.depleted_quad_uranium_fuel_rod.name=四联燃料棒（枯竭铀）
+item.contenttweaker.mox_fuel_rod.name=燃料棒（钚铀混合氧化物）
+item.contenttweaker.dual_mox_fuel_rod.name=双联燃料棒（钚铀混合氧化物）
+item.contenttweaker.quad_mox_fuel_rod.name=四联燃料棒（钚铀混合氧化物）
+item.contenttweaker.depleted_mox_fuel_rod.name=燃料棒（枯竭钚铀混合氧化物）
+item.contenttweaker.depleted_dual_mox_fuel_rod.name=双联燃料棒（枯竭钚铀混合氧化物）
+item.contenttweaker.depleted_quad_mox_fuel_rod.name=四联燃料棒（枯竭钚铀混合氧化物）
+
+#  Multiblocks
+tile.contenttweaker.cosmic_microwave_background_radiation_absorber.name=宇宙微波背景辐射吸收器
+tile.contenttweaker.virtual_cosmos_casing.name=虚拟宇宙机械方块
+tile.contenttweaker.high_density_radiation_resistant_casing.name=高密度抗辐射机械方块
+tile.contenttweaker.naquadah_fusion_binding_unit.name=硅岩聚变束缚单元
+tile.contenttweaker.ultimate_fusion_binding_unit.name=终极聚变束缚单元
+tile.contenttweaker.particle_collider_casing.name=高能粒子对撞束流机械方块
+tile.contenttweaker.qcd_lattice_design.name=量子色动力学聚焦结构单元
+tile.contenttweaker.naquadria_neutron_reflection_casing.name=超能硅岩中子反射机械方块
+tile.contenttweaker.extremely_dense_carbon_nanotube_casing.name=超致密碳纳米管机械方块
+tile.contenttweaker.stellar_containment_casing.name=恒星热力容器
+tile.contenttweaker.suprachronal_assembler_casing.name=超时空装配控制外壳
+
+#  Others
+tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

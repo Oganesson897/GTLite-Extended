@@ -1,0 +1,35 @@
+multiblocktweaker.machine.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
+multiblocktweaker.machine.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
+multiblocktweaker.machine.virtual_cosmos_mk3.name=虚拟宇宙模拟机Mk III
+multiblocktweaker.machine.naquadah_reactor.name=硅岩反应堆
+multiblocktweaker.machine.galactic_superscale_structural_circular_particle_collide.name=星系级超大尺度型环形粒子对撞机
+multiblocktweaker.machine.component_assembly_line.name=超高精度部件装配线
+multiblocktweaker.machine.guzzler.name=化学能吞噬者
+multiblocktweaker.machine.fuel_refine_factory.name=燃料精炼厂
+multiblocktweaker.machine.chemical_plant.name=集成式化工厂
+multiblocktweaker.machine.stellar_furnace.name=恒星锻炉
+multiblocktweaker.machine.suprachronal_assembly_line.name=超时空装配线
+
+multiblocktweaker.multiblock.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
+multiblocktweaker.multiblock.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
+multiblocktweaker.multiblock.virtual_cosmos_mk3.name=虚拟宇宙模拟器Mk III
+multiblocktweaker.multiblock.naquadah_reactor.name=硅岩反应堆
+multiblocktweaker.multiblock.galactic_superscale_structural_circular_particle_collide.name=星系级超大尺度型环形粒子对撞机
+multiblocktweaker.multiblock.component_assembly_line.name=超高精度部件装配线
+multiblocktweaker.multiblock.guzzler.name=化学能吞噬者
+multiblocktweaker.multiblock.fuel_refine_factory.name=通用燃料精炼厂
+multiblocktweaker.multiblock.chemical_plant.name=集成式化工厂
+multiblocktweaker.multiblock.stellar_furnace.name=恒星锻炉
+multiblocktweaker.multiblock.suprachronal_assembly_line.name=超时空装配线
+
+recipemap.virtual_cosmos_mk1.name=虚拟宇宙物质解压
+recipemap.virtual_cosmos_mk2.name=虚拟宇宙物质解压
+recipemap.virtual_cosmos_mk3.name=虚拟宇宙物质解压
+recipemap.naquadah_reactor.name=硅岩聚变
+recipemap.galactic_superscale_structural_circular_particle_collide.name=大规模超高能粒子对撞
+recipemap.component_assembly_line.name=超高精度部件组装
+recipemap.guzzler.name=化学能吞噬
+recipemap.fuel_refine_factory.name=通用燃料精炼
+recipemap.chemical_plant.name=集成化工处理
+recipemap.stellar_furnace.name=恒星热能熔炼
+recipemap.suprachronal_assembly_line.name=超时空装配

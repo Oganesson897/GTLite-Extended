@@ -1,0 +1,176 @@
+#  Personal translate by Magic_Sweepy [2023/08/21]
+
+#! Sort by first letter (A-Z) for every class
+#! Some may not be effective
+
+#  Machines
+
+gregtechfoodoption.machine.bioreactor.hv.name=进阶小型生物反应室 II
+gregtechfoodoption.machine.bioreactor.ev.name=进阶小型生物反应室 III
+gregtechfoodoption.machine.bioreactor.iv.name=精英小型生物反应室
+
+gregtechfoodoption.machine.slicer.lv.name=基础切片机
+gregtechfoodoption.machine.slicer.mv.name=进阶切片机
+gregtechfoodoption.machine.slicer.hv.name=进阶切片机 II
+gregtechfoodoption.machine.slicer.ev.name=进阶切片机 III
+gregtechfoodoption.machine.slicer.iv.name=精英切片机
+gregtechfoodoption.machine.slicer.luv.name=精英切片机 II
+gregtechfoodoption.machine.slicer.zpm.name=精英切片机 III
+gregtechfoodoption.machine.slicer.uv.name=终极切片机
+gregtechfoodoption.machine.slicer.uhv.name=高科技切片机
+gregtechfoodoption.machine.slicer.uev.name=高科技切片机 II
+gregtechfoodoption.machine.slicer.uiv.name=高科技切片机 III
+gregtechfoodoption.machine.slicer.uxv.name=高科技切片机 IV
+gregtechfoodoption.machine.slicer.opv.name=传奇切片机
+gregtechfoodoption.machine.slicer.lv.tooltip=拍拍刀
+gregtechfoodoption.machine.slicer.mv.tooltip=拍拍刀
+gregtechfoodoption.machine.slicer.hv.tooltip=拍拍刀
+gregtechfoodoption.machine.slicer.ev.tooltip=拍拍刀
+gregtechfoodoption.machine.slicer.iv.tooltip=拍拍刀
+gregtechfoodoption.machine.slicer.luv.tooltip=拍拍刀
+gregtechfoodoption.machine.slicer.zpm.tooltip=拍拍刀
+gregtechfoodoption.machine.slicer.uv.tooltip=把那些坚果拍成碎片
+gregtechfoodoption.machine.slicer.uhv.tooltip=把那些坚果拍成碎片
+gregtechfoodoption.machine.slicer.uev.tooltip=把那些坚果拍成碎片
+gregtechfoodoption.machine.slicer.uiv.tooltip=把那些坚果拍成碎片
+gregtechfoodoption.machine.slicer.uxv.tooltip=把那些坚果拍成碎片
+gregtechfoodoption.machine.slicer.opv.tooltip=把那些坚果拍成碎片
+
+gregtechfoodoption.machine.baking_oven.name=原始焙烧炉
+gregtechfoodoption.machine.steam_baking_oven.name=蒸汽焙烧炉
+gregtechfoodoption.machine.steam_baking_oven.tooltip=工作速度是普通焙烧炉的两倍，但不需要煤。
+gregtechfoodoption.machine.electric_baking_oven.name=电力焙烧炉
+gregtechfoodoption.machine.electric_baking_oven.tooltip.1=仅可运行焙烧炉配方中有温度需求的配方。
+gregtechfoodoption.machine.electric_baking_oven.tooltip.2=每tick消耗的 §aEU§7 与配方需求的温度成正比。
+gregtechfoodoption.machine.electric_baking_oven.tooltip.3=将多方块结构扩展到 §a1§7 块以运行更多的配方。
+
+recipemap.cuisine_assembler.name=烹饪组装
+gregtechfoodoption.machine.cuisine_assembler.lv.name=基础烹饪组装机
+gregtechfoodoption.machine.cuisine_assembler.mv.name=进阶烹饪组装机
+gregtechfoodoption.machine.cuisine_assembler.hv.name=进阶烹饪组装机 II
+gregtechfoodoption.machine.cuisine_assembler.ev.name=进阶烹饪组装机 III
+gregtechfoodoption.machine.cuisine_assembler.iv.name=精英烹饪组装机
+gregtechfoodoption.machine.cuisine_assembler.luv.name=精英烹饪组装机 II
+gregtechfoodoption.machine.cuisine_assembler.zpm.name=精英烹饪组装机 III
+gregtechfoodoption.machine.cuisine_assembler.uv.name=终极烹饪组装机
+gregtechfoodoption.machine.cuisine_assembler.uhv.name=高科技烹饪组装机
+gregtechfoodoption.machine.cuisine_assembler.uev.name=高科技烹饪组装机 II
+gregtechfoodoption.machine.cuisine_assembler.uiv.name=高科技烹饪组装机 III
+gregtechfoodoption.machine.cuisine_assembler.uxv.name=高科技烹饪组装机 IV
+gregtechfoodoption.machine.cuisine_assembler.opv.name=终极烹饪组装机
+gregtechfoodoption.machine.cuisine_assembler.lv.tooltip=工业级三明治制作
+gregtechfoodoption.machine.cuisine_assembler.mv.tooltip=工业级三明治制作
+gregtechfoodoption.machine.cuisine_assembler.hv.tooltip=工业级三明治制作
+gregtechfoodoption.machine.cuisine_assembler.ev.tooltip=工业级三明治制作
+gregtechfoodoption.machine.cuisine_assembler.iv.tooltip=厨师机器人 3000
+gregtechfoodoption.machine.cuisine_assembler.luv.tooltip=厨师机器人 5000
+gregtechfoodoption.machine.cuisine_assembler.zpm.tooltip=厨师机器人 7000
+gregtechfoodoption.machine.cuisine_assembler.uv.tooltip=厨师机器人 9001
+gregtechfoodoption.machine.cuisine_assembler.uhv.tooltip=强而有力地制作披萨
+gregtechfoodoption.machine.cuisine_assembler.uev.tooltip=强而有力地制作披萨
+gregtechfoodoption.machine.cuisine_assembler.uiv.tooltip=强而有力地制作披萨
+gregtechfoodoption.machine.cuisine_assembler.uxv.tooltip=强而有力地制作披萨
+gregtechfoodoption.machine.cuisine_assembler.opv.tooltip=强而有力地制作披萨
+
+recipemap.microwave.name=微波加热
+gregtechfoodoption.machine.microwave.lv.name=基础微波炉
+gregtechfoodoption.machine.microwave.mv.name=进阶微波炉
+gregtechfoodoption.machine.microwave.hv.name=进阶微波炉 II
+gregtechfoodoption.machine.microwave.ev.name=进阶微波炉 III
+gregtechfoodoption.machine.microwave.iv.name=精英微波炉
+gregtechfoodoption.machine.microwave.luv.name=精英微波炉 II
+gregtechfoodoption.machine.microwave.zpm.name=精英微波炉 III
+gregtechfoodoption.machine.microwave.uv.name=终极微波炉
+gregtechfoodoption.machine.microwave.uhv.name=高科技微波炉
+gregtechfoodoption.machine.microwave.uev.name=高科技微波炉 II
+gregtechfoodoption.machine.microwave.uiv.name=高科技微波炉 III
+gregtechfoodoption.machine.microwave.uxv.name=高科技微波炉 IV
+gregtechfoodoption.machine.microwave.opv.name=终极微波炉
+gregtechfoodoption.machine.microwave.lv.tooltip=快速将锭转化为能量
+gregtechfoodoption.machine.microwave.mv.tooltip=快速将锭转化为能量
+gregtechfoodoption.machine.microwave.hv.tooltip=快速将锭转化为能量
+gregtechfoodoption.machine.microwave.ev.tooltip=快速将锭转化为能量
+gregtechfoodoption.machine.microwave.iv.tooltip=快速将锭转化为能量
+gregtechfoodoption.machine.microwave.luv.tooltip=快速将锭转化为能量
+gregtechfoodoption.machine.microwave.zpm.tooltip=快速将锭转化为能量
+gregtechfoodoption.machine.microwave.uv.tooltip=嵌入锭以获得免费的狗狗币
+gregtechfoodoption.machine.microwave.uhv.tooltip=嵌入锭以获得免费的狗狗币
+gregtechfoodoption.machine.microwave.uev.tooltip=嵌入锭以获得免费的狗狗币
+gregtechfoodoption.machine.microwave.uiv.tooltip=嵌入锭以获得免费的狗狗币
+gregtechfoodoption.machine.microwave.uxv.tooltip=嵌入锭以获得免费的狗狗币
+gregtechfoodoption.machine.microwave.opv.tooltip=嵌入锭以获得免费的狗狗币
+
+gregtechfoodoption.machine.mob_age_sorter.lv.name=基础动物年龄筛选器
+gregtechfoodoption.machine.mob_age_sorter.mv.name=进阶动物年龄筛选器
+gregtechfoodoption.machine.mob_age_sorter.hv.name=进阶动物年龄筛选器 II
+gregtechfoodoption.machine.mob_age_sorter.ev.name=进阶动物年龄筛选器 III
+
+gregtechfoodoption.machine.mob_age_sorter.range=将以这个机器为中心的 %sx%s 面积内的动物移动过来
+
+gregtechfoodoption.machine.mob_exterminator.lv.name=基础怪物歼灭机
+gregtechfoodoption.machine.mob_exterminator.mv.name=进阶怪物歼灭机
+gregtechfoodoption.machine.mob_exterminator.hv.name=进阶怪物歼灭机 II
+gregtechfoodoption.machine.mob_exterminator.ev.name=进阶怪物歼灭机 III
+
+gregtechfoodoption.machine.mob_exterminator.tooltip=每秒对以这个机器为中心的9×9范围内“杀死”（造成40点伤害）4个怪物，每tick收集一次掉落物 %s
+gregtechfoodoption.machine.mob_exterminator.tooltip.consumption=每次击杀消耗 %s EU
+gregtechfoodoption.machine.mob_exterminator.tooltip.nitrous=加入一氧化二氮后每次运行可以杀死12个怪物
+
+gregtechfoodoption.machine.mob_extractor.lv.name=基础怪物提取器
+gregtechfoodoption.machine.mob_extractor.mv.name=进阶怪物提取器
+gregtechfoodoption.machine.mob_extractor.hv.name=进阶怪物提取器 II
+gregtechfoodoption.machine.mob_extractor.ev.name=进阶怪物提取器 III
+gregtechfoodoption.machine.mob_extractor.iv.name=精英怪物提取器
+gregtechfoodoption.machine.mob_extractor.luv.name=精英怪物提取器 II
+gregtechfoodoption.machine.mob_extractor.zpm.name=精英怪物提取器 III
+gregtechfoodoption.machine.mob_extractor.uv.name=精英怪物提取器 IV
+gregtechfoodoption.machine.mob_extractor.uhv.name=高科技怪物提取器
+gregtechfoodoption.machine.mob_extractor.uev.name=高科技怪物提取器 II
+gregtechfoodoption.machine.mob_extractor.uiv.name=高科技怪物提取器 III
+gregtechfoodoption.machine.mob_extractor.uxv.name=高科技怪物提取器 IV
+gregtechfoodoption.machine.mob_extractor.opv.name=传奇怪物提取器
+
+gregtechfoodoption.machine.mob_extractor.tooltip=怪 物 掉 落 提 取 进 入 电 动 时 代
+
+recipemap.mob_extractor.name=怪物掉落物提取
+
+gregtechfoodoption.machine.farmer.lv.name=基础农场
+gregtechfoodoption.machine.farmer.mv.name=进阶农场
+gregtechfoodoption.machine.farmer.hv.name=进阶农场 II
+gregtechfoodoption.machine.farmer.ev.name=进阶农场 III
+gregtechfoodoption.machine.farmer.tooltip.flavor=使用激光技术来种植农场
+gregtechfoodoption.machine.farmer.tooltip.consumption=运行时恒定耗能 %,d EU/t
+gregtechfoodoption.machine.farmer.tooltip.working=工作范围为 9x9
+gregtechfoodoption.machine.farmer.tooltip.speed=每 %d tick种植1个方块
+
+gregtechfoodoption.machine.greenhouse.name=温室
+recipemap.greenhouse.name=温室
+
+gregtechfoodoption.machine.multicooker.lv.name=基础烹饪机
+gregtechfoodoption.machine.multicooker.mv.name=进阶烹饪机
+gregtechfoodoption.machine.multicooker.hv.name=进阶烹饪机 II
+gregtechfoodoption.machine.multicooker.ev.name=进阶烹饪机 III
+gregtechfoodoption.machine.multicooker.iv.name=精英烹饪机
+gregtechfoodoption.machine.multicooker.luv.name=精英烹饪机 II
+gregtechfoodoption.machine.multicooker.zpm.name=精英烹饪机 III
+gregtechfoodoption.machine.multicooker.uv.name=终极烹饪机
+gregtechfoodoption.machine.multicooker.uhv.name=高科技烹饪机
+gregtechfoodoption.machine.multicooker.uev.name=高科技烹饪机 II
+gregtechfoodoption.machine.multicooker.uiv.name=高科技烹饪机 III
+gregtechfoodoption.machine.multicooker.uxv.name=高科技烹饪机 IV
+gregtechfoodoption.machine.multicooker.opv.name=终极烹饪机
+gregtechfoodoption.machine.multicooker.lv.tooltip=你现在可以用它烹饪了
+gregtechfoodoption.machine.multicooker.mv.tooltip=你现在可以用它烹饪了
+gregtechfoodoption.machine.multicooker.hv.tooltip=你现在可以用它烹饪了
+gregtechfoodoption.machine.multicooker.ev.tooltip=你现在可以用它烹饪了
+gregtechfoodoption.machine.multicooker.iv.tooltip=你现在可以用它烹饪了
+gregtechfoodoption.machine.multicooker.luv.tooltip=你现在可以用它烹饪了
+gregtechfoodoption.machine.multicooker.zpm.tooltip=你现在可以用它烹饪了
+gregtechfoodoption.machine.multicooker.uv.tooltip=烹饪机器人 9001
+gregtechfoodoption.machine.multicooker.uhv.tooltip=烹饪机器人 9001
+gregtechfoodoption.machine.multicooker.uev.tooltip=烹饪机器人 9001
+gregtechfoodoption.machine.multicooker.uiv.tooltip=烹饪机器人 9001
+gregtechfoodoption.machine.multicooker.uxv.tooltip=烹饪机器人 9001
+gregtechfoodoption.machine.multicooker.opv.tooltip=烹饪机器人 9001
+
+recipemap.multicooker.name=烹饪
