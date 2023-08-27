@@ -73,3 +73,5 @@
     - New scripts of More furnaces mod has been added;
     - Clean up Ender IO items;
     - Update some new textures, ported from some open source projects, e.g. _Zederrian Technology_ (This project is licensed under CC-BY-NC-SA 4.0, we used it by the Resource Loader mod because files cannot be modified again under this license);
+- Bug fixes
+    - Fixed some localized language text.

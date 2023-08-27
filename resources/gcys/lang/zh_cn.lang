@@ -479,8 +479,8 @@ gcys.vacuum_level.extremely_high=极高真空环境
 gcys.vacuum_level.perfect=完美真空环境
 
 # Ore Prefixes
-item.material.oreprefix.seedCrystal=%s 晶种
-item.material.oreprefix.boule=%s 人造
+item.material.oreprefix.seedCrystal=%s晶种
+item.material.oreprefix.boule=人造%s
 
 # Metaitems
 
