@@ -64,3 +64,12 @@
     - Fixed the problem of missing coke oven recipe of charcoal;
     - Fixed the problem of missing recipes of diamond ring;
     - Fixed the problem of missing fusion reactor recipes of neutronium (in GCYS, you can use orichalcum in stage UHV, in CEu, you use neutronium in stage UHV, so neutronium currently has no recipes, but we added fusion reactor recipes of neutronium).
+
+##  from 0.0.2-beta to 0.0.3-alpha
+
+&nbsp;&nbsp;&nbsp;&nbsp;The fourth preview version of GregTech Lite, update some textures for ae2 (and its related mods), gregtech and vanilla.
+
+- General Changes
+    - New scripts of More furnaces mod has been added;
+    - Clean up Ender IO items;
+    - Update some new textures, ported from some open source projects, e.g. _Zederrian Technology_ (This project is licensed under CC-BY-NC-SA 4.0, we used it by the Resource Loader mod because files cannot be modified again under this license);

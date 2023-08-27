@@ -421,6 +421,13 @@ mods.jei.JEI.removeAndHide(<enderio:block_buffer:2>);
 mods.jei.JEI.removeAndHide(<enderio:block_buffer:3>);
 mods.jei.JEI.removeAndHide(<enderio:block_stirling_generator>);
 
+mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:4>);
+mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:3>);
+
+for i in 0 to 8 {
+    mods.jei.JEI.removeAndHide(<morefurnaces:upgrade>.definition.makeStack(i));
+}
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
