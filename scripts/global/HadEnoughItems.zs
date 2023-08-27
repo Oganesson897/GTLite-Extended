@@ -388,6 +388,39 @@ mods.jei.JEI.removeAndHide(<bq_standard:loot_chest:104>.withTag({hideLootInfo: 1
 
 mods.jei.JEI.removeAndHide(<avaritiaddons:infinity_compressor>);
 
+mods.jei.JEI.removeAndHide(<appliedenergistics2:grindstone>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:crank>);
+
+for i in 0 to 10 {
+  mods.jei.JEI.removeAndHide(<enderio:item_alloy_ball>.definition.makeStack(i));
+}
+for i in 0 to 8 {
+  mods.jei.JEI.removeAndHide(<enderio:item_alloy_endergy_ball>.definition.makeStack(i));
+}
+
+mods.jei.JEI.removeAndHide(<enderio:item_material:57>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:58>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:59>);
+mods.jei.JEI.removeAndHide(<enderio:block_alloy:3>);
+mods.jei.JEI.removeAndHide(<enderio:block_alloy:7>);
+mods.jei.JEI.removeAndHide(<enderio:block_alloy:9>);
+mods.jei.JEI.removeAndHide(<enderio:item_alloy_ingot:7>);
+mods.jei.JEI.removeAndHide(<enderio:item_alloy_ingot:9>);
+mods.jei.JEI.removeAndHide(<enderio:item_alloy_nugget:9>);
+mods.jei.JEI.removeAndHide(<enderio:item_alloy_nugget:7>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_furnace>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_stirling_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_sag_mill>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_wired_charger>);
+mods.jei.JEI.removeAndHide(<enderio:block_alloy_smelter>);
+mods.jei.JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
+mods.jei.JEI.removeAndHide(<enderio:block_buffer>);
+mods.jei.JEI.removeAndHide(<enderio:block_buffer:1>);
+mods.jei.JEI.removeAndHide(<enderio:block_buffer:2>);
+mods.jei.JEI.removeAndHide(<enderio:block_buffer:3>);
+mods.jei.JEI.removeAndHide(<enderio:block_stirling_generator>);
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 

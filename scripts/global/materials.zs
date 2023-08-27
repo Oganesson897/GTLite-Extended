@@ -101,6 +101,7 @@ var vibrant_alloy = MaterialBuilder(32006, "vibrant_alloy")
     .fluid()
     .color(0xa4ff70)
     .iconSet("shiny")
+    .flags(["generate_rod", "generate_frame"])
     .components([<material:energetic_alloy> * 1,
                  <material:ender_pearl> * 1])
     .cableProperties(512, 1, 0, true)

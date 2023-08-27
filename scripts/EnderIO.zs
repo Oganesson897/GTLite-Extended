@@ -81,3 +81,47 @@ makeShaped("liquid_conduit_2", <enderio:item_liquid_conduit:1>,
         "C": <gregtech:meta_ingot:32002>,
         "L": <enderio:item_liquid_conduit>
     });
+
+recipes.remove(<enderio:block_simple_crafter>);
+makeShaped("simple_crafter", <enderio:block_simple_crafter>,
+    [
+        "FMF",
+        "SCS",
+        "FMF"
+    ],
+    {
+        "C": <minecraft:crafting_table>,
+        "S": <gregtech:meta_item_1:371>,
+        "F": <ore:frameGtBlackSteel>,
+        "M": <ore:circuitMv>
+    });
+
+recipes.remove(<enderio:block_crafter>);
+makeShaped("crafter", <enderio:block_crafter>,
+    [
+        "GOG",
+        "ACB",
+        "GFG"
+    ],
+    {
+        "C": <enderio:block_simple_crafter>,
+        "F": <gregtech:meta_item_1:203>,
+        "G": <gregtech:meta_block_frame_156:15>,
+        "A": <gregtech:meta_item_1:218>,
+        "B": <gregtech:meta_item_1:233>,
+        "O": <ore:circuitMv>
+    });
+
+recipes.remove(<enderio:block_farm_station>);
+makeShaped("farming_station", <enderio:block_farm_station>,
+    [
+        "MTM",
+        "FCF",
+        "MTM"
+    ],
+    {
+        "C": <gregtech:machine:987>,
+        "F": <ore:frameGtVibrantAlloy>,
+        "M": <ore:circuitMv>,
+        "T": <gregtech:meta_item_1:439>
+    });
