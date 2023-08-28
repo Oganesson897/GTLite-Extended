@@ -12995,7 +12995,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13019,7 +13019,20 @@
         }
       },
       "questID:3": 190,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 3103,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13367,7 +13380,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14251,7 +14264,26 @@
         }
       },
       "questID:3": 208,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "titanium_tetrachloride"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -15987,7 +16019,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16123,7 +16155,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -16175,7 +16207,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19354,7 +19386,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19379,7 +19411,25 @@
       },
       "questID:3": 285,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 191,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "286:10": {
       "preRequisites:11": [
@@ -19637,7 +19687,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20785,7 +20835,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9流体校准器§r可以用作§d覆盖板§r，提供限制流量的作用。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24264,7 +24314,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24288,7 +24338,20 @@
         }
       },
       "questID:3": 368,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 3105,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24368,7 +24431,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24420,7 +24483,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24763,7 +24826,20 @@
         }
       },
       "questID:3": 377,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 18,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29060,7 +29136,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29112,7 +29188,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29148,7 +29224,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 237,
+              "Damage:2": 192,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
             }
@@ -29216,7 +29292,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29240,7 +29316,20 @@
         }
       },
       "questID:3": 451,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2520,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29268,7 +29357,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9流体校准器§r可以用作§d覆盖板§r，提供限制流量的作用。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -29292,7 +29381,20 @@
         }
       },
       "questID:3": 452,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2520,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31184,7 +31286,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31208,7 +31310,20 @@
         }
       },
       "questID:3": 487,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 344,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31288,7 +31403,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31340,7 +31455,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31392,7 +31507,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9流体校准器§r可以用作§d覆盖板§r，提供限制流量的作用。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31416,7 +31531,20 @@
         }
       },
       "questID:3": 491,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 344,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -33640,7 +33768,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33664,7 +33792,20 @@
         }
       },
       "questID:3": 532,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2042,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -33692,7 +33833,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33744,7 +33885,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33796,7 +33937,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的最后一个流体校准器。\n\n§e注意：§r§9流体校准器§r可以用作§d覆盖板§r，提供限制流量的作用。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33820,7 +33961,20 @@
         }
       },
       "questID:3": 535,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2042,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -39608,7 +39762,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39816,7 +39970,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39868,7 +40022,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -41851,7 +42005,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -41903,7 +42057,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -42007,7 +42161,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44129,7 +44283,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9传送带§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44181,7 +44335,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9机械臂§r可以用作§d覆盖板§r，提供机器的外界物品交互与物流功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44389,7 +44543,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e注意：§r§9电动泵§r可以用作§d覆盖板§r，提供机器与外界的流体交互与路由功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44887,7 +45041,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§e能量§r了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44911,7 +45065,20 @@
         }
       },
       "questID:3": 759,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_hoe"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -44939,7 +45106,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§9知识§r了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -44963,7 +45130,20 @@
         }
       },
       "questID:3": 760,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_bow"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -44991,7 +45171,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§c力量§r了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45015,7 +45195,20 @@
         }
       },
       "questID:3": 761,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_sword"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45043,7 +45236,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§b流质§r了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45067,7 +45260,28 @@
         }
       },
       "questID:3": 762,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_pickaxe",
+              "tag:10": {
+                "ench:9": {
+                  "0:10": {
+                    "id:2": 35,
+                    "lvl:2": 10
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45098,7 +45312,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§d你赢了\n\n\n恭喜你通关了§aGTLite§r§r§d，这个整合包的旅程到此结束。",
+          "desc:8": "§d你赢了。\n\n\n恭喜你通关了§aGTLite§r§r§d，这个整合包的旅程到此结束。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45122,7 +45336,38 @@
         }
       },
       "questID:3": 763,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_helmet"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_chestplate"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_pants"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "avaritia:infinity_boots"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45789,7 +46034,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用于将其他§e能量§r转换为§3应用能源§r使用的能量。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45893,7 +46138,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "将§9赛特斯石英§r放入§d充能器§r后可以获得§b充能赛特斯石英§r。\n\n§e注意：§r无论是§2格雷科技§r的赛特斯石英还是§3应用能源§r的都可以。",
+          "desc:8": "将§9赛特斯石英§r放入§d充能器§r后可以获得§b充能赛特斯石英水晶§r。\n\n§e注意：§r无论是§2格雷科技§r的赛特斯石英还是§3应用能源§r的都可以。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45905,7 +46150,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "充能赛特斯石英",
+          "name:8": "充能赛特斯石英水晶",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45945,7 +46190,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用来制作§b充能赛特斯石英水晶§r，这是§3应用能源§r所使用的基本材料之一。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -45997,7 +46242,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的网络的核心，它也具有§e能源接收器§r的功能。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -46801,7 +47046,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "可以放入许多存储组件，比§5ME箱子§r要大许多。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -46905,7 +47150,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "一个小型的网络存储设备，§4只可以§r放入一个存储组件。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
