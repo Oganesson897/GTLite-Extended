@@ -3153,3 +3153,101 @@ val suprachronal_assembly_line = Builder.start("suprachronal_assembly_line")
     )
     .withBaseTexture(<blockstate:contenttweaker:suprachronal_assembler_casing>)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var industrial_chemical_reactor = Builder.start("industrial_chemical_reactor")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "CCCCC",
+                "CGGGC",
+                "CGCGC",
+                "CGGGC",
+                "CCCCC")
+            .aisle(
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
+            .aisle(
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
+            .aisle(
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
+            .aisle(
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
+            .aisle(
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
+            .aisle(
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
+            .aisle(
+                "CCCCC",
+                "CGGGC",
+                "CGOGC",
+                "CGGGC",
+                "CCCCC")
+            .where("O", controller.self())
+            .where("A", <metastate:gcys:multiblock_casing:1>)
+            .where("B", <metastate:gregtech:boiler_casing:4>)
+            .where("G", <blockstate:gcys:transparent_casing>)
+            .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:9>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(5)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(5)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1))
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("industrial_chemical_reactor")
+            .minInputs(1)
+            .maxInputs(3)
+            .minOutputs(1)
+            .maxOutputs(3)
+            .minFluidInputs(1)
+            .maxFluidInputs(5)
+            .minFluidOutputs(1)
+            .minFluidOutputs(5)
+            .build()
+    )
+    .withBaseTexture(<metastate:gregtech:metal_casing:9>)
+    .buildAndRegister();

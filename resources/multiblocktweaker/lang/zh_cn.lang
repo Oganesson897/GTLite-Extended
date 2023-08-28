@@ -9,6 +9,7 @@ multiblocktweaker.machine.fuel_refine_factory.name=燃料精炼厂
 multiblocktweaker.machine.chemical_plant.name=集成式化工厂
 multiblocktweaker.machine.stellar_furnace.name=恒星锻炉
 multiblocktweaker.machine.suprachronal_assembly_line.name=超时空装配线
+multiblocktweaker.machine.industrial_chemical_reactor.name=次世代化学反应釜
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
@@ -21,6 +22,7 @@ multiblocktweaker.multiblock.fuel_refine_factory.name=通用燃料精炼厂
 multiblocktweaker.multiblock.chemical_plant.name=集成式化工厂
 multiblocktweaker.multiblock.stellar_furnace.name=恒星锻炉
 multiblocktweaker.multiblock.suprachronal_assembly_line.name=超时空装配线
+multiblocktweaker.multiblock.industrial_chemical_reactor.name=次世代化学反应釜
 
 recipemap.virtual_cosmos_mk1.name=虚拟宇宙物质解压
 recipemap.virtual_cosmos_mk2.name=虚拟宇宙物质解压
@@ -33,3 +35,4 @@ recipemap.fuel_refine_factory.name=通用燃料精炼
 recipemap.chemical_plant.name=集成化工处理
 recipemap.stellar_furnace.name=恒星热能熔炼
 recipemap.suprachronal_assembly_line.name=超时空装配
+recipemap.industrial_chemical_reactor.name=大型化工合成
