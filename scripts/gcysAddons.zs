@@ -148,14 +148,6 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 #  Quark gluon plasma
-stellar_furnace.recipeBuilder()
-    .inputs([<contenttweaker:qcd_charge>,
-             <ore:plateNeutronium>])
-    .fluidOutputs([<liquid:quark_gluon_plasma> * 1000])
-    .EUt(33554432)
-    .duration(32768)
-    .buildAndRegister();
-
 centrifuge.recipeBuilder()
     .notConsumable([<contenttweaker:separation_electromagnet>])
     .fluidInputs([<liquid:quark_gluon_plasma> * 1000])
@@ -229,35 +221,11 @@ large_chemical_reactor.recipeBuilder()
     .buildAndRegister();
 
 #  Lepton mixture
-stellar_furnace.recipeBuilder()
-    .inputs([<contenttweaker:qcd_charge>,
-             <ore:plateOrichalcum>])
-    .fluidOutputs([<liquid:lepton_mixture> * 1000])
-    .EUt(33554432)
-    .duration(32768)
-    .buildAndRegister();
-
 centrifuge.recipeBuilder()
     .notConsumable([<contenttweaker:separation_electromagnet>])
     .fluidInputs([<liquid:lepton_mixture> * 1000])
     .fluidOutputs([<liquid:heavy_lepton_mixture> * 900,
                    <liquid:instanton> * 100])
-    .EUt(1200000)
-    .duration(200)
-    .buildAndRegister();
-
-#  Tachyon
-stellar_furnace.recipeBuilder()
-    .inputs([<contenttweaker:qcd_charge>,
-             <ore:plateVibranium>])
-    .fluidOutputs([<liquid:sublight_plasma_jet> * 1000])
-    .EUt(33554432)
-    .duration(32768)
-    .buildAndRegister();
-
-stellar_furnace.recipeBuilder()
-    .fluidInputs([<liquid:sublight_plasma_jet> * 1000])
-    .fluidOutputs([<liquid:tachyon> * 10])
     .EUt(1200000)
     .duration(200)
     .buildAndRegister();
