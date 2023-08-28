@@ -956,6 +956,8 @@ gregtech.material.zylon=柴隆纤维
 gregtech.material.prezylon=预处理柴隆纤维
 gregtech.material.dinitrodipropanyloxybenzene=二硝基二丙氧基苯
 gregtech.material.terephthalaldehyde=对苯二甲醛
+gregtech.material.aupdc_catalyst=金-钯-碳联合催化剂
+gregtech.material.benzal_bromide=二溴甲苯
 
 gregtech.material.hdcs=高强度复合钢
 gregtech.material.magneto_resonatic=共振紫晶

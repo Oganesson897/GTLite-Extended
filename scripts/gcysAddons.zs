@@ -282,3 +282,72 @@ circuit_assembler.recipeBuilder()
     .EUt(33554432)
     .duration(400)
     .buildAndRegister();
+
+#  Cosmic computer
+
+#  Cosmic mainframe
+
+#  Zylon pulp
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustPrezylon>])
+    .outputs([<gregtech:meta_dust:32110>])
+    .fluidOutputs([<liquid:propane> * 2000])
+    .EUt(1920000)
+    .duration(16000)
+    .buildAndRegister();
+
+#  Pre Zylon pulp
+chemical_reactor.recipeBuilder()
+    .notConsumable([<ore:dustAupdcCatalyst>])
+    .inputs([<ore:dustTerephthalaldehyde> * 16])
+    .fluidInputs([<liquid:dinitrodipropanyloxybenzene> * 1000])
+    .outputs([<gregtech:meta_dust:32111>])
+    .fluidOutputs([<liquid:oxygen> * 6000])
+    .EUt(1966080)
+    .duration(50)
+    .buildAndRegister();
+
+#  Au-Pd-C Catalyst
+mixer.recipeBuilder()
+    .inputs([<ore:dustGold>,
+             <ore:dustPalladium>,
+             <ore:dustCarbon>])
+    .outputs([<gregtech:meta_dust:32114>])
+    .EUt(8388608)
+    .duration(360)
+    .buildAndRegister();
+
+#  C7H6Br2 + H2SO4 = C8H6O2 + C2H4Br2
+chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:benzal_bromide> * 1000,
+                  <liquid:sulfuric_acid> * 1000])
+    .outputs([<gregtech:meta_dust:32113>])
+    .fluidOutputs([<liquid:ethylene_dibromide> * 1000])
+    .EUt(524288)
+    .duration(3600)
+    .buildAndRegister();
+
+#  C7H8 + Br = C7H6Br2
+chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:toluene> * 1000,
+                  <liquid:bromine> * 2000])
+    .fluidOutputs([<liquid:benzal_bromide> * 1000])
+    .EUt(8192)
+    .duration(180)
+    .buildAndRegister();
+
+#  Dinitrodipropanyloxybenzene
+large_chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustMagnesia>])
+    .fluidInputs([<liquid:resorcinol> * 1000,
+                  <liquid:epichlorohydrin> * 1000,
+                  <liquid:acetic_anhydride> * 1000,
+                  <liquid:nitric_acid> * 2000,
+                  <liquid:propene> * 1000])
+    .outputs([<gregtech:meta_dust:357>])
+    .fluidOutputs([<liquid:dinitrodipropanyloxybenzene> * 1000,
+                   <liquid:acetic_acid> * 2000,
+                   <liquid:water> * 1000])
+    .EUt(7680)
+    .duration(50)
+    .buildAndRegister();

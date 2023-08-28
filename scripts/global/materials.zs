@@ -516,3 +516,21 @@ var terephthalaldehyde = MaterialBuilder(32113, "terephthalaldehyde")
     .build();
 
 <material:terephthalaldehyde>.setFormula("C8H6O2", true);
+
+#  32114 Au-Pd-C Catalyst : AuPdC
+var aupdc_catalyst = MaterialBuilder(32114, "aupdc_catalyst")
+    .dust()
+    .color(0xB7B305)
+    .iconSet("shiny")
+    .components([<material:gold> * 1,
+                 <material:palladium> * 1,
+                 <material:carbon> * 1])
+    .build();
+
+#  32115 Benzal bromide : C7H6Br2
+var benzal_bromide = MaterialBuilder(32115, "benzal_bromide")
+    .fluid()
+    .color(0x9F4839)
+    .build();
+
+<material:benzal_bromide>.setFormula("C7H6Br2", true);
