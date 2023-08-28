@@ -742,6 +742,38 @@ makeShaped("uev_alloy_smelter", <gregtech:machine:89>,
     });
 
 #  UIV Machines
+makeShaped("uiv_machine_casing", <gregtech:machine_casing:11>,
+    [
+        "PPP",
+        "PWP",
+        "PPP"
+    ],
+    {
+        "P": <ore:plateAurorium>,
+        "W": <ore:craftingToolWrench>
+    });
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateAurorium> * 8])
+    .circuit(8)
+    .outputs([<gregtech:machine_casing:11>])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+    
+makeShaped("uiv_machine_hull", <gregtech:machine:996>,
+    [
+        "   ",
+        "KPK",
+        "WCW"
+    ],
+    {
+        "K": <ore:plateKevlar>,
+        "P": <ore:plateAurorium>,
+        "C": <gregtech:machine_casing:11>,
+        "W": <ore:cableGtSingleRutheniumTriniumAmericiumNeutronate>
+    });
+
 makeShaped("uiv_electric_furnace", <gregtech:machine:60>,
     [
         "OQO",

@@ -219,7 +219,8 @@ var aurorium = MaterialBuilder(32016, "aurorium")
     .fluid()
     .color(0xDFBCDE)
     .iconSet("shiny")
-    .flags(["generate_rod",
+    .flags(["generate_plate",
+            "generate_rod",
             "generate_frame",
             "generate_long_rod",
             "generate_round",
