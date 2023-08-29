@@ -82,6 +82,7 @@ tile.contenttweaker.naquadria_neutron_reflection_casing.name=超能硅岩中子�
 tile.contenttweaker.extremely_dense_carbon_nanotube_casing.name=超致密碳纳米管机械方块
 tile.contenttweaker.stellar_containment_casing.name=恒星热力容器
 tile.contenttweaker.suprachronal_assembler_casing.name=超时空装配控制外壳
+tile.contenttweaker.vibrant_alloy_casing.name=脉冲合金机械方块
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

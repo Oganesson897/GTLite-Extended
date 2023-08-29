@@ -190,6 +190,9 @@ var stellar_containment_casing = VanillaFactory.createBlock("stellar_containment
 var suprachronal_assembler_casing = VanillaFactory.createBlock("suprachronal_assembler_casing", <blockmaterial:iron>);
     suprachronal_assembler_casing.register();
 
+var vibrant_alloy_casing = VanillaFactory.createBlock("vibrant_alloy_casing", <blockmaterial:iron>);
+    vibrant_alloy_casing.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;

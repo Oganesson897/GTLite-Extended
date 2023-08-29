@@ -3542,3 +3542,72 @@ var industrial_flotator = Builder.start("industrial_flotator")
     )
     .withBaseTexture(<metastate:gregtech:metal_casing:4>)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var tree_factory = Builder.start("tree_factory")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "CCC",
+                "CCC",
+                "CCC")
+            .aisle(
+                "CCC",
+                "CCC",
+                "CCC")
+            .aisle(
+                "CCC",
+                "COC", 
+                "CCC")
+            .where("O", controller.self())
+            .where("C", CTPredicate.states(<blockstate:contenttweaker:vibrant_alloy_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("tree_factory")
+            .minInputs(1)
+            .maxInputs(1)
+            .minOutputs(1)
+            .maxOutputs(3)
+            .minFluidInputs(1)
+            .maxFluidInputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:vibrant_alloy_casing>)
+    .buildAndRegister();
+
+makeShaped("tree_factory", <gregtech:machine:32014>,
+    [
+        "FDF",
+        "ACB",
+        "FGF"
+    ],
+    {
+        "A": <gregtech:meta_item_1:218>,
+        "B": <gregtech:meta_item_1:233>,
+        "C": <gregtech:machine:987>,
+        "D": <gregtech:meta_item_1:439>,
+        "F": <ore:frameGtVibrantAlloy>,
+        "G": <ore:springCupronickel>
+    });
