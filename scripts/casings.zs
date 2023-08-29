@@ -93,6 +93,32 @@ makeShaped("particle_collider_casing", <contenttweaker:particle_collider_casing>
         "W": <ore:craftingToolWrench>
     });
 
+makeShaped("vibrant_alloy_casing", <contenttweaker:vibrant_alloy_casing> * 2,
+    [
+        "PHP",
+        "PFP",
+        "PWP"
+    ],
+    {
+        "F": <ore:frameGtAluminium>,
+        "H": <ore:craftingToolHardHammer>,
+        "P": <ore:plateVibrantAlloy>,
+        "W": <ore:craftingToolWrench>
+    });
+
+makeShaped("hss_s_casing", <contenttweaker:hss_s_casing> * 2,
+    [
+        "PHP",
+        "PFP",
+        "PWP"
+    ],
+    {
+        "F": <ore:frameGtIridium>,
+        "H": <ore:craftingToolHardHammer>,
+        "P": <ore:plateHsss>,
+        "W": <ore:craftingToolWrench>
+    });
+
 assembler.recipeBuilder()
     .inputs([<ore:plateBlueSteel> * 6,
              <ore:frameGtBlackSteel>])
@@ -177,4 +203,22 @@ assembly_line.recipeBuilder()
     .outputs([<contenttweaker:stellar_containment_casing>])
     .EUt(33554432)
     .duration(131072)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateVibrantAlloy> * 6,
+             <ore:frameGtAluminium>])
+    .circuit(6)
+    .outputs([<contenttweaker:vibrant_alloy_casing> * 2])      
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateHsss> * 6,
+             <ore:frameGtIridium>])
+    .circuit(6)
+    .outputs([<contenttweaker:hss_s_casing> * 2])      
+    .EUt(16)
+    .duration(50)
     .buildAndRegister();

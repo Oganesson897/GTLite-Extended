@@ -13,6 +13,7 @@ multiblocktweaker.machine.industrial_chemical_reactor.name=次世代化学反应
 multiblocktweaker.machine.isa_mill.name=工业湿法碾磨机
 multiblocktweaker.machine.industrial_flotator.name=工业浮选机
 multiblocktweaker.machine.tree_factory.name=林海树场
+multiblocktweaker.machine.pcb_factory.name=PCB工厂
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
@@ -29,6 +30,7 @@ multiblocktweaker.multiblock.industrial_chemical_reactor.name=次世代化学反
 multiblocktweaker.multiblock.isa_mill.name=工业湿法碾磨机
 multiblocktweaker.multiblock.industrial_flotator.name=工业浮选机
 multiblocktweaker.multiblock.tree_factory.name=林海树场
+multiblocktweaker.multiblock.pcb_factory.name=PCB工厂
 
 recipemap.virtual_cosmos_mk1.name=虚拟宇宙物质解压
 recipemap.virtual_cosmos_mk2.name=虚拟宇宙物质解压
@@ -45,3 +47,4 @@ recipemap.industrial_chemical_reactor.name=大型化工合成
 recipemap.isa_mill.name=湿法碾磨解离
 recipemap.industrial_flotator.name=浮游选矿
 recipemap.tree_factory.name=树木生长
+recipemap.pcb_factory.name=电路板组装

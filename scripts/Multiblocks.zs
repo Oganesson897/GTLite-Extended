@@ -3611,3 +3611,155 @@ makeShaped("tree_factory", <gregtech:machine:32014>,
         "F": <ore:frameGtVibrantAlloy>,
         "G": <ore:springCupronickel>
     });
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var pcb_factory = Builder.start("pcb_factory")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "CCCCCCCCCC",
+                "FCCCCCCCCF",
+                "FCCCCCCCCF",
+                "FCCCCCCCCF",
+                "CCCCCCCCCC")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  EE  G ",
+                " G  HH  G ",
+                " G  MM  G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCO",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  EE  G ",
+                " G  HH  G ",
+                " G  MM  G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  EE  G ",
+                " G  HH  G ",
+                " G  MM  G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "DCCBCCBCCD",
+                " G  MM  G ",
+                " G      G ",
+                " G      G ",
+                "DCCCCCCCCD")
+            .aisle(
+                "CCCCCCCCCC", "FCCCCCCCCF", "FCCCCCCCCF", "FCCCCCCCCF", "CCCCCCCCCC")
+            .where("O", controller.self())
+            .where("B", <metastate:gcym:unique_casing:3>)
+            .where("C", <blockstate:contenttweaker:hss_s_casing>)
+            .where("E", <metastate:gregtech:multiblock_casing:3>)
+            .where("F", <metastate:gregtech:meta_block_frame_157:8>)
+            .where("G", <metastate:gregtech:transparent_casing:1>)
+            .where("H", <metastate:gregtech:multiblock_casing:4>)
+            .where("M", <metastate:gregtech:multiblock_casing:2>)
+            .where("D", CTPredicate.states(<blockstate:contenttweaker:hss_s_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+            )
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("pcb_factory")
+            .minInputs(1)
+            .maxInputs(9)
+            .minOutputs(1)
+            .maxOutputs(1)
+            .minFluidInputs(1)
+            .maxFluidInputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:hss_s_casing>)
+    .buildAndRegister();
