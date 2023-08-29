@@ -3351,6 +3351,23 @@ var isa_mill = Builder.start("isa_mill")
     .withBaseTexture(<blockstate:gcym:large_multiblock_casing>)
     .buildAndRegister();
 
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:2000> * 4,
+             <contenttweaker:control_circuit_uv> * 4,
+             <gcym:unique_casing> * 16,
+             <gregtech:meta_item_1:163> * 4,
+             <gregtech:meta_item_1:177> * 8,
+             <gregtech:meta_item_1:132> * 8,
+             <ore:gearTungstenSteel> * 16,
+             <ore:wireFineYttriumBariumCuprate> * 64])
+    .fluidInputs([<liquid:lubricant> * 4096,
+                  <liquid:polyetheretherketone> * 2048,
+                  <liquid:polybenzimidazole> * 1024])
+    .outputs([<gregtech:machine:32012>])
+    .EUt(32768)
+    .duration(36000)
+    .buildAndRegister();
+
 // --------------------------------------------------------------------------------------------------------------------------------
 var industrial_flotator = Builder.start("industrial_flotator")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {
@@ -3543,6 +3560,24 @@ var industrial_flotator = Builder.start("industrial_flotator")
     .withBaseTexture(<metastate:gregtech:metal_casing:4>)
     .buildAndRegister();
 
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:2008> * 2,
+             <gregtech:machine:2020> * 2,
+             <contenttweaker:control_circuit_zpm> * 2,
+             <contenttweaker:control_circuit_luv> * 2,
+             <gregtech:meta_item_1:223> * 4,
+             <gregtech:meta_item_1:162> * 8,
+             <gregtech:meta_item_1:147> * 8,
+             <ore:springYttriumBariumCuprate> * 16,
+             <ore:wireFineNiobiumTitanium> * 64])
+    .fluidInputs([<liquid:lubricant> * 4096,
+                  <liquid:polyetheretherketone> * 2048,
+                  <liquid:polybenzimidazole> * 1024])
+    .outputs([<gregtech:machine:32013>])
+    .EUt(32768)
+    .duration(36000)
+    .buildAndRegister();
+
 // --------------------------------------------------------------------------------------------------------------------------------
 var tree_factory = Builder.start("tree_factory")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {
@@ -3713,7 +3748,11 @@ var pcb_factory = Builder.start("pcb_factory")
                 " G      G ",
                 "DCCCCCCCCD")
             .aisle(
-                "CCCCCCCCCC", "FCCCCCCCCF", "FCCCCCCCCF", "FCCCCCCCCF", "CCCCCCCCCC")
+                "CCCCCCCCCC",
+                "FCCCCCCCCF",
+                "FCCCCCCCCF",
+                "FCCCCCCCCF",
+                "CCCCCCCCCC")
             .where("O", controller.self())
             .where("B", <metastate:gcym:unique_casing:3>)
             .where("C", <blockstate:contenttweaker:hss_s_casing>)
@@ -3762,4 +3801,23 @@ var pcb_factory = Builder.start("pcb_factory")
             .build()
     )
     .withBaseTexture(<blockstate:contenttweaker:hss_s_casing>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:992>,
+             <gregtech:meta_item_1:193> * 4,
+             <contenttweaker:control_circuit_zpm> * 4,
+             <gregtech:meta_item_1:262> * 4,
+             <ore:cableGtQuadrupleVanadiumGallium> * 4,
+             <ore:gearHsss> * 4,
+             <ore:plateDoubleNiobiumTitanium> * 4,
+             <ore:plateTrinium> * 2,
+             <ore:foilHssg> * 16,
+             <ore:boltHsse> * 32])
+    .fluidInputs([<liquid:glue> * 14400,
+                  <liquid:lubricant> * 14400,
+                  <liquid:naquadah_enriched> * 288])
+    .outputs([<gregtech:machine:32015>])
+    .EUt(130000)
+    .duration(80000)
     .buildAndRegister();

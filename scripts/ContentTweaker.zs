@@ -15,6 +15,22 @@ var dust_block = VanillaFactory.createBlock("dust_block", <blockmaterial:sand>);
     dust_block.gravity = true;
     dust_block.register();
 
+#  Circuits
+var control_circuit_luv = VanillaFactory.createItem("control_circuit_luv");
+    control_circuit_luv.maxStackSize = 64;
+    control_circuit_luv.creativeTab = <creativetab:gregtech.main>;
+    control_circuit_luv.register();
+
+var control_circuit_zpm = VanillaFactory.createItem("control_circuit_zpm");
+    control_circuit_zpm.maxStackSize = 64;
+    control_circuit_zpm.creativeTab = <creativetab:gregtech.main>;
+    control_circuit_zpm.register();
+
+var control_circuit_uv = VanillaFactory.createItem("control_circuit_uv");
+    control_circuit_uv.maxStackSize = 64;
+    control_circuit_uv.creativeTab = <creativetab:gregtech.main>;
+    control_circuit_uv.register();
+
 #  Circuit components
 var untreated_flexible_pezoelectric_cpu = VanillaFactory.createItem("untreated_flexible_pezoelectric_cpu");
     untreated_flexible_pezoelectric_cpu.maxStackSize = 64;

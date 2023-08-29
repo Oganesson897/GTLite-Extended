@@ -7,6 +7,11 @@
 #  Common blocks
 tile.contenttweaker.dust_block.name=尘土块
 
+#  Circuits
+item.contenttweaker.control_circuit_luv.name=并行控制电路
+item.contenttweaker.control_circuit_zpm.name=能量流控制电路
+item.contenttweaker.control_circuit_uv.name=超高精度控制电路
+
 #  Circuit Components
 item.contenttweaker.untreated_flexible_pezoelectric_cpu.name=未处理的FPCPU晶圆
 item.contenttweaker.flexible_piezoelectric_cpu.name=FPCPU晶圆

@@ -351,3 +351,39 @@ large_chemical_reactor.recipeBuilder()
     .EUt(7680)
     .duration(50)
     .buildAndRegister();
+
+#  Control Circuit LuV
+assembly_line.recipeBuilder()
+    .inputs([<ore:circuitLuv>,
+             <gregtech:meta_item_1:206> * 4,
+             <gregtech:meta_item_1:236> * 4,
+             <ore:wireFineRuridit> * 16])
+    .fluidInputs([<liquid:polybenzimidazole> * 576])
+    .outputs([<contenttweaker:control_circuit_luv> * 2])
+    .EUt(8000)
+    .duration(3600)
+    .buildAndRegister();
+
+#  Control Circuit ZPM
+assembly_line.recipeBuilder()
+    .inputs([<ore:circuitZpm>,
+             <gregtech:meta_item_1:207> * 4,
+             <gregtech:meta_item_1:237> * 4,
+             <ore:wireFineOsmiridium> * 16])
+    .fluidInputs([<liquid:polyetheretherketone> * 576])
+    .outputs([<contenttweaker:control_circuit_zpm> * 2])
+    .EUt(30000)
+    .duration(3600)
+    .buildAndRegister();
+
+#  Control Circuit UV
+assembly_line.recipeBuilder()
+    .inputs([<ore:circuitUv>,
+             <gregtech:meta_item_1:208> * 4,
+             <gregtech:meta_item_1:238> * 4,
+             <ore:wireFineYttriumBariumCuprate> * 16])
+    .fluidInputs([<liquid:kapton_e> * 576])
+    .outputs([<contenttweaker:control_circuit_uv> * 2])
+    .EUt(500000)
+    .duration(3600)
+    .buildAndRegister();
