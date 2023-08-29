@@ -3754,7 +3754,7 @@ var pcb_factory = Builder.start("pcb_factory")
     .withRecipeMap(
         FactoryRecipeMap.start("pcb_factory")
             .minInputs(1)
-            .maxInputs(9)
+            .maxInputs(6)
             .minOutputs(1)
             .maxOutputs(1)
             .minFluidInputs(1)
