@@ -3337,6 +3337,7 @@ var isa_mill = Builder.start("isa_mill")
                                    .setMinGlobalLimited(1)
                                    .setMaxGlobalLimited(3)
                                    .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
             .build();
         } as IPatternBuilderFunction)
     .withRecipeMap(
@@ -3348,4 +3349,196 @@ var isa_mill = Builder.start("isa_mill")
             .build()
     )
     .withBaseTexture(<blockstate:gcym:large_multiblock_casing>)
+    .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var industrial_flotator = Builder.start("industrial_flotator")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "CCCCCCC",
+                "CMBBBMC",
+                "CMGGGMC",
+                "CMBBBMC",
+                "CMGGGMC",
+                "CMBBBMC",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "CMBBBMC",
+                "CMFTFMC",
+                "CMBSBMC",
+                "CMFTFMC",
+                "CMBBBMC",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "CMBBBMC",
+                "CMFTFMC",
+                "CMBSBMC",
+                "CMFTFMC",
+                "CMBBBMC",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "CMBBBMC",
+                "CMFTFMC",
+                "CMBSBMC",
+                "CMFTFMC",
+                "CMBBBMC",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "B     B",
+                "G     G",
+                "B  S  B",
+                "G     G",
+                "B     B",
+                "DDDDDDD")
+            .aisle(
+                "CCCCCCC",
+                "CMBBBMC",
+                "CMGGGMC",
+                "CMBOBMC",
+                "CMGGGMC",
+                "CMBBBMC",
+                "DDDDDDD")
+            .where("O", controller.self())
+            .where("B", <metastate:gregtech:boiler_casing:1>)
+            .where("C", <metastate:gregtech:metal_casing:4>)
+            .where("F", <metastate:gregtech:boiler_firebox_casing:1>)
+            .where("G", <blockstate:gcys:transparent_casing>)
+            .where("M", <metastate:gregtech:multiblock_casing:2>)
+            .where("S", <metastate:gcys:multiblock_casing:1>)
+            .where("T", <metastate:gregtech:turbine_casing:1>)
+            .where("D", CTPredicate.states(<metastate:gregtech:metal_casing:4>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(6)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+            )
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("industrial_flotator")
+            .minInputs(1)
+            .maxInputs(3)
+            .minOutputs(1)
+            .maxOutputs(6)
+            .minFluidInputs(1)
+            .maxFluidInputs(1)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(1)
+            .build()
+    )
+    .withBaseTexture(<metastate:gregtech:metal_casing:4>)
     .buildAndRegister();
