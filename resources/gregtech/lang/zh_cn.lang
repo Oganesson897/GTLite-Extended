@@ -909,7 +909,7 @@ gregtech.material.medium_hyper_fuel=超能燃料
 gregtech.material.heavy_hyper_fuel=重超能燃料
 
 #  Modpack additions
-item.material.oreprefix.gemPerfect=完美%s
+item.material.oreprefix.milled=碾磨%s粉
 
 gregtech.material.pulsating_iron=脉冲铁
 gregtech.material.conductive_iron=导电铁

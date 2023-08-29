@@ -3251,3 +3251,101 @@ var industrial_chemical_reactor = Builder.start("industrial_chemical_reactor")
     )
     .withBaseTexture(<metastate:gregtech:metal_casing:9>)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var isa_mill = Builder.start("isa_mill")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "  FFF  ",
+                "  MGM  ",
+                "  TTT  ",
+                "  TTT  ",
+                "  TTT  ",
+                "  MGM  ",
+                "  FFF  ")
+            .aisle(
+                " CUUUC ",
+                " B   B ",
+                " B   B ",
+                " B   B ",
+                " B   B ",
+                " B   B ",
+                " CVVVC ")
+            .aisle(
+                "FUUUUUF",
+                "M     M",
+                "T     T",
+                "T     T",
+                "T     T",
+                "M     M",
+                "FVVVVVF")
+            .aisle(
+                "FUUUUUF",
+                "G     G",
+                "T     T",
+                "T     T",
+                "T     T",
+                "G     G",
+                "FVVVVVF")
+            .aisle(
+                "FUUUUUF",
+                "M     M",
+                "T     T",
+                "T     T",
+                "T     T",
+                "M     M",
+                "FVVVVVF")
+            .aisle(
+                " CUUUC ",
+                " B   B ",
+                " B   B ",
+                " B   B ",
+                " B   B ",
+                " B   B ",
+                " CVVVC ")
+            .aisle(
+                "  FFF  ",
+                "  MOM  ",
+                "  TTT  ",
+                "  TTT  ",
+                "  TTT  ",
+                "  MGM  ",
+                "  FFF  ")
+            .where("O", controller.self())
+            .where("B", <metastate:gregtech:boiler_casing:3>)
+            .where("C", <blockstate:gcym:large_multiblock_casing>)
+            .where("F", <metastate:gregtech:boiler_firebox_casing:3>)
+            .where("G", <metastate:gregtech:turbine_casing:4>)
+            .where("M", <metastate:gregtech:multiblock_casing:1>)
+            .where("T", <blockstate:gcys:transparent_casing>)
+            .where("U", <blockstate:gcym:unique_casing>)
+            .where("V", CTPredicate.states(<blockstate:gcym:large_multiblock_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1))
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("isa_mill")
+            .minInputs(1)
+            .maxInputs(3)
+            .minOutputs(1)
+            .maxOutputs(3)
+            .build()
+    )
+    .withBaseTexture(<blockstate:gcym:large_multiblock_casing>)
+    .buildAndRegister();

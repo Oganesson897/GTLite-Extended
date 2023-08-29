@@ -14,3 +14,4 @@ global chemical_plant                                           as RecipeMap = R
 global stellar_furnace                                          as RecipeMap = RecipeMap.getByName("stellar_furnace");
 global suprachronal_assembly_line                               as RecipeMap = RecipeMap.getByName("suprachronal_assembly_line");
 global industrial_chemical_reactor                              as RecipeMap = RecipeMap.getByName("industrial_chemical_reactor");
+global isa_mill                                                 as RecipeMap = RecipeMap.getByName("isa_mill");
