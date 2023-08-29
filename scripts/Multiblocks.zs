@@ -1152,13 +1152,13 @@ val component_assembly_line = Builder.start("component_assembly_line")
             "MHHHHHHHM",
             "A       A",
             "A  HHH  A",
-            "A  HBH  A",
             "A D   D A",
             "AC     CA",
             "AC     CA",
             "HC     CH",
             "E       E",
-            " EL   LE ")
+            " EL   LE ",
+            "   HBH   ")
         .aisle(
             "MHHHHHHHM",
             "A       A",
