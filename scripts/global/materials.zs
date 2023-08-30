@@ -534,3 +534,107 @@ var benzal_bromide = MaterialBuilder(32115, "benzal_bromide")
     .build();
 
 <material:benzal_bromide>.setFormula("C7H6Br2", true);
+
+#  32116 Sodium Ethylate
+var sodium_ethylate = MaterialBuilder(32116, "sodium_ethylate")
+    .dust()
+    .iconSet("dull")
+    .color(0xD0FC8F)
+    .build();
+
+<material:sodium_ethylate>.setFormula("C2H5ONa", true);
+
+#  32117 Sodium Ethylxanthate
+var sodium_ethylxanthate = MaterialBuilder(32117, "sodium_ethylxanthate")
+    .dust()
+    .iconSet("shiny")
+    .color(0xF3F311)
+    .build();
+
+<material:sodium_ethylxanthate>.setFormula("C3H5NaOS2", true);
+
+#  32118 Potassium Ethylate
+var potassium_ethylate = MaterialBuilder(32118, "potassium_ethylate")
+    .dust()
+    .iconSet("dull")
+    .color(0xFBC47D)
+    .build();
+
+<material:potassium_ethylate>.setFormula("C2H5OK", true);
+
+#  32119 Potassium Ethylxanthate
+var potassium_ethylxanthate = MaterialBuilder(32119, "potassium_ethylxanthate")
+    .dust()
+    .iconSet("shiny")
+    .color(0xB9AD83)
+    .build();
+
+<material:potassium_ethylxanthate>.setFormula("C3H5KOS2", true);
+
+#  32120 Carbon disulfide
+var carbon_disulfide = MaterialBuilder(32120, "carbon_disulfide")
+    .fluid()
+    .color(0xCB7266)
+    .build();
+
+<material:carbon_disulfide>.setFormula("CS2", true);
+
+#  32121 Pyrope front
+var pyrope_front = MaterialBuilder(32121, "pyrope_front")
+    .fluid()
+    .color(0x4A1F3E)
+    .build();
+
+#  32122 Nickel front
+var nickel_front = MaterialBuilder(32122, "nickel_front")
+    .fluid()
+    .color(0x7C7C9B)
+    .build();
+
+#  32123 Almandine front
+var almandine_front = MaterialBuilder(32123, "almandine_front")
+    .fluid()
+    .color(0x9E0000)
+    .build();
+
+#  32124 Redstone front
+var redstone_front = MaterialBuilder(32124, "redstone_front")
+    .fluid()
+    .color(0x870808)
+    .build();
+
+#  32125 Chalcopyrite front
+var chalcopyrite_front = MaterialBuilder(32125, "chalcopyrite_front")
+    .fluid()
+    .color(0x675021)
+    .build();
+
+#  32126 Grossular front
+var grossular_front = MaterialBuilder(32126, "grossular_front")
+    .fluid()
+    .color(0x7F444A)
+    .build();
+
+#  32127 Spessartine front
+var spessartine_front = MaterialBuilder(32127, "spessartine_front")
+    .fluid()
+    .color(0xA44646)
+    .build();
+
+#  32128 Sphalerite front
+var sphalerite_front = MaterialBuilder(32128, "sphalerite_front")
+    .fluid()
+    .color(0xA1A1A1)
+    .build();
+
+#  32129 Platinum front
+var platinum_front = MaterialBuilder(32129, "platinum_front")
+    .fluid()
+    .color(0xB0B08B)
+    .build();
+
+#  32130 Monazite front
+var monazite_front = MaterialBuilder(32130, "monazite_front")
+    .fluid()
+    .color(0x273427)
+    .build();
