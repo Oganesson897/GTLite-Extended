@@ -20,3 +20,6 @@ global tree_factory                                             as RecipeMap = R
 global pcb_factory                                              as RecipeMap = RecipeMap.getByName("pcb_factory");
 global vacuum_drying_furnace                                    as RecipeMap = RecipeMap.getByName("vacuum_drying_furnace");
 global fusion_reactor_mk_iv                                     as RecipeMap = RecipeMap.getByName("fusion_reactor_mk_iv");
+global fusion_reactor_mk_v                                      as RecipeMap = RecipeMap.getByName("fusion_reactor_mk_v");
+global fusion_reactor_mk_vi                                     as RecipeMap = RecipeMap.getByName("fusion_reactor_mk_vi");
+global mega_alloy_blast_smelter                                 as RecipeMap = RecipeMap.getByName("mega_alloy_blast_smelter");
