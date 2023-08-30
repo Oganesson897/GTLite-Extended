@@ -18,3 +18,4 @@ global isa_mill                                                 as RecipeMap = R
 global industrial_flotator                                      as RecipeMap = RecipeMap.getByName("industrial_flotator");
 global tree_factory                                             as RecipeMap = RecipeMap.getByName("tree_factory");
 global pcb_factory                                              as RecipeMap = RecipeMap.getByName("pcb_factory");
+global vacuum_drying_furnace                                    as RecipeMap = RecipeMap.getByName("vacuum_drying_furnace");
