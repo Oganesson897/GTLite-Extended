@@ -17,7 +17,7 @@
     - Nerf of borosilicate glass, now you can not use furnace and mixer to make borosilicate glass;
 - Bug fixes
     - Fixed text error in Tooltip.zs;
-    - Fixed some localized language text.
+    - Fixed some localized language texts.
 
 ## from 0.0.1-beta to 0.0.2-alpha
 
@@ -43,7 +43,7 @@
     - New scripts of Iron chests mod has been added;
 - Bug fixes
     - Fixed the problem of recipes of Ender IO conduits;
-    - Fixed some localized language text.
+    - Fixed some localized language texts.
 
 ## from 0.0.2-alpha to 0.0.2-beta
 
@@ -74,7 +74,7 @@
     - Clean up Ender IO items;
     - Update some new textures, ported from some open source projects, e.g. _Zederrian Technology_ (This project is licensed under CC-BY-NC-SA 4.0, we used it by the Resource Loader mod because files cannot be modified again under this license);
 - Bug fixes
-    - Fixed some localized language text.
+    - Fixed some localized language texts.
 
 ##  from 0.0.3-alpha to 0.0.3-beta
 
@@ -98,5 +98,5 @@
         - ZPM
         - Better assembler of PCB;
 - Bug fixes
-    - Fixed some localized language text;
-    - Fixed some quest.
+    - Fixed some localized language texts;
+    - Fixed some quests.
