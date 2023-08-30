@@ -17,6 +17,7 @@ multiblocktweaker.machine.pcb_factory.name=PCB工厂
 multiblocktweaker.machine.vacuum_drying_furnace.name=真空干燥炉
 multiblocktweaker.machine.fusion_reactor_mk_iv.name=次世代核聚变反应堆控制电脑 Mk I
 multiblocktweaker.machine.fusion_reactor_mk_v.name=次世代核聚变反应堆控制电脑 Mk II
+multiblocktweaker.machine.fusion_reactor_mk_vi.name=次世代核聚变反应堆控制电脑 Mk III
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
@@ -37,6 +38,7 @@ multiblocktweaker.multiblock.pcb_factory.name=PCB工厂
 multiblocktweaker.multiblock.vacuum_drying_furnace.name=真空干燥炉
 multiblocktweaker.multiblock.fusion_reactor_mk_iv.name=次世代核聚变反应堆控制电脑 Mk I
 multiblocktweaker.multiblock.fusion_reactor_mk_v.name=次世代核聚变反应堆控制电脑 Mk II
+multiblocktweaker.multiblock.fusion_reactor_mk_vi.name=次世代核聚变反应堆控制电脑 Mk III
 
 recipemap.virtual_cosmos_mk1.name=虚拟宇宙物质解压
 recipemap.virtual_cosmos_mk2.name=虚拟宇宙物质解压
@@ -57,3 +59,4 @@ recipemap.pcb_factory.name=电路板组装
 recipemap.vacuum_drying_furnace.name=真空干燥
 recipemap.fusion_reactor_mk_iv.name=核聚变反应堆
 recipemap.fusion_reactor_mk_v.name=核聚变反应堆
+recipemap.fusion_reactor_mk_vi.name=核聚变反应堆

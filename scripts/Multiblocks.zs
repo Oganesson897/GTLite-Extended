@@ -4277,3 +4277,106 @@ var fusion_reactor_mk_v = Builder.start("fusion_reactor_mk_v")
     )
     .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var fusion_reactor_mk_vi = Builder.start("fusion_reactor_mk_vi")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "               ",
+                "      OGO      ",
+                "               ")
+            .aisle(
+                "      ICI      ",
+                "    GGAAAGG    ",
+                "      ICI      ")
+            .aisle(
+                "    CC   CC    ",
+                "   EAAOGOAAE   ",
+                "    CC   CC    ")
+            .aisle(
+                "   C       C   ",
+                "  EKEG   GEKE  ",
+                "   C       C   ")
+            .aisle(
+                "  C         C  ",
+                " GAE       EAG ",
+                "  C         C  ")
+            .aisle(
+                "  C         C  ",
+                " GAG       GAG ",
+                "  C         C  ")
+            .aisle(
+                " I           I ",
+                "OAO         OAO",
+                " I           I ")
+            .aisle(
+                " C           C ",
+                "GAG         GAG",
+                " C           C ")
+            .aisle(
+                " I           I ",
+                "OAO         OAO",
+                " I           I ")
+            .aisle(
+                "  C         C  ",
+                " GAG       GAG ",
+                "  C         C  ")
+            .aisle(
+                "  C         C  ",
+                " GAE       EAG ",
+                "  C         C  ")
+            .aisle(
+                "   C       C   ",
+                "  EKEG   GEKE  ",
+                "   C       C   ")
+            .aisle(
+                "    CC   CC    ",
+                "   EAAOGOAAE   ",
+                "    CC   CC    ")
+            .aisle(
+                "      ICI      ",
+                "    GGAAAGG    ",
+                "      ICI      ")
+            .aisle(
+                "               ",
+                "      OSO      ",
+                "               ")
+            .where("S", controller.self())
+            .where("G", <metastate:gregtech:transparent_casing:1>)
+            .where("C", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+            .where("K", <blockstate:contenttweaker:fusion_coil_block_mk_iii>)
+            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                    | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                .setMaxGlobalLimited(2)
+                                .setMaxGlobalLimited(8)
+                                .setPreviewCount(2)
+            )
+            .where("O", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                    | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                .setMinGlobalLimited(2)
+                                .setMaxGlobalLimited(8)
+                                .setPreviewCount(2)
+            )
+            .where("E", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                    | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                .setMinGlobalLimited(1)
+                                .setMaxGlobalLimited(1)
+                                .setPreviewCount(1)
+                    | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                .setMinGlobalLimited(2)
+                                .setMaxGlobalLimited(8)
+                                .setPreviewCount(2)
+            )
+            .where("A", CTPredicate.getAir())
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("fusion_reactor_mk_vi")
+            .maxFluidInputs(2)
+            .maxFluidOutputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+    .buildAndRegister();
