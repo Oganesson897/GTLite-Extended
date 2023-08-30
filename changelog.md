@@ -75,3 +75,28 @@
     - Update some new textures, ported from some open source projects, e.g. _Zederrian Technology_ (This project is licensed under CC-BY-NC-SA 4.0, we used it by the Resource Loader mod because files cannot be modified again under this license);
 - Bug fixes
     - Fixed some localized language text.
+
+##  from 0.0.3-alpha to 0.0.3-beta
+
+&nbsp;&nbsp;&nbsp;&nbsp;The fifth preview version of GregTech Lite, add some multiblocks, improve some quests.
+
+- General Changes
+    - Update AE2 quests to questbook;
+    - Zylon Pulp process has been added;
+    - More recipes of Component Assembly Line has been added;
+    - Control circuits has been added;
+    - New Multiblock: _Tree Factory_
+        - MV
+        - Simple Tree factory, similar as EIO farming station;
+    - New Multiblock: _Industrial Chemical Reactor_
+        - a.k.a Mega Chemical Reactor, temporarily unavailable;
+    - New Multiblock: _Isa Mill_, _Industrial Fluotator_ and _Vacuum Drying Furnace_
+        - LuV+
+        - A new ore process system, inspired by GT++, but more easy than GT++;
+        - All available;
+    - New Multiblock: _PCB Factory_
+        - ZPM
+        - Better assembler of PCB;
+- Bug fixes
+    - Fixed some localized language text;
+    - Fixed some quest.
