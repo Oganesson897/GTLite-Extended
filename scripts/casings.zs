@@ -119,6 +119,19 @@ makeShaped("hss_s_casing", <contenttweaker:hss_s_casing> * 2,
         "W": <ore:craftingToolWrench>
     });
 
+makeShaped("indium_gallium_phosphide_casing", <contenttweaker:indium_gallium_phosphide_casing> * 2,
+    [
+        "PHP",
+        "PFP",
+        "PWP"
+    ],
+    {
+        "F": <ore:frameGtTungstenSteel>,
+        "H": <ore:craftingToolHardHammer>,
+        "P": <ore:plateIndiumGalliumPhosphide>,
+        "W": <ore:craftingToolWrench>
+    });
+
 assembler.recipeBuilder()
     .inputs([<ore:plateBlueSteel> * 6,
              <ore:frameGtBlackSteel>])
@@ -219,6 +232,15 @@ assembler.recipeBuilder()
              <ore:frameGtIridium>])
     .circuit(6)
     .outputs([<contenttweaker:hss_s_casing> * 2])      
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateIndiumGalliumPhosphide> * 6,
+             <ore:frameGtTungstenSteel>])
+    .circuit(6)
+    .outputs([<contenttweaker:indium_gallium_phosphide_casing> * 2])
     .EUt(16)
     .duration(50)
     .buildAndRegister();

@@ -89,6 +89,7 @@ tile.contenttweaker.stellar_containment_casing.name=恒星热力容器
 tile.contenttweaker.suprachronal_assembler_casing.name=超时空装配控制外壳
 tile.contenttweaker.vibrant_alloy_casing.name=脉冲合金机械方块
 tile.contenttweaker.hss_s_casing.name=高强高速钢-S机器外壳
+tile.contenttweaker.indium_gallium_phosphide_casing.name=耐高温磷化镓机械方块
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

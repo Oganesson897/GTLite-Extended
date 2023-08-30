@@ -3815,3 +3815,241 @@ assembly_line.recipeBuilder()
     .EUt(130000)
     .duration(80000)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var vacuum_drying_furnace = Builder.start("vacuum_drying_furnace")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "    CCCCC    ",
+                "    CCCCC    ",
+                "    CCCCC    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    CCCCC    ",
+                "    CCCCC    ",
+                "    CCCCC    ")
+            .aisle(
+                "   CCCCCCC   ",
+                "   CCCCCCC   ",
+                "   CCCCCCC   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   CCCCCCC   ",
+                "   CCCCCCC   ",
+                "   CCCCCCC   ")
+            .aisle(
+                "  CCCCCCCCC  ",
+                "  CCCCCCCCC  ",
+                "  CCCQQQCCC  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  CCCQQQCCC  ",
+                "  CCCCCCCCC  ",
+                "  CCCCCCCCC  ")
+            .aisle(
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ")
+            .aisle(
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC")
+            .aisle(
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "CCQCCCCCCCQCC",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "CCQCCCCCCCQCC",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC")
+            .aisle(
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "CCQCCCCCCCQCC",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "CCQCCCCCCCQCC",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC")
+            .aisle(
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "CCQCCCCCCCQCC",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "G   B   B   G",
+                "CCQCCCCCCCQCC",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC")
+            .aisle(
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "G   TBBBT   G",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC",
+                "CCCCCCCCCCCCC")
+            .aisle(
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " G         G ",
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ",
+                " CCCCCCCCCCC ")
+            .aisle(
+                "  CCCCCCCCC  ",
+                "  CCCCCCCCC  ",
+                "  CCCQQQCCC  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  G       G  ",
+                "  CCCQQQCCC  ",
+                "  CCCCCCCCC  ",
+                "  CCCCCCCCC  ")
+            .aisle(
+                "   CCCCCCC   ",
+                "   CCCCCCC   ",
+                "   CCCCCCC   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   G     G   ",
+                "   CCCCCCC   ",
+                "   CCCCCCC   ",
+                "   CCCCCCC   ")
+            .aisle(
+                "    CCCCC    ",
+                "    CCOCC    ",
+                "    CCCCC    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    GGGGG    ",
+                "    CCCCC    ",
+                "    CCCCC    ",
+                "    CCCCC    ")
+            .where("O", controller.self())
+            .where("Q", <metastate:gcym:unique_casing:3>)
+            .where("G", <metastate:gregtech:transparent_casing:1>)
+            .where("T", <metastate:gregtech:boiler_casing:2>)
+            .where("B", <metastate:gcym:unique_casing:4>)
+            .where("C", CTPredicate.states(<blockstate:contenttweaker:indium_gallium_phosphide_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>) 
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(9)
+                                   .setPreviewCount(1)
+            )
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("vacuum_drying_furnace")
+            .minInputs(1)
+            .maxInputs(2)
+            .minFluidInputs(1)
+            .maxFluidInputs(1)
+            .minOutputs(1)
+            .maxOutputs(9)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(3)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:indium_gallium_phosphide_casing>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:2206> * 16,
+             <contenttweaker:control_circuit_zpm> * 4,
+             <gcym:unique_casing:3> * 4,
+             <gregtech:meta_item_1:148> * 4,
+             <gregtech:meta_item_1:252> * 8,
+             <gregtech:meta_item_1:161> * 4,
+             <ore:springYttriumBariumCuprate> * 16,
+             <ore:foilNiobiumTitanium> * 64])
+    .fluidInputs([<liquid:lubricant> * 3000,
+                  <liquid:naquadria> * 1000])
+    .outputs([<gregtech:machine:32016>])
+    .EUt(100000)
+    .duration(40000)
+    .buildAndRegister();

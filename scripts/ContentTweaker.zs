@@ -212,6 +212,9 @@ var vibrant_alloy_casing = VanillaFactory.createBlock("vibrant_alloy_casing", <b
 var hss_s_casing = VanillaFactory.createBlock("hss_s_casing", <blockmaterial:iron>);
     hss_s_casing.register();
 
+var indium_gallium_phosphide_casing = VanillaFactory.createBlock("indium_gallium_phosphide_casing", <blockmaterial:iron>);
+    indium_gallium_phosphide_casing.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;
