@@ -4053,3 +4053,126 @@ assembly_line.recipeBuilder()
     .EUt(100000)
     .duration(40000)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var fusion_reactor_mk_iv = Builder.start("fusion_reactor_mk_iv")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "               ",
+                "      OGO      ",
+                "               ")
+            .aisle(
+                "      ICI      ",
+                "    GGAAAGG    ",
+                "      ICI      ")
+            .aisle(
+                "    CC   CC    ",
+                "   EAAOGOAAE   ",
+                "    CC   CC    ")
+            .aisle(
+                "   C       C   ",
+                "  EKEG   GEKE  ",
+                "   C       C   ")
+            .aisle(
+                "  C         C  ",
+                " GAE       EAG ",
+                "  C         C  ")
+            .aisle(
+                "  C         C  ",
+                " GAG       GAG ",
+                "  C         C  ")
+            .aisle(
+                " I           I ",
+                "OAO         OAO",
+                " I           I ")
+            .aisle(
+                " C           C ",
+                "GAG         GAG",
+                " C           C ")
+            .aisle(
+                " I           I ",
+                "OAO         OAO",
+                " I           I ")
+            .aisle(
+                "  C         C  ",
+                " GAG       GAG ",
+                "  C         C  ")
+            .aisle(
+                "  C         C  ",
+                " GAE       EAG ",
+                "  C         C  ")
+            .aisle(
+                "   C       C   ",
+                "  EKEG   GEKE  ",
+                "   C       C   ")
+            .aisle(
+                "    CC   CC    ",
+                "   EAAOGOAAE   ",
+                "    CC   CC    ")
+            .aisle(
+                "      ICI      ",
+                "    GGAAAGG    ",
+                "      ICI      ")
+            .aisle(
+                "               ",
+                "      OSO      ",
+                "               ")
+            .where("S", controller.self())
+            .where("G", <metastate:gregtech:transparent_casing:1>)
+            .where("C", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+            .where("K", <blockstate:contenttweaker:fusion_coil_block_mk_i>)
+            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                    | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                .setMaxGlobalLimited(2)
+                                .setMaxGlobalLimited(8)
+                                .setPreviewCount(2)
+            )
+            .where("O", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                    | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                .setMinGlobalLimited(2)
+                                .setMaxGlobalLimited(8)
+                                .setPreviewCount(2)
+            )
+            .where("E", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                    | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                .setMinGlobalLimited(1)
+                                .setMaxGlobalLimited(1)
+                                .setPreviewCount(1)
+                    | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                .setMinGlobalLimited(2)
+                                .setMaxGlobalLimited(8)
+                                .setPreviewCount(2)
+            )
+            .where("A", CTPredicate.getAir())
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("fusion_reactor_mk_iv")
+            .minFluidInputs(2)
+            .maxFluidInputs(2)
+            .minFluidOutputs(1)
+            .maxFluidInputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:1022>,
+             <contenttweaker:fusion_coil_block_mk_i> * 4,
+             <ore:circuitUev> * 4,
+             <gregtech:meta_item_1:282> * 4,
+             <ore:plateOrichalcum> * 4,
+             <gregtech:meta_item_1:209> * 2,
+             <gregtech:meta_item_1:581> * 64,
+             <gregtech:meta_item_1:581> * 64,
+             <ore:wireGtSinglePedotPss> * 32])
+    .fluidInputs([<liquid:soldering_alloy> * 2304,
+                  <liquid:europium> * 1152,
+                  <liquid:polyetheretherketone> * 576])
+    .outputs([<gregtech:machine:32017>])
+    .EUt(524288)
+    .duration(20000)
+    .buildAndRegister();

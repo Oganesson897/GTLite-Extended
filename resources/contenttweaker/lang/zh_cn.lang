@@ -90,6 +90,12 @@ tile.contenttweaker.suprachronal_assembler_casing.name=超时空装配控制外�
 tile.contenttweaker.vibrant_alloy_casing.name=脉冲合金机械方块
 tile.contenttweaker.hss_s_casing.name=高强高速钢-S机器外壳
 tile.contenttweaker.indium_gallium_phosphide_casing.name=耐高温磷化镓机械方块
+tile.contenttweaker.fusion_machine_casing_mk_iv.name=次世代聚变机器外壳
+tile.contenttweaker.fusion_coil_block_mk_i.name=次世代聚变线圈方块 Mk I
+tile.contenttweaker.fusion_coil_block_mk_ii.name=次世代聚变线圈方块 Mk II
+tile.contenttweaker.fusion_coil_block_mk_iii.name=次世代聚变线圈方块 Mk III
+tile.contenttweaker.fusion_coil_block_mk_iv.name=次世代聚变线圈方块 Mk IV
+tile.contenttweaker.fusion_coil_block_mk_v.name=次世代聚变线圈方块 Mk V
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

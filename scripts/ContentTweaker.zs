@@ -215,6 +215,24 @@ var hss_s_casing = VanillaFactory.createBlock("hss_s_casing", <blockmaterial:iro
 var indium_gallium_phosphide_casing = VanillaFactory.createBlock("indium_gallium_phosphide_casing", <blockmaterial:iron>);
     indium_gallium_phosphide_casing.register();
 
+var fusion_machine_casing_mk_iv = VanillaFactory.createBlock("fusion_machine_casing_mk_iv", <blockmaterial:iron>);
+    fusion_machine_casing_mk_iv.register();
+
+var fusion_coil_block_mk_i = VanillaFactory.createBlock("fusion_coil_block_mk_i", <blockmaterial:iron>);
+    fusion_coil_block_mk_i.register();
+
+var fusion_coil_block_mk_ii = VanillaFactory.createBlock("fusion_coil_block_mk_ii", <blockmaterial:iron>);
+    fusion_coil_block_mk_ii.register();
+
+var fusion_coil_block_mk_iii = VanillaFactory.createBlock("fusion_coil_block_mk_iii", <blockmaterial:iron>);
+    fusion_coil_block_mk_iii.register();
+
+var fusion_coil_block_mk_iv = VanillaFactory.createBlock("fusion_coil_block_mk_iv", <blockmaterial:iron>);
+    fusion_coil_block_mk_iv.register();
+
+var fusion_coil_block_mk_v = VanillaFactory.createBlock("fusion_coil_block_mk_v", <blockmaterial:iron>);
+    fusion_coil_block_mk_v.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;
