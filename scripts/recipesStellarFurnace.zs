@@ -2,13 +2,13 @@ import mods.gregtech.recipe.RecipeMap;
 
 #  Cosmic computing mixture
 stellar_furnace.recipeBuilder()
-    .fluidInputs([<liquid:heavy_lepton_mixture> * 65536,
-                  <liquid:heavy_quark> * 65536,
-                  <liquid:gluon> * 65536,
-                  <liquid:tachyon> * 65536,
-                  <liquid:instanton> * 65536,
-                  <liquid:higgs> * 65536])
-    .fluidOutputs([<liquid:cosmic_computing_mixture> * 144])
+    .fluidInputs([<liquid:heavy_lepton_mixture> * 2048,
+                  <liquid:heavy_quark> * 2048,
+                  <liquid:gluon> * 2048,
+                  <liquid:tachyon> * 2048,
+                  <liquid:instanton> * 2048,
+                  <liquid:higgs> * 2048])
+    .fluidOutputs([<liquid:cosmic_computing_mixture> * 12288])
     .EUt(33554432)
     .duration(131072)
     .buildAndRegister();
@@ -42,7 +42,7 @@ stellar_furnace.recipeBuilder()
 
 stellar_furnace.recipeBuilder()
     .fluidInputs([<liquid:sublight_plasma_jet> * 1000])
-    .fluidOutputs([<liquid:tachyon> * 10])
+    .fluidOutputs([<liquid:tachyon> * 500])
     .EUt(1200000)
     .duration(200)
     .buildAndRegister();
@@ -51,7 +51,7 @@ stellar_furnace.recipeBuilder()
 stellar_furnace.recipeBuilder()
     .inputs([<contenttweaker:qcd_charge>,
              <ore:plateAurorium>])
-    .fluidOutputs([<liquid:higgs> * 100])
+    .fluidOutputs([<liquid:higgs> * 500])
     .EUt(33554432)
     .duration(32768)
     .buildAndRegister();

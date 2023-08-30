@@ -59,6 +59,7 @@ recipes.remove(<extendedcrafting:table_elite>);
 recipes.remove(<extendedcrafting:table_ultimate>);
 recipes.remove(<avaritiaddons:infinity_compressor>);
 
+
 makeShaped("basic_crafting_table_1", <extendedcrafting:table_basic>,
     [
         "TTT",
@@ -116,7 +117,8 @@ makeEliteRecipes(<extendedcrafting:table_ultimate>,
         "T": <extendedcrafting:table_elite>
     });
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:resource>, [
+/*
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:resource> * 64, [
 	[<ore:stickDiamond>, <ore:plateDiamond>, <ore:plateDiamond>, null, null, null, <ore:plateDiamond>, <ore:plateDiamond>, <ore:stickDiamond>], 
 	[<ore:plateDiamond>, <ore:stickDiamond>, <ore:stickDiamond>, <gregtech:meta_lens:276>, <ore:frameGtDiamond>, <gregtech:meta_lens:276>, <ore:stickDiamond>, <ore:stickDiamond>, <ore:plateDiamond>], 
 	[<ore:plateDiamond>, <ore:stickDiamond>, <ore:ringDiamond>, <ore:frameGtDiamond>, <ore:plateDiamond>, <ore:frameGtDiamond>, <ore:ringDiamond>, <ore:stickDiamond>, <ore:plateDiamond>], 
@@ -128,7 +130,7 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:resource>, [
 	[<ore:stickDiamond>, <ore:plateDiamond>, <ore:plateDiamond>, null, null, null, <ore:plateDiamond>, <ore:plateDiamond>, <ore:stickDiamond>]
 ]);
 
-makeUltimateRecipes(<extendedcrafting:singularity_ultimate>,  
+makeUltimateRecipes(<extendedcrafting:singularity_ultimate> * 16,  
     [
         "AZ     ZB",
         "ZCZ   ZDZ",
@@ -172,7 +174,7 @@ makeUltimateRecipes(<extendedcrafting:singularity_ultimate>,
     }
 );
 
-makeUltimateRecipes(<avaritia:endest_pearl>, 
+makeUltimateRecipes(<avaritia:endest_pearl> * 64, 
     [
         "   AAA   ",
         " BBCCCBB ",
@@ -192,7 +194,7 @@ makeUltimateRecipes(<avaritia:endest_pearl>,
     }
 );
 
-makeShaped("basic_component", <extendedcrafting:material:14>,
+makeShaped("basic_component", <extendedcrafting:material:14> * 8,
     [
         "ABA",
         "BBB",
@@ -203,7 +205,7 @@ makeShaped("basic_component", <extendedcrafting:material:14>,
         "B": <ore:plateStainlessSteel>
     });
 
-makeShaped("basic_catalyst", <extendedcrafting:material:8>,
+makeShaped("basic_catalyst", <extendedcrafting:material:8> * 16,
     [
         "ACA",
         "C C",
@@ -214,7 +216,7 @@ makeShaped("basic_catalyst", <extendedcrafting:material:8>,
         "C": <ore:circuitHv>
     });
 
-makeAdvancedRecipes(<extendedcrafting:material:15>,
+makeAdvancedRecipes(<extendedcrafting:material:15> * 32,
     [
         "ABCBA",
         "BBCBB",
@@ -228,7 +230,7 @@ makeAdvancedRecipes(<extendedcrafting:material:15>,
         "D": <extendedcrafting:material:8>
     });
 
-makeAdvancedRecipes(<extendedcrafting:material:9>,
+makeAdvancedRecipes(<extendedcrafting:material:9> * 64,
     [
         "AACAA",
         "AACAA",
@@ -240,7 +242,7 @@ makeAdvancedRecipes(<extendedcrafting:material:9>,
         "C": <ore:circuitEv>
     });
 
-makeEliteRecipes(<extendedcrafting:material:16>,
+makeEliteRecipes(<extendedcrafting:material:16> * 64,
     [
         "AABCBAA",
         "AABCBAA",
@@ -257,7 +259,7 @@ makeEliteRecipes(<extendedcrafting:material:16>,
         "D": <extendedcrafting:material:9>
     });
 
-makeEliteRecipes(<extendedcrafting:material:10>,
+makeEliteRecipes(<extendedcrafting:material:10> * 64,
     [
         "AAACAAA",
         "AAACAAA",
@@ -272,7 +274,7 @@ makeEliteRecipes(<extendedcrafting:material:10>,
         "C": <ore:circuitIv>
     });
 
-makeUltimateRecipes(<extendedcrafting:material:18>,
+makeUltimateRecipes(<extendedcrafting:material:18> * 64,
     [
         "AAABCBAAA",
         "AAABCBAAA",
@@ -291,7 +293,7 @@ makeUltimateRecipes(<extendedcrafting:material:18>,
         "D": <extendedcrafting:material:10>
     });
 
-makeUltimateRecipes(<extendedcrafting:material:12>,
+makeUltimateRecipes(<extendedcrafting:material:12> * 64,
     [
         "AAAACAAAA",
         "AAAACAAAA",
@@ -308,7 +310,7 @@ makeUltimateRecipes(<extendedcrafting:material:12>,
         "C": <ore:circuitLuv>
     });
 
-makeUltimateRecipes(<extendedcrafting:material:17>,
+makeUltimateRecipes(<extendedcrafting:material:17> * 64,
     [
         "AAABCBAAA",
         "AAABCBAAA",
@@ -327,7 +329,7 @@ makeUltimateRecipes(<extendedcrafting:material:17>,
         "D": <extendedcrafting:material:12>
     });
 
-makeUltimateRecipes(<extendedcrafting:material:11>,
+makeUltimateRecipes(<extendedcrafting:material:11> * 64,
     [
         "AAAACAAAA",
         "AAAACAAAA",
@@ -344,7 +346,7 @@ makeUltimateRecipes(<extendedcrafting:material:11>,
         "C": <ore:circuitZpm>
     });
 
-makeUltimateRecipes(<extendedcrafting:material:19>,
+makeUltimateRecipes(<extendedcrafting:material:19> * 64,
     [
         "AAAACAAAA",
         "AAAACAAAA",
@@ -362,7 +364,7 @@ makeUltimateRecipes(<extendedcrafting:material:19>,
         "D": <extendedcrafting:material:11>
     });
 
-makeUltimateRecipes(<extendedcrafting:material:13>,
+makeUltimateRecipes(<extendedcrafting:material:13> * 64,
     [
         "ABCDEFaGA",
         "GHIJKLaHB",
@@ -399,9 +401,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockCoal> * 64,
              <ore:blockCoal> * 64,
              <ore:blockCoal> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity>])
     .EUt(134217728)
     .duration(3000)
@@ -414,9 +415,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockIron> * 64,
              <ore:blockIron> * 64,
              <ore:blockIron> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:1>])
     .EUt(134217728)
     .duration(3000)
@@ -429,9 +429,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockLapis> * 64,
              <ore:blockLapis> * 64,
              <ore:blockLapis> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:2>])
     .EUt(134217728)
     .duration(3000)
@@ -444,9 +443,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockRedstone> * 64,
              <ore:blockRedstone> * 64,
              <ore:blockRedstone> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:3>])
     .EUt(134217728)
     .duration(3000)
@@ -460,8 +458,7 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockGlowstone> * 64,
              <ore:blockGlowstone> * 64,
              <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:4>])
     .EUt(134217728)
     .duration(3000)
@@ -474,9 +471,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockGold> * 64,
              <ore:blockGold> * 64,
              <ore:blockGold> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:5>])
     .EUt(134217728)
     .duration(3000)
@@ -489,9 +485,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockDiamond> * 64,
              <ore:blockDiamond> * 64,
              <ore:blockDiamond> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:6>])
     .EUt(134217728)
     .duration(3000)
@@ -504,9 +499,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockEmerald> * 64,
              <ore:blockEmerald> * 64,
              <ore:blockEmerald> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:7>])
     .EUt(134217728)
     .duration(3000)
@@ -519,9 +513,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockAluminium> * 64,
              <ore:blockAluminium> * 64,
              <ore:blockAluminium> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:16>])
     .EUt(134217728)
     .duration(3000)
@@ -534,9 +527,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockCopper> * 64,
              <ore:blockCopper> * 64,
              <ore:blockCopper> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:17>])
     .EUt(134217728)
     .duration(3000)
@@ -549,9 +541,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockTin> * 64,
              <ore:blockTin> * 64,
              <ore:blockTin> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:18>])
     .EUt(134217728)
     .duration(3000)
@@ -564,9 +555,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockBronze> * 64,
              <ore:blockBronze> * 64,
              <ore:blockBronze> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:19>])
     .EUt(134217728)
     .duration(3000)
@@ -579,9 +569,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockZinc> * 64,
              <ore:blockZinc> * 64,
              <ore:blockZinc> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:20>])
     .EUt(134217728)
     .duration(3000)
@@ -594,9 +583,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockBrass> * 64,
              <ore:blockBrass> * 64,
              <ore:blockBrass> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:21>])
     .EUt(134217728)
     .duration(3000)
@@ -609,9 +597,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockSilver> * 64,
              <ore:blockSilver> * 64,
              <ore:blockSilver> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:22>])
     .EUt(134217728)
     .duration(3000)
@@ -624,9 +611,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockLead> * 64,
              <ore:blockLead> * 64,
              <ore:blockLead> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:23>])
     .EUt(134217728)
     .duration(3000)
@@ -639,9 +625,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockSteel> * 64,
              <ore:blockSteel> * 64,
              <ore:blockSteel> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:24>])
     .EUt(134217728)
     .duration(3000)
@@ -654,9 +639,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockNickel> * 64,
              <ore:blockNickel> * 64,
              <ore:blockNickel> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:25>])
     .EUt(134217728)
     .duration(3000)
@@ -669,9 +653,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockElectrum> * 64,
              <ore:blockElectrum> * 64,
              <ore:blockElectrum> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:27>])
     .EUt(134217728)
     .duration(3000)
@@ -684,9 +667,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockMithril> * 64,
              <ore:blockMithril> * 64,
              <ore:blockMithril> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:29>])
     .EUt(134217728)
     .duration(3000)
@@ -699,9 +681,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockTungsten> * 64,
              <ore:blockTungsten> * 64,
              <ore:blockTungsten> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:30>])
     .EUt(134217728)
     .duration(3000)
@@ -714,9 +695,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockTitanium> * 64,
              <ore:blockTitanium> * 64,
              <ore:blockTitanium> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:31>])
     .EUt(134217728)
     .duration(3000)
@@ -729,9 +709,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockUranium> * 64,
              <ore:blockUranium> * 64,
              <ore:blockUranium> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:32>])
     .EUt(134217728)
     .duration(3000)
@@ -744,9 +723,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockChrome> * 64,
              <ore:blockChrome> * 64,
              <ore:blockChrome> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:33>])
     .EUt(134217728)
     .duration(3000)
@@ -759,9 +737,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockPlatinum> * 64,
              <ore:blockPlatinum> * 64,
              <ore:blockPlatinum> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:34>])
     .EUt(134217728)
     .duration(3000)
@@ -774,9 +751,8 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:blockIridium> * 64,
              <ore:blockIridium> * 64,
              <ore:blockIridium> * 64,
-             <avaritia:resource:5> * 16])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:infinity> * 65536])
+             <avaritia:resource:5>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536])
     .outputs([<extendedcrafting:singularity:35>])
     .EUt(134217728)
     .duration(3000)
@@ -791,11 +767,11 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
              <ore:circuitUhv> * 16,
              <ore:circuitUv> * 32,
              <ore:circuitZpm> * 64,
-             <gregtech:meta_item_1:213> * 4])
+             <gregtech:meta_item_1:213>])
     .fluidInputs([<liquid:plasma.adamantium> * 131072,
                   <liquid:plasma.vibranium> * 131072,
                   <liquid:infinity> * 131072])
-    .outputs([<avaritia:resource:5>])
+    .outputs([<avaritia:resource:5> * 32])
     .EUt(33554433)
     .duration(600)
     .buildAndRegister();
@@ -818,12 +794,7 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
     .buildAndRegister();
 
 galactic_superscale_structural_circular_particle_collide.recipeBuilder()
-    .inputs([<ore:blockUltimate> * 64,
-             <ore:blockUltimate> * 64,
-             <ore:blockUltimate> * 64,
-             <ore:blockUltimate> * 64])
-    .fluidInputs([<liquid:infinity> * 131072,
-                  <liquid:crystal_matrix> * 131072])
+    .inputs([<ore:blockUltimate>])
     .outputs([<contenttweaker:singularity_of_universe>])
     .EUt(536870912)
     .duration(6000)
@@ -898,3 +869,5 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 
 recipes.addShapeless(<gregtech:machine:1668>, [<minecraft:chest>, <contenttweaker:heart_of_universe>]);
+
+*/
