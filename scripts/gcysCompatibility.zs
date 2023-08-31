@@ -349,14 +349,14 @@ assembler.recipeBuilder()
 
 #  NPIC
 large_chemical_reactor.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:581> * 16,
-             <gregtech:meta_item_1:705> * 32,
+    .inputs([<gregtech:meta_item_1:581>,
+             <gregtech:meta_item_1:705>,
              <ore:dustGalliumNitride> * 4])
-    .fluidInputs([<liquid:polyetheretherketone> * 1152,
-                  <liquid:polybenzimidazole> * 1152,
-                  <liquid:adamantium> * 1152,
-                  <liquid:vibranium> * 576,
-                  <liquid:orichalcum> * 576])
+    .fluidInputs([<liquid:polyetheretherketone> * 576,
+                  <liquid:polybenzimidazole> * 576,
+                  <liquid:adamantium> * 288,
+                  <liquid:vibranium> * 288,
+                  <liquid:orichalcum> * 144])
     .outputs([<gcys:meta_item_1:356>])
     .EUt(2097152)
     .duration(3000)
