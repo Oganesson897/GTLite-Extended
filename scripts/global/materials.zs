@@ -224,7 +224,8 @@ var aurorium = MaterialBuilder(32016, "aurorium")
             "generate_frame",
             "generate_long_rod",
             "generate_round",
-            "generate_ring"])
+            "generate_ring",
+            "generate_rotor"])
     .cableProperties(134217728, 32, 0, true)
     .build();
 

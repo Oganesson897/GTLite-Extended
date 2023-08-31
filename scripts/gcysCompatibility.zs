@@ -352,11 +352,7 @@ large_chemical_reactor.recipeBuilder()
     .inputs([<gregtech:meta_item_1:581>,
              <gregtech:meta_item_1:705>,
              <ore:dustGalliumNitride> * 4])
-    .fluidInputs([<liquid:polyetheretherketone> * 576,
-                  <liquid:polybenzimidazole> * 576,
-                  <liquid:adamantium> * 288,
-                  <liquid:vibranium> * 288,
-                  <liquid:orichalcum> * 144])
+    .fluidInputs([<liquid:polyetheretherketone> * 576])
     .outputs([<gcys:meta_item_1:356>])
     .EUt(2097152)
     .duration(3000)
@@ -386,6 +382,22 @@ cutter.recipeBuilder()
     .duration(600)
     .buildAndRegister();
 
+#  FPIC
+chemical_reactor.recipeBuilder()
+    .inputs([<gcys:meta_item_1:357>,
+             <ore:dustZylon> * 4])
+    .outputs([<gcys:meta_item_1:358>])
+    .EUt(2097152)
+    .duration(60000)
+    .buildAndRegister();
+
+cutter.recipeBuilder()
+    .inputs([<gcys:meta_item_1:358>])
+    .outputs([<gcys:meta_item_1:370>])
+    .EUt(33554432)
+    .duration(1200)
+    .buildAndRegister();
+
 #  h-BN
 chemical_plant.recipeBuilder()
     .fluidInputs([<liquid:oxygen> * 3000,
@@ -395,6 +407,7 @@ chemical_plant.recipeBuilder()
     .EUt(491520)
     .duration(100)
     .buildAndRegister();
+
 #  c-BN
 chemical_plant.recipeBuilder()
     .inputs([<ore:dustHexagonalBoronNitride>])
@@ -741,6 +754,120 @@ makeShaped("uev_alloy_smelter", <gregtech:machine:89>,
         "Q": <ore:wireGtQuadrupleTritanium>
     });
 
+makeShaped("uev_cutter", <gregtech:machine:254>,
+    [
+        "QOG",
+        "ACD",
+        "OQB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:166>,
+        "B": <gregtech:meta_item_1:136>,
+        "C": <gregtech:machine:995>,
+        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUev>,
+        "Q": <ore:cableGtSinglePedotTma>,
+    });
+
+makeShaped("uev_electrolyzer", <gregtech:machine:284>,
+    [
+        "QGQ",
+        "QCQ",
+        "OPO"
+    ],
+    {
+        "C": <gregtech:machine:995>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUev>,
+        "P": <ore:cableGtSinglePedotTma>,
+        "Q": <ore:wireGtSingleYttriumBariumCuprate>
+    });
+
+makeShaped("uev_electromagnetic_separator", <gregtech:machine:299>,
+    [
+        "APQ",
+        "PCR",
+        "OPQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:166>,
+        "C": <gregtech:machine:995>,
+        "O": <ore:circuitUev>,
+        "P": <ore:cableGtSinglePedotTma>,
+        "Q": <ore:wireGtOctalCarbonNanotube>,
+        "R": <ore:stickLongVanadiumGallium>
+    });
+
+makeShaped("uev_extruder", <gregtech:machine:329>,
+    [
+        "QQO",
+        "ACL",
+        "QQO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:181>,
+        "C": <gregtech:machine:995>,
+        "L": <ore:pipeLargeFluidDuranium>,
+        "O": <ore:circuitUev>,
+        "Q": <ore:wireGtQuadrupleTritanium>
+    });
+
+makeShaped("uev_fluid_heater", <gregtech:machine:389>,
+    [
+        "QGQ",
+        "ACA",
+        "POP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:151>,
+        "C": <gregtech:machine:995>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUev>,
+        "P": <ore:cableGtSinglePedotTma>,
+        "Q": <ore:wireGtQuadrupleTritanium>
+    });
+
+makeShaped("uev_polarizer", <gregtech:machine:554>,
+    [
+        "QRQ",
+        "PCP",
+        "QRQ"
+    ],
+    {
+        "C": <gregtech:machine:995>,
+        "P": <ore:cableGtSinglePedotTma>,
+        "Q": <ore:wireGtOctalCarbonNanotube>,
+        "R": <ore:stickLongVanadiumGallium>,
+    });
+
+makeShaped("uev_thermal_centrifuge", <gregtech:machine:614>,
+    [
+        "OAO",
+        "QCQ",
+        "PAP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:136>,
+        "C": <gregtech:machine:995>,
+        "O": <ore:circuitUev>,
+        "P": <ore:cableGtSinglePedotTma>,
+        "Q": <ore:wireGtQuadrupleTritanium>
+    });
+
+makeShaped("uev_transformer", <gregtech:machine:1280>,
+    [
+        "WBB",
+        "AC ",
+        "WBB"
+    ],
+    {
+        "A": <ore:cableGtSingleSunnarium>,
+        "B": <ore:cableGtSinglePedotTma>,
+        "C": <gregtech:machine:995>,
+        "W": <gcys:meta_item_1:369>
+    });
+
 #  UIV Machines
 makeShaped("uiv_machine_casing", <gregtech:machine_casing:11>,
     [
@@ -798,6 +925,493 @@ makeShaped("uiv_alloy_smelter", <gregtech:machine:90>,
         "O": <ore:circuitUiv>,
         "P": <ore:cableGtSingleSunnarium>,
         "Q": <ore:wireGtQuadrupleEuropium>
+    });
+
+makeShaped("uiv_macerator", <gregtech:machine:75>,
+    [
+        "ABD",
+        "QQC",
+        "OOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "B": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "D": <gcys:meta_item_1:480>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_arc_furnace", <gregtech:machine:105>,
+    [
+        "QDQ",
+        "OCO",
+        "PPP"
+    ],
+    {
+        "C": <gregtech:machine:996>,
+        "D": <ore:dustGraphite>,
+        "O": <ore:circuitUiv>,
+        "P": <ore:plateAurorium>,
+        "Q": <ore:cableGtQuadrupleSunnarium>
+    });
+
+makeShaped("uiv_assembler", <gregtech:machine:120>,
+    [
+        "AOA",
+        "BCB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:197>,
+        "B": <gregtech:meta_item_1:167>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_autoclave", <gregtech:machine:135>,
+    [
+        "PGP",
+        "PCP",
+        "OAO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "P": <ore:plateAurorium>
+    });
+
+makeShaped("uiv_bending_machine", <gregtech:machine:150>,
+    [
+        "AQA",
+        "OCO",
+        "BPB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "B": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "P": <ore:plateAurorium>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_brewery", <gregtech:machine:165>,
+    [
+        "GAG",
+        "QCQ",
+        "OSO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "S": <ore:springCarbonNanotube>
+    });
+
+makeShaped("uiv_canning_machine", <gregtech:machine:180>,
+    [
+        "QAQ",
+        "OCO",
+        "GGG"
+    ],
+    {
+        "A": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_centrifuge", <gregtech:machine:195>,
+    [
+        "OAO",
+        "QCQ",
+        "OAO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_chemical_bath", <gregtech:machine:210>,
+    [
+        "AGQ",
+        "BGA",
+        "OCO"
+    ],{
+        "A": <gregtech:meta_item_1:167>,
+        "B": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_chemical_reactor", <gregtech:machine:225>,
+    [
+        "XRX",
+        "QAQ",
+        "OCO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "R": <ore:rotorAurorium>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "X": <ore:pipeHugeFluidPolybenzimidazole>
+    });
+
+makeShaped("uiv_compressor", <gregtech:machine:240>,
+    [
+        " O",
+        "ACA",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+    });
+
+makeShaped("uiv_cutting_machine", <gregtech:machine:255>,
+    [
+        "QOG",
+        "ACD",
+        "OQB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:167>,
+        "B": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+    });
+
+makeShaped("uiv_distillery", <gregtech:machine:270>,
+    [
+        "GSG",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "S": <ore:springCarbonNanotube>
+    });
+
+makeShaped("uiv_electrolyzer", <gregtech:machine:285>,
+    [
+        "QGQ",
+        "QCQ",
+        "OPO"
+    ],
+    {
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "P": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:wireGtSingleMercuryCadmiumTelluride>
+    });
+
+makeShaped("uiv_electromagnetic_separator", <gregtech:machine:300>,
+    [
+        "APQ",
+        "PCR",
+        "OPQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:167>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "P": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:wireGtOctalMithril>,
+        "R": <ore:stickLongVanadiumGallium>
+    });
+
+makeShaped("uiv_extractor", <gregtech:machine:315>,
+    [
+        "GOG",
+        "ACB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "B": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_extruder", <gregtech:machine:330>,
+    [
+        "QQO",
+        "ACL",
+        "QQO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "C": <gregtech:machine:996>,
+        "L": <ore:pipeLargeFluidDuranium>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:wireGtQuadrupleMercuryCadmiumTelluride>
+    });
+
+makeShaped("uiv_fermenter", <gregtech:machine:345>,
+    [
+        "QAQ",
+        "GCG",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_fluid_heater", <gregtech:machine:390>,
+    [
+        "QGQ",
+        "ACA",
+        "POP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "P": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:wireGtQuadrupleMercuryCadmiumTelluride>
+    });
+
+makeShaped("uiv_fluid_solidifier", <gregtech:machine:405>,
+    [
+        "AGA",
+        "QCQ",
+        "OEO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:152>,
+        "C": <gregtech:machine:996>,
+        "E": <ore:chestWood>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+    });
+
+makeShaped("uiv_forge_hammer", <gregtech:machine:420>,
+    [
+        "QWQ",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <minecraft:anvil>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "W": <gregtech:meta_item_1:182>
+    });
+
+makeShaped("uiv_forming_press", <gregtech:machine:435>,
+    [
+        "QAQ",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_lathe", <gregtech:machine:450>,
+    [
+        "QOQ",
+        "ACS",
+        "OQB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:137>,
+        "B": <gregtech:meta_item_1:182>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "S": <gcys:meta_item_1:480>
+    });
+
+makeShaped("uiv_scanner", <gregtech:machine:465>,
+    [
+        "OAO",
+        "QCQ",
+        "OBO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:227>,
+        "B": <gregtech:meta_item_1:242>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_mixer", <gregtech:machine:480>,
+    [
+        "GRG",
+        "GAG",
+        "OCO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "R": <ore:rotorAurorium>
+    });
+
+makeShaped("uiv_ore_washing_plant", <gregtech:machine:495>,
+    [
+        "RGR",
+        "OAO",
+        "QCQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "R": <ore:rotorAurorium>
+    });
+
+makeShaped("uiv_packager", <gregtech:machine:510>,
+    [
+        "WOW",
+        "ACB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:197>,
+        "B": <gregtech:meta_item_1:167>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "W": <ore:chestWood>
+    });
+
+makeShaped("uiv_polarizer", <gregtech:machine:555>,
+    [
+        "QRQ",
+        "PCP",
+        "QRQ"
+    ],
+    {
+        "C": <gregtech:machine:996>,
+        "P": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:wireGtOctalMithril>,
+        "R": <ore:stickLongVanadiumGallium>,
+    });
+
+makeShaped("uiv_precision_laser_engraver", <gregtech:machine:570>,
+    [
+        "ABA",
+        "OCO",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "B": <gregtech:meta_item_1:227>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_sifting_machine", <gregtech:machine:585>,
+    [
+        "QYQ",
+        "ACA",
+        "OYO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "Y": <gregtech:meta_item_1:291>
+    });
+
+makeShaped("uiv_thermal_centrifuge", <gregtech:machine:615>,
+    [
+        "OAO",
+        "QCQ",
+        "PAP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "P": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:wireGtQuadrupleMercuryCadmiumTelluride>
+    });
+
+makeShaped("uiv_wiremill", <gregtech:machine:630>,
+    [
+        "AQA",
+        "OCO",
+        "AQA"
+    ],
+    {
+        "A": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>,
+    });
+
+makeShaped("uiv_circuit_assembler", <gregtech:machine:645>,
+    [
+        "AOB",
+        "DCD",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:197>,
+        "B": <gregtech:meta_item_1:227>,
+        "C": <gregtech:machine:996>,
+        "D": <gregtech:meta_item_1:167>,
+        "O": <ore:circuitUiv>,
+        "Q": <ore:cableGtSingleSunnarium>
+    });
+
+makeShaped("uiv_rock_breaker", <gregtech:machine:675>,
+    [
+        "ABD",
+        "QCQ",
+        "GGG"
+    ],
+    {
+        "A": <gregtech:meta_item_1:182>,
+        "B": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "D": <gcys:meta_item_1:480>,
+        "G": <gcys:transparent_casing>,
+        "Q": <ore:cableGtSingleSunnarium>
     });
 
 #  UXV Machines
