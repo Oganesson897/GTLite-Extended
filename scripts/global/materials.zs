@@ -412,6 +412,21 @@ var neutron_plasma = MaterialBuilder(32035, "neutron_plasma")
 
 <material:neutron_plasma>.setFormula("n", false);
 
+#  32036 Lunarium
+var lunarium = MaterialBuilder(32036, "lunarium")
+    .ingot()
+    .fluid()
+    .color(0x779689)
+    .iconSet("bright")
+    .flags(["generate_plate",
+            "generate_foil",
+            "generate_fine_wire",
+            "generate_gear",
+            "generate_small_gear",
+            "generate_frame"])
+    .cableProperties(33554432, 32, 32, false)
+    .build();
+
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
     .fluid()

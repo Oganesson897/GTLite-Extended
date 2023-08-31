@@ -37,6 +37,15 @@ fusion_reactor.recipeBuilder()
     .buildAndRegister();
 
 fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:vibranium> * 144,
+                  <liquid:americium> * 144])
+    .fluidOutputs([<liquid:lunarium> * 144])
+    .property("eu_to_start", 460000000)
+    .EUt(2500000)
+    .duration(480)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
     .fluidInputs([<liquid:mithril> * 144,
                   <liquid:sunnarium> * 144])
     .fluidOutputs([<liquid:aurorium> * 144])
