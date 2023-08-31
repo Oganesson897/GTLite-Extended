@@ -101,7 +101,7 @@ var vibrant_alloy = MaterialBuilder(32006, "vibrant_alloy")
     .fluid()
     .color(0xa4ff70)
     .iconSet("shiny")
-    .flags(["generate_rod", "generate_frame"])
+    .flags(["generate_plate", "generate_rod", "generate_frame"])
     .components([<material:energetic_alloy> * 1,
                  <material:ender_pearl> * 1])
     .cableProperties(512, 1, 0, true)
@@ -344,7 +344,7 @@ var gluon = MaterialBuilder(32027, "gluon")
     .color(0xE00E88)
     .build();
 
-<material:gluon>.setFormula("g", true);
+<material:gluon>.setFormula("g", false);
 
 #  32028 Tachyon
 var tachyon = MaterialBuilder(32028, "tachyon")
@@ -352,7 +352,7 @@ var tachyon = MaterialBuilder(32028, "tachyon")
     .color(0x8CC8D6)
     .build();
 
-<material:tachyon>.setFormula("y", true);
+<material:tachyon>.setFormula("y", false);
 
 #  32029 Instanton
 var instanton = MaterialBuilder(32029, "instanton")
@@ -360,7 +360,7 @@ var instanton = MaterialBuilder(32029, "instanton")
     .color(0x09AC8D)
     .build();
 
-<material:instanton>.setFormula("i", true);
+<material:instanton>.setFormula("i", false);
 
 #  32030 Higgs
 var higgs = MaterialBuilder(32030, "higgs")
@@ -368,7 +368,7 @@ var higgs = MaterialBuilder(32030, "higgs")
     .color(0x609EA8)
     .build();
 
-<material:higgs>.setFormula("h", true);
+<material:higgs>.setFormula("h", false);
 
 #  32031 Quark Gluon Plasma
 var quark_gluon_plasma = MaterialBuilder(32031, "quark_gluon_plasma")
@@ -401,7 +401,15 @@ var sublight_plasma_jet = MaterialBuilder(32034, "sublight_plasma_jet")
     .color(0x11F7C9)
     .build();
 
-<material:sublight_plasma_jet>.setFormula("y", true);
+<material:sublight_plasma_jet>.setFormula("y", false);
+
+#  32035 Neutron Plasma
+var neutron_plasma = MaterialBuilder(32035, "neutron_plasma")
+    .fluid()
+    .color(0xEEE7E7)
+    .build();
+
+<material:neutron_plasma>.setFormula("n", false);
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")

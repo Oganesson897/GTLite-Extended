@@ -23,3 +23,4 @@ global fusion_reactor_mk_iv                                     as RecipeMap = R
 global fusion_reactor_mk_v                                      as RecipeMap = RecipeMap.getByName("fusion_reactor_mk_v");
 global fusion_reactor_mk_vi                                     as RecipeMap = RecipeMap.getByName("fusion_reactor_mk_vi");
 global mega_alloy_blast_smelter                                 as RecipeMap = RecipeMap.getByName("mega_alloy_blast_smelter");
+global plasma_condenser                                         as RecipeMap = RecipeMap.getByName("plasma_condenser");

@@ -386,4 +386,15 @@ var hyperdimensional_oscillating_matter = VanillaFactory.createItem("hyperdimens
     hyperdimensional_oscillating_matter.register(); 
 
 var qcd_charge = VanillaFactory.createBlock("qcd_charge", <blockmaterial:iron>);
+    qcd_charge.creativeTab = <creativetab:gregtech.main>;
     qcd_charge.register();
+
+var plasma_containment_cell = VanillaFactory.createItem("plasma_containment_cell");
+    plasma_containment_cell.maxStackSize = 16;
+    plasma_containment_cell.creativeTab = <creativetab:gregtech.main>;
+    plasma_containment_cell.register();
+
+var neutron_plasma_containment_cell = VanillaFactory.createItem("neutron_plasma_containment_cell");
+    neutron_plasma_containment_cell.maxStackSize = 16;
+    neutron_plasma_containment_cell.creativeTab = <creativetab:gregtech.main>;
+    neutron_plasma_containment_cell.register();

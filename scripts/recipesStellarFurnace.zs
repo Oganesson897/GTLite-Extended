@@ -16,7 +16,7 @@ stellar_furnace.recipeBuilder()
 #  Quark gluon plasma
 stellar_furnace.recipeBuilder()
     .inputs([<contenttweaker:qcd_charge>,
-             <ore:plateNeutronium>])
+             <ore:plateSunnarium>])
     .fluidOutputs([<liquid:quark_gluon_plasma> * 1000])
     .EUt(33554432)
     .duration(32768)
@@ -54,4 +54,22 @@ stellar_furnace.recipeBuilder()
     .fluidOutputs([<liquid:higgs> * 500])
     .EUt(33554432)
     .duration(32768)
+    .buildAndRegister();
+
+#  Plasma Containment Cell
+stellar_furnace.recipeBuilder()
+    .inputs([<gcys:meta_item_1:222>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 288])
+    .outputs([<contenttweaker:plasma_containment_cell>])
+    .EUt(524288)
+    .duration(512)
+    .buildAndRegister();
+
+#  Neutron Plasma
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <ore:plateMithril>])
+    .fluidOutputs([<liquid:neutron_plasma> * 1000])
+    .EUt(8388608)
+    .duration(8192)
     .buildAndRegister();

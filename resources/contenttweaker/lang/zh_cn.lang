@@ -99,3 +99,5 @@ tile.contenttweaker.fusion_coil_block_mk_v.name=次世代聚变线圈方块 Mk V
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹
+item.contenttweaker.plasma_containment_cell.name=等离子体遏制装置
+item.contenttweaker.neutron_plasma_containment_cell.name=中子等离子体遏制装置

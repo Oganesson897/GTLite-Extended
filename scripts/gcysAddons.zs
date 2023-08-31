@@ -387,3 +387,12 @@ assembly_line.recipeBuilder()
     .EUt(500000)
     .duration(3600)
     .buildAndRegister();
+
+#  Neutronium
+canner.recipeBuilder()
+    .inputs([<contenttweaker:plasma_containment_cell>])
+    .fluidInputs([<liquid:neutron_plasma> * 1000])
+    .outputs([<contenttweaker:neutron_plasma_containment_cell>])
+    .EUt(512)
+    .duration(1200)
+    .buildAndRegister();
