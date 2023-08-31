@@ -771,7 +771,7 @@ makeShaped("uiv_machine_hull", <gregtech:machine:996>,
         "K": <ore:plateKevlar>,
         "P": <ore:plateAurorium>,
         "C": <gregtech:machine_casing:11>,
-        "W": <ore:cableGtSingleRutheniumTriniumAmericiumNeutronate>
+        "W": <ore:cableGtSingleSunnarium>
     });
 
 makeShaped("uiv_electric_furnace", <gregtech:machine:60>,
@@ -783,7 +783,7 @@ makeShaped("uiv_electric_furnace", <gregtech:machine:60>,
     {
         "C": <gregtech:machine:996>,
         "O": <ore:circuitUiv>,
-        "P": <ore:cableGtSingleRutheniumTriniumAmericiumNeutronate>,
+        "P": <ore:cableGtSingleSunnarium>,
         "Q": <ore:wireGtDoubleEuropium>
     });
 
@@ -796,7 +796,7 @@ makeShaped("uiv_alloy_smelter", <gregtech:machine:90>,
     {
         "C": <gregtech:machine:996>,
         "O": <ore:circuitUiv>,
-        "P": <ore:cableGtSingleRutheniumTriniumAmericiumNeutronate>,
+        "P": <ore:cableGtSingleSunnarium>,
         "Q": <ore:wireGtQuadrupleEuropium>
     });
 

@@ -1,15 +1,5 @@
 import mods.gregtech.recipe.RecipeMap;
 
-#  Need remove in future version
-fusion_reactor.recipeBuilder()
-    .fluidInputs([<liquid:darmstadtium> * 144,
-                  <liquid:naquadria> * 144])
-    .fluidOutputs([<liquid:neutronium> * 32])
-    .property("eu_to_start", 600000000)
-    .EUt(92160)
-    .duration(200)
-    .buildAndRegister();
-
 fusion_reactor.recipeBuilder()
     .fluidInputs([<liquid:orichalcum> * 512,
                   <liquid:neutronium> * 512])

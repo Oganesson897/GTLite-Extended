@@ -4660,3 +4660,110 @@ var mega_alloy_blast_smelter = Builder.start("mega_alloy_blast_smelter")
     )
     .withBaseTexture(<metastate:gcym:large_multiblock_casing:1>)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:2001> * 4,
+             <contenttweaker:control_circuit_uv> * 4,
+             <gcym:unique_casing:3> * 4,
+             <ore:gearRuridit> * 8,
+             <ore:ringOsmiridium> * 16,
+             <ore:roundOsmiridium> * 16,
+             <ore:foilOsmiridium> * 64,
+             <ore:cableGtQuadrupleYttriumBariumCuprate> * 4])
+    .fluidInputs([<liquid:lubricant> * 3000,
+                  <liquid:polyetheretherketone> * 2000,
+                  <liquid:naquadria> * 1000])
+    .outputs([<gregtech:machine:32020>])
+    .EUt(131072)
+    .duration(60000)
+    .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var plasma_condenser = Builder.start("plasma_condenser")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "CCCCC",
+                "CCCCC",
+                "GGGGG",
+                "GGGGG",
+                "GGGGG",
+                "GGGGG",
+                "DDDDD",
+                "DDDDD")
+            .aisle(
+                "CCCCC",
+                "CCCCC",
+                "GBBBG",
+                "GBBBG",
+                "GBBBG",
+                "GBBBG",
+                "DDDDD",
+                "DDDDD")
+            .aisle(
+                "CCCCC",
+                "CCCCC",
+                "GBBBG",
+                "GB BG",
+                "GB BG",
+                "GBBBG",
+                "DDDDD",
+                "DDDDD")
+            .aisle(
+                "CCCCC",
+                "CCCCC",
+                "GBBBG",
+                "GBBBG",
+                "GBBBG",
+                "GBBBG",
+                "DDDDD",
+                "DDDDD")
+            .aisle(
+                "CCCCC",
+                "CCOCC",
+                "GGGGG",
+                "GGGGG",
+                "GGGGG",
+                "GGGGG",
+                "DDDDD",
+                "DDDDD")
+            .where("O", controller.self())
+            .where("B", <blockstate:contenttweaker:stellar_containment_casing>)
+            .where("D", <blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
+            .where("G", <blockstate:gcys:transparent_casing>)
+            .where("C", CTPredicate.states(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("plasma_condenser")
+            .minInputs(1)
+            .maxInputs(1)
+            .minFluidInputs(1)
+            .maxFluidInputs(1)
+            .minOutputs(1)
+            .maxOutputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
+    .buildAndRegister();                       
