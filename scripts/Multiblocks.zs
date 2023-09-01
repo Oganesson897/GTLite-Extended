@@ -1918,7 +1918,7 @@ val stellar_furnace = Builder.start("stellar_furnace")
                 "      CCC      ",
                 "               ")
             .where("S", controller.self())
-            .where("M", <metastate:gregtech:fusion_casing:4>)
+            .where("M", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
             .where("X", <blockstate:contenttweaker:stellar_containment_casing>)
             .where("F", <blockstate:contenttweaker:ultimate_fusion_binding_unit>)
             .where("C", CTPredicate.states(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)

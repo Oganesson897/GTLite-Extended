@@ -144,22 +144,6 @@ centrifuge.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
-#  QCD charge
-assembler.recipeBuilder()
-    .inputs([<ore:frameGtVibranium>,
-             <gregtech:meta_item_1:211> * 4,
-             <gregtech:meta_item_1:460> * 64,
-             <gregtech:meta_item_1:460> * 64,
-             <gregtech:meta_item_1:498> * 64,
-             <gregtech:meta_item_1:498> * 64,
-             <gregtech:meta_item_1:498> * 64,
-             <gregtech:meta_item_1:498> * 64])
-    .fluidInputs([<liquid:heavy_enriched_taranium_fuel> * 65536])
-    .outputs([<contenttweaker:qcd_charge>])
-    .EUt(33554432)
-    .duration(1600)
-    .buildAndRegister();
-
 #  Separation Electromagnet
 assembler.recipeBuilder()
     .inputs([<ore:stickLongVanadiumGallium>,
@@ -454,3 +438,5 @@ mixer.recipeBuilder()
     .EUt(2097152)
     .duration(360)
     .buildAndRegister();
+
+#  QCD charge
