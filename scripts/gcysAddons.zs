@@ -51,10 +51,8 @@ assembly_line.recipeBuilder()
              <contenttweaker:ultrashort_pulse_laser> * 2,
              <gcys:meta_item_1:223>,
              <contenttweaker:scintillator>])
-    .fluidInputs([<liquid:soldering_alloy> * 16384,
-                  <liquid:zylon> * 16384,
-                  <liquid:thorium> * 8192,
-                  <liquid:plasma.adamantium> * 8192])
+    .fluidInputs([<liquid:soldering_alloy> * 288,
+                  <liquid:thorium> * 144])
     .outputs([<contenttweaker:nuclear_clock>])
     .EUt(33550000)
     .duration(1600)
@@ -62,23 +60,15 @@ assembly_line.recipeBuilder()
 
 #  cosmic cpu unit
 assembly_line.recipeBuilder()
-    .inputs([<ore:frameGtAurorium> * 4,
-             <gregtech:meta_item_1:705> * 32,
-             <gregtech:meta_item_1:599> * 64,
-             <gregtech:meta_item_1:599> * 64,
-             <ore:circuitUxv> * 16,
-             <ore:circuitUiv> * 16,
-             <ore:circuitUev> * 8,
-             <ore:circuitUhv> * 8,
-             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 64,
-             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 64])
-    .fluidInputs([<liquid:cosmic_computing_mixture> * 65536,
-                  <liquid:sunnarium> * 65536,
-                  <liquid:adamantium> * 65536,
-                  <liquid:vibranium> * 65536])
+    .inputs([<gcys:meta_item_1:402>,
+             <ore:frameGtAurorium> * 4,
+             <gcys:meta_item_1:133> * 2,
+             <ore:wireFineLunarium> * 16])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 288,
+                  <liquid:zylon> * 288])
     .outputs([<contenttweaker:cosmic_cpu_unit>])
     .EUt(33554432)
-    .duration(20000)
+    .duration(6000)
     .buildAndRegister();
 
 #  cosmic cpu
@@ -89,21 +79,18 @@ assembly_line.recipeBuilder()
              <gcys:meta_item_1:181>,
              <gcys:meta_item_1:223>,
              <contenttweaker:nuclear_clock>,
-             <ore:foilFullerene> * 64,
-             <ore:foilFullerene> * 64,
-             <ore:cableGtSingleRutheniumTriniumAmericiumNeutronate> * 32])
-    .fluidInputs([<liquid:soldering_alloy> * 65536,
-                  <liquid:zylon> * 65536,
-                  <liquid:kevlar> * 32768,
-                  <liquid:polyetheretherketone> * 16384])
+             <ore:foilFullerene> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576,
+                  <liquid:kevlar> * 288,
+                  <liquid:polyetheretherketone> * 144])
     .outputs([<contenttweaker:cosmic_cpu>])
     .EUt(33554432)
-    .duration(40000)
+    .duration(9000)
     .buildAndRegister();
 
 #  Cosmic SMD
 assembler.recipeBuilder()
-    .inputs([<ore:cableGtSingleRutheniumTriniumAmericiumNeutronate> * 2,
+    .inputs([<ore:cableGtSingleSunnarium> * 2,
              <ore:plateFullerene>])
     .fluidInputs([<liquid:zylon> * 36])
     .outputs([<contenttweaker:cosmic_capacitor> * 16])
@@ -113,7 +100,7 @@ assembler.recipeBuilder()
 
 assembler.recipeBuilder()
     .inputs([<ore:dustAurorium>,
-             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 4])
+             <ore:wireFineLunarium> * 4])
     .fluidInputs([<liquid:zylon> * 36])
     .outputs([<contenttweaker:cosmic_diode> * 16])
     .EUt(33554432)
@@ -130,7 +117,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs([<ore:wireFineRutheniumTriniumAmericiumNeutronate> * 4,
+    .inputs([<ore:wireFineLunarium> * 4,
              <ore:plateSunnarium>])
     .fluidInputs([<liquid:zylon> * 36])
     .outputs([<contenttweaker:cosmic_transistor> * 16])
@@ -139,7 +126,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs([<ore:ringRutheniumTriniumAmericiumNeutronate>,
+    .inputs([<ore:ringAurorium>,
              <ore:wireFineMithril> * 4])
     .fluidInputs([<liquid:zylon> * 36])
     .outputs([<contenttweaker:cosmic_inductor> * 16])
@@ -207,14 +194,10 @@ forming_press.recipeBuilder()
 
 #  Scintillator
 large_chemical_reactor.recipeBuilder()
-    .inputs([<contenttweaker:scintillator_crystal>,
-             <contenttweaker:separation_electromagnet>,
-             <gcys:meta_item_1:130> * 4])
-    .fluidInputs([<liquid:zylon> * 1028,
-                  <liquid:polyetheretherketone> * 1028,
-                  <liquid:polymethylmethacrylate> * 1028,
-                  <liquid:pedot_tma> * 1028,
-                  <liquid:pedot_pss> * 1028])
+    .inputs([<contenttweaker:separation_electromagnet>,
+             <contenttweaker:scintillator_crystal>,
+             <gcys:meta_item_1:130>])
+    .fluidInputs([<liquid:zylon> * 288])
     .outputs([<contenttweaker:scintillator>])
     .EUt(8388608)
     .duration(3600)
@@ -262,8 +245,21 @@ circuit_assembler.recipeBuilder()
              <contenttweaker:cosmic_resistor> * 8,
              <contenttweaker:cosmic_capacitor> * 8,
              <contenttweaker:cosmic_transistor> * 8,
-             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 8])
-    .fluidInputs([<liquid:tin> * 144])
+             <ore:wireFineLunarium> * 8])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<gcys:meta_item_1:12> * 2])
+    .EUt(33554432)
+    .duration(200)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:cosmic_cpu>,
+             <gregtech:meta_item_1:705>,
+             <contenttweaker:cosmic_resistor> * 8,
+             <contenttweaker:cosmic_capacitor> * 8,
+             <contenttweaker:cosmic_transistor> * 8,
+             <ore:wireFineLunarium> * 8])
+    .fluidInputs([<liquid:tin> * 288])
     .outputs([<gcys:meta_item_1:12> * 2])
     .EUt(33554432)
     .duration(200)
@@ -271,21 +267,70 @@ circuit_assembler.recipeBuilder()
 
 #  Cosmic assembly
 circuit_assembler.recipeBuilder()
-    .inputs([<contenttweaker:nuclear_clock>,
+    .inputs([<contenttweaker:cosmic_cpu_unit>,
              <gcys:meta_item_1:12> * 2,
              <contenttweaker:cosmic_inductor> * 6,
              <contenttweaker:cosmic_capacitor> * 6,
              <contenttweaker:flexible_piezoelectric_cpu_chip> * 24,
-             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 16])
-    .fluidInputs([<liquid:tin> * 288])
+             <ore:wireFineLunarium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 288])
+    .outputs([<gcys:meta_item_1:13> * 2])
+    .EUt(33554432)
+    .duration(400)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:cosmic_cpu_unit>,
+             <gcys:meta_item_1:12> * 2,
+             <contenttweaker:cosmic_inductor> * 6,
+             <contenttweaker:cosmic_capacitor> * 6,
+             <contenttweaker:flexible_piezoelectric_cpu_chip> * 24,
+             <ore:wireFineLunarium> * 16])
+    .fluidInputs([<liquid:tin> * 576])
     .outputs([<gcys:meta_item_1:13> * 2])
     .EUt(33554432)
     .duration(400)
     .buildAndRegister();
 
 #  Cosmic computer
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:cosmic_cpu_unit>,
+             <gcys:meta_item_1:13> * 2,
+             <contenttweaker:cosmic_diode> * 16,
+             <contenttweaker:flexible_piezoelectric_cpu_chip> * 64,
+             <ore:wireFineLunarium> * 64,
+             <ore:foilMithril> * 64,
+             <ore:plateAurorium> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 17280,
+                  <liquid:zylon> * 9216,
+                  <liquid:kevlar> * 4608,
+                  <liquid:polyetheretherketone> * 2304])
+    .outputs([<gcys:meta_item_1:14>])
+    .EUt(33554432)
+    .duration(40000)
+    .buildAndRegister();
 
 #  Cosmic mainframe
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAurorium> * 2,
+             <gcys:meta_item_1:14> * 2,
+             <contenttweaker:cosmic_diode> * 64,
+             <contenttweaker:cosmic_capacitor> * 64,
+             <contenttweaker:cosmic_transistor> * 64,
+             <contenttweaker:cosmic_resistor> * 64,
+             <contenttweaker:cosmic_inductor> * 64,
+             <ore:foilMithril> * 64,
+             <contenttweaker:flexible_piezoelectric_cpu_chip> * 64,
+             <ore:wireGtDoubleAurorium> * 64,
+             <ore:plateAurorium> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 21888,
+                  <liquid:zylon> * 17280,
+                  <liquid:kevlar> * 8640,
+                  <liquid:polyetheretherketone> * 4608])
+    .outputs([<gcys:meta_item_1:15>])
+    .EUt(134217728)
+    .duration(24000)
+    .buildAndRegister();
 
 #  Zylon pulp
 chemical_reactor.recipeBuilder()
