@@ -396,3 +396,16 @@ canner.recipeBuilder()
     .EUt(512)
     .duration(1200)
     .buildAndRegister();
+
+#  Austenite steel
+mixer.recipeBuilder()
+    .inputs([<ore:dustNaquadahAlloy> * 14,
+             <ore:dustNiobiumTitanium> * 6,
+             <ore:dustVanadiumGallium> * 4,
+             <ore:dustHsse> * 4,
+             <ore:dustUraniumTriplatinum> * 2,
+             <ore:dustNiobiumNitride>])
+    .outputs([<gregtech:meta_dust:32037> * 31])
+    .EUt(2097152)
+    .duration(360)
+    .buildAndRegister();

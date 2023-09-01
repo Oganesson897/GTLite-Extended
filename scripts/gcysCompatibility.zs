@@ -509,7 +509,7 @@ assembly_line.recipeBuilder()
         <gregtech:meta_item_1:181>,
         <ore:circuitUev>,
         <ore:circuitUhv> * 2,
-        <ore:circuitZpm> * 4,
+        <ore:circuitUv> * 4,
         <ore:cableGtSinglePedotTma> * 4])
     .fluidInputs([<liquid:soldering_alloy> * 3456,
                   <liquid:lubricant> * 3000,
@@ -542,7 +542,7 @@ assembly_line.recipeBuilder()
              <gregtech:meta_item_1:136>,
              <ore:stickLongHdcs> * 4,
              <gregtech:meta_item_1:283> * 2,
-             <ore:circuitUhv>,
+             <ore:circuitUev> * 2,
              <ore:foilMithril> * 64,
              <ore:foilMithril> * 32,
              <ore:cableGtSinglePedotTma> * 4])
@@ -887,7 +887,7 @@ assembler.recipeBuilder()
     .EUt(16)
     .duration(50)
     .buildAndRegister();
-    
+
 makeShaped("uiv_machine_hull", <gregtech:machine:996>,
     [
         "   ",
@@ -1381,7 +1381,7 @@ makeShaped("uiv_wiremill", <gregtech:machine:630>,
         "A": <gregtech:meta_item_1:137>,
         "C": <gregtech:machine:996>,
         "O": <ore:circuitUiv>,
-        "Q": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:cableGtSingleSunnarium>
     });
 
 makeShaped("uiv_circuit_assembler", <gregtech:machine:645>,
@@ -1444,11 +1444,11 @@ makeShaped("uxv_alloy_smelter", <gregtech:machine:91>,
 #  UIV Components
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongSuperconductingMagnetMixture>,
-             <ore:stickLongAurorium> * 4,
-             <ore:ringAurorium> * 4,
-             <ore:roundAurorium> * 8,
-             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 64,
-             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 64,
+             <ore:stickLongAusteniteSteel> * 4,
+             <ore:ringAusteniteSteel> * 4,
+             <ore:roundAusteniteSteel> * 8,
+             <ore:wireFineLunarium> * 64,
+             <ore:wireFineLunarium> * 64,
              <ore:cableGtSingleSunnarium> * 2])
     .fluidInputs([<liquid:soldering_alloy> * 2304,
                   <liquid:lubricant> * 5000,
@@ -1456,5 +1456,125 @@ assembly_line.recipeBuilder()
                   <liquid:polyetheretherketone> * 288])
     .outputs([<gregtech:meta_item_1:137>])
     .EUt(8000000)
-    .duration(1200)
+    .duration(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:137>,
+             <ore:plateAusteniteSteel> * 4,
+             <ore:ringAusteniteSteel> * 4,
+             <ore:roundAusteniteSteel> * 16,
+             <ore:stickAusteniteSteel> * 4,
+             <ore:gearLunarium>,
+             <ore:gearSmallLunarium> * 2,
+             <ore:cableGtSingleSunnarium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 2304,
+                  <liquid:lubricant> * 5000,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:182>])
+    .EUt(8000000)
+    .duration(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:137>,
+             <gregtech:hermetic_casing:8> * 2,
+             <ore:plateAusteniteSteel> * 2,
+             <ore:screwAusteniteSteel> * 8,
+             <ore:ringSiliconeRubber> * 48,
+             <ore:rotorAurorium>,
+             <ore:cableGtSingleSunnarium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1152,
+                  <liquid:lubricant> * 3000,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:152>])
+    .EUt(8000000)
+    .duration(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:137> * 2,
+             <ore:plateAusteniteSteel> * 2,
+             <ore:ringAusteniteSteel> * 4,
+             <ore:roundAusteniteSteel> * 16,
+             <ore:screwAusteniteSteel> * 4,
+             <ore:cableGtSingleSunnarium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 2304,
+                  <liquid:lubricant> * 5000,
+                  <liquid:zylon> * 432,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<gregtech:meta_item_1:167>])
+    .EUt(8000000)
+    .duration(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAusteniteSteel>,
+             <gregtech:meta_item_1:137>,
+             <ore:stickLongAusteniteSteel> * 4,
+             <gregtech:meta_item_1:283> * 4,
+             <ore:circuitUiv> * 2,
+             <ore:foilLunarium> * 64,
+             <ore:foilLunarium> * 32,
+             <ore:cableGtSingleSunnarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 3456,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:227>])
+    .EUt(8000000)
+    .duration(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAusteniteSteel>,
+             <gregtech:meta_item_1:137>,
+             <ore:plateAusteniteSteel> * 4,
+             <gregtech:meta_item_1:283> * 4,
+             <ore:circuitUiv> * 2,
+             <ore:foilLunarium> * 64,
+             <ore:foilLunarium> * 64,
+             <ore:cableGtSingleLunarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 3456,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:242>])
+    .EUt(8000000)
+    .duration(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongAusteniteSteel> * 4,
+             <ore:gearLunarium>,
+             <ore:gearSmallLunarium> * 3,
+             <gregtech:meta_item_1:137> * 2,
+             <gregtech:meta_item_1:182>,
+             <ore:circuitUiv>,
+             <ore:circuitUev> * 2,
+             <ore:circuitUhv> * 4,
+             <ore:cableGtSingleSunnarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 5184,
+                  <liquid:lubricant> * 5000,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:197>])
+    .EUt(8000000)
+    .duration(1800)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAusteniteSteel>,
+             <ore:plateAusteniteSteel> * 6,
+             <gregtech:meta_item_1:283> * 8,
+             <gregtech:meta_item_1:227> * 2,
+             <ore:circuitUiv>,
+             <ore:wireFineMithril> * 64,
+             <ore:wireFineMithril> * 64,
+             <ore:cableGtSingleLunarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:212>])
+    .EUt(8000000)
+    .duration(1800)
     .buildAndRegister();

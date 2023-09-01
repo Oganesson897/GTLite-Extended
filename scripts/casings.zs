@@ -200,19 +200,15 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
-    .inputs([<ore:frameGtAurorium> * 16,
-             <ore:springCarbonNanotube> * 16,
-             <ore:circuitUiv> * 16,
-             <ore:circuitUev> * 8,
-             <ore:circuitUhv> * 4,
-             <ore:circuitUv> * 2,
-             <ore:ringHdcs> * 32,
-             <ore:roundHdcs> * 64,
-             <ore:screwHdcs> * 64])
-    .fluidInputs([<liquid:ruthenium_trinium_americium_neutronate> * 1152,
-                  <liquid:kevlar> * 576,
-                  <liquid:polyetheretherketone> * 576,
-                  <liquid:sunnarium> * 288])
+    .inputs([<ore:frameGtAurorium>,
+             <ore:springCarbonNanotube> * 2,
+             <ore:circuitUiv> * 4,
+             <contenttweaker:control_circuit_uv> * 4,
+             <ore:ringHdcs> * 8,
+             <ore:roundHdcs> * 8,
+             <ore:screwHdcs> * 16])
+    .fluidInputs([<liquid:kevlar> * 576,
+                  <liquid:polyetheretherketone> * 576])
     .outputs([<contenttweaker:stellar_containment_casing>])
     .EUt(33554432)
     .duration(131072)
