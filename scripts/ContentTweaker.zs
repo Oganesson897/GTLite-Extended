@@ -297,6 +297,11 @@ var heart_of_universe = VanillaFactory.createItem("heart_of_universe");
     heart_of_universe.creativeTab = <creativetab:gregtech.main>;
     heart_of_universe.register();
 
+var ultimate_nether_star = VanillaFactory.createItem("ultimate_nether_star");
+    ultimate_nether_star.maxStackSize = 64;
+    ultimate_nether_star.creativeTab = <creativetab:gregtech.main>;
+    ultimate_nether_star.register();
+
 #  Fuel rod
 var empty_fuel_rod = VanillaFactory.createItem("empty_fuel_rod");
     empty_fuel_rod.maxStackSize = 64;

@@ -41719,12 +41719,7 @@
     },
     "689:10": {
       "preRequisites:11": [
-        730,
-        731,
-        732,
-        733,
-        734,
-        831
+        732
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -41879,7 +41874,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 1,
+          "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "水晶矩阵",
@@ -41907,7 +41902,7 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 32019,
-              "OreDict:8": "ingotCrystalMatrix",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
           },
@@ -41949,7 +41944,8 @@
     },
     "693:10": {
       "preRequisites:11": [
-        691
+        691,
+        838
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43455,7 +43451,8 @@
     },
     "730:10": {
       "preRequisites:11": [
-        770
+        731,
+        734
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43464,21 +43461,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 78,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1",
-            "tag:10": {
-              "Fluid:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "heavy_lepton_mixture"
-              }
-            }
+            "id:8": "contenttweaker:neutron_plasma_containment_cell"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "重轻子混合物",
+          "name:8": "中子等离子体遏制装置",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -43498,20 +43489,23 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "heavy_lepton_mixture"
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:neutron_plasma_containment_cell"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
     "731:10": {
       "preRequisites:11": [
-        767,
-        766
+        632,
+        689
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43520,21 +43514,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 78,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1",
-            "tag:10": {
-              "Fluid:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "heavy_quark"
-              }
-            }
+            "id:8": "contenttweaker:plasma_containment_cell"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "重夸克",
+          "name:8": "等离子体遏制装置",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -43554,19 +43542,22 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "heavy_quark"
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:plasma_containment_cell"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
     "732:10": {
       "preRequisites:11": [
-        767,
+        733,
         766
       ],
       "properties:10": {
@@ -43590,7 +43581,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "胶子",
+          "name:8": "婴儿般的一小步",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -43617,12 +43608,83 @@
             }
           },
           "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "heavy_quark"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "heavy_lepton_mixture"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "higgs"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "4:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 4,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "instanton"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "5:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 5,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "tachyon"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
     "733:10": {
       "preRequisites:11": [
-        771
+        687,
+        768
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43637,7 +43699,7 @@
             "tag:10": {
               "Fluid:10": {
                 "Amount:3": 1000,
-                "FluidName:8": "tachyon"
+                "FluidName:8": "sublight_plasma_jet"
               }
             }
           },
@@ -43645,7 +43707,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "速子",
+          "name:8": "见微知著",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -43668,7 +43730,21 @@
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
-              "FluidName:8": "tachyon"
+              "FluidName:8": "lepton_mixture"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sublight_plasma_jet"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -43677,7 +43753,8 @@
     },
     "734:10": {
       "preRequisites:11": [
-        770
+        687,
+        768
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -43692,7 +43769,7 @@
             "tag:10": {
               "Fluid:10": {
                 "Amount:3": 1000,
-                "FluidName:8": "instanton"
+                "FluidName:8": "neutron_plasma"
               }
             }
           },
@@ -43700,7 +43777,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "瞬子",
+          "name:8": "中子等离子体",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -43723,7 +43800,7 @@
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
-              "FluidName:8": "instanton"
+              "FluidName:8": "neutron_plasma"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -44241,7 +44318,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "电动马达（OpV）",
@@ -44293,7 +44370,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "传送带（OpV）",
@@ -44345,7 +44422,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "机械臂（OpV）",
@@ -44397,7 +44474,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "力场发生器（OpV）",
@@ -44449,7 +44526,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "传感器（OpV）",
@@ -44501,7 +44578,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "电力活塞（OpV）",
@@ -44553,7 +44630,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "电动泵（OpV）",
@@ -44605,7 +44682,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "发射器（OpV）",
@@ -44796,9 +44873,7 @@
       }
     },
     "755:10": {
-      "preRequisites:11": [
-        756
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -44808,13 +44883,13 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "contenttweaker:singularity_of_universe"
+            "id:8": "minecraft:nether_star"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§5宇宙之心",
+          "name:8": "New Quest",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -44827,64 +44902,10 @@
       },
       "questID:3": 755,
       "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "contenttweaker:singularity_of_universe"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "contenttweaker:heart_container"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 2,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "contenttweaker:heart_of_universe"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
+      "tasks:9": {}
     },
     "756:10": {
-      "preRequisites:11": [
-        757
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -44892,15 +44913,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 33,
+            "Damage:2": 32038,
             "OreDict:8": "",
-            "id:8": "extendedcrafting:material"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "婴儿般的一小步",
+          "name:8": "宇宙中子素",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -44924,9 +44945,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 33,
+              "Damage:2": 32038,
               "OreDict:8": "",
-              "id:8": "extendedcrafting:material"
+              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -44935,7 +44956,7 @@
     },
     "757:10": {
       "preRequisites:11": [
-        758
+        756
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -44946,13 +44967,13 @@
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "extendedcrafting:singularity_ultimate"
+            "id:8": "contenttweaker:motor_max"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "终极奇点",
+          "name:8": "电动马达（MAX）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -44978,7 +44999,7 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "extendedcrafting:singularity_ultimate"
+              "id:8": "contenttweaker:motor_max"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -44986,7 +45007,9 @@
       }
     },
     "758:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        757
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -44994,15 +45017,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 5,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "avaritia:resource"
+            "id:8": "contenttweaker:piston_max"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "无尽催化剂",
+          "name:8": "电力活塞（MAX）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45015,46 +45038,28 @@
       },
       "questID:3": 758,
       "rewards:9": {},
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 5,
-              "OreDict:8": "",
-              "id:8": "avaritia:resource"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
+      "tasks:9": {}
     },
     "759:10": {
       "preRequisites:11": [
-        755
+        758
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§e能量§r了。",
+          "desc:8": "No Description",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1650,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:machine"
+            "id:8": "contenttweaker:robot_arm_max"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§e掌控能量",
+          "name:8": "机械臂（MAX）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45066,20 +45071,7 @@
         }
       },
       "questID:3": 759,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_hoe"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45091,9 +45083,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1650,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:machine"
+              "id:8": "contenttweaker:robot_arm_max"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -45102,24 +45094,24 @@
     },
     "760:10": {
       "preRequisites:11": [
-        755
+        757
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§9知识§r了。",
+          "desc:8": "No Description",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1406,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:machine"
+            "id:8": "contenttweaker:conveyor_module_max"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§9掌控知识",
+          "name:8": "传送带（MAX）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45131,20 +45123,7 @@
         }
       },
       "questID:3": 760,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_bow"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45156,9 +45135,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1406,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:machine"
+              "id:8": "contenttweaker:conveyor_module_max"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -45167,24 +45146,24 @@
     },
     "761:10": {
       "preRequisites:11": [
-        755
+        757
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§c力量§r了。",
+          "desc:8": "No Description",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 2102,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:machine"
+            "id:8": "contenttweaker:emitter_max"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§c掌控力量",
+          "name:8": "发射器（MAX）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45196,20 +45175,7 @@
         }
       },
       "questID:3": 761,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_sword"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45221,9 +45187,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 2102,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:machine"
+              "id:8": "contenttweaker:emitter_max"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -45232,24 +45198,24 @@
     },
     "762:10": {
       "preRequisites:11": [
-        755
+        757
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你现在拥有§a无§b穷§c无§d尽§e§r的§b流质§r了。",
+          "desc:8": "No Description",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1669,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:machine"
+            "id:8": "contenttweaker:electric_pump_max"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§b掌控流质",
+          "name:8": "电动泵（MAX）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45261,28 +45227,7 @@
         }
       },
       "questID:3": 762,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_pickaxe",
-              "tag:10": {
-                "ench:9": {
-                  "0:10": {
-                    "id:2": 35,
-                    "lvl:2": 10
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45294,9 +45239,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1669,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:machine"
+              "id:8": "contenttweaker:electric_pump_max"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -45305,27 +45250,24 @@
     },
     "763:10": {
       "preRequisites:11": [
-        759,
-        760,
-        761,
-        762
+        761
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§d你赢了。\n\n\n恭喜你通关了§aGTLite§r§r§d，这个整合包的旅程到此结束。",
+          "desc:8": "No Description",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 1668,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:machine"
+            "id:8": "contenttweaker:field_generator_max"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§d掌控物质",
+          "name:8": "力场发生器（MAX）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45337,38 +45279,7 @@
         }
       },
       "questID:3": 763,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_helmet"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_chestplate"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_pants"
-            },
-            "3:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "avaritia:infinity_boots"
-            }
-          }
-        }
-      },
+      "rewards:9": {},
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45380,9 +45291,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 1668,
+              "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "gregtech:machine"
+              "id:8": "contenttweaker:field_generator_max"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -45546,8 +45457,8 @@
     },
     "767:10": {
       "preRequisites:11": [
-        687,
-        768
+        770,
+        831
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45556,21 +45467,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 78,
+            "Damage:2": 32131,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1",
-            "tag:10": {
-              "Fluid:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "quark_gluon_plasma"
-              }
-            }
+            "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "夸克-胶子等离子体",
+          "name:8": "六硝基六轴异伍兹烷",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45590,19 +45495,22 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "quark_gluon_plasma"
+              "Count:3": 1,
+              "Damage:2": 32131,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
     "768:10": {
       "preRequisites:11": [
-        741
+        767
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45707,8 +45615,8 @@
     },
     "770:10": {
       "preRequisites:11": [
-        687,
-        768
+        771,
+        848
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45717,21 +45625,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 78,
+            "Damage:2": 32132,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1",
-            "tag:10": {
-              "Fluid:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "lepton_mixture"
-              }
-            }
+            "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "轻子等离子体聚合体",
+          "name:8": "粗制六硝基六氧杂纤锌烷",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45751,20 +45653,23 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "lepton_mixture"
+              "Count:3": 1,
+              "Damage:2": 32132,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
     "771:10": {
       "preRequisites:11": [
-        687,
-        768
+        841,
+        850
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -45773,21 +45678,15 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 78,
+            "Damage:2": 32133,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1",
-            "tag:10": {
-              "Fluid:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "sublight_plasma_jet"
-              }
-            }
+            "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "亚光速等离子体喷流",
+          "name:8": "四乙酰二硝基六氮杂异戊二烯",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -45807,13 +45706,16 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "sublight_plasma_jet"
+              "Count:3": 1,
+              "Damage:2": 32133,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -49073,8 +48975,7 @@
     },
     "831:10": {
       "preRequisites:11": [
-        768,
-        687
+        179
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -49089,7 +48990,7 @@
             "tag:10": {
               "Fluid:10": {
                 "Amount:3": 1000,
-                "FluidName:8": "higgs"
+                "FluidName:8": "ethylenediamine"
               }
             }
           },
@@ -49097,7 +48998,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "希格斯玻色子",
+          "name:8": "乙二胺",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -49120,7 +49021,7 @@
           "requiredFluids:9": {
             "0:10": {
               "Amount:3": 1000,
-              "FluidName:8": "higgs"
+              "FluidName:8": "ethylenediamine"
             }
           },
           "taskID:8": "bq_standard:fluid"
@@ -49449,6 +49350,984 @@
             }
           },
           "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "838:10": {
+      "preRequisites:11": [
+        839,
+        730
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 127,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_ingot"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "中子素",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 838,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 127,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "839:10": {
+      "preRequisites:11": [
+        651
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32021,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "等离子冷凝器",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 839,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32021,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "840:10": {
+      "preRequisites:11": [
+        544
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32135,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "六苄基六氮杂异伍兹烷",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 840,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32135,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "841:10": {
+      "preRequisites:11": [
+        840,
+        842
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32134,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "二苄基四乙酰六氮杂异纤锌烷",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 841,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32134,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "842:10": {
+      "preRequisites:11": [
+        845,
+        623
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32138,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "琥珀酰亚胺基乙酸酯",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 842,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32138,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "843:10": {
+      "preRequisites:11": [
+        761
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:sensor_max"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "传感器（MAX）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 843,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:sensor_max"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "844:10": {
+      "preRequisites:11": [
+        757
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:placeholder"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "你在MAX阶段要做的事情",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 844,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "845:10": {
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32139,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "N-羟基丁二酰亚胺",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 845,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32139,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "846:10": {
+      "preRequisites:11": [
+        844
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1669,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "创造模式量子缸",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 846,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1669,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "847:10": {
+      "preRequisites:11": [
+        854
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1668,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "创造模式量子箱",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 847,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1668,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "848:10": {
+      "preRequisites:11": [
+        849,
+        378
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32136,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "四氟硝铵",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 848,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32136,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "849:10": {
+      "preRequisites:11": [
+        205
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 78,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_item_1",
+            "tag:10": {
+              "Fluid:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "boron_trichloride"
+              }
+            }
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "三氯化硼",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 849,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "boron_trichloride"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
+    },
+    "850:10": {
+      "preRequisites:11": [
+        219
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32137,
+            "OreDict:8": "",
+            "id:8": "gregtech:meta_dust"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "四氟合硼酸亚硝铵",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 850,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32137,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "851:10": {
+      "preRequisites:11": [
+        855
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1650,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "创造模式能量单元",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 851,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1650,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "852:10": {
+      "preRequisites:11": [
+        844
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 2102,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "创造模式压力泵",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 852,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2102,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "853:10": {
+      "preRequisites:11": [
+        856
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 1406,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "创造模式数据访问仓",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 853,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1406,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "854:10": {
+      "preRequisites:11": [
+        855,
+        856
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:heart_of_universe"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "宇宙之心",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 854,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:heart_of_universe"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "855:10": {
+      "preRequisites:11": [
+        844
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:singularity_of_universe"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "宇宙奇点",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 855,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:singularity_of_universe"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "856:10": {
+      "preRequisites:11": [
+        844
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:heart_container"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 1,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "心之容器",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 856,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:heart_container"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     }
@@ -54371,7 +55250,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
-          "y:3": -108
+          "y:3": -96
         },
         "15:10": {
           "id:3": 685,
@@ -54389,16 +55268,16 @@
         },
         "17:10": {
           "id:3": 687,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 216
+          "sizeX:3": 48,
+          "sizeY:3": 72,
+          "x:3": 108,
+          "y:3": 192
         },
         "18:10": {
           "id:3": 688,
-          "sizeX:3": 72,
+          "sizeX:3": 60,
           "sizeY:3": 48,
-          "x:3": 204,
+          "x:3": 192,
           "y:3": 60
         },
         "19:10": {
@@ -54406,7 +55285,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
-          "y:3": 168
+          "y:3": 216
         },
         "20:10": {
           "id:3": 690,
@@ -54417,10 +55296,10 @@
         },
         "21:10": {
           "id:3": 691,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 108,
-          "y:3": 348
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": -96
         },
         "22:10": {
           "id:3": 702,
@@ -54447,36 +55326,36 @@
           "id:3": 730,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 348,
-          "y:3": 264
+          "x:3": 192,
+          "y:3": 288
         },
         "26:10": {
           "id:3": 731,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
+          "x:3": 192,
           "y:3": 216
         },
         "27:10": {
           "id:3": 732,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 348,
+          "x:3": 300,
           "y:3": 216
         },
         "28:10": {
           "id:3": 733,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": 168
+          "x:3": 252,
+          "y:3": 216
         },
         "29:10": {
           "id:3": 734,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": 264
+          "x:3": 120,
+          "y:3": 288
         },
         "30:10": {
           "id:3": 735,
@@ -54545,15 +55424,15 @@
           "id:3": 767,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 216
+          "x:3": 300,
+          "y:3": 288
         },
         "40:10": {
           "id:3": 768,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 120
+          "x:3": 252,
+          "y:3": 288
         },
         "41:10": {
           "id:3": 769,
@@ -54566,22 +55445,22 @@
           "id:3": 770,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 264
+          "x:3": 348,
+          "y:3": 288
         },
         "43:10": {
           "id:3": 771,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 168
+          "x:3": 396,
+          "y:3": 288
         },
         "44:10": {
           "id:3": 831,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 216,
-          "y:3": 216
+          "x:3": 300,
+          "y:3": 336
         },
         "45:10": {
           "id:3": 832,
@@ -54624,6 +55503,69 @@
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 24
+        },
+        "51:10": {
+          "id:3": 838,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 180,
+          "y:3": 372
+        },
+        "52:10": {
+          "id:3": 839,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": 120
+        },
+        "53:10": {
+          "id:3": 840,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 492,
+          "y:3": 288
+        },
+        "54:10": {
+          "id:3": 841,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 444,
+          "y:3": 288
+        },
+        "55:10": {
+          "id:3": 842,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 444,
+          "y:3": 336
+        },
+        "56:10": {
+          "id:3": 845,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 492,
+          "y:3": 336
+        },
+        "57:10": {
+          "id:3": 848,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 348,
+          "y:3": 336
+        },
+        "58:10": {
+          "id:3": 849,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 348,
+          "y:3": 384
+        },
+        "59:10": {
+          "id:3": 850,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 396,
+          "y:3": 336
         }
       }
     },
@@ -54647,137 +55589,137 @@
       },
       "quests:9": {
         "0:10": {
-          "id:3": 691,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 0,
-          "y:3": 0
-        },
-        "1:10": {
           "id:3": 693,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 72
         },
-        "2:10": {
+        "1:10": {
           "id:3": 694,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 72
         },
-        "3:10": {
+        "2:10": {
           "id:3": 695,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 120
         },
-        "4:10": {
+        "3:10": {
           "id:3": 696,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 120
         },
-        "5:10": {
+        "4:10": {
           "id:3": 697,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 168
         },
-        "6:10": {
+        "5:10": {
           "id:3": 698,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 168
         },
-        "7:10": {
+        "6:10": {
           "id:3": 699,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 216
         },
-        "8:10": {
+        "7:10": {
           "id:3": 700,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 216
         },
-        "9:10": {
+        "8:10": {
           "id:3": 701,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 72
         },
-        "10:10": {
+        "9:10": {
           "id:3": 717,
           "sizeX:3": 60,
           "sizeY:3": 48,
           "x:3": 192,
           "y:3": 60
         },
-        "11:10": {
+        "10:10": {
           "id:3": 718,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 72
         },
-        "12:10": {
+        "11:10": {
           "id:3": 719,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 24
         },
-        "13:10": {
+        "12:10": {
           "id:3": 720,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -24
         },
-        "14:10": {
+        "13:10": {
           "id:3": 721,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": -72
         },
-        "15:10": {
+        "14:10": {
           "id:3": 742,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 108,
           "y:3": 288
         },
-        "16:10": {
+        "15:10": {
           "id:3": 753,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 120
         },
-        "17:10": {
+        "16:10": {
           "id:3": 754,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 168
         },
-        "18:10": {
+        "17:10": {
           "id:3": 764,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
           "y:3": 168
+        },
+        "18:10": {
+          "id:3": 838,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 0,
+          "y:3": 0
         }
       }
     },
@@ -54869,12 +55811,19 @@
           "sizeY:3": 24,
           "x:3": 180,
           "y:3": 12
+        },
+        "10:10": {
+          "id:3": 756,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 120,
+          "y:3": 252
         }
       }
     },
     "15:10": {
       "lineID:3": 15,
-      "order:3": 15,
+      "order:3": 16,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -55665,7 +56614,7 @@
     },
     "17:10": {
       "lineID:3": 17,
-      "order:3": 16,
+      "order:3": 15,
       "properties:10": {
         "betterquesting:10": {
           "bg_image:8": "",
@@ -55673,77 +56622,140 @@
           "desc:8": "No Description",
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 1668,
             "OreDict:8": "",
-            "id:8": "extendedcrafting:singularity_ultimate"
+            "id:8": "gregtech:machine"
           },
-          "name:8": "§l终局",
+          "name:8": "§l万物归一",
           "visibility:8": "ALWAYS"
         }
       },
       "quests:9": {
         "0:10": {
-          "id:3": 755,
-          "sizeX:3": 96,
-          "sizeY:3": 96,
-          "x:3": -48,
-          "y:3": -48
-        },
-        "1:10": {
           "id:3": 756,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -24,
-          "y:3": -192
+          "x:3": -48,
+          "y:3": 60
         },
-        "2:10": {
+        "1:10": {
           "id:3": 757,
-          "sizeX:3": 72,
-          "sizeY:3": 72,
-          "x:3": -36,
-          "y:3": -360
-        },
-        "3:10": {
-          "id:3": 758,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -24,
-          "y:3": -432
-        },
-        "4:10": {
-          "id:3": 759,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -120,
-          "y:3": -96
-        },
-        "5:10": {
-          "id:3": 760,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 72,
-          "y:3": -96
-        },
-        "6:10": {
-          "id:3": 761,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -120,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
           "y:3": 72
         },
-        "7:10": {
+        "2:10": {
+          "id:3": 758,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 12
+        },
+        "3:10": {
+          "id:3": 759,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 12
+        },
+        "4:10": {
+          "id:3": 760,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 12
+        },
+        "5:10": {
+          "id:3": 761,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -36,
+          "y:3": 132
+        },
+        "6:10": {
           "id:3": 762,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 72,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": 132
+        },
+        "7:10": {
+          "id:3": 763,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
           "y:3": 72
         },
         "8:10": {
-          "id:3": 763,
+          "id:3": 843,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -108,
+          "y:3": 132
+        },
+        "9:10": {
+          "id:3": 844,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": 72
+        },
+        "10:10": {
+          "id:3": 846,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": -24,
+          "x:3": 108,
+          "y:3": 120
+        },
+        "11:10": {
+          "id:3": 847,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 288,
+          "y:3": 60
+        },
+        "12:10": {
+          "id:3": 851,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 192,
+          "y:3": -48
+        },
+        "13:10": {
+          "id:3": 852,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 108,
+          "y:3": 0
+        },
+        "14:10": {
+          "id:3": 853,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 192,
           "y:3": 168
+        },
+        "15:10": {
+          "id:3": 854,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 72
+        },
+        "16:10": {
+          "id:3": 855,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 12
+        },
+        "17:10": {
+          "id:3": 856,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 132
         }
       }
     }
