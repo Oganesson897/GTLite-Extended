@@ -445,6 +445,18 @@ var austenite_steel = MaterialBuilder(32037, "austenite_steel")
     
 <material:austenite_steel>.setFormula("(Nq2(Ir3Os)Ke)14(NbTi)6(V3Ga)4(((FeW)5CrMo2V6)6CoMnSi)4(UPt3)2NbN", true);
 
+#  32038 Cosmic Neutronium
+var cosmic_neutronium = MaterialBuilder(32038, "cosmic_neutronium")
+    .ingot()
+    .fluid()
+    .color(0xF3F3F3)
+    .iconSet("bright")
+    .flags(["generate_plate"])
+    .cableProperties(2147483647, 9999, 0, true)
+    .build();
+
+<material:cosmic_neutronium>.setFormula("∞", false);
+
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
     .fluid()
@@ -680,3 +692,84 @@ var monazite_front = MaterialBuilder(32130, "monazite_front")
     .fluid()
     .color(0x273427)
     .build();
+
+#  32131 Hexanitrohexaaxaisowurtzitane
+var hexanitrohexaaxaisowurtzitane = MaterialBuilder(32131, "hexanitrohexaaxaisowurtzitane")
+    .dust()
+    .color(0x0B7222)
+    .iconSet("bright")
+    .build();
+
+<material:hexanitrohexaaxaisowurtzitane>.setFormula("C6H6N12O12", true);
+
+#  32132 Crude Hexanitrohexaaxaisowurtzitane
+var crude_hexanitrohexaaxaisowurtzitane = MaterialBuilder(32132, "crude_hexanitrohexaaxaisowurtzitane")
+    .dust()
+    .color(0x5799EC)
+    .iconSet("dull")
+    .build();
+
+<material:crude_hexanitrohexaaxaisowurtzitane>.setFormula("C6H6N12O12", true);
+
+#  32133 Tetraacetyldinitrosohexaazaisowurtzitane
+var tetraacetyldinitrosohexaazaisowurtzitane = MaterialBuilder(32133, "tetraacetyldinitrosohexaazaisowurtzitane")
+    .dust()
+    .color(0xEA7584)
+    .iconSet("dull")
+    .build();
+
+<material:tetraacetyldinitrosohexaazaisowurtzitane>.setFormula("C14N8H18O6", true);
+
+#  32134 Dibenzyltetraacetylhexaazaisowurtzitane
+var dibenzyltetraacetylhexaazaisowurtzitane = MaterialBuilder(32134, "dibenzyltetraacetylhexaazaisowurtzitane")
+    .dust()
+    .color(0xB7E8EE)
+    .iconSet("dull")
+    .build();
+
+<material:dibenzyltetraacetylhexaazaisowurtzitane>.setFormula("C28N6H32O4", true);
+
+#  32135 Hexabenzylhexaazaisowurtzitane
+var hexabenzylhexaazaisowurtzitane = MaterialBuilder(32135, "hexabenzylhexaazaisowurtzitane")
+    .dust()
+    .color(0x48561E)
+    .iconSet("dull")
+    .build();
+
+<material:hexabenzylhexaazaisowurtzitane>.setFormula("C48N6H48", true);
+
+#  32136 Nitronium Tetrafluoroborate
+var nitronium_tetrafluoroborate = MaterialBuilder(32136, "nitronium_tetrafluoroborate")
+    .dust()
+    .color(0xA32A8C)
+    .iconSet("dull")
+    .build();
+
+<material:nitronium_tetrafluoroborate>.setFormula("NO2BF4", true);
+
+#  32137 Nitrosonium Tetrafluoroborate
+var nitrosonium_tetrafluoroborate = MaterialBuilder(32137, "nitrosonium_tetrafluoroborate")
+    .dust()
+    .color(0x787449)
+    .iconSet("dull")
+    .build();
+
+<material:nitrosonium_tetrafluoroborate>.setFormula("NOBF4", true);
+
+#  32138 Succinimidyl Acetate
+var succinimidyl_acetate = MaterialBuilder(32138, "succinimidyl_acetate")
+    .dust()
+    .color(0x1D3605)
+    .iconSet("dull")
+    .build();
+
+<material:succinimidyl_acetate>.setFormula("C6H7NO4", true);
+
+#  32139 N-Hydroxysuccinimide
+var n_hydroxysuccinimide = MaterialBuilder(32139, "n_hydroxysuccinimide")
+    .dust()
+    .color(0x33BAFB)
+    .iconSet("dull")
+    .build();
+
+<material:n_hydroxysuccinimide>.setFormula("(CH2CO)2NOH(C4H5NO3)", true);

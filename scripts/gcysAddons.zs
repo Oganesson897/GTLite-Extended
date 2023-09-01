@@ -440,3 +440,151 @@ mixer.recipeBuilder()
     .buildAndRegister();
 
 #  QCD charge
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtLunarium>,
+             <minecraft:tnt> * 16,
+             <ore:stickNaquadria> * 4,
+             <ore:plateVibranium> * 4,
+             <ore:dustHexanitrohexaaxaisowurtzitane>])
+    .fluidInputs([<liquid:glyceryl_trinitrate> * 576,
+                  <liquid:zylon> * 576])
+    .outputs([<contenttweaker:qcd_charge>])
+    .EUt(1966080)
+    .duration(100)
+    .buildAndRegister();
+
+#  Hexanitrohexaaxaisowurtzitane
+large_chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustCrudeHexanitrohexaaxaisowurtzitane>,
+             <ore:dustSiliconDioxide>,
+             <ore:dustSodiumHydroxide>])
+    .fluidInputs([<liquid:ethylenediamine> * 1000,
+                  <liquid:hydrochloric_acid> * 1000,
+                  <liquid:steam> * 1000])
+    .outputs([<gregtech:meta_dust:32131>])
+    .EUt(1920)
+    .duration(100)
+    .buildAndRegister();
+
+#  Crude Hexanitrohexaaxaisowurtzitane
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustTetraacetyldinitrosohexaazaisowurtzitane>,
+             <ore:dustNitroniumTetrafluoroborate> * 6])
+    .fluidInputs([<liquid:water> * 4000])
+    .outputs([<gregtech:meta_dust:32132>,
+              <gregtech:meta_dust:32137> * 2])
+    .fluidOutputs([<liquid:hydrofluoric_acid> * 4000,
+                   <liquid:acetic_acid> * 4000])
+    .EUt(8000)
+    .duration(3200)
+    .buildAndRegister();
+
+#  5B2O3 + 3C+ 6Cl = 2BCl3 +3CO
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustBoronTrioxide> * 5,
+             <ore:dustCarbon> * 3])
+    .fluidInputs([<liquid:chlorine> * 6000])
+    .fluidOutputs([<liquid:boron_trichloride> * 2000,
+                   <liquid:carbon_monoxide> * 3000])
+    .EUt(480)
+    .duration(90)
+    .buildAndRegister();
+
+#  BCl3 + HF + HNO3 = NO2BF4 + H2O
+chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:boron_trichloride> * 1000,
+                  <liquid:hydrofluoric_acid> * 1000,
+                  <liquid:nitric_acid> * 1000])
+    .outputs([<gregtech:meta_dust:32136>])
+    .fluidOutputs([<liquid:water> * 1000])
+    .EUt(1300)
+    .duration(400)
+    .buildAndRegister();
+
+#  2BCl3 + 2HF + 2N2O4 = NOBF4 + HNO3
+large_chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:boron_trichloride> * 2000,
+                  <liquid:hydrofluoric_acid> * 2000,
+                  <liquid:dinitrogen_tetroxide> * 2000])
+    .outputs([<gregtech:meta_dust:32137>])
+    .fluidOutputs([<liquid:nitric_acid> * 1000])
+    .EUt(1300)
+    .duration(400)
+    .buildAndRegister();
+
+#  Tetraacetyldinitrosohexaazaisowurtzitane
+large_chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustDibenzyltetraacetylhexaazaisowurtzitane>,
+             <ore:dustNitrosoniumTetrafluoroborate> * 6])
+    .fluidInputs([<liquid:water> * 2000])
+    .outputs([<gregtech:meta_dust:32133>,
+              <gregtech:meta_dust:3549> * 6])
+    .fluidOutputs([<liquid:formaldehyde> * 2000,
+                   <liquid:benzene> * 2000,
+                   <liquid:hydrofluoric_acid> * 6000,
+                   <liquid:nitric_oxide> * 4000])
+    .EUt(13000)
+    .duration(400)
+    .buildAndRegister();
+
+#  Succinimidyl Acetate
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustNHydroxysuccinimide> * 13])
+    .fluidInputs([<liquid:tetrahydrofuran> * 1000,
+                  <liquid:acetic_anhydride> * 1000])
+    .outputs([<gregtech:meta_dust:32138> * 18])
+    .fluidOutputs([<liquid:acetic_acid> * 1000])
+    .EUt(1920)
+    .duration(200)
+    .buildAndRegister();
+
+#  N-Hydroxysuccinimide
+large_chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustSodium> * 6])
+    .fluidInputs([<liquid:oxygen> * 14000,
+                  <liquid:butane> * 8000,
+                  <liquid:acetic_anhydride> * 10000,
+                  <liquid:toluene> * 6000,
+                  <liquid:methanol> * 4000])
+    .outputs([<gregtech:meta_dust:32139> * 13,
+              <gregtech:meta_dust:312> * 12])
+    .fluidOutputs([<liquid:water> * 6000,
+                   <liquid:hydrogen> * 6000])
+    .EUt(1920)
+    .duration(400)
+    .buildAndRegister();
+
+#  Dibenzyltetraacetylhexaazaisowurtzitane
+large_chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustHexabenzylhexaazaisowurtzitane>,
+             <ore:dustSuccinimidylAcetate> * 4])
+    .fluidInputs([<liquid:hydrogen> * 4000])
+    .outputs([<gregtech:meta_dust:32134> * 2])
+    .fluidOutputs([<liquid:toluene> * 6000,
+                   <liquid:ethylbenzene> * 3000,
+                   <liquid:oxygen> * 2000])
+    .EUt(30000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Hexabenzylhexaazaisowurtzitane
+large_chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustAmmoniumNitrate> * 2])
+    .fluidInputs([<liquid:ethylene_oxide> * 3000,
+                  <liquid:resorcinol> * 6000,
+                  <liquid:chloromethane> * 6000,
+                  <liquid:hydrogen> * 1000,
+                  <liquid:acetic_acid> * 1000])
+    .outputs([<gregtech:meta_dust:32135> * 2])
+    .EUt(7680)
+    .duration(100)
+    .buildAndRegister();
+
+#  Acetic Anhydride
+chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:acetic_acid> * 1000])
+    .fluidOutputs([<liquid:acetic_anhydride> * 1000,
+                   <liquid:water> * 1000])
+    .EUt(512)
+    .duration(200)
+    .buildAndRegister();

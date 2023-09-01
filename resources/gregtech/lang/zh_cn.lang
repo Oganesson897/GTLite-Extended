@@ -975,6 +975,15 @@ gregtech.material.spessartine_front=锰铝榴石悬浊液
 gregtech.material.sphalerite_front=闪锌矿悬浊液
 gregtech.material.platinum_front=铂悬浊液
 gregtech.material.monazite_front=独居石悬浊液
+gregtech.material.hexanitrohexaaxaisowurtzitane=六硝基六轴异伍兹烷
+gregtech.material.crude_hexanitrohexaaxaisowurtzitane=粗制六硝基六氧杂纤锌烷
+gregtech.material.tetraacetyldinitrosohexaazaisowurtzitane=四乙酰二硝基六氮杂异戊二烯
+gregtech.material.dibenzyltetraacetylhexaazaisowurtzitane=二苄基四乙酰六氮杂异纤锌烷
+gregtech.material.hexabenzylhexaazaisowurtzitane=六苄基六氮杂异伍兹烷
+gregtech.material.nitronium_tetrafluoroborate=四氟硝铵
+gregtech.material.nitrosonium_tetrafluoroborate=四氟合硼酸亚硝铵
+gregtech.material.succinimidyl_acetate=琥珀酰亚胺基乙酸酯
+gregtech.material.n_hydroxysuccinimide=N-羟基丁二酰亚胺
 
 gregtech.material.hdcs=高强度复合钢
 gregtech.material.magneto_resonatic=共振紫晶
