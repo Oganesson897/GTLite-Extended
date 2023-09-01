@@ -41,6 +41,14 @@ item.contenttweaker.electric_pump_ulv.name=电动泵（ULV）
 item.contenttweaker.emitter_ulv.name=发射器（ULV）
 item.contenttweaker.sensor_ulv.name=传感器（ULV）
 item.contenttweaker.field_generator_ulv.name=力场发生器（ULV）
+item.contenttweaker.motor_max.name=电动马达（MAX）
+item.contenttweaker.piston_max.name=电力活塞（MAX）
+item.contenttweaker.conveyor_module_max.name=传送带（MAX）
+item.contenttweaker.robot_arm_max.name=机械臂（MAX）
+item.contenttweaker.electric_pump_max.name=电动泵（MAX）
+item.contenttweaker.emitter_max.name=发射器（MAX）
+item.contenttweaker.sensor_max.name=传感器（MAX）
+item.contenttweaker.field_generator_max.name=力场发生器（MAX）
 
 #  Endgame
 item.contenttweaker.singularity_of_universe.name=宇宙奇点

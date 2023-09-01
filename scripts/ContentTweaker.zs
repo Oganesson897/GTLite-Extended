@@ -172,6 +172,54 @@ var field_generator_ulv = VanillaFactory.createItem("field_generator_ulv");
     field_generator_ulv.creativeTab = <creativetab:gregtech.main>;
     field_generator_ulv.register();
 
+##  MAX motor
+var motor_max = VanillaFactory.createItem("motor_max");
+    motor_max.maxStackSize = 64;
+    motor_max.creativeTab = <creativetab:gregtech.main>;
+    motor_max.register();
+
+##  MAX piston
+var piston_max = VanillaFactory.createItem("piston_max");
+    piston_max.maxStackSize = 64;
+    piston_max.creativeTab = <creativetab:gregtech.main>;
+    piston_max.register();
+
+##  MAX conveyor module
+var conveyor_module_max = VanillaFactory.createItem("conveyor_module_max");
+    conveyor_module_max.maxStackSize = 64;
+    conveyor_module_max.creativeTab = <creativetab:gregtech.main>;
+    conveyor_module_max.register();
+
+##  MAX robot arm
+var robot_arm_max = VanillaFactory.createItem("robot_arm_max");
+    robot_arm_max.maxStackSize = 64;
+    robot_arm_max.creativeTab = <creativetab:gregtech.main>;
+    robot_arm_max.register();
+
+##  MAX electric pump
+var electric_pump_max = VanillaFactory.createItem("electric_pump_max");
+    electric_pump_max.maxStackSize = 64;
+    electric_pump_max.creativeTab = <creativetab:gregtech.main>;
+    electric_pump_max.register();
+
+##  MAX emitter
+var emitter_max = VanillaFactory.createItem("emitter_max");
+    emitter_max.maxStackSize = 64;
+    emitter_max.creativeTab = <creativetab:gregtech.main>;
+    emitter_max.register();
+
+##  MAX sensor
+var sensor_max = VanillaFactory.createItem("sensor_max");
+    sensor_max.maxStackSize = 64;
+    sensor_max.creativeTab = <creativetab:gregtech.main>;
+    sensor_max.register();
+
+##  MAX field generator
+var field_generator_max = VanillaFactory.createItem("field_generator_max");
+    field_generator_max.maxStackSize = 64;
+    field_generator_max.creativeTab = <creativetab:gregtech.main>;
+    field_generator_max.register();
+
 #  Machine Casings
 var high_density_radiation_resistant_casing = VanillaFactory.createBlock("high_density_radiation_resistant_casing", <blockmaterial:iron>);
     high_density_radiation_resistant_casing.register();
