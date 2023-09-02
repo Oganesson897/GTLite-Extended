@@ -100,3 +100,27 @@
 - Bug fixes
     - Fixed some localized language texts;
     - Fixed some quests.
+
+##  from 0.0.3-beta to 0.0.4-alpha
+
+&nbsp;&nbsp;&nbsp;&nbsp;The sixth preview version of GregTech Lite, add some multiblocks, improve some quests.
+
+- General Changes
+    - Buff many things, e.g. recipes of Fusion reactor and PICs.
+    - New Multiblock: _Fusion Reactor Mk IV_, _Fusion Reactor Mk V_, _Fusion Reactor Mk VI_
+        - UV, UHV and UEV;
+        - mega fusion reactor;
+    - New Multiblock: _Mega Alloy Blast Furnace_
+        - UV
+    - New Multiblock: _Plasma Condenser_
+        - UIV
+        - In a way, it is just a "special" vacuum freezer;
+    - Recipes of all UEV and UIV machines has been added;
+    - Add max components, and redo endgame;
+    - New QCD charge process has been added;
+    - New Neutronium process has been added;
+    - Add magneto resonatic circuits;
+- Bug fixes
+    - Fixed structure problem of stellar furnace;
+    - Fixed some wrong recipes;
+    - Fixed some quests.
