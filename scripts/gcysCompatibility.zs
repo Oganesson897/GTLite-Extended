@@ -1415,6 +1415,38 @@ makeShaped("uiv_rock_breaker", <gregtech:machine:675>,
     });
 
 #  UXV Machines
+makeShaped("uxv_machine_casing", <gregtech:machine_casing:12>,
+    [
+        "PPP",
+        "PWP",
+        "PPP"
+    ],
+    {
+        "P": <ore:plateNeutronium>,
+        "W": <ore:craftingToolWrench>
+    });
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateNeutronium> * 8])
+    .circuit(8)
+    .outputs([<gregtech:machine_casing:12>])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+makeShaped("uxv_machine_hull", <gregtech:machine:997>,
+    [
+        "   ",
+        "KPK",
+        "WCW"
+    ],
+    {
+        "K": <ore:plateKevlar>,
+        "P": <ore:plateNeutronium>,
+        "C": <gregtech:machine_casing:12>,
+        "W": <ore:cableGtSingleCrystalMatrix>
+    });
+
 makeShaped("uxv_electric_furnace", <gregtech:machine:61>,
     [
         "OQO",
@@ -1577,4 +1609,66 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:212>])
     .EUt(8000000)
     .duration(1800)
+    .buildAndRegister();
+
+#  OpV Machines
+makeShaped("opv_machine_casing", <gregtech:machine_casing:13>,
+    [
+        "PPP",
+        "PWP",
+        "PPP"
+    ],
+    {
+        "P": <ore:plateInfinity>,
+        "W": <ore:craftingToolWrench>
+    });
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateInfinity> * 8])
+    .circuit(8)
+    .outputs([<gregtech:machine_casing:13>])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+#  MAX Machines
+makeShaped("max_machine_casing", <gregtech:machine_casing:14>,
+    [
+        "PPP",
+        "PWP",
+        "PPP"
+    ],
+    {
+        "P": <ore:plateCosmicNeutronium>,
+        "W": <ore:craftingToolWrench>
+    });
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateCosmicNeutronium> * 8])
+    .circuit(8)
+    .outputs([<gregtech:machine_casing:14>])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+#  UIV energy hatch
+assembler.recipeBuilder()
+    .inputs([<ore:stickSuperconductingMagnetMixture>,
+             <ore:wireFineLunarium> * 16])
+    .circuit(1)
+    .outputs([<gcys:meta_item_1:352>])
+    .EUt(8388608)
+    .duration(200)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:996>,
+             <ore:cableGtSingleLunarium> * 4,
+             <ore:circuitUiv>,
+             <gcys:meta_item_1:352> * 2])
+    .fluidInputs([<liquid:sodium_potassium> * 36000,
+                  <liquid:soldering_alloy> * 5760])
+    .outputs([<gregtech:machine:1221>])
+    .EUt(8388608)
+    .duration(1000)
     .buildAndRegister();

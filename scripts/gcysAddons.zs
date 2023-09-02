@@ -588,3 +588,243 @@ chemical_reactor.recipeBuilder()
     .EUt(512)
     .duration(200)
     .buildAndRegister();
+
+#  Raw Imprinted Resonatic circuit board
+forming_press.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:381>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board>])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:382>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 2])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:383>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 4])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+    
+forming_press.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:384>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 8])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:385>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 12])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:386>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 16])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+    
+forming_press.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:387>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 24])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<gcys:meta_item_1:380>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 32])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<gcys:meta_item_1:381>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 48])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<gcys:meta_item_1:382>,
+             <ore:dustMagnetoResonatic>,
+             <ore:dustIndiumPhosphide>])
+    .outputs([<contenttweaker:raw_imprinted_resonatic_circuit_board> * 64])
+    .EUt(2048)
+    .duration(10)
+    .buildAndRegister();
+
+#  Imprinted Resonatic circuit board
+chemical_bath.recipeBuilder()
+    .inputs([<contenttweaker:raw_imprinted_resonatic_circuit_board>])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:imprinted_resonatic_circuit_board>])
+    .EUt(2048)
+    .duration(1200)
+    .buildAndRegister();
+
+#  Magneto Resonatic circuits
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board>,
+             <ore:gemFlawlessMagnetoResonatic>,
+             <ore:componentDiode> * 4,
+             <ore:componentCapacitor> * 4,
+             <ore:componentTransistor> * 4,
+             <ore:componentInductor>])
+    .fluidInputs([<liquid:soldering_alloy> * 72])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_ulv> * 16])
+    .EUt(30)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 2,
+             <contenttweaker:magneto_resonatic_circuit_ulv>,
+             <ore:gemFlawlessMagnetoResonatic>,
+             <ore:componentDiode> * 4,
+             <ore:componentCapacitor> * 4,
+             <ore:componentTransistor> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_lv> * 4])
+    .EUt(120)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 4,
+             <contenttweaker:magneto_resonatic_circuit_lv>,
+             <ore:gemFlawlessMagnetoResonatic>,
+             <gregtech:meta_item_1:526> * 4,
+             <gregtech:meta_item_1:525> * 4,
+             <gregtech:meta_item_1:523> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 288])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_mv> * 4])
+    .EUt(480)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 8,
+             <contenttweaker:magneto_resonatic_circuit_mv>,
+             <ore:gemFlawlessMagnetoResonatic>,
+             <gregtech:meta_item_1:526> * 4,
+             <gregtech:meta_item_1:524> * 4,
+             <gregtech:meta_item_1:527> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_hv> * 4])
+    .EUt(1920)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 12,
+             <contenttweaker:magneto_resonatic_circuit_hv>,
+             <ore:gemFlawlessMagnetoResonatic>,
+             <gregtech:meta_item_1:531> * 4,
+             <gregtech:meta_item_1:530> * 4,
+             <gregtech:meta_item_1:528> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 1152])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_ev> * 4])
+    .EUt(7680)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 16,
+             <contenttweaker:magneto_resonatic_circuit_ev>,
+             <ore:gemFlawlessMagnetoResonatic> * 2,
+             <gregtech:meta_item_1:531> * 4,
+             <gregtech:meta_item_1:529> * 4,
+             <gregtech:meta_item_1:532> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 2304])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_iv> * 4])
+    .EUt(30720)
+    .duration(300)
+    .buildAndRegister();
+    
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 32,
+             <contenttweaker:magneto_resonatic_circuit_iv>,
+             <ore:gemFlawlessMagnetoResonatic> * 4,
+             <gregtech:meta_item_1:704>])
+    .fluidInputs([<liquid:soldering_alloy> * 4608])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_luv> * 4])
+    .EUt(122880)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 48,
+             <contenttweaker:magneto_resonatic_circuit_luv>,
+             <ore:gemFlawlessMagnetoResonatic> * 8,
+             <gregtech:meta_item_1:705>])
+    .fluidInputs([<liquid:soldering_alloy> * 9216])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_zpm> * 4])
+    .EUt(491520)
+    .duration(300)
+    .buildAndRegister();
+    
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 64,
+             <contenttweaker:magneto_resonatic_circuit_zpm>,
+             <ore:gemFlawlessMagnetoResonatic> * 16,
+             <gcys:meta_item_1:421> * 64,
+             <gcys:meta_item_1:420> * 64,
+             <gcys:meta_item_1:423> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 16000])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_uv> * 4])
+    .EUt(1966080)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 64,
+             <contenttweaker:magneto_resonatic_circuit_uv>,
+             <ore:gemFlawlessMagnetoResonatic> * 32,
+             <gcys:meta_item_1:426> * 64,
+             <gcys:meta_item_1:425> * 64,
+             <gcys:meta_item_1:428> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 16000])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_uhv> * 4])
+    .EUt(7864320)
+    .duration(300)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:imprinted_resonatic_circuit_board> * 64,
+             <contenttweaker:magneto_resonatic_circuit_uhv>,
+             <ore:gemFlawlessMagnetoResonatic> * 64,
+             <contenttweaker:cosmic_diode> * 64,
+             <contenttweaker:cosmic_transistor> * 64,
+             <contenttweaker:cosmic_capacitor> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 16000])
+    .outputs([<contenttweaker:magneto_resonatic_circuit_uev> * 4])
+    .EUt(31457280)
+    .duration(300)
+    .buildAndRegister();

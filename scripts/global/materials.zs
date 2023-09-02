@@ -246,6 +246,7 @@ var infinity = MaterialBuilder(32018, "infinity")
     .fluid()
     .color(0x000000)
     .iconSet("shiny")
+    .flags(["generate_plate"])
     .cableProperties(536870912, 64, 0, true)
     .build();
 

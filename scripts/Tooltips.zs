@@ -105,3 +105,27 @@ import mods.gregtech.recipe.RecipeMap;
 
 <contenttweaker:control_circuit_uv>.addTooltip("用于制作一些特殊机器");
 <contenttweaker:control_circuit_uv>.addTooltip("§cUV级控制电路");
+
+<contenttweaker:magneto_resonatic_circuit_ulv>.addTooltip("§dULV级电路");
+<contenttweaker:magneto_resonatic_circuit_lv>.addTooltip("§dLV级电路");
+<contenttweaker:magneto_resonatic_circuit_mv>.addTooltip("§dMV级电路");
+<contenttweaker:magneto_resonatic_circuit_hv>.addTooltip("§dHV级电路");
+<contenttweaker:magneto_resonatic_circuit_ev>.addTooltip("§dEV级电路");
+<contenttweaker:magneto_resonatic_circuit_iv>.addTooltip("§dIV级电路");
+<contenttweaker:magneto_resonatic_circuit_luv>.addTooltip("§dLuV级电路");
+<contenttweaker:magneto_resonatic_circuit_zpm>.addTooltip("§dZPM级电路");
+<contenttweaker:magneto_resonatic_circuit_uv>.addTooltip("§dUV级电路");
+<contenttweaker:magneto_resonatic_circuit_uhv>.addTooltip("§dUHV级电路");
+<contenttweaker:magneto_resonatic_circuit_uev>.addTooltip("§dUEV级电路");
+
+<ore:circuitUlv>.add(<contenttweaker:magneto_resonatic_circuit_ulv>);
+<ore:circuitLv>.add(<contenttweaker:magneto_resonatic_circuit_lv>);
+<ore:circuitMv>.add(<contenttweaker:magneto_resonatic_circuit_mv>);
+<ore:circuitHv>.add(<contenttweaker:magneto_resonatic_circuit_hv>);
+<ore:circuitEv>.add(<contenttweaker:magneto_resonatic_circuit_ev>);
+<ore:circuitIv>.add(<contenttweaker:magneto_resonatic_circuit_iv>);
+<ore:circuitLuv>.add(<contenttweaker:magneto_resonatic_circuit_luv>);
+<ore:circuitZpm>.add(<contenttweaker:magneto_resonatic_circuit_zpm>);
+<ore:circuitUv>.add(<contenttweaker:magneto_resonatic_circuit_uv>);
+<ore:circuitUhv>.add(<contenttweaker:magneto_resonatic_circuit_uhv>);
+<ore:circuitUev>.add(<contenttweaker:magneto_resonatic_circuit_uev>);

@@ -451,3 +451,68 @@ var neutron_plasma_containment_cell = VanillaFactory.createItem("neutron_plasma_
     neutron_plasma_containment_cell.maxStackSize = 16;
     neutron_plasma_containment_cell.creativeTab = <creativetab:gregtech.main>;
     neutron_plasma_containment_cell.register();
+
+var raw_imprinted_resonatic_circuit_board = VanillaFactory.createItem("raw_imprinted_resonatic_circuit_board");
+    raw_imprinted_resonatic_circuit_board.maxStackSize = 64;
+    raw_imprinted_resonatic_circuit_board.creativeTab = <creativetab:gregtech.main>;
+    raw_imprinted_resonatic_circuit_board.register();
+
+var imprinted_resonatic_circuit_board = VanillaFactory.createItem("imprinted_resonatic_circuit_board");
+    imprinted_resonatic_circuit_board.maxStackSize = 64;
+    imprinted_resonatic_circuit_board.creativeTab = <creativetab:gregtech.main>;
+    imprinted_resonatic_circuit_board.register();
+
+var magneto_resonatic_circuit_ulv = VanillaFactory.createItem("magneto_resonatic_circuit_ulv");
+    magneto_resonatic_circuit_ulv.maxStackSize = 64;
+    magneto_resonatic_circuit_ulv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_ulv.register();
+
+var magneto_resonatic_circuit_lv = VanillaFactory.createItem("magneto_resonatic_circuit_lv");
+    magneto_resonatic_circuit_lv.maxStackSize = 64;
+    magneto_resonatic_circuit_lv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_lv.register();
+
+var magneto_resonatic_circuit_mv = VanillaFactory.createItem("magneto_resonatic_circuit_mv");
+    magneto_resonatic_circuit_mv.maxStackSize = 64;
+    magneto_resonatic_circuit_mv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_mv.register();
+
+var magneto_resonatic_circuit_hv = VanillaFactory.createItem("magneto_resonatic_circuit_hv");
+    magneto_resonatic_circuit_hv.maxStackSize = 64;
+    magneto_resonatic_circuit_hv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_hv.register();
+
+var magneto_resonatic_circuit_ev = VanillaFactory.createItem("magneto_resonatic_circuit_ev");
+    magneto_resonatic_circuit_ev.maxStackSize = 64;
+    magneto_resonatic_circuit_ev.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_ev.register();
+
+var magneto_resonatic_circuit_iv = VanillaFactory.createItem("magneto_resonatic_circuit_iv");
+    magneto_resonatic_circuit_iv.maxStackSize = 64;
+    magneto_resonatic_circuit_iv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_iv.register();
+
+var magneto_resonatic_circuit_luv = VanillaFactory.createItem("magneto_resonatic_circuit_luv");
+    magneto_resonatic_circuit_luv.maxStackSize = 64;
+    magneto_resonatic_circuit_luv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_luv.register();
+
+var magneto_resonatic_circuit_zpm = VanillaFactory.createItem("magneto_resonatic_circuit_zpm");
+    magneto_resonatic_circuit_zpm.maxStackSize = 64;
+    magneto_resonatic_circuit_zpm.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_zpm.register();
+
+var magneto_resonatic_circuit_uv = VanillaFactory.createItem("magneto_resonatic_circuit_uv");
+    magneto_resonatic_circuit_uv.maxStackSize = 64;
+    magneto_resonatic_circuit_uv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_uv.register();
+
+var magneto_resonatic_circuit_uhv = VanillaFactory.createItem("magneto_resonatic_circuit_uhv");
+    magneto_resonatic_circuit_uhv.maxStackSize = 64;
+    magneto_resonatic_circuit_uhv.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_uhv.register();
+
+var magneto_resonatic_circuit_uev = VanillaFactory.createItem("magneto_resonatic_circuit_uev");
+    magneto_resonatic_circuit_uev.maxStackSize = 64;
+    magneto_resonatic_circuit_uev.creativeTab = <creativetab:gregtech.main>;
+    magneto_resonatic_circuit_uev.register();
