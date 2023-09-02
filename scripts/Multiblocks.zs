@@ -4018,8 +4018,7 @@ var vacuum_drying_furnace = Builder.start("vacuum_drying_furnace")
                       | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
                                    .setMinGlobalLimited(1)
                                    .setMaxGlobalLimited(9)
-                                   .setPreviewCount(1)
-            )
+                                   .setPreviewCount(1))
             .where(" ", CTPredicate.getAny())
             .build();
         } as IPatternBuilderFunction)
@@ -4276,6 +4275,24 @@ var fusion_reactor_mk_v = Builder.start("fusion_reactor_mk_v")
             .build()
     )
     .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:32017>,
+             <contenttweaker:fusion_coil_block_mk_ii> * 4,
+             <ore:circuitUiv> * 4,
+             <gregtech:meta_item_1:282> * 8,
+             <ore:plateAdamantium> * 4,
+             <gregtech:meta_item_1:210> * 2,
+             <gcys:meta_item_1:356> * 64,
+             <gcys:meta_item_1:356> * 64,
+             <ore:wireGtSingleTungstenCarbideTitaniumNaquadriaAlloy> * 32])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:orichalcum> * 2304,
+                  <liquid:polyetheretherketone> * 1152])
+    .outputs([<gregtech:machine:32018>])
+    .EUt(2097152)
+    .duration(40000)
     .buildAndRegister();
 
 // --------------------------------------------------------------------------------------------------------------------------------
@@ -4766,4 +4783,20 @@ var plasma_condenser = Builder.start("plasma_condenser")
             .build()
     )
     .withBaseTexture(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
-    .buildAndRegister();                       
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAurorium>,
+             <ore:circuitUiv> * 4,
+             <gregtech:meta_item_1:152> * 4,
+             <gregtech:meta_item_1:227> * 4,
+             <gregtech:meta_item_1:241> * 4,
+             <gregtech:meta_item_1:211> * 4,
+             <ore:gearLunarium> * 2,
+             <ore:cableGtOctalSunnarium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 9216,
+                  <liquid:zylon> * 9216])
+    .outputs([<gregtech:machine:32021>])
+    .EUt(33554432)
+    .duration(300000)
+    .buildAndRegister();

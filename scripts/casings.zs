@@ -268,3 +268,17 @@ assembly_line.recipeBuilder()
     .EUt(1966080)
     .duration(100)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:fusion_coil_block_mk_i>,
+             <contenttweaker:control_circuit_uv> * 4,
+             <gregtech:meta_item_1:209> * 4,
+             <gregtech:meta_item_1:149> * 4,
+             <gregtech:meta_item_1:239> * 4,
+             <ore:cableGtQuadrupleMercuryCadmiumTelluride> * 8])
+    .fluidInputs([<liquid:vanadium_gallium> * 2304,
+                  <liquid:polyetheretherketone> * 1152])
+    .outputs([<contenttweaker:fusion_coil_block_mk_ii> * 2])
+    .EUt(2097152)
+    .duration(400)
+    .buildAndRegister();
