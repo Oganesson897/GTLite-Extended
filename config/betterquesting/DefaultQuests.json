@@ -14240,7 +14240,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "恭喜你获得了§5钛§r。",
+          "desc:8": "恭喜你获得了§5钛§r，它是§5EV§r阶段的主材料，也具有许多优良的性质，你可以使用它来制作流体管道等。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -14686,7 +14686,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "更好的电力活塞，不过小型钛齿轮显然十分简单。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15247,7 +15247,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "在加入§2GCYS§r之后，众所周知的§a铂系金属处理§r变得更加的麻烦了，不过别担心，这本任务书会指导你如何完成铂处理的，顾名思义，在这个化工线路中你将获得铂系金属们：§3钌§§，§c铑§\n，§8钯§r，§9锇§r，§b铱§r与§e铂§r。\n\n首先你需要一点§6王水§r，以及§8铂族污泥§r。",
+          "desc:8": "在加入§2GCYS§r之后，众所周知的§a铂系金属处理§r变得更加的麻烦，不过别担心，这本任务书会指导你如何完成铂处理的，顾名思义，你将获得铂系金属们：§3钌§§，§c铑§\n，§8钯§r，§9锇§r，§b铱§r与§e铂§r。\n\n首先你需要一点§6王水§r，以及§8铂族污泥§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17032,7 +17032,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "在§5EV§r阶段，你没什么主要的目的，但是你可以试着开始制作§2GCYM§r的一些多方块机器——例如§6大型打包机§r，不过你最好在§1IV§r阶段再开始。除此以外，你可以试着开始制作纳米电路，这是一条比之前的电路相对简单的电路。",
+          "desc:8": "在§5EV§r阶段，你没什么主要的目的，但是你可以试着开始制作§2GCYM§r的一些多方块机器——例如§6大型打包机§r，不过你最好在§1IV§r阶段再开始。除此以外，你可以试着开始制作纳米电路，这是一条比之前的电路相对简单的电路。这个阶段有许多便利的东西可以使用了，例如§d自动维护仓§r与§dME仓室§r们，你可以试着探索一下。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17100,7 +17100,23 @@
         }
       },
       "questID:3": 251,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 742,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 25000000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -17194,7 +17210,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "恭喜你获得了§1IV§r阶段的主材料——§8钨钢§r！",
+          "desc:8": "恭喜你获得了§1IV§r阶段的主材料——§8钨钢§r！这是一种强度极高的合金，同时也被用来制作你的下一个线圈方块。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17218,7 +17234,26 @@
         }
       },
       "questID:3": 253,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_scheelite_0"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tungstate_0"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -19572,7 +19607,26 @@
         }
       },
       "questID:3": 288,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 128,
+              "Damage:2": 252,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -20035,7 +20089,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你的组装机们已经不能组装超高精度的零部件了，因此你或许应该试着制造这个大家伙。",
+          "desc:8": "你的组装机们已经不能组装超高精度的零部件了，因此你或许应该试着制造这个大家伙：§c装配线§r。没错，这可能是§2格雷科技§r中最恢弘的多方块结构之一了，它需要巨量的电路板和各式各样的材料。不仅如此，装配线的自动化问题也十分麻烦，你可以试着使用§7应用能源§r与§a末影接口§r之类的模组来完成这台机器的自动化。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20171,7 +20225,149 @@
         }
       },
       "questID:3": 298,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:hammer",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "RelocateMinedBlocks:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 101.0,
+                  "AttackSpeed:5": -2.3,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 6,
+                  "LastCraftingUse:3": 1508655372,
+                  "Material:8": "gregtech:neutronium",
+                  "MaxDurability:3": 65534,
+                  "ToolSpeed:5": 184.0
+                },
+                "HideFlags:3": 2,
+                "Unbreakable:1": 1
+              }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:file",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "RelocateMinedBlocks:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 0.0,
+                  "AttackSpeed:5": -1.9000001,
+                  "Durability:3": 0,
+                  "LastCraftingUse:3": 1508655372,
+                  "Material:8": "gregtech:neutronium",
+                  "MaxDurability:3": 65534
+                },
+                "HideFlags:3": 2,
+                "Unbreakable:1": 1
+              }
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:screwdriver",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "RelocateMinedBlocks:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 99.0,
+                  "AttackSpeed:5": 3.5,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:neutronium",
+                  "MaxDurability:3": 65534
+                },
+                "HideFlags:3": 2,
+                "Unbreakable:1": 1
+              }
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:saw",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "HarvestIce:1": 1,
+                  "RelocateMinedBlocks:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 99.0,
+                  "AttackSpeed:5": -2.1,
+                  "Durability:3": 0,
+                  "Material:8": "gregtech:neutronium",
+                  "MaxDurability:3": 65534
+                },
+                "HideFlags:3": 2,
+                "Unbreakable:1": 1
+              }
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:wrench",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "RelocateMinedBlocks:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 101.0,
+                  "AttackSpeed:5": -2.3,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 6,
+                  "Material:8": "gregtech:neutronium",
+                  "MaxDurability:3": 65534,
+                  "ToolSpeed:5": 184.0
+                },
+                "HideFlags:3": 2,
+                "Unbreakable:1": 1
+              }
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:crowbar",
+              "tag:10": {
+                "DisallowContainerItem:1": 0,
+                "GT.Behaviours:10": {
+                  "RelocateMinedBlocks:1": 1
+                },
+                "GT.Tool:10": {
+                  "AttackDamage:5": 102.0,
+                  "AttackSpeed:5": -1.9000001,
+                  "Durability:3": 0,
+                  "HarvestLevel:3": 6,
+                  "Material:8": "gregtech:neutronium",
+                  "MaxDurability:3": 65534,
+                  "ToolSpeed:5": 184.0
+                },
+                "HideFlags:3": 2,
+                "Unbreakable:1": 1
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -20681,7 +20877,7 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 127,
+            "Damage:2": 3103,
             "OreDict:8": "",
             "id:8": "gregtech:meta_ingot"
           },
@@ -20689,7 +20885,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "中子素",
+          "name:8": "山铜",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -20713,7 +20909,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 127,
+              "Damage:2": 3103,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
             }
@@ -21244,7 +21440,25 @@
       },
       "questID:3": 316,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 236,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "317:10": {
       "preRequisites:11": [
@@ -22854,7 +23068,26 @@
         }
       },
       "questID:3": 343,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "lubricant"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -23119,7 +23352,20 @@
         }
       },
       "questID:3": 348,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 1120,
+              "OreDict:8": "",
+              "id:8": "gregtechfoodoption:gtfo_oredict_item"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -25079,7 +25325,26 @@
         }
       },
       "questID:3": 380,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "radon"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -25695,7 +25960,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "你需要使用闪锌矿与方铅矿来制取一些§d铟§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25719,7 +25984,26 @@
         }
       },
       "questID:3": 390,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_sphalerite_0"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_galena_0"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -25812,7 +26096,26 @@
         }
       },
       "questID:3": 391,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 116,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 117,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -25911,7 +26214,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAlmost as hot as the surface temperature of the Sun!§r\n\n§aHSS-G Coils§r bring up the Heat Capacity to §d5,400K§r.\n\nSweet §6§6Coil bonuses§r§r should be the incentive to make those early, as they become mandatory only during the §dLuV§r Age.\n\nAt this point, you may go back to using only one §3Electric Blast Furnace§r for your entire base, powering with the highest available Voltage you have.\nHot Metals will start taking longer to cool down as they don\u0027t get perfect overclocks. For that you will probably want a dual or quad §3Vacuum Freezer§r.",
+          "desc:8": "你的下一个线圈方块。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25935,7 +26238,26 @@
         }
       },
       "questID:3": 393,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_scheelite_0"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_tungstate_0"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26555,7 +26877,26 @@
         }
       },
       "questID:3": 403,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "gallium_arsenide"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26627,7 +26968,26 @@
         }
       },
       "questID:3": 404,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 48,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 16,
+              "Damage:2": 334,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26672,7 +27032,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "更高级的能源仓。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26917,7 +27277,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oTechnically HSS-E does not have Manganese, but close enough... as some other HSS alloys do have Manganese.§r\n\n§aHSS-E§r has very few niche uses required in progression.\n\nThis alloy has great durability and damage property for tools. It has the best Power multiplier (until Neutronium!) as a §dRotor§r for §3Large Turbines§r, though less efficient than §aHSS-S§r.",
+          "desc:8": "在§2格雷科技§r中，一共有三种高速钢，§a高速钢-E§r是基于§e高速钢-G§r的合金，但是并不需要什么很复杂的材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26941,7 +27301,32 @@
         }
       },
       "questID:3": 409,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 22,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 64,
+              "Damage:2": 64,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "2:10": {
+              "Count:3": 64,
+              "Damage:2": 118,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 1,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26987,7 +27372,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§oAnother High Speed Steel, completely fictional, alloyed with Iridium and Osmium.§r\n\n§aHSS-S§r will be necessary to craft §dLuV Motors§r.\n\nThis alloy has a great mining speed, which translates into extremely good §6efficiency§r when used as a §dRotor§r in §3Large Turbines§r.",
+          "desc:8": "§4高速钢-S§r则是基于§e高速钢-E§r的合金中更复杂的了，你最好先进行§d铂系金属处理§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27011,7 +27396,26 @@
         }
       },
       "questID:3": 410,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 50,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 75,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -27080,7 +27484,20 @@
         }
       },
       "questID:3": 411,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 95,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -27687,7 +28104,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "开启你的§6复杂合金§r之旅。",
+          "desc:8": "开启你的§6复杂合金§r之旅，大部分§2GCYM§r的机器都需要这台机器所出产的合金。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -27965,7 +28382,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你需要至少§5EV§r级的搅拌机才能制作它。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28035,7 +28452,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "需要§6HV§r级的§6搅拌机§r制作，但是它并不需要真空冷冻机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28159,7 +28576,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用硅粉与钼粉在§6搅拌机§r中搅拌获取，制作与熔炼它需要至少§5EV§r级的§6搅拌机§r与电力高炉。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28887,7 +29304,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用§d丁醛§r与§1氢§r反应得到§52-己基乙醇§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31992,7 +32409,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "超大号的蓄电池，你可以配合它来优化你庞大的§e电网§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32016,7 +32433,23 @@
         }
       },
       "questID:3": 500,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 742,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 25000000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -44719,7 +45152,9 @@
       }
     },
     "752:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        857
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -45301,7 +45736,9 @@
       }
     },
     "764:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        721
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -45314,7 +45751,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "星系级超大尺度型环形粒子对撞机",
@@ -50330,6 +50767,820 @@
           "taskID:8": "bq_standard:retrieval"
         }
       }
+    },
+    "857:10": {
+      "preRequisites:11": [
+        744
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "betterquesting:placeholder"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "你在OpV阶段要做的事情",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 857,
+      "rewards:9": {},
+      "tasks:9": {}
+    },
+    "858:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 20,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（ULV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 858,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 20,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "859:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 21,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（LV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 859,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 21,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "860:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 22,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（MV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 860,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 22,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "861:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 23,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（HV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 861,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 23,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "862:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 24,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（EV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 862,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 24,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "863:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 25,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（IV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 863,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 25,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "864:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 26,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（LuV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 864,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 26,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "865:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 27,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（ZPM）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 865,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 27,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "866:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 28,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（UV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 866,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 28,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "867:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 29,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（UHV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 867,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 29,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "868:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 30,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（UEV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 868,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 30,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "869:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 31,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（UIV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 869,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 31,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "870:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（UXV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 870,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "871:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 33,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（OpV）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 871,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 33,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "872:10": {
+      "preRequisites:11": [
+        752
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "No Description",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 34,
+            "OreDict:8": "",
+            "id:8": "gcys:meta_item_1"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "超时空电路（MAX）",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 872,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 34,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -51209,9 +52460,9 @@
         "30:10": {
           "id:3": 426,
           "sizeX:3": 24,
-          "sizeY:3": 72,
+          "sizeY:3": 24,
           "x:3": 72,
-          "y:3": 168
+          "y:3": 192
         }
       }
     },
@@ -55709,10 +56960,10 @@
         },
         "17:10": {
           "id:3": 764,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 276,
-          "y:3": 168
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 264,
+          "y:3": 156
         },
         "18:10": {
           "id:3": 838,
@@ -55809,15 +57060,127 @@
           "id:3": 752,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 180,
+          "x:3": 120,
           "y:3": 12
         },
         "10:10": {
           "id:3": 756,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 120,
+          "x:3": 108,
           "y:3": 252
+        },
+        "11:10": {
+          "id:3": 857,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": 72
+        },
+        "12:10": {
+          "id:3": 858,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -96
+        },
+        "13:10": {
+          "id:3": 859,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -96
+        },
+        "14:10": {
+          "id:3": 860,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -96
+        },
+        "15:10": {
+          "id:3": 861,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -96
+        },
+        "16:10": {
+          "id:3": 862,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -144
+        },
+        "17:10": {
+          "id:3": 863,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -144
+        },
+        "18:10": {
+          "id:3": 864,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -144
+        },
+        "19:10": {
+          "id:3": 865,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -144
+        },
+        "20:10": {
+          "id:3": 866,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 48,
+          "y:3": -192
+        },
+        "21:10": {
+          "id:3": 867,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 96,
+          "y:3": -192
+        },
+        "22:10": {
+          "id:3": 868,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -192
+        },
+        "23:10": {
+          "id:3": 869,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 192,
+          "y:3": -192
+        },
+        "24:10": {
+          "id:3": 870,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 72,
+          "y:3": -240
+        },
+        "25:10": {
+          "id:3": 871,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 120,
+          "y:3": -240
+        },
+        "26:10": {
+          "id:3": 872,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 168,
+          "y:3": -240
         }
       }
     },
@@ -56762,7 +58125,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
