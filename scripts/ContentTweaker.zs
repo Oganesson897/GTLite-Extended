@@ -287,6 +287,24 @@ var neutronium_casing = VanillaFactory.createBlock("neutronium_casing", <blockma
 var neutronium_grate_casing = VanillaFactory.createBlock("neutronium_grate_casing", <blockmaterial:iron>);
     neutronium_grate_casing.register();
 
+var space_elevator_support_structure = VanillaFactory.createBlock("space_elevator_support_structure", <blockmaterial:iron>);
+    space_elevator_support_structure.register();
+
+var space_elevator_internal_support_structure = VanillaFactory.createBlock("space_elevator_internal_support_structure", <blockmaterial:iron>);
+    space_elevator_internal_support_structure.register();
+
+var space_elevator_floor = VanillaFactory.createBlock("space_elevator_floor", <blockmaterial:iron>);
+    space_elevator_floor.register();
+
+var space_elevator_casing = VanillaFactory.createBlock("space_elevator_casing", <blockmaterial:iron>);
+    space_elevator_casing.register();
+
+var space_elevator_motor_casing = VanillaFactory.createBlock("space_elevator_motor_casing", <blockmaterial:iron>);
+    space_elevator_motor_casing.register();
+
+var space_elevator_core = VanillaFactory.createBlock("space_elevator_core", <blockmaterial:iron>);
+    space_elevator_core.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;
@@ -522,3 +540,73 @@ var magneto_resonatic_circuit_uev = VanillaFactory.createItem("magneto_resonatic
     magneto_resonatic_circuit_uev.maxStackSize = 64;
     magneto_resonatic_circuit_uev.creativeTab = <creativetab:gregtech.main>;
     magneto_resonatic_circuit_uev.register();
+
+var mining_drone_lv = VanillaFactory.createItem("mining_drone_lv");
+    mining_drone_lv.maxStackSize = 64;
+    mining_drone_lv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_lv.register();
+
+var mining_drone_mv = VanillaFactory.createItem("mining_drone_mv");
+    mining_drone_mv.maxStackSize = 64;
+    mining_drone_mv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_mv.register();
+
+var mining_drone_hv = VanillaFactory.createItem("mining_drone_hv");
+    mining_drone_hv.maxStackSize = 64;
+    mining_drone_hv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_hv.register();
+
+var mining_drone_ev = VanillaFactory.createItem("mining_drone_ev");
+    mining_drone_ev.maxStackSize = 64;
+    mining_drone_ev.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_ev.register();
+
+var mining_drone_iv = VanillaFactory.createItem("mining_drone_iv");
+    mining_drone_iv.maxStackSize = 64;
+    mining_drone_iv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_iv.register();
+
+var mining_drone_luv = VanillaFactory.createItem("mining_drone_luv");
+    mining_drone_luv.maxStackSize = 64;
+    mining_drone_luv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_luv.register();
+
+var mining_drone_zpm = VanillaFactory.createItem("mining_drone_zpm");
+    mining_drone_zpm.maxStackSize = 64;
+    mining_drone_zpm.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_zpm.register();
+
+var mining_drone_uv = VanillaFactory.createItem("mining_drone_uv");
+    mining_drone_uv.maxStackSize = 64;
+    mining_drone_uv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_uv.register();
+
+var mining_drone_uhv = VanillaFactory.createItem("mining_drone_uhv");
+    mining_drone_uhv.maxStackSize = 64;
+    mining_drone_uhv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_uhv.register();
+
+var mining_drone_uev = VanillaFactory.createItem("mining_drone_uev");
+    mining_drone_uev.maxStackSize = 64;
+    mining_drone_uev.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_uev.register();
+
+var mining_drone_uiv = VanillaFactory.createItem("mining_drone_uiv");
+    mining_drone_uiv.maxStackSize = 64;
+    mining_drone_uiv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_uiv.register();
+
+var mining_drone_uxv = VanillaFactory.createItem("mining_drone_uxv");
+    mining_drone_uxv.maxStackSize = 64;
+    mining_drone_uxv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_uxv.register();
+
+var mining_drone_opv = VanillaFactory.createItem("mining_drone_opv");
+    mining_drone_opv.maxStackSize = 64;
+    mining_drone_opv.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_opv.register();
+
+var mining_drone_max = VanillaFactory.createItem("mining_drone_max");
+    mining_drone_max.maxStackSize = 64;
+    mining_drone_max.creativeTab = <creativetab:gregtech.main>;
+    mining_drone_max.register();
