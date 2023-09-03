@@ -945,6 +945,9 @@ gregtech.material.sublight_plasma_jet=亚光速等离子体喷流
 gregtech.material.neutron_plasma=中子等离子体
 gregtech.material.lunarium=月光金属
 gregtech.material.cosmic_neutronium=宇宙中子素
+gregtech.material.hikarium=光素
+gregtech.material.black_hole_matter_polymer_matrix=黑洞物质网状聚合物
+gregtech.material.cosmic_polymer_matrix=寰宇织网
 
 gregtech.material.polyetheretherketone=聚醚醚酮
 gregtech.material.difluorobenzophenone=二氟二苯甲酮

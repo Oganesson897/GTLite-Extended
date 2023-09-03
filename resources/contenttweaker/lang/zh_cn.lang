@@ -105,6 +105,8 @@ tile.contenttweaker.fusion_coil_block_mk_ii.name=次世代聚变线圈方块 Mk 
 tile.contenttweaker.fusion_coil_block_mk_iii.name=次世代聚变线圈方块 Mk III
 tile.contenttweaker.fusion_coil_block_mk_iv.name=次世代聚变线圈方块 Mk IV
 tile.contenttweaker.fusion_coil_block_mk_v.name=次世代聚变线圈方块 Mk V
+tile.contenttweaker.neutronium_casing.name=超高强度中子素机器外壳
+tile.contenttweaker.neutronium_grate_casing.name=中子素强化的过滤外壳
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

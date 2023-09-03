@@ -1631,6 +1631,19 @@ assembler.recipeBuilder()
     .duration(50)
     .buildAndRegister();
 
+makeShaped("opv_machine_hull", <gregtech:machine:998>,
+    [
+        "   ",
+        "KPK",
+        "WCW"
+    ],
+    {
+        "K": <ore:plateCosmicPolymerMatrix>,
+        "P": <ore:plateInfinity>,
+        "C": <gregtech:machine_casing:13>,
+        "W": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
 #  MAX Machines
 makeShaped("max_machine_casing", <gregtech:machine_casing:14>,
     [
@@ -1671,4 +1684,22 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:machine:1221>])
     .EUt(8388608)
     .duration(1000)
+    .buildAndRegister();
+
+#  UXV Components
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongSuperconductingMagnetMixture>,
+             <ore:stickLongTiberium> * 4,
+             <ore:ringTiberium> * 4,
+             <ore:roundTiberium> * 8,
+             <ore:wireFineHikarium> * 64,
+             <ore:wireFineHikarium> * 64,
+             <ore:cableGtSingleCrystalMatrix> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 3456,
+                  <liquid:lubricant> * 7000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:zylon> * 288])
+    .outputs([<gregtech:meta_item_1:138>])
+    .EUt(30000000)
+    .duration(2400)
     .buildAndRegister();

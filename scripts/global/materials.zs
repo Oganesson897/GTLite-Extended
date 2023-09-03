@@ -458,6 +458,56 @@ var cosmic_neutronium = MaterialBuilder(32038, "cosmic_neutronium")
 
 <material:cosmic_neutronium>.setFormula("∞", false);
 
+#  32039 Hikarium
+var hikarium = MaterialBuilder(32039, "hikarium")
+    .ingot()
+    .fluid()
+    .color(0xCCF7FB)
+    .iconSet("bright")
+    .flags(["generate_plate",
+            "generate_foil",
+            "generate_fine_wire",
+            "generate_gear",
+            "generate_small_gear",
+            "generate_frame"])
+    .cableProperties(134217728, 48, 24, false)
+    .build();
+
+#  32040 Tiberium
+var tiberium = MaterialBuilder(32040, "tiberium")
+    .ingot()
+    .fluid()
+    .color(0x79B349)
+    .iconSet("bright")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_long_rod",
+            "generate_ring",
+            "generate_round",
+            "generate_bolt_screw",
+            "generate_frame"])
+    .build();
+
+#  32041 Black Hole Matter Polymer Matrix
+var black_hole_matter_polymer_matrix = MaterialBuilder(32041, "black_hole_matter_polymer_matrix")
+    .ingot()
+    .fluid()
+    .color(0x5B4269)
+    .iconSet("shiny")
+    .flags(["generate_plate"])
+    .build();
+
+#  32042 Cosmic Polymer Matrix
+var cosmic_polymer_matrix = MaterialBuilder(32042, "cosmic_polymer_matrix")
+    .ingot()
+    .fluid()
+    .color(0x9E19CF)
+    .iconSet("dull")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_ring"])
+    .build();
+
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
     .fluid()

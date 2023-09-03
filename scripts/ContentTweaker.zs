@@ -281,6 +281,12 @@ var fusion_coil_block_mk_iv = VanillaFactory.createBlock("fusion_coil_block_mk_i
 var fusion_coil_block_mk_v = VanillaFactory.createBlock("fusion_coil_block_mk_v", <blockmaterial:iron>);
     fusion_coil_block_mk_v.register();
 
+var neutronium_casing = VanillaFactory.createBlock("neutronium_casing", <blockmaterial:iron>);
+    neutronium_casing.register();
+
+var neutronium_grate_casing = VanillaFactory.createBlock("neutronium_grate_casing", <blockmaterial:iron>);
+    neutronium_grate_casing.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;
