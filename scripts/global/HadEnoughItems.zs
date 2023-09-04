@@ -429,6 +429,11 @@ mods.jei.JEI.removeAndHide(<enderio:block_stirling_generator>);
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:4>);
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:3>);
 
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}));
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}));
+mods.jei.JEI.removeAndHide(<extrautils2:quarryproxy>);
+mods.jei.JEI.removeAndHide(<extrautils2:quarry>);
+
 for i in 0 to 8 {
     mods.jei.JEI.removeAndHide(<morefurnaces:upgrade>.definition.makeStack(i));
 }

@@ -180,3 +180,53 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <gregtech:machine:1650>, [
 	[<contenttweaker:field_generator_max>, <ore:batteryUhv>, <ore:circuitMax>, <contenttweaker:electric_pump_max>, <gregtech:machine:32006>, <contenttweaker:electric_pump_max>, <ore:circuitMax>, <ore:batteryUhv>, <contenttweaker:piston_max>], 
 	[<ore:plateCosmicNeutronium>, <contenttweaker:piston_max>, <contenttweaker:motor_max>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <contenttweaker:field_generator_max>, <contenttweaker:field_generator_max>, <ore:plateCosmicNeutronium>]
 ]);
+
+#  AE2
+mods.extendedcrafting.TableCrafting.addShaped(4, <appliedenergistics2:creative_energy_cell>, [
+	[<ore:batteryHv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryHv>], 
+	[<ore:batteryIv>, <ore:batteryZpm>, <ore:batteryZpm>, <ore:batteryLuv>, <ore:batteryLuv>, <ore:batteryLuv>, <ore:batteryZpm>, <ore:batteryZpm>, <ore:batteryIv>], 
+	[<ore:batteryIv>, <ore:batteryZpm>, <ore:batteryUv>, <gregtech:meta_item_1:209>, <gregtech:meta_item_1:164>, <gregtech:meta_item_1:209>, <ore:batteryUv>, <ore:batteryZpm>, <ore:batteryIv>], 
+	[<ore:batteryIv>, <ore:batteryLuv>, <gregtech:meta_item_1:209>, <ore:batteryUhv>, <ore:circuitUhv>, <ore:batteryUhv>, <gregtech:meta_item_1:209>, <ore:batteryLuv>, <ore:batteryIv>], 
+	[<ore:batteryIv>, <ore:batteryLuv>, <gregtech:meta_item_1:224>, <ore:circuitUhv>, <appliedenergistics2:dense_energy_cell>, <ore:circuitUhv>, <gregtech:meta_item_1:239>, <ore:batteryLuv>, <ore:batteryIv>], 
+	[<ore:batteryIv>, <ore:batteryLuv>, <gregtech:meta_item_1:209>, <ore:batteryUhv>, <ore:circuitUhv>, <ore:batteryUhv>, <gregtech:meta_item_1:209>, <ore:batteryLuv>, <ore:batteryIv>], 
+	[<ore:batteryIv>, <ore:batteryZpm>, <ore:batteryUv>, <gregtech:meta_item_1:209>, <gregtech:meta_item_1:164>, <gregtech:meta_item_1:209>, <ore:batteryUv>, <ore:batteryZpm>, <ore:batteryIv>], 
+	[<ore:batteryIv>, <ore:batteryZpm>, <ore:batteryZpm>, <ore:batteryLuv>, <ore:batteryLuv>, <ore:batteryLuv>, <ore:batteryZpm>, <ore:batteryZpm>, <ore:batteryIv>], 
+	[<ore:batteryHv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryIv>, <ore:batteryHv>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <appliedenergistics2:creative_storage_cell>, [
+	[<ore:stickLongPedotTma>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:stickLongPedotTma>], 
+	[<gregtech:machine:1574>, <ore:stickLongPedotTma>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:stickLongPedotTma>, <gregtech:machine:1589>], 
+	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:meta_item_1:209>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:meta_item_1:209>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
+	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:circuitUhv>, <aeadditions:storage.physical:3>, <ore:circuitUhv>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
+	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <aeadditions:storage.casing>, <ore:frameGtVibranium>, <aeadditions:storage.casing:1>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
+	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:circuitUhv>, <aeadditions:storage.fluid:2>, <ore:circuitUhv>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
+	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:meta_item_1:209>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:meta_item_1:209>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
+	[<gregtech:machine:1574>, <ore:stickLongPedotTma>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <ore:stickLongPedotTma>, <gregtech:machine:1589>], 
+	[<ore:stickLongPedotTma>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <ore:stickLongPedotTma>]
+]);
+
+#  Storage Drawers
+mods.extendedcrafting.TableCrafting.addShaped(4, <storagedrawers:upgrade_creative>, [
+	[<ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <ore:plateInfinity>], 
+	[<ore:plateDenseNeutronium>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_conversion>, <gregtech:meta_item_1:214>, <contenttweaker:robot_arm_max>, <gregtech:meta_item_1:214>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_one_stack>, <ore:plateDenseNeutronium>], 
+	[<ore:plateDenseNeutronium>, <storagedrawers:upgrade_void>, <gregtech:meta_item_1:169>, <gregtech:meta_item_1:229>, <storagedrawers:upgrade_template>, <gregtech:meta_item_1:244>, <gregtech:meta_item_1:169>, <storagedrawers:upgrade_void>, <ore:plateDenseNeutronium>], 
+	[<ore:plateDenseNeutronium>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_conversion>, <gregtech:meta_item_1:214>, <contenttweaker:robot_arm_max>, <gregtech:meta_item_1:214>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_one_stack>, <ore:plateDenseNeutronium>], 
+	[<ore:plateInfinity>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <storagedrawers:upgrade_creative:1>, [
+	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <contenttweaker:sensor_max>, <contenttweaker:field_generator_max>, <contenttweaker:sensor_max>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_storage:4>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <storagedrawers:upgrade_conversion>, <ore:circuitMax>, <storagedrawers:upgrade_storage:4>, <contenttweaker:robot_arm_max>, <storagedrawers:upgrade_storage:4>, <ore:circuitMax>, <storagedrawers:upgrade_conversion>, <ore:plateCosmicNeutronium>], 
+	[<contenttweaker:sensor_max>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <contenttweaker:field_generator_max>, <gregtech:machine:1574>, <contenttweaker:field_generator_max>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <contenttweaker:sensor_max>], 
+	[<contenttweaker:field_generator_max>, <storagedrawers:upgrade_one_stack>, <contenttweaker:conveyor_module_max>, <ore:circuitMax>, <storagedrawers:upgrade_creative>, <ore:circuitMax>, <contenttweaker:conveyor_module_max>, <storagedrawers:upgrade_one_stack>, <contenttweaker:field_generator_max>], 
+	[<contenttweaker:sensor_max>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_storage:4>, <contenttweaker:field_generator_max>, <gregtech:machine:1589>, <contenttweaker:field_generator_max>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_void>, <contenttweaker:sensor_max>], 
+	[<ore:plateCosmicNeutronium>, <storagedrawers:upgrade_conversion>, <ore:circuitMax>, <storagedrawers:upgrade_storage:4>, <contenttweaker:robot_arm_max>, <storagedrawers:upgrade_storage:4>, <ore:circuitMax>, <storagedrawers:upgrade_conversion>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_storage:4>, <ore:plateCosmicNeutronium>], 
+	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <contenttweaker:sensor_max>, <contenttweaker:field_generator_max>, <contenttweaker:sensor_max>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>]
+]);
