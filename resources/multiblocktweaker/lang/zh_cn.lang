@@ -19,6 +19,7 @@ multiblocktweaker.machine.fusion_reactor_mk_iv.name=次世代核聚变反应堆�
 multiblocktweaker.machine.fusion_reactor_mk_v.name=次世代核聚变反应堆控制电脑 Mk II
 multiblocktweaker.machine.fusion_reactor_mk_vi.name=次世代核聚变反应堆控制电脑 Mk III
 multiblocktweaker.machine.plasma_condenser.name=等离子冷凝器
+multiblocktweaker.machine.space_elevator.name=太空电梯
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
@@ -41,6 +42,7 @@ multiblocktweaker.multiblock.fusion_reactor_mk_iv.name=次世代核聚变反应�
 multiblocktweaker.multiblock.fusion_reactor_mk_v.name=次世代核聚变反应堆控制电脑 Mk II
 multiblocktweaker.multiblock.fusion_reactor_mk_vi.name=次世代核聚变反应堆控制电脑 Mk III
 multiblocktweaker.multiblock.plasma_condenser.name=等离子冷凝器
+multiblocktweaker.multiblock.space_elevator.name=太空电梯
 
 recipemap.virtual_cosmos_mk1.name=虚拟宇宙物质解压
 recipemap.virtual_cosmos_mk2.name=虚拟宇宙物质解压
@@ -63,3 +65,4 @@ recipemap.fusion_reactor_mk_iv.name=核聚变反应堆
 recipemap.fusion_reactor_mk_v.name=核聚变反应堆
 recipemap.fusion_reactor_mk_vi.name=核聚变反应堆
 recipemap.plasma_condenser.name=等离子冷凝
+recipemap.space_elevator.name=太空资源采掘
