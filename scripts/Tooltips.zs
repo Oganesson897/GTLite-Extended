@@ -96,6 +96,36 @@ import mods.gregtech.recipe.RecipeMap;
 <gregtech:machine:32015>.addTooltip("电路板制作：从入门到精通。");
 <gregtech:machine:32015>.addTooltip("大规模生产各类电路基板与电路板并减少材料的消耗。");
 
+##  Vacuum Drying Furnace
+<gregtech:machine:32016>.addTooltip("超级烘干机。");
+<gregtech:machine:32016>.addTooltip("将§6工业浮选机§7生产的§5悬浊液§7烘干以获取相应的矿物资源。");
+
+##  Fusion Reactor Mk IV
+<gregtech:machine:32017>.addTooltip("银河泻落九天。");
+<gregtech:machine:32017>.addTooltip("可以单次运行更大容量的核聚变配方，同时不需要启动能量。");
+
+##  Fusion Reactor Mk V
+<gregtech:machine:32018>.addTooltip("白矮星之力。");
+<gregtech:machine:32018>.addTooltip("可以单次运行更大容量的核聚变配方，同时不需要启动能量。");
+
+##  Fusion Reactor Mk VI
+<gregtech:machine:32019>.addTooltip("家用中子星。");
+<gregtech:machine:32019>.addTooltip("可以单次运行更大容量的核聚变配方，同时不需要启动能量。");
+
+##  Mega Alloy Blast Smelter
+<gregtech:machine:32020>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
+<gregtech:machine:32020>.addTooltip("更大的合金冶炼炉！");
+
+##  Plasma Condenser
+<gregtech:machine:32021>.addTooltip("用于冷却等离子体。");
+
+##  Space Elevator
+<gregtech:machine:32022>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
+<gregtech:machine:32022>.addTooltip("你的资源收集技术的顶端，终极的资源提取设备。");
+<gregtech:machine:32022>.addTooltip("需要放置对应等级的§a超维度采矿无人机§7才可以工作。");
+<gregtech:machine:32022>.addTooltip("放入§9电力活塞§7以使用矿物采掘模式，放入§9电动泵§7以使用流体钻取模式");
+<gregtech:machine:32022>.addTooltip("需要提供额外的§e火箭燃料§7来进行工作。");
+
 #  Circuits
 <contenttweaker:control_circuit_luv>.addTooltip("用于制作一些特殊机器");
 <contenttweaker:control_circuit_luv>.addTooltip("§4LuV级控制电路");
