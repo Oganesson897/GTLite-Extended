@@ -282,3 +282,91 @@ assembly_line.recipeBuilder()
     .EUt(2097152)
     .duration(400)
     .buildAndRegister();
+
+#  Space elevator
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtRhodiumPlatedPalladium>,
+             <ore:platePolybenzimidazole> * 6])
+    .fluidInputs([<liquid:concrete> * 576,
+                  <liquid:polyetheretherketone> * 576])
+    .outputs([<contenttweaker:space_elevator_floor> * 2])
+    .EUt(93248)
+    .duration(200)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtNaquadahAlloy>,
+             <gregtech:meta_item_1:179> * 2,
+             <gregtech:meta_item_1:149> * 2,
+             <ore:plateTritanium> * 4,
+             <ore:cableGtQuadrupleYttriumBariumCuprate> * 4])
+    .fluidInputs([<liquid:polyetheretherketone> * 576,
+                  <liquid:polybenzimidazole> * 576])
+    .outputs([<contenttweaker:space_elevator_internal_support_structure> * 2])
+    .EUt(100000)
+    .duration(350)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtHsss>,
+             <gregtech:meta_item_1:194> * 2,
+             <gregtech:meta_item_1:238> * 2,
+             <ore:plateDuranium> * 4,
+             <ore:wireFineAmericium> * 16])
+    .fluidInputs([<liquid:polyetheretherketone> * 576,
+                  <liquid:naquadria> * 144])
+    .outputs([<contenttweaker:space_elevator_support_structure> * 2])
+    .EUt(100000)
+    .duration(350)
+    .buildAndRegister();
+
+makeShaped("space_elevator_casing", <contenttweaker:space_elevator_casing> * 2,
+    [
+        "PHP",
+        "PFP",
+        "PWP"
+    ],
+    {
+        "F": <ore:frameGtHsss>,
+        "H": <ore:craftingToolHardHammer>,
+        "P": <ore:plateTairitsium>,
+        "W": <ore:craftingToolWrench>
+    });
+    
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateTairitsium> * 6,
+             <ore:frameGtHsss>])
+    .circuit(6)
+    .outputs([<contenttweaker:space_elevator_casing> * 2])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtHsse>,
+             <gregtech:meta_item_1:164> * 2,
+             <gregtech:meta_item_1:224> * 2,
+             <ore:plateEuropium> * 4,
+             <ore:cableGtQuadrupleNaquadahAlloy> * 4])
+    .fluidInputs([<liquid:polyetheretherketone> * 576,
+                  <liquid:lutetium> * 144])
+    .outputs([<contenttweaker:space_elevator_motor_casing> * 2])
+    .EUt(100000)
+    .duration(350)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:993>,
+             <contenttweaker:space_elevator_motor_casing> * 4,
+             <contenttweaker:cosmic_microwave_background_radiation_absorber> * 16,
+             <contenttweaker:control_circuit_uv> * 4,
+             <gregtech:meta_item_1:209> * 8,
+             <ore:wireFineUraniumRhodiumDinaquadide> * 32
+    ])
+    .fluidInputs([<liquid:polyetheretherketone> * 576,
+                  <liquid:adamantium> * 144])
+    .outputs([<contenttweaker:space_elevator_core>])
+    .EUt(100000)
+    .duration(350)
+    .buildAndRegister();

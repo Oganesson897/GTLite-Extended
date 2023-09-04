@@ -828,3 +828,14 @@ circuit_assembler.recipeBuilder()
     .EUt(31457280)
     .duration(300)
     .buildAndRegister();
+
+#  Tairitsium
+mixer.recipeBuilder()
+    .inputs([<ore:dustBedrock> * 6,
+             <ore:dustVibranium> * 3,
+             <ore:dustAdamantium> * 2])
+    .fluidInputs([<liquid:tritanium> * 144])
+    .outputs([<gregtech:meta_dust:32043> * 12])
+    .EUt(200000)
+    .duration(300)
+    .buildAndRegister();

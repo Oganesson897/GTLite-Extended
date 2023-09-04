@@ -488,6 +488,35 @@ var tiberium = MaterialBuilder(32040, "tiberium")
             "generate_frame"])
     .build();
 
+#  32043 Tairitsium
+var tairitsium = MaterialBuilder(32043, "tairitsium")
+    .ingot()
+    .fluid()
+    .color(0x003F5F)
+    .iconSet("metallic")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_frame"])
+    .blastTemp(9000)
+    .build();
+
+<material:tairitsium>.setFormula("Ad2Vb3Tr?6", true);
+
+#  32044 Arcanium
+var arcanium = MaterialBuilder(32044, "arcanium")
+    .ingot()
+    .fluid()
+    .color(0xD54338)
+    .iconSet("bright")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_long_rod",
+            "generate_ring",
+            "generate_round",
+            "generate_bolt_screw",
+            "generate_frame"])
+    .build();
+
 #  32041 Black Hole Matter Polymer Matrix
 var black_hole_matter_polymer_matrix = MaterialBuilder(32041, "black_hole_matter_polymer_matrix")
     .ingot()

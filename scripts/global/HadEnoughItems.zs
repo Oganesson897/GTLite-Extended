@@ -60,6 +60,10 @@ var disabledOreDictBlocks as IItemStack[][IOreDictEntry] = {
 }; 
 
 var disabledOreDictDusts as IItemStack[][IOreDictEntry] = {
+    #  dustBedrock : Ender IO
+    <ore:dustBedrock> : [
+        <enderio:item_material:20>
+    ],
     #  dustCertusQuartz : Applied Energistics 2
     <ore:dustCertusQuartz> : [
 		    <appliedenergistics2:material:2>
@@ -75,23 +79,24 @@ var disabledOreDictDusts as IItemStack[][IOreDictEntry] = {
 	  ],
     #  dustCopper : Ender IO
     <ore:dustCopper>: [
-		    <enderio:item_material:26>
+		<enderio:item_material:26>
     ],
     #  dustDiamond : Actually Additions
     <ore:dustDiamond> : [
-		    <actuallyadditions:item_dust:2>
+		<actuallyadditions:item_dust:2>
 	  ],
     #  dustEmerald : Actually Additions
     <ore:dustEmerald> : [
-		    <actuallyadditions:item_dust:3>
+		<actuallyadditions:item_dust:3>
 	  ],
     #  dustEnderPearl : Applied Energistics 2
     <ore:dustEnderPearl> : [
         <appliedenergistics2:material:46>
     ],
-    #  dustGold : Actually Additions
+    #  dustGold : Actually Additions, Applied Energistics 2
     <ore:dustGold> : [
-		    <actuallyadditions:item_dust:1>
+		<actuallyadditions:item_dust:1>,
+        <appliedenergistics2:material:51>
     ],
     #  dustIron : Actually Additions, Applied Energistics 2, Ender IO
     <ore:dustIron>: [
