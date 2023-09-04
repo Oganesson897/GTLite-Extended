@@ -6,6 +6,7 @@ recipes.remove(<enderio:item_material:22>);
 recipes.remove(<enderio:item_liquid_conduit>);
 recipes.remove(<enderio:item_liquid_conduit:1>);
 
+#  Pulsating iron
 alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotIron>,
              <ore:dustUraninite>])
@@ -14,6 +15,7 @@ alloy_smelter.recipeBuilder()
     .duration(20)
     .buildAndRegister();
 
+#  Conductive iron
 alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotIron>,
              <ore:dustRedstone>])
@@ -30,6 +32,7 @@ alloy_smelter.recipeBuilder()
     .duration(20)
     .buildAndRegister();
 
+#  Energetic alloy
 mixer.recipeBuilder()
     .inputs([<ore:dustGold> * 2,
              <ore:dustRedstone>,
@@ -39,12 +42,72 @@ mixer.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
+#  Vibrant alloy
 mixer.recipeBuilder()
     .inputs([<ore:dustEnergeticAlloy>,
              <ore:dustEnderPearl>])
     .outputs([<gregtech:meta_dust:32006> * 2])
     .EUt(512)
     .duration(200)
+    .buildAndRegister();
+
+#  Dark steel
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotSteel>,
+             <minecraft:obsidian>])
+    .outputs([<gregtech:meta_ingot:32003> * 2])
+    .EUt(16)
+    .duration(100)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustSteel>,
+             <minecraft:obsidian>])
+    .outputs([<gregtech:meta_ingot:32003> * 2])
+    .EUt(16)
+    .duration(100)
+    .buildAndRegister();
+
+#  End steel
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotBlackSteel>,
+             <minecraft:end_stone> * 2])
+    .outputs([<gregtech:meta_ingot:32007> * 3])
+    .EUt(2048)
+    .duration(200)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotBlackSteel>,
+             <ore:dustEndstone> * 2])
+    .outputs([<gregtech:meta_ingot:32007> * 3])
+    .EUt(2048)
+    .duration(200)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustBlackSteel>,
+             <minecraft:end_stone> * 2])
+    .outputs([<gregtech:meta_ingot:32007> * 3])
+    .EUt(2048)
+    .duration(200)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustBlackSteel>,
+             <ore:dustEndstone> * 2])
+    .outputs([<gregtech:meta_ingot:32007> * 3])
+    .EUt(2048)
+    .duration(200)
+    .buildAndRegister();
+
+#  Ardit
+mixer.recipeBuilder()
+    .inputs([<ore:dustRedSteel> * 3,
+             <minecraft:blaze_powder>])
+    .outputs([<gregtech:meta_dust:32009>])
+    .EUt(1024)
+    .duration(400)
     .buildAndRegister();
 
 makeShaped("conduit_binder_composite", <enderio:item_material:22>,

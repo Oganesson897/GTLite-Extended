@@ -1,5 +1,149 @@
 import mods.gregtech.recipe.RecipeMap;
 
+#  Mining Drone
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtSteel>,
+             <gregtech:meta_item_1:217> * 2,
+             <gregtech:meta_item_1:232> * 2,
+             <ore:cableGtSingleTin> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<contenttweaker:mining_drone_lv>])
+    .EUt(524288)
+    .duration(60)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtAluminium>,
+             <gregtech:meta_item_1:218> * 2,
+             <gregtech:meta_item_1:233> * 2,
+             <ore:cableGtSingleCopper> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 288])         
+    .outputs([<contenttweaker:mining_drone_mv>])
+    .EUt(524288)
+    .duration(120)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtStainlessSteel>,
+             <gregtech:meta_item_1:219> * 2,
+             <gregtech:meta_item_1:234> * 2,
+             <ore:cableGtSingleGold> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 432])
+    .outputs([<contenttweaker:mining_drone_hv>])
+    .EUt(524288)
+    .duration(180)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtTitanium>,
+             <gregtech:meta_item_1:220> * 2,
+             <gregtech:meta_item_1:235> * 2,
+             <ore:cableGtSingleAluminium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:mining_drone_ev>])
+    .EUt(524288)
+    .duration(240)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtTungstenSteel>,
+             <gregtech:meta_item_1:221> * 2,
+             <gregtech:meta_item_1:236> * 2,
+             <ore:cableGtSinglePlatinum> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 720])
+    .outputs([<contenttweaker:mining_drone_iv>])
+    .EUt(524288)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtRhodiumPlatedPalladium>,
+             <gregtech:meta_item_1:222> * 2,
+             <gregtech:meta_item_1:237> * 2,
+             <ore:cableGtSingleNiobiumTitanium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 864])
+    .outputs([<contenttweaker:mining_drone_luv>])
+    .EUt(524288)
+    .duration(360)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtNaquadahAlloy>,
+             <gregtech:meta_item_1:223> * 2,
+             <gregtech:meta_item_1:238> * 2,
+             <ore:cableGtSingleVanadiumGallium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1008])
+    .outputs([<contenttweaker:mining_drone_zpm>])    
+    .EUt(524288)
+    .duration(420)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtDarmstadtium>,
+             <gregtech:meta_item_1:224> * 2,
+             <gregtech:meta_item_1:239> * 2,
+             <ore:cableGtSingleYttriumBariumCuprate> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1152])
+    .outputs([<contenttweaker:mining_drone_uv>])
+    .EUt(524288)
+    .duration(480)
+    .buildAndRegister();
+       
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtOrichalcum>,
+             <gregtech:meta_item_1:225> * 2,
+             <gregtech:meta_item_1:240> * 2,
+             <ore:cableGtSingleEuropium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1296])
+    .outputs([<contenttweaker:mining_drone_uhv>])
+    .EUt(524288)
+    .duration(540)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateAdamantium>,
+             <gregtech:meta_item_1:226> * 2,
+             <gregtech:meta_item_1:241> * 2,
+             <ore:cableGtSinglePedotTma> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1440])
+    .outputs([<contenttweaker:mining_drone_uev>])
+    .EUt(524288)
+    .duration(600)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateAurorium>,
+             <gregtech:meta_item_1:227> * 2,
+             <gregtech:meta_item_1:242> * 2,
+             <ore:cableGtSingleSunnarium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1584])
+    .outputs([<contenttweaker:mining_drone_uiv>])
+    .EUt(524288)
+    .duration(660)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateNeutronium>,
+             <gregtech:meta_item_1:228> * 2,
+             <gregtech:meta_item_1:243> * 2,
+             <ore:cableGtSingleCrystalMatrix> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1728])
+    .outputs([<contenttweaker:mining_drone_uxv>])
+    .EUt(524288)
+    .duration(720)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateInfinity>,
+             <gregtech:meta_item_1:229> * 2,
+             <gregtech:meta_item_1:244> * 2,
+             <ore:cableGtSingleSuperheavyElementMixture> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1872])
+    .outputs([<contenttweaker:mining_drone_opv>])
+    .EUt(524288)
+    .duration(780)
+    .buildAndRegister();
+
 #  Ore
 ##  LV
 space_elevator.recipeBuilder()

@@ -116,6 +116,8 @@ var end_steel = MaterialBuilder(32007, "end_steel")
     .cableProperties(2048, 1, 0,true)
     .build();
 
+<material:end_steel>.setFormula("Ni(AuAgCu3)Fe3?2", true);
+
 #  32008 Lumium : IV superconductor
 var lumium = MaterialBuilder(32008, "lumium")
     .ingot()
@@ -124,6 +126,9 @@ var lumium = MaterialBuilder(32008, "lumium")
     .iconSet("bright")
     .blastTemp(4500, "MID", 120, 14400)
     .cableProperties(8192, 1, 0, true)
+    .components([<material:end_steel> * 1,
+                 <material:blue_alloy> * 2,
+                 <material:vibrant_alloy> * 3])
     .build();
 
 #  32009 Ardite : General material
@@ -148,6 +153,8 @@ var signalum = MaterialBuilder(32010, "signalum")
                  <material:red_alloy> * 2])
     .cableProperties(32768, 1, 0, true)
     .build();
+
+<material:signalum>.setFormula("Cu4(((CuAg4)(BiZnCu3)Fe2(Ni(AuAgCu3)Fe3)4)3(CS))2(Cu(Si(FeS2)5(CrAl2O3)Hg3)4)2", true);
 
 #  32011 Enderium : ZPM superconductor
 var enderium = MaterialBuilder(32011, "enderium")
@@ -488,35 +495,6 @@ var tiberium = MaterialBuilder(32040, "tiberium")
             "generate_frame"])
     .build();
 
-#  32043 Tairitsium
-var tairitsium = MaterialBuilder(32043, "tairitsium")
-    .ingot()
-    .fluid()
-    .color(0x003F5F)
-    .iconSet("metallic")
-    .flags(["generate_plate",
-            "generate_rod",
-            "generate_frame"])
-    .blastTemp(9000)
-    .build();
-
-<material:tairitsium>.setFormula("Ad2Vb3Tr?6", true);
-
-#  32044 Arcanium
-var arcanium = MaterialBuilder(32044, "arcanium")
-    .ingot()
-    .fluid()
-    .color(0xD54338)
-    .iconSet("bright")
-    .flags(["generate_plate",
-            "generate_rod",
-            "generate_long_rod",
-            "generate_ring",
-            "generate_round",
-            "generate_bolt_screw",
-            "generate_frame"])
-    .build();
-
 #  32041 Black Hole Matter Polymer Matrix
 var black_hole_matter_polymer_matrix = MaterialBuilder(32041, "black_hole_matter_polymer_matrix")
     .ingot()
@@ -535,6 +513,36 @@ var cosmic_polymer_matrix = MaterialBuilder(32042, "cosmic_polymer_matrix")
     .flags(["generate_plate",
             "generate_rod",
             "generate_ring"])
+    .build();
+
+#  32043 Tairitsium
+var tairitsium = MaterialBuilder(32043, "tairitsium")
+    .ingot()
+    .fluid()
+    .color(0x003F5F)
+    .iconSet("metallic")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_frame"])
+    .cableProperties(524288, 4, 0, true)
+    .blastTemp(9000)
+    .build();
+
+<material:tairitsium>.setFormula("Ad2Vb3Tr?6", true);
+
+#  32044 Arcanium
+var arcanium = MaterialBuilder(32044, "arcanium")
+    .ingot()
+    .fluid()
+    .color(0xD54338)
+    .iconSet("bright")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_long_rod",
+            "generate_ring",
+            "generate_round",
+            "generate_bolt_screw",
+            "generate_frame"])
     .build();
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
