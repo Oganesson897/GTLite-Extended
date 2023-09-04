@@ -281,12 +281,6 @@ var fusion_coil_block_mk_iv = VanillaFactory.createBlock("fusion_coil_block_mk_i
 var fusion_coil_block_mk_v = VanillaFactory.createBlock("fusion_coil_block_mk_v", <blockmaterial:iron>);
     fusion_coil_block_mk_v.register();
 
-var neutronium_casing = VanillaFactory.createBlock("neutronium_casing", <blockmaterial:iron>);
-    neutronium_casing.register();
-
-var neutronium_grate_casing = VanillaFactory.createBlock("neutronium_grate_casing", <blockmaterial:iron>);
-    neutronium_grate_casing.register();
-
 var space_elevator_support_structure = VanillaFactory.createBlock("space_elevator_support_structure", <blockmaterial:iron>);
     space_elevator_support_structure.register();
 

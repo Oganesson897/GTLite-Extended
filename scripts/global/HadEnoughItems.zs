@@ -473,6 +473,7 @@ mods.jei.JEI.hideCategory("AlloySmelter");
 mods.jei.JEI.hideCategory("EIOTank");
 mods.jei.JEI.hideCategory("Painter");
 mods.jei.JEI.hideCategory("SagMill");
+mods.jei.JEI.hideCategory("Vat");
 
 #  Extra Utils 2 Category
 mods.jei.JEI.hideCategory("extrautils2.blockPatterns");
