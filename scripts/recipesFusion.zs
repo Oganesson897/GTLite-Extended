@@ -72,6 +72,15 @@ fusion_reactor.recipeBuilder()
     .duration(840)
     .buildAndRegister();
 
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:tachyon> * 500,
+                  <liquid:aurorium> * 500])
+    .fluidOutputs([<liquid:tachyon_plasma> * 1000])
+    .property("eu_to_start", 600000000)
+    .EUt(3500000)
+    .duration(600)
+    .buildAndRegister();
+
 #  Fusion Reactor Mk IV
 
 ##  Vanilla recipes

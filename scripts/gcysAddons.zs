@@ -426,6 +426,15 @@ canner.recipeBuilder()
     .duration(1200)
     .buildAndRegister();
 
+#  Hikarium
+canner.recipeBuilder()
+    .inputs([<contenttweaker:plasma_containment_cell>])
+    .fluidInputs([<liquid:tachyon_plasma> * 1000])
+    .outputs([<contenttweaker:tachyon_plasma_containment_cell>])
+    .EUt(512)
+    .duration(1200)
+    .buildAndRegister();
+
 #  Austenite steel
 mixer.recipeBuilder()
     .inputs([<ore:dustNaquadahAlloy> * 14,

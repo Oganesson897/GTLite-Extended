@@ -453,7 +453,7 @@ var depleted_quad_mox_fuel_rod = VanillaFactory.createItem("depleted_quad_mox_fu
 #  Textures
 var fusion_machine_casing_mk_iv_overlay = VanillaFactory.createBlock("fusion_machine_casing_mk_iv_overlay", <blockmaterial:iron>);
     fusion_machine_casing_mk_iv_overlay.register();
-    
+
 #  Others
 var hyperdimensional_oscillating_matter = VanillaFactory.createItem("hyperdimensional_oscillating_matter");
     hyperdimensional_oscillating_matter.maxStackSize = 1;
@@ -473,6 +473,11 @@ var neutron_plasma_containment_cell = VanillaFactory.createItem("neutron_plasma_
     neutron_plasma_containment_cell.maxStackSize = 16;
     neutron_plasma_containment_cell.creativeTab = <creativetab:gregtech.main>;
     neutron_plasma_containment_cell.register();
+
+var tachyon_plasma_containment_cell = VanillaFactory.createItem("tachyon_plasma_containment_cell");
+    tachyon_plasma_containment_cell.maxStackSize = 16;
+    tachyon_plasma_containment_cell.creativeTab = <creativetab:gregtech.main>;
+    tachyon_plasma_containment_cell.register();
 
 var raw_imprinted_resonatic_circuit_board = VanillaFactory.createItem("raw_imprinted_resonatic_circuit_board");
     raw_imprinted_resonatic_circuit_board.maxStackSize = 64;

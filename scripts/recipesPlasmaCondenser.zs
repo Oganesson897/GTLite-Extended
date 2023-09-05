@@ -7,3 +7,11 @@ plasma_condenser.recipeBuilder()
     .EUt(10000000)
     .duration(300)
     .buildAndRegister();
+
+plasma_condenser.recipeBuilder()
+    .inputs([<contenttweaker:tachyon_plasma_containment_cell>])
+    .fluidInputs([<liquid:liquid_helium> * 32000])
+    .fluidOutputs([<liquid:hikarium> * 1000])
+    .EUt(10000000)
+    .duration(300)
+    .buildAndRegister();

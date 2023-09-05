@@ -2150,6 +2150,7 @@ assembler.recipeBuilder()
 assembly_line.recipeBuilder()
     .inputs([<gregtech:machine:996>,
              <ore:cableGtSingleLunarium> * 4,
+             <gcys:meta_item_1:370> * 2,
              <ore:circuitUiv>,
              <gcys:meta_item_1:352> * 2])
     .fluidInputs([<liquid:sodium_potassium> * 36000,

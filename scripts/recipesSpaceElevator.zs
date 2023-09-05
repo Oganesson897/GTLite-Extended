@@ -643,9 +643,37 @@ space_elevator.recipeBuilder()
     .duration(600)
     .buildAndRegister();
 
+space_elevator.recipeBuilder()
+    .notConsumable([<contenttweaker:mining_drone_uiv>,
+                    <gregtech:meta_item_1:182>])
+    .circuit(1)
+    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .outputs([<gregtech:meta_dust:32040> * 16])
+    .EUt(7688600)
+    .duration(600)
+    .buildAndRegister();
+
 #  UXV : 7688600 EU/t : 600 tick
+space_elevator.recipeBuilder()
+    .notConsumable([<contenttweaker:mining_drone_uxv>,
+                    <gregtech:meta_item_1:183>])
+    .circuit(0)
+    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .outputs([<gregtech:meta_dust:32040> * 32])
+    .EUt(7688600)
+    .duration(600)
+    .buildAndRegister();
 
 #  OpV : 28337500 EU/t : 600 tick
+space_elevator.recipeBuilder()
+    .notConsumable([<contenttweaker:mining_drone_opv>,
+                    <gregtech:meta_item_1:184>])
+    .circuit(0)
+    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .outputs([<gregtech:meta_dust:32040> * 64])
+    .EUt(28337500)
+    .duration(600)
+    .buildAndRegister();
 
 #  MAX : 28337500 EU/t : 600 tick
 space_elevator.recipeBuilder()

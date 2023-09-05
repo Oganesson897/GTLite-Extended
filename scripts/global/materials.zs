@@ -248,6 +248,9 @@ var sunnarium = MaterialBuilder(32017, "sunnarium")
     .fluid()
     .color(0xCD8E26)
     .iconSet("shiny")
+    .flags(["generate_rod",
+            "generate_long_rod",
+            "generate_spring"])
     .cableProperties(33554432, 16, 8, false)
     .build();
 
@@ -501,6 +504,7 @@ var tiberium = MaterialBuilder(32040, "tiberium")
             "generate_round",
             "generate_bolt_screw",
             "generate_frame"])
+    .blastTemp(10800)
     .build();
 
 #  32041 Black Hole Matter Polymer Matrix
@@ -552,6 +556,14 @@ var arcanium = MaterialBuilder(32044, "arcanium")
             "generate_bolt_screw",
             "generate_frame"])
     .build();
+
+#  32045 Tachyon Plasma
+var tachyon_plasma = MaterialBuilder(32045, "tachyon_plasma")
+    .fluid()
+    .color(0x62C0D6)
+    .build();
+
+<material:tachyon_plasma>.setFormula("y", false);
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")

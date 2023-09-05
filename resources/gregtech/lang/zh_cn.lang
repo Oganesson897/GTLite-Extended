@@ -946,8 +946,12 @@ gregtech.material.neutron_plasma=中子等离子体
 gregtech.material.lunarium=月光金属
 gregtech.material.cosmic_neutronium=宇宙中子素
 gregtech.material.hikarium=光素
+gregtech.material.tiberium=泰伯利亚
 gregtech.material.black_hole_matter_polymer_matrix=黑洞物质网状聚合物
 gregtech.material.cosmic_polymer_matrix=寰宇织网
+gregtech.material.tairitsium=对立金属
+gregtech.material.arcanium=韵律源金
+gregtech.material.tachyon_plasma=速子等离子体
 
 gregtech.material.polyetheretherketone=聚醚醚酮
 gregtech.material.difluorobenzophenone=二氟二苯甲酮
@@ -993,3 +997,5 @@ gregtech.material.hdcs=高强度复合钢
 gregtech.material.magneto_resonatic=共振紫晶
 gregtech.material.superconducting_magnet_mixture=超导磁体混合物
 gregtech.material.austenite_steel=特种奥氏体复合钢
+
+gregtech.material.titanium_platinum_vanadium_alloy=钛铂钒合金
