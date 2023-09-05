@@ -2160,6 +2160,29 @@ assembly_line.recipeBuilder()
     .duration(1000)
     .buildAndRegister();
 
+#  UXV energy hatch
+assembler.recipeBuilder()
+    .inputs([<ore:stickSuperconductingMagnetMixture>,
+             <ore:wireFineHikarium> * 16])
+    .circuit(1)
+    .outputs([<gcys:meta_item_1:353>])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:997>,
+             <ore:cableGtSingleCrystalMatrix> * 4,
+             <gcys:meta_item_1:370> * 4,
+             <ore:circuitUxv>,
+             <gcys:meta_item_1:353> * 2])
+    .fluidInputs([<liquid:sodium_potassium> * 48000,
+                  <liquid:soldering_alloy> * 5760])
+    .outputs([<gregtech:machine:1222>])
+    .EUt(134217728)
+    .duration(1200)
+    .buildAndRegister();
+
 #  UXV Components
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongSuperconductingMagnetMixture>,
@@ -2297,4 +2320,46 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:243>])
     .EUt(30000000)
     .duration(2400)
+    .buildAndRegister();
+
+#  64A UHV Substation Energy Hatch
+<recipemap:assembler>.findRecipe(122880, [<metaitem:transformer.adjustable.uv>, <metaitem:energy_hatch.output_16a.uv>, <metaitem:plate.ultra_high_power_integrated_circuit> * 4, <metaitem:voltage_coil.uv> * 2, <metaitem:wireGtHexYttriumBariumCuprate> * 2], null).remove();
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1294>,
+             <gregtech:machine:1249>,
+             <gcys:meta_item_1:368> * 4,
+             <gcys:meta_item_1:350> * 2,
+             <ore:wireGtHexEuropium> * 2])
+    .outputs([<gregtech:machine:1268>])
+    .EUt(491520)
+    .duration(400)
+    .buildAndRegister();
+
+#  UHV Power Transformer
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1739>,
+             <gregtech:meta_item_1:147>,
+             <ore:cableGtOctalPedotTma>,
+             <ore:cableGtHexEuropium> * 2,
+             <ore:springSmallEuropium>,
+             <ore:springPedotTma>])
+    .fluidInputs([<liquid:lubricant> * 2000])
+    .outputs([<gregtech:machine:1294>])
+    .EUt(1966080)
+    .duration(200)
+    .buildAndRegister();
+
+#  UEV Power Transformer
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1740>,
+             <gregtech:meta_item_1:148>,
+             <ore:cableGtOctalSunnarium>,
+             <ore:cableGtHexPedotTma> * 2,
+             <ore:springSmallPedotTma>,
+             <ore:springSunnarium>
+    ])
+    .fluidInputs([<liquid:lubricant> * 2000])
+    .outputs([<gregtech:machine:1295>])
+    .EUt(7864320)
+    .duration(200)
     .buildAndRegister();

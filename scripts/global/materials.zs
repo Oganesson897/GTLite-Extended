@@ -30,7 +30,7 @@ diamond.addFlags(["generate_ring", "generate_frame"]);
 gallium_nitride.addFlags(["generate_foil"]);
 gold.addFlags(["generate_frame"]);
 naquadria.addFlags(["generate_frame"]);
-pedot_tma.addFlags(["generate_fine_wire"]);
+pedot_tma.addFlags(["generate_fine_wire", "generate_spring_small"]);
 rhodium_plated_palladium.addFlags(["generate_frame"]);
 ruthenium_trinium_americium_neutronate.addFlags(["generate_foil", "generate_fine_wire", "generate_rod", "generate_ring"]);
 silver.addFlags(["generate_frame"]);
@@ -250,7 +250,8 @@ var sunnarium = MaterialBuilder(32017, "sunnarium")
     .iconSet("shiny")
     .flags(["generate_rod",
             "generate_long_rod",
-            "generate_spring"])
+            "generate_spring",
+            "generate_spring_small"])
     .cableProperties(33554432, 16, 8, false)
     .build();
 
