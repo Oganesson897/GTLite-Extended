@@ -2797,23 +2797,6 @@
           "taskID:8": "bq_standard:location",
           "taxiCabDist:1": 0,
           "visible:1": 0
-        },
-        "1:10": {
-          "allowAnvil:1": 0,
-          "allowCraft:1": 1,
-          "allowSmelt:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "minecraft:flint_and_steel"
-            }
-          },
-          "taskID:8": "bq_standard:crafting"
         }
       }
     },
@@ -3183,28 +3166,62 @@
               "id:8": "gregtech:machine"
             },
             "1:10": {
+              "Count:3": 14,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1024,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            },
+            "1:10": {
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:metal_casing"
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "2:10": {
+          "allowAnvil:1": 0,
+          "allowCraft:1": 1,
+          "allowSmelt:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
               "Count:3": 1,
               "Damage:2": 1653,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             },
-            "2:10": {
+            "1:10": {
               "Count:3": 1,
               "Damage:2": 1652,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             },
-            "3:10": {
+            "2:10": {
               "Count:3": 1,
               "Damage:2": 1651,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
-            },
-            "4:10": {
-              "Count:3": 14,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "gregtech:metal_casing"
             }
           },
           "taskID:8": "bq_standard:crafting"
@@ -3465,9 +3482,9 @@
           "taskID:8": "bq_standard:retrieval"
         },
         "1:10": {
-          "allowAnvil:1": 0,
-          "allowCraft:1": 0,
-          "allowSmelt:1": 1,
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 1,
           "partialMatch:1": 1,
@@ -3479,7 +3496,7 @@
               "id:8": "gregtech:meta_item_1"
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
