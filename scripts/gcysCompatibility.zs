@@ -1395,7 +1395,7 @@ makeShaped("uiv_circuit_assembler", <gregtech:machine:645>,
         "B": <gregtech:meta_item_1:227>,
         "C": <gregtech:machine:996>,
         "D": <gregtech:meta_item_1:167>,
-        "O": <ore:circuitUiv>,
+        "O": <ore:circuitUxv>,
         "Q": <ore:cableGtSingleSunnarium>
     });
 
@@ -1457,7 +1457,7 @@ makeShaped("uxv_electric_furnace", <gregtech:machine:61>,
         "C": <gregtech:machine:997>,
         "O": <ore:circuitUxv>,
         "P": <ore:cableGtSingleCrystalMatrix>,
-        "Q": <ore:wireGtDoublePedotTma>
+        "Q": <ore:wireGtDoubleCarbonNanotube>
     });
 
 makeShaped("uxv_alloy_smelter", <gregtech:machine:91>,
@@ -1470,7 +1470,479 @@ makeShaped("uxv_alloy_smelter", <gregtech:machine:91>,
         "C": <gregtech:machine:997>,
         "O": <ore:circuitUxv>,
         "P": <ore:cableGtSingleCrystalMatrix>,
-        "Q": <ore:wireGtQuadruplePedotTma>
+        "Q": <ore:wireGtQuadrupleCarbonNanotube>
+    });
+
+makeShaped("uxv_macerator", <gregtech:machine:76>,
+    [
+        "ABD",
+        "QQC",
+        "OOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "B": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "D": <gcys:meta_item_1:480>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_arc_furnace", <gregtech:machine:106>,
+    [
+        "QDQ",
+        "OCO",
+        "PPP"
+    ],
+    {
+        "C": <gregtech:machine:997>,
+        "D": <ore:dustGraphite>,
+        "O": <ore:circuitUxv>,
+        "P": <ore:plateNeutronium>,
+        "Q": <ore:cableGtQuadrupleCrystalMatrix>
+    });
+
+makeShaped("uxv_assembler", <gregtech:machine:121>,
+    [
+        "AOA",
+        "BCB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:198>,
+        "B": <gregtech:meta_item_1:168>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_autoclave", <gregtech:machine:136>,
+    [
+        "PGP",
+        "PCP",
+        "OAO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "P": <ore:plateNeutronium>
+    });
+
+makeShaped("uxv_bending_machine", <gregtech:machine:151>,
+    [
+        "AQA",
+        "OCO",
+        "BPB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "B": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "P": <ore:plateNeutronium>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_brewery", <gregtech:machine:166>,
+    [
+        "GAG",
+        "QCQ",
+        "OSO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "S": <ore:springSunnarium>
+    });
+
+makeShaped("uxv_canning_machine", <gregtech:machine:180>,
+    [
+        "QAQ",
+        "OCO",
+        "GGG"
+    ],
+    {
+        "A": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_centrifuge", <gregtech:machine:196>,
+    [
+        "OAO",
+        "QCQ",
+        "OAO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_chemical_bath", <gregtech:machine:211>,
+    [
+        "AGQ",
+        "BGA",
+        "OCO"
+    ],{
+        "A": <gregtech:meta_item_1:168>,
+        "B": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_chemical_reactor", <gregtech:machine:226>,
+    [
+        "XRX",
+        "QAQ",
+        "OCO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "R": <ore:rotorNeutronium>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "X": <ore:pipeHugeFluidPolybenzimidazole>
+    });
+
+makeShaped("uxv_compressor", <gregtech:machine:241>,
+    [
+        " O",
+        "ACA",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+    });
+
+makeShaped("uxv_cutting_machine", <gregtech:machine:256>,
+    [
+        "QOG",
+        "ACD",
+        "OQB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:168>,
+        "B": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+    });
+
+makeShaped("uxv_distillery", <gregtech:machine:271>,
+    [
+        "GSG",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "S": <ore:springSunnarium>
+    });
+
+makeShaped("uxv_electrolyzer", <gregtech:machine:286>,
+    [
+        "QGQ",
+        "QCQ",
+        "OPO"
+    ],
+    {
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "P": <ore:cableGtSingleCrystalMatrix>,
+        "Q": <ore:wireGtSingleCarbonNanotube>
+    });
+
+makeShaped("uxv_electromagnetic_separator", <gregtech:machine:301>,
+    [
+        "APQ",
+        "PCR",
+        "OPQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:168>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "P": <ore:cableGtSingleCrystalMatrix>,
+        "Q": <ore:wireGtOctalHikarium>,
+        "R": <ore:stickLongVanadiumGallium>
+    });
+
+makeShaped("uxv_extractor", <gregtech:machine:316>,
+    [
+        "GOG",
+        "ACB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "B": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_extruder", <gregtech:machine:331>,
+    [
+        "QQO",
+        "ACL",
+        "QQO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "C": <gregtech:machine:997>,
+        "L": <ore:pipeLargeFluidDuranium>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:wireGtQuadrupleCarbonNanotube>
+    });
+
+makeShaped("uxv_fermenter", <gregtech:machine:346>,
+    [
+        "QAQ",
+        "GCG",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_fluid_heater", <gregtech:machine:391>,
+    [
+        "QGQ",
+        "ACA",
+        "POP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "P": <ore:cableGtSingleCrystalMatrix>,
+        "Q": <ore:wireGtQuadrupleCarbonNanotube>
+    });
+
+makeShaped("uxv_fluid_solidifier", <gregtech:machine:406>,
+    [
+        "AGA",
+        "QCQ",
+        "OEO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:153>,
+        "C": <gregtech:machine:997>,
+        "E": <ore:chestWood>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+    });
+
+makeShaped("uxv_forge_hammer", <gregtech:machine:421>,
+    [
+        "QWQ",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <minecraft:anvil>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "W": <gregtech:meta_item_1:183>
+    });
+
+makeShaped("uxv_forming_press", <gregtech:machine:436>,
+    [
+        "QAQ",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_lathe", <gregtech:machine:451>,
+    [
+        "QOQ",
+        "ACS",
+        "OQB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:138>,
+        "B": <gregtech:meta_item_1:183>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "S": <gcys:meta_item_1:480>
+    });
+
+makeShaped("uxv_scanner", <gregtech:machine:466>,
+    [
+        "OAO",
+        "QCQ",
+        "OBO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:228>,
+        "B": <gregtech:meta_item_1:243>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_mixer", <gregtech:machine:481>,
+    [
+        "GRG",
+        "GAG",
+        "OCO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "R": <ore:rotorNeutronium>
+    });
+
+makeShaped("uxv_ore_washing_plant", <gregtech:machine:496>,
+    [
+        "RGR",
+        "OAO",
+        "QCQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "R": <ore:rotorNeutronium>
+    });
+
+makeShaped("uxv_packager", <gregtech:machine:511>,
+    [
+        "WOW",
+        "ACB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:198>,
+        "B": <gregtech:meta_item_1:168>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "W": <ore:chestWood>
+    });
+
+makeShaped("uxv_polarizer", <gregtech:machine:556>,
+    [
+        "QRQ",
+        "PCP",
+        "QRQ"
+    ],
+    {
+        "C": <gregtech:machine:997>,
+        "P": <ore:cableGtSingleCrystalMatrix>,
+        "Q": <ore:wireGtOctalHikarium>,
+        "R": <ore:stickLongVanadiumGallium>,
+    });
+
+makeShaped("uxv_precision_laser_engraver", <gregtech:machine:571>,
+    [
+        "ABA",
+        "OCO",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "B": <gregtech:meta_item_1:228>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_sifting_machine", <gregtech:machine:586>,
+    [
+        "QYQ",
+        "ACA",
+        "OYO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "Y": <gregtech:meta_item_1:291>
+    });
+
+makeShaped("uxv_thermal_centrifuge", <gregtech:machine:616>,
+    [
+        "OAO",
+        "QCQ",
+        "PAP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "P": <ore:cableGtSingleCrystalMatrix>,
+        "Q": <ore:wireGtQuadrupleCarbonNanotube>
+    });
+
+makeShaped("uxv_wiremill", <gregtech:machine:631>,
+    [
+        "AQA",
+        "OCO",
+        "AQA"
+    ],
+    {
+        "A": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_circuit_assembler", <gregtech:machine:646>,
+    [
+        "AOB",
+        "DCD",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:198>,
+        "B": <gregtech:meta_item_1:228>,
+        "C": <gregtech:machine:997>,
+        "D": <gregtech:meta_item_1:168>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
     });
 
 #  UIV Components
