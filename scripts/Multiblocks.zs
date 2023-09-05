@@ -4153,7 +4153,7 @@ var fusion_reactor_mk_iv = Builder.start("fusion_reactor_mk_iv")
             .maxFluidOutputs(1)
             .build()
     )
-    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -4274,7 +4274,7 @@ var fusion_reactor_mk_v = Builder.start("fusion_reactor_mk_v")
             .maxFluidOutputs(1)
             .build()
     )
-    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
     .buildAndRegister();
 
 assembly_line.recipeBuilder()
@@ -4395,7 +4395,7 @@ var fusion_reactor_mk_vi = Builder.start("fusion_reactor_mk_vi")
             .maxFluidOutputs(1)
             .build()
     )
-    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
     .buildAndRegister();
 
 // --------------------------------------------------------------------------------------------------------------------------------

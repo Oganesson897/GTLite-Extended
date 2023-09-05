@@ -1517,8 +1517,9 @@ assembly_line.recipeBuilder()
              <ore:ringSiliconeRubber> * 48,
              <ore:rotorAurorium>,
              <ore:cableGtSingleSunnarium> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 1152,
-                  <liquid:lubricant> * 3000,
+    .fluidInputs([<liquid:soldering_alloy> * 2304,
+                  <liquid:lubricant> * 5000,
+                  <liquid:zylon> * 432,
                   <liquid:aurorium> * 288])
     .outputs([<gregtech:meta_item_1:152>])
     .EUt(8000000)
@@ -1603,7 +1604,7 @@ assembly_line.recipeBuilder()
              <ore:wireFineMithril> * 64,
              <ore:wireFineMithril> * 64,
              <ore:cableGtSingleLunarium> * 4])
-    .fluidInputs([<liquid:soldering_alloy> * 4608,
+    .fluidInputs([<liquid:soldering_alloy> * 5184,
                   <liquid:zylon> * 432,
                   <liquid:aurorium> * 288])
     .outputs([<gregtech:meta_item_1:212>])
@@ -1698,8 +1699,129 @@ assembly_line.recipeBuilder()
     .fluidInputs([<liquid:soldering_alloy> * 3456,
                   <liquid:lubricant> * 7000,
                   <liquid:black_hole_matter_polymer_matrix> * 576,
-                  <liquid:zylon> * 288])
+                  <liquid:zylon> * 432])
     .outputs([<gregtech:meta_item_1:138>])
+    .EUt(30000000)
+    .duration(2400)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:138>,
+             <ore:plateTiberium> * 4,
+             <ore:ringTiberium> * 4,
+             <ore:roundTiberium> * 16,
+             <ore:stickTiberium> * 4,
+             <ore:gearHikarium>,
+             <ore:gearSmallHikarium> * 2,
+             <ore:cableGtSingleCrystalMatrix>])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:lubricant> * 7000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:neutronium> * 432])
+    .outputs([<gregtech:meta_item_1:183>])
+    .EUt(30000000)
+    .duration(2400)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:138>,
+             <gregtech:hermetic_casing:8> * 4,
+             <ore:plateTiberium> * 2,
+             <ore:screwTiberium> * 8,
+             <ore:ringSiliconeRubber> * 64,
+             <ore:rotorNeutronium>,
+             <ore:cableGtSingleCrystalMatrix>])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:lubricant> * 7000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:neutronium> * 432])
+    .outputs([<gregtech:meta_item_1:153>])
+    .EUt(30000000)
+    .duration(2400)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:138> * 2,
+             <ore:plateTiberium> * 2,
+             <ore:ringTiberium> * 4,
+             <ore:roundTiberium> * 16,
+             <ore:screwTiberium> * 4,
+             <ore:cableGtSingleCrystalMatrix> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:lubricant> * 7000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<gregtech:meta_item_1:168>])
+    .EUt(30000000)
+    .duration(2400)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongTiberium>,
+             <ore:gearHikarium>,
+             <ore:gearSmallHikarium> * 3,
+             <gregtech:meta_item_1:138> * 2,
+             <gregtech:meta_item_1:183>,
+             <ore:circuitUxv>,
+             <ore:circuitUiv> * 2,
+             <ore:circuitUev> * 4,
+             <ore:cableGtSingleCrystalMatrix> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 6912,
+                  <liquid:lubricant> * 7000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:neutronium> * 432])
+    .outputs([<gregtech:meta_item_1:198>])
+    .EUt(30000000)
+    .duration(2400)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtTiberium>,
+             <ore:plateTiberium> * 6,
+             <gregtech:meta_item_1:283> * 16,
+             <gregtech:meta_item_1:228> * 2,
+             <ore:circuitUxv>,
+             <ore:wireFineHikarium> * 64,
+             <ore:wireFineHikarium> * 64,
+             <ore:cableGtSingleHikarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 6912,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:neutronium> * 432])
+    .outputs([<gregtech:meta_item_1:213>])
+    .EUt(30000000)
+    .duration(2400)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtTiberium>,
+             <gregtech:meta_item_1:138>,
+             <ore:stickLongTiberium> * 4,
+             <gregtech:meta_item_1:283> * 8,
+             <ore:circuitUxv> * 2,
+             <ore:foilHikarium> * 64,
+             <ore:foilHikarium> * 32,
+             <ore:cableGtSingleCrystalMatrix> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:neutronium> * 432])
+    .outputs([<gregtech:meta_item_1:228>])
+    .EUt(30000000)
+    .duration(2400)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtTiberium>,
+             <gregtech:meta_item_1:138>,
+             <ore:plateTiberium> * 4,
+             <gregtech:meta_item_1:283> * 8,
+             <ore:circuitUxv> * 2,
+             <ore:foilHikarium> * 64,
+             <ore:foilHikarium> * 32,
+             <ore:cableGtSingleHikarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:neutronium> * 432])
+    .outputs([<gregtech:meta_item_1:243>])
     .EUt(30000000)
     .duration(2400)
     .buildAndRegister();

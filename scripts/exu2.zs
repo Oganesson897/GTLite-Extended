@@ -293,11 +293,25 @@ recipes.remove(<extrautils2:rainbowgenerator>);
 mods.extendedcrafting.TableCrafting.addShaped(4, <extrautils2:rainbowgenerator>, [
 	[<gregtech:meta_item_1:209>, <ore:plateKaptonK>, <ore:plateEuropium>, <ore:plateDarmstadtium>, <ore:plateHssg>, <ore:plateDarmstadtium>, <ore:plateEuropium>, <ore:plateKaptonK>, <gregtech:meta_item_1:209>], 
 	[<ore:plateKaptonE>, <ore:plateDuranium>, <ore:plateMithril>, <ore:plateOrichalcum>, <ore:plateAmericium>, <ore:plateOrichalcum>, <ore:plateMithril>, <ore:plateDuranium>, <ore:plateKaptonE>], 
-	[<ore:plateDuranium>, <ore:plateMithril>, <gregtech:meta_item_1:254>, <ore:plateAdamantium>, <ore:plateVibranium>, <ore:plateAdamantium>, <gregtech:meta_item_1:149>, <ore:plateMithril>, <ore:plateDuranium>], 
-	[<ore:plateDarmstadtium>, <ore:plateOrichalcum>, <ore:plateAdamantium>, <ore:circuitUhv>, <extrautils2:rainbowgenerator:2>, <ore:circuitUhv>, <ore:plateAdamantium>, <ore:plateOrichalcum>, <ore:plateDarmstadtium>], 
+	[<ore:plateEuropium>, <ore:plateMithril>, <gregtech:meta_item_1:254>, <ore:plateAdamantium>, <ore:plateVibranium>, <ore:plateAdamantium>, <gregtech:meta_item_1:149>, <ore:plateMithril>, <ore:plateEuropium>], 
+	[<ore:plateDarmstadtium>, <ore:plateOrichalcum>, <ore:plateAdamantium>, <ore:circuitUv>, <extrautils2:rainbowgenerator:2>, <ore:circuitUv>, <ore:plateAdamantium>, <ore:plateOrichalcum>, <ore:plateDarmstadtium>], 
 	[<ore:plateHssg>, <gregtech:meta_item_1:224>, <gregtech:meta_item_1:164>, <gregtech:meta_item_1:224>, <extrautils2:machine>, <gregtech:meta_item_1:239>, <gregtech:meta_item_1:164>, <gregtech:meta_item_1:239>, <ore:plateHssg>], 
-	[<ore:plateDarmstadtium>, <ore:plateOrichalcum>, <ore:plateAdamantium>, <ore:circuitUhv>, <extrautils2:rainbowgenerator:1>, <ore:circuitUhv>, <ore:plateAdamantium>, <ore:plateOrichalcum>, <ore:plateDarmstadtium>], 
-	[<ore:plateDuranium>, <ore:plateMithril>, <gregtech:meta_item_1:254>, <ore:plateAdamantium>, <ore:plateVibranium>, <ore:plateAdamantium>, <gregtech:meta_item_1:149>, <ore:plateMithril>, <ore:plateDuranium>], 
+	[<ore:plateDarmstadtium>, <ore:plateOrichalcum>, <ore:plateAdamantium>, <ore:circuitUv>, <extrautils2:rainbowgenerator:1>, <ore:circuitUv>, <ore:plateAdamantium>, <ore:plateOrichalcum>, <ore:plateDarmstadtium>], 
+	[<ore:plateEuropium>, <ore:plateMithril>, <gregtech:meta_item_1:254>, <ore:plateAdamantium>, <ore:plateVibranium>, <ore:plateAdamantium>, <gregtech:meta_item_1:149>, <ore:plateMithril>, <ore:plateEuropium>], 
 	[<ore:plateKaptonE>, <ore:plateDuranium>, <ore:plateMithril>, <ore:plateOrichalcum>, <ore:plateAmericium>, <ore:plateOrichalcum>, <ore:plateMithril>, <ore:plateDuranium>, <ore:plateKaptonE>], 
 	[<gregtech:meta_item_1:209>, <ore:plateKaptonK>, <ore:plateEuropium>, <ore:plateDarmstadtium>, <ore:plateHssg>, <ore:plateDarmstadtium>, <ore:plateEuropium>, <ore:plateKaptonK>, <gregtech:meta_item_1:209>]
 ]);
+
+#  Pipe
+recipes.remove(<extrautils2:pipe>);
+makeShaped("exu_pipe", <extrautils2:pipe>,
+    [
+        "SSS",
+        "GCG",
+        "SSS"
+    ],
+    {
+        "S": <minecraft:stone_slab>,
+        "C": <ore:ingotConductiveIron>,
+        "G": <ore:blockGlass>
+    });

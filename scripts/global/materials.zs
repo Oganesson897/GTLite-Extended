@@ -20,6 +20,8 @@ var topaz                                  = <material:topaz>;
 var uranium_235                            = <material:uranium_235>;
 var vibranium                              = <material:vibranium>;
 var wrought_iron                           = <material:wrought_iron>;
+var orichalcum                             = <material:orichalcum>;
+var neutronium                             = <material:neutronium>;
 
 #  MaterialFlags : IngotProperty
 
@@ -33,8 +35,10 @@ rhodium_plated_palladium.addFlags(["generate_frame"]);
 ruthenium_trinium_americium_neutronate.addFlags(["generate_foil", "generate_fine_wire", "generate_rod", "generate_ring"]);
 silver.addFlags(["generate_frame"]);
 uranium_235.addFlags(["generate_frame"]);
+orichalcum.addFlags(["generate_frame"]);
 vibranium.addFlags(["generate_rod", "generate_frame", "generate_foil", "generate_fine_wire"]);
 wrought_iron.addFlags(["generate_small_gear", "generate_rotor"]);
+neutronium.addFlags(["generate_rotor"]);
 
 #  MaterialFlags : GemProperty
 topaz.addFlags(["generate_lens"]);
@@ -247,6 +251,8 @@ var sunnarium = MaterialBuilder(32017, "sunnarium")
     .cableProperties(33554432, 16, 8, false)
     .build();
 
+<material:sunnarium>.setFormula("☀", true);
+
 #  32018 Infinity : OpV superconductor
 var infinity = MaterialBuilder(32018, "infinity")
     .ingot()
@@ -385,7 +391,7 @@ var quark_gluon_plasma = MaterialBuilder(32031, "quark_gluon_plasma")
     .color(0xD520F7)
     .build();
 
-<material:quark_gluon_plasma>.setFormula("(u2)dsga");
+<material:quark_gluon_plasma>.setFormula("(u2)dsga", true);
 
 #  32032 Thallium Copper Chloride-Nd: YAG mixture
 var thallium_copper_chloride_ndyag_mixture = MaterialBuilder(32032, "thallium_copper_chloride_ndyag_mixture")
@@ -479,6 +485,8 @@ var hikarium = MaterialBuilder(32039, "hikarium")
             "generate_frame"])
     .cableProperties(134217728, 48, 24, false)
     .build();
+
+<material:hikarium>.setFormula("✴", false);
 
 #  32040 Tiberium
 var tiberium = MaterialBuilder(32040, "tiberium")
