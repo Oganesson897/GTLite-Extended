@@ -434,6 +434,8 @@ mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:fur
 mods.jei.JEI.removeAndHide(<extrautils2:quarryproxy>);
 mods.jei.JEI.removeAndHide(<extrautils2:quarry>);
 
+mods.jei.JEI.removeAndHide(<contenttweaker:fusion_machine_casing_mk_iv_overlay>);
+
 for i in 0 to 8 {
     mods.jei.JEI.removeAndHide(<morefurnaces:upgrade>.definition.makeStack(i));
 }

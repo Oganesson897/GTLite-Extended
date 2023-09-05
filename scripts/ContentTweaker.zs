@@ -450,6 +450,10 @@ var depleted_quad_mox_fuel_rod = VanillaFactory.createItem("depleted_quad_mox_fu
     depleted_quad_mox_fuel_rod.creativeTab = <creativetab:gregtech.main>;
     depleted_quad_mox_fuel_rod.register(); 
 
+#  Textures
+var fusion_machine_casing_mk_iv_overlay = VanillaFactory.createBlock("fusion_machine_casing_mk_iv_overlay", <blockmaterial:iron>);
+    fusion_machine_casing_mk_iv_overlay.register();
+    
 #  Others
 var hyperdimensional_oscillating_matter = VanillaFactory.createItem("hyperdimensional_oscillating_matter");
     hyperdimensional_oscillating_matter.maxStackSize = 1;
