@@ -780,6 +780,7 @@ gregtech.material.heavy_alkali_chloride_solution=重碱氯化物溶液
 
 ##  Third Degree Materials
 gregtech.material.zinc_rich_sphalerite=富锌闪锌矿
+gregtech.material.alumina=三氧化二铝
 
 ##  Organic Chemistry Materials
 gregtech.material.tetrahydrofuran=四氢呋喃

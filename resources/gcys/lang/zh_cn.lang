@@ -178,6 +178,7 @@ material.heavy_alkali_chloride_solution=重碱氯化物溶液
 
 # Third Degree Materials
 material.zinc_rich_sphalerite=富锌闪锌矿
+gregtech.material.alumina=三氧化二铝
 
 # Organic Chemistry Materials
 material.tetrahydrofuran=四氢呋喃
@@ -718,6 +719,6 @@ recipemap.taranium_reactor_mk2_recipes.name=塔兰金属反应堆 Mk II
 recipemap.taranium_reactor_mk3_recipes.name=塔兰金属反应堆 Mk III
 
 # Recipe Properties
-gcys.recipe.temperature=温度： %,dK
-gcys.recipe.pressure=压力： %sPa
-gcys.recipe.vacuum=真空： %sPa
+gcys.recipe.temperature=温度：%,dK
+gcys.recipe.pressure=压力：%sPa
+gcys.recipe.vacuum=真空：%sPa
