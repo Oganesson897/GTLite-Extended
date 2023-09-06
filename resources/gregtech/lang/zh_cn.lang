@@ -1,59 +1,338 @@
-#  Personal translate by Magic_Sweepy [2023/07/21]
+#  Personal translate by Magic_Sweepy [2023/09/06]
 
 #! Sort by first letter (A-Z) for every class
 #! Some may not be effective
 
+death.attack.heat=%s被活活煮熟了
+death.attack.frost=%s探索到了低温的奥秘
+death.attack.chemical=%s历经了一场化学事故
+death.attack.electric=%s触电身亡
+death.attack.radiation=%s放射出了喜悦的光芒
+death.attack.turbine=%s一头扎进了涡轮里
+death.attack.explosion=%s爆炸了
+death.attack.explosion.player=拜%s所赐，%s爆炸了
+death.attack.heat.player=%s被%s活活煮熟了
 
-#  Reset of original translation
+death.attack.pickaxe=%s被%s用镐子凿死了
+death.attack.shovel=%s被%s用锹铲死了
+death.attack.axe=%s被%s用斧子砍死了
+death.attack.hoe=%s被%s锄死了
+death.attack.hammer=%s被%s锤死了
+death.attack.mallet=%s被%s活活敲死了
+death.attack.mining_hammer=%s被%s当成矿石砸死了
+death.attack.spade=%s被%s用铲子挖死了
+death.attack.wrench=%s被%s用扳手夯死了！
+death.attack.file=%s历尽了%s的“锉”折
+death.attack.crowbar=%s被%s用撬棍撬走了半条命
+death.attack.screwdriver=%s被%s用螺丝刀钻死了
+death.attack.mortar=%s被%s用研钵磨成粉了
+death.attack.wire_cutter=%s用剪线钳剪断了%s的血管
+death.attack.scythe=%s用镰刀收割了%s的灵魂
+death.attack.knife=%s绅士地捅了%s几刀
+death.attack.butchery_knife=%s死在了%s的屠刀之下
+death.attack.drill_lv=%s的低压电钻洞穿了%s
+death.attack.drill_mv=%s的中压电钻洞穿了%s
+death.attack.drill_hv=%s的高压电钻洞穿了%s
+death.attack.drill_ev=%s的超高压电钻洞穿了%s
+death.attack.drill_iv=%s的强导压电钻洞穿了%s
+death.attack.chainsaw_lv=%s的链锯切碎了%s
+death.attack.wrench_lv=%s的血管被%s拧松了
+death.attack.wrench_hv=%s的血管被%s狠狠拧松了
+death.attack.wrench_iv=%s的扳手扳倒了%s的美好人生
+death.attack.buzzsaw=%s手中圆锯的嗞嗞声成为了%s生命中最后听到的声音
+death.attack.screwdriver_lv=%s的螺丝被%s扭掉了
 
-##  Battery buffers
-gregtech.machine.battery_buffer.ulv.4.name=4安电池箱（ULV）
-gregtech.machine.battery_buffer.ulv.8.name=8安电池箱（ULV）
-gregtech.machine.battery_buffer.ulv.16.name=16安电池箱（ULV）
-gregtech.machine.battery_buffer.lv.4.name=4安电池箱（LV）
-gregtech.machine.battery_buffer.lv.8.name=8安电池箱（LV）
-gregtech.machine.battery_buffer.lv.16.name=16安电池箱（LV）
-gregtech.machine.battery_buffer.mv.4.name=4安电池箱（MV）
-gregtech.machine.battery_buffer.mv.8.name=8安电池箱（MV）
-gregtech.machine.battery_buffer.mv.16.name=16安电池箱（MV）
-gregtech.machine.battery_buffer.hv.4.name=4安电池箱（HV）
-gregtech.machine.battery_buffer.hv.8.name=8安电池箱（HV）
-gregtech.machine.battery_buffer.hv.16.name=16安电池箱（HV）
-gregtech.machine.battery_buffer.ev.4.name=4安电池箱（EV）
-gregtech.machine.battery_buffer.ev.8.name=8安电池箱（EV）
-gregtech.machine.battery_buffer.ev.16.name=16安电池箱（EV）
-gregtech.machine.battery_buffer.iv.4.name=4安电池箱（IV）
-gregtech.machine.battery_buffer.iv.8.name=8安电池箱（IV）
-gregtech.machine.battery_buffer.iv.16.name=16安电池箱（IV）
-gregtech.machine.battery_buffer.luv.4.name=4安电池箱（LuV）
-gregtech.machine.battery_buffer.luv.8.name=8安电池箱（LuV）
-gregtech.machine.battery_buffer.luv.16.name=16安电池箱（LuV）
-gregtech.machine.battery_buffer.zpm.4.name=4安电池箱（ZPM）
-gregtech.machine.battery_buffer.zpm.8.name=8安电池箱（ZPM）
-gregtech.machine.battery_buffer.zpm.16.name=16安电池箱（ZPM）
-gregtech.machine.battery_buffer.uv.4.name=4安电池箱（UV）
-gregtech.machine.battery_buffer.uv.8.name=8安电池箱（UV）
-gregtech.machine.battery_buffer.uv.16.name=16安电池箱（UV）
-gregtech.machine.battery_buffer.uhv.4.name=4安电池箱（UHV）
-gregtech.machine.battery_buffer.uhv.8.name=8安电池箱（UHV）
-gregtech.machine.battery_buffer.uhv.16.name=16安电池箱（UHV）
-gregtech.machine.battery_buffer.uev.4.name=4安电池箱（UEV）
-gregtech.machine.battery_buffer.uev.8.name=8安电池箱（UEV）
-gregtech.machine.battery_buffer.uev.16.name=16安电池箱（UEV）
-gregtech.machine.battery_buffer.uiv.4.name=4安电池箱（UIV）
-gregtech.machine.battery_buffer.uiv.8.name=8安电池箱（UIV）
-gregtech.machine.battery_buffer.uiv.16.name=16安电池箱（UIV）
-gregtech.machine.battery_buffer.uxv.4.name=4安电池箱（UXV）
-gregtech.machine.battery_buffer.uxv.8.name=8安电池箱（UXV）
-gregtech.machine.battery_buffer.uxv.16.name=16安电池箱（UXV）
-gregtech.machine.battery_buffer.opv.4.name=4安电池箱（OpV）
-gregtech.machine.battery_buffer.opv.8.name=8安电池箱（OpV）
-gregtech.machine.battery_buffer.opv.16.name=16安电池箱（OpV）
-gregtech.machine.battery_buffer.max.4.name=4安电池箱（MAX）
-gregtech.machine.battery_buffer.max.8.name=8安电池箱（MAX）
-gregtech.machine.battery_buffer.max.16.name=16安电池箱（MAX）
+enchantment.disjunction=Disjunction=末影离析
 
-##  Boards
+gregtech.machine.steam_grinder.name=大型蒸汽研磨机
+gregtech.multiblock.steam_grinder.description=蒸汽时代的多方块研磨机。需要至少14块青铜机器外壳来成型。无法使用常规的输入/输出总线，仅可使用蒸汽输入/输出总线，使用蒸汽仓来输入蒸汽。
+gregtech.multiblock.steam.low_steam=蒸汽不足，无法运行！
+gregtech.multiblock.steam.steam_stored=蒸汽：%s / %s mB
+gregtech.machine.steam_hatch.name=蒸汽仓
+gregtech.machine.steam.steam_hatch.tooltip=§e接受流体：§f蒸汽
+gregtech.machine.steam_import_bus.name=输入总线（蒸汽级）
+gregtech.machine.steam_export_bus.name=输出总线（蒸汽级）
+gregtech.machine.steam_bus.tooltip=无法作用于非蒸汽驱动的多方块机器
+gregtech.machine.steam_oven.name=蒸汽炉
+gregtech.multiblock.steam_oven.description=蒸汽时代的多方块熔炉。需要至少6块青铜机器外壳来成型。无法使用常规的输入/输出总线，仅可使用蒸汽输入/输出总线，使用蒸汽仓来输入蒸汽，蒸汽仓必须设置于结构底层，且数量至多为1个。
+gregtech.multiblock.require_steam_parts=需要蒸汽仓与输入/输出总线（蒸汽级）！
+gregtech.multiblock.steam_.duration_modifier=处理耗时为基础的§f1.5§7倍，不受物品数量影响。
+
+gregtech.top.working_disabled=工作暂停
+
+gregtech.top.energy_consumption=耗能
+gregtech.top.energy_production=产能
+gregtech.top.of=/
+
+gregtech.top.transform_up=升压
+gregtech.top.transform_down=降压
+gregtech.top.transform_input=输入：
+gregtech.top.transform_output=输出：
+
+gregtech.top.convert_eu=转换模式：§eEU§r -> §cFE§r
+gregtech.top.convert_fe=转换模式：§cFE§r -> §eEU§r
+
+gregtech.top.invalid_structure=结构不完整
+gregtech.top.valid_structure=结构已成型
+gregtech.top.obstructed_structure=结构部分被阻碍
+
+gregtech.top.maintenance_fixed=无需维护
+gregtech.top.maintenance_broken=需要维护
+gregtech.top.maintenance.wrench=管道松动（扳手）
+gregtech.top.maintenance.screwdriver=螺丝没拧紧（螺丝刀）
+gregtech.top.maintenance.soft_mallet=一些东西卡住了（软锤）
+gregtech.top.maintenance.hard_hammer=板材有些凹痕（锤）
+gregtech.top.maintenance.wire_cutter=有几根线烧焦了（剪线钳）
+gregtech.top.maintenance.crowbar=有些部件错位了（撬棍）
+
+gregtech.top.primitive_pump_production=产出：
+
+gregtech.top.filter.label=过滤：
+gregtech.top.link_cover.color=颜色：
+
+gregtech.top.mode.export=输出
+gregtech.top.mode.import=输入
+
+gregtech.top.unit.items=物品
+gregtech.top.unit.fluid_milibuckets=L
+gregtech.top.unit.fluid_buckets=kL
+
+gregtech.top.block_drops=掉落
+
+gregtech.top.ld_pipe_no_network=找不到管道
+gregtech.top.ld_pipe_connected=管道已连接
+gregtech.top.ld_pipe_incomplete=管道不完整
+gregtech.top.ld_pipe_length=长度：
+gregtech.top.ld_pipe_input=输入
+gregtech.top.ld_pipe_output=输出
+gregtech.top.ld_pipe_input_endpoint=输入终点：
+gregtech.top.ld_pipe_output_endpoint=输出终点：
+
+gregtech.waila.energy_stored=能量：%d EU / %d EU
+gregtech.waila.progress_idle=闲置的
+gregtech.waila.progress_tick=进度：%d t / %d t
+gregtech.waila.progress_sec=进度：%d s / %d s
+
+gregtech.multiblock.title=多方块结构
+gregtech.multiblock.primitive_blast_furnace.bronze.description=土高炉（PBF）是一种用于生产钢的多方块结构，尽管它不是很快，却能为你的发展提供足够的钢。
+gregtech.multiblock.coke_oven.description=焦炉是一种用于生产焦炭和杂酚油的多方块结构，其中至多可容纳 32 桶杂酚油，可通过焦炉仓交互。
+gregtech.multiblock.vacuum_freezer.description=真空冷冻机是一种用于将热锭冷却的多方块结构，此外，这台机器也可以用来冻结水与一些其他流体。
+gregtech.multiblock.implosion_compressor.description=聚爆压缩机是一种使用炸药来将粉还原为宝石的多方块结构，这台机器可以将相应种类的粉转换为对应的宝石。
+gregtech.multiblock.pyrolyse_oven.description=热解炉是一种用于将原木或煤炭处理为木炭，杂酚油，灰烬或重油的多方块结构。
+gregtech.multiblock.cracker.description=石油裂化机是一种用于将流体裂解为相应裂化物的多方块结构，这台机器可以用来处理石油产物与塔兰金属产物。
+gregtech.multiblock.large_combustion_engine.description=大型燃油引擎是用于产出能量的多方块结构，这台机器的工作方式与燃烧发电机类似。
+gregtech.multiblock.extreme_combustion_engine.description=极限燃油引擎是一种产出能量的多方块结构，这台机器的工作方式与燃烧发电机类似，且比大型燃油引擎更加高效。
+gregtech.multiblock.distillation_tower.description=蒸馏塔是一种用于蒸馏各种类型的流体以高效提取其副产物的多方块结构，这台机器的每一层都必须拥有一个输出仓（从第二层开始），最底层（第一层）可以在任意处放置输入仓与输入总线。
+gregtech.multiblock.electric_blast_furnace.description=电力高炉（EBF）是用于熔化金属，熔炼合金与冶炼矿石的多方块结构，为了获取一些高级的金属材料，例如铝，不锈钢，钛与硅岩合金，这台机器是你不可或缺的至宝。
+gregtech.multiblock.multi_furnace.description=工业熔炉是一种用于同时熔炼大量物品的多方块结构，使用不同的线圈可以使这台机器获得不同的速度提升与能量增益。对于最基本的情况，这台机器可以同时熔炼32个物品，你可以通过升级线圈来提升这台机器同时熔炼的物品数量。
+gregtech.multiblock.large_boiler.description=大型锅炉是一种用于产生蒸汽的多方块结构，它消耗燃料与水来产生蒸汽，燃料可以是具有燃烧时间的任何固体燃料或液体/半流质燃料。这台机器可以调节其的节流，每次可以增减5%%的节流以减少燃料消耗并同时减少蒸汽输出。
+gregtech.multiblock.large_turbine.description=大型涡轮是一种通过蒸汽、气体或等离子来产出能量的多方块结构，它需要额外放入转子才可以工作，齿轮箱外壳必须放在涡轮机的中心。这台机器的能量输出基于转子效率与涡轮机当前速度。
+gregtech.multiblock.assembly_line.description=装配线是一个用于组装的大型多方块结构，它由至少5个，至多16个片构成，这些片都包含固定的方块。这台机器主要用于生产先进的零部件与电路，在LuV阶段及之后被广泛使用。
+gregtech.multiblock.fusion_reactor.luv.description=核聚变反应堆控制电脑 Mk I是一个将元素聚变为更重元素的多方块结构，它只可以使用LuV-UV等级的能源仓。这台机器每拥有一个能源仓，其的能量缓存就提升10M EU，而它的缓存能量的极限是160M EU。
+gregtech.multiblock.fusion_reactor.zpm.description=核聚变反应堆控制电脑 Mk II是一个将元素聚变为更重元素的多方块结构，它只可以使用ZPM-UV等级的能源仓。这台机器每拥有一个能源仓，其的能量缓存就提升20M EU，而它的缓存能量的极限是320M EU。
+gregtech.multiblock.fusion_reactor.uv.description=核聚变反应堆控制电脑 Mk III是一个将元素聚变为更重元素的多方块结构，它只可以使用UV等级的能源仓。这台机器每拥有一个能源仓，其的能量缓存就提升40M EU，而它的缓存能量的极限是640M EU。
+gregtech.multiblock.fusion_reactor.energy=EU：%d / %d
+gregtech.multiblock.fusion_reactor.heat=热量：%d
+gregtech.multiblock.large_chemical_reactor.description=大型化学反应釜是一个多方块结构版本的化学反应釜，且拥有许多独立配方，这台机器的最大优势是拥有完美超频。这台机器必须需要一个白铜线圈方块，需要放置在中心的聚四氟乙烯管道外壳旁。
+gregtech.multiblock.primitive_water_pump.description=原始水泵是一个石器时代的多方块结构，它会根据其所在的生物群系来收集水（每秒工作1次）它可以使用水泵输出仓，ULV级与LV级的输出仓来输出水，输出仓的等级越高，水资源的产出量也越高。产出量遵循的公式为：生物群系系数 * 输出仓倍数。
+gregtech.multiblock.primitive_water_pump.extra1=生物群系系数：/n  海洋（Ocean）、河流（River）：1000 L/s/n  沼泽（Swamp）：800 L/s/n  丛林（Jungle）：350 L/s/n  积雪（Snowy）：300 L/s/n  平原（Plains）、森林（Forest）：250 L/s/n  针叶林（Taiga）：175 L/s/n  沙滩（Beach）：170 L/s/n  其他：100 L/s
+gregtech.multiblock.primitive_water_pump.extra2=输出仓倍数：/n  水泵输出仓：1x/n  输出仓（ULV）：2x/n  输出仓（LV）：4x
+gregtech.multiblock.processing_array.description=处理阵列可将最多16个单方块机器集成在一个多方块机器中，以实现更高效的自动化。
+gregtech.multiblock.advanced_processing_array.description=进阶处理阵列可将最多64个单方块机器集成在一个多方块机器中，以实现更高效的自动化。
+
+item.invalid.name=无效物品
+fluid.empty=空
+
+gregtech.tooltip.hold_shift=按住 SHIFT 获得更多信息
+gregtech.tooltip.hold_ctrl=按住 CTRL 获得更多信息
+gregtech.tooltip.fluid_pipe_hold_shift=按住 SHIFT 以查看流体容器详情
+gregtech.tooltip.tool_fluid_hold_shift=按住 SHIFT 以查看流体容器及工具详情
+
+metaitem.fluid_cell.empty=空
+metaitem.fluid_cell.name=单元 - %s
+metaitem.fluid_cell.universal.empty=空
+metaitem.fluid_cell.universal.name=通用单元 - %s
+metaitem.fluid_cell.glass_vial.name=管状玻璃瓶 - %s
+metaitem.large_fluid_cell.steel.name=钢单元 - %s
+metaitem.large_fluid_cell.aluminium.name=铝单元 - %s
+metaitem.large_fluid_cell.stainless_steel.name=不锈钢单元 - %s
+metaitem.large_fluid_cell.titanium.name=钛单元 - %s
+metaitem.large_fluid_cell.tungstensteel.name=钨钢单元 - %s
+
+metaitem.electric.motor.lv.name=电动马达（§7LV§r）
+metaitem.electric.motor.mv.name=电动马达（§bMV§r）
+metaitem.electric.motor.hv.name=电动马达（§6HV§r）
+metaitem.electric.motor.ev.name=电动马达（§5EV§r）
+metaitem.electric.motor.iv.name=电动马达（§1IV§r）
+metaitem.electric.motor.luv.name=电动马达（§dLuV§r）
+metaitem.electric.motor.zpm.name=电动马达（§cZPM§r）
+metaitem.electric.motor.uv.name=电动马达（§3UV§r）
+metaitem.electric.motor.uhv.name=电动马达（§4UHV§r）
+metaitem.electric.motor.uev.name=电动马达（§aUEV§r）
+metaitem.electric.motor.uiv.name=电动马达（§2UIV§r）
+metaitem.electric.motor.uxv.name=电动马达（§eUXV§r）
+metaitem.electric.motor.opv.name=电动马达（§9OpV§r）
+
+metaitem.electric.pump.lv.name=电动泵（§7LV§r）
+metaitem.electric.pump.mv.name=电动泵（§bMV§r）
+metaitem.electric.pump.hv.name=电动泵（§6HV§r）
+metaitem.electric.pump.ev.name=电动泵（§5EV§r）
+metaitem.electric.pump.iv.name=电动泵（§1IV§r）
+metaitem.electric.pump.luv.name=电动泵（§dLuV§r）
+metaitem.electric.pump.zpm.name=电动泵（§cZPM§r）
+metaitem.electric.pump.uv.name=电动泵（§3UV§r）
+metaitem.electric.pump.uhv.name=电动泵（§4UHV§r）
+metaitem.electric.pump.uev.name=电动泵（§aUEV§r）
+metaitem.electric.pump.uiv.name=电动泵（§2UIV§r）
+metaitem.electric.pump.uxv.name=电动泵（§eUXV§r）
+metaitem.electric.pump.opv.name=电动泵（§9OpV§r）
+
+metaitem.electric.pump.tooltip=作§f覆盖板§7时以特定速率传输§f流体§7。
+
+metaitem.fluid.regulator.lv.name=流体校准器（§7LV§r）
+metaitem.fluid.regulator.mv.name=流体校准器（§bMV§r）
+metaitem.fluid.regulator.hv.name=流体校准器（§6HV§r）
+metaitem.fluid.regulator.ev.name=流体校准器（§5EV§r）
+metaitem.fluid.regulator.iv.name=流体校准器（§1IV§r）
+metaitem.fluid.regulator.luv.name=流体校准器（§dLuV§r）
+metaitem.fluid.regulator.zpm.name=流体校准器（§cZPM§r）
+metaitem.fluid.regulator.uv.name=流体校准器（§3UV§r）
+
+metaitem.fluid.regulator.tooltip=作§f覆盖板§7时对§f流体§7的量加以限制。
+
+metaitem.conveyor.module.lv.name=传送带（§7LV§r）
+metaitem.conveyor.module.mv.name=传送带（§bMV§r）
+metaitem.conveyor.module.hv.name=传送带（§6HV§r）
+metaitem.conveyor.module.ev.name=传送带（§5EV§r）
+metaitem.conveyor.module.iv.name=传送带（§1IV§r）
+metaitem.conveyor.module.luv.name=传送带（§dLuV§r）
+metaitem.conveyor.module.zpm.name=传送带（§cZPM§r）
+metaitem.conveyor.module.uv.name=传送带（§3UV§r）
+metaitem.conveyor.module.uhv.name=传送带（§4UHV§r）
+metaitem.conveyor.module.uev.name=传送带（§aUEV§r）
+metaitem.conveyor.module.uiv.name=传送带（§2UIV§r）
+metaitem.conveyor.module.uxv.name=传送带（§eUXV§r）
+metaitem.conveyor.module.opv.name=传送带（§9OpV§r）
+
+metaitem.conveyor.module.tooltip=作§f覆盖板§7时以特定速率传输§f物品§7。
+
+metaitem.electric.piston.lv.name=电力活塞（§7LV§r）
+metaitem.electric.piston.mv.name=电力活塞（§bMV§r）
+metaitem.electric.piston.hv.name=电力活塞（§6HV§r）
+metaitem.electric.piston.ev.name=电力活塞（§5EV§r）
+metaitem.electric.piston.iv.name=电力活塞（§1IV§r）
+metaitem.electric.piston.luv.name=电力活塞（§dLuV§r）
+metaitem.electric.piston.zpm.name=电力活塞（§cZPM§r）
+metaitem.electric.piston.uv.name=电力活塞（§3UV§r）
+metaitem.electric.piston.uhv.name=电力活塞（§4UHV§r）
+metaitem.electric.piston.uev.name=电力活塞（§aUEV§r）
+metaitem.electric.piston.uiv.name=电力活塞（§2UIV§r）
+metaitem.electric.piston.uxv.name=电力活塞（§eUXV§r）
+metaitem.electric.piston.opv.name=电力活塞（§9OpV§r）
+
+metaitem.robot.arm.lv.name=机械臂（§7LV§r）
+metaitem.robot.arm.mv.name=机械臂（§bMV§r）
+metaitem.robot.arm.hv.name=机械臂（§6HV§r）
+metaitem.robot.arm.ev.name=机械臂（§5EV§r）
+metaitem.robot.arm.iv.name=机械臂（§1IV§r）
+metaitem.robot.arm.luv.name=机械臂（§dLuV§r）
+metaitem.robot.arm.zpm.name=机械臂（§cZPM§r）
+metaitem.robot.arm.uv.name=机械臂（§3UV§r）
+metaitem.robot.arm.uhv.name=机械臂（§4UHV§r）
+metaitem.robot.arm.uev.name=机械臂（§aUEV§r）
+metaitem.robot.arm.uiv.name=机械臂（§2UIV§r）
+metaitem.robot.arm.uxv.name=机械臂（§eUXV§r）
+metaitem.robot.arm.opv.name=机械臂（§9OpV§r）
+
+metaitem.robot.arm.tooltip=作§f覆盖板§7时对§f物品§7的量加以限制。
+
+metaitem.field.generator.lv.name=力场发生器（§7LV§r）
+metaitem.field.generator.mv.name=力场发生器（§bMV§r）
+metaitem.field.generator.hv.name=力场发生器（§6HV§r）
+metaitem.field.generator.ev.name=力场发生器（§5EV§r）
+metaitem.field.generator.iv.name=力场发生器（§1IV§r）
+metaitem.field.generator.luv.name=力场发生器（§dLuV§r）
+metaitem.field.generator.zpm.name=力场发生器（§cZPM§r）
+metaitem.field.generator.uv.name=力场发生器（§3UV§r）
+metaitem.field.generator.uhv.name=力场发生器（§4UHV§r）
+metaitem.field.generator.uev.name=力场发生器（§aUEV§r）
+metaitem.field.generator.uiv.name=力场发生器（§2UIV§r）
+metaitem.field.generator.uxv.name=力场发生器（§eUXV§r）
+metaitem.field.generator.opv.name=力场发生器（§9OpV§r）
+
+metaitem.emitter.lv.name=发射器（§7LV§r）
+metaitem.emitter.mv.name=发射器（§bMV§r）
+metaitem.emitter.hv.name=发射器（§6HV§r）
+metaitem.emitter.ev.name=发射器（§5EV§r）
+metaitem.emitter.iv.name=发射器（§1IV§r）
+metaitem.emitter.luv.name=发射器（§dLuV§r）
+metaitem.emitter.zpm.name=发射器（§cZPM§r）
+metaitem.emitter.uv.name=发射器（§3UV§r）
+metaitem.emitter.uhv.name=发射器（§4UHV§r）
+metaitem.emitter.uev.name=发射器（§aUEV§r）
+metaitem.emitter.uiv.name=发射器（§2UIV§r）
+metaitem.emitter.uxv.name=发射器（§eUXV§r）
+metaitem.emitter.opv.name=发射器（§9OpV§r）
+
+metaitem.sensor.lv.name=传感器（§7LV§r）
+metaitem.sensor.mv.name=传感器（§bMV§r）
+metaitem.sensor.hv.name=传感器（§6HV§r）
+metaitem.sensor.ev.name=传感器（§5EV§r）
+metaitem.sensor.iv.name=传感器（§1IV§r）
+metaitem.sensor.luv.name=传感器（§dLuV§r）
+metaitem.sensor.zpm.name=传感器（§cZPM§r）
+metaitem.sensor.uv.name=传感器（§3UV§r）
+metaitem.sensor.uhv.name=传感器（§4UHV§r）
+metaitem.sensor.uev.name=传感器（§aUEV§r）
+metaitem.sensor.uiv.name=传感器（§2UIV§r）
+metaitem.sensor.uxv.name=传感器（§eUXV§r）
+metaitem.sensor.opv.name=传感器（§9OpV§r）
+
+metaitem.tool.datastick.name=闪存
+metaitem.tool.datastick.tooltip=一个小容量的数据存储器
+metaitem.tool.dataorb.name=数据球
+metaitem.tool.dataorb.tooltip=一个大容量的数据存储器
+metaitem.tool.datamodule.name=数据模块
+metaitem.tool.datamodule.tooltip=超复杂数据存储/n§c只能用数据库读取
+metaitem.circuit.integrated.name=编程电路
+metaitem.circuit.integrated.tooltip=右击以打开配置界面/n/n手持并潜行右击带有编程电路槽位的机器可应用相应配置。/n
+metaitem.circuit.integrated.gui=编程电路配置
+metaitem.circuit.integrated.jei_description=HEI将仅显示匹配当前编程电路配置的配方。\n\n在编程电路配置界面中调整配置以查看对应配方。
+
+item.glass.lens=玻璃透镜（白色）
+metaitem.glass_lens.orange.name=玻璃透镜（橙色）
+metaitem.glass_lens.magenta.name=玻璃透镜（品红色）
+metaitem.glass_lens.light_blue.name=玻璃透镜（淡蓝色）
+metaitem.glass_lens.yellow.name=玻璃透镜（黄色）
+metaitem.glass_lens.lime.name=玻璃透镜（黄绿色）
+metaitem.glass_lens.pink.name=玻璃透镜（粉红色）
+metaitem.glass_lens.gray.name=玻璃透镜（灰色）
+metaitem.glass_lens.light_gray.name=玻璃透镜（淡灰色）
+metaitem.glass_lens.cyan.name=玻璃透镜（青色）
+metaitem.glass_lens.purple.name=玻璃透镜（紫色）
+metaitem.glass_lens.blue.name=玻璃透镜（蓝色）
+metaitem.glass_lens.brown.name=玻璃透镜（棕色）
+metaitem.glass_lens.green.name=玻璃透镜（绿色）
+metaitem.glass_lens.red.name=玻璃透镜（红色）
+metaitem.glass_lens.black.name=玻璃透镜（黑色）
+
+metaitem.boule.silicon.name=单晶硅
+metaitem.boule.silicon.tooltip=待处理电路
+metaitem.boule.phosphorus.name=荧石掺杂的单晶硅
+metaitem.boule.phosphorus.tooltip=待处理电路
+metaitem.boule.naquadah.name=硅岩掺杂的单晶硅
+metaitem.boule.naquadah.tooltip=待处理电路
+metaitem.boule.neutronium.name=中子素掺杂的单晶硅
+metaitem.boule.neutronium.tooltip=待处理电路
+metaitem.wafer.silicon.name=硅晶圆
+metaitem.wafer.silicon.tooltip=待处理电路
+metaitem.wafer.phosphorus.name=荧石掺杂的晶圆
+metaitem.wafer.phosphorus.tooltip=待处理电路
+metaitem.wafer.naquadah.name=硅岩掺杂的晶圆
+metaitem.wafer.naquadah.tooltip=待处理电路
+metaitem.wafer.neutronium.name=中子素掺杂的晶圆
+metaitem.wafer.neutronium.tooltip=待处理电路
+
 metaitem.board.coated.name=覆膜电路基板
 metaitem.board.coated.tooltip=一块膜层包裹的电路基板
 metaitem.board.phenolic.name=酚醛树脂电路基板
@@ -69,99 +348,6 @@ metaitem.board.multilayer.fiber_reinforced.tooltip=精英电路基板
 metaitem.board.wetware.name=湿件有机电路基板
 metaitem.board.wetware.tooltip=生命可存在于电路基板上
 
-##  Categories
-gregtech.recipe.category.arc_furnace_recycling=电弧炉回收
-gregtech.recipe.category.macerator_recycling=研磨机回收
-gregtech.recipe.category.extractor_recycling=提取机回收
-
-##  Chargers
-gregtech.machine.charger.ulv.name=涡轮充电箱（ULV）
-gregtech.machine.charger.lv.name=涡轮充电箱（LV）
-gregtech.machine.charger.mv.name=涡轮充电箱（MV）
-gregtech.machine.charger.hv.name=涡轮充电箱（HV）
-gregtech.machine.charger.ev.name=涡轮充电箱（EV）
-gregtech.machine.charger.iv.name=涡轮充电箱（IV）
-gregtech.machine.charger.luv.name=涡轮充电箱（LuV）
-gregtech.machine.charger.zpm.name=涡轮充电箱（ZPM）
-gregtech.machine.charger.uv.name=涡轮充电箱（UV）
-gregtech.machine.charger.uhv.name=涡轮充电箱（UHV）
-gregtech.machine.charger.uev.name=涡轮充电箱（UEV）
-gregtech.machine.charger.uiv.name=涡轮充电箱（UIV）
-gregtech.machine.charger.uxv.name=涡轮充电箱（UXV）
-gregtech.machine.charger.opv.name=涡轮充电箱（OpV）
-gregtech.machine.charger.max.name=涡轮充电箱（MAX）
-
-##  Circuits
-
-###  Electronic circuits
-metaitem.circuit.electronic.name=电子电路
-metaitem.circuit.electronic.tooltip=你的第一块电路/n§cLV级电路
-metaitem.circuit.good_electronic.name=优质电子电路
-metaitem.circuit.good_electronic.tooltip=你的第二块电路/n§cMV级电路
-
-###  Integrated circuits
-metaitem.circuit.basic_integrated.name=集成逻辑电路
-metaitem.circuit.basic_integrated.tooltip=更小也更强/n§6LV级电路
-metaitem.circuit.good_integrated.name=优质集成电路
-metaitem.circuit.good_integrated.tooltip=更小也更强/n§6MV级电路
-metaitem.circuit.advanced_integrated.name=高级集成电路
-metaitem.circuit.advanced_integrated.tooltip=更小也更强/n§6HV级电路
-
-###  Processors
-metaitem.circuit.nand_chip.name=NAND芯片
-metaitem.circuit.nand_chip.tooltip=卓越的简单电路/n§6ULV-级电路
-metaitem.circuit.microprocessor.name=微型处理器
-metaitem.circuit.microprocessor.tooltip=卓越的基础电路/n§eLV级电路
-metaitem.circuit.processor.name=集成处理器
-metaitem.circuit.processor.tooltip=惊人的计算速度！/n§eMV级电路
-metaitem.circuit.assembly.name=集成处理器集群
-metaitem.circuit.assembly.tooltip=惊人的计算速度！/n§eHV级电路
-metaitem.circuit.workstation.name=工作站
-metaitem.circuit.workstation.tooltip=惊人的计算速度！/n§eEV级电路
-metaitem.circuit.mainframe.name=电脑主机
-metaitem.circuit.mainframe.tooltip=惊人的计算速度！/n§eIV级电路
-
-###  Nano circuits
-metaitem.circuit.nano_processor.name=纳米处理器
-metaitem.circuit.nano_processor.tooltip=小到极限/n§bHV级电路
-metaitem.circuit.nano_assembly.name=纳米处理器集群
-metaitem.circuit.nano_assembly.tooltip=小到极限/n§bEV级电路
-metaitem.circuit.nano_computer.name=纳米超级计算机
-metaitem.circuit.nano_computer.tooltip=小到极限/n§bIV级电路
-metaitem.circuit.nano_mainframe.name=纳米电脑主机
-metaitem.circuit.nano_mainframe.tooltip=小到极限/n§bLuV级电路
-
-###  Quantum circuits
-metaitem.circuit.quantum_processor.name=量子处理器
-metaitem.circuit.quantum_processor.tooltip=量子计算的时代到来了！/n§aEV级电路
-metaitem.circuit.quantum_assembly.name=量子处理器集群
-metaitem.circuit.quantum_assembly.tooltip=量子计算的时代到来了！/n§aIV级电路
-metaitem.circuit.quantum_computer.name=量子超级计算机
-metaitem.circuit.quantum_computer.tooltip=量子计算的时代到来了！/n§aLuV级电路
-metaitem.circuit.quantum_mainframe.name=量子电脑主机
-metaitem.circuit.quantum_mainframe.tooltip=量子计算的时代到来了！/n§aZPM级电路
-
-###  Crystal circuits
-metaitem.circuit.crystal_processor.name=晶体处理器
-metaitem.circuit.crystal_processor.tooltip=得益于晶体蚀刻技术/n§9IV级电路
-metaitem.circuit.crystal_assembly.name=晶体处理器集群
-metaitem.circuit.crystal_assembly.tooltip=得益于晶体蚀刻技术/n§9LuV级电路
-metaitem.circuit.crystal_computer.name=晶体超级计算机
-metaitem.circuit.crystal_computer.tooltip=得益于晶体蚀刻技术/n§9ZPM级电路
-metaitem.circuit.crystal_mainframe.name=晶体电脑主机
-metaitem.circuit.crystal_mainframe.tooltip=得益于晶体蚀刻技术/n§9UV级电路
-
-###  Wetware circuits
-metaitem.circuit.wetware_processor.name=湿件处理器
-metaitem.circuit.wetware_processor.tooltip=它似乎在盯着你看/n§4LuV级电路
-metaitem.circuit.wetware_assembly.name=湿件处理器集群
-metaitem.circuit.wetware_assembly.tooltip=可以用它来运行Minecraft/n§4ZPM级电路
-metaitem.circuit.wetware_computer.name=湿件超级计算机
-metaitem.circuit.wetware_computer.tooltip=肉体与机器的终极结合/n§4UV级电路
-metaitem.circuit.wetware_mainframe.name=湿件电脑主机群
-metaitem.circuit.wetware_mainframe.tooltip=有机与无机的统一/n§4UHV级电路
-
-##  Circuit boards
 metaitem.circuit_board.basic.name=电路板
 metaitem.circuit_board.basic.tooltip=基础电路板
 metaitem.circuit_board.good.name=优质电路板
@@ -177,7 +363,6 @@ metaitem.circuit_board.elite.tooltip=精英级电路板
 metaitem.circuit_board.wetware.name=大师电路板
 metaitem.circuit_board.wetware.tooltip=生命可存在于电路板上
 
-##  Circuit components
 metaitem.component.glass.tube.name=玻璃管
 metaitem.circuit.vacuum_tube.name=真空管
 metaitem.circuit.vacuum_tube.tooltip=技术上来说大抵也属于二极管/n§cULV-级电路
@@ -216,181 +401,669 @@ metaitem.component.advanced_smd.resistor.tooltip=高级电子元件
 metaitem.component.advanced_smd.inductor.name=高级贴片电感
 metaitem.component.advanced_smd.inductor.tooltip=高级电子元件
 
-##  Components
-metaitem.conveyor.module.lv.name=传送带（LV）
-metaitem.conveyor.module.mv.name=传送带（MV）
-metaitem.conveyor.module.hv.name=传送带（HV）
-metaitem.conveyor.module.ev.name=传送带（EV）
-metaitem.conveyor.module.iv.name=传送带（IV）
-metaitem.conveyor.module.luv.name=传送带（LuV）
-metaitem.conveyor.module.zpm.name=传送带（ZPM）
-metaitem.conveyor.module.uv.name=传送带（UV）
-metaitem.conveyor.module.uhv.name=传送带（UHV）
-metaitem.conveyor.module.uev.name=传送带（UEV）
-metaitem.conveyor.module.uiv.name=传送带（UIV）
-metaitem.conveyor.module.uxv.name=传送带（UXV）
-metaitem.conveyor.module.opv.name=传送带（OpV）
+metaitem.wafer.highly_advanced_system_on_chip.name=超高级片上系统（HASoC）晶圆
+metaitem.wafer.highly_advanced_system_on_chip.tooltip=待处理的超级电路
+metaitem.wafer.advanced_system_on_chip.name=高级片上系统（ASoC）晶圆
+metaitem.wafer.advanced_system_on_chip.tooltip=待处理的进阶电路
+metaitem.wafer.integrated_logic_circuit.name=集成逻辑电路（ILC）晶圆
+metaitem.wafer.integrated_logic_circuit.tooltip=待处理的集成逻辑电路
+metaitem.wafer.central_processing_unit.name=中央处理器（CPU）晶圆
+metaitem.wafer.central_processing_unit.tooltip=待处理的中央处理器
+metaitem.wafer.high_power_integrated_circuit.name=高功率集成电路（HPIC）晶圆
+metaitem.wafer.high_power_integrated_circuit.tooltip=待处理的高功率集成电路
+metaitem.wafer.ultra_high_power_integrated_circuit.name=超高功率集成电路（UHPIC）晶圆
+metaitem.wafer.ultra_high_power_integrated_circuit.tooltip=待处理的超高功率集成电路
+metaitem.wafer.nand_memory_chip.name=与非逻辑门（NAND）晶圆
+metaitem.wafer.nand_memory_chip.tooltip=待处理的与非逻辑门
+metaitem.wafer.ultra_low_power_integrated_circuit.name=超低功率集成电路（ULPIC）晶圆
+metaitem.wafer.ultra_low_power_integrated_circuit.tooltip=待处理的超低功率集成电路
+metaitem.wafer.low_power_integrated_circuit.name=低功率集成电路（LPIC）晶圆
+metaitem.wafer.low_power_integrated_circuit.tooltip=待处理的低功率集成电路
+metaitem.wafer.power_integrated_circuit.name=功率集成电路（PIC）晶圆
+metaitem.wafer.power_integrated_circuit.tooltip=待处理的功率集成电路
+metaitem.wafer.nano_central_processing_unit.name=纳米中央处理器（Nano CPU）晶圆
+metaitem.wafer.nano_central_processing_unit.tooltip=待处理的纳米中央处理器
+metaitem.wafer.nor_memory_chip.name=或非逻辑门（NOR）晶圆
+metaitem.wafer.nor_memory_chip.tooltip=待处理的或非逻辑门
+metaitem.wafer.qbit_central_processing_unit.name=量子位中央处理器（Qubit CPU）晶圆
+metaitem.wafer.qbit_central_processing_unit.tooltip=待处理的量子位中央处理器
+metaitem.wafer.random_access_memory.name=随机存取存储器（RAM）晶圆
+metaitem.wafer.random_access_memory.tooltip=待处理的随机存取存储器
+metaitem.wafer.system_on_chip.name=片上系统（SoC）晶圆
+metaitem.wafer.system_on_chip.tooltip=待处理的基础电路
+metaitem.wafer.simple_system_on_chip.name=简易片上系统（SSoC）晶圆
+metaitem.wafer.simple_system_on_chip.tooltip=待处理的简易电路
+metaitem.engraved.crystal_chip.name=刻蚀水晶芯片
+metaitem.engraved.crystal_chip.tooltip=电路的必需材料
+metaitem.crystal.raw.name=待处理晶体芯片
+metaitem.crystal.raw.tooltip=待处理的晶体处理器
+metaitem.crystal.raw_chip.name=待处理晶体芯片部件
+metaitem.crystal.raw_chip.tooltip=待处理的晶体处理器部件
+metaitem.engraved.lapotron_chip.name=刻蚀兰波顿芯片
 
-##  Creative mode items
+metaitem.crystal.central_processing_unit.name=晶体CPU
+metaitem.crystal.central_processing_unit.tooltip=晶体处理器
+metaitem.crystal.system_on_chip.name=晶体SoC
+metaitem.crystal.system_on_chip.tooltip=晶体片上系统
+metaitem.plate.advanced_system_on_chip.name=高级片上系统（ASoC）晶片
+metaitem.plate.advanced_system_on_chip.tooltip=进阶芯片系统
+metaitem.plate.highly_advanced_system_on_chip.name=超高级片上系统（HASoC）晶片
+metaitem.plate.highly_advanced_system_on_chip.tooltip=高进阶芯片系统
+metaitem.plate.integrated_logic_circuit.name=集成逻辑电路（ILC）晶片
+metaitem.plate.integrated_logic_circuit.tooltip=集成逻辑电路
+metaitem.plate.central_processing_unit.name=中央处理器（CPU）晶片
+metaitem.plate.central_processing_unit.tooltip=中央处理器
+metaitem.plate.high_power_integrated_circuit.name=高功率集成电路（HPIC）晶片
+metaitem.plate.high_power_integrated_circuit.tooltip=高功率集成电路
+metaitem.plate.ultra_high_power_integrated_circuit.name=超高功率集成电路（UHPIC）晶片
+metaitem.plate.ultra_high_power_integrated_circuit.tooltip=超高功率集成电路
+metaitem.plate.nand_memory_chip.name=与非逻辑门（NAND）晶片
+metaitem.plate.nand_memory_chip.tooltip=与非逻辑门
+metaitem.plate.nano_central_processing_unit.name=纳米中央处理器（Nano CPU）晶片
+metaitem.plate.nano_central_processing_unit.tooltip=纳米中央处理器
+metaitem.plate.nor_memory_chip.name=或非逻辑门（NOR）晶片
+metaitem.plate.nor_memory_chip.tooltip=或非逻辑门
+metaitem.plate.ultra_low_power_integrated_circuit.name=超低功率集成电路（ULPIC）晶片
+metaitem.plate.ultra_low_power_integrated_circuit.tooltip=超低功率集成电路
+metaitem.plate.low_power_integrated_circuit.name=低功率集成电路（LPIC）晶片
+metaitem.plate.low_power_integrated_circuit.tooltip=低功率集成电路
+metaitem.plate.power_integrated_circuit.name=功率集成电路（PIC）晶片
+metaitem.plate.power_integrated_circuit.tooltip=功率集成电路
+metaitem.plate.qbit_central_processing_unit.name=量子位中央处理器（Qubit CPU）晶片
+metaitem.plate.qbit_central_processing_unit.tooltip=量子位中央处理器
+metaitem.plate.random_access_memory.name=随机存取存储器（RAM）晶片
+metaitem.plate.random_access_memory.tooltip=随机存取存储器
+metaitem.plate.system_on_chip.name=片上系统（SoC）晶片
+metaitem.plate.system_on_chip.tooltip=片上系统
+metaitem.plate.simple_system_on_chip.name=简易片上系统（SSoC）晶片
+metaitem.plate.simple_system_on_chip.tooltip=简易的片上系统
+
+metaitem.circuit.electronic.name=电子电路
+metaitem.circuit.electronic.tooltip=你的第一块电路/n§cLV级电路
+metaitem.circuit.good_electronic.name=优质电子电路
+metaitem.circuit.good_electronic.tooltip=你的第二块电路/n§cMV级电路
+
+metaitem.circuit.basic_integrated.name=集成逻辑电路
+metaitem.circuit.basic_integrated.tooltip=更小也更强/n§6LV级电路
+metaitem.circuit.good_integrated.name=优质集成电路
+metaitem.circuit.good_integrated.tooltip=更小也更强/n§6MV级电路
+metaitem.circuit.advanced_integrated.name=高级集成电路
+metaitem.circuit.advanced_integrated.tooltip=更小也更强/n§6HV级电路
+
+metaitem.circuit.nand_chip.name=NAND芯片
+metaitem.circuit.nand_chip.tooltip=卓越的简单电路/n§6ULV-级电路
+metaitem.circuit.microprocessor.name=微型处理器
+metaitem.circuit.microprocessor.tooltip=卓越的基础电路/n§eLV级电路
+metaitem.circuit.processor.name=集成处理器
+metaitem.circuit.processor.tooltip=惊人的计算速度！/n§eMV级电路
+metaitem.circuit.assembly.name=集成处理器集群
+metaitem.circuit.assembly.tooltip=惊人的计算速度！/n§eHV级电路
+metaitem.circuit.workstation.name=工作站
+metaitem.circuit.workstation.tooltip=惊人的计算速度！/n§eEV级电路
+metaitem.circuit.mainframe.name=电脑主机
+metaitem.circuit.mainframe.tooltip=惊人的计算速度！/n§eIV级电路
+
+metaitem.circuit.nano_processor.name=纳米处理器
+metaitem.circuit.nano_processor.tooltip=小到极限/n§bHV级电路
+metaitem.circuit.nano_assembly.name=纳米处理器集群
+metaitem.circuit.nano_assembly.tooltip=小到极限/n§bEV级电路
+metaitem.circuit.nano_computer.name=纳米超级计算机
+metaitem.circuit.nano_computer.tooltip=小到极限/n§bIV级电路
+metaitem.circuit.nano_mainframe.name=纳米电脑主机
+metaitem.circuit.nano_mainframe.tooltip=小到极限/n§bLuV级电路
+
+metaitem.circuit.quantum_processor.name=量子处理器
+metaitem.circuit.quantum_processor.tooltip=量子计算的时代到来了！/n§aEV级电路
+metaitem.circuit.quantum_assembly.name=量子处理器集群
+metaitem.circuit.quantum_assembly.tooltip=量子计算的时代到来了！/n§aIV级电路
+metaitem.circuit.quantum_computer.name=量子超级计算机
+metaitem.circuit.quantum_computer.tooltip=量子计算的时代到来了！/n§aLuV级电路
+metaitem.circuit.quantum_mainframe.name=量子电脑主机
+metaitem.circuit.quantum_mainframe.tooltip=量子计算的时代到来了！/n§aZPM级电路
+
+metaitem.circuit.crystal_processor.name=晶体处理器
+metaitem.circuit.crystal_processor.tooltip=得益于晶体蚀刻技术/n§9IV级电路
+metaitem.circuit.crystal_assembly.name=晶体处理器集群
+metaitem.circuit.crystal_assembly.tooltip=得益于晶体蚀刻技术/n§9LuV级电路
+metaitem.circuit.crystal_computer.name=晶体超级计算机
+metaitem.circuit.crystal_computer.tooltip=得益于晶体蚀刻技术/n§9ZPM级电路
+metaitem.circuit.crystal_mainframe.name=晶体电脑主机
+metaitem.circuit.crystal_mainframe.tooltip=得益于晶体蚀刻技术/n§9UV级电路
+
+metaitem.circuit.wetware_processor.name=湿件处理器
+metaitem.circuit.wetware_processor.tooltip=它似乎在盯着你看/n§4LuV级电路
+metaitem.circuit.wetware_assembly.name=湿件处理器集群
+metaitem.circuit.wetware_assembly.tooltip=可以用它来运行Minecraft/n§4ZPM级电路
+metaitem.circuit.wetware_computer.name=湿件超级计算机
+metaitem.circuit.wetware_computer.tooltip=肉体与机器的终极结合/n§4UV级电路
+metaitem.circuit.wetware_mainframe.name=湿件电脑主机群
+metaitem.circuit.wetware_mainframe.tooltip=有机与无机的统一/n§4UHV级电路
+
+metaitem.stem_cells.name=干细胞
+metaitem.stem_cells.tooltip=未经加工的智慧
+metaitem.processor.neuro.name=神经处理单元
+metaitem.processor.neuro.tooltip=神经 CPU
+metaitem.petri_dish.name=培养皿
+metaitem.petri_dish.tooltip=用以培育细胞
+metaitem.bio_chaff.name=糠
+
+metaitem.carbon.fibers.name=生碳纤维
+metaitem.carbon.mesh.name=碳纤维网
+metaitem.carbon.plate.name=碳板
+metaitem.neutron_reflector.name=铱制中子反射板
+metaitem.neutron_reflector.tooltip=坚不可摧
+metaitem.duct_tape.name=大脑科技航空专用强化胶带 FAL-84 型
+metaitem.duct_tape.tooltip=如果一卷修不好，那就再来一卷！
+
+metaitem.component.grinder.diamond.name=钻石研磨头
+metaitem.component.grinder.tungsten.name=钨研磨头
+
+metaitem.quantumeye.name=量子之眼
+metaitem.quantumeye.tooltip=改良的末影之眼
+metaitem.quantumstar.name=量子之星
+metaitem.quantumstar.tooltip=改良的下界之星
+metaitem.gravistar.name=重力之星
+metaitem.gravistar.tooltip=终极下界之星
+
+metaitem.item_filter.name=物品过滤卡
+metaitem.item_filter.tooltip=作§f覆盖板§7时过滤§f物品§7的输入/输出。/n亦可为§f运送模块§7和§f机械臂§7提供过滤功能。
+metaitem.ore_dictionary_filter.name=矿物词典过滤卡
+metaitem.ore_dictionary_filter.tooltip=作§f覆盖板§7时依照§f矿物词典§7过滤§f物品§7的输入/输出。/n亦可为§f运送模块§7和§f机械臂§7提供此种过滤功能。
+metaitem.fluid_filter.name=流体过滤卡
+metaitem.fluid_filter.tooltip=作§f覆盖板§7时过滤§f流体§7的输入/输出。/n亦可为§f电动泵§7和§f流体校准器§7提供过滤功能。
+metaitem.smart_item_filter.name=智能物品过滤卡
+metaitem.smart_item_filter.tooltip=作§f覆盖板§7时依照§f特定机器的配方§7过滤§f物品§7的输入/输出。/n亦可为§f运送模块§7和§f机械臂§7提供此种过滤功能。
+
+metaitem.cover.controller.name=机器控制器
+metaitem.cover.controller.tooltip=作§f覆盖板§7时提供§f开关§7机器功能。
+metaitem.cover.activity.detector.name=活跃状态探测器
+metaitem.cover.activity.detector.tooltip=作§f覆盖板§7时依照§f机器活跃状态§7发出红石信号。
+metaitem.cover.activity.detector_advanced.name=进阶活跃状态探测器
+metaitem.cover.activity.detector_advanced.tooltip=作§f覆盖板§7时依照§f机器处理进度§7发出红石信号。
+metaitem.cover.fluid.detector.name=流体探测器
+metaitem.cover.fluid.detector.tooltip=作§f覆盖板§7时依照§f流体储量§7发出红石信号。
+metaitem.cover.fluid.detector.advanced.name=进阶流体探测器
+metaitem.cover.fluid.detector.advanced.tooltip=作§f覆盖板§7时依照由 §fRS 锁存器§7控制的§f流体存储状态§7发出红石信号。
+metaitem.cover.item.detector.name=物品探测器
+metaitem.cover.item.detector.tooltip=作§f覆盖板§7时依照§f物品储量§7发出红石信号。
+metaitem.cover.item.detector.advanced.name=进阶物品探测器
+metaitem.cover.item.detector.advanced.tooltip=作§f覆盖板§7时依照由 §fRS 锁存器§7控制的§f物品存储状态§7发出红石信号。
+metaitem.cover.energy.detector.name=能量探测器
+metaitem.cover.energy.detector.tooltip=作§f覆盖板§7时依照§f能量储量§7发出红石信号。
+metaitem.cover.energy.detector.advanced.name=进阶能量探测覆盖板
+metaitem.cover.energy.detector.advanced.tooltip=作§f覆盖板§7时依照由 §fRS 锁存器§7控制的§f能量状态§7发出红石信号。
+metaitem.cover.fluid.voiding.name=流体销毁覆盖板
+metaitem.cover.fluid.voiding.tooltip=作§f覆盖板§7时销毁§f流体§7。/n加装后需手持§f软槌§7右击方可启用
+metaitem.cover.fluid.voiding.advanced.name=进阶流体销毁覆盖板
+metaitem.cover.fluid.voiding.advanced.tooltip=作§f覆盖板§7时销毁§f流体§7，兼有控量功能。/n加装后需手持§f软槌§7右击方可启用
+metaitem.cover.item.voiding.name=物品销毁覆盖板
+metaitem.cover.item.voiding.tooltip=作§f覆盖板§7时销毁物品。/n加装后需手持§f软槌§7右击方可启用
+metaitem.cover.item.voiding.advanced.name=进阶物品销毁覆盖板
+metaitem.cover.item.voiding.advanced.tooltip=作§f覆盖板§7时销毁物品，兼有控量功能。/n加装后需手持§f软槌§7右击方可启用
+metaitem.cover.storage.name=存储覆盖板
+metaitem.cover.storage.tooltip=给零碎的小玩意准备的小型存储空间
+
+metaitem.cover.facade.name=%s伪装板
+metaitem.cover.facade.tooltip=可作为§f覆盖板§7加装的装饰性套壳。
+
+metaitem.cover.screen.name=电脑屏幕
+metaitem.cover.screen.tooltip=作§f覆盖板§7时显示§f数据§7。
+metaitem.cover.crafting.name=工作台覆盖板
+metaitem.cover.crafting.tooltip=安装在机器侧面的§f覆盖板§7式§f高级工作台§7。
+metaitem.cover.shutter.name=闭锁模块
+metaitem.cover.shutter.tooltip=作§f覆盖板§7时§f阻止§7机器侧面的任何§f传输§7行为。
+
+metaitem.cover.solar.panel.name=太阳能覆盖板
+metaitem.cover.solar.panel.ulv.name=太阳能覆盖板（§8ULV§r）
+metaitem.cover.solar.panel.lv.name=太阳能覆盖板（§7LV§r）
+metaitem.cover.solar.panel.mv.name=太阳能覆盖板（§bMV§r）
+metaitem.cover.solar.panel.hv.name=太阳能覆盖板（§6HV§r）
+metaitem.cover.solar.panel.ev.name=太阳能覆盖板（§5EV§r）
+metaitem.cover.solar.panel.iv.name=太阳能覆盖板（§1IV§r）
+metaitem.cover.solar.panel.luv.name=太阳能覆盖板（§dLuV§r）
+metaitem.cover.solar.panel.zpm.name=太阳能覆盖板（§cZPM§r）
+metaitem.cover.solar.panel.uv.name=太阳能覆盖板（§3UV§r）
+
+metaitem.cover.solar.panel.tooltip.1=愿太阳与你同在。
+metaitem.cover.solar.panel.tooltip.2=作§f覆盖板§7时利用§e太阳§7产生§f能量§7。
+
+metaitem.cover.infinite_water.name=无限水覆盖板
+metaitem.cover.infinite_water.tooltip.1=作§f覆盖板§7时为所附着的容器供§9水§7。
+metaitem.cover.ender_fluid_link.name=末影流体连接覆盖板
+metaitem.cover.ender_fluid_link.tooltip=作§f覆盖板§7时利用一种§f无线§7的§d末影§f连接§7手段来传输流体。
+
+metaitem.gelled_toluene.name=胶凝甲苯
+metaitem.gelled_toluene.tooltip=粗制的爆炸物
+
+metaitem.bottle.purple.drink.name=紫色饮料
+metaitem.bottle.purple.drink.tooltip=来点柠檬汽水，还是冰红茶？我手里这瓶可是紫色饮料！
+
+metaitem.dye.black.name=黑色化学染料
+metaitem.dye.red.name=红色化学染料
+metaitem.dye.green.name=绿色化学染料
+metaitem.dye.brown.name=棕色化学染料
+metaitem.dye.blue.name=蓝色化学染料
+metaitem.dye.purple.name=紫色化学染料
+metaitem.dye.cyan.name=青色化学染料
+metaitem.dye.silver.name=淡灰色化学染料
+metaitem.dye.gray.name=灰色化学染料
+metaitem.dye.pink.name=粉红色化学染料
+metaitem.dye.lime.name=黄绿色化学染料
+metaitem.dye.yellow.name=黄色化学染料
+metaitem.dye.light_blue.name=淡蓝色化学染料
+metaitem.dye.magenta.name=品红色化学染料
+metaitem.dye.orange.name=橙色化学染料
+metaitem.dye.white.name=白色化学染料
+
+metaitem.rubber_drop.name=粘性树脂
+metaitem.plant_ball.name=植物球
+metaitem.tool_parts_box.name=工具零件箱
+metaitem.tool_parts_box.tooltip=盛放一些工具部件/n右击打开
+metaitem.foam_sprayer.name=建筑泡沫喷罐
+metaitem.foam_sprayer.tooltip=喷射建筑泡沫/n右击框架来给框架喷上泡沫/n用铁脚手架来创建防爆石/n建筑泡沫可被染色
+metaitem.energium_dust.name=能量粉
+metaitem.compressed.clay.name=压缩粘土
+metaitem.compressed.fireclay.name=压缩耐火粘土
+metaitem.compressed.coke_clay.name=压缩焦粘土
+metaitem.brick.fireclay.name=耐火砖
+metaitem.brick.fireclay.tooltip=抵抗热量
+metaitem.brick.coke.name=焦炉砖
+metaitem.wooden_form.empty.name=空木模
+metaitem.wooden_form.brick.name=砖木模
+
+item.gt.tool.replace_tool_head=可使用合成栏来替换工具头
+item.gt.tool.usable_as=可用作：§f%s
+item.gt.tool.behavior.silk_ice=§b切冰利刃：§f精准采集冰
+item.gt.tool.behavior.torch_place=§e洞窟探客: §f右击可放置火把
+item.gt.tool.behavior.tree_felling=§4伐木好手：§f一次性砍下整棵树木
+item.gt.tool.behavior.shield_disable=§c野兽蛮攻：§f无法同时使用盾牌
+item.gt.tool.behavior.relocate_mining=§2磁力吸引：§f吸入采掘的方块
+item.gt.tool.behavior.aoe_mining=§5范围特效：§f%sx%sx%s
+item.gt.tool.behavior.ground_tilling=§e耕地农夫：§f耕耘土地
+item.gt.tool.behavior.grass_path=§e园林策划：§f制造草径
+item.gt.tool.behavior.rail_rotation=§e铁路技工：§f旋转轨道
+item.gt.tool.behavior.crop_harvesting=§a庄稼收割：§f收获成熟的作物
+item.gt.tool.behavior.plunger=§9水管工人：§f抽干流体
+item.gt.tool.behavior.block_rotation=§2精械师傅：§f旋转方块
+item.gt.tool.behavior.damage_boost=§4伤害增益：§f对%s造成额外伤害
+
+item.gt.tool.sword.name=%s剑
+item.gt.tool.pickaxe.name=%s镐
+item.gt.tool.shovel.name=%s锹
+item.gt.tool.axe.name=%s斧
+item.gt.tool.hoe.name=%s锄
+item.gt.tool.saw.name=%s锯
+item.gt.tool.hammer.name=%s锤
+item.gt.tool.hammer.tooltip=§8锤碎而非采掘方块
+item.gt.tool.mallet.name=%s软槌
+item.gt.tool.mallet.tooltip=§8关闭/开启机器
+item.gt.tool.wrench.name=%s扳手
+item.gt.tool.wrench.tooltip=§8按住左键以拆卸机器
+item.gt.tool.file.name=%s锉
+item.gt.tool.crowbar.name=%s撬棍
+item.gt.tool.crowbar.tooltip=§8卸下覆盖板
+item.gt.tool.screwdriver.name=%s螺丝刀
+item.gt.tool.screwdriver.tooltip=§8调整覆盖板和机器
+item.gt.tool.mortar.name=%s研钵
+item.gt.tool.wire_cutter.name=%s剪线钳
+item.gt.tool.knife.name=%s刀
+item.gt.tool.butchery_knife.name=%s屠刀
+item.gt.tool.butchery_knife.tooltip=§8攻击速度较慢
+item.gt.tool.scythe.name=%s镰刀
+item.gt.tool.scythe.tooltip=§8镰刀又能代表着什么呢？
+item.gt.tool.rolling_pin.name=%s擀面杖
+item.gt.tool.drill_lv.name=%s电钻（§7LV§r）
+item.gt.tool.drill_mv.name=%s电钻（§bMV§r）
+item.gt.tool.drill_hv.name=%s电钻（§6HV§r）
+item.gt.tool.drill_ev.name=%s电钻（§5EV§r）
+item.gt.tool.drill_iv.name=%s电钻（§1IV§r）
+item.gt.tool.mining_hammer.name=%s开采锤
+item.gt.tool.mining_hammer.tooltip=§8非潜行时可一次性开采一大片区域内的方块
+item.gt.tool.spade.name=%s铲
+item.gt.tool.spade.tooltip=§8非潜行时可一次性挖掘一大片区域内的方块
+item.gt.tool.chainsaw_lv.name=%s链锯（§7LV§r）
+item.gt.tool.chainsaw_mv.name=%s链锯（§bMV§r）
+item.gt.tool.chainsaw_hv.name=%s链锯（§6HV§r）
+item.gt.tool.wrench_lv.name=%s扳手（§7LV§r）
+item.gt.tool.wrench_lv.tooltip=§8使用鼠标左键以拆卸机器
+item.gt.tool.wrench_hv.name=%s扳手（§6HV§r）
+item.gt.tool.wrench_hv.tooltip=§8使用鼠标左键以拆卸机器
+item.gt.tool.wrench_iv.name=%s扳手（§1IV§r）
+item.gt.tool.wrench_iv.tooltip=§8使用鼠标左键以拆卸机器
+item.gt.tool.buzzsaw.name=%s圆锯（§7LV§r）
+item.gt.tool.buzzsaw.tooltip=§8并不适合用来采掘方块
+item.gt.tool.screwdriver_lv.name=%s螺丝刀（§7LV§r）
+item.gt.tool.screwdriver_lv.tooltip=§8用于调整覆盖板和机器
+item.gt.tool.plunger.name=%s搋子
+item.gt.tool.plunger.tooltip=§8从机器中抽除流体
+
+item.gt.tool.tooltip.crafting_uses=§a合成耐久度：%s
+item.gt.tool.tooltip.general_uses=§b耐久度：%s
+item.gt.tool.tooltip.attack_damage=§c攻击伤害：%s
+item.gt.tool.tooltip.attack_speed=§9攻击速度：%s
+item.gt.tool.tooltip.mining_speed=§d采掘速度：%s
+item.gt.tool.tooltip.harvest_level=§e采掘等级：%s
+item.gt.tool.tooltip.harvest_level_extra=§e采掘等级：%s§f（%s§f）
+
+item.gt.tool.harvest_level.0=§8木
+item.gt.tool.harvest_level.1=§7石
+item.gt.tool.harvest_level.2=§a铁
+item.gt.tool.harvest_level.3=§b钻石
+item.gt.tool.harvest_level.4=§d哈氏合金
+item.gt.tool.harvest_level.5=§9铿铀
+item.gt.tool.harvest_level.6=§c中子素
+
+item.gt.tool.tooltip.repair_info=按住 SHIFT 以查看修复详情
+item.gt.tool.tooltip.repair_material=可使用§a%s§f来修复
+
+item.gt.tool.aoe.rows=行
+item.gt.tool.aoe.columns=列
+item.gt.tool.aoe.layers=层
+
+metaitem.turbine_rotor.name=%s涡轮转子
+metaitem.turbine_rotor.tooltip=供涡轮机使用的涡轮转子
+
+metaitem.clipboard.name=写字板
+metaitem.clipboard.tooltip=可以在上面写东西（不需要任何书写工具）。手持写字板鼠标右击墙面可放置，按住 SHIFT 后鼠标右击则可取下
+
+metaitem.behavior.mode_switch.tooltip=按住 SHIFT 鼠标右击以切换模式
+metaitem.behavior.mode_switch.mode_switched=§e模式设置为：%s
+metaitem.behavior.mode_switch.current_mode=模式：%s
+
+metaitem.tool.tooltip.primary_material=§f材料：§e%s
+metaitem.tool.tooltip.durability=§f耐久度：§a%,d / %,d
+metaitem.tool.tooltip.rotor.efficiency=转子效率：§9%,d%%
+metaitem.tool.tooltip.rotor.power=涡轮产能：§9%,d%%
+
+metaitem.voltage_coil.ulv.name=线圈（§8ULV§r）
+metaitem.voltage_coil.ulv.tooltip=初级线圈
+metaitem.voltage_coil.lv.name=线圈（§7LV§r）
+metaitem.voltage_coil.lv.tooltip=基础线圈
+metaitem.voltage_coil.mv.name=线圈（§bMV§r）
+metaitem.voltage_coil.mv.tooltip=优质线圈
+metaitem.voltage_coil.hv.name=线圈（§6HV§r）
+metaitem.voltage_coil.hv.tooltip=高级线圈
+metaitem.voltage_coil.ev.name=线圈（§5EV§r）
+metaitem.voltage_coil.ev.tooltip=极限线圈
+metaitem.voltage_coil.iv.name=线圈（§1IV§r）
+metaitem.voltage_coil.iv.tooltip=精英线圈
+metaitem.voltage_coil.luv.name=线圈（§dLuV§r）
+metaitem.voltage_coil.luv.tooltip=大师线圈
+metaitem.voltage_coil.zpm.name=线圈（§cZPM§r）
+metaitem.voltage_coil.zpm.tooltip=超级线圈
+metaitem.voltage_coil.uv.name=线圈（§3UV§r）
+metaitem.voltage_coil.uv.tooltip=终极线圈
+metaitem.voltage_coil.uhv.name=线圈（§4UHV§r）
+metaitem.voltage_coil.uhv.tooltip=极致线圈
+metaitem.voltage_coil.uev.name=线圈（§aUEV§r）
+metaitem.voltage_coil.uev.tooltip=超凡线圈
+metaitem.voltage_coil.uiv.name=线圈（§2UIV§r）
+metaitem.voltage_coil.uiv.tooltip=疯狂线圈
+metaitem.voltage_coil.uxv.name=线圈（§eUXV§r）
+metaitem.voltage_coil.uxv.tooltip=史诗线圈
+metaitem.voltage_coil.opv.name=线圈（§9OpV§r）
+metaitem.voltage_coil.opv.tooltip=传奇线圈
+metaitem.voltage_coil.max.name=线圈（§c§lMAX§r）
+metaitem.voltage_coil.max.tooltip=至高线圈
+
+tile.casing.ulv=§8ULV§r机器外壳
+tile.casing.lv=§7LV§r机器外壳
+tile.casing.mv=§bMV§r机器外壳
+tile.casing.hv=§6HV§r机器外壳
+tile.casing.ev=§5EV§r机器外壳
+tile.casing.iv=§1IV§r机器外壳
+
+tile.machine_casing.ultra_low_voltage.name=§8ULV§r机器外壳
+tile.machine_casing.low_voltage.name=§7LV§r机器外壳
+tile.machine_casing.medium_voltage.name=§bMV§r机器外壳
+tile.machine_casing.high_voltage.name=§6HV§r机器外壳
+tile.machine_casing.extreme_voltage.name=§5EV§r机器外壳
+tile.machine_casing.insane_voltage.name=§1IV§r机器外壳
+tile.machine_casing.ludicrous_voltage.name=§dLuV§r机器外壳
+tile.machine_casing.zpm_voltage.name=§cZPM§r机器外壳
+tile.machine_casing.ultimate_voltage.name=§3UV§r机器外壳
+tile.machine_casing.ultra_high_voltage.name=§4UHV§r机器外壳
+tile.machine_casing.ultra_excessive_voltage.name=§aUEV§r机器外壳
+tile.machine_casing.ultra_immense_voltage.name=§2UIV§r机器外壳
+tile.machine_casing.ultra_extreme_voltage.name=§eUXV§r机器外壳
+tile.machine_casing.overpowered_voltage.name=§9OpV§r机器外壳
+tile.machine_casing.maximum_voltage.name=§c§lMAX§r机器外壳
+
+gregtech.machine.hull.ulv.name=§8ULV§r机身
+gregtech.machine.hull.lv.name=§7LV§r机身
+gregtech.machine.hull.mv.name=§bMV§r机身
+gregtech.machine.hull.hv.name=§6HV§r机身
+gregtech.machine.hull.ev.name=§5EV§r机身
+gregtech.machine.hull.iv.name=§1IV§r机身
+gregtech.machine.hull.luv.name=§dLuV§r机身
+gregtech.machine.hull.zpm.name=§cZPM§r机身
+gregtech.machine.hull.uv.name=§3UV§r机身
+gregtech.machine.hull.uhv.name=§4UHV§r机身
+gregtech.machine.hull.uev.name=§aUEV§r机身
+gregtech.machine.hull.uiv.name=§2UIV§r机身
+gregtech.machine.hull.uxv.name=§eUXV§r机身
+gregtech.machine.hull.opv.name=§9OpV§r机身
+gregtech.machine.hull.max.name=§c§lMAX§r机身
+
+gregtech.machine.battery_buffer.ulv.4.name=4安电池箱（§8ULV§r）
+gregtech.machine.battery_buffer.ulv.8.name=8安电池箱（§8ULV§r）
+gregtech.machine.battery_buffer.ulv.16.name=16安电池箱（§8ULV§r）
+gregtech.machine.battery_buffer.lv.4.name=4安电池箱（§7LV§r）
+gregtech.machine.battery_buffer.lv.8.name=8安电池箱（§7LV§r）
+gregtech.machine.battery_buffer.lv.16.name=16安电池箱（§7LV§r）
+gregtech.machine.battery_buffer.mv.4.name=4安电池箱（§bMV§r）
+gregtech.machine.battery_buffer.mv.8.name=8安电池箱（§bMV§r）
+gregtech.machine.battery_buffer.mv.16.name=16安电池箱（§bMV§r）
+gregtech.machine.battery_buffer.hv.4.name=4安电池箱（§6HV§r）
+gregtech.machine.battery_buffer.hv.8.name=8安电池箱（§6HV§r）
+gregtech.machine.battery_buffer.hv.16.name=16安电池箱（§6HV§r）
+gregtech.machine.battery_buffer.ev.4.name=4安电池箱（§5EV§r）
+gregtech.machine.battery_buffer.ev.8.name=8安电池箱（§5EV§r）
+gregtech.machine.battery_buffer.ev.16.name=16安电池箱（§5EV§r）
+gregtech.machine.battery_buffer.iv.4.name=4安电池箱（§1IV§r）
+gregtech.machine.battery_buffer.iv.8.name=8安电池箱（§1IV§r）
+gregtech.machine.battery_buffer.iv.16.name=16安电池箱（§1IV§r）
+gregtech.machine.battery_buffer.luv.4.name=4安电池箱（§dLuV§r）
+gregtech.machine.battery_buffer.luv.8.name=8安电池箱（§dLuV§r）
+gregtech.machine.battery_buffer.luv.16.name=16安电池箱（§dLuV§r）
+gregtech.machine.battery_buffer.zpm.4.name=4安电池箱（§cZPM§r）
+gregtech.machine.battery_buffer.zpm.8.name=8安电池箱（§cZPM§r）
+gregtech.machine.battery_buffer.zpm.16.name=16安电池箱（§cZPM§r）
+gregtech.machine.battery_buffer.uv.4.name=4安电池箱（§3UV§r）
+gregtech.machine.battery_buffer.uv.8.name=8安电池箱（§3UV§r）
+gregtech.machine.battery_buffer.uv.16.name=16安电池箱（§3UV§r）
+gregtech.machine.battery_buffer.uhv.4.name=4安电池箱（§4UHV§r）
+gregtech.machine.battery_buffer.uhv.8.name=8安电池箱（§4UHV§r）
+gregtech.machine.battery_buffer.uhv.16.name=16安电池箱（§4UHV§r）
+gregtech.machine.battery_buffer.uev.4.name=4安电池箱（§aUEV§r）
+gregtech.machine.battery_buffer.uev.8.name=8安电池箱（§aUEV§r）
+gregtech.machine.battery_buffer.uev.16.name=16安电池箱（§aUEV§r）
+gregtech.machine.battery_buffer.uiv.4.name=4安电池箱（§2UIV§r）
+gregtech.machine.battery_buffer.uiv.8.name=8安电池箱（§2UIV§r）
+gregtech.machine.battery_buffer.uiv.16.name=16安电池箱（§2UIV§r）
+gregtech.machine.battery_buffer.uxv.4.name=4安电池箱（§eUXV§r）
+gregtech.machine.battery_buffer.uxv.8.name=8安电池箱（§eUXV§r）
+gregtech.machine.battery_buffer.uxv.16.name=16安电池箱（§eUXV§r）
+gregtech.machine.battery_buffer.opv.4.name=4安电池箱（§9OpV§r）
+gregtech.machine.battery_buffer.opv.8.name=8安电池箱（§9OpV§r）
+gregtech.machine.battery_buffer.opv.16.name=16安电池箱（§9OpV§r）
+gregtech.machine.battery_buffer.max.4.name=4安电池箱（§c§lMAX§r）
+gregtech.machine.battery_buffer.max.8.name=8安电池箱（§c§lMAX§r）
+gregtech.machine.battery_buffer.max.16.name=16安电池箱（§c§lMAX§r）
+
+gregtech.recipe.category.arc_furnace_recycling=电弧炉回收
+gregtech.recipe.category.macerator_recycling=研磨机回收
+gregtech.recipe.category.extractor_recycling=提取机回收
+
+gregtech.machine.charger.ulv.name=涡轮充电箱（§8ULV§r）
+gregtech.machine.charger.lv.name=涡轮充电箱（§7LV§r）
+gregtech.machine.charger.mv.name=涡轮充电箱（§bMV§r）
+gregtech.machine.charger.hv.name=涡轮充电箱（§6HV§r）
+gregtech.machine.charger.ev.name=涡轮充电箱（§5EV§r）
+gregtech.machine.charger.iv.name=涡轮充电箱（§1IV§r）
+gregtech.machine.charger.luv.name=涡轮充电箱（§dLuV§r）
+gregtech.machine.charger.zpm.name=涡轮充电箱（§cZPM§r）
+gregtech.machine.charger.uv.name=涡轮充电箱（§3UV§r）
+gregtech.machine.charger.uhv.name=涡轮充电箱（§4UHV§r）
+gregtech.machine.charger.uev.name=涡轮充电箱（§aUEV§r）
+gregtech.machine.charger.uiv.name=涡轮充电箱（§2UIV§r）
+gregtech.machine.charger.uxv.name=涡轮充电箱（§eUXV§r）
+gregtech.machine.charger.opv.name=涡轮充电箱（§9OpV§r）
+gregtech.machine.charger.max.name=涡轮充电箱（§c§lMAX§r）
+
 gregtech.machine.infinite_energy.name=创造模式能量单元
 gregtech.machine.creative_chest.name=创造模式量子箱
 gregtech.machine.creative_tank.name=创造模式量子缸
 
-##  Diodes
-gregtech.machine.diode.ulv.name=二极管（ULV）
-gregtech.machine.diode.lv.name=二极管（LV）
-gregtech.machine.diode.mv.name=二极管（MV）
-gregtech.machine.diode.hv.name=二极管（HV）
-gregtech.machine.diode.ev.name=二极管（EV）
-gregtech.machine.diode.iv.name=二极管（IV）
-gregtech.machine.diode.luv.name=二极管（LuV）
-gregtech.machine.diode.zpm.name=二极管（ZPM）
-gregtech.machine.diode.uv.name=二极管（UV）
-gregtech.machine.diode.uhv.name=二极管（UHV）
-gregtech.machine.diode.uev.name=二极管（UEV）
-gregtech.machine.diode.uiv.name=二极管（UIV）
-gregtech.machine.diode.uxv.name=二极管（UXV）
-gregtech.machine.diode.opv.name=二极管（OpV）
-gregtech.machine.diode.max.name=二极管（MAX）
+gregtech.machine.diode.ulv.name=二极管（§8ULV§r）
+gregtech.machine.diode.lv.name=二极管（§7LV§r）
+gregtech.machine.diode.mv.name=二极管（§bMV§r）
+gregtech.machine.diode.hv.name=二极管（§6HV§r）
+gregtech.machine.diode.ev.name=二极管（§5EV§r）
+gregtech.machine.diode.iv.name=二极管（§1IV§r）
+gregtech.machine.diode.luv.name=二极管（§dLuV§r）
+gregtech.machine.diode.zpm.name=二极管（§cZPM§r）
+gregtech.machine.diode.uv.name=二极管（§3UV§r）
+gregtech.machine.diode.uhv.name=二极管（§4UHV§r）
+gregtech.machine.diode.uev.name=二极管（§aUEV§r）
+gregtech.machine.diode.uiv.name=二极管（§2UIV§r）
+gregtech.machine.diode.uxv.name=二极管（§eUXV§r）
+gregtech.machine.diode.opv.name=二极管（§9OpV§r）
+gregtech.machine.diode.max.name=二极管（§c§lMAX§r）
 
-##  Drums
 gregtech.machine.drum.gold.name=金桶
 
-##  Dynamo hatches
-gregtech.machine.energy_hatch.output.ulv.name=动力仓（ULV）
-gregtech.machine.energy_hatch.output.lv.name=动力仓（LV）
-gregtech.machine.energy_hatch.output.mv.name=动力仓（MV）
-gregtech.machine.energy_hatch.output.hv.name=动力仓（HV）
-gregtech.machine.energy_hatch.output.ev.name=动力仓（EV）
-gregtech.machine.energy_hatch.output_4a.ev.name=4安动力仓（EV）
-gregtech.machine.energy_hatch.output.iv.name=动力仓（IV）
-gregtech.machine.energy_hatch.output_4a.iv.name=4安动力仓（IV）
-gregtech.machine.energy_hatch.output_16a.iv.name=16安动力仓（IV）
-gregtech.machine.energy_hatch.output.luv.name=动力仓（LuV）
-gregtech.machine.energy_hatch.output_4a.luv.name=4安动力仓（LuV）
-gregtech.machine.energy_hatch.output_16a.luv.name=16安动力仓（LuV）
-gregtech.machine.energy_hatch.output.zpm.name=动力仓（ZPM）
-gregtech.machine.energy_hatch.output_4a.zpm.name=4安动力仓（ZPM）
-gregtech.machine.energy_hatch.output_16a.zpm.name=16安动力仓（ZPM）
-gregtech.machine.energy_hatch.output.uv.name=动力仓（UV）
-gregtech.machine.energy_hatch.output_4a.uv.name=4安动力仓（UV）
-gregtech.machine.energy_hatch.output_16a.uv.name=16安动力仓（UV）
-gregtech.machine.energy_hatch.output.uhv.name=动力仓（UHV）
-gregtech.machine.energy_hatch.output_4a.uhv.name=4安动力仓（UHV）
-gregtech.machine.energy_hatch.output_16a.uhv.name=16安动力仓（UHV）
-gregtech.machine.energy_hatch.output.uev.name=动力仓（UEV）
-gregtech.machine.energy_hatch.output.uiv.name=动力仓（UIV）
-gregtech.machine.energy_hatch.output.uxv.name=动力仓（UXV）
-gregtech.machine.energy_hatch.output.opv.name=动力仓（OpV）
-gregtech.machine.energy_hatch.output.max.name=动力仓（MAX）
+gregtech.machine.energy_hatch.output.ulv.name=动力仓（§8ULV§r）
+gregtech.machine.energy_hatch.output.lv.name=动力仓（§7LV§r）
+gregtech.machine.energy_hatch.output.mv.name=动力仓（§bMV§r）
+gregtech.machine.energy_hatch.output.hv.name=动力仓（§6HV§r）
+gregtech.machine.energy_hatch.output.ev.name=动力仓（§5EV§r）
+gregtech.machine.energy_hatch.output_4a.ev.name=4安动力仓（§5EV§r）
+gregtech.machine.energy_hatch.output.iv.name=动力仓（§1IV§r）
+gregtech.machine.energy_hatch.output_4a.iv.name=4安动力仓（§1IV§r）
+gregtech.machine.energy_hatch.output_16a.iv.name=16安动力仓（§1IV§r）
+gregtech.machine.energy_hatch.output.luv.name=动力仓（§dLuV§r）
+gregtech.machine.energy_hatch.output_4a.luv.name=4安动力仓（§dLuV§r）
+gregtech.machine.energy_hatch.output_16a.luv.name=16安动力仓（§dLuV§r）
+gregtech.machine.energy_hatch.output.zpm.name=动力仓（§cZPM§r）
+gregtech.machine.energy_hatch.output_4a.zpm.name=4安动力仓（§cZPM§r）
+gregtech.machine.energy_hatch.output_16a.zpm.name=16安动力仓（§cZPM§r）
+gregtech.machine.energy_hatch.output.uv.name=动力仓（§3UV§r）
+gregtech.machine.energy_hatch.output_4a.uv.name=4安动力仓（§3UV§r）
+gregtech.machine.energy_hatch.output_16a.uv.name=16安动力仓（§3UV§r）
+gregtech.machine.energy_hatch.output.uhv.name=动力仓（§4UHV§r）
+gregtech.machine.energy_hatch.output_4a.uhv.name=4安动力仓（§4UHV§r）
+gregtech.machine.energy_hatch.output_16a.uhv.name=16安动力仓（§4UHV§r）
+gregtech.machine.energy_hatch.output.uev.name=动力仓（§aUEV§r）
+gregtech.machine.energy_hatch.output.uiv.name=动力仓（§2UIV§r）
+gregtech.machine.energy_hatch.output.uxv.name=动力仓（§eUXV§r）
+gregtech.machine.energy_hatch.output.opv.name=动力仓（§9OpV§r）
+gregtech.machine.energy_hatch.output.max.name=动力仓（§c§lMAX§r）
 
 ##  Dynamo hatches for Power substation
-gregtech.machine.substation_hatch.output_64a.iv.name=64安变电动力仓（IV）
-gregtech.machine.substation_hatch.output_64a.luv.name=64安变电动力仓（LuV）
-gregtech.machine.substation_hatch.output_64a.zpm.name=64安变电动力仓（ZPM）
-gregtech.machine.substation_hatch.output_64a.uv.name=64安变电动力仓（UV）
-gregtech.machine.substation_hatch.output_64a.uhv.name=64安变电动力仓（UHV）
+gregtech.machine.substation_hatch.output_64a.iv.name=64安变电动力仓（§1IV§r）
+gregtech.machine.substation_hatch.output_64a.luv.name=64安变电动力仓（§dLuV§r）
+gregtech.machine.substation_hatch.output_64a.zpm.name=64安变电动力仓（§cZPM§r）
+gregtech.machine.substation_hatch.output_64a.uv.name=64安变电动力仓（§3UV§r）
+gregtech.machine.substation_hatch.output_64a.uhv.name=64安变电动力仓（§4UHV§r）
 
 gregtech.machine.substation_hatch.output.tooltip=兰波顿电容库的动力仓
 
-##  Energy converters
-gregtech.machine.energy_converter.ulv.1.name=1安能源转换器（ULV）
-gregtech.machine.energy_converter.ulv.4.name=4安能源转换器（ULV）
-gregtech.machine.energy_converter.ulv.8.name=8安能源转换器（ULV）
-gregtech.machine.energy_converter.ulv.16.name=16安能源转换器（ULV）
-gregtech.machine.energy_converter.lv.1.name=1安能源转换器（LV）
-gregtech.machine.energy_converter.lv.4.name=4安能源转换器（LV）
-gregtech.machine.energy_converter.lv.8.name=8安安能源转换器（LV）
-gregtech.machine.energy_converter.lv.16.name=16安安能源转换器（LV）
-gregtech.machine.energy_converter.mv.1.name=1安能源转换器（MV）
-gregtech.machine.energy_converter.mv.4.name=4安能源转换器（MV）
-gregtech.machine.energy_converter.mv.8.name=8安能源转换器（MV）
-gregtech.machine.energy_converter.mv.16.name=16安能源转换器（MV）
-gregtech.machine.energy_converter.hv.1.name=1安能源转换器（HV）
-gregtech.machine.energy_converter.hv.4.name=4安能源转换器（HV）
-gregtech.machine.energy_converter.hv.8.name=8安能源转换器（HV）
-gregtech.machine.energy_converter.hv.16.name=16安能源转换器（HV）
-gregtech.machine.energy_converter.ev.1.name=1安能源转换器（EV）
-gregtech.machine.energy_converter.ev.4.name=4安能源转换器（EV）
-gregtech.machine.energy_converter.ev.8.name=8安能源转换器（EV）
-gregtech.machine.energy_converter.ev.16.name=16安能源转换器（EV）
-gregtech.machine.energy_converter.iv.1.name=1安能源转换器（IV）
-gregtech.machine.energy_converter.iv.4.name=4安能源转换器（IV）
-gregtech.machine.energy_converter.iv.8.name=8安能源转换器（IV）
-gregtech.machine.energy_converter.iv.16.name=16安能源转换器（IV）
-gregtech.machine.energy_converter.luv.1.name=1安能源转换器（LuV）
-gregtech.machine.energy_converter.luv.4.name=4安能源转换器（LuV）
-gregtech.machine.energy_converter.luv.8.name=8安能源转换器（LuV）
-gregtech.machine.energy_converter.luv.16.name=16安能源转换器（LuV）
-gregtech.machine.energy_converter.zpm.1.name=1安能源转换器（ZPM）
-gregtech.machine.energy_converter.zpm.4.name=4安能源转换器（ZPM）
-gregtech.machine.energy_converter.zpm.8.name=8安能源转换器（ZPM）
-gregtech.machine.energy_converter.zpm.16.name=16安能源转换器（ZPM）
-gregtech.machine.energy_converter.uv.1.name=1安能源转换器（UV）
-gregtech.machine.energy_converter.uv.4.name=4安能源转换器（UV）
-gregtech.machine.energy_converter.uv.8.name=8安能源转换器（UV）
-gregtech.machine.energy_converter.uv.16.name=16安能源转换器（UV）
-gregtech.machine.energy_converter.uhv.1.name=1安能源转换器（UHV）
-gregtech.machine.energy_converter.uhv.4.name=4安能源转换器（UHV）
-gregtech.machine.energy_converter.uhv.8.name=8安能源转换器（UHV）
-gregtech.machine.energy_converter.uhv.16.name=16安能源转换器（UHV）
-gregtech.machine.energy_converter.uev.1.name=1安能源转换器（UEV）
-gregtech.machine.energy_converter.uev.4.name=4安能源转换器（UEV）
-gregtech.machine.energy_converter.uev.8.name=8安能源转换器（UEV）
-gregtech.machine.energy_converter.uev.16.name=16安能源转换器（UEV）
-gregtech.machine.energy_converter.uiv.1.name=1安能源转换器（UIV）
-gregtech.machine.energy_converter.uiv.4.name=4安能源转换器（UIV）
-gregtech.machine.energy_converter.uiv.8.name=8安能源转换器（UIV）
-gregtech.machine.energy_converter.uiv.16.name=16安能源转换器（UIV）
-gregtech.machine.energy_converter.uxv.1.name=1安能源转换器（UXV）
-gregtech.machine.energy_converter.uxv.4.name=4安能源转换器（UXV）
-gregtech.machine.energy_converter.uxv.8.name=8安能源转换器（UXV）
-gregtech.machine.energy_converter.uxv.16.name=16安能源转换器（UXV）
-gregtech.machine.energy_converter.opv.1.name=1安能源转换器（OpV）
-gregtech.machine.energy_converter.opv.4.name=4安能源转换器（OpV）
-gregtech.machine.energy_converter.opv.8.name=8安能源转换器（OpV）
-gregtech.machine.energy_converter.opv.16.name=16安能源转换器（OpV）
-gregtech.machine.energy_converter.max.1.name=1安能源转换器（MAX）
-gregtech.machine.energy_converter.max.4.name=4安能源转换器（MAX）
-gregtech.machine.energy_converter.max.8.name=8安能源转换器（MAX）
-gregtech.machine.energy_converter.max.16.name=16安能源转换器（MAX）
+gregtech.machine.energy_converter.ulv.1.name=1安能源转换器（§8ULV§r）
+gregtech.machine.energy_converter.ulv.4.name=4安能源转换器（§8ULV§r）
+gregtech.machine.energy_converter.ulv.8.name=8安能源转换器（§8ULV§r）
+gregtech.machine.energy_converter.ulv.16.name=16安能源转换器（§8ULV§r）
+gregtech.machine.energy_converter.lv.1.name=1安能源转换器（§7LV§r）
+gregtech.machine.energy_converter.lv.4.name=4安能源转换器（§7LV§r）
+gregtech.machine.energy_converter.lv.8.name=8安安能源转换器（§7LV§r）
+gregtech.machine.energy_converter.lv.16.name=16安安能源转换器（§7LV§r）
+gregtech.machine.energy_converter.mv.1.name=1安能源转换器（§bMV§r）
+gregtech.machine.energy_converter.mv.4.name=4安能源转换器（§bMV§r）
+gregtech.machine.energy_converter.mv.8.name=8安能源转换器（§bMV§r）
+gregtech.machine.energy_converter.mv.16.name=16安能源转换器（§bMV§r）
+gregtech.machine.energy_converter.hv.1.name=1安能源转换器（§6HV§r）
+gregtech.machine.energy_converter.hv.4.name=4安能源转换器（§6HV§r）
+gregtech.machine.energy_converter.hv.8.name=8安能源转换器（§6HV§r）
+gregtech.machine.energy_converter.hv.16.name=16安能源转换器（§6HV§r）
+gregtech.machine.energy_converter.ev.1.name=1安能源转换器（§5EV§r）
+gregtech.machine.energy_converter.ev.4.name=4安能源转换器（§5EV§r）
+gregtech.machine.energy_converter.ev.8.name=8安能源转换器（§5EV§r）
+gregtech.machine.energy_converter.ev.16.name=16安能源转换器（§5EV§r）
+gregtech.machine.energy_converter.iv.1.name=1安能源转换器（§1IV§r）
+gregtech.machine.energy_converter.iv.4.name=4安能源转换器（§1IV§r）
+gregtech.machine.energy_converter.iv.8.name=8安能源转换器（§1IV§r）
+gregtech.machine.energy_converter.iv.16.name=16安能源转换器（§1IV§r）
+gregtech.machine.energy_converter.luv.1.name=1安能源转换器（§dLuV§r）
+gregtech.machine.energy_converter.luv.4.name=4安能源转换器（§dLuV§r）
+gregtech.machine.energy_converter.luv.8.name=8安能源转换器（§dLuV§r）
+gregtech.machine.energy_converter.luv.16.name=16安能源转换器（§dLuV§r）
+gregtech.machine.energy_converter.zpm.1.name=1安能源转换器（§cZPM§r）
+gregtech.machine.energy_converter.zpm.4.name=4安能源转换器（§cZPM§r）
+gregtech.machine.energy_converter.zpm.8.name=8安能源转换器（§cZPM§r）
+gregtech.machine.energy_converter.zpm.16.name=16安能源转换器（§cZPM§r）
+gregtech.machine.energy_converter.uv.1.name=1安能源转换器（§3UV§r）
+gregtech.machine.energy_converter.uv.4.name=4安能源转换器（§3UV§r）
+gregtech.machine.energy_converter.uv.8.name=8安能源转换器（§3UV§r）
+gregtech.machine.energy_converter.uv.16.name=16安能源转换器（§3UV§r）
+gregtech.machine.energy_converter.uhv.1.name=1安能源转换器（§4UHV§r）
+gregtech.machine.energy_converter.uhv.4.name=4安能源转换器（§4UHV§r）
+gregtech.machine.energy_converter.uhv.8.name=8安能源转换器（§4UHV§r）
+gregtech.machine.energy_converter.uhv.16.name=16安能源转换器（§4UHV§r）
+gregtech.machine.energy_converter.uev.1.name=1安能源转换器（§aUEV§r）
+gregtech.machine.energy_converter.uev.4.name=4安能源转换器（§aUEV§r）
+gregtech.machine.energy_converter.uev.8.name=8安能源转换器（§aUEV§r）
+gregtech.machine.energy_converter.uev.16.name=16安能源转换器（§aUEV§r）
+gregtech.machine.energy_converter.uiv.1.name=1安能源转换器（§2UIV§r）
+gregtech.machine.energy_converter.uiv.4.name=4安能源转换器（§2UIV§r）
+gregtech.machine.energy_converter.uiv.8.name=8安能源转换器（§2UIV§r）
+gregtech.machine.energy_converter.uiv.16.name=16安能源转换器（§2UIV§r）
+gregtech.machine.energy_converter.uxv.1.name=1安能源转换器（§eUXV§r）
+gregtech.machine.energy_converter.uxv.4.name=4安能源转换器（§eUXV§r）
+gregtech.machine.energy_converter.uxv.8.name=8安能源转换器（§eUXV§r）
+gregtech.machine.energy_converter.uxv.16.name=16安能源转换器（§eUXV§r）
+gregtech.machine.energy_converter.opv.1.name=1安能源转换器（§9OpV§r）
+gregtech.machine.energy_converter.opv.4.name=4安能源转换器（§9OpV§r）
+gregtech.machine.energy_converter.opv.8.name=8安能源转换器（§9OpV§r）
+gregtech.machine.energy_converter.opv.16.name=16安能源转换器（§9OpV§r）
+gregtech.machine.energy_converter.max.1.name=1安能源转换器（§c§lMAX§r）
+gregtech.machine.energy_converter.max.4.name=4安能源转换器（§c§lMAX§r）
+gregtech.machine.energy_converter.max.8.name=8安能源转换器（§c§lMAX§r）
+gregtech.machine.energy_converter.max.16.name=16安能源转换器（§c§lMAX§r）
 
 ##  Energy hatches
-gregtech.machine.energy_hatch.input.ulv.name=能源仓（ULV）
-gregtech.machine.energy_hatch.input.lv.name=能源仓（LV）
-gregtech.machine.energy_hatch.input.mv.name=能源仓（MV）
-gregtech.machine.energy_hatch.input.hv.name=能源仓（HV）
-gregtech.machine.energy_hatch.input.ev.name=能源仓（EV）
-gregtech.machine.energy_hatch.input_4a.ev.name=4安能源仓（EV）
-gregtech.machine.energy_hatch.input.iv.name=能源仓（IV）
-gregtech.machine.energy_hatch.input_4a.iv.name=4安能源仓（IV）
-gregtech.machine.energy_hatch.input_16a.iv.name=16安能源仓（IV）
-gregtech.machine.energy_hatch.input.luv.name=能源仓（LuV）
-gregtech.machine.energy_hatch.input_4a.luv.name=4安能源仓（LuV）
-gregtech.machine.energy_hatch.input_16a.luv.name=16安能源仓（LuV）
-gregtech.machine.energy_hatch.input.zpm.name=能源仓（ZPM）
-gregtech.machine.energy_hatch.input_4a.zpm.name=4安能源仓（ZPM）
-gregtech.machine.energy_hatch.input_16a.zpm.name=16安能源仓（ZPM）
-gregtech.machine.energy_hatch.input.uv.name=能源仓（UV）
-gregtech.machine.energy_hatch.input_4a.uv.name=4安能源仓（UV）
-gregtech.machine.energy_hatch.input_16a.uv.name=16安能源仓（UV）
-gregtech.machine.energy_hatch.input.uhv.name=能源仓（UHV）
-gregtech.machine.energy_hatch.input_4a.uhv.name=4安能源仓（UHV）
-gregtech.machine.energy_hatch.input_16a.uhv.name=16安能源仓（UHV）
-gregtech.machine.energy_hatch.input.uev.name=能源仓（UEV）
-gregtech.machine.energy_hatch.input.uiv.name=能源仓（UIV）
-gregtech.machine.energy_hatch.input.uxv.name=能源仓（UXV）
-gregtech.machine.energy_hatch.input.opv.name=能源仓（OpV）
-gregtech.machine.energy_hatch.input.max.name=能源仓（MAX）
+gregtech.machine.energy_hatch.input.ulv.name=能源仓（§8ULV§r）
+gregtech.machine.energy_hatch.input.lv.name=能源仓（§7LV§r）
+gregtech.machine.energy_hatch.input.mv.name=能源仓（§bMV§r）
+gregtech.machine.energy_hatch.input.hv.name=能源仓（§6HV§r）
+gregtech.machine.energy_hatch.input.ev.name=能源仓（§5EV§r）
+gregtech.machine.energy_hatch.input_4a.ev.name=4安能源仓（§5EV§r）
+gregtech.machine.energy_hatch.input.iv.name=能源仓（§1IV§r）
+gregtech.machine.energy_hatch.input_4a.iv.name=4安能源仓（§1IV§r）
+gregtech.machine.energy_hatch.input_16a.iv.name=16安能源仓（§1IV§r）
+gregtech.machine.energy_hatch.input.luv.name=能源仓（§dLuV§r）
+gregtech.machine.energy_hatch.input_4a.luv.name=4安能源仓（§dLuV§r）
+gregtech.machine.energy_hatch.input_16a.luv.name=16安能源仓（§dLuV§r）
+gregtech.machine.energy_hatch.input.zpm.name=能源仓（§cZPM§r）
+gregtech.machine.energy_hatch.input_4a.zpm.name=4安能源仓（§cZPM§r）
+gregtech.machine.energy_hatch.input_16a.zpm.name=16安能源仓（§cZPM§r）
+gregtech.machine.energy_hatch.input.uv.name=能源仓（§3UV§r）
+gregtech.machine.energy_hatch.input_4a.uv.name=4安能源仓（§3UV§r）
+gregtech.machine.energy_hatch.input_16a.uv.name=16安能源仓（§3UV§r）
+gregtech.machine.energy_hatch.input.uhv.name=能源仓（§4UHV§r）
+gregtech.machine.energy_hatch.input_4a.uhv.name=4安能源仓（§4UHV§r）
+gregtech.machine.energy_hatch.input_16a.uhv.name=16安能源仓（§4UHV§r）
+gregtech.machine.energy_hatch.input.uev.name=能源仓（§aUEV§r）
+gregtech.machine.energy_hatch.input.uiv.name=能源仓（§2UIV§r）
+gregtech.machine.energy_hatch.input.uxv.name=能源仓（§eUXV§r）
+gregtech.machine.energy_hatch.input.opv.name=能源仓（§9OpV§r）
+gregtech.machine.energy_hatch.input.max.name=能源仓（§c§lMAX§r）
 
-##  Energy hatches for Power substation
-gregtech.machine.substation_hatch.input_64a.iv.name=64安变电能源仓（IV）
-gregtech.machine.substation_hatch.input_64a.luv.name=64安变电能源仓（LuV）
-gregtech.machine.substation_hatch.input_64a.zpm.name=64安变电能源仓（ZPM）
-gregtech.machine.substation_hatch.input_64a.uv.name=64安变电能源仓（UV）
-gregtech.machine.substation_hatch.input_64a.uhv.name=64安变电能源仓（UHV）
+gregtech.machine.substation_hatch.input_64a.iv.name=64安变电能源仓（§1IV§r）
+gregtech.machine.substation_hatch.input_64a.luv.name=64安变电能源仓（§dLuV§r）
+gregtech.machine.substation_hatch.input_64a.zpm.name=64安变电能源仓（§cZPM§r）
+gregtech.machine.substation_hatch.input_64a.uv.name=64安变电能源仓（§3UV§r）
+gregtech.machine.substation_hatch.input_64a.uhv.name=64安变电能源仓（§4UHV§r）
 
-##  Fusion reactors
 gregtech.machine.fusion_reactor.luv.name=核聚变反应堆控制电脑Mk I
 gregtech.machine.fusion_reactor.zpm.name=核聚变反应堆控制电脑Mk II
 gregtech.machine.fusion_reactor.uv.name=核聚变反应堆控制电脑Mk III
@@ -399,13 +1072,10 @@ tile.fusion_casing.fusion_casing.name=聚变机器外壳Mk I
 tile.fusion_casing.fusion_casing_mk2.name=聚变机器外壳Mk II
 tile.fusion_casing.fusion_casing_mk3.name=聚变机器外壳Mk III
 
-##  Glasses
 tile.transparent_casing.tempered_glass.name=强化玻璃
 
-##  Materials
 gregtech.material.reinforced_epoxy_resin=纤维强化环氧树脂片
 
-##  ME hatches
 gregtech.machine.me_export_fluid_hatch.name=ME输出仓
 gregtech.machine.me_export_item_bus.name=ME输出总线
 gregtech.machine.me_import_fluid_hatch.name=ME输入仓
@@ -415,9 +1085,6 @@ gregtech.machine.me.item_export.tooltip=将物品直接存储到ME网络中。
 gregtech.machine.me.fluid_import.tooltip=自动从ME网络获取流体。
 gregtech.machine.me.item_import.tooltip=自动从ME网络获取物品。
 
-##  Multiblocks
-
-###  Active transformer
 gregtech.machine.active_transformer.name=有源变压器
 gregtech.machine.active_transformer.tooltip1=变形金刚：伪装的激光
 gregtech.machine.active_transformer.tooltip2=可以将任意数量的能量 §f输入§7 整合为任意数量的能量 §f输出§7。
@@ -425,7 +1092,6 @@ gregtech.machine.active_transformer.tooltip3=当你使用激光进行能量传�
 gregtech.machine.active_transformer.tooltip3.5=
 gregtech.multiblock.active_transformer.description=有源变压器是一种可以容纳任意数量与能量等级的多方块变压器，并且可以使用任意数量与能量等级的动力仓进行能量输出。有源变压器容许使用激光仓进行能量传输，这种长距离能量传输没有任何线损，但激光传导线缆必须位于一条直线上，否则不能传递能量。
 
-###  Data bank
 gregtech.machine.data_bank.name=数据库
 gregtech.machine.data_bank.tooltip.1=你的个人网络存储器
 gregtech.machine.data_bank.tooltip.2=大容量数据存储，使用光缆传输。
@@ -434,7 +1100,6 @@ gregtech.machine.data_bank.tooltip.4=每个数据仓耗能为 §f%s EU/t§7 。
 gregtech.machine.data_bank.tooltip.5=每个已连接的数据仓耗能为 §f%s EU/t§7 。
 gregtech.multiblock.data_bank.description=数据库是一个用于在多个装配线间分享研究数据的多方块结构。此外，它使得装配线能够读取数据模块中包括的极复杂的研究数据。
 
-###  Hatches of multiblocks
 gregtech.machine.data_access_hatch.name=数据访问仓
 gregtech.machine.data_access_hatch.tooltip.1=令多方块结构得以访问数据
 gregtech.machine.data_access_hatch.tooltip.2=存在 §a%s§7 个槽位用于容纳数据容器（例如闪存） 
@@ -451,7 +1116,6 @@ gregtech.machine.computation_hatch.receiver.tooltip=为多方块结构输入算�
 gregtech.machine.research_station.object_holder.name=对象支托
 gregtech.machine.research_station.object_holder.tooltip=先进的研究站保持机器
 
-###  High performance computing array (HPCA)
 gregtech.machine.high_performance_computing_array.name=高性能计算阵列
 gregtech.machine.high_performance_computing_array.tooltip.1=只是普通的超级计算机
 gregtech.machine.high_performance_computing_array.tooltip.2=用于生产 §f算力§7 （同时会产生热量）。
@@ -469,11 +1133,6 @@ gregtech.machine.hpca.component_type.computation_cooling=§c最多需要： §f%
 gregtech.machine.hpca.component_type.bridge=允许 §fHPCA§7 与 §f网络交换机§7 连接
 gregtech.machine.hpca.component_type.damaged=HPCA过热可能会损坏！
 
-###  Items for multiblocks
-metaitem.tool.dataorb.name=数据球
-metaitem.tool.dataorb.tooltip=复杂数据存储
-metaitem.tool.datamodule.name=数据模块
-metaitem.tool.datamodule.tooltip=超复杂数据存储/n§c只能用数据库读取
 metaitem.tool.multiblock_builder.name=多方块构建器
 metaitem.tool.multiblock_builder.tooltip=检查与建造你的多方块结构！
 metaitem.tool.multiblock_builder.tooltip2=shift+右键单击多方块结构控制器以自动构建
@@ -514,14 +1173,12 @@ tile.battery_block.lapotronic_uv.name=兰波顿电容（UV）
 tile.battery_block.ultimate_uhv.name=兰波顿电容（UHV）
 tile.battery_block.tooltip_empty=用于填充兰波顿电容库中的空间
 
-###  Network switch
 gregtech.machine.network_switch.name=网络交换机
 gregtech.machine.network_switch.tooltip.1=以太网集线器
 gregtech.machine.network_switch.tooltip.2=用于路由与分发 §f算力§7。
 gregtech.machine.network_switch.tooltip.3=可以将任意数量的算力 §f靶§7 合并为任意数量的算力 §f源§7。
 gregtech.multiblock.network_switch.description=网络交换机是一种用于将多个算力源分发到多个算力靶的多方块结构，其中可以有任何数量的算力数据源仓或靶仓。对于需要更高算力的研究数据配方，网络交换机的存在是必要的，这是因为研究站只接受一个算力数据靶仓。当与HPCA连接时，HPCA必须具有桥接组件才可以令网络交换机接收其算力。
 
-###  Power substation
 gregtech.machine.power_substation.name=兰波顿电容库
 gregtech.machine.power_substation.tooltip1=集中电网的核心
 gregtech.machine.power_substation.tooltip2=所有 §f电容§7 不需要保持同一电压等级。
@@ -530,7 +1187,6 @@ gregtech.machine.power_substation.tooltip4=每 §f24 小时§7损失相当于总
 gregtech.machine.power_substation.tooltip5=每个电容上的损失上限为 §f%,d EU/t§7。 
 gregtech.multiblock.power_substation.description=兰波顿电容库是一个用于储存大量能量的多方块结构，它最多可以容纳18层电容，每层都必须填充完整，这意味着你可以用空电容来填充空间。
 
-###  Research station
 gregtech.machine.research_station.name=研究站
 gregtech.machine.research_station.tooltip.1=不仅仅是一个多方块扫描器
 gregtech.machine.research_station.tooltip.2=用于扫描 §f数据球§7 或 §f数据模块§7。
@@ -539,7 +1195,6 @@ gregtech.multiblock.research_station.description=研究站是一个用于研究�
 
 recipemap.research_station.name=研究站
 
-##  Pipes
 tile.optical_pipe_normal.name=光缆
 tile.optical_pipe_normal.tooltip1=传递 §f算力§7 或 §f研究数据§7
 tile.laser_pipe_normal.name=激光传导线缆
@@ -553,53 +1208,48 @@ gregtech.machine.endpoint.tooltip.3=只有管道端点需要 §f区块加载§7�
 tile.long_distance_item_pipeline.name=长距离物品管道
 tile.long_distance_fluid_pipeline.name=长距离流体管道
 
-
-##  Steam machines
-gregtech.machine.steam_grinder.name=大型蒸汽研磨机
-
-##  Voltage transformers
-gregtech.machine.transformer.ulv.name=变压器（ULV）
-gregtech.machine.transformer.hi_amp.ulv.name=高电流变压器（ULV）
-gregtech.machine.transformer.adjustable.ulv.name=可调变压器（ULV）
-gregtech.machine.transformer.lv.name=变压器（LV）
-gregtech.machine.transformer.hi_amp.lv.name=高电流变压器（LV）
-gregtech.machine.transformer.adjustable.lv.name=可调变压器（LV）
-gregtech.machine.transformer.mv.name=变压器（MV）
-gregtech.machine.transformer.hi_amp.mv.name=高电流变压器（MV）
-gregtech.machine.transformer.adjustable.mv.name=可调变压器（MV）
-gregtech.machine.transformer.hv.name=变压器（HV）
-gregtech.machine.transformer.hi_amp.hv.name=高电流变压器（HV）
-gregtech.machine.transformer.adjustable.hv.name=可调变压器（HV）
-gregtech.machine.transformer.ev.name=变压器（EV）
-gregtech.machine.transformer.hi_amp.ev.name=高电流变压器（EV）
-gregtech.machine.transformer.adjustable.ev.name=可调变压器（EV）
-gregtech.machine.transformer.iv.name=变压器（IV）
-gregtech.machine.transformer.hi_amp.iv.name=高电流变压器（IV）
-gregtech.machine.transformer.adjustable.iv.name=可调变压器（IV）
-gregtech.machine.transformer.luv.name=变压器（LuV）
-gregtech.machine.transformer.hi_amp.luv.name=高电流变压器（LuV）
-gregtech.machine.transformer.adjustable.luv.name=可调变压器（LuV）
-gregtech.machine.transformer.zpm.name=变压器（ZPM）
-gregtech.machine.transformer.hi_amp.zpm.name=高电流变压器（ZPM）
-gregtech.machine.transformer.adjustable.zpm.name=可调变压器（ZPM）
-gregtech.machine.transformer.uv.name=变压器（UV）
-gregtech.machine.transformer.hi_amp.uv.name=高电流变压器（UV）
-gregtech.machine.transformer.adjustable.uv.name=可调变压器（UV）
-gregtech.machine.transformer.uhv.name=变压器（UHV）
-gregtech.machine.transformer.hi_amp.uhv.name=高电流变压器（UHV）
-gregtech.machine.transformer.adjustable.uhv.name=可调变压器（UHV）
-gregtech.machine.transformer.uev.name=变压器（UEV）
-gregtech.machine.transformer.hi_amp.uev.name=高电流变压器（UEV）
-gregtech.machine.transformer.adjustable.uev.name=可调变压器（UEV）
-gregtech.machine.transformer.uiv.name=变压器（UIV）
-gregtech.machine.transformer.hi_amp.uiv.name=高电流变压器（UIV）
-gregtech.machine.transformer.adjustable.uiv.name=可调变压器（UIV）
-gregtech.machine.transformer.uxv.name=变压器（UXV）
-gregtech.machine.transformer.hi_amp.uxv.name=高电流变压器（UXV）
-gregtech.machine.transformer.adjustable.uxv.name=可调变压器（UXV）
-gregtech.machine.transformer.opv.name=变压器（OpV）
-gregtech.machine.transformer.hi_amp.opv.name=高电流变压器（OpV）
-gregtech.machine.transformer.adjustable.opv.name=可调变压器（OpV）
+gregtech.machine.transformer.ulv.name=变压器（§8ULV§r）
+gregtech.machine.transformer.hi_amp.ulv.name=高电流变压器（§8ULV§r）
+gregtech.machine.transformer.adjustable.ulv.name=可调变压器（§8ULV§r）
+gregtech.machine.transformer.lv.name=变压器（§7LV§r）
+gregtech.machine.transformer.hi_amp.lv.name=高电流变压器（§7LV§r）
+gregtech.machine.transformer.adjustable.lv.name=可调变压器（§7LV§r）
+gregtech.machine.transformer.mv.name=变压器（§bMV§r）
+gregtech.machine.transformer.hi_amp.mv.name=高电流变压器（§bMV§r）
+gregtech.machine.transformer.adjustable.mv.name=可调变压器（§bMV§r）
+gregtech.machine.transformer.hv.name=变压器（§6HV§r）
+gregtech.machine.transformer.hi_amp.hv.name=高电流变压器（§6HV§r）
+gregtech.machine.transformer.adjustable.hv.name=可调变压器（§6HV§r）
+gregtech.machine.transformer.ev.name=变压器（§5EV§r）
+gregtech.machine.transformer.hi_amp.ev.name=高电流变压器（§5EV§r）
+gregtech.machine.transformer.adjustable.ev.name=可调变压器（§5EV§r）
+gregtech.machine.transformer.iv.name=变压器（§1IV§r）
+gregtech.machine.transformer.hi_amp.iv.name=高电流变压器（§1IV§r）
+gregtech.machine.transformer.adjustable.iv.name=可调变压器（§1IV§r）
+gregtech.machine.transformer.luv.name=变压器（§dLuV§r）
+gregtech.machine.transformer.hi_amp.luv.name=高电流变压器（§dLuV§r）
+gregtech.machine.transformer.adjustable.luv.name=可调变压器（§dLuV§r）
+gregtech.machine.transformer.zpm.name=变压器（§cZPM§r）
+gregtech.machine.transformer.hi_amp.zpm.name=高电流变压器（§cZPM§r）
+gregtech.machine.transformer.adjustable.zpm.name=可调变压器（§cZPM§r）
+gregtech.machine.transformer.uv.name=变压器（§3UV§r）
+gregtech.machine.transformer.hi_amp.uv.name=高电流变压器（§3UV§r）
+gregtech.machine.transformer.adjustable.uv.name=可调变压器（§3UV§r）
+gregtech.machine.transformer.uhv.name=变压器（§4UHV§r）
+gregtech.machine.transformer.hi_amp.uhv.name=高电流变压器（§4UHV§r）
+gregtech.machine.transformer.adjustable.uhv.name=可调变压器（§4UHV§r）
+gregtech.machine.transformer.uev.name=变压器（§aUEV§r）
+gregtech.machine.transformer.hi_amp.uev.name=高电流变压器（§aUEV§r）
+gregtech.machine.transformer.adjustable.uev.name=可调变压器（§aUEV§r）
+gregtech.machine.transformer.uiv.name=变压器（§2UIV§r）
+gregtech.machine.transformer.hi_amp.uiv.name=高电流变压器（§2UIV§r）
+gregtech.machine.transformer.adjustable.uiv.name=可调变压器（§2UIV§r）
+gregtech.machine.transformer.uxv.name=变压器（§eUXV§r）
+gregtech.machine.transformer.hi_amp.uxv.name=高电流变压器（§eUXV§r）
+gregtech.machine.transformer.adjustable.uxv.name=可调变压器（§eUXV§r）
+gregtech.machine.transformer.opv.name=变压器（§9OpV§r）
+gregtech.machine.transformer.hi_amp.opv.name=高电流变压器（§9OpV§r）
+gregtech.machine.transformer.adjustable.opv.name=可调变压器（§9OpV§r）
 
 gregtech.machine.transformer.higher_amp.description=转换能量的电压等级，但是电流更高！
 
@@ -612,7 +1262,6 @@ gregtech.material.vibranium=振金
 gregtech.material.adamantium=精金
 gregtech.material.taranium=塔兰金属
 
-##  First Degree Materials
 gregtech.material.lanthanum_oxide=氧化镧
 gregtech.material.praseodymium_oxide=氧化镨
 gregtech.material.neodymium_oxide=氧化钕
@@ -748,7 +1397,6 @@ gregtech.material.rubidium_chlorostannate=六氯合锡酸铷
 gregtech.material.caesium_chlorostannate=六氯合锡酸铯
 gregtech.material.hra_magnesium=高反应活化镁
 
-##  Second Degree Materials
 gregtech.material.la_pr_nd_ce_oxides_solution=镧-镨-钕-铈氧化物溶液
 gregtech.material.sc_eu_gd_sm_oxides_solution=钪-铕-钆-钐氧化物溶液
 gregtech.material.y_tb_dy_ho_oxides_solution=钇-铽-镝-钬氧化物溶液
@@ -778,11 +1426,9 @@ gregtech.material.bismuth_ferrite=铁酸铋
 gregtech.material.cgt_magnetic=磁化铬锗碲化物
 gregtech.material.heavy_alkali_chloride_solution=重碱氯化物溶液
 
-##  Third Degree Materials
 gregtech.material.zinc_rich_sphalerite=富锌闪锌矿
 gregtech.material.alumina=三氧化二铝
 
-##  Organic Chemistry Materials
 gregtech.material.tetrahydrofuran=四氢呋喃
 gregtech.material.ethylhexanol=2-乙基己醇
 gregtech.material.diethylhexyl_phosphoric_acid=二-(2-乙基己基)磷酸
@@ -856,7 +1502,6 @@ gregtech.material.polystyrene_sulfonate=聚苯乙烯磺酸（PSS）
 gregtech.material.pedot_pss=PEDOT:PSS
 gregtech.material.pedot_tma=PEDOT-TMA
 
-##  Unknown Composition Materials
 gregtech.material.rare_earth_hydroxides_solution=稀土氢氧化物溶液
 gregtech.material.rare_earth_chlorides_solution=稀土氯化物溶液
 gregtech.material.leached_turpentine=浸出松香
@@ -909,7 +1554,7 @@ gregtech.material.light_hyper_fuel=轻超能燃料
 gregtech.material.medium_hyper_fuel=超能燃料
 gregtech.material.heavy_hyper_fuel=重超能燃料
 
-#  Modpack additions
+#  GregTech Lite Additions
 item.material.oreprefix.milled=碾磨%s粉
 
 gregtech.material.pulsating_iron=脉冲铁
