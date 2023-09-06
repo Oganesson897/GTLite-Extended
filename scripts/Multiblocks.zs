@@ -4799,7 +4799,7 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:machine:32021>])
     .EUt(33554432)
     .duration(300000)
-    .buildAndRegister();
+    .buildAndRegister();                       
 
 // --------------------------------------------------------------------------------------------------------------------------------
 var space_elevator = Builder.start("space_elevator")
@@ -6396,4 +6396,1332 @@ var space_elevator = Builder.start("space_elevator")
             .build()
     )
     .withBaseTexture(<blockstate:contenttweaker:space_elevator_casing>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:993>,
+             <gregtech:machine:32002> * 4,
+             <contenttweaker:control_circuit_uv> * 8,
+             <ore:circuitUv> * 4,
+             <ore:plateDoubleNaquadria> * 2,
+             <ore:plateDoubleNaquadahAlloy> * 4,
+             <ore:stickLongYttriumBariumCuprate> * 4,
+             <ore:springYttriumBariumCuprate> * 6,
+             <ore:springSmallYttriumBariumCuprate> * 3,
+             <ore:wireFineAmericium> * 64,
+             <ore:wireFineAmericium> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 5760,
+                  <liquid:lubricant> * 4000,
+                  <liquid:polyetheretherketone> * 576])
+    .outputs([<gregtech:machine:32022>])
+    .EUt(524288)
+    .duration(16000)
+    .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var compressed_fusion_reactor_mk1 = Builder.start("compressed_fusion_reactor_mk1")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
+            .aisle(
+                "                                               ",
+                "                                               ",
+                "                    FCCCCCF                    ",
+                "                    FCI~ICF                    ",
+                "                    FCCCCCF                    ",
+                "                                               ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ",
+                "                                               ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                CCCCC     CCCCC                ",
+                "                CCCHHHHHHHHHCCC                ",
+                "                CCCCC     CCCCC                ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                    FCIBICF                    ",
+                "                CCCCC     CCCCC                ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "              CCHHHHHHHHHHHHHHHCC              ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "                CCCCC     CCCCC                ",
+                "                    FCIBICF                    ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "              CCCCCCC     CCCCCCC              ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "            CCHHHHHHHHHHHHHHHHHHHCC            ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "              CCCCCCC     CCCCCCC              ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                                               ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "           CHHHHHHHCC     CCHHHHHHHC           ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "           CCCCC               CCCCC           ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "          CHHHHHCCC FCIBICF CCCHHHHHC          ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "           CCCCC               CCCCC           ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "          CCCC                   CCCC          ",
+                "         CCHCCCC               CCCCHCC         ",
+                "         CHHHHCC               CCHHHHC         ",
+                "         CCHCCCC               CCCCHCC         ",
+                "          CCCC                   CCCC          ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "         CCC                       CCC         ",
+                "        CCHCCC                   CCCHCC        ",
+                "        CHHHCC                   CCHHHC        ",
+                "        CCHCCC                   CCCHCC        ",
+                "         CCC                       CCC         ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "        CCC                         CCC        ",
+                "       CCHCE                       ECHCC       ",
+                "       CHHHC                       CHHHC       ",
+                "       CCHCE                       ECHCC       ",
+                "        CCC                         CCC        ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "       CCC                           CCC       ",
+                "      ECHCC                         CCHCE      ",
+                "      CHHHC                         CHHHC      ",
+                "      ECHCC                         CCHCE      ",
+                "       CCC                           CCC       ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "      CCC                             CCC      ",
+                "     CCHCE                           ECHCC     ",
+                "     CHHHC                           CHHHC     ",
+                "     CCHCE                           ECHCC     ",
+                "      CCC                             CCC      ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "  CCC                                     CCC  ",
+                " CCHCC                                   CCHCC ",
+                " CHHHC                                   CHHHC ",
+                " CCHCC                                   CCHCC ",
+                "  CCC                                     CCC  ",
+                "                                               ")
+            .aisle(
+                "  FFF                                     FFF  ",
+                " FCCCF                                   FCCCF ",
+                "FCCHCCF                                 FCCHCCF",
+                "FCHHHCF                                 FCHHHCF",
+                "FCCHCCF                                 FCCHCCF",
+                " FCCCF                                   FCCCF ",
+                "  FFF                                     FFF  ")
+            .aisle(
+                "  CCC                                     CCC  ",
+                " C   C                                   C   C ",
+                "C  H  C                                 C  H  C",
+                "C HHH C                                 C HHH C",
+                "C  H  C                                 C  H  C",
+                " C   C                                   C   C ",
+                "  CCC                                     CCC  ")
+            .aisle(
+                "  CIC                                     CIC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "I HHH I                                 I HHH I",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CIC                                     CIC  ")
+            .aisle(
+                "  CBC                                     CBC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "B HHH B                                 B HHH B",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CBC                                     CBC  ")
+            .aisle(
+                "  CIC                                     CIC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "I HHH I                                 I HHH I",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CIC                                     CIC  ")
+            .aisle(
+                "  CCC                                     CCC  ",
+                " C   C                                   C   C ",
+                "C  H  C                                 C  H  C",
+                "C HHH C                                 C HHH C",
+                "C  H  C                                 C  H  C",
+                " C   C                                   C   C ",
+                "  CCC                                     CCC  ")
+            .aisle(
+                "  FFF                                     FFF  ",
+                " FCCCF                                   FCCCF ",
+                "FCCHCCF                                 FCCHCCF",
+                "FCHHHCF                                 FCHHHCF",
+                "FCCHCCF                                 FCCHCCF",
+                " FCCCF                                   FCCCF ",
+                "  FFF                                     FFF  ")
+            .aisle(
+                "                                               ",
+                "  CCC                                     CCC  ",
+                " CCHCC                                   CCHCC ",
+                " CHHHC                                   CHHHC ",
+                " CCHCC                                   CCHCC ",
+                "  CCC                                     CCC  ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "      CCC                             CCC      ",
+                "     CCHCE                           ECHCC     ",
+                "     CHHHC                           CHHHC     ",
+                "     CCHCE                           ECHCC     ",
+                "      CCC                             CCC      ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "       CCC                           CCC       ",
+                "      ECHCC                         CCHCE      ",
+                "      CHHHC                         CHHHC      ",
+                "      ECHCC                         CCHCE      ",
+                "       CCC                           CCC       ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "        CCC                         CCC        ",
+                "       CCHCE                       ECHCC       ",
+                "       CHHHC                       CHHHC       ",
+                "       CCHCE                       ECHCC       ",
+                "        CCC                         CCC        ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "         CCC                       CCC         ",
+                "        CCHCCC                   CCCHCC        ",
+                "        CHHHCC                   CCHHHC        ",
+                "        CCHCCC                   CCCHCC        ",
+                "         CCC                       CCC         ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "          CCCC                   CCCC          ",
+                "         CCHCCCC               CCCCHCC         ",
+                "         CHHHHCC               CCHHHHC         ",
+                "         CCHCCCC               CCCCHCC         ",
+                "          CCCC                   CCCC          ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "           CCCCC               CCCCC           ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "          CHHHHHCCC FCIBICF CCCHHHHHC          ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "           CCCCC               CCCCC           ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "           CHHHHHHHCC     CCHHHHHHHC           ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "                                               ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "              CCCCCCC     CCCCCCC              ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "            CCHHHHHHHHHHHHHHHHHHHCC            ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "              CCCCCCC     CCCCCCC              ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                    FCIBICF                    ",
+                "                CCCCC     CCCCC                ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "              CCHHHHHHHHHHHHHHHCC              ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "                CCCCC     CCCCC                ",
+                "                    FCIBICF                    ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                CCCCC     CCCCC                ",
+                "                CCCHHHHHHHHHCCC                ",
+                "                CCCCC     CCCCC                ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                                               ",
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "                                               ",
+                "                    FCCCCCF                    ",
+                "                    FCIBICF                    ",
+                "                    FCCCCCF                    ",
+                "                                               ",
+                "                                               ")
+            .where("~", controller.self())
+            .where("C", <metastate:gregtech:fusion_casing:2>)
+            .where("F", <metastate:gregtech:meta_block_frame_127:10>)
+            .where("I", <metastate:gregtech:fusion_casing:2>)
+            .where("H", <metastate:gregtech:fusion_casing:1>)
+            .where("B", <metastate:gregtech:transparent_casing:1>)
+            .where("E", CTPredicate.states(<metastate:gregtech:fusion_casing:2>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMaxGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("compressed_fusion_reactor_mk1")
+            .minFluidInputs(1)
+            .maxFluidInputs(2)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:1020> * 32,
+             <contenttweaker:control_circuit_uv> * 4,
+             <ore:plateTritanium> * 32,
+             <ore:circuitUhv> * 8,
+             <gcys:meta_item_1:356> * 16,
+             <gregtech:meta_item_1:209> * 4,
+             <ore:stickLongTritanium> * 8,
+             <ore:springYttriumBariumCuprate> * 4,
+             <ore:wireFineYttriumBariumCuprate> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 64000,
+                  <liquid:europium> * 1800,
+                  <liquid:polybenzimidazole> * 1200,
+                  <liquid:naquadah_alloy> * 800])
+    .outputs([<gregtech:machine:32023>])
+    .EUt(524288)
+    .duration(36000)
+    .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var compressed_fusion_reactor_mk2 = Builder.start("compressed_fusion_reactor_mk2")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
+            .aisle(
+                "                                               ",
+                "                                               ",
+                "                    FCCCCCF                    ",
+                "                    FCI~ICF                    ",
+                "                    FCCCCCF                    ",
+                "                                               ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ",
+                "                                               ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                CCCCC     CCCCC                ",
+                "                CCCHHHHHHHHHCCC                ",
+                "                CCCCC     CCCCC                ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                    FCIBICF                    ",
+                "                CCCCC     CCCCC                ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "              CCHHHHHHHHHHHHHHHCC              ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "                CCCCC     CCCCC                ",
+                "                    FCIBICF                    ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "              CCCCCCC     CCCCCCC              ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "            CCHHHHHHHHHHHHHHHHHHHCC            ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "              CCCCCCC     CCCCCCC              ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                                               ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "           CHHHHHHHCC     CCHHHHHHHC           ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "           CCCCC               CCCCC           ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "          CHHHHHCCC FCIBICF CCCHHHHHC          ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "           CCCCC               CCCCC           ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "          CCCC                   CCCC          ",
+                "         CCHCCCC               CCCCHCC         ",
+                "         CHHHHCC               CCHHHHC         ",
+                "         CCHCCCC               CCCCHCC         ",
+                "          CCCC                   CCCC          ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "         CCC                       CCC         ",
+                "        CCHCCC                   CCCHCC        ",
+                "        CHHHCC                   CCHHHC        ",
+                "        CCHCCC                   CCCHCC        ",
+                "         CCC                       CCC         ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "        CCC                         CCC        ",
+                "       CCHCE                       ECHCC       ",
+                "       CHHHC                       CHHHC       ",
+                "       CCHCE                       ECHCC       ",
+                "        CCC                         CCC        ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "       CCC                           CCC       ",
+                "      ECHCC                         CCHCE      ",
+                "      CHHHC                         CHHHC      ",
+                "      ECHCC                         CCHCE      ",
+                "       CCC                           CCC       ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "      CCC                             CCC      ",
+                "     CCHCE                           ECHCC     ",
+                "     CHHHC                           CHHHC     ",
+                "     CCHCE                           ECHCC     ",
+                "      CCC                             CCC      ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "  CCC                                     CCC  ",
+                " CCHCC                                   CCHCC ",
+                " CHHHC                                   CHHHC ",
+                " CCHCC                                   CCHCC ",
+                "  CCC                                     CCC  ",
+                "                                               ")
+            .aisle(
+                "  FFF                                     FFF  ",
+                " FCCCF                                   FCCCF ",
+                "FCCHCCF                                 FCCHCCF",
+                "FCHHHCF                                 FCHHHCF",
+                "FCCHCCF                                 FCCHCCF",
+                " FCCCF                                   FCCCF ",
+                "  FFF                                     FFF  ")
+            .aisle(
+                "  CCC                                     CCC  ",
+                " C   C                                   C   C ",
+                "C  H  C                                 C  H  C",
+                "C HHH C                                 C HHH C",
+                "C  H  C                                 C  H  C",
+                " C   C                                   C   C ",
+                "  CCC                                     CCC  ")
+            .aisle(
+                "  CIC                                     CIC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "I HHH I                                 I HHH I",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CIC                                     CIC  ")
+            .aisle(
+                "  CBC                                     CBC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "B HHH B                                 B HHH B",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CBC                                     CBC  ")
+            .aisle(
+                "  CIC                                     CIC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "I HHH I                                 I HHH I",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CIC                                     CIC  ")
+            .aisle(
+                "  CCC                                     CCC  ",
+                " C   C                                   C   C ",
+                "C  H  C                                 C  H  C",
+                "C HHH C                                 C HHH C",
+                "C  H  C                                 C  H  C",
+                " C   C                                   C   C ",
+                "  CCC                                     CCC  ")
+            .aisle(
+                "  FFF                                     FFF  ",
+                " FCCCF                                   FCCCF ",
+                "FCCHCCF                                 FCCHCCF",
+                "FCHHHCF                                 FCHHHCF",
+                "FCCHCCF                                 FCCHCCF",
+                " FCCCF                                   FCCCF ",
+                "  FFF                                     FFF  ")
+            .aisle(
+                "                                               ",
+                "  CCC                                     CCC  ",
+                " CCHCC                                   CCHCC ",
+                " CHHHC                                   CHHHC ",
+                " CCHCC                                   CCHCC ",
+                "  CCC                                     CCC  ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "      CCC                             CCC      ",
+                "     CCHCE                           ECHCC     ",
+                "     CHHHC                           CHHHC     ",
+                "     CCHCE                           ECHCC     ",
+                "      CCC                             CCC      ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "       CCC                           CCC       ",
+                "      ECHCC                         CCHCE      ",
+                "      CHHHC                         CHHHC      ",
+                "      ECHCC                         CCHCE      ",
+                "       CCC                           CCC       ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "        CCC                         CCC        ",
+                "       CCHCE                       ECHCC       ",
+                "       CHHHC                       CHHHC       ",
+                "       CCHCE                       ECHCC       ",
+                "        CCC                         CCC        ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "         CCC                       CCC         ",
+                "        CCHCCC                   CCCHCC        ",
+                "        CHHHCC                   CCHHHC        ",
+                "        CCHCCC                   CCCHCC        ",
+                "         CCC                       CCC         ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "          CCCC                   CCCC          ",
+                "         CCHCCCC               CCCCHCC         ",
+                "         CHHHHCC               CCHHHHC         ",
+                "         CCHCCCC               CCCCHCC         ",
+                "          CCCC                   CCCC          ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "           CCCCC               CCCCC           ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "          CHHHHHCCC FCIBICF CCCHHHHHC          ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "           CCCCC               CCCCC           ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "           CHHHHHHHCC     CCHHHHHHHC           ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "                                               ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "              CCCCCCC     CCCCCCC              ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "            CCHHHHHHHHHHHHHHHHHHHCC            ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "              CCCCCCC     CCCCCCC              ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                    FCIBICF                    ",
+                "                CCCCC     CCCCC                ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "              CCHHHHHHHHHHHHHHHCC              ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "                CCCCC     CCCCC                ",
+                "                    FCIBICF                    ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                CCCCC     CCCCC                ",
+                "                CCCHHHHHHHHHCCC                ",
+                "                CCCCC     CCCCC                ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                                               ",
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "                                               ",
+                "                    FCCCCCF                    ",
+                "                    FCIBICF                    ",
+                "                    FCCCCCF                    ",
+                "                                               ",
+                "                                               ")
+            .where("~", controller.self())
+            .where("C", <metastate:gregtech:fusion_casing:3>)
+            .where("F", <metastate:gregtech:meta_block_frame_8>)
+            .where("I", <metastate:gregtech:fusion_casing:3>)
+            .where("H", <metastate:gregtech:fusion_casing:1>)
+            .where("B", <metastate:gregtech:transparent_casing:1>)
+            .where("E", CTPredicate.states(<metastate:gregtech:fusion_casing:3>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMaxGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("compressed_fusion_reactor_mk2")
+            .minFluidInputs(1)
+            .maxFluidInputs(2)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:1021> * 32,
+             <contenttweaker:control_circuit_uv> * 8,
+             <ore:plateOrichalcum> * 32,
+             <ore:circuitUev> * 8,
+             <gcys:meta_item_1:357> * 16,
+             <gregtech:meta_item_1:210> * 4,
+             <ore:stickLongOrichalcum> * 8,
+             <ore:springEuropium> * 4,
+             <ore:wireFineEuropium> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 64000,
+                  <liquid:vibranium> * 1800,
+                  <liquid:polyetheretherketone> * 1200,
+                  <liquid:tritanium> * 800])
+    .outputs([<gregtech:machine:32024>])
+    .EUt(2097152)
+    .duration(36000)
+    .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var compressed_fusion_reactor_mk3 = Builder.start("compressed_fusion_reactor_mk3")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start(RelativeDirection.RIGHT, RelativeDirection.DOWN, RelativeDirection.FRONT)
+            .aisle(
+                "                                               ",
+                "                                               ",
+                "                    FCCCCCF                    ",
+                "                    FCI~ICF                    ",
+                "                    FCCCCCF                    ",
+                "                                               ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ",
+                "                                               ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                CCCCC     CCCCC                ",
+                "                CCCHHHHHHHHHCCC                ",
+                "                CCCCC     CCCCC                ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                    FCIBICF                    ",
+                "                CCCCC     CCCCC                ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "              CCHHHHHHHHHHHHHHHCC              ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "                CCCCC     CCCCC                ",
+                "                    FCIBICF                    ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "              CCCCCCC     CCCCCCC              ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "            CCHHHHHHHHHHHHHHHHHHHCC            ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "              CCCCCCC     CCCCCCC              ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                                               ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "           CHHHHHHHCC     CCHHHHHHHC           ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "           CCCCC               CCCCC           ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "          CHHHHHCCC FCIBICF CCCHHHHHC          ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "           CCCCC               CCCCC           ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "          CCCC                   CCCC          ",
+                "         CCHCCCC               CCCCHCC         ",
+                "         CHHHHCC               CCHHHHC         ",
+                "         CCHCCCC               CCCCHCC         ",
+                "          CCCC                   CCCC          ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "         CCC                       CCC         ",
+                "        CCHCCC                   CCCHCC        ",
+                "        CHHHCC                   CCHHHC        ",
+                "        CCHCCC                   CCCHCC        ",
+                "         CCC                       CCC         ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "        CCC                         CCC        ",
+                "       CCHCE                       ECHCC       ",
+                "       CHHHC                       CHHHC       ",
+                "       CCHCE                       ECHCC       ",
+                "        CCC                         CCC        ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "       CCC                           CCC       ",
+                "      ECHCC                         CCHCE      ",
+                "      CHHHC                         CHHHC      ",
+                "      ECHCC                         CCHCE      ",
+                "       CCC                           CCC       ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "      CCC                             CCC      ",
+                "     CCHCE                           ECHCC     ",
+                "     CHHHC                           CHHHC     ",
+                "     CCHCE                           ECHCC     ",
+                "      CCC                             CCC      ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "  CCC                                     CCC  ",
+                " CCHCC                                   CCHCC ",
+                " CHHHC                                   CHHHC ",
+                " CCHCC                                   CCHCC ",
+                "  CCC                                     CCC  ",
+                "                                               ")
+            .aisle(
+                "  FFF                                     FFF  ",
+                " FCCCF                                   FCCCF ",
+                "FCCHCCF                                 FCCHCCF",
+                "FCHHHCF                                 FCHHHCF",
+                "FCCHCCF                                 FCCHCCF",
+                " FCCCF                                   FCCCF ",
+                "  FFF                                     FFF  ")
+            .aisle(
+                "  CCC                                     CCC  ",
+                " C   C                                   C   C ",
+                "C  H  C                                 C  H  C",
+                "C HHH C                                 C HHH C",
+                "C  H  C                                 C  H  C",
+                " C   C                                   C   C ",
+                "  CCC                                     CCC  ")
+            .aisle(
+                "  CIC                                     CIC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "I HHH I                                 I HHH I",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CIC                                     CIC  ")
+            .aisle(
+                "  CBC                                     CBC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "B HHH B                                 B HHH B",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CBC                                     CBC  ")
+            .aisle(
+                "  CIC                                     CIC  ",
+                " B   B                                   B   B ",
+                "C  H  C                                 C  H  C",
+                "I HHH I                                 I HHH I",
+                "C  H  C                                 C  H  C",
+                " B   B                                   B   B ",
+                "  CIC                                     CIC  ")
+            .aisle(
+                "  CCC                                     CCC  ",
+                " C   C                                   C   C ",
+                "C  H  C                                 C  H  C",
+                "C HHH C                                 C HHH C",
+                "C  H  C                                 C  H  C",
+                " C   C                                   C   C ",
+                "  CCC                                     CCC  ")
+            .aisle(
+                "  FFF                                     FFF  ",
+                " FCCCF                                   FCCCF ",
+                "FCCHCCF                                 FCCHCCF",
+                "FCHHHCF                                 FCHHHCF",
+                "FCCHCCF                                 FCCHCCF",
+                " FCCCF                                   FCCCF ",
+                "  FFF                                     FFF  ")
+            .aisle(
+                "                                               ",
+                "  CCC                                     CCC  ",
+                " CCHCC                                   CCHCC ",
+                " CHHHC                                   CHHHC ",
+                " CCHCC                                   CCHCC ",
+                "  CCC                                     CCC  ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "   CCC                                   CCC   ",
+                "  CCHCC                                 CCHCC  ",
+                "  CHHHC                                 CHHHC  ",
+                "  CCHCC                                 CCHCC  ",
+                "   CCC                                   CCC   ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "    CCC                                 CCC    ",
+                "   CCHCC                               CCHCC   ",
+                "   CHHHC                               CHHHC   ",
+                "   CCHCC                               CCHCC   ",
+                "    CCC                                 CCC    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "     CCC                               CCC     ",
+                "    CCHCC                             CCHCC    ",
+                "    CHHHC                             CHHHC    ",
+                "    CCHCC                             CCHCC    ",
+                "     CCC                               CCC     ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "      CCC                             CCC      ",
+                "     CCHCE                           ECHCC     ",
+                "     CHHHC                           CHHHC     ",
+                "     CCHCE                           ECHCC     ",
+                "      CCC                             CCC      ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "       CCC                           CCC       ",
+                "      ECHCC                         CCHCE      ",
+                "      CHHHC                         CHHHC      ",
+                "      ECHCC                         CCHCE      ",
+                "       CCC                           CCC       ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "        CCC                         CCC        ",
+                "       CCHCE                       ECHCC       ",
+                "       CHHHC                       CHHHC       ",
+                "       CCHCE                       ECHCC       ",
+                "        CCC                         CCC        ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "         CCC                       CCC         ",
+                "        CCHCCC                   CCCHCC        ",
+                "        CHHHCC                   CCHHHC        ",
+                "        CCHCCC                   CCCHCC        ",
+                "         CCC                       CCC         ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "          CCCC                   CCCC          ",
+                "         CCHCCCC               CCCCHCC         ",
+                "         CHHHHCC               CCHHHHC         ",
+                "         CCHCCCC               CCCCHCC         ",
+                "          CCCC                   CCCC          ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "           CCCCC               CCCCC           ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "          CHHHHHCCC FCIBICF CCCHHHHHC          ",
+                "          ECHHCCCCC FCCCCCF CCCCCHHCE          ",
+                "           CCCCC               CCCCC           ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "           CHHHHHHHCC     CCHHHHHHHC           ",
+                "           CCCHHCCCCC     CCCCCHHCCC           ",
+                "            CCCCCCC FCBBBCF CCCCCCC            ",
+                "                                               ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "              CCCCCCC     CCCCCCC              ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "            CCHHHHHHHHHHHHHHHHHHHCC            ",
+                "            CCCCHHHCC     CCHHHCCCC            ",
+                "              CCCCCCC     CCCCCCC              ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                    FCIBICF                    ",
+                "                CCCCC     CCCCC                ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "              CCHHHHHHHHHHHHHHHCC              ",
+                "              CCCCCHHHHHHHHHCCCCC              ",
+                "                CCCCC     CCCCC                ",
+                "                    FCIBICF                    ")
+            .aisle(
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                CCCCC     CCCCC                ",
+                "                CCCHHHHHHHHHCCC                ",
+                "                CCCCC     CCCCC                ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ")
+            .aisle(
+                "                                               ",
+                "                    FCBBBCF                    ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                   CC     CC                   ",
+                "                    FCBBBCF                    ",
+                "                                               ")
+            .aisle(
+                "                                               ",
+                "                                               ",
+                "                    FCCCCCF                    ",
+                "                    FCIBICF                    ",
+                "                    FCCCCCF                    ",
+                "                                               ",
+                "                                               ")
+            .where("~", controller.self())
+            .where("C", <metastate:gregtech:fusion_casing:4>)
+            .where("F", <metastate:gregtech:meta_block_frame_193:15>)
+            .where("I", <metastate:gregtech:fusion_casing:4>)
+            .where("H", <metastate:gregtech:fusion_casing:1>)
+            .where("B", <metastate:gregtech:transparent_casing:1>)
+            .where("E", CTPredicate.states(<metastate:gregtech:fusion_casing:4>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMaxGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("compressed_fusion_reactor_mk3")
+            .minFluidInputs(1)
+            .maxFluidInputs(2)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:1022> * 32,
+             <contenttweaker:control_circuit_uv> * 16,
+             <ore:plateAdamantium> * 32,
+             <ore:circuitUiv> * 8,
+             <gcys:meta_item_1:358> * 16,
+             <gregtech:meta_item_1:211> * 4,
+             <ore:stickLongAdamantium> * 8,
+             <ore:springCarbonNanotube> * 4,
+             <ore:wireFineCarbonNanotube> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 64000,
+                  <liquid:mithril> * 1800,
+                  <liquid:zylon> * 1200,
+                  <liquid:sunnarium> * 800])
+    .outputs([<gregtech:machine:32025>])
+    .EUt(2097152)
+    .duration(36000)
     .buildAndRegister();

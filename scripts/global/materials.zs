@@ -35,7 +35,7 @@ rhodium_plated_palladium.addFlags(["generate_frame"]);
 ruthenium_trinium_americium_neutronate.addFlags(["generate_foil", "generate_fine_wire", "generate_rod", "generate_ring"]);
 silver.addFlags(["generate_frame"]);
 uranium_235.addFlags(["generate_frame"]);
-orichalcum.addFlags(["generate_frame"]);
+orichalcum.addFlags(["generate_frame", "generate_long_rod"]);
 vibranium.addFlags(["generate_rod", "generate_frame", "generate_foil", "generate_fine_wire"]);
 wrought_iron.addFlags(["generate_small_gear", "generate_rotor"]);
 neutronium.addFlags(["generate_rotor"]);

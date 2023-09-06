@@ -102,15 +102,15 @@ import mods.gregtech.recipe.RecipeMap;
 
 ##  Fusion Reactor Mk IV
 <gregtech:machine:32017>.addTooltip("银河泻落九天。");
-<gregtech:machine:32017>.addTooltip("可以单次运行更大容量的核聚变配方，同时不需要启动能量。");
+<gregtech:machine:32017>.addTooltip("某种意义上，它就是核聚变反应堆控制电脑 Mk IV！");
 
 ##  Fusion Reactor Mk V
 <gregtech:machine:32018>.addTooltip("白矮星之力。");
-<gregtech:machine:32018>.addTooltip("可以单次运行更大容量的核聚变配方，同时不需要启动能量。");
+<gregtech:machine:32018>.addTooltip("某种意义上，它就是核聚变反应堆控制电脑 Mk V！");
 
 ##  Fusion Reactor Mk VI
 <gregtech:machine:32019>.addTooltip("家用中子星。");
-<gregtech:machine:32019>.addTooltip("可以单次运行更大容量的核聚变配方，同时不需要启动能量。");
+<gregtech:machine:32019>.addTooltip("某种意义上，它就是核聚变反应堆控制电脑 Mk VI！");
 
 ##  Mega Alloy Blast Smelter
 <gregtech:machine:32020>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
@@ -125,6 +125,18 @@ import mods.gregtech.recipe.RecipeMap;
 <gregtech:machine:32022>.addTooltip("需要放置对应等级的§a超维度采矿无人机§7才可以工作。");
 <gregtech:machine:32022>.addTooltip("放入§9电力活塞§7以使用矿物采掘模式，放入§9电动泵§7以使用流体钻取模式");
 <gregtech:machine:32022>.addTooltip("需要提供额外的§e火箭燃料§7来进行工作。");
+
+##  Compressed Fusion reactor Mk I
+<gregtech:machine:32023>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
+<gregtech:machine:32023>.addTooltip("百万核弹。");
+
+##  Compressed Fusion reactor Mk II
+<gregtech:machine:32024>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
+<gregtech:machine:32024>.addTooltip("超新星爆发。");
+
+##  Compressed Fusion reactor Mk III
+<gregtech:machine:32025>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
+<gregtech:machine:32025>.addTooltip("御星天炉。");
 
 #  Circuits
 <contenttweaker:control_circuit_luv>.addTooltip("用于制作一些特殊机器");
