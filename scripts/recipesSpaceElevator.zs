@@ -647,7 +647,8 @@ space_elevator.recipeBuilder()
     .notConsumable([<contenttweaker:mining_drone_uiv>,
                     <gregtech:meta_item_1:182>])
     .circuit(1)
-    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .fluidInputs([<liquid:rocket_fuel> * 1000,
+                  <liquid:sublight_plasma_jet> * 1000])
     .outputs([<gregtech:meta_dust:32040> * 16])
     .EUt(7688600)
     .duration(600)
@@ -658,7 +659,8 @@ space_elevator.recipeBuilder()
     .notConsumable([<contenttweaker:mining_drone_uxv>,
                     <gregtech:meta_item_1:183>])
     .circuit(0)
-    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .fluidInputs([<liquid:rocket_fuel> * 1000,
+                  <liquid:sublight_plasma_jet> * 1000])
     .outputs([<gregtech:meta_dust:32040> * 32])
     .EUt(7688600)
     .duration(600)
@@ -669,7 +671,8 @@ space_elevator.recipeBuilder()
     .notConsumable([<contenttweaker:mining_drone_opv>,
                     <gregtech:meta_item_1:184>])
     .circuit(0)
-    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .fluidInputs([<liquid:rocket_fuel> * 1000,
+                  <liquid:sublight_plasma_jet> * 1000])
     .outputs([<gregtech:meta_dust:32040> * 64])
     .EUt(28337500)
     .duration(600)
