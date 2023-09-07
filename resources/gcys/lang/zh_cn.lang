@@ -208,11 +208,11 @@ material.pyromellitic_dianhydride=均苯四酸二酐
 material.aminophenol=4-氨基苯酚
 material.dimethylformamide=二甲基甲酰胺
 material.oxydianiline=4,4'-二氨基二苯醚
-material.kapton_k=聚酰亚胺-K（PIK）
+material.kapton_k=聚酰亚胺-K
 material.biphenyl_tetracarboxylic_acid_dianhydride=联苯四甲酸二酐
 material.nitroaniline=4-硝基苯胺
 material.para_phenylenediamine=对苯二胺
-material.kapton_e=聚酰亚胺-E（PIE）
+material.kapton_e=聚酰亚胺-E
 material.methylamine=甲胺
 material.trimethylamine=三甲胺
 material.bistrichloromethylbenzene=1,4-双(三氯甲基)苯
@@ -222,7 +222,7 @@ material.terephthaloyl_chloride=对苯二甲酰氯
 material.butanediol=1，4-丁二醇
 material.gamma_butyrolactone=γ-丁内酯
 material.n_methyl_pyrrolidone=N-甲基-2-吡咯烷酮
-material.kevlar=聚对苯二甲酰对苯二胺（PPT）
+material.kevlar=凯芙拉
 material.malonic_acid=丙二酸
 material.tetramethylammonium_chloride=四甲基氯化铵
 material.tetramethylammonium_hydroxide=四甲基氢氧化铵
@@ -355,6 +355,7 @@ gcys.machine.pressure_hatch.nsp.name=中子星压力仓
 gcys.machine.crystallization_crucible.name=结晶坩埚
 
 # Roaster
+gcys.machine.roaster.name=工业焙烧炉
 gcys.multiblock.roaster.tooltip.1=青铜燃烧室: §c1000K
 gcys.multiblock.roaster.tooltip.2=钢燃烧室: §c1500K
 gcys.multiblock.roaster.tooltip.3=钛燃烧室: §c2000K
@@ -371,7 +372,7 @@ gcys.machine.nanoscale_fabricator.name=纳米级制造室
 gcys.multiblock.nanoscale_fabricator.tooltip.1=坩埚的平均热量不能超过目标温度不能超过§c250K§7。
 
 # CVD Unit
-gcys.machine.cvd_unit.name=化学气相沉积单元（CVD）
+gcys.machine.cvd_unit.name=化学气相沉积单元
 
 # Fracking Machine
 gcys.machine.fracker.name=压裂机
@@ -494,9 +495,9 @@ metaitem.boule.cubic_zirconia.europium.name=掺铕的立方氧化锆单晶
 metaitem.boule.cubic_zirconia.europium.tooltip=未处理的晶体
 metaitem.wafer.cubic_zirconia.europium.name=掺铕的立方氧化锆晶片
 metaitem.wafer.cubic_zirconia.europium.tooltip=未处理的晶体
-metaitem.wafer.crystal.interface.name=晶体接口晶圆
+metaitem.wafer.crystal.interface.name=晶体触面晶圆
 metaitem.wafer.crystal.interface.tooltip=粗制晶体接口
-metaitem.plate.crystal.interface.name晶体接口晶片
+metaitem.plate.crystal.interface.name=晶体触面晶片
 metaitem.plate.crystal.interface.tooltip=晶体接口
 metaitem.engraved.crystal_chip.ruby.name=刻蚀红宝石晶片
 metaitem.engraved.crystal_chip.ruby.tooltip=以红宝石为主体
@@ -518,7 +519,7 @@ metaitem.magnetron.name=磁控管
 
 
 # Optical Stuff
-metaitem.plate.phase_change_memory.name=PRAM
+metaitem.plate.phase_change_memory.name=相变随机存取存储器（PRAM）晶片
 metaitem.plate.phase_change_memory.tooltip=相变随机存取存储器
 metaitem.optical_fiber.name=光纤
 metaitem.optical_fiber.tooltip=透光玻璃
@@ -533,7 +534,7 @@ metaitem.laser.nd_yag.tooltip=用于强光学设备
 
 
 # Spintronic Stuff
-metaitem.plate.spin_transfer_torque_memory.name=STTRAM
+metaitem.plate.spin_transfer_torque_memory.name=自旋转移力矩存储器（STTRAM）晶片
 metaitem.plate.spin_transfer_torque_memory.tooltip=自旋转移力矩存储器
 metaitem.tube.topological_insulator.name=拓扑绝缘管
 metaitem.tube.topological_insulator.tooltip=导电表面态
@@ -544,17 +545,17 @@ metaitem.bose_einstein_condensate.tooltip=在 §b170nK§7 下有整整 2,000 个
 
 
 # Power Components
-metaitem.wafer.nano_power_integrated_circuit.name=NPIC晶圆
+metaitem.wafer.nano_power_integrated_circuit.name=纳米功率集成电路（NPIC）晶圆
 metaitem.wafer.nano_power_integrated_circuit.tooltip=纳米功率集成电路原料
-metaitem.wafer.pico_power_integrated_circuit.name=PPIC晶圆
+metaitem.wafer.pico_power_integrated_circuit.name=皮米功率集成电路（PPIC）晶圆
 metaitem.wafer.pico_power_integrated_circuit.tooltip=皮米功率集成电路原料
-metaitem.wafer.femto_power_integrated_circuit.name=FPIC晶圆
+metaitem.wafer.femto_power_integrated_circuit.name=飞米功率集成电路（FPIC）晶圆
 metaitem.wafer.femto_power_integrated_circuit.tooltip=飞米功率集成电路原料
-metaitem.plate.nano_power_integrated_circuit.name=NPIC
+metaitem.plate.nano_power_integrated_circuit.name=纳米功率集成电路（NPIC）晶片
 metaitem.plate.nano_power_integrated_circuit.tooltip=纳米功率集成电路
-metaitem.plate.pico_power_integrated_circuit.name=PPIC
+metaitem.plate.pico_power_integrated_circuit.name=皮米功率集成电路（PPIC）晶片
 metaitem.plate.pico_power_integrated_circuit.tooltip=皮米功率集成电路
-metaitem.plate.femto_power_integrated_circuit.name=FPIC
+metaitem.plate.femto_power_integrated_circuit.name=飞米功率集成电路（FPIC）晶片
 metaitem.plate.femto_power_integrated_circuit.tooltip=飞米功率集成电路
 
 # Item Behaviors
@@ -665,35 +666,35 @@ metaitem.circuit.supracausal_mainframe.name=“套娃脑”超因果星系级电
 metaitem.circuit.supracausal_mainframe.tooltip=万物归一者，原初的神迹/n§fMAX级电路
 
 # Suprachronal
-metaitem.circuit.suprachronal.ulv.name=超时空电路（ULV）
+metaitem.circuit.suprachronal.ulv.name=超时空电路（§8ULV§r）
 metaitem.circuit.suprachronal.ulv.tooltip=§fULV级电路/n
-metaitem.circuit.suprachronal.lv.name=超时空电路（LV）
+metaitem.circuit.suprachronal.lv.name=超时空电路（§7LV§r）
 metaitem.circuit.suprachronal.lv.tooltip=§fLV级电路/n
-metaitem.circuit.suprachronal.mv.name=超时空电路（MV）
+metaitem.circuit.suprachronal.mv.name=超时空电路（§bMV§r）
 metaitem.circuit.suprachronal.mv.tooltip=§fMV级电路/n
-metaitem.circuit.suprachronal.hv.name=超时空电路（HV）
+metaitem.circuit.suprachronal.hv.name=超时空电路（§6HV§r）
 metaitem.circuit.suprachronal.hv.tooltip=§fHV级电路/n
-metaitem.circuit.suprachronal.ev.name=超时空电路（EV）
+metaitem.circuit.suprachronal.ev.name=超时空电路（§5EV§r）
 metaitem.circuit.suprachronal.ev.tooltip=§fEV级电路/n
-metaitem.circuit.suprachronal.iv.name=超时空电路（IV）
+metaitem.circuit.suprachronal.iv.name=超时空电路（§1IV§r）
 metaitem.circuit.suprachronal.iv.tooltip=§fIV级电路/n
-metaitem.circuit.suprachronal.luv.name=超时空电路（LuV）
+metaitem.circuit.suprachronal.luv.name=超时空电路（§dLuV§r）
 metaitem.circuit.suprachronal.luv.tooltip=§fLuV级电路/n
-metaitem.circuit.suprachronal.zpm.name=超时空电路（ZPM）
+metaitem.circuit.suprachronal.zpm.name=超时空电路（§cZPM§r）
 metaitem.circuit.suprachronal.zpm.tooltip=§fZPM级电路/n
-metaitem.circuit.suprachronal.uv.name=超时空电路（UV）
+metaitem.circuit.suprachronal.uv.name=超时空电路（§3UV§r）
 metaitem.circuit.suprachronal.uv.tooltip=§fUV级电路/n
-metaitem.circuit.suprachronal.uhv.name=超时空电路（UHV）
+metaitem.circuit.suprachronal.uhv.name=超时空电路（§4UHV§r）
 metaitem.circuit.suprachronal.uhv.tooltip=§fUHV级电路/n
-metaitem.circuit.suprachronal.uev.name=超时空电路（UEV）
+metaitem.circuit.suprachronal.uev.name=超时空电路（§aUEV§r）
 metaitem.circuit.suprachronal.uev.tooltip=§fUEV级电路/n
-metaitem.circuit.suprachronal.uiv.name=超时空电路（UIV）
+metaitem.circuit.suprachronal.uiv.name=超时空电路（§2UIV§r）
 metaitem.circuit.suprachronal.uiv.tooltip=§fUIV级电路/n
-metaitem.circuit.suprachronal.uxv.name=超时空电路（UXV）
+metaitem.circuit.suprachronal.uxv.name=超时空电路（§eUXV§r）
 metaitem.circuit.suprachronal.uxv.tooltip=§fUXV级电路/n
-metaitem.circuit.suprachronal.opv.name=超时空电路（OpV）
+metaitem.circuit.suprachronal.opv.name=超时空电路（§9OpV§r）
 metaitem.circuit.suprachronal.opv.tooltip=§fOpV级电路/n
-metaitem.circuit.suprachronal.max.name=超时空电路（MAX）
+metaitem.circuit.suprachronal.max.name=超时空电路（§c§lMAX§r）
 metaitem.circuit.suprachronal.max.tooltip=§fMAX级电路/n
 
 # RecipeMaps

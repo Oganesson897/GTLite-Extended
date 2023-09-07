@@ -3,6 +3,10 @@
 #! Sort by first letter (A-Z) for every class
 #! Some may not be effective
 
+#  Entities
+entity.italian_buffalo.name=意大利水牛
+gregtech.material.gtfo_italian_buffalo_milk=意大利水牛奶
+
 #  Machines
 
 gregtechfoodoption.machine.bioreactor.hv.name=进阶小型生物反应室 II
@@ -36,6 +40,8 @@ gregtechfoodoption.machine.slicer.uiv.tooltip=把那些坚果拍成碎片
 gregtechfoodoption.machine.slicer.uxv.tooltip=把那些坚果拍成碎片
 gregtechfoodoption.machine.slicer.opv.tooltip=把那些坚果拍成碎片
 
+recipemap.steam_baking_oven.name=蒸汽焙烧炉
+recipemap.electric_baking_oven.name=电力焙烧炉
 gregtechfoodoption.machine.baking_oven.name=原始焙烧炉
 gregtechfoodoption.machine.steam_baking_oven.name=蒸汽焙烧炉
 gregtechfoodoption.machine.steam_baking_oven.tooltip=工作速度是普通焙烧炉的两倍，但不需要煤。
@@ -43,6 +49,13 @@ gregtechfoodoption.machine.electric_baking_oven.name=电力焙烧炉
 gregtechfoodoption.machine.electric_baking_oven.tooltip.1=仅可运行焙烧炉配方中有温度需求的配方。
 gregtechfoodoption.machine.electric_baking_oven.tooltip.2=每tick消耗的 §aEU§7 与配方需求的温度成正比。
 gregtechfoodoption.machine.electric_baking_oven.tooltip.3=将多方块结构扩展到 §a1§7 块以运行更多的配方。
+
+gregtechfoodoption.recipe.baking_oven_temperature=温度：%dK
+
+tile.gtfo_casing.adobe_bricks.name=土坯砖
+tile.gtfo_casing.reinforced_adobe_bricks.name=强化土坯砖
+tile.gtfo_metal_casing.casing_bismuth_bronze.name=食品级铋青铜机器外壳
+tile.transparent_casing.greenhouse_glass.name=温室玻璃
 
 recipemap.cuisine_assembler.name=烹饪组装
 gregtechfoodoption.machine.cuisine_assembler.lv.name=基础烹饪组装机
@@ -174,3 +187,6 @@ gregtechfoodoption.machine.multicooker.uxv.tooltip=烹饪机器人 9001
 gregtechfoodoption.machine.multicooker.opv.tooltip=烹饪机器人 9001
 
 recipemap.multicooker.name=烹饪
+
+#  Tools
+item.gt.tool.butchery_knife.hv.name=%s电动屠刀（§6HV§r）

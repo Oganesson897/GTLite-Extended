@@ -113,33 +113,6 @@ gregtech.waila.progress_idle=闲置的
 gregtech.waila.progress_tick=进度：%d t / %d t
 gregtech.waila.progress_sec=进度：%d s / %d s
 
-gregtech.multiblock.title=多方块结构
-gregtech.multiblock.primitive_blast_furnace.bronze.description=土高炉（PBF）是一种用于生产钢的多方块结构，尽管它不是很快，却能为你的发展提供足够的钢。
-gregtech.multiblock.coke_oven.description=焦炉是一种用于生产焦炭和杂酚油的多方块结构，其中至多可容纳 32 桶杂酚油，可通过焦炉仓交互。
-gregtech.multiblock.vacuum_freezer.description=真空冷冻机是一种用于将热锭冷却的多方块结构，此外，这台机器也可以用来冻结水与一些其他流体。
-gregtech.multiblock.implosion_compressor.description=聚爆压缩机是一种使用炸药来将粉还原为宝石的多方块结构，这台机器可以将相应种类的粉转换为对应的宝石。
-gregtech.multiblock.pyrolyse_oven.description=热解炉是一种用于将原木或煤炭处理为木炭，杂酚油，灰烬或重油的多方块结构。
-gregtech.multiblock.cracker.description=石油裂化机是一种用于将流体裂解为相应裂化物的多方块结构，这台机器可以用来处理石油产物与塔兰金属产物。
-gregtech.multiblock.large_combustion_engine.description=大型燃油引擎是用于产出能量的多方块结构，这台机器的工作方式与燃烧发电机类似。
-gregtech.multiblock.extreme_combustion_engine.description=极限燃油引擎是一种产出能量的多方块结构，这台机器的工作方式与燃烧发电机类似，且比大型燃油引擎更加高效。
-gregtech.multiblock.distillation_tower.description=蒸馏塔是一种用于蒸馏各种类型的流体以高效提取其副产物的多方块结构，这台机器的每一层都必须拥有一个输出仓（从第二层开始），最底层（第一层）可以在任意处放置输入仓与输入总线。
-gregtech.multiblock.electric_blast_furnace.description=电力高炉（EBF）是用于熔化金属，熔炼合金与冶炼矿石的多方块结构，为了获取一些高级的金属材料，例如铝，不锈钢，钛与硅岩合金，这台机器是你不可或缺的至宝。
-gregtech.multiblock.multi_furnace.description=工业熔炉是一种用于同时熔炼大量物品的多方块结构，使用不同的线圈可以使这台机器获得不同的速度提升与能量增益。对于最基本的情况，这台机器可以同时熔炼32个物品，你可以通过升级线圈来提升这台机器同时熔炼的物品数量。
-gregtech.multiblock.large_boiler.description=大型锅炉是一种用于产生蒸汽的多方块结构，它消耗燃料与水来产生蒸汽，燃料可以是具有燃烧时间的任何固体燃料或液体/半流质燃料。这台机器可以调节其的节流，每次可以增减5%%的节流以减少燃料消耗并同时减少蒸汽输出。
-gregtech.multiblock.large_turbine.description=大型涡轮是一种通过蒸汽、气体或等离子来产出能量的多方块结构，它需要额外放入转子才可以工作，齿轮箱外壳必须放在涡轮机的中心。这台机器的能量输出基于转子效率与涡轮机当前速度。
-gregtech.multiblock.assembly_line.description=装配线是一个用于组装的大型多方块结构，它由至少5个，至多16个片构成，这些片都包含固定的方块。这台机器主要用于生产先进的零部件与电路，在LuV阶段及之后被广泛使用。
-gregtech.multiblock.fusion_reactor.luv.description=核聚变反应堆控制电脑 Mk I是一个将元素聚变为更重元素的多方块结构，它只可以使用LuV-UV等级的能源仓。这台机器每拥有一个能源仓，其的能量缓存就提升10M EU，而它的缓存能量的极限是160M EU。
-gregtech.multiblock.fusion_reactor.zpm.description=核聚变反应堆控制电脑 Mk II是一个将元素聚变为更重元素的多方块结构，它只可以使用ZPM-UV等级的能源仓。这台机器每拥有一个能源仓，其的能量缓存就提升20M EU，而它的缓存能量的极限是320M EU。
-gregtech.multiblock.fusion_reactor.uv.description=核聚变反应堆控制电脑 Mk III是一个将元素聚变为更重元素的多方块结构，它只可以使用UV等级的能源仓。这台机器每拥有一个能源仓，其的能量缓存就提升40M EU，而它的缓存能量的极限是640M EU。
-gregtech.multiblock.fusion_reactor.energy=EU：%d / %d
-gregtech.multiblock.fusion_reactor.heat=热量：%d
-gregtech.multiblock.large_chemical_reactor.description=大型化学反应釜是一个多方块结构版本的化学反应釜，且拥有许多独立配方，这台机器的最大优势是拥有完美超频。这台机器必须需要一个白铜线圈方块，需要放置在中心的聚四氟乙烯管道外壳旁。
-gregtech.multiblock.primitive_water_pump.description=原始水泵是一个石器时代的多方块结构，它会根据其所在的生物群系来收集水（每秒工作1次）它可以使用水泵输出仓，ULV级与LV级的输出仓来输出水，输出仓的等级越高，水资源的产出量也越高。产出量遵循的公式为：生物群系系数 * 输出仓倍数。
-gregtech.multiblock.primitive_water_pump.extra1=生物群系系数：/n  海洋（Ocean）、河流（River）：1000 L/s/n  沼泽（Swamp）：800 L/s/n  丛林（Jungle）：350 L/s/n  积雪（Snowy）：300 L/s/n  平原（Plains）、森林（Forest）：250 L/s/n  针叶林（Taiga）：175 L/s/n  沙滩（Beach）：170 L/s/n  其他：100 L/s
-gregtech.multiblock.primitive_water_pump.extra2=输出仓倍数：/n  水泵输出仓：1x/n  输出仓（ULV）：2x/n  输出仓（LV）：4x
-gregtech.multiblock.processing_array.description=处理阵列可将最多16个单方块机器集成在一个多方块机器中，以实现更高效的自动化。
-gregtech.multiblock.advanced_processing_array.description=进阶处理阵列可将最多64个单方块机器集成在一个多方块机器中，以实现更高效的自动化。
-
 item.invalid.name=无效物品
 fluid.empty=空
 
@@ -287,6 +260,50 @@ metaitem.sensor.uev.name=传感器（§aUEV§r）
 metaitem.sensor.uiv.name=传感器（§2UIV§r）
 metaitem.sensor.uxv.name=传感器（§eUXV§r）
 metaitem.sensor.opv.name=传感器（§9OpV§r）
+
+gregtech.machine.item_bus.import.ulv.name=输入总线（§8ULV§r）
+gregtech.machine.item_bus.import.lv.name=输入总线（§7LV§r）
+gregtech.machine.item_bus.import.mv.name=输入总线（§bMV§r）
+gregtech.machine.item_bus.import.hv.name=输入总线（§6HV§r）
+gregtech.machine.item_bus.import.ev.name=输入总线（§5EV§r）
+gregtech.machine.item_bus.import.iv.name=输入总线（§1IV§r）
+gregtech.machine.item_bus.import.luv.name=输入总线（§dLuV§r）
+gregtech.machine.item_bus.import.zpm.name=输入总线（§cZPM§r）
+gregtech.machine.item_bus.import.uv.name=输入总线（§3UV§r）
+gregtech.machine.item_bus.import.uhv.name=输入总线（§4UHV§r）
+
+gregtech.machine.item_bus.export.ulv.name=输出总线（§8ULV§r）
+gregtech.machine.item_bus.export.lv.name=输出总线（§7LV§r）
+gregtech.machine.item_bus.export.mv.name=输出总线（§bMV§r）
+gregtech.machine.item_bus.export.hv.name=输出总线（§6HV§r）
+gregtech.machine.item_bus.export.ev.name=输出总线（§5EV§r）
+gregtech.machine.item_bus.export.iv.name=输出总线（§1IV§r）
+gregtech.machine.item_bus.export.luv.name=输出总线（§dLuV§r）
+gregtech.machine.item_bus.export.zpm.name=输出总线（§cZPM§r）
+gregtech.machine.item_bus.export.uv.name=输出总线（§3UV§r）
+gregtech.machine.item_bus.export.uhv.name=输出总线（§4UHV§r）
+
+gregtech.machine.fluid_hatch.import.ulv.name=输入仓（§8ULV§r）
+gregtech.machine.fluid_hatch.import.lv.name=输入仓（§7LV§r）
+gregtech.machine.fluid_hatch.import.mv.name=输入仓（§bMV§r）
+gregtech.machine.fluid_hatch.import.hv.name=输入仓（§6HV§r）
+gregtech.machine.fluid_hatch.import.ev.name=输入仓（§5EV§r）
+gregtech.machine.fluid_hatch.import.iv.name=输入仓（§1IV§r）
+gregtech.machine.fluid_hatch.import.luv.name=输入仓（§dLuV§r）
+gregtech.machine.fluid_hatch.import.zpm.name=输入仓（§cZPM§r）
+gregtech.machine.fluid_hatch.import.uv.name=输入仓（§3UV§r）
+gregtech.machine.fluid_hatch.import.uhv.name=输入仓（§4UHV§r）
+
+gregtech.machine.fluid_hatch.export.ulv.name=输出仓（§8ULV§r）
+gregtech.machine.fluid_hatch.export.lv.name=输出仓（§7LV§r）
+gregtech.machine.fluid_hatch.export.mv.name=输出仓（§bMV§r）
+gregtech.machine.fluid_hatch.export.hv.name=输出仓（§6HV§r）
+gregtech.machine.fluid_hatch.export.ev.name=输出仓（§5EV§r）
+gregtech.machine.fluid_hatch.export.iv.name=输出仓（§1IV§r）
+gregtech.machine.fluid_hatch.export.luv.name=输出仓（§dLuV§r）
+gregtech.machine.fluid_hatch.export.zpm.name=输出仓（§cZPM§r）
+gregtech.machine.fluid_hatch.export.uv.name=输出仓（§3UV§r）
+gregtech.machine.fluid_hatch.export.uhv.name=输出仓（§4UHV§r）
 
 metaitem.tool.datastick.name=闪存
 metaitem.tool.datastick.tooltip=一个小容量的数据存储器
@@ -671,95 +688,6 @@ metaitem.brick.coke.name=焦炉砖
 metaitem.wooden_form.empty.name=空木模
 metaitem.wooden_form.brick.name=砖木模
 
-item.gt.tool.replace_tool_head=可使用合成栏来替换工具头
-item.gt.tool.usable_as=可用作：§f%s
-item.gt.tool.behavior.silk_ice=§b切冰利刃：§f精准采集冰
-item.gt.tool.behavior.torch_place=§e洞窟探客: §f右击可放置火把
-item.gt.tool.behavior.tree_felling=§4伐木好手：§f一次性砍下整棵树木
-item.gt.tool.behavior.shield_disable=§c野兽蛮攻：§f无法同时使用盾牌
-item.gt.tool.behavior.relocate_mining=§2磁力吸引：§f吸入采掘的方块
-item.gt.tool.behavior.aoe_mining=§5范围特效：§f%sx%sx%s
-item.gt.tool.behavior.ground_tilling=§e耕地农夫：§f耕耘土地
-item.gt.tool.behavior.grass_path=§e园林策划：§f制造草径
-item.gt.tool.behavior.rail_rotation=§e铁路技工：§f旋转轨道
-item.gt.tool.behavior.crop_harvesting=§a庄稼收割：§f收获成熟的作物
-item.gt.tool.behavior.plunger=§9水管工人：§f抽干流体
-item.gt.tool.behavior.block_rotation=§2精械师傅：§f旋转方块
-item.gt.tool.behavior.damage_boost=§4伤害增益：§f对%s造成额外伤害
-
-item.gt.tool.sword.name=%s剑
-item.gt.tool.pickaxe.name=%s镐
-item.gt.tool.shovel.name=%s锹
-item.gt.tool.axe.name=%s斧
-item.gt.tool.hoe.name=%s锄
-item.gt.tool.saw.name=%s锯
-item.gt.tool.hammer.name=%s锤
-item.gt.tool.hammer.tooltip=§8锤碎而非采掘方块
-item.gt.tool.mallet.name=%s软槌
-item.gt.tool.mallet.tooltip=§8关闭/开启机器
-item.gt.tool.wrench.name=%s扳手
-item.gt.tool.wrench.tooltip=§8按住左键以拆卸机器
-item.gt.tool.file.name=%s锉
-item.gt.tool.crowbar.name=%s撬棍
-item.gt.tool.crowbar.tooltip=§8卸下覆盖板
-item.gt.tool.screwdriver.name=%s螺丝刀
-item.gt.tool.screwdriver.tooltip=§8调整覆盖板和机器
-item.gt.tool.mortar.name=%s研钵
-item.gt.tool.wire_cutter.name=%s剪线钳
-item.gt.tool.knife.name=%s刀
-item.gt.tool.butchery_knife.name=%s屠刀
-item.gt.tool.butchery_knife.tooltip=§8攻击速度较慢
-item.gt.tool.scythe.name=%s镰刀
-item.gt.tool.scythe.tooltip=§8镰刀又能代表着什么呢？
-item.gt.tool.rolling_pin.name=%s擀面杖
-item.gt.tool.drill_lv.name=%s电钻（§7LV§r）
-item.gt.tool.drill_mv.name=%s电钻（§bMV§r）
-item.gt.tool.drill_hv.name=%s电钻（§6HV§r）
-item.gt.tool.drill_ev.name=%s电钻（§5EV§r）
-item.gt.tool.drill_iv.name=%s电钻（§1IV§r）
-item.gt.tool.mining_hammer.name=%s开采锤
-item.gt.tool.mining_hammer.tooltip=§8非潜行时可一次性开采一大片区域内的方块
-item.gt.tool.spade.name=%s铲
-item.gt.tool.spade.tooltip=§8非潜行时可一次性挖掘一大片区域内的方块
-item.gt.tool.chainsaw_lv.name=%s链锯（§7LV§r）
-item.gt.tool.chainsaw_mv.name=%s链锯（§bMV§r）
-item.gt.tool.chainsaw_hv.name=%s链锯（§6HV§r）
-item.gt.tool.wrench_lv.name=%s扳手（§7LV§r）
-item.gt.tool.wrench_lv.tooltip=§8使用鼠标左键以拆卸机器
-item.gt.tool.wrench_hv.name=%s扳手（§6HV§r）
-item.gt.tool.wrench_hv.tooltip=§8使用鼠标左键以拆卸机器
-item.gt.tool.wrench_iv.name=%s扳手（§1IV§r）
-item.gt.tool.wrench_iv.tooltip=§8使用鼠标左键以拆卸机器
-item.gt.tool.buzzsaw.name=%s圆锯（§7LV§r）
-item.gt.tool.buzzsaw.tooltip=§8并不适合用来采掘方块
-item.gt.tool.screwdriver_lv.name=%s螺丝刀（§7LV§r）
-item.gt.tool.screwdriver_lv.tooltip=§8用于调整覆盖板和机器
-item.gt.tool.plunger.name=%s搋子
-item.gt.tool.plunger.tooltip=§8从机器中抽除流体
-
-item.gt.tool.tooltip.crafting_uses=§a合成耐久度：%s
-item.gt.tool.tooltip.general_uses=§b耐久度：%s
-item.gt.tool.tooltip.attack_damage=§c攻击伤害：%s
-item.gt.tool.tooltip.attack_speed=§9攻击速度：%s
-item.gt.tool.tooltip.mining_speed=§d采掘速度：%s
-item.gt.tool.tooltip.harvest_level=§e采掘等级：%s
-item.gt.tool.tooltip.harvest_level_extra=§e采掘等级：%s§f（%s§f）
-
-item.gt.tool.harvest_level.0=§8木
-item.gt.tool.harvest_level.1=§7石
-item.gt.tool.harvest_level.2=§a铁
-item.gt.tool.harvest_level.3=§b钻石
-item.gt.tool.harvest_level.4=§d哈氏合金
-item.gt.tool.harvest_level.5=§9铿铀
-item.gt.tool.harvest_level.6=§c中子素
-
-item.gt.tool.tooltip.repair_info=按住 SHIFT 以查看修复详情
-item.gt.tool.tooltip.repair_material=可使用§a%s§f来修复
-
-item.gt.tool.aoe.rows=行
-item.gt.tool.aoe.columns=列
-item.gt.tool.aoe.layers=层
-
 metaitem.turbine_rotor.name=%s涡轮转子
 metaitem.turbine_rotor.tooltip=供涡轮机使用的涡轮转子
 
@@ -1064,6 +992,19 @@ gregtech.machine.substation_hatch.input_64a.zpm.name=64安变电能源仓（§cZ
 gregtech.machine.substation_hatch.input_64a.uv.name=64安变电能源仓（§3UV§r）
 gregtech.machine.substation_hatch.input_64a.uhv.name=64安变电能源仓（§4UHV§r）
 
+metaitem.power_unit.lv.name=能量单元（§7LV§r）
+metaitem.power_unit.mv.name=能量单元（§bMV§r）
+metaitem.power_unit.hv.name=能量单元（§6HV§r）
+metaitem.power_unit.ev.name=能量单元（§5EV§r）
+metaitem.power_unit.iv.name=能量单元（§1IV§r）
+
+gregtech.machine.laser_hatch.source.name=激光源仓
+gregtech.machine.laser_hatch.source.tooltip1=远距离发射能量
+gregtech.machine.laser_hatch.source.tooltip2=§c光缆必须呈直线！§7
+gregtech.machine.laser_hatch.target.name=激光靶仓
+gregtech.machine.laser_hatch.target.tooltip1=远距离接收能量
+gregtech.machine.laser_hatch.target.tooltip2=§c光缆必须呈直线！§7
+
 gregtech.machine.fusion_reactor.luv.name=核聚变反应堆控制电脑Mk I
 gregtech.machine.fusion_reactor.zpm.name=核聚变反应堆控制电脑Mk II
 gregtech.machine.fusion_reactor.uv.name=核聚变反应堆控制电脑Mk III
@@ -1122,16 +1063,18 @@ gregtech.machine.high_performance_computing_array.tooltip.2=用于生产 §f算�
 gregtech.machine.high_performance_computing_array.tooltip.3=需要HPCA组件来生产计算工作单元（§fCWU/t§7）。
 gregtech.multiblock.high_performance_computing_array.description=高性能计算阵列（HPCA）是一种用于为更复杂的研究数据的扫描提供计算工作单元（CWU/t）的多方块结构。该结构中有3×3的区域可以以任意方式填充HPCA组件，不同的组件提供不同数量的算力，冷却与能源成本，并且影响热量的产出与冷却液的消耗。当存在桥接组件时，HPCA可以连接入网络交换机，这用于将算力从多个产生源合并入一个或多个消耗算力的靶上。
 
-gregtech.machine.hpca.component_general.upkeep_eut=§e维持耗能： §f%,d EU/t
-gregtech.machine.hpca.component_general.max_eut=§6最大能量： §f%,d EU/t
-gregtech.machine.hpca.component_type.cooler_passive=§b冷却类型： §f被动
-gregtech.machine.hpca.component_type.cooler_active=§b冷却类型： §f主动
-gregtech.machine.hpca.component_type.cooler_cooling=§a提供： §f%,d 冷却
-gregtech.machine.hpca.component_type.cooler_active_coolant=§c最多需要： §f%,d L/t %s
-gregtech.machine.hpca.component_type.computation_cwut=§9算力： §f%,d CWU/t
+gregtech.machine.hpca.component_general.upkeep_eut=§e维持耗能：§f%,d EU/t
+gregtech.machine.hpca.component_general.max_eut=§6最大能量：§f%,d EU/t
+gregtech.machine.hpca.component_type.cooler_passive=§b冷却类型：§f被动
+gregtech.machine.hpca.component_type.cooler_active=§b冷却类型：§f主动
+gregtech.machine.hpca.component_type.cooler_cooling=§a提供：§f%,d 冷却
+gregtech.machine.hpca.component_type.cooler_active_coolant=§c最多需要：§f%,d L/t %s
+gregtech.machine.hpca.component_type.computation_cwut=§9算力：§f%,d CWU/t
 gregtech.machine.hpca.component_type.computation_cooling=§c最多需要： §f%,d 冷却
 gregtech.machine.hpca.component_type.bridge=允许 §fHPCA§7 与 §f网络交换机§7 连接
 gregtech.machine.hpca.component_type.damaged=HPCA过热可能会损坏！
+gregtech.recipe.research=需要研究
+gregtech.recipe.computation_per_tick=算力：%,d CWU/t
 
 metaitem.tool.multiblock_builder.name=多方块构建器
 metaitem.tool.multiblock_builder.tooltip=检查与建造你的多方块结构！
@@ -1163,14 +1106,14 @@ tile.computer_casing.high_power_casing.tooltip=能量等级正在上升！
 tile.computer_casing.advanced_computer_casing.name=高级计算机外壳
 tile.computer_casing.advanced_computer_casing.tooltip=几千个量子位宽
 tile.battery_block.empty_tier_i.name=空电容（Tier I）
-tile.battery_block.lapotronic_ev.name=兰波顿电容（EV）
-tile.battery_block.lapotronic_iv.name=兰波顿电容（IV）
+tile.battery_block.lapotronic_ev.name=兰波顿电容（§5EV§r）
+tile.battery_block.lapotronic_iv.name=兰波顿电容（§1IV§r）
 tile.battery_block.empty_tier_ii.name=空电容（Tier II）
-tile.battery_block.lapotronic_luv.name=兰波顿电容（LuV）
-tile.battery_block.lapotronic_zpm.name=兰波顿电容（ZPM）
+tile.battery_block.lapotronic_luv.name=兰波顿电容（§dLuV§r）
+tile.battery_block.lapotronic_zpm.name=兰波顿电容（§cZPM§r）
 tile.battery_block.empty_tier_iii.name=空电容（Tier III）
-tile.battery_block.lapotronic_uv.name=兰波顿电容（UV）
-tile.battery_block.ultimate_uhv.name=兰波顿电容（UHV）
+tile.battery_block.lapotronic_uv.name=兰波顿电容（§3UV§r）
+tile.battery_block.ultimate_uhv.name=兰波顿电容（§4UHV§r）
 tile.battery_block.tooltip_empty=用于填充兰波顿电容库中的空间
 
 gregtech.machine.network_switch.name=网络交换机
@@ -1252,6 +1195,29 @@ gregtech.machine.transformer.hi_amp.opv.name=高电流变压器（§9OpV§r）
 gregtech.machine.transformer.adjustable.opv.name=可调变压器（§9OpV§r）
 
 gregtech.machine.transformer.higher_amp.description=转换能量的电压等级，但是电流更高！
+
+gregtech.machine.rotor_holder.hv.name=转子支架（§6HV§r）
+gregtech.machine.rotor_holder.ev.name=转子支架（§5EV§r）
+gregtech.machine.rotor_holder.iv.name=转子支架（§1IV§r）
+gregtech.machine.rotor_holder.luv.name=转子支架（§dLuV§r）
+gregtech.machine.rotor_holder.zpm.name=转子支架（§cZPM§r）
+gregtech.machine.rotor_holder.uv.name=转子支架（§3UV§r）
+
+gregtech.machine.muffler_hatch.ulv.name=消声仓（§8ULV§r）
+gregtech.machine.muffler_hatch.lv.name=消声仓（§7LV§r）
+gregtech.machine.muffler_hatch.mv.name=消声仓（§bMV§r）
+gregtech.machine.muffler_hatch.hv.name=消声仓（§6HV§r）
+gregtech.machine.muffler_hatch.ev.name=消声仓（§5EV§r）
+gregtech.machine.muffler_hatch.iv.name=消声仓（§1IV§r）
+gregtech.machine.muffler_hatch.luv.name=消声仓（§dLuV§r）
+gregtech.machine.muffler_hatch.zpm.name=消声仓（§cZPM§r）
+gregtech.machine.muffler_hatch.uv.name=消声仓（§3UV§r）
+gregtech.machine.muffler_hatch.uhv.name=消声仓（§4UHV§r）
+gregtech.machine.muffler_hatch.uev.name=消声仓（§aUEV§r）
+gregtech.machine.muffler_hatch.uiv.name=消声仓（§2UIV§r）
+gregtech.machine.muffler_hatch.uxv.name=消声仓（§eUXV§r）
+gregtech.machine.muffler_hatch.opv.name=消声仓（§9OpV§r）
+gregtech.machine.muffler_hatch.max.name=消声仓（§c§lMAX§r）
 
 #  GCYS
 gregtech.material.lithium_6=锂-6
