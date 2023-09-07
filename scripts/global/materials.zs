@@ -275,7 +275,10 @@ var crystal_matrix = MaterialBuilder(32019, "crystal_matrix")
     .fluid()
     .color(0x70ecff)
     .iconSet("shiny")
-    .flags(["generate_rod", "generate_frame"])
+    .flags(["generate_rod",
+            "generate_frame",
+            "generate_spring",
+            "generate_spring_small"])
     .cableProperties(134217728, 32, 16, false)
     .build();
 
@@ -285,6 +288,9 @@ var superheavy_element_mixture = MaterialBuilder(32020, "superheavy_element_mixt
     .fluid()
     .color(0x998EA6)
     .iconSet("shiny")
+    .flags(["generate_rod",
+            "generate_spring",
+            "generate_spring_small"])
     .cableProperties(536870912, 128, 32, false)
     .build();
 
@@ -312,7 +318,7 @@ var hdcs = MaterialBuilder(32022, "hdcs")
             "generate_round",
             "generate_bolt_screw",
             "generate_frame"])
-    .blastTemp(9900)
+    .blastTemp(13501)
     .build();
 
 <material:hdcs>.setFormula("(FeW)12(((FeW)5CrMo2V)6Ir2Os)9((FeW)5CrMo2V)6(Ru2Ir)3((Na2TeO3)4(ZrO2)3(CrGeTe3)2)2Pu",true);
