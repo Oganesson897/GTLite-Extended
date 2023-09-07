@@ -10,4 +10,21 @@ HeatingCoils.add(<blockstate:contenttweaker:machine_coil_adamantium>,
                  32,
                  4,
                  8,
-                 <material:adamantium>);
+                 <material:reinforced_adamantium>);
+
+assembler.recipeBuilder()
+    .inputs([<ore:wireGtDoubleReinforcedAdamantium> * 8,
+             <ore:foilVibranium> * 8])
+    .fluidInputs([<liquid:tritanium> * 144])
+    .outputs([<contenttweaker:machine_coil_adamantium>])
+    .EUt(1966080)
+    .duration(1000)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs([<ore:dustAdamantium>,
+             <ore:dustDarmstadtium>])
+    .outputs([<gregtech:meta_dust:32046>])
+    .EUt(131072)
+    .duration(300)
+    .buildAndRegister();

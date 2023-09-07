@@ -2322,6 +2322,34 @@ assembly_line.recipeBuilder()
     .duration(2400)
     .buildAndRegister();
 
+#  UIV Transformer
+makeShaped("uiv_transformer", <gregtech:machine:1281>,
+    [
+        "PSS",
+        "QC ",
+        "PSS"
+    ],
+    {
+        "P": <gcys:meta_item_1:370>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "S": <ore:cableGtSingleLunarium>,
+        "C": <gregtech:machine:996>
+    });
+
+#  UXV Transformer
+makeShaped("uxv_transformer", <gregtech:machine:1282>,
+    [
+        "PSS",
+        "QC ",
+        "PSS"
+    ],
+    {
+        "P": <gcys:meta_item_1:370>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "S": <ore:cableGtSingleHikarium>,
+        "C": <gregtech:machine:997>
+    });
+
 #  64A UHV Substation Energy Hatch
 <recipemap:assembler>.findRecipe(122880, [<metaitem:transformer.adjustable.uv>, <metaitem:energy_hatch.output_16a.uv>, <metaitem:plate.ultra_high_power_integrated_circuit> * 4, <metaitem:voltage_coil.uv> * 2, <metaitem:wireGtHexYttriumBariumCuprate> * 2], null).remove();
 assembler.recipeBuilder()
@@ -2362,4 +2390,179 @@ assembler.recipeBuilder()
     .outputs([<gregtech:machine:1295>])
     .EUt(7864320)
     .duration(200)
+    .buildAndRegister();
+
+#  UIV Power Transformer
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1741>,
+             <gregtech:meta_item_1:149>,
+             <ore:cableGtOctalCrystalMatrix>,
+             <ore:cableGtHexSunnarium> * 2,
+             <ore:springSmallSunnarium>,
+             <ore:springCrystalMatrix>])
+    .fluidInputs([<liquid:lubricant> * 2000])
+    .outputs([<gregtech:machine:1296>])
+    .EUt(31457280)
+    .duration(200)
+    .buildAndRegister();
+
+#  UXV Power Transformer
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1742>,
+             <gregtech:meta_item_1:150>,
+             <ore:cableGtOctalSuperheavyElementMixture>,
+             <ore:cableGtHexCrystalMatrix> * 2,
+             <ore:springSmallCrystalMatrix>,
+             <ore:springSuperheavyElementMixture>])
+    .fluidInputs([<liquid:lubricant> * 2000])   
+    .outputs([<gregtech:machine:1297>])
+    .EUt(125829120)
+    .duration(200)
+    .buildAndRegister();
+
+#  UEV Hi-Amp Transformer
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1280>,
+             <gregtech:meta_item_1:148>,
+             <ore:wireGtQuadrupleSunnarium>,
+             <ore:wireGtOctalPedotTma>,
+             <ore:springSmallPedotTma>,
+             <ore:springSunnarium>])
+    .fluidInputs([<liquid:lubricant> * 4000])
+    .outputs([<gregtech:machine:1740>])
+    .EUt(7864320)
+    .duration(200)
+    .buildAndRegister();
+
+#  UIV Hi-Amp Transformer
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1281>,
+             <gregtech:meta_item_1:149>,
+             <ore:wireGtQuadrupleCrystalMatrix>,
+             <ore:wireGtOctalSunnarium>,
+             <ore:springSmallSunnarium>,
+             <ore:springCrystalMatrix>])
+    .fluidInputs([<liquid:lubricant> * 4000])
+    .outputs([<gregtech:machine:1741>])
+    .EUt(31457280)
+    .duration(200)
+    .buildAndRegister();
+
+#  UXV Hi-Amp Transformer
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1282>,
+             <gregtech:meta_item_1:150>,
+             <ore:wireGtQuadrupleSuperheavyElementMixture>,
+             <ore:wireGtOctalCrystalMatrix>,
+             <ore:springSmallCrystalMatrix>,
+             <ore:springSuperheavyElementMixture>])
+    .fluidInputs([<liquid:lubricant> * 4000])
+    .outputs([<gregtech:machine:1742>])
+    .EUt(7864320)
+    .duration(200)
+    .buildAndRegister();
+
+#  HASoC
+<recipemap:laser_engraver>.findRecipe(7680, [<metaitem:wafer.neutronium>, <metaitem:glass_lens.black>], null).remove();
+
+laser_engraver.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:373>])
+    .notConsumable([<ore:craftingLensBlack>])
+    .outputs([<gregtech:meta_item_1:574>])
+    .EUt(7680)
+    .duration(900)
+    .buildAndRegister();
+
+laser_engraver.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:374>])
+    .notConsumable([<ore:craftingLensBlack>])
+    .outputs([<gregtech:meta_item_1:574> * 2])
+    .EUt(7680)
+    .duration(900)
+    .buildAndRegister();
+
+#  Fix recovery problem
+
+##  UHV voltage coil
+<recipemap:macerator>.findRecipe(32, [<gcys:meta_item_1:350>], null).remove();
+<recipemap:arc_furnace>.findRecipe(30, [<gcys:meta_item_1:350>], [<liquid:oxygen> * 350]).remove();
+
+macerator.recipeBuilder()
+    .inputs([<gcys:meta_item_1:350>])
+    .outputs([<gregtech:meta_dust:3104> * 2,
+              <gregtech:meta_dust_small:6025> * 2])
+    .EUt(32)
+    .duration(35.6)
+    .buildAndRegister();
+
+arc_furnace.recipeBuilder()
+    .inputs([<gcys:meta_item_1:350>])
+    .fluidInputs([<liquid:oxygen> * 350])
+    .outputs([<gregtech:meta_ingot:3104> * 2,
+              <gregtech:meta_nugget:3622> * 4])
+    .EUt(30)
+    .duration(35)
+    .buildAndRegister();
+
+##  UEV voltage coil
+<recipemap:macerator>.findRecipe(32, [<gcys:meta_item_1:351>], null).remove();
+<recipemap:arc_furnace>.findRecipe(30, [<gcys:meta_item_1:351>], [<liquid:oxygen> * 350]).remove();
+
+macerator.recipeBuilder()
+    .inputs([<gcys:meta_item_1:351>])
+    .outputs([<gregtech:meta_dust:32013> * 2,
+              <gregtech:meta_dust_small:6025> * 2])
+    .EUt(32)
+    .duration(35.6)
+    .buildAndRegister();
+
+arc_furnace.recipeBuilder()
+    .inputs([<gcys:meta_item_1:351>])
+    .fluidInputs([<liquid:oxygen> * 350])
+    .outputs([<gregtech:meta_ingot:32013> * 2,
+              <gregtech:meta_nugget:3622> * 4])
+    .EUt(30)
+    .duration(35)
+    .buildAndRegister();
+
+##  UIV voltage coil
+<recipemap:macerator>.findRecipe(32, [<gcys:meta_item_1:352>], null).remove();
+<recipemap:arc_furnace>.findRecipe(30, [<gcys:meta_item_1:352>], [<liquid:oxygen> * 350]).remove();
+
+macerator.recipeBuilder()
+    .inputs([<gcys:meta_item_1:352>])
+    .outputs([<gregtech:meta_dust:32036> * 2,
+              <gregtech:meta_dust_small:32023> * 2])
+    .EUt(32)
+    .duration(35.6)
+    .buildAndRegister();
+
+arc_furnace.recipeBuilder()
+    .inputs([<gcys:meta_item_1:352>])
+    .fluidInputs([<liquid:oxygen> * 350])
+    .outputs([<gregtech:meta_ingot:32036> * 2,
+              <gregtech:meta_nugget:32023> * 4])
+    .EUt(30)
+    .duration(35)
+    .buildAndRegister();
+
+##  UXV voltage coil
+<recipemap:macerator>.findRecipe(32, [<gcys:meta_item_1:353>], null).remove();
+<recipemap:arc_furnace>.findRecipe(30, [<gcys:meta_item_1:353>], [<liquid:oxygen> * 350]).remove();
+
+macerator.recipeBuilder()
+    .inputs([<gcys:meta_item_1:353>])
+    .outputs([<gregtech:meta_dust:32039> * 2,
+              <gregtech:meta_dust_small:32023> * 2])
+    .EUt(32)
+    .duration(35.6)
+    .buildAndRegister();
+
+arc_furnace.recipeBuilder()
+    .inputs([<gcys:meta_item_1:353>])
+    .fluidInputs([<liquid:oxygen> * 350])
+    .outputs([<gregtech:meta_ingot:32039> * 2,
+              <gregtech:meta_nugget:32023> * 2])
+    .EUt(30)
+    .duration(35)
     .buildAndRegister();

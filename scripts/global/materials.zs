@@ -572,6 +572,20 @@ var tachyon_plasma = MaterialBuilder(32045, "tachyon_plasma")
 
 <material:tachyon_plasma>.setFormula("y", false);
 
+#  32046 Reinforced Adamantium
+var reinforced_adamantium = MaterialBuilder(32046, "reinforced_adamantium")
+    .ingot()
+    .fluid()
+    .color(0xD80036)
+    .iconSet("shiny")
+    .cableProperties(2097152, 2, 32, false)
+    .components([<material:adamantium> * 1,
+                 <material:darmstadtium> * 1])
+    .blastTemp(10800)
+    .build();
+
+<material:reinforced_adamantium>.setFormula("AdDs", true);
+
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
     .fluid()

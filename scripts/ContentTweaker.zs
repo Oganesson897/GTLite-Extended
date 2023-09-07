@@ -613,3 +613,7 @@ var mining_drone_max = VanillaFactory.createItem("mining_drone_max");
     mining_drone_max.maxStackSize = 64;
     mining_drone_max.creativeTab = <creativetab:gregtech.main>;
     mining_drone_max.register();
+
+#  Wire Coils
+var machine_coil_adamantium = VanillaFactory.createBlock("machine_coil_adamantium", <blockmaterial:iron>);
+    machine_coil_adamantium.register();

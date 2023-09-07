@@ -283,6 +283,21 @@ assembly_line.recipeBuilder()
     .duration(400)
     .buildAndRegister();
 
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:fusion_coil_block_mk_ii>,
+             <contenttweaker:control_circuit_uv> * 8,
+             <gregtech:meta_item_1:210> * 4,
+             <gregtech:meta_item_1:150> * 4,
+             <gregtech:meta_item_1:240> * 4,
+             <ore:cableGtQuadrupleCarbonNanotube> * 8])
+    .fluidInputs([<liquid:vanadium_gallium> * 3456,
+                  <liquid:zylon> * 2304,
+                  <liquid:polyetheretherketone> * 1152])
+    .outputs([<contenttweaker:fusion_coil_block_mk_iii> * 2])
+    .EUt(8388608)
+    .duration(600)
+    .buildAndRegister();
+
 #  Space elevator
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtRhodiumPlatedPalladium>,

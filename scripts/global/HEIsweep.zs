@@ -29,7 +29,7 @@ if (!isNull(AppliedEnergistics2)) {
 if (!isNull(AEAdditionsExtraCells2)) {
     val itemAEAdditionsExtraCells2 as IItemStack[] = AEAdditionsExtraCells2.items;
     for item in itemAEAdditionsExtraCells2 {
-        if (item.displayName has "ME流体模板") {
+        if (item.displayName has "ME流体样板") {
             mods.jei.JEI.hide(item);
         }
     }

@@ -171,3 +171,6 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:circuitUv>.add(<contenttweaker:magneto_resonatic_circuit_uv>);
 <ore:circuitUhv>.add(<contenttweaker:magneto_resonatic_circuit_uhv>);
 <ore:circuitUev>.add(<contenttweaker:magneto_resonatic_circuit_uev>);
+
+#  Wire coils
+<contenttweaker:machine_coil_adamantium>.addTooltip("§c基础热容：§r13501 K");
