@@ -1,0 +1,17 @@
+{
+  "animation": {
+    "interpolate": true,
+    "frametime": 6
+  },
+  "ctm": {
+    "ctm_version": 1,
+    "type": "sctm",
+    "layer": "CUTOUT",
+    "extra": {
+      "light": 15,
+      "connect_to": [
+        { "block": "contenttweaker:machine_coil_sunnarium" },
+      ]
+    }
+  }
+}

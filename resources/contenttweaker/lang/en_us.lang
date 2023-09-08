@@ -130,3 +130,4 @@ item.contenttweaker.mining_drone_max.name=Maximum Voltage Mining Drone
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=Adamantium Coil Block
+tile.contenttweaker.machine_coil_sunnarium.name=Sunnarium Coil Block

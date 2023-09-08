@@ -464,7 +464,7 @@ var austenite_steel = MaterialBuilder(32037, "austenite_steel")
             "generate_round",
             "generate_bolt_screw",
             "generate_frame"])
-    .blastTemp(9900)
+    .blastTemp(16600)
     .build();
     
 <material:austenite_steel>.setFormula("(Nq2(Ir3Os)Ke)14(NbTi)6(V3Ga)4(((FeW)5CrMo2V6)6CoMnSi)4(UPt3)2NbN", true);

@@ -174,3 +174,4 @@ import mods.gregtech.recipe.RecipeMap;
 
 #  Wire coils
 <contenttweaker:machine_coil_adamantium>.addTooltip("§c基础热容：§r13501 K");
+<contenttweaker:machine_coil_sunnarium>.addTooltip("§c基础热容：§r16600 K");

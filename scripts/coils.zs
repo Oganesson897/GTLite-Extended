@@ -10,7 +10,7 @@ HeatingCoils.add(<blockstate:contenttweaker:machine_coil_adamantium>,
                  32,
                  4,
                  8,
-                 <material:reinforced_adamantium>);
+                 <material:adamantium>);
 
 assembler.recipeBuilder()
     .inputs([<ore:wireGtDoubleReinforcedAdamantium> * 8,
@@ -27,4 +27,22 @@ mixer.recipeBuilder()
     .outputs([<gregtech:meta_dust:32046>])
     .EUt(131072)
     .duration(300)
+    .buildAndRegister();
+
+#  T9  Sunnarium
+HeatingCoils.add(<blockstate:contenttweaker:machine_coil_sunnarium>,
+                 "sunnarium",
+                 16600,
+                 64,
+                 8,
+                 9,
+                 <material:sunnarium>);
+
+assembler.recipeBuilder()
+    .inputs([<ore:wireGtDoubleSunnarium> * 8,
+             <ore:foilCarbonNanotube> * 8])
+    .fluidInputs([<liquid:reinforced_adamantium> * 144])
+    .outputs([<contenttweaker:machine_coil_sunnarium>])
+    .EUt(7864320)
+    .duration(1100)
     .buildAndRegister();
