@@ -7068,7 +7068,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你现在有了一些§l镓粉§r，还需要一些§7砷粉§r才能制作出砷化镓粉。砷粉的来源很多，例如电解§4雄黄§r，请参考HEI来获取吧！",
+          "desc:8": "你现在有了一些§l镓粉§r，还需要一些§7砷粉§r才能制作出砷化镓粉。\n\n砷粉的来源很多，例如离心§4雄黄§r，请参考HEI来获取吧！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11942,7 +11942,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你的最后一个线圈方块！",
+          "desc:8": "你的最后一个线圈方块...？",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11966,7 +11966,20 @@
         }
       },
       "questID:3": 161,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 126,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13104,8 +13117,7 @@
     },
     "182:10": {
       "preRequisites:11": [
-        181,
-        184
+        181
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13211,26 +13223,26 @@
     },
     "184:10": {
       "preRequisites:11": [
-        306,
-        497,
-        538
+        822,
+        308,
+        5
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§c无穷无尽的能源。§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 3103,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_ingot"
+            "id:8": "appliedenergistics2:creative_energy_cell"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "山铜",
+          "name:8": "创造模式能源元件",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -13250,13 +13262,16 @@
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "requiredFluids:9": {
+          "partialMatch:1": 1,
+          "requiredItems:9": {
             "0:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "orichalcum"
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "appliedenergistics2:creative_energy_cell"
             }
           },
-          "taskID:8": "bq_standard:fluid"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -13268,7 +13283,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§b一种拥有良好的电性能的高强度塑料。\n\n§r你的下一种塑料，它被广泛用于各种机器与零部件中。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13298,7 +13313,20 @@
         }
       },
       "questID:3": 185,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 353,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -13324,7 +13352,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§d掺聚苯乙烯磺酸的聚(3,4-乙撑二氧噻吩)。§r\n\nUHV级的超导材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -13920,7 +13948,26 @@
         }
       },
       "questID:3": 196,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 1000,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            },
+            "1:10": {
+              "Count:3": 6,
+              "Damage:2": 1004,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -17330,12 +17377,12 @@
     },
     "246:10": {
       "preRequisites:11": [
-        184
+        307
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§d一种强度极高的金属。§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17581,7 +17628,7 @@
             "0:10": {
               "Count:3": 1,
               "Damage:2": 742,
-              "OreDict:8": "batteryEv",
+              "OreDict:8": "",
               "id:8": "gregtech:meta_item_1",
               "tag:10": {
                 "Charge:4": 25000000
@@ -17600,7 +17647,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "在§5EV§r阶段，你没什么主要的目的，但是你可以试着开始制作§2GCYM§r的一些多方块机器——例如§6大型打包机§r，不过你最好在§1IV§r阶段再开始。\n\n除此以外，你可以试着开始制作纳米电路，这是一条比之前的电路相对简单的电路。这\n\n个阶段有许多便利的东西可以使用了，例如§d自动维护仓§r与§dME仓室§r们，你可以试着探索一下。",
+          "desc:8": "在§5EV§r阶段，你没什么主要的目的，\n\n但是你可以试着开始制作§2GCYM§r的一些多方块机器——例如§6大型打包机§r，\n\n不过你最好在§1IV§r阶段再开始。\n\n除此以外，你可以试着开始制作§b纳米电路§r。\n\n这个阶段有许多便利的东西可以使用了，例如§d自动维护仓§r与§dME仓室§r们。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17624,7 +17671,20 @@
         }
       },
       "questID:3": 250,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 512,
+              "Damage:2": 214,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "index:3": 0,
@@ -19739,7 +19799,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "通过基岩处理，你可以获得§c精金§r，\n\n它不仅是UEV阶段的主材料，还是你的下一个线圈的制作材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -19779,7 +19839,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§8钨§r处理在加入§2GCYS§r之后会变得稍微麻烦，又不是特别麻烦：你要做的第一步与§2GTCEu§r原版一致，用§6化学浸洗器§r（至少§5EV§r级）来用盐酸浸洗矿粉，然后获得§e钨酸粉§r；第二步是使用§6化学脱水机§r，一台§2GCYS§r新增的机器来脱水钨酸粉，得到§4三氧化钨§r；第三步是使用§6化学反应釜§r（至少§5EV§r级）让氢与三氧化钨反应来得到§8钨粉§r。",
+          "desc:8": "§8钨§r处理在加入§2GCYS§r之后会变得稍微麻烦，又不是特别麻烦：\n\n你要做的第一步与§2GTCEu§r原版一致，\n\n用§6化学浸洗器§r（至少§5EV§r级）来用盐酸浸洗矿粉，然后获得§e钨酸粉§r；\n\n第二步是使用§6化学脱水机§r，\n\n一台§2GCYS§r新增的机器来脱水钨酸粉，得到§4三氧化钨§r；\n\n第三步是使用§6化学反应釜§r（至少§5EV§r级），\n\n让氢与三氧化钨反应来得到§8钨粉§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20779,7 +20839,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你的组装机们已经不能组装超高精度的零部件了，因此你或许应该试着制造这个大家伙：§c装配线§r。\n\n没错，这可能是§2格雷科技§r中最恢弘的多方块结构之一了，它需要巨量的电路板和各式各样的材料。不\n\n仅如此，装配线的自动化问题也十分麻烦，你可以试着使用§7应用能源§r与§a末影接口§r之类的模组来完成这台机器的自动化。",
+          "desc:8": "你的组装机们已经不能组装超高精度的零部件了，\n\n因此你或许应该试着制造这个大家伙：§c装配线§r。\n\n没错，这可能是§2格雷科技§r中最恢弘的多方块结构之一了，\n\n它需要巨量的电路板和各式各样的材料。\n\n不仅如此，装配线的自动化问题也十分麻烦，\n\n你可以试着使用§7应用能源§r与§a末影接口§r之类的模组来完成这台机器的自动化。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20904,7 +20964,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§7镀铑钯§r是§dLuV§r阶段的主材料，除此以外，在LuV阶段你还会用到很多种铂系金属合金。",
+          "desc:8": "§7镀铑钯§r是§dLuV§r阶段的主材料，\n\n除此以外，在LuV阶段你还会用到很多种铂系金属合金，\n\n比如§a钌铱合金§r，以及ZPM阶段将会使用的§b铱锇合金§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21508,12 +21568,14 @@
     },
     "307:10": {
       "preRequisites:11": [
-        306
+        306,
+        497,
+        538
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "UHV阶段的主材料。",
+          "desc:8": "恭喜你获得了§4UHV§r阶段的主材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21567,7 +21629,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "§b终极的能量容器。§r\n\n最好的电池！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21591,7 +21653,23 @@
         }
       },
       "questID:3": 308,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 751,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 20000000000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -21614,12 +21692,12 @@
     },
     "309:10": {
       "preRequisites:11": [
-        307
+        838
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "§6恭喜你入门了格雷科技！§r\n\n好吧，这只是个玩笑...\n\n你可以试着通过漫长的挂机来获得这个，\n\n作为回报，你将获得制作它所需要的材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21631,7 +21709,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "结束了...?",
+          "name:8": "结束了...？",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -21639,11 +21717,24 @@
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
           "tasklogic:8": "AND",
-          "visibility:8": "ALWAYS"
+          "visibility:8": "NORMAL"
         }
       },
       "questID:3": 309,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 15,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_block_compressed_7"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -22351,7 +22442,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "在这个阶段有一系列好玩的大机器可以解锁了，比如§2GCYM§r的那些大机器们，它们都需要§6合金冶炼炉§r，这台庞大的用于制作合金的机器来作为前置。\n\n除此以外还有§9处理阵列§r这样的好用的多方块机器。\n\n在这个阶段，你需要完成你的第一条复杂化工线路§a铂系金属处理§r来获得一系列日后需要的金属材料，§c稀土处理§r在这个阶段也可以起步了。",
+          "desc:8": "在这个阶段有一系列好玩的大机器可以解锁了，比如§2GCYM§r的那些大机器们。\n\n想要开启你的§2GCYM§r之旅，你需要§6合金冶炼炉§r，\n\n这台庞大的机器用于冶炼各式各样的合金，它会满足你的需求的。\n\n\n另一个有用的东西可能是§9处理阵列§r，你会喜欢它的。\n\n在这个阶段，你需要完成你的第一条复杂化工线路§a铂系金属处理§r\n\n来获得一系列日后需要的金属材料，§c稀土处理§r在这个阶段也可以起步了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -22375,7 +22466,20 @@
         }
       },
       "questID:3": 320,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 80,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "index:3": 0,
@@ -23367,7 +23471,26 @@
         }
       },
       "questID:3": 337,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 310,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 296,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24007,7 +24130,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6焙烧炉§r，来自§2GCYS§r，或许应该称之为工业焙烧炉（因为§2GTFO§r也有个专门用来处理食物的焙烧炉）。",
+          "desc:8": "§6焙烧炉§r，来自§2GCYS§r。\n\n\n§e注意：§r§2GTFO§r有个专门用来处理食物的焙烧炉，它们不是一个机器。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24019,7 +24142,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "焙烧炉",
+          "name:8": "工业焙烧炉",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -24097,7 +24220,20 @@
         }
       },
       "questID:3": 349,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 576,
+              "Damage:2": 18,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24471,7 +24607,26 @@
         }
       },
       "questID:3": 354,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "sulfur_dioxide"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24526,7 +24681,26 @@
         }
       },
       "questID:3": 355,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "chlorine"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24836,7 +25010,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "恭喜你获得了§aUEV§r级的主材料！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -25588,7 +25762,32 @@
         }
       },
       "questID:3": 374,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 1016,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 1007,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "2:10": {
+              "Count:3": 64,
+              "Damage:2": 1012,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26292,7 +26491,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你需要先§b扫描§r才可以制作它。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26319,7 +26518,23 @@
         }
       },
       "questID:3": 384,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 748,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 250000000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26347,7 +26562,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的电池，但是需要§b研究站§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26374,7 +26589,23 @@
         }
       },
       "questID:3": 385,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 749,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 1000000000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26402,7 +26633,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "比§c能量模块§r更好！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -26429,7 +26660,23 @@
         }
       },
       "questID:3": 386,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 750,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Charge:4": 4000000000
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26989,7 +27236,20 @@
         }
       },
       "questID:3": 394,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 2038,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -28589,7 +28849,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的搅拌机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28613,7 +28873,20 @@
         }
       },
       "questID:3": 419,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 2062,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -28941,7 +29214,20 @@
         }
       },
       "questID:3": 425,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 1656,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29047,7 +29333,20 @@
         }
       },
       "questID:3": 427,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 576,
+              "Damage:2": 18,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29117,7 +29416,20 @@
         }
       },
       "questID:3": 428,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 576,
+              "Damage:2": 18,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29187,7 +29499,20 @@
         }
       },
       "questID:3": 429,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 287,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29380,7 +29705,20 @@
         }
       },
       "questID:3": 432,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 13,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30160,7 +30498,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你开始熟悉§c装配线§r这个家伙了...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30184,7 +30522,20 @@
         }
       },
       "questID:3": 446,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2520,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gear_small"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30212,7 +30563,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的下一个发射器。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30236,7 +30587,26 @@
         }
       },
       "questID:3": 447,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "radon"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30288,7 +30658,20 @@
         }
       },
       "questID:3": 448,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 1004,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30340,7 +30723,20 @@
         }
       },
       "questID:3": 449,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 132,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30368,7 +30764,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "配方酷似发射器的家伙。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30392,7 +30788,26 @@
         }
       },
       "questID:3": 450,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "radon"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30621,7 +31036,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "万众瞩目的§a硅岩处理§r终于到来了...\n\n别担心，这并不是一条很复杂的化工线，\n\n你可以从其中提取许多种不同的材料，这很有乐趣。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30655,7 +31070,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你可以从§8硅岩粉§r中通过一系列化工处理出多种你需要的材料，例如§7富集硅岩§r，§a超能硅岩§r以及§d凯金§r。使用§b氟锑酸§r与硅岩粉反应来开启你的硅岩处理，这一步将会额外产出§5三氟化钛§r，你可以用它来替代§4四氯化钛§r来烧制钛。",
+          "desc:8": "你可以从§8硅岩粉§r中通过一系列化工处理出多种你需要的材料，\n\n例如§7富集硅岩§r，§a超能硅岩§r以及§d凯金§r。\n\n使用§b氟锑酸§r与硅岩粉反应来开启你的硅岩处理，\n\n这一步将会额外产出§5三氟化钛§r，\n\n你可以用它来替代§4四氯化钛§r来烧制钛。\n\n§e一些趣事：§r硅岩是来自电视剧《星际之门》（Stargate）的金属材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30751,7 +31166,20 @@
         }
       },
       "questID:3": 456,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30776,7 +31204,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "超能硅岩处理的起步",
+          "desc:8": "超能硅岩处理的起步。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30806,7 +31234,20 @@
         }
       },
       "questID:3": 457,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 4,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30831,7 +31272,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的激光蚀刻。\n\n一些以更高级晶圆为原料的电路元件需要它！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30855,7 +31296,20 @@
         }
       },
       "questID:3": 458,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:nether_star"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30884,7 +31338,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§9晶体电路之心。§r\n\n你需要先获得§b铕§r与§e高速钢-G§r线圈方块才能制作它。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30908,7 +31362,26 @@
         }
       },
       "questID:3": 459,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 278,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            },
+            "1:10": {
+              "Count:3": 64,
+              "Damage:2": 2004,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -30936,7 +31409,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用§9待处理晶体芯片§r在电力高炉中制成。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -30960,7 +31433,26 @@
         }
       },
       "questID:3": 460,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "helium"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31144,7 +31636,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的下一个线圈方块所需的材料。\n\n§e一些趣事：§r凯金是来自电视剧《星际之门》（Stargate）的金属材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31237,7 +31729,20 @@
         }
       },
       "questID:3": 465,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 446,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31478,7 +31983,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "ZPM超导体！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31502,7 +32007,32 @@
         }
       },
       "questID:3": 470,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_naquadah_0"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_naquadah_0"
+            },
+            "2:10": {
+              "Count:3": 256,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_naquadah_0"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31733,7 +32263,25 @@
       },
       "questID:3": 474,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 220,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "475:10": {
       "preRequisites:11": [
@@ -31816,7 +32364,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的§9处理阵列§r！\n\n可以放入64个小机器的处理阵列，你会喜欢它的。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31840,7 +32388,20 @@
         }
       },
       "questID:3": 476,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 2519,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32144,7 +32705,20 @@
         }
       },
       "questID:3": 481,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 441,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32248,7 +32822,20 @@
         }
       },
       "questID:3": 483,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 103,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32386,7 +32973,20 @@
         }
       },
       "questID:3": 486,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 344,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gear_small"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32607,7 +33207,20 @@
         }
       },
       "questID:3": 490,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 133,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32927,7 +33540,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "恭喜你获得了§a超能硅岩§r，\n\n虽然硅岩处理略显繁琐，但是你仍旧战胜了它。\n\n作为回报，你可以通过更好的§b核聚变反应堆控制电脑§r来直接获取超能硅岩。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32951,7 +33564,20 @@
         }
       },
       "questID:3": 497,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 512,
+              "Damage:2": 124,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -33750,7 +34376,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "第二个§9聚变机器外壳§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34119,7 +34745,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34227,7 +34853,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§9晶体片上系统§r，它可以为你节省不少制作晶体电路的材料。\n\n§e注意：§r在§2GTCEu§r原版中，晶体SoC的制作更为简单，§aGTLite§r使用的是GCYS的配方，这个配方稍加繁琐而不失有趣。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34251,7 +34877,20 @@
         }
       },
       "questID:3": 520,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 704,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -34279,7 +34918,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的冲压机床。\n\n你需要使用它来制作§9晶体SoC§r，以此可以减轻你制作晶体电路的压力。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34303,7 +34942,20 @@
         }
       },
       "questID:3": 521,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 178,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -34332,7 +34984,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用于桥接晶体材料与电路。\n\n你需要先制作3种§9晶体调节器§r，然后配合§e晶体触面晶片§r来制作它。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34356,7 +35008,32 @@
         }
       },
       "questID:3": 522,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 314,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem_exquisite"
+            },
+            "1:10": {
+              "Count:3": 64,
+              "Damage:2": 311,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem_exquisite"
+            },
+            "2:10": {
+              "Count:3": 64,
+              "Damage:2": 276,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gem_exquisite"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -34454,7 +35131,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "超级大坩埚。\n\n§e注意：§r你可以使用§2GCYS§r原版的配方，它需要§1IV§r级的电路，而如果你觉得这过分昂贵，那么可以试试§aGTLite§r新加入的一个配方，它只需要§5EV§r级电路。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34808,7 +35485,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你对现在遇到的所有东西都感到困惑，因为它们太高级了。\n\n你或许需要先§b研究§r它们，才能想办法控制你的§c装配线§r来准确地制作它们。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34832,7 +35509,20 @@
         }
       },
       "questID:3": 530,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 262,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -36452,7 +37142,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§c超大型坩埚！§r\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36476,7 +37166,20 @@
         }
       },
       "questID:3": 560,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:transparent_casing"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -36689,7 +37392,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§9亚克力玻璃！§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36719,7 +37422,26 @@
         }
       },
       "questID:3": 564,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "methanol"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -37424,7 +38146,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§b§b一种低密度高强度高韧性耐高温的新型塑料。§r§r\n\n你的下一种塑料材料，你需要先制作出§a凯芙拉粉§r才能提取出它的流体。\n§e§e\n一些趣事：§r§r在现实中，同等质量的凯芙拉的强度比钢高近五倍。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37480,7 +38202,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用对苯二甲酸与1,4-双(三氯甲基)苯反应得到§d对苯二甲酰氯§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37533,7 +38255,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "有些复杂的化工原料，不过它的配方中的许多原料仅仅是§c催化剂§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37585,7 +38307,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用对二甲苯与氯反应来得到§d1,4-双(三氯甲基)苯§r，\n\n不过在此之前，你需要先§6催化重整§r一些石脑油。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37640,7 +38362,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用§6化学反应釜§r处理§eγ-丁内酯§r来获得§dN-甲基-2-吡咯烷酮§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37695,7 +38417,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "在铜的催化下使用1,4-丁二醇反应得到§dγ-丁内酯§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37750,7 +38472,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用次氯酸，丁烯与§9水§r反应得到§d1,4-丁二醇§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -37780,7 +38502,26 @@
         }
       },
       "questID:3": 583,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "butene"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -37805,7 +38546,8 @@
         410,
         409,
         453,
-        585
+        585,
+        1006
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -38157,7 +38899,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的下一个能源仓。\n\n§e注意：§r在§2GCYS§r中这些线圈并没有贴图，而在§aGTLite§r中我们为其绘制了贴图。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -40247,7 +40989,6 @@
     },
     "628:10": {
       "preRequisites:11": [
-        184,
         307
       ],
       "properties:10": {
@@ -40309,7 +41050,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6太阳之力§r。\n\n一种新的金属，你大概还会看到它的姊妹——§9月光金属§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -40333,7 +41074,20 @@
         }
       },
       "questID:3": 629,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 3104,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -40944,7 +41698,20 @@
         }
       },
       "questID:3": 641,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 32016,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -41232,7 +41999,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的§3功率集成电路§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -41530,7 +42297,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -43341,7 +44108,20 @@
         }
       },
       "questID:3": 697,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 127,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -45256,7 +46036,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -46024,6 +46804,23 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "Damage:2": 353,
+              "OreDict:8": "",
+              "id:8": "gcys:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
               "Damage:2": 1222,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
@@ -46626,7 +47423,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§a人类已知的最强高能非核单质炸药。§r§r\n\n§e§e§e一些趣事：§r§r§r相较于§9§9§9Gregicality Legacy§r§r§r，\n\n在§aGTLite§r中六硝基六轴异伍兹烷的造价被极度削弱了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -46650,7 +47447,26 @@
         }
       },
       "questID:3": 767,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "glyceryl_trinitrate"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -46678,7 +47494,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§b将夸克禁闭彻底打破。§r\n\n一个超级TNT。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -46702,7 +47518,20 @@
         }
       },
       "questID:3": 768,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 460,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -48644,7 +49473,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§91024k-ME存储组件",
+          "name:8": "§91024k§r-ME存储组件",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -48956,7 +49785,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "§91024k-ME流体存储组件",
+          "name:8": "§91024k§r-ME流体存储组件",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -50468,7 +51297,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用溴与甲苯反应得到§d二溴甲苯§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -50498,7 +51327,26 @@
         }
       },
       "questID:3": 837,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "bromine"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -50524,7 +51372,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§8中子凝聚于手中...§r\n\n恭喜你获得了§eUXV§r阶段的主材料！\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -50548,7 +51396,26 @@
         }
       },
       "questID:3": 838,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "cosmic_computing_mixture"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -50576,7 +51443,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用于冷凝各种更高级的§e等离子§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53374,7 +54241,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "一台超大的研磨机。\n\n在到达§6HV§r阶段前，它是你最好的研磨机之一。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53403,6 +54270,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1025,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -53442,6 +54326,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1024,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -53453,7 +54354,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "比一般的焙烧炉更好，不过需要§7蒸汽§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53482,6 +54383,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 8544,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -53648,7 +54566,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§a大概是陪伴你最久的多方块结构了...§r\n\n线圈§c热容§r列表：\n\n- 白铜线圈方块：1800 K\n\n- 坎塔尔合金线圈方块 ：2700 K\n\n- 镍铬合金线圈方块：3600 K\n\n- 钨钢线圈方块：4500 K\n\n- 高速钢-G线圈方块：5400 K\n\n- 硅岩线圈方块：7200 K\n\n- 凯金线圈方块：9001 K\n\n- 三钛合金线圈方块：10800 K\n\n- 精金线圈方块：13501 K\n\n- 日光金属线圈方块：16600 K\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53677,6 +54595,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1001,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -53882,7 +54817,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§c超大型组装设施。§r\n\n开启§bLuV§r级电压以上的世界的钥匙。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53911,6 +54846,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1019,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54035,7 +54987,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e探索宇宙。\n\n§r使用§d超维度采矿无人机§r来探索宇宙并获取宇宙中的资源。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54064,6 +55016,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32022,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54271,7 +55240,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§c小小太阳。§r\n\n你观察微观世界的眼睛。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54300,6 +55269,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32009,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54542,7 +55528,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6原子级合金熔炼机。§r\n\n你的第一个§b核聚变反应堆控制电脑§r，许多种高级材料都需要使用这台机器。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54571,6 +55557,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1020,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54582,7 +55585,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6一轮红日落大地。§r\n\n你的第二台§b核聚变反应堆控制电脑§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54611,6 +55614,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1021,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54622,7 +55642,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6击碎星辰。§r\n\n你的第三台§b核聚变反应堆控制电脑§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54651,6 +55671,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1022,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54662,7 +55699,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6银河泻落九天。§r\n\n实际上，它就是§b核聚变反应堆控制电脑  Mk IV§r！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54691,6 +55728,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32017,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54702,7 +55756,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6白矮星之力。§r\n\n实际上，它就是§b核聚变反应堆控制电脑  Mk V§r！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54731,6 +55785,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32018,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54742,7 +55813,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6家用中子星。§r\n\n实际上，它就是§b核聚变反应堆控制电脑  Mk VI§r！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -54771,6 +55842,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32019,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -54978,7 +56066,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§a现代化研磨机。\n\n§r你的新型矿物处理设备，可以将一些矿石与矿粉碾磨。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -55007,6 +56095,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32012,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -55019,7 +56124,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§a浮游选矿，从现在开始。§r\n\n处理§b工业湿法碾磨机§r出产的碾磨矿粉，得到它们对应的§d悬浊液§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -55048,6 +56153,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32012,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -55058,7 +56180,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§2树木丛生。§r\n\n你能想到的效率最高的获得树木资源的机器，\n\n它或许比§2GTFO§r的温室与§3末影接口§r的种植站更加强力。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -55087,6 +56209,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32014,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -55221,7 +56360,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "多重冶炼炉",
+          "name:8": "工业熔炉",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -55238,6 +56377,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1006,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -56270,7 +57426,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§8木炭§r的另一种获取方式。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -56299,6 +57455,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1036,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -56309,7 +57482,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "或许是你的第一个多方块结构。\n\n用来烧制§8木炭§r与§7焦煤§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -56338,6 +57511,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 1017,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -56348,7 +57538,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用于烤制食物。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -56377,6 +57567,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 8516,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -56388,7 +57595,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "最好的焙烧炉。\n\n它只能运行具有§c温度§r要求的焙烧炉配方。\n\n§e注意：§r§2GCYS§r的焙烧炉的名称为§6工业焙烧炉§r，这两者不共用配方！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -56417,6 +57624,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 8517,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -56781,7 +58005,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6无穷无尽的资源唾手可得。§r\n\n使用§d压裂液§r补充虚拟流体。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -56810,6 +58034,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3903,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -57207,6 +58448,308 @@
               "Damage:2": 32039,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1003:10": {
+      "preRequisites:11": [
+        917,
+        935
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§6百万核弹。\n\n§r单次运行相当于64次核聚变反应堆控制电脑 的配方，且所用时间缩短。",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32023,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "压缩核聚变反应堆控制电脑  Mk I",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1003,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32023,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "1004:10": {
+      "preRequisites:11": [
+        926,
+        936
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§6超新星爆发。\n\n§r单次运行相当于64次核聚变反应堆控制电脑 的配方，且所用时间缩短。",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32024,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "压缩核聚变反应堆控制电脑  Mk II",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1004,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32024,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "1005:10": {
+      "preRequisites:11": [
+        927,
+        937
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§6御星天炉。\n\n§\n§r单次运行相当于64次核聚变反应堆控制电脑 的配方，且所用时间缩短。",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 32025,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "压缩核聚变反应堆控制电脑  Mk III",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1005,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 32025,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "1006:10": {
+      "preRequisites:11": [
+        589
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§6事情还没结束！§r\n\n在§2GTCEu§r原版中，§4三钛合金§r线圈方块是你的最后一个线圈方块。\n\n然而，在§aGTLite§r中，你将会获得几个新的线圈用于制作更高级的材料！\n\n§c精金§r线圈方块就是你的第一个新线圈方块，\n\n你的下一个阶段需要§d高强度复合钢§r，而这个材料需要§c精金§r线圈方块。",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:machine_coil_adamantium"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "精金线圈方块",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1006,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 27,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:machine_coil_adamantium"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "1007:10": {
+      "preRequisites:11": [
+        602,
+        629
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§6你的第二个新线圈方块！§r\n\n这个方块会自己发出§e光亮§r（当然，它并没有实际的亮度影响），\n\n这很酷不是么？",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:machine_coil_sunnarium"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "日光金属线圈方块",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1007,
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 3105,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:machine_coil_sunnarium"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -57799,48 +59342,48 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": 120
+          "y:3": 216
         },
         "55:10": {
           "id:3": 590,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": 264
+          "y:3": 336
         },
         "56:10": {
           "id:3": 591,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": 168
+          "y:3": 120
         },
         "57:10": {
           "id:3": 592,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -72,
-          "y:3": 168
+          "y:3": 120
         },
         "58:10": {
           "id:3": 593,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
+          "x:3": -120,
           "y:3": 120
         },
         "59:10": {
           "id:3": 594,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -72,
+          "x:3": -120,
           "y:3": 72
         },
         "60:10": {
           "id:3": 595,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -120,
+          "x:3": -72,
           "y:3": 72
         },
         "61:10": {
@@ -57855,7 +59398,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": 216
+          "y:3": 168
+        },
+        "63:10": {
+          "id:3": 1006,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 108,
+          "y:3": 264
         }
       }
     },
@@ -61323,223 +62873,209 @@
           "y:3": -108
         },
         "25:10": {
-          "id:3": 184,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -48
-        },
-        "26:10": {
           "id:3": 246,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -108
+          "x:3": 240,
+          "y:3": -48
         },
-        "27:10": {
+        "26:10": {
           "id:3": 279,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 348,
-          "y:3": -252
+          "x:3": 48,
+          "y:3": -192
         },
-        "28:10": {
+        "27:10": {
           "id:3": 280,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
-          "y:3": -204
+          "y:3": -48
+        },
+        "28:10": {
+          "id:3": 282,
+          "sizeX:3": 48,
+          "sizeY:3": 24,
+          "x:3": 144,
+          "y:3": -48
         },
         "29:10": {
-          "id:3": 282,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 156,
-          "y:3": -204
-        },
-        "30:10": {
           "id:3": 283,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 204,
-          "y:3": -204
+          "x:3": 48,
+          "y:3": -48
         },
-        "31:10": {
+        "30:10": {
           "id:3": 286,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 252,
-          "y:3": -204
+          "x:3": 48,
+          "y:3": -96
         },
-        "32:10": {
+        "31:10": {
           "id:3": 287,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": -204
+          "x:3": 96,
+          "y:3": -96
         },
-        "33:10": {
+        "32:10": {
           "id:3": 306,
           "sizeX:3": 72,
           "sizeY:3": 72,
           "x:3": 132,
           "y:3": 216
         },
-        "34:10": {
+        "33:10": {
           "id:3": 307,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 228,
           "y:3": 228
         },
-        "35:10": {
+        "34:10": {
           "id:3": 308,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 120
         },
-        "36:10": {
-          "id:3": 309,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": 240
-        },
-        "37:10": {
+        "35:10": {
           "id:3": 338,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 0,
           "y:3": 0
         },
-        "38:10": {
+        "36:10": {
           "id:3": 353,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": -156
+          "x:3": 96,
+          "y:3": -144
         },
-        "39:10": {
+        "37:10": {
           "id:3": 356,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": -108
+          "x:3": 96,
+          "y:3": -192
         },
-        "40:10": {
+        "38:10": {
           "id:3": 357,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 348,
-          "y:3": -156
+          "x:3": 48,
+          "y:3": -144
         },
-        "41:10": {
+        "39:10": {
           "id:3": 358,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": -48
+          "x:3": 96,
+          "y:3": -240
         },
-        "42:10": {
+        "40:10": {
           "id:3": 359,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 156,
-          "y:3": -252
+          "y:3": -96
         },
-        "43:10": {
+        "41:10": {
           "id:3": 360,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 204,
-          "y:3": -252
+          "x:3": 156,
+          "y:3": -144
         },
-        "44:10": {
+        "42:10": {
           "id:3": 361,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 288,
-          "y:3": -324
+          "x:3": 144,
+          "y:3": -312
         },
-        "45:10": {
+        "43:10": {
           "id:3": 362,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": -252
+          "x:3": 156,
+          "y:3": -240
         },
-        "46:10": {
+        "44:10": {
           "id:3": 364,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 252,
-          "y:3": -252
+          "x:3": 156,
+          "y:3": -192
         },
-        "47:10": {
+        "45:10": {
           "id:3": 386,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 168
         },
-        "48:10": {
+        "46:10": {
           "id:3": 425,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": 120
         },
-        "49:10": {
+        "47:10": {
           "id:3": 530,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 72
         },
-        "50:10": {
+        "48:10": {
           "id:3": 531,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 120
         },
-        "51:10": {
+        "49:10": {
           "id:3": 532,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 168
         },
-        "52:10": {
+        "50:10": {
           "id:3": 533,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 72
         },
-        "53:10": {
+        "51:10": {
           "id:3": 534,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 120
         },
-        "54:10": {
+        "52:10": {
           "id:3": 535,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 168
         },
-        "55:10": {
+        "53:10": {
           "id:3": 536,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 216
         },
-        "56:10": {
+        "54:10": {
           "id:3": 537,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -61683,15 +63219,15 @@
           "id:3": 584,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -144,
-          "y:3": 72
+          "x:3": 48,
+          "y:3": -48
         },
         "17:10": {
           "id:3": 585,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -192,
-          "y:3": 72
+          "x:3": -24,
+          "y:3": -48
         },
         "18:10": {
           "id:3": 586,
@@ -61915,27 +63451,27 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": -24
+          "y:3": -48
         },
         "50:10": {
           "id:3": 627,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": -72
+          "y:3": -96
         },
         "51:10": {
           "id:3": 628,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": -72
+          "x:3": 48,
+          "y:3": -96
         },
         "52:10": {
           "id:3": 629,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 60,
+          "x:3": -168,
           "y:3": 324
         },
         "53:10": {
@@ -62007,6 +63543,13 @@
           "sizeY:3": 24,
           "x:3": 264,
           "y:3": 264
+        },
+        "63:10": {
+          "id:3": 1007,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": -180,
+          "y:3": 108
         }
       }
     },
@@ -62030,424 +63573,431 @@
       },
       "quests:9": {
         "0:10": {
+          "id:3": 309,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 252,
+          "y:3": 384
+        },
+        "1:10": {
           "id:3": 624,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 0,
           "y:3": 0
         },
-        "1:10": {
+        "2:10": {
           "id:3": 639,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 72
         },
-        "2:10": {
+        "3:10": {
           "id:3": 640,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 120
         },
-        "3:10": {
+        "4:10": {
           "id:3": 641,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 168
         },
-        "4:10": {
+        "5:10": {
           "id:3": 642,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 216
         },
-        "5:10": {
+        "6:10": {
           "id:3": 643,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 216
         },
-        "6:10": {
+        "7:10": {
           "id:3": 644,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 168
         },
-        "7:10": {
+        "8:10": {
           "id:3": 645,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 120
         },
-        "8:10": {
+        "9:10": {
           "id:3": 646,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 72
         },
-        "9:10": {
+        "10:10": {
           "id:3": 649,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -48
         },
-        "10:10": {
+        "11:10": {
           "id:3": 651,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 72
         },
-        "11:10": {
+        "12:10": {
           "id:3": 652,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
           "y:3": 72
         },
-        "12:10": {
+        "13:10": {
           "id:3": 653,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
           "y:3": 12
         },
-        "13:10": {
+        "14:10": {
           "id:3": 654,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
           "y:3": -48
         },
-        "14:10": {
+        "15:10": {
           "id:3": 655,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
           "y:3": -96
         },
-        "15:10": {
+        "16:10": {
           "id:3": 685,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
           "y:3": 72
         },
-        "16:10": {
+        "17:10": {
           "id:3": 686,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
           "y:3": 120
         },
-        "17:10": {
+        "18:10": {
           "id:3": 687,
           "sizeX:3": 48,
           "sizeY:3": 72,
           "x:3": 108,
-          "y:3": 192
+          "y:3": 168
         },
-        "18:10": {
+        "19:10": {
           "id:3": 688,
           "sizeX:3": 60,
           "sizeY:3": 48,
           "x:3": 192,
           "y:3": 60
         },
-        "19:10": {
+        "20:10": {
           "id:3": 689,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
-          "y:3": 216
+          "y:3": 192
         },
-        "20:10": {
+        "21:10": {
           "id:3": 690,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
           "y:3": 12
         },
-        "21:10": {
+        "22:10": {
           "id:3": 691,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -96
         },
-        "22:10": {
+        "23:10": {
           "id:3": 702,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": -48
         },
-        "23:10": {
+        "24:10": {
           "id:3": 703,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 12
         },
-        "24:10": {
+        "25:10": {
           "id:3": 729,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 168,
           "y:3": -48
         },
-        "25:10": {
+        "26:10": {
           "id:3": 730,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": 288
+          "y:3": 264
         },
-        "26:10": {
+        "27:10": {
           "id:3": 731,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": 216
+          "y:3": 192
         },
-        "27:10": {
+        "28:10": {
           "id:3": 732,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
-          "y:3": 216
+          "y:3": 192
         },
-        "28:10": {
+        "29:10": {
           "id:3": 733,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 252,
-          "y:3": 216
+          "y:3": 192
         },
-        "29:10": {
+        "30:10": {
           "id:3": 734,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": 288
+          "y:3": 264
         },
-        "30:10": {
+        "31:10": {
           "id:3": 735,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
           "y:3": 72
         },
-        "31:10": {
+        "32:10": {
           "id:3": 736,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 444,
           "y:3": 72
         },
-        "32:10": {
+        "33:10": {
           "id:3": 737,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
           "y:3": 120
         },
-        "33:10": {
+        "34:10": {
           "id:3": 738,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 444,
           "y:3": 12
         },
-        "34:10": {
+        "35:10": {
           "id:3": 739,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 444,
           "y:3": 120
         },
-        "35:10": {
+        "36:10": {
           "id:3": 740,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
           "y:3": 120
         },
-        "36:10": {
+        "37:10": {
           "id:3": 741,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
           "y:3": 120
         },
-        "37:10": {
+        "38:10": {
           "id:3": 765,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
-          "y:3": 168
+          "y:3": 156
         },
-        "38:10": {
+        "39:10": {
           "id:3": 766,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
-          "y:3": 216
+          "y:3": 192
         },
-        "39:10": {
+        "40:10": {
           "id:3": 767,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
-          "y:3": 288
+          "y:3": 264
         },
-        "40:10": {
+        "41:10": {
           "id:3": 768,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 252,
-          "y:3": 288
+          "y:3": 264
         },
-        "41:10": {
+        "42:10": {
           "id:3": 769,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 444,
-          "y:3": 168
+          "y:3": 156
         },
-        "42:10": {
+        "43:10": {
           "id:3": 770,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
-          "y:3": 288
+          "y:3": 264
         },
-        "43:10": {
+        "44:10": {
           "id:3": 771,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
-          "y:3": 288
+          "y:3": 264
         },
-        "44:10": {
+        "45:10": {
           "id:3": 831,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
-          "y:3": 336
+          "y:3": 312
         },
-        "45:10": {
+        "46:10": {
           "id:3": 832,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -48,
           "y:3": 72
         },
-        "46:10": {
+        "47:10": {
           "id:3": 833,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": 72
         },
-        "47:10": {
+        "48:10": {
           "id:3": 834,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": 120
         },
-        "48:10": {
+        "49:10": {
           "id:3": 835,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": 24
         },
-        "49:10": {
+        "50:10": {
           "id:3": 836,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 72
         },
-        "50:10": {
+        "51:10": {
           "id:3": 837,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -144,
           "y:3": 24
         },
-        "51:10": {
+        "52:10": {
           "id:3": 838,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 180,
           "y:3": 372
         },
-        "52:10": {
+        "53:10": {
           "id:3": 839,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 120
         },
-        "53:10": {
+        "54:10": {
           "id:3": 840,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 492,
-          "y:3": 288
+          "y:3": 264
         },
-        "54:10": {
+        "55:10": {
           "id:3": 841,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 444,
-          "y:3": 288
+          "y:3": 264
         },
-        "55:10": {
+        "56:10": {
           "id:3": 842,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 444,
-          "y:3": 336
+          "y:3": 312
         },
-        "56:10": {
+        "57:10": {
           "id:3": 845,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 492,
-          "y:3": 336
+          "y:3": 312
         },
-        "57:10": {
+        "58:10": {
           "id:3": 848,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
-          "y:3": 336
+          "y:3": 312
         },
-        "58:10": {
+        "59:10": {
           "id:3": 849,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
-          "y:3": 384
+          "y:3": 360
         },
-        "59:10": {
+        "60:10": {
           "id:3": 850,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
-          "y:3": 336
+          "y:3": 312
         }
       }
     },
@@ -62849,412 +64399,419 @@
       },
       "quests:9": {
         "0:10": {
+          "id:3": 184,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 336,
+          "y:3": 72
+        },
+        "1:10": {
           "id:3": 772,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -24,
           "y:3": -24
         },
-        "1:10": {
+        "2:10": {
           "id:3": 773,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -12
         },
-        "2:10": {
+        "3:10": {
           "id:3": 774,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -12
         },
-        "3:10": {
+        "4:10": {
           "id:3": 775,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 132
         },
-        "4:10": {
+        "5:10": {
           "id:3": 776,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 84
         },
-        "5:10": {
+        "6:10": {
           "id:3": 777,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 36
         },
-        "6:10": {
+        "7:10": {
           "id:3": 778,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -12
         },
-        "7:10": {
+        "8:10": {
           "id:3": 779,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 180
         },
-        "8:10": {
+        "9:10": {
           "id:3": 780,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 84
         },
-        "9:10": {
+        "10:10": {
           "id:3": 781,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 84
         },
-        "10:10": {
+        "11:10": {
           "id:3": 782,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 36
         },
-        "11:10": {
+        "12:10": {
           "id:3": 783,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 36
         },
-        "12:10": {
+        "13:10": {
           "id:3": 784,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 180
         },
-        "13:10": {
+        "14:10": {
           "id:3": 785,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 132
         },
-        "14:10": {
+        "15:10": {
           "id:3": 786,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 180
         },
-        "15:10": {
+        "16:10": {
           "id:3": 787,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 132
         },
-        "16:10": {
+        "17:10": {
           "id:3": 788,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -60
         },
-        "17:10": {
+        "18:10": {
           "id:3": 789,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 132
         },
-        "18:10": {
+        "19:10": {
           "id:3": 790,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": -60
         },
-        "19:10": {
+        "20:10": {
           "id:3": 791,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": 228
         },
-        "20:10": {
+        "21:10": {
           "id:3": 792,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 180
         },
-        "21:10": {
+        "22:10": {
           "id:3": 793,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 228
         },
-        "22:10": {
+        "23:10": {
           "id:3": 794,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": 84
         },
-        "23:10": {
+        "24:10": {
           "id:3": 795,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 228
         },
-        "24:10": {
+        "25:10": {
           "id:3": 796,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": 36
         },
-        "25:10": {
+        "26:10": {
           "id:3": 797,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": -108
         },
-        "26:10": {
+        "27:10": {
           "id:3": 798,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 36
         },
-        "27:10": {
+        "28:10": {
           "id:3": 799,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 84
         },
-        "28:10": {
+        "29:10": {
           "id:3": 800,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 132
         },
-        "29:10": {
+        "30:10": {
           "id:3": 801,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 180
         },
-        "30:10": {
+        "31:10": {
           "id:3": 802,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 228
         },
-        "31:10": {
+        "32:10": {
           "id:3": 803,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 180
         },
-        "32:10": {
+        "33:10": {
           "id:3": 804,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 276
         },
-        "33:10": {
+        "34:10": {
           "id:3": 805,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 132
         },
-        "34:10": {
+        "35:10": {
           "id:3": 806,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 84
         },
-        "35:10": {
+        "36:10": {
           "id:3": 807,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 324
         },
-        "36:10": {
+        "37:10": {
           "id:3": 808,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 48,
           "y:3": 372
         },
-        "37:10": {
+        "38:10": {
           "id:3": 809,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 372
         },
-        "38:10": {
+        "39:10": {
           "id:3": 810,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 324
         },
-        "39:10": {
+        "40:10": {
           "id:3": 811,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 276
         },
-        "40:10": {
+        "41:10": {
           "id:3": 812,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 0,
           "y:3": 228
         },
-        "41:10": {
+        "42:10": {
           "id:3": 813,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": 180
         },
-        "42:10": {
+        "43:10": {
           "id:3": 814,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 96,
           "y:3": 132
         },
-        "43:10": {
+        "44:10": {
           "id:3": 815,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -12
         },
-        "44:10": {
+        "45:10": {
           "id:3": 816,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -12
         },
-        "45:10": {
+        "46:10": {
           "id:3": 817,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -108
         },
-        "46:10": {
+        "47:10": {
           "id:3": 818,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": -60
         },
-        "47:10": {
+        "48:10": {
           "id:3": 819,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -60
         },
-        "48:10": {
+        "49:10": {
           "id:3": 820,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": -60
         },
-        "49:10": {
+        "50:10": {
           "id:3": 821,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
           "y:3": -108
         },
-        "50:10": {
+        "51:10": {
           "id:3": 822,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 84
         },
-        "51:10": {
+        "52:10": {
           "id:3": 823,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": 36
         },
-        "52:10": {
+        "53:10": {
           "id:3": 824,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": -12
         },
-        "53:10": {
+        "54:10": {
           "id:3": 825,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 288,
           "y:3": -60
         },
-        "54:10": {
+        "55:10": {
           "id:3": 826,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 276
         },
-        "55:10": {
+        "56:10": {
           "id:3": 827,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 276
         },
-        "56:10": {
+        "57:10": {
           "id:3": 828,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 144,
           "y:3": 324
         },
-        "57:10": {
+        "58:10": {
           "id:3": 829,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 240,
           "y:3": 324
         },
-        "58:10": {
+        "59:10": {
           "id:3": 830,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -64266,7 +65823,7 @@
           "id:3": 943,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 612,
+          "x:3": 684,
           "y:3": 600
         },
         "41:10": {
@@ -64602,7 +66159,7 @@
           "id:3": 991,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 540,
+          "x:3": 612,
           "y:3": 600
         },
         "89:10": {
@@ -64674,6 +66231,27 @@
           "sizeY:3": 48,
           "x:3": -84,
           "y:3": 240
+        },
+        "99:10": {
+          "id:3": 1003,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 540,
+          "y:3": 600
+        },
+        "100:10": {
+          "id:3": 1004,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 540,
+          "y:3": 672
+        },
+        "101:10": {
+          "id:3": 1005,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 540,
+          "y:3": 744
         }
       }
     }
