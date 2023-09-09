@@ -440,6 +440,34 @@ for i in 0 to 8 {
     mods.jei.JEI.removeAndHide(<morefurnaces:upgrade>.definition.makeStack(i));
 }
 
+mods.jei.JEI.removeAndHide(<deepmoblearning:simulation_chamber>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:extraction_chamber>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:polymer_clay>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:deep_learner>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:soot_covered_redstone>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:soot_covered_plate>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_blaze>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_creeper>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_dragon>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_enderman>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_ghast>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_guardian>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_shulker>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_skeleton>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_slime>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_spider>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_witch>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_wither>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_wither_skeleton>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:pristine_matter_zombie>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_infused_ingot>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_fragment>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:glitch_heart>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:infused_ingot_block>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:trial_key>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:machine_casing>);
+mods.jei.JEI.removeAndHide(<deepmoblearning:trial_keystone>);
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
@@ -495,3 +523,7 @@ mods.jei.JEI.hideCategory("container.jei.futuremc.stonecutter.name");
 #  Extended Crafting Category
 mods.jei.JEI.hideCategory("extendedcrafting:compressor");
 mods.jei.JEI.hideCategory("extendedcrafting:ender_crafting");
+
+#  Deep Mob Evolution Category
+mods.jei.JEI.hideCategory("deepmoblearning.simulation_chamber");
+mods.jei.JEI.hideCategory("deepmoblearning.extraction_chamber");
