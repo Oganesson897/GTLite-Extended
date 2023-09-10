@@ -232,6 +232,7 @@ var aurorium = MaterialBuilder(32016, "aurorium")
     .iconSet("shiny")
     .flags(["generate_plate",
             "generate_rod",
+            "generate_foil",
             "generate_frame",
             "generate_long_rod",
             "generate_round",
@@ -511,7 +512,7 @@ var tiberium = MaterialBuilder(32040, "tiberium")
             "generate_round",
             "generate_bolt_screw",
             "generate_frame"])
-    .blastTemp(10800)
+    .blastTemp(18800)
     .build();
 
 #  32041 Black Hole Matter Polymer Matrix
@@ -585,6 +586,17 @@ var reinforced_adamantium = MaterialBuilder(32046, "reinforced_adamantium")
     .build();
 
 <material:reinforced_adamantium>.setFormula("AdDs", true);
+
+#  32047 Deep Ocean Silver
+var deep_ocean_silver = MaterialBuilder(32047, "deep_ocean_silver")
+    .ingot()
+    .color(0x0B8596)
+    .iconSet("dull")
+    .cableProperties(33554432, 64, 128, false)
+    .blastTemp(16600)
+    .build();
+
+<material:deep_ocean_silver>.setFormula("?4Ag4Nt", true);
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")

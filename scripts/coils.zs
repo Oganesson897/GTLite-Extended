@@ -46,3 +46,21 @@ assembler.recipeBuilder()
     .EUt(7864320)
     .duration(1100)
     .buildAndRegister();
+
+#  T10  Deep Ocean Silver
+HeatingCoils.add(<blockstate:contenttweaker:machine_coil_deep_ocean_silver>,
+                 "deep_ocean_silver",
+                 18800,
+                 64,
+                 16,
+                 10,
+                 <material:deep_ocean_silver>);
+
+assembler.recipeBuilder()
+    .inputs([<ore:wireGtDoubleDeepOceanSilver> * 8,
+             <ore:foilAurorium> * 8])
+    .fluidInputs([<liquid:sunnarium> * 144])
+    .outputs([<contenttweaker:machine_coil_deep_ocean_silver>])
+    .EUt(31457280)
+    .duration(1200)
+    .buildAndRegister();

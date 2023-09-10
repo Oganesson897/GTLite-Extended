@@ -74,3 +74,14 @@ stellar_furnace.recipeBuilder()
     .EUt(8000000)
     .duration(12000)
     .buildAndRegister();
+
+#  Deep Ocean Silver dust
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <ore:dustLunarium> * 4,
+             <ore:dustSilver> * 4])
+    .fluidInputs([<liquid:neutronium> * 144])
+    .outputs([<gregtech:meta_dust:32047>])
+    .EUt(8000000)
+    .duration(400)
+    .buildAndRegister();

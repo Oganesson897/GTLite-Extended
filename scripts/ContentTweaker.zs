@@ -617,3 +617,9 @@ var mining_drone_max = VanillaFactory.createItem("mining_drone_max");
 #  Wire Coils
 var machine_coil_adamantium = VanillaFactory.createBlock("machine_coil_adamantium", <blockmaterial:iron>);
     machine_coil_adamantium.register();
+
+var machine_coil_sunnarium = VanillaFactory.createBlock("machine_coil_sunnarium", <blockmaterial:iron>);
+    machine_coil_sunnarium.register();
+
+var machine_coil_deep_ocean_silver = VanillaFactory.createBlock("machine_coil_deep_ocean_silver", <blockmaterial:iron>);
+    machine_coil_deep_ocean_silver.register();
