@@ -54624,7 +54624,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§a大概是陪伴你最久的多方块结构了...§r\n\n线圈§c热容§r列表：\n\n- 白铜线圈方块：1800 K\n\n- 坎塔尔合金线圈方块 ：2700 K\n\n- 镍铬合金线圈方块：3600 K\n\n- 钨钢线圈方块：4500 K\n\n- 高速钢-G线圈方块：5400 K\n\n- 硅岩线圈方块：7200 K\n\n- 凯金线圈方块：9001 K\n\n- 三钛合金线圈方块：10800 K\n\n- 精金线圈方块：13501 K\n\n- 日光金属线圈方块：16600 K\n\n- 星辰银线圈方块：18800 K\n",
+          "desc:8": "§a大概是陪伴你最久的多方块结构了...§r\n\n线圈§c热容§r列表：\n\n- 白铜线圈方块：1800 K\n\n- 坎塔尔合金线圈方块 ：2700 K\n\n- 镍铬合金线圈方块：3600 K\n\n- 钨钢线圈方块：4500 K\n\n- 高速钢-G线圈方块：5400 K\n\n- 硅岩线圈方块：7200 K\n\n- 凯金线圈方块：9001 K\n\n- 三钛合金线圈方块：10800 K\n\n- 精金线圈方块：13501 K\n\n- 日光金属线圈方块：16600 K\n\n- 深海沉银线圈方块：18800 K\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -59064,6 +59064,59 @@
             }
           },
           "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
+    },
+    "1010:10": {
+      "preRequisites:11": [
+        741,
+        687
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "§b并不是在深海的火山口发现的。§r\n\n你的下一个线圈方块。",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "contenttweaker:machine_coil_deep_ocean_silver"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "深海沉银线圈方块",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 1010,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:machine_coil_deep_ocean_silver"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     }
@@ -63888,7 +63941,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 252,
-          "y:3": 384
+          "y:3": 420
         },
         "1:10": {
           "id:3": 624,
@@ -64252,7 +64305,7 @@
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 180,
-          "y:3": 372
+          "y:3": 408
         },
         "53:10": {
           "id:3": 839,
@@ -64308,6 +64361,13 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 396,
+          "y:3": 312
+        },
+        "61:10": {
+          "id:3": 1010,
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 108,
           "y:3": 312
         }
       }

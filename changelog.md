@@ -124,3 +124,28 @@
     - Fixed structure problem of stellar furnace;
     - Fixed some wrong recipes;
     - Fixed some quests.
+
+##  from 0.0.4-alpha to 0.0.4-beta
+
+&nbsp;&nbsp;&nbsp;&nbsp;The seventh preview version of GregTech Lite, add many things, improve some quests.
+
+- Mod Changes
+    - Mod Updates
+        - Update Gregicality Multiblocks from 1.2.4 to 1.2.5;
+- General Changes
+    - All recipes of UXV components and machines has been added;
+    - New scripts of Extra Utils 2 has been added;
+    - Some recipes of Ender IO material has been added;
+    - Some recipes of transformers has been added;
+    - New Multiblock: _Space Elevator_
+        - UV
+        - Ultimate Ore Miner!
+    - New Multiblock: _Compressed Fusion Reactor Mk I, Compressed Fusion Reactor Mk II, Compressed Fusion Reactor Mk III_
+        - 64 recipes Fusion reactor;
+    - Rework of fusion reactors;
+    - Rework of Suprachronal Assembly Line and its recipes;
+    - New machine coils: Adamantium, Sunnarium and Deep Ocean Silver (textures completed by UMT, the art designer of GregTech Lite);
+    - Improved many quests.
+- Bug fixes
+    - Fixed some wrong recipes;
+    - Fixed some quests.
