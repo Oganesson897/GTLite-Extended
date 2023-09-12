@@ -153,3 +153,36 @@ assembler.recipeBuilder()
     .EUt(16)
     .duration(200)
     .buildAndRegister();
+
+extractor.recipeBuilder()
+    .inputs([<deepmoblearning:living_matter_overworldian>])
+    .outputs([<actuallyadditions:item_solidified_experience>])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+extractor.recipeBuilder()
+    .inputs([<deepmoblearning:living_matter_hellish>])
+    .outputs([<actuallyadditions:item_solidified_experience> * 2])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+extractor.recipeBuilder()
+    .inputs([<deepmoblearning:living_matter_extraterrestrial>])
+    .outputs([<actuallyadditions:item_solidified_experience> * 3])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .inputs([<actuallyadditions:item_solidified_experience> * 6])
+    .chancedOutput(<minecraft:rotten_flesh>, 8000, 200)
+    .chancedOutput(<minecraft:bone>, 4000, 100)
+    .chancedOutput(<minecraft:gunpowder>, 4000, 200)
+    .chancedOutput(<minecraft:slime_ball>, 4000, 200)
+    .chancedOutput(<minecraft:shulker_shell>, 1800, 300)
+    .chancedOutput(<minecraft:skull:1>, 1000, 500)
+    .EUt(255)
+    .duration(1200)
+    .buildAndRegister();

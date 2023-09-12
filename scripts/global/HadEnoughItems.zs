@@ -474,6 +474,13 @@ mods.jei.JEI.removeAndHide(<microblockcbe:saw_stone>);
 mods.jei.JEI.removeAndHide(<microblockcbe:saw_iron>);
 mods.jei.JEI.removeAndHide(<microblockcbe:saw_diamond>);
 
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_coal_generator>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_oil_generator>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_furnace_solar>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder_double>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_heat_collector>);
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
