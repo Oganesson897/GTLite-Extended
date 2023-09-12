@@ -42,7 +42,7 @@ death.attack.wrench_iv=%s的扳手扳倒了%s的美好人生
 death.attack.buzzsaw=%s手中圆锯的嗞嗞声成为了%s生命中最后听到的声音
 death.attack.screwdriver_lv=%s的螺丝被%s扭掉了
 
-enchantment.disjunction=Disjunction=末影离析
+enchantment.disjunction=末影离析
 
 gregtech.machine.steam_grinder.name=大型蒸汽研磨机
 gregtech.multiblock.steam_grinder.description=蒸汽时代的多方块研磨机。需要至少14块青铜机器外壳来成型。无法使用常规的输入/输出总线，仅可使用蒸汽输入/输出总线，使用蒸汽仓来输入蒸汽。
@@ -1564,6 +1564,8 @@ gregtech.material.cosmic_polymer_matrix=寰宇织网
 gregtech.material.tairitsium=对立金属
 gregtech.material.arcanium=韵律源金
 gregtech.material.tachyon_plasma=速子等离子体
+gregtech.material.reinforced_adamantium=强化精金
+gregtech.material.deep_ocean_silver=深海沉银
 
 gregtech.material.polyetheretherketone=聚醚醚酮
 gregtech.material.difluorobenzophenone=二氟二苯甲酮

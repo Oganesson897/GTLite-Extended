@@ -54,19 +54,6 @@ makeShaped("naquadria_neutron_reflection_casing", <contenttweaker:naquadria_neut
         "W": <ore:craftingToolWrench>
     });
 
-makeShaped("atomic_casing", <gcym:large_multiblock_casing:11> * 2,
-    [
-        "PHP",
-        "PFP",
-        "PWP"
-    ],
-    {
-        "F": <ore:frameGtNaquadria>,
-        "H": <ore:craftingToolHardHammer>,
-        "P": <ore:plateNiobiumTitanium>,
-        "W": <ore:craftingToolWrench>
-    });
-
 makeShaped("carbon_nanotube_casing", <contenttweaker:extremely_dense_carbon_nanotube_casing> * 2,
     [
         "PHP",

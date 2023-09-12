@@ -468,6 +468,12 @@ mods.jei.JEI.removeAndHide(<deepmoblearning:trial_key>);
 mods.jei.JEI.removeAndHide(<deepmoblearning:machine_casing>);
 mods.jei.JEI.removeAndHide(<deepmoblearning:trial_keystone>);
 
+mods.jei.JEI.removeAndHide(<microblockcbe:microblock:1>.withTag({mat: "minecraft:stone[variant=stone]"}));
+mods.jei.JEI.removeAndHide(<microblockcbe:stone_rod>);
+mods.jei.JEI.removeAndHide(<microblockcbe:saw_stone>);
+mods.jei.JEI.removeAndHide(<microblockcbe:saw_iron>);
+mods.jei.JEI.removeAndHide(<microblockcbe:saw_diamond>);
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
