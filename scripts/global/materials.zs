@@ -564,6 +564,7 @@ var arcanium = MaterialBuilder(32044, "arcanium")
             "generate_round",
             "generate_bolt_screw",
             "generate_frame"])
+    .blastTemp(18800)
     .build();
 
 #  32045 Tachyon Plasma
@@ -598,6 +599,46 @@ var deep_ocean_silver = MaterialBuilder(32047, "deep_ocean_silver")
     .build();
 
 <material:deep_ocean_silver>.setFormula("?4Ag4Nt", true);
+
+#  32048 Hypogen
+var hypogen = MaterialBuilder(32048, "hypogen")
+    .ingot()
+    .color(0xDB6951)
+    .iconSet("shiny")
+    .flags(["generate_plate",
+            "generate_foil",
+            "generate_fine_wire",
+            "generate_gear",
+            "generate_small_gear",
+            "generate_frame"])
+    .cableProperties(536870912, 999, 32, false)
+    .blastTemp(18800)
+    .build();
+
+#  32049 Etoilium
+var etoilium = MaterialBuilder(32049, "etoilium")
+    .ingot()
+    .color(0x4E71F0)
+    .iconSet("bright")
+    .blastTemp(13300)
+    .components([<material:enderium> * 7,
+                 <material:duranium> * 5,
+                 <material:blue_alloy> * 3])
+    .cableProperties(2097152, 4, 128, false)
+    .build();
+
+#  32050 Phantasium
+var phantasium = MaterialBuilder(32050, "phantasium")
+    .ingot()
+    .color(0x95CE92)
+    .iconSet("metallic")
+    .blastTemp(16160)
+    .components([<material:indium_phosphide> * 13,
+                 <material:ruridit> * 4,
+                 <material:vibrant_alloy> * 4,
+                 <material:uranium> * 3])
+    .cableProperties(524288, 2, 36, false)
+    .build();
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")

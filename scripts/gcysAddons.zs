@@ -1107,3 +1107,37 @@ assembly_line.recipeBuilder()
     .EUt(536870912)
     .duration(24000)
     .buildAndRegister();
+
+#  Etoilium
+mixer.recipeBuilder()
+    .inputs([<ore:dustEnderium> * 7,
+             <ore:dustDuranium> * 5,
+             <ore:dustBlueAlloy> * 3])
+    .outputs([<gregtech:meta_dust:32049> * 15])
+    .EUt(460000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Phantasium
+mixer.recipeBuilder()
+    .inputs([<ore:dustIndiumPhosphide> * 13,
+             <ore:dustRuridit> * 4,
+             <ore:dustVibrantAlloy> * 4,
+             <ore:dustUranium> * 3])
+    .outputs([<gregtech:meta_dust:32050> * 24])
+    .EUt(616000)
+    .duration(616)
+    .buildAndRegister();
+
+#  Arcanium
+mixer.recipeBuilder()
+    .inputs([<ore:dustHikarium> * 3,
+             <ore:dustTairitsium> * 3,
+             <ore:dustRedAlloy> * 3,
+             <ore:dustEtoilium> * 4,
+             <ore:dustLunarium> * 4,
+             <ore:dustPhantasium> * 2])
+    .outputs([<gregtech:meta_dust:32044> * 19])
+    .EUt(116160000)
+    .duration(1232)
+    .buildAndRegister();
