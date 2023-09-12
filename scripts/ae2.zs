@@ -16,6 +16,13 @@ Inscriber.removeRecipe(<appliedenergistics2:material:19>);
 Inscriber.removeRecipe(<appliedenergistics2:material:59>);
 Inscriber.removeRecipe(<appliedenergistics2:material:60>.withTag({}));
 
+macerator.recipeBuilder()
+    .inputs([<ore:crystalFluix>])
+    .outputs([<appliedenergistics2:material:8>])
+    .EUt(2)
+    .duration(20)
+    .buildAndRegister();
+
 forming_press.recipeBuilder()
     .notConsumable([<gregtech:meta_item_1:31>])
     .inputs([<ore:plateVanadiumSteel>])
