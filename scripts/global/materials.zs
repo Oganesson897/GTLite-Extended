@@ -279,7 +279,8 @@ var crystal_matrix = MaterialBuilder(32019, "crystal_matrix")
     .flags(["generate_rod",
             "generate_frame",
             "generate_spring",
-            "generate_spring_small"])
+            "generate_spring_small",
+            "generate_fine_wire"])
     .cableProperties(134217728, 32, 16, false)
     .build();
 

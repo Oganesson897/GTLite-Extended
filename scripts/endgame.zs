@@ -194,18 +194,6 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <appliedenergistics2:creative_e
 	[<gregtech:meta_item_1:741>, <gregtech:meta_item_1:742>, <gregtech:meta_item_1:742>, <gregtech:meta_item_1:742>, <gregtech:meta_item_1:742>, <gregtech:meta_item_1:742>, <gregtech:meta_item_1:742>, <gregtech:meta_item_1:742>, <gregtech:meta_item_1:741>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(4, <appliedenergistics2:creative_storage_cell>, [
-	[<ore:stickLongPedotTma>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:stickLongPedotTma>], 
-	[<gregtech:machine:1574>, <ore:stickLongPedotTma>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:stickLongPedotTma>, <gregtech:machine:1589>], 
-	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:meta_item_1:209>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:meta_item_1:209>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
-	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:circuitUhv>, <aeadditions:storage.physical:3>, <ore:circuitUhv>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
-	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <aeadditions:storage.casing>, <ore:frameGtVibranium>, <aeadditions:storage.casing:1>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
-	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:machine:1574>, <ore:circuitUhv>, <aeadditions:storage.fluid:2>, <ore:circuitUhv>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
-	[<gregtech:machine:1574>, <gregtech:machine:1574>, <gregtech:meta_item_1:209>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:meta_item_1:209>, <gregtech:machine:1589>, <gregtech:machine:1589>], 
-	[<gregtech:machine:1574>, <ore:stickLongPedotTma>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <ore:stickLongPedotTma>, <gregtech:machine:1589>], 
-	[<ore:stickLongPedotTma>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <gregtech:machine:1589>, <ore:stickLongPedotTma>]
-]);
-
 #  Storage Drawers
 mods.extendedcrafting.TableCrafting.addShaped(4, <storagedrawers:upgrade_creative>, [
 	[<ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateDenseNeutronium>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>], 

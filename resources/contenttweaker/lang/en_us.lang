@@ -23,6 +23,13 @@ item.contenttweaker.cosmic_diode.name=Cosmic Diode
 item.contenttweaker.cosmic_resistor.name=Cosmic Resistor
 item.contenttweaker.cosmic_transistor.name=Cosmic Transistor
 item.contenttweaker.cosmic_inductor.name=Cosmic Inductor
+item.contenttweaker.supracausal_cpu.name=Supracausal CPU
+item.contenttweaker.supracausal_cpu_unit.name=Supracausal Circuit Board
+item.contenttweaker.supracausal_capacitor.name=Supracausal Capacitor
+item.contenttweaker.supracausal_diode.name=Supracausal Diode
+item.contenttweaker.supracausal_resistor.name=Supracausal Resistor
+item.contenttweaker.supracausal_transistor.name=Supracausal Transistor
+item.contenttweaker.supracausal_inductor.name=Supracausal Inductor
 item.contenttweaker.nuclear_clock.name=Nuclear clock
 item.contenttweaker.ultrashort_pulse_laser.name=Ultrashort Pulse Laser
 item.contenttweaker.high_frequency_laser.name=High Frequency Laser
@@ -31,7 +38,19 @@ item.contenttweaker.photocoated_wafer.name=Photocoated Wafer
 item.contenttweaker.scintillator.name=Scintillator
 item.contenttweaker.scintillator_crystal.name=Scintillator Crystal
 item.contenttweaker.separation_electromagnet.name=Separation Electromagnet
-
+item.contenttweaker.time_dilation_containment_unit.name=Time Dilation Containment Unit
+item.contenttweaker.contained_kerr_newmann_singularity.name=Containmented Kerr-Newmann Singularity
+item.contenttweaker.contained_reissner_nordstrom_singularity.name=Containmented Reissner-Nordstrom Singularity
+item.contenttweaker.contained_kerr_singularity.name=Containmented Kerr Singularity
+item.contenttweaker.contained_schwarzschild_singularity.name=Containmented Schwarzschild Singularity
+item.contenttweaker.relativistic_spinorial_memory_system.name=Relativistic Spinorial Memory System
+item.contenttweaker.topological_manipulator_unit.name=Superspace Topological Manipulator Unit
+item.contenttweaker.graviton_transducer.name=Graviton Transducer
+item.contenttweaker.stabilized_wormhole_generator.name=Stabilized Wormhole Generator
+item.contenttweaker.macrowormhole_generator.name=Macrowormhole Generator
+item.contenttweaker.microwormhole_generator.name=Microwormhole Generator
+item.contenttweaker.recursively_folded_negative_space.name=Recursively Folded Negative Space
+item.contenttweaker.manifold_oscillatory_power_cell.name=Manifold Oscillatory Power Cell
 
 #  Endgame
 item.contenttweaker.singularity_of_universe.name=Singularity of Universe

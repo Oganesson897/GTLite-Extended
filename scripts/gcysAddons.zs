@@ -222,7 +222,7 @@ cutter.recipeBuilder()
     .duration(3600)
     .buildAndRegister();
 
-#  Cosmic circuit
+#  Cosmic processor
 circuit_assembler.recipeBuilder()
     .inputs([<contenttweaker:cosmic_cpu>,
              <gregtech:meta_item_1:705>,
@@ -276,7 +276,7 @@ circuit_assembler.recipeBuilder()
     .duration(400)
     .buildAndRegister();
 
-#  Cosmic computer
+#  Cosmic supercomputer
 assembly_line.recipeBuilder()
     .inputs([<contenttweaker:cosmic_cpu_unit>,
              <gcys:meta_item_1:13> * 2,
@@ -291,7 +291,7 @@ assembly_line.recipeBuilder()
                   <liquid:polyetheretherketone> * 2304])
     .outputs([<gcys:meta_item_1:14>])
     .EUt(33554432)
-    .duration(40000)
+    .duration(4000)
     .buildAndRegister();
 
 #  Cosmic mainframe
@@ -847,4 +847,263 @@ mixer.recipeBuilder()
     .outputs([<gregtech:meta_dust:32043> * 12])
     .EUt(200000)
     .duration(300)
+    .buildAndRegister();
+
+#  Time Dilation Containment Unit
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:plasma_containment_cell>,
+             <gregtech:meta_item_1:227> * 2,
+             <ore:stickLongNeutronium>,
+             <ore:wireFineHikarium> * 4])
+    .fluidInputs([<liquid:aurorium> * 144])
+    .outputs([<contenttweaker:time_dilation_containment_unit>])
+    .EUt(21474836)
+    .duration(4700)
+    .buildAndRegister();
+
+#  Supracausal CPU Unit
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:cosmic_cpu_unit>,
+             <ore:frameGtTiberium> * 4,
+             <contenttweaker:microwormhole_generator> * 2,
+             <gcys:meta_item_1:133> * 4,
+             <gregtech:meta_item_1:599> * 4,
+             <ore:wireFineHikarium> * 16])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 288,
+                  <liquid:black_hole_matter_polymer_matrix> * 288])
+    .outputs([<contenttweaker:supracausal_cpu_unit>])
+    .EUt(134217728)
+    .duration(6000)
+    .buildAndRegister();
+
+#  Topological Manipulator Unit
+assembly_line.recipeBuilder()
+    .inputs([<ore:plateNeutronium> * 2,
+             <contenttweaker:macrowormhole_generator>,
+             <contenttweaker:contained_kerr_newmann_singularity>,
+             <gregtech:meta_item_1:211>])
+    .fluidInputs([<liquid:soldering_alloy> * 5000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576])
+    .outputs([<contenttweaker:topological_manipulator_unit>])
+    .EUt(33550000)
+    .duration(600)
+    .buildAndRegister();
+
+#  Relativistic Spinorial Memory System
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:497> * 4,
+             <contenttweaker:stabilized_wormhole_generator>,
+             <gregtech:meta_item_1:753>,
+             <contenttweaker:ultimate_fusion_binding_unit> * 2,
+             <gregtech:meta_item_1:212>,
+             <ore:wireGtQuadrupleCrystalMatrix> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 3000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:zylon> * 576,
+                  <liquid:cosmic_computing_mixture> * 288])
+    .outputs([<contenttweaker:relativistic_spinorial_memory_system>])
+    .EUt(33550000)
+    .duration(800)
+    .buildAndRegister();
+
+#  Graviton Transducer
+assembly_line.recipeBuilder()
+    .inputs([<ore:plateNeutronium> * 4,
+             <contenttweaker:macrowormhole_generator>,
+             <gregtech:meta_item_1:227> * 2,
+             <gregtech:meta_item_1:242> * 2,
+             <ore:wireFineMithril> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 4000,
+                  <liquid:black_hole_matter_polymer_matrix> * 288,
+                  <liquid:zylon> * 288,
+                  <liquid:polyetheretherketone> * 288])
+    .outputs([<contenttweaker:graviton_transducer>])
+    .EUt(33550000)
+    .duration(400)
+    .buildAndRegister();
+
+#  Stabilized Wormhole Generator
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:macrowormhole_generator>,
+             <contenttweaker:contained_kerr_singularity>,
+             <gregtech:meta_item_1:747> * 4,
+             <gregtech:meta_item_1:225> * 2,
+             <gregtech:meta_item_1:240> * 2,
+             <gregtech:meta_item_1:210> * 2,
+             <ore:wireGtDoubleEuropium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 9000,
+                  <liquid:vibranium> * 576,
+                  <liquid:zylon> * 288,
+                  <liquid:polyetheretherketone> * 288])
+    .outputs([<contenttweaker:stabilized_wormhole_generator>])
+    .EUt(33550000)
+    .duration(800)
+    .buildAndRegister();
+
+#  Supracausal CPU
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:supracausal_cpu_unit>,
+             <contenttweaker:cosmic_cpu>,
+             <contenttweaker:relativistic_spinorial_memory_system>,
+             <contenttweaker:graviton_transducer>,
+             <contenttweaker:topological_manipulator_unit>,
+             <ore:foilHikarium> * 32,
+             <ore:wireGtOctalCrystalMatrix> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 1296,
+                  <liquid:black_hole_matter_polymer_matrix> * 1296])
+    .outputs([<contenttweaker:supracausal_cpu>])
+    .EUt(134217728)
+    .duration(9000)
+    .buildAndRegister();
+
+#  Supracausal SMD
+assembler.recipeBuilder()
+    .inputs([<ore:cableGtSingleCrystalMatrix> * 2,
+             <ore:plateAurorium>])
+    .fluidInputs([<liquid:black_hole_matter_polymer_matrix> * 36])
+    .outputs([<contenttweaker:supracausal_capacitor> * 16])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:dustNeutronium>,
+             <ore:wireFineHikarium> * 4])
+    .fluidInputs([<liquid:black_hole_matter_polymer_matrix> * 36])
+    .outputs([<contenttweaker:supracausal_diode> * 16])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:wireFineCrystalMatrix> * 4,
+             <ore:dustNeutronium>])
+    .fluidInputs([<liquid:black_hole_matter_polymer_matrix> * 36])
+    .outputs([<contenttweaker:supracausal_resistor> * 16])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:wireFineHikarium> * 4,
+             <ore:plateNeutronium>])
+    .fluidInputs([<liquid:black_hole_matter_polymer_matrix> * 36])
+    .outputs([<contenttweaker:supracausal_transistor> * 16])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:ringNeutronium>,
+             <ore:wireFineCrystalMatrix> * 4])
+    .fluidInputs([<liquid:black_hole_matter_polymer_matrix> * 36])
+    .outputs([<contenttweaker:supracausal_inductor> * 16])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+#  Recursively Folded Negative Space
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:manifold_oscillatory_power_cell> * 4,
+             <contenttweaker:microwormhole_generator> * 2,
+             <gregtech:meta_item_1:213> * 2,
+             <ore:wireFineCrystalMatrix> * 16])
+    .fluidInputs([<liquid:black_hole_matter_polymer_matrix> * 576])
+    .outputs([<contenttweaker:recursively_folded_negative_space> * 32])
+    .EUt(134217728)
+    .duration(1600)
+    .buildAndRegister();
+
+#  Supracausal processor
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:supracausal_cpu>,
+             <gregtech:meta_item_1:705>,
+             <contenttweaker:supracausal_resistor> * 8,
+             <contenttweaker:supracausal_capacitor> * 8,
+             <contenttweaker:supracausal_transistor> * 8,
+             <ore:wireFineHikarium> * 8])
+    .fluidInputs([<liquid:tin> * 288])
+    .outputs([<gcys:meta_item_1:16> * 2])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:supracausal_cpu>,
+             <gregtech:meta_item_1:705>,
+             <contenttweaker:supracausal_resistor> * 8,
+             <contenttweaker:supracausal_capacitor> * 8,
+             <contenttweaker:supracausal_transistor> * 8,
+             <ore:wireFineHikarium> * 8])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<gcys:meta_item_1:16> * 2])
+    .EUt(134217728)
+    .duration(200)
+    .buildAndRegister();
+
+#  Supracausal Assembly
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:supracausal_cpu_unit>,
+             <gcys:meta_item_1:16> * 2,
+             <contenttweaker:supracausal_inductor> * 8,
+             <contenttweaker:supracausal_capacitor> * 8,
+             <contenttweaker:recursively_folded_negative_space> * 24,
+             <ore:wireFineHikarium> * 16])
+    .fluidInputs([<liquid:tin> * 576])
+    .outputs([<gcys:meta_item_1:17> * 2])
+    .EUt(134217728)
+    .duration(400)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<contenttweaker:supracausal_cpu_unit>,
+             <gcys:meta_item_1:16> * 2,
+             <contenttweaker:supracausal_inductor> * 8,
+             <contenttweaker:supracausal_capacitor> * 8,
+             <contenttweaker:recursively_folded_negative_space> * 24,
+             <ore:wireFineHikarium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 288])
+    .outputs([<gcys:meta_item_1:17> * 2])
+    .EUt(134217728)
+    .duration(400)
+    .buildAndRegister();
+
+#  Supracausal Supercomputer
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:supracausal_cpu_unit>,
+             <gcys:meta_item_1:17> * 2,
+             <contenttweaker:supracausal_diode> * 16,
+             <contenttweaker:recursively_folded_negative_space> * 64,
+             <ore:wireFineHikarium> * 64,
+             <ore:foilCrystalMatrix> * 64,
+             <ore:plateNeutronium> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 34560,
+                  <liquid:black_hole_matter_polymer_matrix> * 18432,
+                  <liquid:zylon> * 9216,
+                  <liquid:kevlar> * 4608])
+    .outputs([<gcys:meta_item_1:18>])
+    .EUt(134217728)
+    .duration(4000)
+    .buildAndRegister();
+
+#  Supracausal Mainframe
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtTiberium> * 2,
+             <gcys:meta_item_1:18> * 2,
+             <contenttweaker:supracausal_diode> * 64,
+             <contenttweaker:supracausal_capacitor> * 64,
+             <contenttweaker:supracausal_transistor> * 64,
+             <contenttweaker:supracausal_resistor> * 64,
+             <contenttweaker:supracausal_inductor> * 64,
+             <ore:foilCrystalMatrix> * 64,
+             <contenttweaker:recursively_folded_negative_space> * 64,
+             <ore:wireGtDoubleInfinity> * 64,
+             <ore:plateNeutronium> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 43776,
+                  <liquid:black_hole_matter_polymer_matrix> * 34560,
+                  <liquid:zylon> * 17280,
+                  <liquid:kevlar> * 8640])
+    .outputs([<gcys:meta_item_1:19>])
+    .EUt(536870912)
+    .duration(24000)
     .buildAndRegister();

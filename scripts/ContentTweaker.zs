@@ -65,22 +65,57 @@ var cosmic_capacitor = VanillaFactory.createItem("cosmic_capacitor");
 var cosmic_diode = VanillaFactory.createItem("cosmic_diode");
     cosmic_diode.maxStackSize = 64;
     cosmic_diode.creativeTab = <creativetab:gregtech.main>;
-    cosmic_diode.register(); 
+    cosmic_diode.register();
 
 var cosmic_resistor = VanillaFactory.createItem("cosmic_resistor");
     cosmic_resistor.maxStackSize = 64;
     cosmic_resistor.creativeTab = <creativetab:gregtech.main>;
-    cosmic_resistor.register(); 
+    cosmic_resistor.register();
 
 var cosmic_transistor = VanillaFactory.createItem("cosmic_transistor");
     cosmic_transistor.maxStackSize = 64;
     cosmic_transistor.creativeTab = <creativetab:gregtech.main>;
-    cosmic_transistor.register(); 
+    cosmic_transistor.register();
 
 var cosmic_inductor = VanillaFactory.createItem("cosmic_inductor");
     cosmic_inductor.maxStackSize = 64;
     cosmic_inductor.creativeTab = <creativetab:gregtech.main>;
-    cosmic_inductor.register(); 
+    cosmic_inductor.register();
+
+var supracausal_cpu = VanillaFactory.createItem("supracausal_cpu");
+    supracausal_cpu.maxStackSize = 64;
+    supracausal_cpu.creativeTab = <creativetab:gregtech.main>;
+    supracausal_cpu.register();
+
+var supracausal_cpu_unit = VanillaFactory.createItem("supracausal_cpu_unit");
+    supracausal_cpu_unit.maxStackSize = 64;
+    supracausal_cpu_unit.creativeTab = <creativetab:gregtech.main>;
+    supracausal_cpu_unit.register();
+
+var supracausal_capacitor = VanillaFactory.createItem("supracausal_capacitor");
+    supracausal_capacitor.maxStackSize = 64;
+    supracausal_capacitor.creativeTab = <creativetab:gregtech.main>;
+    supracausal_capacitor.register();
+
+var supracausal_diode = VanillaFactory.createItem("supracausal_diode");
+    supracausal_diode.maxStackSize = 64;
+    supracausal_diode.creativeTab = <creativetab:gregtech.main>;
+    supracausal_diode.register();
+
+var supracausal_resistor = VanillaFactory.createItem("supracausal_resistor");
+    supracausal_resistor.maxStackSize = 64;
+    supracausal_resistor.creativeTab = <creativetab:gregtech.main>;
+    supracausal_resistor.register();
+
+var supracausal_transistor = VanillaFactory.createItem("supracausal_transistor");
+    supracausal_transistor.maxStackSize = 64;
+    supracausal_transistor.creativeTab = <creativetab:gregtech.main>;
+    supracausal_transistor.register();
+
+var supracausal_inductor = VanillaFactory.createItem("supracausal_inductor");
+    supracausal_inductor.maxStackSize = 64;
+    supracausal_inductor.creativeTab = <creativetab:gregtech.main>;
+    supracausal_inductor.register();
 
 var nuclear_clock = VanillaFactory.createItem("nuclear_clock");
     nuclear_clock.maxStackSize = 64;
@@ -121,6 +156,71 @@ var separation_electromagnet = VanillaFactory.createItem("separation_electromagn
     separation_electromagnet.maxStackSize = 64;
     separation_electromagnet.creativeTab = <creativetab:gregtech.main>;
     separation_electromagnet.register();
+
+var time_dilation_containment_unit = VanillaFactory.createItem("time_dilation_containment_unit");
+    time_dilation_containment_unit.maxStackSize = 64;
+    time_dilation_containment_unit.creativeTab = <creativetab:gregtech.main>;
+    time_dilation_containment_unit.register();
+
+var contained_kerr_newmann_singularity = VanillaFactory.createItem("contained_kerr_newmann_singularity");
+    contained_kerr_newmann_singularity.maxStackSize = 64;
+    contained_kerr_newmann_singularity.creativeTab = <creativetab:gregtech.main>;
+    contained_kerr_newmann_singularity.register();
+
+var contained_reissner_nordstrom_singularity = VanillaFactory.createItem("contained_reissner_nordstrom_singularity");
+    contained_reissner_nordstrom_singularity.maxStackSize = 64;
+    contained_reissner_nordstrom_singularity.creativeTab = <creativetab:gregtech.main>;
+    contained_reissner_nordstrom_singularity.register();
+
+var contained_kerr_singularity = VanillaFactory.createItem("contained_kerr_singularity");
+    contained_kerr_singularity.maxStackSize = 64;
+    contained_kerr_singularity.creativeTab = <creativetab:gregtech.main>;
+    contained_kerr_singularity.register();
+
+var contained_schwarzschild_singularity = VanillaFactory.createItem("contained_schwarzschild_singularity");
+    contained_schwarzschild_singularity.maxStackSize = 64;
+    contained_schwarzschild_singularity.creativeTab = <creativetab:gregtech.main>;
+    contained_schwarzschild_singularity.register();
+
+var relativistic_spinorial_memory_system = VanillaFactory.createItem("relativistic_spinorial_memory_system");
+    relativistic_spinorial_memory_system.maxStackSize = 64;
+    relativistic_spinorial_memory_system.creativeTab = <creativetab:gregtech.main>;
+    relativistic_spinorial_memory_system.register();
+
+var topological_manipulator_unit = VanillaFactory.createItem("topological_manipulator_unit");
+    topological_manipulator_unit.maxStackSize = 64;
+    topological_manipulator_unit.creativeTab = <creativetab:gregtech.main>;
+    topological_manipulator_unit.register();
+
+var graviton_transducer = VanillaFactory.createItem("graviton_transducer");
+    graviton_transducer.maxStackSize = 64;
+    graviton_transducer.creativeTab = <creativetab:gregtech.main>;
+    graviton_transducer.register();
+
+var stabilized_wormhole_generator = VanillaFactory.createItem("stabilized_wormhole_generator");
+    stabilized_wormhole_generator.maxStackSize = 64;
+    stabilized_wormhole_generator.creativeTab = <creativetab:gregtech.main>;
+    stabilized_wormhole_generator.register();
+
+var macrowormhole_generator = VanillaFactory.createItem("macrowormhole_generator");
+    macrowormhole_generator.maxStackSize = 64;
+    macrowormhole_generator.creativeTab = <creativetab:gregtech.main>;
+    macrowormhole_generator.register();
+
+var microwormhole_generator = VanillaFactory.createItem("microwormhole_generator");
+    microwormhole_generator.maxStackSize = 64;
+    microwormhole_generator.creativeTab = <creativetab:gregtech.main>;
+    microwormhole_generator.register();
+
+var recursively_folded_negative_space = VanillaFactory.createItem("recursively_folded_negative_space");
+    recursively_folded_negative_space.maxStackSize = 64;
+    recursively_folded_negative_space.creativeTab = <creativetab:gregtech.main>;
+    recursively_folded_negative_space.register();
+
+var manifold_oscillatory_power_cell = VanillaFactory.createItem("manifold_oscillatory_power_cell");
+    manifold_oscillatory_power_cell.maxStackSize = 64;
+    manifold_oscillatory_power_cell.creativeTab = <creativetab:gregtech.main>;
+    manifold_oscillatory_power_cell.register();
 
 #  Components
 

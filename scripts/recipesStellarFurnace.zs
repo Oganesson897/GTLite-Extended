@@ -85,3 +85,73 @@ stellar_furnace.recipeBuilder()
     .EUt(8000000)
     .duration(400)
     .buildAndRegister();
+
+#  Schwarzschild Singularity
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:time_dilation_containment_unit>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 144])
+    .outputs([<contenttweaker:contained_schwarzschild_singularity>])
+    .EUt(500000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Kerr Singularity
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:contained_schwarzschild_singularity>])
+    .fluidInputs([<liquid:plasma.vibranium> * 144])
+    .outputs([<contenttweaker:contained_kerr_singularity>])
+    .EUt(500000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Reissner-Nordstrom Singularity
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:contained_kerr_singularity>])
+    .fluidInputs([<liquid:plasma.adamantium> * 144])
+    .outputs([<contenttweaker:contained_reissner_nordstrom_singularity>])
+    .EUt(500000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Kerr-Newmann Singularity
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:contained_reissner_nordstrom_singularity>])
+    .fluidInputs([<liquid:tiberium> * 144])
+    .outputs([<contenttweaker:contained_kerr_newmann_singularity>])
+    .EUt(500000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Microwormhole Generator
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:contained_reissner_nordstrom_singularity>])
+    .fluidInputs([<liquid:tachyon_plasma> * 144])
+    .outputs([<contenttweaker:microwormhole_generator>])
+    .EUt(1000000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Macrowormhole Generator
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:microwormhole_generator>])
+    .fluidInputs([<liquid:neutron_plasma> * 144])
+    .outputs([<contenttweaker:macrowormhole_generator>])
+    .EUt(1000000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Manifold Oscillatory Power Cell
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <gregtech:meta_item_1:753>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 144])
+    .outputs([<contenttweaker:manifold_oscillatory_power_cell> * 32])
+    .EUt(1000000)
+    .duration(1200)
+    .buildAndRegister();

@@ -54,7 +54,7 @@ pcb_factory.recipeBuilder()
     .inputs([<ore:platePlastic> * 64,
              <ore:foilCopper> * 64])
     .fluidInputs([<liquid:sulfuric_acid> * 16000])
-    .outputs([<gregtech:meta_item_1:383>])
+    .outputs([<gregtech:meta_item_1:383>  * 64])
     .EUt(128)
     .duration(200)
     .buildAndRegister();
