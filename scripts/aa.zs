@@ -212,3 +212,97 @@ assembly_line.recipeBuilder()
     .EUt(30000)
     .duration(600)
     .buildAndRegister();
+
+#  Drills
+recipes.remove(<actuallyadditions:item_drill_upgrade_speed>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePlastic>,
+             <ore:toolHeadDrillSteel> * 2,
+             <actuallyadditions:item_crystal_empowered:5> * 4,
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_speed>])
+    .EUt(16)
+    .duration(600)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_speed_ii>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePolyvinylChloride>,
+             <ore:toolHeadDrillAluminium> * 2,
+             <actuallyadditions:item_crystal_empowered:1> * 4,
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_speed_ii>])
+    .EUt(32)
+    .duration(1200)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_speed_iii>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePolytetrafluoroethylene>,
+             <ore:toolHeadDrillStainlessSteel> * 2,
+             <actuallyadditions:item_crystal_empowered:4> * 4,
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_speed_iii>])
+    .EUt(128)
+    .duration(2400)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_silk_touch>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePolyvinylChloride>,
+             <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 33 as short}]}),
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_silk_touch>])
+    .EUt(32)
+    .duration(1200)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_fortune>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePolyvinylChloride>,
+             <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 35 as short}]}),
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_fortune>])
+    .EUt(32)
+    .duration(1200)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_fortune_ii>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePolytetrafluoroethylene>,
+             <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 35 as short}]}),
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_fortune_ii>])
+    .EUt(128)
+    .duration(2400)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_block_placing>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePlastic>,
+             <actuallyadditions:block_placer>,
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_block_placing>])
+    .EUt(16)
+    .duration(1200)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_three_by_three>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePolyvinylChloride>,
+             <ore:batteryHv>,
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_three_by_three>])
+    .EUt(32)
+    .duration(1200)
+    .buildAndRegister();
+
+recipes.remove(<actuallyadditions:item_drill_upgrade_five_by_five>);
+assembler.recipeBuilder()
+    .inputs([<ore:platePolytetrafluoroethylene>,
+             <ore:batteryEv>,
+             <actuallyadditions:item_crystal_empowered:2> * 2])
+    .outputs([<actuallyadditions:item_drill_upgrade_five_by_five>])
+    .EUt(128)
+    .duration(2400)
+    .buildAndRegister();
