@@ -11,6 +11,7 @@ import crafttweaker.oredict.IOreDictEntry;
 
 val AppliedEnergistics2    = loadedMods["appliedenergistics2"];
 val AEAdditionsExtraCells2 = loadedMods["aeadditions"];
+val ExtraUtils2            = loadedMods["extrautils2"];
 val GregTechCEu            = loadedMods["gregtech"];
 
 if (!isNull(AppliedEnergistics2)) {
@@ -31,6 +32,15 @@ if (!isNull(AEAdditionsExtraCells2)) {
     for item in itemAEAdditionsExtraCells2 {
         if (item.displayName has "ME流体样板") {
             mods.jei.JEI.hide(item);
+        }
+    }
+}
+
+if (!isNull(ExtraUtils2)) {
+    val itemExtraUtils2 as IItemStack[] = ExtraUtils2.items;
+    for item in itemExtraUtils2 {
+        if (item.displayName has "生物群系标记") {
+            mods.jei.JEI.removeAndHide(item);
         }
     }
 }
