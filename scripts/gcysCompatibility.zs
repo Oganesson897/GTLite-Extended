@@ -2566,3 +2566,32 @@ arc_furnace.recipeBuilder()
     .EUt(30)
     .duration(35)
     .buildAndRegister();
+
+##  OpV voltage coil
+<recipemap:macerator>.findRecipe(32, [<gcys:meta_item_1:354>], null).remove();
+<recipemap:arc_furnace>.findRecipe(30, [<gcys:meta_item_1:354>], [<liquid:oxygen> * 350]).remove();
+
+macerator.recipeBuilder()
+    .inputs([<gcys:meta_item_1:354>])
+    .outputs([<gregtech:meta_dust:32048> * 2,
+              <gregtech:meta_dust_small:32052> * 2])
+    .EUt(32)
+    .duration(35.6)
+    .buildAndRegister();
+
+arc_furnace.recipeBuilder()
+    .inputs([<gcys:meta_item_1:354>])
+    .outputs([<gregtech:meta_ingot:32048> * 2,
+              <gregtech:meta_nugget:32052> * 2])
+    .EUt(30)
+    .duration(35)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:stickStellarDebris>,
+             <ore:wireFineHypogen> * 16])
+    .circuit(1)
+    .outputs([<gcys:meta_item_1:354>])
+    .EUt(536870912)
+    .duration(200)
+    .buildAndRegister();

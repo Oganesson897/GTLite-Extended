@@ -7018,8 +7018,8 @@ var cosmic_ray_detector = Builder.start("cosmic_ray_detector")
         .where("C", <metastate:gregtech:meta_block_frame_7:15>)
         .where("c", <blockstate:contenttweaker:ultimate_fusion_binding_unit>)
         .where("F", <metastate:gcym:large_multiblock_casing:11>)
-        .where("E", <metastate:gregtech:computer_casing:2>)
-        .where("s", <metastate:gregtech:computer_casing:3>)
+        .where("E", <metastate:gregtech:computer_casing:3>)
+        .where("s", <metastate:gregtech:computer_casing:2>)
         .where("X", CTPredicate.states(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
                       | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
                                    .setMinGlobalLimited(1)
@@ -7049,12 +7049,29 @@ var cosmic_ray_detector = Builder.start("cosmic_ray_detector")
             .minInputs(1)
             .maxInputs(4)
             .minFluidInputs(1)
-            .maxFluidInputs(4)
+            .maxFluidInputs(2)
             .minOutputs(1)
             .maxOutputs(4)
             .minFluidOutputs(1)
-            .maxFluidOutputs(4)
+            .maxFluidOutputs(2)
             .build()
     )
     .withBaseTexture(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtNeutronium> * 16,
+             <gregtech:machine:1038>,
+             <gregtech:machine:1039>,
+             <gregtech:meta_item_1:228> * 4,
+             <gregtech:meta_item_1:243> * 4,
+             <ore:gearHikarium> * 8,
+             <ore:gearSmallHikarium> * 4,
+             <ore:cableGtQuadrupleHikarium> * 16,
+             <ore:wireFineCrystalMatrix> * 64,
+             <ore:wireFineCrystalMatrix> * 64])
+    .fluidInputs([<liquid:black_hole_matter_polymer_matrix> * 576])
+    .outputs([<gregtech:machine:32026>])
+    .EUt(100000000)
+    .duration(10000)
     .buildAndRegister();

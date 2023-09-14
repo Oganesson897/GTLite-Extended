@@ -1219,6 +1219,10 @@ gregtech.machine.muffler_hatch.uxv.name=消声仓（§eUXV§r）
 gregtech.machine.muffler_hatch.opv.name=消声仓（§9OpV§r）
 gregtech.machine.muffler_hatch.max.name=消声仓（§c§lMAX§r）
 
+gregtech.material.biphenyl=联苯
+gregtech.material.polychlorinated_biphenyl=多氯联苯
+gregtech.material.pcb_coolant=电介质多氯联苯冷却液
+
 #  GCYS
 gregtech.material.lithium_6=锂-6
 gregtech.material.lithium_7=锂-7
