@@ -6843,3 +6843,218 @@ assembly_line.recipeBuilder()
     .EUt(2097152)
     .duration(36000)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var cosmic_ray_detector = Builder.start("cosmic_ray_detector")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "      xxx      ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "      xxx      ",
+                "    xx   xx    ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "       x       ",
+                "    xxx xxx    ",
+                "   x       x   ",
+                "               ")
+            .aisle(
+                "      XXX      ",
+                "      XXX      ",
+                "      XXX      ",
+                "               ",
+                "               ",
+                "       X       ",
+                "     xxxxx     ",
+                "   xx     xx   ",
+                "  x         x  ",
+                "               ")
+            .aisle(
+                "     XXXXX     ",
+                "     X X X     ",
+                "     X   X     ",
+                "      XXX      ",
+                "      XXX      ",
+                "     XXXXX     ",
+                "    xxxxxxx    ",
+                "  xx       xx  ",
+                " x           x ",
+                "               ")
+            .aisle(
+                "    XXXXXXX    ",
+                "    X     X    ",
+                "    X     X    ",
+                "     X   X     ",
+                "     X   X     ",
+                "    XXxxxXX    ",
+                "   xxx   xxx   ",
+                "  x         x  ",
+                " x           x ",
+                "               ")
+            .aisle(
+                "   XXXXXXXXX   ",
+                "   X   E   X   ",
+                "   X       X   ",
+                "    X     X    ",
+                "    X  F  X    ",
+                "    XxxxxxX    ",
+                "   xx     xx   ",
+                " xx         xx ",
+                "x             x",
+                "               ")
+            .aisle(
+                "   XXXXXXXXX   ",
+                "   X  EcE  X   ",
+                "   X   c   X   ",
+                "    X  c  X    ",
+                "    X FcF X    ",
+                "   XXxxExxXX   ",
+                "  xxx  C  xxx  ",
+                " x     C     x ",
+                "x      C      x",
+                "       s       ")
+            .aisle(
+                "   XXXXXXXXX   ",
+                "   X   E   X   ",
+                "   X       X   ",
+                "    X     X    ",
+                "    X  F  X    ",
+                "    XxxxxxX    ",
+                "   xx     xx   ",
+                " xx         xx ",
+                "x             x",
+                "               ")
+            .aisle(
+                "    XXXXXXX    ",
+                "    X     X    ",
+                "    X     X    ",
+                "     X   X     ",
+                "     X   X     ",
+                "    XXxxxXX    ",
+                "   xxx   xxx   ",
+                "  x         x  ",
+                " x           x ",
+                "               ")
+            .aisle(
+                "     XXXXX     ",
+                "     X X X     ",
+                "     X   X     ",
+                "      XXX      ",
+                "      XXX      ",
+                "     XXXXX     ",
+                "    xxxxxxx    ",
+                "  xx       xx  ",
+                " x           x ",
+                "               ")
+            .aisle(
+                "      XXX      ",
+                "      XSX      ",
+                "      XXX      ",
+                "               ",
+                "               ",
+                "       X       ",
+                "     xxxxx     ",
+                "   xx     xx   ",
+                "  x         x  ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "       x       ",
+                "    xxx xxx    ",
+                "   x       x   ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "      xxx      ",
+                "    xx   xx    ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "               ",
+                "      xxx      ",
+                "               ")
+        .where("S", controller.self())
+        .where("x", <metastate:gregtech:machine_casing:12>)
+        .where("C", <metastate:gregtech:meta_block_frame_7:15>)
+        .where("c", <blockstate:contenttweaker:ultimate_fusion_binding_unit>)
+        .where("F", <metastate:gcym:large_multiblock_casing:11>)
+        .where("E", <metastate:gregtech:computer_casing:2>)
+        .where("s", <metastate:gregtech:computer_casing:3>)
+        .where("X", CTPredicate.states(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMaxGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(4)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(4)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(4)
+                                   .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("cosmic_ray_detector")
+            .minInputs(1)
+            .maxInputs(4)
+            .minFluidInputs(1)
+            .maxFluidInputs(4)
+            .minOutputs(1)
+            .maxOutputs(4)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(4)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:extremely_dense_carbon_nanotube_casing>)
+    .buildAndRegister();

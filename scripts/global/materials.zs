@@ -659,6 +659,16 @@ var soularium = MaterialBuilder(32051, "soularium")
     .components([<material:gold> * 1])
     .build();
 
+#  32052 Stellar Debris
+var stellar_debris = MaterialBuilder(32052, "stellar_debris")
+    .ingot()
+    .color(0xEEDD6D)
+    .iconSet("magnetic")
+    .flags(["generate_rod",
+            "generate_long_rod"])
+    .blastTemp(17900)
+    .build();
+
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
     .fluid()

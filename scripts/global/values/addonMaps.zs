@@ -2,6 +2,7 @@
 
 import mods.gregtech.recipe.RecipeMap;
 
+#  Multiblock Tweaker
 global virtual_cosmos_mk1                                       as RecipeMap = RecipeMap.getByName("virtual_cosmos_mk1");
 global virtual_cosmos_mk2                                       as RecipeMap = RecipeMap.getByName("virtual_cosmos_mk2");
 global virtual_cosmos_mk3                                       as RecipeMap = RecipeMap.getByName("virtual_cosmos_mk3");
@@ -28,4 +29,7 @@ global space_elevator                                           as RecipeMap = R
 global compressed_fusion_reactor_mk1                            as RecipeMap = RecipeMap.getByName("compressed_fusion_reactor_mk1");
 global compressed_fusion_reactor_mk2                            as RecipeMap = RecipeMap.getByName("compressed_fusion_reactor_mk2");
 global compressed_fusion_reactor_mk3                            as RecipeMap = RecipeMap.getByName("compressed_fusion_reactor_mk3");
+global cosmic_ray_detector                                      as RecipeMap = RecipeMap.getByName("cosmic_ray_detector");
+
+#  Devtech
 global simulation_chamber                                       as RecipeMap = RecipeMap.getByName("simulation_chamber");

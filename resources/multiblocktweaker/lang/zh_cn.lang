@@ -24,6 +24,7 @@ multiblocktweaker.machine.space_elevator.name=太空电梯
 multiblocktweaker.machine.compressed_fusion_reactor_mk1.name=压缩核聚变反应堆控制电脑 Mk I
 multiblocktweaker.machine.compressed_fusion_reactor_mk2.name=压缩核聚变反应堆控制电脑 Mk II
 multiblocktweaker.machine.compressed_fusion_reactor_mk3.name=压缩核聚变反应堆控制电脑 Mk III
+multiblocktweaker.machine.cosmic_ray_detector.name=宇宙射线探测器
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
@@ -51,6 +52,7 @@ multiblocktweaker.multiblock.space_elevator.name=太空电梯
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk1.name=压缩核聚变反应堆控制电脑 Mk I
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk2.name=压缩核聚变反应堆控制电脑 Mk II
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk3.name=压缩核聚变反应堆控制电脑 Mk III
+multiblocktweaker.multiblock.cosmic_ray_detector.name=宇宙射线探测器
 
 recipemap.virtual_cosmos_mk1.name=虚拟宇宙物质解压
 recipemap.virtual_cosmos_mk2.name=虚拟宇宙物质解压
@@ -78,3 +80,4 @@ recipemap.space_elevator.name=太空资源采掘
 recipemap.compressed_fusion_reactor_mk1.name=核聚变反应堆
 recipemap.compressed_fusion_reactor_mk2.name=核聚变反应堆
 recipemap.compressed_fusion_reactor_mk3.name=核聚变反应堆
+recipemap.cosmic_ray_detector.name=宇宙射线探测

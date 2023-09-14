@@ -24,6 +24,7 @@ multiblocktweaker.machine.space_elevator.name=Space Elevator
 multiblocktweaker.machine.compressed_fusion_reactor_mk1.name=Compressed Fusion Reactor Computer Mark 1
 multiblocktweaker.machine.compressed_fusion_reactor_mk2.name=Compressed Fusion Reactor Computer Mark 2
 multiblocktweaker.machine.compressed_fusion_reactor_mk3.name=Compressed Fusion Reactor Computer Mark 3
+multiblocktweaker.machine.cosmic_ray_detector.name=Cosmic Ray Detector
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=Virtual Cosmos Simulator Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=Virtual Cosmos Simulator Mk II
@@ -51,3 +52,4 @@ multiblocktweaker.multiblock.space_elevator.name=Space Elevator
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk1.name=Compressed Fusion Reactor Computer Mark 1
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk2.name=Compressed Fusion Reactor Computer Mark 2
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk3.name=Compressed Fusion Reactor Computer Mark 3
+multiblocktweaker.multiblock.cosmic_ray_detector.name=Cosmic Ray Detector
