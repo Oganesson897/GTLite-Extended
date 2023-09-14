@@ -93,10 +93,11 @@ var disabledOreDictDusts as IItemStack[][IOreDictEntry] = {
     <ore:dustEnderPearl> : [
         <appliedenergistics2:material:46>
     ],
-    #  dustGold : Actually Additions, Applied Energistics 2
+    #  dustGold : Actually Additions, Applied Energistics 2, Ender IO
     <ore:dustGold> : [
 		<actuallyadditions:item_dust:1>,
-        <appliedenergistics2:material:51>
+        <appliedenergistics2:material:51>,
+        <enderio:item_material:25>
     ],
     #  dustIron : Actually Additions, Applied Energistics 2, Ender IO
     <ore:dustIron>: [
@@ -123,10 +124,19 @@ var disabledOreDictDusts as IItemStack[][IOreDictEntry] = {
     <ore:dustQuartz> : [
         <actuallyadditions:item_dust:5>,
 		    <appliedenergistics2:material:3>
-	  ],
+	],
     #  dustTin : Ender IO
-    <ore:dustTin>: [
-		    <enderio:item_material:27>
+    <ore:dustTin> : [
+		<enderio:item_material:27>
+    ],
+    #  dustSoularium : Ender IO
+    <ore:dustSoularium> : [
+        <enderio:item_material:74>
+    ],
+    #  dustWheat : Applied Energistics 2, Ender IO
+    <ore:dustWheat> : [
+        <appliedenergistics2:material:4>,
+        <enderio:item_material:21>
     ]
 };
 
@@ -173,21 +183,25 @@ var disabledOreDictIngots as IItemStack[][IOreDictEntry] = {
 	  ],
     #  ingotRedStoneAlloy : Ender IO, Project Red
     <ore:ingotRedstoneAlloy> : [
-		    <enderio:item_alloy_ingot:3>,
-		    <projectred-core:resource_item:103>
-	  ],
+		<enderio:item_alloy_ingot:3>,
+		<projectred-core:resource_item:103>
+	],
     #  ingotTin : Project Red
     <ore:ingotTin> : [
-		    <projectred-core:resource_item:101>
-	  ],
+		<projectred-core:resource_item:101>
+	],
     #  ingotSilver : Project Red
     <ore:ingotSilver> : [
-		    <projectred-core:resource_item:102>
-	  ],
+		<projectred-core:resource_item:102>
+	],
     #  ingotVibrantAlloy : Ender IO
     <ore:ingotVibrantAlloy> : [
-		    <enderio:item_alloy_ingot:2>
-	  ],
+		<enderio:item_alloy_ingot:2>
+	],
+    #  ingotSoularium : Ender IO
+    <ore:ingotSoularium> : [
+        <enderio:item_alloy_ingot:7>
+    ]
 };
 
 var disabledOreDictNuggets as IItemStack[][IOreDictEntry] = {
@@ -203,15 +217,24 @@ var disabledOreDictOthers as IItemStack[][IOreDictEntry] = {
         <appliedenergistics2:material:5>,
         <enderio:item_material:5>,
         <projectred-core:resource_item:301>
-	  ],
+	],
     #  gemRuby : Project Red
     <ore:gemRuby> : [
-		    <projectred-core:resource_item:200>
-	  ],
+		<projectred-core:resource_item:200>
+	],
     #  gemSapphire : Project Red
     <ore:gemSapphire> : [
-		    <projectred-core:resource_item:201>
-	  ]
+		<projectred-core:resource_item:201>
+	],
+    #  gearWood : Applied Energistics 2, Ender IO
+    <ore:gearWood> : [
+        <enderio:item_material:9>,
+        <appliedenergistics2:material:40>
+    ],
+    #  gearStone : Ender IO
+    <ore:gearStone> : [
+        <enderio:item_material:10>
+    ]
 };
 
 for oreDictEntry, items in disabledOreDictBlocks {
@@ -417,7 +440,8 @@ mods.jei.JEI.removeAndHide(<enderio:block_simple_furnace>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_stirling_generator>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_sag_mill>);
-mods.jei.JEI.removeAndHide(<enderio:block_simple_wired_charger>);
+mods.jei.JEI.removeAndHide(<enderio:block_sag_mill>);
+mods.jei.JEI.removeAndHide(<enderio:block_enhanced_sag_mill>);
 mods.jei.JEI.removeAndHide(<enderio:block_alloy_smelter>);
 mods.jei.JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
 mods.jei.JEI.removeAndHide(<enderio:block_buffer>);
@@ -425,6 +449,35 @@ mods.jei.JEI.removeAndHide(<enderio:block_buffer:1>);
 mods.jei.JEI.removeAndHide(<enderio:block_buffer:2>);
 mods.jei.JEI.removeAndHide(<enderio:block_buffer:3>);
 mods.jei.JEI.removeAndHide(<enderio:block_stirling_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_combustion_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_enhanced_combustion_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_zombie_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_franken_zombie_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_ender_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_lava_generator>);
+mods.jei.JEI.removeAndHide(<enderio:block_vat>);
+mods.jei.JEI.removeAndHide(<enderio:block_enhanced_vat>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:11>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:12>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:13>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:73>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:55>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:35>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:34>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:67>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:71>);
+mods.jei.JEI.removeAndHide(<enderio:block_end_iron_bars>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:66>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:46>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:47>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:48>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:49>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:50>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:51>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:52>);
+mods.jei.JEI.removeAndHide(<enderio:block_holy_fog>);
+mods.jei.JEI.removeAndHide(<enderio:block_holier_fog>);
+
 
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:4>);
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:3>);
@@ -494,6 +547,25 @@ recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 <ore:blockAluminum>.add(<gregtech:meta_block_compressed_0:1>);
 <ore:blockCoalCoke>.add(<metaitem:blockCoke>);
 <ore:blockCoalCoke>.add(<gregtech:meta_block_compressed_22:5>);
+<ore:fusedQuartz>.add(<appliedenergistics2:quartz_glass>);
+<ore:blockGlassHardened>.add(<appliedenergistics2:quartz_glass>);
+<ore:gearIronInfinity>.add(<gregtech:meta_gear:51>);
+<ore:gearEnergized>.add(<gregtech:meta_gear:32005>);
+<ore:gearVibrant>.add(<gregtech:meta_gear:32006>);
+<ore:gearDark>.add(<gregtech:meta_gear:32003>);
+<ore:itemVibrantPowder>.add(<gregtech:meta_dust:32006>);
+
+recipes.removeByRecipeName("enderio:gear_wood");
+recipes.removeByRecipeName("enderio:gear_ae2_messes_things_up");
+recipes.removeByRecipeName("enderio:gear_just_to_be_sure");
+recipes.removeByRecipeName("enderio:gear_better_save_than_sorry");
+recipes.removeByRecipeName("enderio:gear_stone");
+recipes.removeByRecipeName("enderio:gear_stone_upgrade");
+recipes.removeByRecipeName("enderio:cake");
+
+recipes.addShapeless(<gregtech:meta_gear:51>, [<enderio:item_material:11>]);
+recipes.addShapeless(<gregtech:meta_gear:32005>, [<enderio:item_material:12>]);
+recipes.addShapeless(<gregtech:meta_gear:32006>, [<enderio:item_material:13>]);
 
 #  Vanilla Stack size set
 <minecraft:snowball>.maxStackSize = 64;
@@ -517,6 +589,10 @@ mods.jei.JEI.hideCategory("EIOTank");
 mods.jei.JEI.hideCategory("Painter");
 mods.jei.JEI.hideCategory("SagMill");
 mods.jei.JEI.hideCategory("Vat");
+mods.jei.JEI.hideCategory("CombustionGenerator");
+mods.jei.JEI.hideCategory("StirlingGenerator");
+mods.jei.JEI.hideCategory("EnderGenerator");
+mods.jei.JEI.hideCategory("LavaGenerator");
 
 #  Extra Utils 2 Category
 mods.jei.JEI.hideCategory("extrautils2.blockPatterns");
@@ -540,3 +616,6 @@ mods.jei.JEI.hideCategory("extendedcrafting:ender_crafting");
 #  Deep Mob Evolution Category
 mods.jei.JEI.hideCategory("deepmoblearning.simulation_chamber");
 mods.jei.JEI.hideCategory("deepmoblearning.extraction_chamber");
+
+#  Just Enough Resources Category
+mods.jei.JEI.hideCategory("jeresources.villager");

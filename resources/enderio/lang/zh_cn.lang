@@ -3,24 +3,53 @@
 #! Sort by first letter (A-Z) for every class
 #! Some may not be effective
 
-itemGroup.enderio.machines=机器（末影接口）
-itemGroup.enderio.items=物品（末影接口）
-itemGroup.enderio.materials=材料（末影接口）
-itemGroup.enderio.main=方块（末影接口）
-itemGroup.enderio.mobs=灵魂（末影接口）
-itemGroup.enderio.conduits=导管（末影接口）
-itemGroup.enderio.invpanel=存储面板（末影接口）
+#  Capacitors
+item.item_basic_capacitor.activated.name=双层电容
+item.item_basic_capacitor.basic.name=基础电容
+item.item_basic_capacitor.ender.name=八位电容
+enderio.activated.name=双层电容
+enderio.ender.name=八位电容
 
+#  Conduits
 item.item_material.binder_composite.name=导管粘合胚料
 item.item_material.conduit_binder.name=导管粘合剂
 
-item.item_travel_staff.name=旅行权杖
-item.item_travel_staff.tooltip.detailed.line1=手持旅行锚时
-item.item_travel_staff.tooltip.detailed.line2=可以透视锚点
-item.item_travel_staff.tooltip.detailed.line3=使用鼠标右键进行传送
-item.item_travel_staff.tooltip.detailed.line4=按住Shift再使用鼠标右键
-item.item_travel_staff.tooltip.detailed.line5=可以短距离传送玩家
-item.item_travel_staff.chat.notEnoughPower=能量不足
+#  Crystals
+item.item_material.weather_crystal.name=天气水晶
+item.item_material.pulsating_crystal.name=充能水晶
+item.item_material.vibrant_crystal.name=脉冲水晶
+item.item_material.attractor_crystal.name=诱引水晶
+item.item_material.ender_crystal.name=末影水晶
+
+#  Machines
+item.item_material.machine_chassi.name=工业机器框架
+item.item_material.simple_machine_chassi.name=简易机器框架
+item.item_material.soul_machine_chassi.name=灵魂机器框架
+item.item_material.enhanced_machine_chassi.name=强化机器框架
+item.item_material.chassi_parts.name=机器部件
+item.item_material.simple_chassi_parts.name=简易机器部件
+item.item_material.enhanced_chassi_parts.name=强化机器部件
+
+#  Items
+tile.block_enderman_skull.name=末影人头颅
+tile.block_enderman_skull.base.name=末影人头颅
+tile.block_enderman_skull.tormented.name=禁锢末影人头颅
+tile.block_enderman_skull.reanimated.name=充满活力的末影人头颅
+tile.block_enderman_skull.reanimated_tormented.name=充满活力的禁锢末影人头颅
+
+item.item_material.skull_skeletal_contractor.name=骷髅契约板
+item.item_material.skull_zombie_controller.name=Z-逻辑控制器
+item.item_material.skull_zombie_electrode.name=僵尸电极
+item.item_material.skull_zombie_frankenstien.name=人造僵尸
+item.item_material.skull_ender_resonator.name=末影谐振器
+item.item_material.skull_sentient_ender.name=末影意识谐振器
+item.item_material.skull_guardian_diode.name=守卫者二极管
+
+item.item_material.black_paper.name=黑色纸
+
+#  Tools
+item.item_conduit_probe.name=导管探测器
+item.item_conduit_probe.tooltip.detailed=在探测模式下鼠标右键单击导管以显示其的详细信息|在复制/粘贴模式下按住 SHIFT 键然后鼠标右键以复制导管的连接设置|鼠标右键单击导管以粘贴设置|使用 SHIFT 键与鼠标滚轮或 Y 键更改模式
 
 item.item_yeta_wrench.name=以太扳手
 item.item_yeta_wrench.tooltip.detailed.line1=手持时隐藏导管框架
@@ -31,69 +60,62 @@ item.item_yeta_wrench.tooltip.detailed.line5=打开导管设置界面
 item.item_yeta_wrench.tooltip.detailed.line6=按住Shift再使用滚轮或使用%s键可
 item.item_yeta_wrench.tooltip.detailed.line7=只渲染单种类型导管
 
-enderio.gui.conduit.io_mode.in_out=提取/存入
-enderio.gui.conduit.io_mode.input=提取
-enderio.gui.conduit.io_mode.output=存入
-enderio.gui.conduit.io_mode.disabled=禁用
-enderio.gui.conduit.io_mode.not_set=默认
-enderio.gui.tooltip.redstoneControlMode=红石模式
+item.item_xp_transfer.name=经验之杖
+item.item_xp_transfer.tooltip.detailed.line1=鼠标右键以吸取
+item.item_xp_transfer.tooltip.detailed.line2=液态经验给玩家
+item.item_xp_transfer.tooltip.detailed.line3=按住 SHIFT 键然后鼠标右键以转移经验
+item.item_xp_transfer.tooltip.detailed.line4=转移经验的目标容器必须为储罐
 
-enderio.config.title=末影接口配置
+item.item_cold_fire_igniter.name=玄钢打火石
+item.item_cold_fire_igniter.tooltip.detailed.line1=用于放出冰焰
+item.item_cold_fire_igniter.tooltip.detailed.line2=冰焰不会蔓延至其他方块上
+item.item_cold_fire_igniter.chat.outoffluid=错误：没有 %s 了！
 
-enderio.farm.note.outputFull=输出栏已满
-enderio.farm.note.noSeeds=缺少种子
-enderio.farm.note.noAxe=缺少斧
-enderio.farm.note.noHoe=缺少锄
-enderio.farm.note.noShears=缺少剪刀
-enderio.farm.note.noTreetap=缺少木龙头
-enderio.farm.note.noPower=能量不足
-enderio.farm.note.noCapacitor=缺少电容
-enderio.farm.note.noWater=缺少水
+item.item_coord_selector.name=坐标选择器
+item.item_coord_selector.tooltip.detailed.line1=打印方块的坐标
+item.item_coord_selector.tooltip.detailed.line2=鼠标右键单击方块以选取
+item.item_coord_selector.tooltip.detailed.line3=方块相邻处
+item.item_coord_selector.tooltip.detailed.line4=按住 SHIFT 键然后鼠标右键单击方块以选取
+item.item_coord_selector.tooltip.detailed.line5=特定方块
+item.item_coord_selector.tooltip.detailed.line6=可以在目标方块的一定距离外进行选择
 
-enderio.gui.edit_item_filter=编辑过滤器
-enderio.gui.item_filter.close=关闭过滤器
-enderio.gui.item_filter.close2=返回至上一界面
-enderio.gui.item_filter.whitelist=白名单
-enderio.gui.item_filter.blacklist=黑名单
-enderio.gui.item_filter.match_meta=匹配元数据
-enderio.gui.item_filter.ignore_meta=忽略元数据
-enderio.gui.item_filter.sticky_enabled=开启粘滞模式
-enderio.gui.item_filter.sticky_enabled2=选定的物品只会被传送于此或其他粘滞输出
-enderio.gui.item_filter.sticky_disabled=关闭粘滞模式
-enderio.gui.item_filter.ore_dic_enabled=匹配矿物词典
-enderio.gui.item_filter.ore_dic_disabled=忽略矿物词典
-enderio.gui.item_filter.match_nbt=匹配 NBT
-enderio.gui.item_filter.ignore_nbt=忽略 NBT
+item.item_travel_staff.name=旅行之杖
+item.item_travel_staff.tooltip.detailed.line1=手持旅行锚时
+item.item_travel_staff.tooltip.detailed.line2=可以透视锚点
+item.item_travel_staff.tooltip.detailed.line3=使用鼠标右键进行传送
+item.item_travel_staff.tooltip.detailed.line4=按住 SHIFT 键再使用鼠标右键
+item.item_travel_staff.tooltip.detailed.line5=可以短距离传送玩家
+item.item_travel_staff.chat.notEnoughPower=能量不足
 
-item.item_basic_item_filter.name=基础物品过滤器
-item.item_advanced_item_filter.name=高级物品过滤器
-item.item_limited_item_filter.name=限制物品过滤器
-item.item_big_item_filter.name=大型物品过滤器
-item.item_big_advanced_item_filter.name=高级大型物品过滤器
-item.item_existing_item_filter.name=现有物品过滤器
-item.item_mod_item_filter.name=模组物品过滤器
-item.item_power_item_filter.name=充能物品过滤器
-item.item_soul_filter_normal.name=灵魂物品过滤器
-item.item_soul_filter_big.name=大型灵魂物品过滤器
-item.item_enchantment_filter_normal.name=附魔物品过滤器
-item.item_enchantment_filter_big.name=大型附魔物品过滤器
-item.item_fluid_filter.name=基础流体过滤器
-item.item_redstone_not_filter.name=非门红石过滤器
-item.item_redstone_or_filter.name=或门红石过滤器
-item.item_redstone_and_filter.name=与门红石过滤器
-item.item_redstone_nor_filter.name=或非门红石过滤器
-item.item_redstone_nand_filter.name=与非门红石过滤器
-item.item_redstone_xor_filter.name=异或门红石过滤器
-item.item_redstone_xnor_filter.name=同或门红石过滤器
-item.item_redstone_toggle_filter.name=锁存红石过滤器
-item.item_redstone_sensor_filter.name=感应红石过滤器
-item.item_redstone_counting_filter.name=计次红石过滤器
-item.item_redstone_timer_filter.name=计时红石过滤器
+item.item_rod_of_return.name=折跃之杖
+item.item_rod_of_return.tooltip.detailed.line1=将玩家传送回传送台
+item.item_rod_of_return.tooltip.detailed.line2=按住 SHIFT 键再使用鼠标右键以绑定传送台
+item.item_rod_of_return.tooltip.detailed.line3=需要能量与 %s
+item.item_rod_of_return.tooltip.fluid=%s
+item.item_rod_of_return.tooltip.power=%s
+item.item_rod_of_return.chat.notEnoughPower=%s 没有足够的能量
+item.item_rod_of_return.chat.notEnoughFluid=%s 没有足够的流体
+item.item_rod_of_return.chat.targetNotSet=%s 未设置目的地
+item.item_rod_of_return.chat.sync=与位置同步
+item.item_rod_of_return.chat.sync.telepad=与传送台同步
 
-enderio.power.symbol=RF
-enderio.power.format=%s RF
-enderio.power.format.of=%s / %s RF
-enderio.power.format.pertick=%s RF/t
+item.item_magnet.name=电磁铁
+item.item_magnet.tooltip.detailed.line1=吸附玩家附近的物品
+item.item_magnet.tooltip.detailed.line2=按住 SHIFT 键然后鼠标右键以开启或关闭
+item.item_magnet.tooltip.detailed.line3=必须充电，激活且处于
+item.item_magnet.tooltip.detailed.line4=物品栏或饰品栏中才能正常工作
+item.item_magnet.everywhere.tooltip.detailed.line1=吸附玩家附近的物品
+item.item_magnet.everywhere.tooltip.detailed.line2=按住 SHIFT 键然后鼠标右键以开启或关闭
+item.item_magnet.everywhere.tooltip.detailed.line3=必须充电，激活且处于
+item.item_magnet.everywhere.tooltip.detailed.line4=物品栏或饰品栏中才能正常工作
+item.item_magnet.enabled=电磁铁开启
+item.item_magnet.disabled=电磁铁关闭
 
-enderio.advancement.machines.root.name=末影接口
-enderio.advancement.machines.root.desc=开始你的自动化之旅
+#  Item Groups
+itemGroup.enderio.machines=机器（末影接口）
+itemGroup.enderio.items=物品（末影接口）
+itemGroup.enderio.materials=材料（末影接口）
+itemGroup.enderio.main=方块（末影接口）
+itemGroup.enderio.mobs=灵魂（末影接口）
+itemGroup.enderio.conduits=导管（末影接口）
+itemGroup.enderio.invpanel=存储面板（末影接口）

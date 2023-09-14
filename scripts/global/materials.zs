@@ -73,6 +73,9 @@ var dark_steel = MaterialBuilder(32003, "dark_steel")
     .fluid()
     .color(0x414751)
     .iconSet("dull")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_gear"])
     .components([<material:steel> * 1])
     .build();
 
@@ -84,6 +87,7 @@ var electrical_steel = MaterialBuilder(32004, "electrical_steel")
     .iconSet("metallic")
     .components([<material:steel> * 1,
                  <material:silicon> * 1])
+    .flags(["generate_plate"])
     .build();
 
 #  32005 Energetic Alloy : Ender IO : MV superconductor
@@ -96,6 +100,9 @@ var energetic_alloy = MaterialBuilder(32005, "energetic_alloy")
     .components([<material:gold> * 2,
                  <material:redstone> * 1,
                  <material:glowstone> * 1])
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_gear"])
     .cableProperties(128, 1, 0, true)
     .build();
 
@@ -105,7 +112,10 @@ var vibrant_alloy = MaterialBuilder(32006, "vibrant_alloy")
     .fluid()
     .color(0xa4ff70)
     .iconSet("shiny")
-    .flags(["generate_plate", "generate_rod", "generate_frame"])
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_frame",
+            "generate_gear"])
     .components([<material:energetic_alloy> * 1,
                  <material:ender_pearl> * 1])
     .cableProperties(512, 1, 0, true)
@@ -638,6 +648,15 @@ var phantasium = MaterialBuilder(32050, "phantasium")
                  <material:vibrant_alloy> * 4,
                  <material:uranium> * 3])
     .cableProperties(524288, 2, 36, false)
+    .build();
+
+#  32051 Soularium
+var soularium = MaterialBuilder(32051, "soularium")
+    .ingot()
+    .color(0x7c674d)
+    .iconSet("metallic")
+    .flags("generate_plate")
+    .components([<material:gold> * 1])
     .build();
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3

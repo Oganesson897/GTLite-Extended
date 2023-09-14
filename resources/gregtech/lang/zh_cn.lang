@@ -1394,6 +1394,7 @@ gregtech.material.heavy_alkali_chloride_solution=重碱氯化物溶液
 
 gregtech.material.zinc_rich_sphalerite=富锌闪锌矿
 gregtech.material.alumina=三氧化二铝
+gregtech.material.lithium_fluoride=氟化锂
 
 gregtech.material.tetrahydrofuran=四氢呋喃
 gregtech.material.ethylhexanol=2-乙基己醇
@@ -1569,6 +1570,7 @@ gregtech.material.deep_ocean_silver=深海沉银
 gregtech.material.hypogen=海珀珍
 gregtech.material.etoilium=星辉
 gregtech.material.phantasium=彩梦金属
+gregtech.material.soularium=魂金
 
 gregtech.material.polyetheretherketone=聚醚醚酮
 gregtech.material.difluorobenzophenone=二氟二苯甲酮
