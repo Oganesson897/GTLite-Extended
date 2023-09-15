@@ -342,195 +342,66 @@ compressed_fusion_reactor_mk3.recipeBuilder()
     .duration(3200)
     .buildAndRegister();
 
-/*
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:deuterium> * 16000,
-                  <liquid:tritium> * 16000])
-    .fluidOutputs([<liquid:plasma.helium> * 16000])
-    .EUt(4096)
-    .duration(1600)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:nickel> * 18432,
+                  <liquid:beryllium> * 18432])
+    .fluidOutputs([<liquid:roentgenium> * 36864])
+    .EUt(491220)
+    .duration(2700)
     .buildAndRegister();
 
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:carbon> * 2048,
-                  <liquid:helium_3> * 16000])
-    .fluidOutputs([<liquid:plasma.oxygen> * 16000])
-    .EUt(4096)
-    .duration(3200)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:nickel> * 36864,
+                  <liquid:polonium> * 36864])
+    .fluidOutputs([<liquid:copernicium> * 36864])
+    .EUt(491520)
+    .duration(1000)
     .buildAndRegister();
 
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:beryllium> * 2048,
-                  <liquid:deuterium> * 48000])
-    .fluidOutputs([<liquid:plasma.nitrogen> * 16000])
-    .EUt(16384)
-    .duration(1600)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:nickel> * 18432,
+                  <liquid:astatine> * 18432])
+    .fluidOutputs([<liquid:nihonium> * 36864])
+    .EUt(358690)
+    .duration(1800)
     .buildAndRegister();
 
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:silicon> * 2048,
-                  <liquid:magnesium> * 2048])
-    .fluidOutputs([<liquid:plasma.iron> * 2048])
-    .EUt(7680)
-    .duration(3200)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:mercury> * 18432,
+                  <liquid:xenon> * 18432])
+    .fluidOutputs([<liquid:flerovium> * 18432])
+    .EUt(446570)
+    .duration(2000)
     .buildAndRegister();
 
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:potassium> * 2048,
-                  <liquid:fluorine> * 16000])
-    .fluidOutputs([<liquid:plasma.nickel> * 2048])
-    .EUt(30720)
-    .duration(1600)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:neptunium> * 18432,
+                  <liquid:titanium> * 18432])
+    .fluidOutputs([<liquid:moscovium> * 36864])
+    .EUt(473960)
+    .duration(2200)
     .buildAndRegister();
 
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:carbon> * 2048,
-                  <liquid:magnesium> * 2048])
-    .fluidOutputs([<liquid:plasma.argon> * 16000])
-    .EUt(24576)
-    .duration(3200)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:plutonium_241> * 18432,
+                  <liquid:titanium> * 18432])
+    .fluidOutputs([<liquid:livermorium> * 36864])
+    .EUt(234860)
+    .duration(2600)
     .buildAndRegister();
 
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:neodymium> * 2048,
-                  <liquid:hydrogen> * 48000])
-    .fluidOutputs([<liquid:europium> * 2048])
-    .EUt(24576)
-    .duration(6400)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:americium> * 18432,
+                  <liquid:titanium> * 18432])
+    .fluidOutputs([<liquid:tennessine> * 36864])
+    .EUt(509370)
+    .duration(3000)
     .buildAndRegister();
 
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:lutetium> * 4096,
-                  <liquid:chrome> * 4096])
-    .fluidOutputs([<liquid:americium> * 4096])
-    .EUt(49152)
-    .duration(6400)
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:californium> * 9216,
+                  <liquid:calcium_40> * 9216])
+    .fluidOutputs([<liquid:oganesson> * 9216])
+    .EUt(524288)
+    .duration(6000)
     .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:silver> * 2048,
-                  <liquid:copper> * 2048])
-    .fluidOutputs([<liquid:osmium> * 2048])
-    .EUt(24578)
-    .duration(6400)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:mercury> * 16000,
-                  <liquid:magnesium> * 2048])
-    .fluidOutputs([<liquid:uranium_235> * 2048])
-    .EUt(24576)
-    .duration(12800)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:gold> * 2048,
-                  <liquid:aluminium> * 2048])
-    .fluidOutputs([<liquid:uranium> * 2048])
-    .EUt(24576)
-    .duration(12800)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:xenon> * 16000,
-                  <liquid:zinc> * 2048])
-    .fluidOutputs([<liquid:plutonium> * 2048])
-    .EUt(49152)
-    .duration(12800)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:krypton> * 16000,
-                  <liquid:cerium> * 2048])
-    .fluidOutputs([<liquid:plutonium_241> * 2048])
-    .EUt(49152)
-    .duration(12800)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:hydrogen> * 16000,
-                  <liquid:vanadium> * 2048])
-    .fluidOutputs([<liquid:chrome> * 2048])
-    .EUt(24576)
-    .duration(6400)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:gallium> * 2048,
-                  <liquid:radon> * 16000])
-    .fluidOutputs([<liquid:duranium> * 2048])
-    .EUt(16384)
-    .duration(6400)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:titanium> * 4096,
-                  <liquid:duranium> * 4096])
-    .fluidOutputs([<liquid:tritanium> * 2048])
-    .EUt(30720)
-    .duration(6400)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:gold> * 2048,
-                  <liquid:mercury> * 2048])
-    .fluidOutputs([<liquid:radon> * 16000])
-    .EUt(30720)
-    .duration(6400)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:silver> * 18432,
-                  <liquid:lithium> * 18432])
-    .fluidOutputs([<liquid:indium> * 18432])
-    .EUt(24576)
-    .duration(1600)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:naquadah_enriched> * 2048,
-                  <liquid:radon> * 16000])
-    .fluidOutputs([<liquid:naquadria> * 512])
-    .EUt(49152)
-    .duration(6400)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:lanthanum> * 2048,
-                  <liquid:silicon> * 2048])
-    .fluidOutputs([<liquid:lutetium> * 2048])
-    .EUt(7680)
-    .duration(1600)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:arsenic> * 4096,
-                  <liquid:ruthenium> * 2048])
-    .fluidOutputs([<liquid:darmstadtium> * 2048])
-    .EUt(30720)
-    .duration(3200)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:europium> * 2048,
-                  <liquid:adamantium_unstable> * 2048])
-    .fluidOutputs([<liquid:plasma.adamantium> * 2048])
-    .EUt(30720)
-    .duration(3200)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:americium> * 16384,
-                  <liquid:naquadria> * 16384])
-    .fluidOutputs([<liquid:orichalcum> * 4096])
-    .EUt(92160)
-    .duration(16000)
-    .buildAndRegister();
-
-fusion_reactor_mk_v.recipeBuilder()
-    .fluidInputs([<liquid:orichalcum> * 18432,
-                  <liquid:vibranium_unstable> * 18432])
-    .fluidOutputs([<liquid:plasma.vibranium> * 18432])
-    .EUt(245760)
-    .duration(6400)
-    .buildAndRegister();*/

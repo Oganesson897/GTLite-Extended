@@ -1684,48 +1684,65 @@ val chemical_plant = Builder.start("chemical_plant")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
             .aisle(
-                "VVV",
-                "VGV",
-                "VVV")
+                "CCCCC",
+                "CGGGC",
+                "CGCGC",
+                "CGGGC",
+                "CCCCC")
             .aisle(
-                "VVV",
-                "GMG",
-                "VVV")
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
             .aisle(
-                "VVV",
-                "GMG",
-                "VVV")
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
             .aisle(
-                "VVV",
-                "GMG",
-                "VVV")
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
             .aisle(
-                "VVV",
-                "GMG",
-                "VVV")
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
             .aisle(
-                "VVV",
-                "GMG",
-                "VVV")
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
             .aisle(
-                "VVV",
-                "GMG",
-                "VVV")
+                "CBCBC",
+                "BGGGB",
+                "CGAGC",
+                "BGGGB",
+                "CBCBC")
             .aisle(
-                "VCV",
-                "VGV",
-                "VVV")
-            .where("C", controller.self())
-            .where("G", <metastate:gregtech:transparent_casing:1>)
-            .where("M", <metastate:gcys:multiblock_casing:1>)
-            .where("V", CTPredicate.states(<metastate:gregtech:metal_casing:9>)
+                "CCCCC",
+                "CGGGC",
+                "CGOGC",
+                "CGGGC",
+                "CCCCC")
+            .where("O", controller.self())
+            .where("A", <blockstate:gcys:multiblock_casing>)
+            .where("B", <metastate:gregtech:boiler_casing:4>)
+            .where("G", <blockstate:gregtech:transparent_casing>)
+            .where("C", CTPredicate.states(<metastate:gregtech:metal_casing:9>)
                       | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
                                    .setMaxGlobalLimited(1)
                                    .setMinGlobalLimited(1)
                                    .setPreviewCount(1)
                       | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
                                    .setMaxGlobalLimited(1)
-                                   .setMinGlobalLimited(1)
+                                   .setMinGlobalLimited(3)
                                    .setPreviewCount(1)
                       | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
                                    .setMaxGlobalLimited(1)
@@ -1742,10 +1759,9 @@ val chemical_plant = Builder.start("chemical_plant")
                       | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
                                    .setMaxGlobalLimited(3)
                                    .setMinGlobalLimited(1)
-                                   .setPreviewCount(1)
-            )
+                                   .setPreviewCount(1))
             .build();
-    } as IPatternBuilderFunction)
+        } as IPatternBuilderFunction)
     .withRecipeMap(
         FactoryRecipeMap.start("chemical_plant")
             .minInputs(1)
@@ -1762,6 +1778,7 @@ val chemical_plant = Builder.start("chemical_plant")
     .buildAndRegister();
 
 recipes.addShapeless(<gregtech:machine:32008>, [<gregtech:machine:3908>]);
+recipes.addShapeless(<gregtech:machine:3908>, [<gregtech:machine:32008>]);
 
 // --------------------------------------------------------------------------------------------------------------------------------
 val stellar_furnace = Builder.start("stellar_furnace")

@@ -119,6 +119,19 @@ makeShaped("indium_gallium_phosphide_casing", <contenttweaker:indium_gallium_pho
         "W": <ore:craftingToolWrench>
     });
 
+makeShaped("phantasium_casing", <contenttweaker:phantasium_casing> * 2,
+    [
+        "PHP",
+        "PFP",
+        "PWP"
+    ],
+    {
+        "F": <ore:frameGtRuridit>,
+        "H": <ore:craftingToolHardHammer>,
+        "P": <ore:platePhantasium>,
+        "W": <ore:craftingToolWrench>
+    });
+
 assembler.recipeBuilder()
     .inputs([<ore:plateBlueSteel> * 6,
              <ore:frameGtBlackSteel>])
@@ -228,6 +241,15 @@ assembler.recipeBuilder()
     .duration(50)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs([<ore:platePhantasium> * 6,
+             <ore:frameGtRuridit>])
+    .circuit(6)
+    .outputs([<contenttweaker:phantasium_casing> * 2])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+    
 assembly_line.recipeBuilder()
     .inputs([<gregtech:fusion_casing:1>,
              <contenttweaker:control_circuit_uv> * 2,
