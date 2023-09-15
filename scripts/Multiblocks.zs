@@ -7217,3 +7217,23 @@ var mass_fabricator_computer = Builder.start("mass_fabricator_computer")
     )
     .withBaseTexture(<blockstate:contenttweaker:phantasium_casing>)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:computer_casing:3>,
+             <gregtech:computer_casing:1> * 16,
+             <gregtech:machine:1414> * 4,
+             <ore:circuitUiv> * 3,
+             <ore:circuitUev> * 2,
+             <ore:circuitUhv>,
+             <gregtech:meta_item_1:241> * 4,
+             <gregtech:meta_item_1:211> * 4,
+             <gregtech:meta_item_1:263> * 2,
+             <ore:ringHdcs> * 8,
+             <ore:screwHdcs> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 5760,
+                  <liquid:lubricant> * 4000,
+                  <liquid:pcb_coolant> * 3000])
+    .outputs([<gregtech:machine:32027>])
+    .EUt(5000000)
+    .duration(5000)
+    .buildAndRegister();
