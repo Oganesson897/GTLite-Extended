@@ -131,6 +131,7 @@ tile.contenttweaker.space_elevator_floor.name=太空电梯底层支撑结构
 tile.contenttweaker.space_elevator_casing.name=太空电梯机械方块
 tile.contenttweaker.space_elevator_motor_casing.name=太空电梯动力模块
 tile.contenttweaker.space_elevator_core.name=太空电梯动力核心
+tile.contenttweaker.phantasium_casing.name=彩梦金属机械方块
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

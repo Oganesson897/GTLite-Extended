@@ -25,6 +25,7 @@ multiblocktweaker.machine.compressed_fusion_reactor_mk1.name=压缩核聚变反�
 multiblocktweaker.machine.compressed_fusion_reactor_mk2.name=压缩核聚变反应堆控制电脑 Mk II
 multiblocktweaker.machine.compressed_fusion_reactor_mk3.name=压缩核聚变反应堆控制电脑 Mk III
 multiblocktweaker.machine.cosmic_ray_detector.name=宇宙射线探测器
+multiblocktweaker.machine.mass_fabricator_computer.name=质量发生器控制电脑
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=虚拟宇宙模拟机Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=虚拟宇宙模拟机Mk II
@@ -53,6 +54,7 @@ multiblocktweaker.multiblock.compressed_fusion_reactor_mk1.name=压缩核聚变�
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk2.name=压缩核聚变反应堆控制电脑 Mk II
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk3.name=压缩核聚变反应堆控制电脑 Mk III
 multiblocktweaker.multiblock.cosmic_ray_detector.name=宇宙射线探测器
+multiblocktweaker.multiblock.mass_fabricator_computer.name=质量发生器控制电脑
 
 recipemap.virtual_cosmos_mk1.name=虚拟宇宙物质解压
 recipemap.virtual_cosmos_mk2.name=虚拟宇宙物质解压
@@ -81,3 +83,4 @@ recipemap.compressed_fusion_reactor_mk1.name=核聚变反应堆
 recipemap.compressed_fusion_reactor_mk2.name=核聚变反应堆
 recipemap.compressed_fusion_reactor_mk3.name=核聚变反应堆
 recipemap.cosmic_ray_detector.name=宇宙射线探测
+recipemap.mass_fabricator_computer.name=质量发生器

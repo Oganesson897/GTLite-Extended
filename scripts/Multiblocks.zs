@@ -7075,3 +7075,145 @@ assembly_line.recipeBuilder()
     .EUt(100000000)
     .duration(10000)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var mass_fabricator_computer = Builder.start("mass_fabricator_computer")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "CCCCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCCCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCCCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCCCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCCCC")
+            .aisle(
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC")
+            .aisle(
+                "CCCCC",
+                " UuU ",
+                " UuU ",
+                " UuU ",
+                "CCCCC",
+                " UuU ",
+                " UuU ",
+                " UuU ",
+                "CCCCC",
+                " UuU ",
+                " UuU ",
+                " UuU ",
+                "CCCCC",
+                " UuU ",
+                " UuU ",
+                " UuU ",
+                "CCCCC")
+            .aisle(
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC",
+                "BcUcB",
+                "BcUcB",
+                "BcUcB",
+                "CCCCC")
+            .aisle(
+                "CCCCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCCCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCOCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCCCC",
+                " B B ",
+                " B B ",
+                " B B ",
+                "CCCCC")
+            .where("O", controller.self())
+            .where("B", <metastate:gregtech:boiler_casing:4>)
+            .where("U", <metastate:gcym:unique_casing:3>)
+            .where("c", <metastate:gregtech:computer_casing:1>)
+            .where("u", <metastate:gregtech:computer_casing:3>)
+            .where("C", CTPredicate.states(<blockstate:contenttweaker:phantasium_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("mass_fabricator_computer")
+            .minInputs(1)
+            .maxInputs(2)
+            .minFluidInputs(1)
+            .maxFluidInputs(2)
+            .minOutputs(1)
+            .maxOutputs(2)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(2)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:phantasium_casing>)
+    .buildAndRegister();

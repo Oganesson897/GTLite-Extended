@@ -113,6 +113,7 @@ tile.contenttweaker.space_elevator_floor.name=Space Elevator Bottom Support Casi
 tile.contenttweaker.space_elevator_casing.name=Space Elevator Machine Casing
 tile.contenttweaker.space_elevator_motor_casing.name=Space Elevator Motor Casing
 tile.contenttweaker.space_elevator_core.name=Space Elevator Dynamic Core
+tile.contenttweaker.phantasium_casing.name=Phantasium Machine Casing
 
 #  Others
 tile.contenttweaker.qcd_charge.name=Quantum Chromodynamics Charge

@@ -526,6 +526,8 @@ var tiberium = MaterialBuilder(32040, "tiberium")
     .blastTemp(18800)
     .build();
 
+<material:tiberium>.setFormula("Nt3(Ad3O4)7Sd", true);
+
 #  32041 Black Hole Matter Polymer Matrix
 var black_hole_matter_polymer_matrix = MaterialBuilder(32041, "black_hole_matter_polymer_matrix")
     .ingot()
@@ -647,6 +649,7 @@ var phantasium = MaterialBuilder(32050, "phantasium")
                  <material:ruridit> * 4,
                  <material:vibrant_alloy> * 4,
                  <material:uranium> * 3])
+    .flags(["generate_plate"])
     .cableProperties(524288, 2, 36, false)
     .build();
 
@@ -667,6 +670,16 @@ var stellar_debris = MaterialBuilder(32052, "stellar_debris")
     .flags(["generate_rod",
             "generate_long_rod"])
     .blastTemp(17900)
+    .build();
+
+<material:stellar_debris>.setFormula("Sd", false);
+
+#  32053 Dense Magnetically Constrained Stellar Plasma Fluid
+var dense_magnetically_constrained_stellar_plasma_fluid = MaterialBuilder(32053, "dense_magnetically_constrained_stellar_plasma_fluid")
+    .fluid()
+    .fluidTemp(60000000)
+    .color(0xFA2600)
+    .iconSet("dull")
     .build();
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
