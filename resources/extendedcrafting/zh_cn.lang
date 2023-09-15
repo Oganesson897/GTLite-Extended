@@ -1,0 +1,37 @@
+#  Personal translate by Magic_Sweepy [2023/09/15]
+
+#! Sort by first letter (A-Z) for every class
+#! Some may not be effective
+
+itemGroup.extendedcrafting=合成拓展
+
+tile.ec.table_basic.name=基础工作台
+tile.ec.table_advanced.name=进阶工作台
+tile.ec.table_elite.name=精英工作台
+tile.ec.table_ultimate.name=终极工作台
+
+container.ec.interface=自动化接口
+
+item.ec.material_basic_component.name=基础催化剂粗胚
+item.ec.material_advanced_component.name=进阶催化剂粗胚
+item.ec.material_elite_component.name=精英催化剂粗胚
+item.ec.material_ultimate_component.name=终极催化剂粗胚
+item.ec.material_crystaltine_component.name=晶化催化剂粗胚
+item.ec.material_ultimater_component.name=究极催化剂粗胚
+
+item.ec.material_basic_catalyst.name=基础催化剂
+item.ec.material_advanced_catalyst.name=进阶催化剂
+item.ec.material_elite_catalyst.name=精英催化剂
+item.ec.material_ultimate_catalyst.name=终极催化剂
+item.ec.material_crystaltine_catalyst.name=晶化催化剂
+item.ec.material_ultimater_catalyst.name=究极催化剂
+tooltip.ec.ultimate_catalyst=始源之催化剂
+
+jei.ec.table_crafting_3x3=基础合成
+jei.ec.table_crafting_5x5=进阶合成
+jei.ec.table_crafting_7x7=精英合成
+jei.ec.table_crafting_9x9=终极合成
+
+item.ec.singularity_ultimate.name=究极奇点
+
+tooltip.ec.tier=%s阶
