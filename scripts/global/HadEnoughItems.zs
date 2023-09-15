@@ -280,6 +280,23 @@ for oreDictEntry, items in disabledOreDictOthers {
 	oreDictEntry.removeItems(items);
 }
 
+mods.jei.JEI.removeAndHide(<minecraft:gold_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:iron_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:coal_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:redstone_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:diamond_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:lapis_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:emerald_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:quartz_ore>);
+mods.jei.JEI.removeAndHide(<minecraft:barrier>);
+mods.jei.JEI.removeAndHide(<minecraft:command_block>);
+mods.jei.JEI.removeAndHide(<minecraft:repeating_command_block>);
+mods.jei.JEI.removeAndHide(<minecraft:chain_command_block>);
+mods.jei.JEI.removeAndHide(<minecraft:structure_block>);
+mods.jei.JEI.removeAndHide(<minecraft:structure_void>);
+mods.jei.JEI.removeAndHide(<minecraft:command_block_minecart>);
+mods.jei.JEI.removeAndHide(<minecraft:knowledge_book>);
+
 mods.jei.JEI.removeAndHide(<ironchest:iron_chest:7>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_gold_chest_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:gold_diamond_chest_upgrade>);
@@ -558,6 +575,12 @@ mods.jei.JEI.removeAndHide(<projectred-core:resource_item:420>);
 mods.jei.JEI.removeAndHide(<projectred-core:resource_item:421>);
 mods.jei.JEI.removeAndHide(<projectred-core:resource_item:600>);
 mods.jei.JEI.removeAndHide(<projectred-core:drawplate>);
+
+mods.jei.JEI.removeAndHide(<extrautils2:wrench>);
+mods.jei.JEI.removeAndHide(<baubles:ring>);
+mods.jei.JEI.removeAndHide(<extrautils2:lawsword>);
+mods.jei.JEI.removeAndHide(<extrautils2:compoundbow>);
+mods.jei.JEI.removeAndHide(<extrautils2:fireaxe>);
 
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);

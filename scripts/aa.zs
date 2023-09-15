@@ -306,3 +306,10 @@ assembler.recipeBuilder()
     .EUt(128)
     .duration(2400)
     .buildAndRegister();
+
+macerator.recipeBuilder()
+    .inputs([<actuallyadditions:item_misc:5>])
+    .outputs([<actuallyadditions:item_dust:7>])
+    .EUt(8)
+    .duration(20)
+    .buildAndRegister();

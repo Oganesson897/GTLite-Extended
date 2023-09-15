@@ -43,6 +43,9 @@ if (!isNull(ExtraUtils2)) {
         if (item.displayName has "生物群系标记") {
             mods.jei.JEI.removeAndHide(item);
         }
+        if (item.displayName has "Opinium核心") {
+            mods.jei.JEI.removeAndHide(item);
+        }
     }
 }
 

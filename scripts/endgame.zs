@@ -218,3 +218,136 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <storagedrawers:upgrade_creativ
 	[<ore:plateCosmicNeutronium>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_one_stack>, <storagedrawers:upgrade_void>, <storagedrawers:upgrade_conversion>, <storagedrawers:upgrade_storage:4>, <ore:plateCosmicNeutronium>], 
 	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <contenttweaker:sensor_max>, <contenttweaker:field_generator_max>, <contenttweaker:sensor_max>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>]
 ]);
+
+#  Avaritia
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_helmet>, [
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <gregtech:gt_armor:20>, <contenttweaker:field_generator_max>, <gregtech:gt_armor:40>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, null, null, null, null, null, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, null, null, null, null, null, <ore:plateCosmicNeutronium>, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_chestplate>, [
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <gregtech:gt_armor:30>, <contenttweaker:field_generator_max>, <gregtech:gt_armor:50>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_pants>, [
+	[null, null, null, null, null, null, null, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <gregtech:gt_armor:22>, <contenttweaker:field_generator_max>, <gregtech:gt_armor:42>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_boots>, [
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <avaritia:infinity_boots>, <contenttweaker:field_generator_max>, <gregtech:gt_armor:43>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, null, null, null, null, null, null, null, null], 
+	[null, null, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:skullfire_sword>, [
+	[null, null, null, null, null, null, null, <ore:itemBlazeRod>, <ore:itemBlazeRod>], 
+	[null, null, null, null, null, null, <ore:itemBlazeRod>, <ore:itemBlazeRod>, <ore:itemBlazeRod>], 
+	[null, null, null, null, null, <ore:itemBlazeRod>, <ore:itemBlazeRod>, <ore:itemBlazeRod>, null], 
+	[null, null, null, null, <ore:itemBlazeRod>, <ore:itemBlazeRod>, <ore:itemBlazeRod>, null, null], 
+	[<ore:plateDarkSteel>, <ore:plateDarkSteel>, null, <ore:itemBlazeRod>, <ore:itemBlazeRod>, <ore:itemBlazeRod>, null, null, null], 
+	[null, <ore:plateDarkSteel>, <ore:itemBlazeRod>, <ore:itemBlazeRod>, <ore:itemBlazeRod>, null, null, null, null], 
+	[null, <ore:plateDarkSteel>, <ore:gearDark>, <ore:itemBlazeRod>, null, null, null, null, null], 
+	[null, <ore:stickDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, <ore:plateDarkSteel>, null, null, null, null], 
+	[<ore:stickDarkSteel>, null, null, null, <ore:plateDarkSteel>, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_sword>, [
+	[null, null, null, null, null, null, null, <avaritia:skullfire_sword>, <gregtech:meta_item_1:463>], 
+	[null, null, null, null, null, null, <avaritia:skullfire_sword>, <gregtech:meta_item_1:463>, <avaritia:skullfire_sword>], 
+	[null, null, null, null, null, <avaritia:skullfire_sword>, <gregtech:meta_item_1:463>, <avaritia:skullfire_sword>, null], 
+	[null, null, null, null, <avaritia:skullfire_sword>, <gregtech:meta_item_1:463>, <avaritia:skullfire_sword>, null, null], 
+	[<ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, <avaritia:skullfire_sword>, <gregtech:meta_item_1:463>, <avaritia:skullfire_sword>, null, null, null], 
+	[null, <ore:plateHypogen>, <ore:gearHypogen>, <gregtech:meta_item_1:463>, <avaritia:skullfire_sword>, null, null, null, null], 
+	[<ore:plateCosmicNeutronium>, <ore:gearHypogen>, <contenttweaker:field_generator_max>, <ore:gearHypogen>, <ore:plateCosmicNeutronium>, null, null, null, null], 
+	[null, <ore:stickHypogen>, <ore:gearHypogen>, <ore:plateHypogen>, null, null, null, null, null], 
+	[<ore:stickHypogen>, null, <ore:plateCosmicNeutronium>, null, <ore:plateCosmicNeutronium>, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_pickaxe>.withTag({ench: [{lvl: 10 as short, id: 35 as short}]}), [
+	[null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:gearHypogen>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:gearHypogen>, <contenttweaker:field_generator_max>, <ore:gearHypogen>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[<ore:plateCosmicNeutronium>, null, null, null, <ore:gearHypogen>, null, null, null, <ore:plateCosmicNeutronium>], 
+	[null, null, null, null, <ore:stickHypogen>, null, null, null, null], 
+	[null, null, null, null, <ore:stickHypogen>, null, null, null, null], 
+	[null, null, null, null, <ore:stickHypogen>, null, null, null, null], 
+	[null, null, null, null, <ore:stickHypogen>, null, null, null, null], 
+	[null, null, null, null, <ore:stickHypogen>, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_bow>, [
+	[null, null, null, null, null, <ore:stickHypogen>, <ore:stickHypogen>, <ore:stickHypogen>, null], 
+	[null, null, null, null, <ore:plateCosmicNeutronium>, null, null, <ore:stickCosmicPolymerMatrix>, null], 
+	[null, null, null, <ore:gearHypogen>, null, null, null, <ore:stickCosmicPolymerMatrix>, null], 
+	[null, null, <ore:plateCosmicNeutronium>, null, null, null, null, <ore:stickCosmicPolymerMatrix>, null], 
+	[null, <ore:gearSmallHypogen>, <contenttweaker:emitter_max>, <contenttweaker:field_generator_max>, null, null, null, <ore:ringCosmicPolymerMatrix>, null], 
+	[null, null, <ore:plateCosmicNeutronium>, null, null, null, null, <ore:stickCosmicPolymerMatrix>, null], 
+	[null, null, null, <ore:gearHypogen>, null, null, null, <ore:stickCosmicPolymerMatrix>, null], 
+	[null, null, null, null, <ore:plateCosmicNeutronium>, null, null, <ore:stickCosmicPolymerMatrix>, null], 
+	[null, null, null, null, null, <ore:stickHypogen>, <ore:stickHypogen>, <ore:stickHypogen>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_shovel>, [
+	[null, null, null, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>], 
+	[null, null, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>], 
+	[null, null, null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>], 
+	[null, null, null, null, <ore:plateCosmicNeutronium>, <contenttweaker:piston_max>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, null, null, null, <ore:gearSmallHypogen>, <ore:plateCosmicNeutronium>, null, null, null], 
+	[null, null, null, <ore:stickHypogen>, null, null, null, null, null], 
+	[null, null, <contenttweaker:field_generator_max>, null, null, null, null, null, null], 
+	[<ore:stickHypogen>, <ore:stickHypogen>, null, null, null, null, null, null, null], 
+	[null, <ore:stickHypogen>, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_axe>, [
+	[null, null, null, null, null, null, null, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <contenttweaker:motor_max>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, null], 
+	[null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <contenttweaker:field_generator_max>, <ore:plateCosmicNeutronium>, null, null, null], 
+	[null, null, null, <ore:gearHypogen>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, null, <ore:stickHypogen>, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, <ore:stickHypogen>, null, null, null, null, null, <ore:plateCosmicNeutronium>, null], 
+	[<ore:stickHypogen>, null, null, null, null, null, null, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_hoe>,  [
+	[<ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, null, null], 
+	[null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null, null, null, null], 
+	[null, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:gearSmallHypogen>, null, null, null], 
+	[null, null, null, null, <ore:gearSmallHypogen>, <contenttweaker:field_generator_max>, <ore:gearSmallHypogen>, null, null], 
+	[null, null, null, null, <ore:gearHypogen>, <ore:gearSmallHypogen>, <ore:plateCosmicNeutronium>, null, null], 
+	[null, null, null, <ore:stickHypogen>, null, null, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, null], 
+	[null, null, <ore:stickHypogen>, null, null, null, null, <ore:plateCosmicNeutronium>, null], 
+	[null, <ore:stickHypogen>, null, null, null, null, null, null, null], 
+	[<ore:stickHypogen>, null, null, null, null, null, null, null, null]
+]);
