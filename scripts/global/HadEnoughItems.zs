@@ -137,6 +137,10 @@ var disabledOreDictDusts as IItemStack[][IOreDictEntry] = {
     <ore:dustWheat> : [
         <appliedenergistics2:material:4>,
         <enderio:item_material:21>
+    ],
+    #  dustElectrotine : Project Red
+    <ore:dustElectrotine> : [
+        <projectred-core:resource_item:105>
     ]
 };
 
@@ -201,6 +205,10 @@ var disabledOreDictIngots as IItemStack[][IOreDictEntry] = {
     #  ingotSoularium : Ender IO
     <ore:ingotSoularium> : [
         <enderio:item_alloy_ingot:7>
+    ],
+    #  ingotElectrotineAlloy : Project Red
+    <ore:ingotElectrotineAlloy> : [
+        <projectred-core:resource_item:104>
     ]
 };
 
@@ -478,7 +486,6 @@ mods.jei.JEI.removeAndHide(<enderio:item_material:52>);
 mods.jei.JEI.removeAndHide(<enderio:block_holy_fog>);
 mods.jei.JEI.removeAndHide(<enderio:block_holier_fog>);
 
-
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:4>);
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:3>);
 
@@ -534,6 +541,24 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder_double>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_heat_collector>);
 
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:202>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:250>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:300>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:251>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:103>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:252>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:310>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:311>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:312>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:400>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:401>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:402>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:410>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:420>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:421>);
+mods.jei.JEI.removeAndHide(<projectred-core:resource_item:600>);
+mods.jei.JEI.removeAndHide(<projectred-core:drawplate>);
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
@@ -566,6 +591,9 @@ recipes.removeByRecipeName("enderio:cake");
 recipes.addShapeless(<gregtech:meta_gear:51>, [<enderio:item_material:11>]);
 recipes.addShapeless(<gregtech:meta_gear:32005>, [<enderio:item_material:12>]);
 recipes.addShapeless(<gregtech:meta_gear:32006>, [<enderio:item_material:13>]);
+
+#  Project Red Compatibility
+<ore:ingotElectrotineAlloy>.add(<gregtech:meta_ingot:2527>);
 
 #  Vanilla Stack size set
 <minecraft:snowball>.maxStackSize = 64;
