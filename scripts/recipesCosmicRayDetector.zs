@@ -64,6 +64,38 @@ cosmic_ray_detector.recipeBuilder()
     .notConsumable([<gregtech:meta_item_1:228>,
                     <gregtech:meta_item_1:243>,
                     <gregtech:meta_item_1:213>])
+    .inputs([<ore:dustMonazite> * 16])
+    .fluidInputs([<liquid:liquid_helium> * 16000,
+                  <liquid:cosmic_computing_mixture> * 1000])
+    .chancedOutput(<gregtech:meta_dust:32054> * 4, 5000, 1000)
+    .chancedOutput(<gregtech:meta_dust:66> * 11, 5000, 2000)
+    .chancedOutput(<gregtech:meta_dust:109> * 13, 4000, 500)
+    .chancedOutput(<gregtech:meta_dust_small:32056> * 3, 3000, 2000)
+    .fluidOutputs([<liquid:helium> * 16000])
+    .EUt(100000000)
+    .duration(1200)
+    .buildAndRegister();
+
+cosmic_ray_detector.recipeBuilder()
+    .notConsumable([<gregtech:meta_item_1:228>,
+                    <gregtech:meta_item_1:243>,
+                    <gregtech:meta_item_1:213>])
+    .inputs([<ore:dustBastnasite> * 16])
+    .fluidInputs([<liquid:liquid_helium> * 16000,
+                  <liquid:cosmic_computing_mixture> * 1000])
+    .chancedOutput(<gregtech:meta_dust:20> * 6, 6000, 1000)
+    .chancedOutput(<gregtech:meta_dust:32058> * 4, 4000, 2000)
+    .chancedOutput(<gregtech:meta_dust:1598> * 15, 8000, 500)
+    .chancedOutput(<gregtech:meta_dust_small:66> * 7, 9000, 100)
+    .fluidOutputs([<liquid:helium> * 16000])
+    .EUt(100000000)
+    .duration(1200)
+    .buildAndRegister();
+
+cosmic_ray_detector.recipeBuilder()
+    .notConsumable([<gregtech:meta_item_1:228>,
+                    <gregtech:meta_item_1:243>,
+                    <gregtech:meta_item_1:213>])
     .inputs([<ore:dustNaquadah> * 16])
     .fluidInputs([<liquid:liquid_helium> * 16000,
                   <liquid:cosmic_computing_mixture> * 1000])
@@ -72,6 +104,21 @@ cosmic_ray_detector.recipeBuilder()
     .chancedOutput(<gregtech:meta_dust_small:126> * 2, 2000, 1000)
     .chancedOutput(<gregtech:meta_dust_small:33> * 3, 3000, 1000)
     .fluidOutputs([<liquid:helium> * 16000])
+    .EUt(100000000)
+    .duration(1200)
+    .buildAndRegister();
+
+cosmic_ray_detector.recipeBuilder()
+    .notConsumable([<gregtech:meta_item_1:228>,
+                    <gregtech:meta_item_1:243>,
+                    <gregtech:meta_item_1:213>])
+    .inputs([<ore:dustNaquadria> * 16])
+    .fluidInputs([<liquid:liquid_helium> * 16000,
+                  <liquid:cosmic_computing_mixture> * 1000])
+    .chancedOutput(<gregtech:meta_dust:117> * 8, 6000, 500)
+    .chancedOutput(<gregtech:meta_dust:116> * 11, 8000, 1000)
+    .chancedOutput(<gregtech:meta_dust:32066> * 7, 4000, 1000)
+    .chancedOutput(<gregtech:meta_dust_small:18028> * 5, 2000, 2000)
     .EUt(100000000)
     .duration(1200)
     .buildAndRegister();

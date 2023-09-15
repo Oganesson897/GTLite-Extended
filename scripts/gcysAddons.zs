@@ -1141,3 +1141,52 @@ mixer.recipeBuilder()
     .EUt(116160000)
     .duration(1232)
     .buildAndRegister();
+
+#  Superheavy Element Mixture
+mixer.recipeBuilder()
+    .inputs([<ore:dustCopernicium>,
+             <ore:dustNihonium>,
+             <ore:dustFlerovium>,
+             <ore:dustMoscovium>,
+             <ore:dustLivermorium>,
+             <ore:dustTennessine>])
+    .fluidInputs([<liquid:roentgenium> * 144,
+                  <liquid:oganesson> * 144])
+    .outputs([<gregtech:meta_dust:32020> * 8])
+    .EUt(89445500)
+    .duration(1200)
+    .buildAndRegister();
+
+#  Ca-40
+sifter.recipeBuilder()
+    .inputs([<ore:crushedPurifiedCalcite>])
+    .chancedOutput(<gregtech:meta_dust_pure:262>, 5000, 750)
+    .chancedOutput(<gregtech:meta_dust:32065>, 1000, 500)
+    .EUt(576)
+    .duration(64)
+    .buildAndRegister();
+
+sifter.recipeBuilder()
+    .inputs([<ore:crushedPurifiedZeolite>])
+    .chancedOutput(<gregtech:meta_dust_pure:2033>, 5000, 750)
+    .chancedOutput(<gregtech:meta_dust:32065>, 1000, 500)
+    .EUt(576)
+    .duration(64)
+    .buildAndRegister();
+
+#  Cf
+sifter.recipeBuilder()
+    .inputs([<ore:crushedPurifiedUraninite>])
+    .chancedOutput(<gregtech:meta_dust_pure:332>, 5000, 750)
+    .chancedOutput(<gregtech:meta_dust:32066>, 1000, 500)
+    .EUt(1008)
+    .duration(78)
+    .buildAndRegister();
+
+sifter.recipeBuilder()
+    .inputs([<ore:crushedPurifiedPitchblende>])
+    .chancedOutput(<gregtech:meta_dust_pure:2028>, 5000, 750)
+    .chancedOutput(<gregtech:meta_dust:32066>, 1000, 500)
+    .EUt(1008)
+    .duration(78)
+    .buildAndRegister();

@@ -304,6 +304,15 @@ var superheavy_element_mixture = MaterialBuilder(32020, "superheavy_element_mixt
             "generate_spring",
             "generate_spring_small"])
     .cableProperties(536870912, 128, 32, false)
+    .components([<material:roentgenium> * 1,
+                 <material:copernicium> * 1,
+                 <material:nihonium> * 1,
+                 <material:flerovium> * 1,
+                 <material:moscovium> * 1,
+                 <material:livermorium> * 1,
+                 <material:tennessine> * 1,
+                 <material:oganesson> * 1])
+    .blastTemp(18100)
     .build();
 
 #  32021 Magneto Resonatic
@@ -682,12 +691,125 @@ var dense_magnetically_constrained_stellar_plasma_fluid = MaterialBuilder(32053,
     .iconSet("dull")
     .build();
 
+#  32054 Polonium
+var polonium = MaterialBuilder(32054, "polonium")
+    .ingot()
+    .fluid()
+    .color(0xA5CCE0)
+    .iconSet("bright")
+    .components([<material:polonium> * 1])
+    .build();
+
+#  32055 Copernicium
+var copernicium = MaterialBuilder(32055, "copernicium")
+    .ingot()
+    .fluid()
+    .color(0x4A1BB1)
+    .iconSet("metallic")
+    .components([<material:copernicium> * 1])
+    .build();
+
+#  32056 Astatine
+var astatine = MaterialBuilder(32056, "astatine")
+    .ingot()
+    .fluid()
+    .color(0x81451B)
+    .iconSet("dull")
+    .components([<material:astatine> * 1])
+    .build();
+
+#  32057 Nihonium
+var nihonium = MaterialBuilder(32057, "nihonium")
+    .ingot()
+    .fluid()
+    .color(0xF180C1)
+    .iconSet("dull")
+    .components([<material:nihonium> * 1])
+    .build();
+
+#  32058 Neptunium
+var neptunium = MaterialBuilder(32058, "neptunium")
+    .ingot()
+    .fluid()
+    .color(0x998EA6)
+    .iconSet("dull")
+    .components([<material:neptunium> * 1])
+    .build();
+
+#  32059 Tennessine
+var tennessine = MaterialBuilder(32059, "tennessine")
+    .ingot()
+    .fluid()
+    .color(0x8F1500)
+    .iconSet("dull")
+    .components([<material:tennessine> * 1])
+    .build();
+
+#  32060 Moscovium
+var moscovium = MaterialBuilder(32060, "moscovium")
+    .ingot()
+    .fluid()
+    .color(0x7D735D)
+    .iconSet("metallic")
+    .components([<material:moscovium> * 1])
+    .build();
+
+#  32061 Livermorium
+var livermorium = MaterialBuilder(32061, "livermorium")
+    .ingot()
+    .fluid()
+    .color(0x6EA378)
+    .iconSet("metallic")
+    .components([<material:livermorium> * 1])
+    .build();
+
+#  32062 Flerovium
+var flerovium = MaterialBuilder(32062, "flerovium")
+    .ingot()
+    .fluid()
+    .color(0xF2F4AB)
+    .iconSet("metallic")
+    .components([<material:flerovium> * 1])
+    .build();
+
+#  32063 Oganesson
+var oganesson = MaterialBuilder(32063, "oganesson")
+    .fluid()
+    .color(0x1D021A)
+    .components([<material:oganesson> * 1])
+    .build();
+
+#  32064 Roentgenium
+var roentgenium = MaterialBuilder(32064, "roentgenium")
+    .ingot()
+    .fluid()
+    .color(0xB08687)
+    .components([<material:roentgenium> * 1])
+    .build();
+
+#  32065 Calcium-40
+var calcium_40 = MaterialBuilder(32065, "calcium_40")
+    .dust()
+    .fluid()
+    .color(0xE4ECDA)
+    .build();
+
+<material:calcium_40>.setFormula("Ca-40", false);
+
+#  32066 Californium
+var californium = MaterialBuilder(32066, "californium")
+    .ingot()
+    .fluid()
+    .color(0x808A9B)
+    .components([<material:californium> * 1])
+    .build();
+
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
     .fluid()
     .color(0x45443E)
     .build();
-
+    
 <material:polyetheretherketone>.setFormula("C20H12O3", true);
 
 #  32102 Difluorobenzophenone : (FC6H4)2CO

@@ -1,5 +1,78 @@
 import mods.gregtech.recipe.RecipeMap;
 
+#  Fusion reactor Mk III
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:nickel> * 288,
+                  <liquid:beryllium> * 288])
+    .fluidOutputs([<liquid:roentgenium> * 576])
+    .property("eu_to_start", 390000000)
+    .EUt(491220)
+    .duration(270)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:nickel> * 576,
+                  <liquid:polonium> * 576])
+    .fluidOutputs([<liquid:copernicium> * 576])
+    .property("eu_to_start", 480000000)
+    .EUt(491520)
+    .duration(100)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:nickel> * 288,
+                  <liquid:astatine> * 288])
+    .fluidOutputs([<liquid:nihonium> * 576])
+    .property("eu_to_start", 410000000)
+    .EUt(358690)
+    .duration(180)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:mercury> * 288,
+                  <liquid:xenon> * 288])
+    .fluidOutputs([<liquid:flerovium> * 288])
+    .property("eu_to_start", 430000000)
+    .EUt(446570)
+    .duration(200)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:neptunium> * 288,
+                  <liquid:titanium> * 288])
+    .fluidOutputs([<liquid:moscovium> * 576])
+    .property("eu_to_start", 380000000)
+    .EUt(473960)
+    .duration(220)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:plutonium_241> * 288,
+                  <liquid:titanium> * 288])
+    .fluidOutputs([<liquid:livermorium> * 576])
+    .property("eu_to_start", 360000000)
+    .EUt(234860)
+    .duration(260)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:americium> * 288,
+                  <liquid:titanium> * 288])
+    .fluidOutputs([<liquid:tennessine> * 576])
+    .property("eu_to_start", 420000000)
+    .EUt(509370)
+    .duration(300)
+    .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:californium> * 144,
+                  <liquid:calcium_40> * 144])
+    .fluidOutputs([<liquid:oganesson> * 144])
+    .property("eu_to_start", 580000000)
+    .EUt(524288)
+    .duration(600)
+    .buildAndRegister();
+
 #  Fusion reactor Mk IV
 fusion_reactor_mk_iv.recipeBuilder()
     .fluidInputs([<liquid:orichalcum> * 16,
