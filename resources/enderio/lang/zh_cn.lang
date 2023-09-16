@@ -188,6 +188,69 @@ tile.block_soul_binder.name=灵魂绑定器
 tile.block_soul_binder.tooltip.detailed.line1=可用于转换破损的刷怪笼的类型，也可用于其他合成
 enderio.gui.soul_binder.useplayerxp=使用玩家经验
 
+tile.block_tank.name=流体储罐
+tile.block_tank.advanced.name=高压流体储罐
+tile.block_tank.tooltip.detailed.line1=便携式流体储罐
+tile.block_tank.tooltip.detailed.line2=可用于清空和填充流体容器
+
+tile.block_crafter.name=合成器
+tile.block_simple_crafter.name=简易合成器
+enderio.gui.crafter.buffering_stack=缓冲若干物品
+enderio.gui.crafter.buffering_single=缓冲单个物品
+enderio.gui.crafter.use_per_craft=每次合成：%s
+
+tile.block_travel_anchor.name=旅行锚
+tile.block_travel_anchor.tooltip.detailed.line1=允许玩家在两个旅行锚之间移动
+tile.block_travel_anchor.tooltip.detailed.line2=站在一个旅行锚上，将视角朝向另一个旅行锚然后跳跃即可传送
+tile.block_travel_anchor.tooltip.detailed.line4=也可以使用旅行之杖
+tile.block_travel_anchor.tooltip.detailed.line6=可以使用喷涂机喷涂
+
+tile.block_tele_pad.name=传送台
+tile.block_tele_pad.tooltip.detailed.line1=使用能量将实体传送至指定的坐标或维度
+tile.block_tele_pad.tooltip.detailed.line2=这是一个3×1×3的多方块结构
+
+tile.block_dialing_device.name=坐标记录仪
+tile.block_dialing_device.tooltip.detailed.line1=需要靠近传送台放置
+tile.block_dialing_device.tooltip.detailed.line2=用于存储与设定坐标
+
+tile.block_transceiver.name=空间传送器
+tile.block_transceiver.tooltip.detailed.line1=无线传输物品，流体与能量，不限距离与维度
+
+tile.block_painter.name=喷涂机
+
+tile.block_reservoir.name=末影蓄水库
+tile.block_reservoir.tooltip.common.line1=一个简易的无限水储存库
+tile.block_reservoir.tooltip.detailed.line1=当与其他的末影蓄水库连接时：
+tile.block_reservoir.tooltip.detailed.line2=- 往其中放入两桶水以作为无限水的来源
+tile.block_reservoir.tooltip.detailed.line3=- 每秒输出1000mB水
+tile.block_reservoir.tooltip.detailed.line4=- 手持扳手鼠标右键其以调节自动输出是否开启
+
+tile.block_omni_reservoir.name=通用蓄水库
+tile.block_omni_reservoir.tooltip.common.line1=任何流体的储存库
+tile.block_omni_reservoir.tooltip.detailed.line1=- 手持扳手鼠标右键其以调节自动输出是否开启
+
+enderio.config.wireless=无线充电器
+
+tile.block_niard.name=流体放置器
+tile.block_niard.tooltip.detailed.line1=用于放置流体
+
+tile.block_powered_spawner.name=电动刷怪笼
+
+tile.block_powered_spawner.empty.tooltip.detailed.line1=可以在砧中制作对应怪物种类的电动刷怪笼
+tile.block_powered_spawner.tooltip.detailed.line1=需要能量以激活
+tile.block_powered_spawner.tooltip.detailed.line2=放入更高级的电容以提高刷怪速度和能量存储
+enderio.block_powered_spawner.tooltip.cost=系数：%sx
+
+tile.block_creative_spawner.name=创造模式刷怪笼
+tile.block_creative_spawner.tooltip.common.line1=创造模式限定
+
+item.item_broken_spawner.name=破损的刷怪笼
+item.item_broken_spawner.tooltip.detailed.line1=可以在砧中制作对应的电动刷怪笼
+item.item_broken_spawner.tooltip.detailed.line2=需要指定对应的怪物种类
+
+tile.block_slice_and_splice.name=头颅装配机
+tile.block_slice_and_splice.tooltip.detailed.line1=切片并装配与头颅相关的物品
+
 #  Items
 tile.block_enderman_skull.name=末影人头颅
 tile.block_enderman_skull.base.name=末影人头颅

@@ -1590,6 +1590,12 @@ gregtech.material.roentgenium=钅仑
 gregtech.material.flerovium=钅夫
 gregtech.material.californium=锎
 gregtech.material.calcium_40=钙-40
+gregtech.material.crystalline_alloy=晶化合金
+gregtech.material.crystalline_pink_slime=晶化粉红史莱姆
+gregtech.material.melodic_alloy=旋律合金
+gregtech.material.stellar_alloy=恒星合金
+gregtech.material.vivid_alloy=生动合金
+gregtech.material.energetic_silver=充能银
 
 gregtech.material.polyetheretherketone=聚醚醚酮
 gregtech.material.difluorobenzophenone=二氟二苯甲酮

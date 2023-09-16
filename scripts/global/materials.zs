@@ -127,6 +127,7 @@ var end_steel = MaterialBuilder(32007, "end_steel")
     .fluid()
     .color(0xd6d980)
     .iconSet("metallic")
+    .flags(["generate_rod"])
     .cableProperties(2048, 1, 0,true)
     .build();
 
@@ -802,6 +803,81 @@ var californium = MaterialBuilder(32066, "californium")
     .fluid()
     .color(0x808A9B)
     .components([<material:californium> * 1])
+    .build();
+
+#  32067 Crystalline Alloy : EV superconductor
+var crystalline_alloy = MaterialBuilder(32067, "crystalline_alloy")
+    .ingot()
+    .fluid()
+    .color(0xA7ECEC)
+    .iconSet("bright")
+    .cableProperties(2048, 1, 0, true)
+    .components([<material:black_steel> * 1,
+                 <material:plutonium_241> * 1])
+    .build();
+
+#  32068 Crystalline Pink Slime : IV superconductor
+var crystalline_pink_slime = MaterialBuilder(32068, "crystalline_pink_slime")
+    .ingot()
+    .fluid()
+    .color(0xF5B8EB)
+    .iconSet("bright")
+    .cableProperties(8192, 1, 0, true)
+    .blastTemp(4500, "MID", 120, 14400)
+    .components([<material:red_steel> * 1,
+                 <material:red_alloy> * 2,
+                 <material:crystalline_alloy> * 3])
+    .build();
+
+#  32069 Melodic Alloy : LuV superconductor
+var melodic_alloy = MaterialBuilder(32069, "melodic_alloy")
+    .ingot()
+    .fluid()
+    .color(0xCE8ACE)
+    .iconSet("bright")
+    .components([<material:tin> * 4,
+                 <material:blue_steel> * 2,
+                 <material:blue_alloy> * 2])
+    .blastTemp(4000, "MID", 120, 12800)
+    .cableProperties(32768, 1, 0, true)
+    .build();
+
+#  32070 Stellar Alloy : ZPM superconductor
+var stellar_alloy = MaterialBuilder(32070, "stellar_alloy")
+    .ingot()
+    .fluid()
+    .color(0xE4E7E7)
+    .iconSet("shiny")
+    .cableProperties(131072, 1, 0, true)
+    .components([<material:antimony> * 4,
+                 <material:ruthenium> * 2,
+                 <material:blue_steel> * 1,
+                 <material:rhodium> * 1])
+    .blastTemp(6400, "HIGHEST", 120, 20800)
+    .build();
+
+#  32071 Energetic Silver : MV superconductor 
+var energetic_silver = MaterialBuilder(32071, "energetic_silver")
+    .ingot()
+    .fluid()
+    .color(0x95B5CE)
+    .iconSet("shiny")
+    .blastTemp(1250, "LOW", 120, 400)
+    .components([<material:silver> * 2,
+                 <material:redstone> * 1,
+                 <material:glowstone> * 1])
+    .cableProperties(128, 1, 0, true)
+    .build();
+
+#  32072 Vivid Alloy : HV superconductor
+var vivid_alloy = MaterialBuilder(32072, "vivid_alloy")
+    .ingot()
+    .fluid()
+    .color(0x55C7E4)
+    .iconSet("shiny")
+    .components([<material:energetic_silver> * 1,
+                 <material:ender_pearl> * 1])
+    .cableProperties(512, 1, 0, true)
     .build();
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3

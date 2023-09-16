@@ -55,8 +55,36 @@ var disabledOreDictBlocks as IItemStack[][IOreDictEntry] = {
     ],
     #  blockVibrantAlloy : Ender IO
     <ore:blockVibrantAlloy> : [
-		    <enderio:block_alloy:2>
-	  ],
+		<enderio:block_alloy:2>
+	],
+    #  blockCrystallineAlloy : Ender IO Endergy
+    <ore:blockCrystallineAlloy> : [
+        <enderio:block_alloy_endergy:1>
+    ],
+    #  blockMelodicAlloy : Ender IO Endergy
+    <ore:blockMelodicAlloy> : [
+        <enderio:block_alloy_endergy:2>
+    ],
+    #  blockStellarAlloy : Ender IO Endergy
+    <ore:blockStellarAlloy> : [
+        <enderio:block_alloy_endergy:3>
+    ],
+    #  blockCrystallinePinkSlime : Ender IO Endergy
+    <ore:blockCrystallinePinkSlime> : [
+        <enderio:block_alloy_endergy:4>
+    ],
+    #  blockEnergeticSilver : Ender IO Endergy
+    <ore:blockEnergeticSilver> : [
+        <enderio:block_alloy_endergy:5>
+    ],
+    #  blockVividAlloy : Ender IO Endergy
+    <ore:blockVividAlloy> : [
+        <enderio:block_alloy_endergy:6>
+    ],
+    #  blockCrudeSteel : Ender IO Endergy
+    <ore:blockCrudeSteel> : [
+        <enderio:block_alloy_endergy>
+    ]
 }; 
 
 var disabledOreDictDusts as IItemStack[][IOreDictEntry] = {
@@ -209,14 +237,70 @@ var disabledOreDictIngots as IItemStack[][IOreDictEntry] = {
     #  ingotElectrotineAlloy : Project Red
     <ore:ingotElectrotineAlloy> : [
         <projectred-core:resource_item:104>
+    ],
+    #  ingotCrystallineAlloy : Ender IO Endergy
+    <ore:ingotCrystallineAlloy> : [
+        <enderio:item_alloy_endergy_ingot:1>
+    ],
+    #  ingotMelodicAlloy : Ender IO Endergy
+    <ore:ingotMelodicAlloy> : [
+        <enderio:item_alloy_endergy_ingot:2>
+    ],
+    #  ingotStellarAlloy : Ender IO Endergy
+    <ore:ingotStellarAlloy> : [
+        <enderio:item_alloy_endergy_ingot:3>
+    ],
+    #  ingotCrystallinePinkSlime : Ender IO Endergy
+    <ore:ingotCrystallinePinkSlime> : [
+        <enderio:item_alloy_endergy_ingot:4>
+    ],
+    #  ingotEnergeticSilver : Ender IO Endergy
+    <ore:ingotEnergeticSilver> : [
+        <enderio:item_alloy_endergy_ingot:5>
+    ],
+    #  ingotVividAlloy : Ender IO Endergy
+    <ore:ingotVividAlloy> : [
+        <enderio:item_alloy_endergy_ingot:6>
+    ],
+    #  ingotCrudeSteel : Ender IO Endergy
+    <ore:ingotCrudeSteel> : [
+        <enderio:item_alloy_endergy_ingot>
     ]
 };
 
 var disabledOreDictNuggets as IItemStack[][IOreDictEntry] = {
     #  nuggetNeutronium : Avaritia
     <ore:nuggetNeutronium> : [
-		    <avaritia:resource:3>,
-	  ],
+		<avaritia:resource:3>,
+	],
+    #  nuggetCrystallineAlloy : Ender IO Endergy
+    <ore:nuggetCrystallineAlloy> : [
+        <enderio:item_alloy_endergy_nugget:1>
+    ],
+    #  nuggetMelodicAlloy : Ender IO Endergy
+    <ore:nuggetMelodicAlloy> : [
+        <enderio:item_alloy_endergy_nugget:2>
+    ],
+    #  nuggetStellarAlloy : Ender IO Endergy
+    <ore:nuggetStellarAlloy> : [
+        <enderio:item_alloy_endergy_nugget:3>
+    ],
+    #  nuggetCrystallinePinkSlime : Ender IO Endergy
+    <ore:nuggetCrystallinePinkSlime> : [
+        <enderio:item_alloy_endergy_nugget:4>
+    ],
+    #  nuggetEnergeticSilver : Ender IO Endergy
+    <ore:nuggetEnergeticSilver> : [
+        <enderio:item_alloy_endergy_nugget:5>
+    ],
+    #  nuggetVividAlloy : Ender IO Endergy
+    <ore:nuggetVividAlloy> : [
+        <enderio:item_alloy_endergy_nugget:6>
+    ],
+    #  nuggetCrudeSteel : Ender IO Endergy
+    <ore:nuggetCrudeSteel> : [
+        <enderio:item_alloy_endergy_nugget>
+    ]
 };
 
 var disabledOreDictOthers as IItemStack[][IOreDictEntry] = {
@@ -611,6 +695,9 @@ recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 <ore:gearVibrant>.add(<gregtech:meta_gear:32006>);
 <ore:gearDark>.add(<gregtech:meta_gear:32003>);
 <ore:itemVibrantPowder>.add(<gregtech:meta_dust:32006>);
+<ore:ingotCrudeSteel>.add(<gregtech:meta_ingot:335>);
+<ore:nuggetCrudeSteel>.add(<gregtech:meta_nugget:335>);
+<ore:blockCrudeSteel>.add(<gregtech:meta_block_compressed_20:15>);
 
 recipes.removeByRecipeName("enderio:gear_wood");
 recipes.removeByRecipeName("enderio:gear_ae2_messes_things_up");

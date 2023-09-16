@@ -42,6 +42,16 @@ mixer.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
+#  Energetic Silver
+mixer.recipeBuilder()
+    .inputs([<ore:dustSilver> * 2,
+             <ore:dustRedstone>,
+             <ore:dustGlowstone>])
+    .outputs([<gregtech:meta_dust:32071> * 4])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
 #  Vibrant alloy
 mixer.recipeBuilder()
     .inputs([<ore:dustEnergeticAlloy>,
@@ -51,6 +61,15 @@ mixer.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
+#  Vivid alloy
+mixer.recipeBuilder()
+    .inputs([<ore:dustEnergeticSilver>,
+             <ore:dustEnderPearl>])
+    .outputs([<gregtech:meta_dust:32072> * 2])
+    .EUt(512)
+    .duration(200)
+    .buildAndRegister();
+    
 #  Dark steel
 alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotSteel>,
@@ -97,6 +116,31 @@ alloy_smelter.recipeBuilder()
     .inputs([<ore:dustBlackSteel>,
              <ore:dustEndstone> * 2])
     .outputs([<gregtech:meta_ingot:32007> * 3])
+    .EUt(2048)
+    .duration(200)
+    .buildAndRegister();
+
+#  Crystalline Alloy
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotBlackSteel>,
+             <ore:ingotPlutonium241>])
+    .outputs([<gregtech:meta_ingot:32067> * 2])
+    .EUt(2048)
+    .duration(200)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotBlackSteel>,
+             <ore:dustPlutonium241>])
+    .outputs([<gregtech:meta_ingot:32067> * 2])
+    .EUt(2048)
+    .duration(200)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustBlackSteel>,
+             <ore:ingotPlutonium241>])
+    .outputs([<gregtech:meta_ingot:32067> * 2])
     .EUt(2048)
     .duration(200)
     .buildAndRegister();
