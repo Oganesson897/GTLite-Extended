@@ -69,7 +69,7 @@ mixer.recipeBuilder()
     .EUt(512)
     .duration(200)
     .buildAndRegister();
-    
+
 #  Dark steel
 alloy_smelter.recipeBuilder()
     .inputs([<ore:ingotSteel>,
@@ -708,3 +708,49 @@ makeShaped("levity_staff_2", <enderio:item_staff_of_levity>,
         "C": <enderio:item_material:19>,
         "R": <ore:stickDarkSteel>
     });
+
+#  Stellar Alloy Tools
+recipes.remove(<enderio:item_stellar_alloy_pickaxe>);
+makeShaped("stellar_alloy_pickaxe", <enderio:item_stellar_alloy_pickaxe>,
+    [
+        "III",
+        " A ",
+        " S "
+    ],
+    {
+        "I": <ore:ingotStellarAlloy>,
+        "S": <ore:stickEndSteel>,
+        "A": <enderio:item_material:44>
+    });
+
+recipes.remove(<enderio:item_stellar_alloy_axe>);
+makeShaped("stellar_alloy_axe_1", <enderio:item_stellar_alloy_axe>,
+    [
+        "II ",
+        "IA ",
+        " S "
+    ],
+    {
+        "I": <ore:ingotStellarAlloy>,
+        "S": <ore:stickEndSteel>,
+        "A": <enderio:item_material:44>
+    });
+
+makeShaped("stellar_alloy_axe_2", <enderio:item_stellar_alloy_axe>,
+    [
+        " II",
+        " AI",
+        " S "
+    ],
+    {
+        "I": <ore:ingotStellarAlloy>,
+        "S": <ore:stickEndSteel>,
+        "A": <enderio:item_material:44>
+    });
+
+macerator.recipeBuilder()
+    .inputs([<extrautils2:compressedcobblestone>])
+    .outputs([<enderio:item_material:75> * 9])
+    .EUt(8)
+    .duration(120)
+    .buildAndRegister();

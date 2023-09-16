@@ -20,6 +20,30 @@ enderio.ender.name=八位电容
 #  Conduits
 item.item_material.binder_composite.name=导管粘合胚料
 item.item_material.conduit_binder.name=导管粘合剂
+enderio.item_power_conduit.name=能量导管
+enderio.item_power_conduit_enhanced.name=强化能量导管
+enderio.item_power_conduit_ender.name=末影能量导管
+enderio.power.max_output=最大输出
+
+enderio.item_redstone_conduit_insulated.name=红石导管
+
+enderio.item_liquid_conduit.name=流体导管
+enderio.item_liquid_conduit_advanced.name=高压流体导管
+enderio.item_liquid_conduit_ender.name=末影流体导管
+enderio.item_liquid_conduit.locked_type=流体类型锁定
+enderio.item_liquid_conduit.unlocked_type=流体类型解锁
+enderio.item_liquid_conduit.locked_waila=锁定为
+
+enderio.fluid.millibuckets_tick=mB/t
+enderio.item_liquid_conduit.tooltip.max_extract=最大提取量：
+enderio.item_liquid_conduit.tooltip.max_io=最大输入/输出：
+enderio.item_liquid_conduit.tooltip.detailed.line1=流体的流动受重力影响
+enderio.item_liquid_conduit.tooltip.detailed.line2=流速取决于流体粘度
+
+enderio.item_liquid_conduit_ender.tooltip.detailed.line1=即时流体传输
+enderio.item_liquid_conduit_ender.tooltip.detailed.line2=允许在同一条导管中传输多种流体
+
+enderio.item_item_conduit.name=物品导管
 
 #  Crystals
 item.item_material.weather_crystal.name=天气水晶
@@ -275,6 +299,35 @@ item.item_ender_food.enderios.tooltip.common.line1=营养均衡的早餐的一�
 item.item_ender_food.enderios.tooltip.detailed.line1=并不真的健康。含有253克糖，53克油脂与394克末影珍珠粉。
 item.item_ender_food.enderios.tooltip.detailed.line2=末影珍珠粉的副作用包括：恶心，头晕，困惑与随机传送。
 
+item.item_basic_item_filter.name=基础物品过滤器
+item.item_advanced_item_filter.name=高级物品过滤器
+item.item_limited_item_filter.name=限制物品过滤器
+item.item_big_item_filter.name=大型物品过滤器
+item.item_big_advanced_item_filter.name=高级大型物品过滤器
+item.item_existing_item_filter.name=现有物品过滤器
+item.item_mod_item_filter.name=模组物品过滤器
+item.item_power_item_filter.name=充能物品过滤器
+item.item_soul_filter_normal.name=灵魂物品过滤器
+item.item_soul_filter_big.name=大型灵魂物品过滤器
+item.item_enchantment_filter_normal.name=附魔物品过滤器
+item.item_enchantment_filter_big.name=大型附魔物品过滤器
+item.item_fluid_filter.name=基础流体过滤器
+item.item_redstone_not_filter.name=非门红石过滤器
+item.item_redstone_or_filter.name=或门红石过滤器
+item.item_redstone_and_filter.name=与门红石过滤器
+item.item_redstone_nor_filter.name=或非门红石过滤器
+item.item_redstone_nand_filter.name=与非门红石过滤器
+item.item_redstone_xor_filter.name=异或门红石过滤器
+item.item_redstone_xnor_filter.name=同或门红石过滤器
+item.item_redstone_toggle_filter.name=锁存红石过滤器
+item.item_redstone_sensor_filter.name=感应红石过滤器
+item.item_redstone_counting_filter.name=计次红石过滤器
+item.item_redstone_timer_filter.name=计时红石过滤器
+
+item.item_material.infinity_goop.name=进阶导管粘合剂
+item.item_material.infinity_goop.tooltip.detailed.line1=更好的导管粘合剂
+item.item_material.infinity_goop.tooltip.detailed.line2=它被用来合成Ender IO Endergy中的导管
+
 #  Tools
 item.item_conduit_probe.name=导管探测器
 item.item_conduit_probe.tooltip.detailed=在探测模式下鼠标右键单击导管以显示其的详细信息|在复制/粘贴模式下按住 SHIFT 键然后鼠标右键以复制导管的连接设置|鼠标右键单击导管以粘贴设置|使用 SHIFT 键与鼠标滚轮或 Y 键更改模式
@@ -446,18 +499,7 @@ itemGroup.enderio.mobs=灵魂（末影接口）
 itemGroup.enderio.conduits=导管（末影接口）
 itemGroup.enderio.invpanel=存储面板（末影接口）
 
-
-
-
-
-
-
-
-
-
-
-
-
+#  Others
 enderio.gui.conduit.io_mode.in_out=提取/存入
 enderio.gui.conduit.io_mode.input=提取
 enderio.gui.conduit.io_mode.output=存入
@@ -492,27 +534,33 @@ enderio.gui.item_filter.ore_dic_disabled=忽略矿物词典
 enderio.gui.item_filter.match_nbt=匹配 NBT
 enderio.gui.item_filter.ignore_nbt=忽略 NBT
 
-item.item_basic_item_filter.name=基础物品过滤器
-item.item_advanced_item_filter.name=高级物品过滤器
-item.item_limited_item_filter.name=限制物品过滤器
-item.item_big_item_filter.name=大型物品过滤器
-item.item_big_advanced_item_filter.name=高级大型物品过滤器
-item.item_existing_item_filter.name=现有物品过滤器
-item.item_mod_item_filter.name=模组物品过滤器
-item.item_power_item_filter.name=充能物品过滤器
-item.item_soul_filter_normal.name=灵魂物品过滤器
-item.item_soul_filter_big.name=大型灵魂物品过滤器
-item.item_enchantment_filter_normal.name=附魔物品过滤器
-item.item_enchantment_filter_big.name=大型附魔物品过滤器
-item.item_fluid_filter.name=基础流体过滤器
-item.item_redstone_not_filter.name=非门红石过滤器
-item.item_redstone_or_filter.name=或门红石过滤器
-item.item_redstone_and_filter.name=与门红石过滤器
-item.item_redstone_nor_filter.name=或非门红石过滤器
-item.item_redstone_nand_filter.name=与非门红石过滤器
-item.item_redstone_xor_filter.name=异或门红石过滤器
-item.item_redstone_xnor_filter.name=同或门红石过滤器
-item.item_redstone_toggle_filter.name=锁存红石过滤器
-item.item_redstone_sensor_filter.name=感应红石过滤器
-item.item_redstone_counting_filter.name=计次红石过滤器
-item.item_redstone_timer_filter.name=计时红石过滤器
+#  Ender IO Endergy
+item.item_capacitor_crystalline.name=晶化合金电容
+item.item_capacitor_melodic.name=旋律合金电容
+item.item_capacitor_stellar.name=恒星合金电容
+item.item_capacitor_totemic.name=不死图腾电容
+item.item_capacitor_silver.name=银电容
+item.item_capacitor_energetic_silver.name=充能银电容
+item.item_capacitor_vivid.name=生动合金电容
+
+enderio.item_endergy_conduit_cobble.name=锻铁能量导管
+enderio.item_endergy_conduit_iron.name=铁能量导管
+enderio.item_endergy_conduit_gold.name=金能量导管
+enderio.item_endergy_conduit_silver.name=银能量导管
+enderio.item_endergy_conduit_energetic_silver.name=充能银能量导管
+enderio.item_endergy_conduit_electrum.name=琥珀金能量导管
+enderio.item_endergy_conduit_alu.name=铝能量导管
+enderio.item_endergy_conduit_copper.name=铜能量导管
+enderio.item_endergy_conduit_crystalline.name=晶化合金能量导管
+enderio.item_endergy_conduit_pink_slime.name=晶化粉红史莱姆能量导管
+enderio.item_endergy_conduit_melodic.name=旋律合金能量导管
+enderio.item_endergy_conduit_stellar.name=恒星合金能量导管
+
+item.item_stellar_alloy_sword.name=终结之剑 Mk III
+item.item_stellar_alloy_sword.tooltip.detailed.line1=经过47次尝试，兰多夫终于制造出了终极武器！
+item.item_stellar_alloy_pickaxe.name=恒星合金镐
+item.item_stellar_alloy_axe.name=恒星合金斧
+item.item_stellar_alloy_helmet.name=恒星合金头盔
+item.item_stellar_alloy_chestplate.name=恒星合金胸甲
+item.item_stellar_alloy_leggings.name=恒星合金护腿
+item.item_stellar_alloy_boots.name=恒星合金靴子
