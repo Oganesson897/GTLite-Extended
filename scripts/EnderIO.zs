@@ -402,3 +402,265 @@ makeShaped("return_stuff_2", <enderio:item_rod_of_return>,
         "c": <enderio:item_material:14>,
         "C": <ore:itemEnderCrystal>
     });
+
+#  Dark bow
+recipes.remove(<enderio:item_dark_steel_bow>);
+makeShaped("dark_bow_1", <enderio:item_dark_steel_bow>,
+    [
+        " BS",
+        "A S",
+        " BS"
+    ],
+    {
+        "A": <enderio:item_material:45>,
+        "B": <ore:stickDarkSteel>,
+        "S": <minecraft:string>
+    });
+
+makeShaped("dark_bow_2", <enderio:item_dark_steel_bow>,
+    [
+        "SB ",
+        "S A",
+        "SB "
+    ],
+    {
+        "A": <enderio:item_material:45>,
+        "B": <ore:stickDarkSteel>,
+        "S": <minecraft:string>
+    });
+
+#  Hootch
+chemical_reactor.recipeBuilder()
+    .inputs([<minecraft:wheat>,
+             <minecraft:sugar>])
+    .fluidInputs([<liquid:water> * 3000])
+    .fluidOutputs([<liquid:hootch> * 1000])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+#  Fire water
+chemical_reactor.recipeBuilder()
+    .inputs([<minecraft:blaze_powder>,
+             <minecraft:redstone>])
+    .fluidInputs([<liquid:hootch> * 1000])
+    .fluidOutputs([<liquid:fire_water> * 1000])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+#  Liquid sunshine
+chemical_reactor.recipeBuilder()
+    .inputs([<minecraft:glowstone_dust> * 2])
+    .fluidInputs([<liquid:fire_water> * 1000])
+    .fluidOutputs([<liquid:liquid_sunshine> * 3000])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+#  Cloud Seed
+chemical_reactor.recipeBuilder()
+    .inputs([<minecraft:clay>,
+             <minecraft:packed_ice>])
+    .fluidInputs([<liquid:water> * 2000])
+    .fluidOutputs([<liquid:cloud_seed> * 4000])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+#  Concentrated Cloud Seed
+chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:cloud_seed> * 2000])
+    .circuit(1)
+    .fluidOutputs([<liquid:cloud_seed_concentrated> * 1000])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+#  Nutrient Distillation
+chemical_reactor.recipeBuilder()
+    .inputs([<actuallyadditions:item_solidified_experience>])
+    .fluidInputs([<liquid:water> * 1000])
+    .fluidOutputs([<liquid:nutrient_distillation> * 2000])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs([<liquid:xpjuice> * 1000,
+             <liquid:water> * 1000])
+    .fluidOutputs([<liquid:nutrient_distillation> * 2000])
+    .EUt(16)
+    .duration(200)
+    .buildAndRegister();
+
+#  Vacuum Chest
+recipes.remove(<enderio:block_vacuum_chest>);
+makeShaped("vacuum_chest", <enderio:block_vacuum_chest>,
+    [
+        "PPP",
+        "PBP",
+        "PCP"
+    ],
+    {
+        "C": <enderio:item_material:14>,
+        "B": <minecraft:chest>,
+        "P": <ore:plateDarkSteel>
+    });
+
+#  XP Vacuum
+recipes.remove(<enderio:block_xp_vacuum>);
+makeShaped("xp_vacuum", <enderio:block_xp_vacuum>,
+    [
+        "PPP",
+        "PBP",
+        "PCP"
+    ],
+    {
+        "B": <enderio:item_xp_transfer>,
+        "C": <enderio:item_material:14>,
+        "P": <ore:plateDarkSteel>
+    });
+
+#  Pulsating Crystal
+recipes.remove(<enderio:item_material:14>);
+autoclave.recipeBuilder()
+    .inputs([<minecraft:diamond>])
+    .fluidInputs([<liquid:pulsating_iron> * 144])
+    .outputs([<enderio:item_material:14>])
+    .EUt(16)
+    .duration(360)
+    .buildAndRegister();
+
+#  Vibrant Crystal
+recipes.remove(<enderio:item_material:15>);
+autoclave.recipeBuilder()
+    .inputs([<minecraft:emerald>])
+    .fluidInputs([<liquid:vibrant_alloy> * 144])
+    .outputs([<enderio:item_material:15>])
+    .EUt(16)
+    .duration(360)
+    .buildAndRegister();
+
+#  End Crystal
+autoclave.recipeBuilder()
+    .inputs([<minecraft:ender_pearl>])
+    .fluidInputs([<liquid:enderium> * 144])
+    .outputs([<enderio:item_material:16>])
+    .EUt(16)
+    .duration(360)
+    .buildAndRegister();
+
+#  Attractor Crystal
+autoclave.recipeBuilder()
+    .inputs([<minecraft:emerald>])
+    .fluidInputs([<liquid:energetic_alloy> * 144])
+    .outputs([<enderio:item_material:17>])
+    .EUt(16)
+    .duration(360)
+    .buildAndRegister();
+
+#  Prescient Crystal
+autoclave.recipeBuilder()
+    .inputs([<minecraft:shulker_shell>])
+    .fluidInputs([<liquid:end_steel> * 144])
+    .outputs([<enderio:item_material:19>])
+    .EUt(16)
+    .duration(360)
+    .buildAndRegister();
+
+#  End Steel tools
+recipes.remove(<enderio:item_end_steel_sword>);
+makeShaped("end_steel_sword", <enderio:item_end_steel_sword>,
+    [
+        " I ",
+        " I ",
+        " R "
+    ],
+    {
+        "I": <ore:ingotEndSteel>,
+        "R": <ore:stickDarkSteel>
+    });
+
+recipes.remove(<enderio:item_end_steel_pickaxe>);
+makeShaped("end_steel_pickaxe", <enderio:item_end_steel_pickaxe>,
+    [
+        "III",
+        " R ",
+        " R "
+    ],
+    {
+        "I": <ore:ingotEndSteel>,
+        "R": <ore:stickDarkSteel>
+    });
+
+recipes.remove(<enderio:item_end_steel_axe>);
+makeShaped("end_steel_axe_1", <enderio:item_end_steel_axe>,
+    [
+        "II ",
+        "IR ",
+        " R "
+    ],
+    {
+        "I": <ore:ingotEndSteel>,
+        "R": <ore:stickDarkSteel>
+    });
+
+makeShaped("end_steel_axe_2", <enderio:item_end_steel_axe>,
+    [
+        " II",
+        " RI",
+        " R "
+    ],
+    {
+        "I": <ore:ingotEndSteel>,
+        "R": <ore:stickDarkSteel>
+    });
+
+recipes.remove(<enderio:item_end_steel_bow>);
+makeShaped("end_steel_bow_1", <enderio:item_end_steel_bow>,
+    [
+        " RS",
+        "C S",
+        " RS"
+    ],
+    {
+        "C": <enderio:item_material:45>,
+        "R": <ore:stickEndSteel>,
+        "S": <minecraft:string>
+    });
+
+makeShaped("end_steel_bow_2", <enderio:item_end_steel_bow>,
+    [
+        "SR ",
+        "S C",
+        "SR "
+    ],
+    {
+        "C": <enderio:item_material:45>,
+        "R": <ore:stickEndSteel>,
+        "S": <minecraft:string>
+    });
+
+recipes.remove(<enderio:item_staff_of_levity>);
+makeShaped("levity_staff_1", <enderio:item_staff_of_levity>,
+    [
+        "C  ",
+        " R ",
+        "  R"
+    ],
+    {
+        "C": <enderio:item_material:19>,
+        "R": <ore:stickDarkSteel>
+    });
+
+makeShaped("levity_staff_2", <enderio:item_staff_of_levity>,
+    [
+        "  C",
+        " R ",
+        "R  "
+    ],
+    {
+        "C": <enderio:item_material:19>,
+        "R": <ore:stickDarkSteel>
+    });

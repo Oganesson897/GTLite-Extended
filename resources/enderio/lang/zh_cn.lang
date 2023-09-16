@@ -3,6 +3,13 @@
 #! Sort by first letter (A-Z) for every class
 #! Some may not be effective
 
+enderio.power.symbol=RF
+enderio.power.format=%s RF
+enderio.power.format.of=%s / %s RF
+enderio.power.format.pertick=%s RF/t
+enderio.power.format.name=RF (%s)
+enderio.power.format.details=一个单位能量
+
 #  Capacitors
 item.item_basic_capacitor.activated.name=双层电容
 item.item_basic_capacitor.basic.name=基础电容
@@ -20,6 +27,29 @@ item.item_material.pulsating_crystal.name=充能水晶
 item.item_material.vibrant_crystal.name=脉冲水晶
 item.item_material.attractor_crystal.name=诱引水晶
 item.item_material.ender_crystal.name=末影水晶
+item.item_material.precient_crystal.name=预知水晶
+
+#  Fluids
+fluid.hootch=烈酒
+tile.fluid.hootch.name=烈酒
+
+fluid.fire_water=火焰水
+tile.fluid.fire_water.name=火焰水
+
+fluid.liquid_sunshine=液态阳光
+tile.fluid.liquid_sunshine.name=液态阳光
+
+fluid.cloud_seed=云之精华
+tile.fluid.cloud_seed.name=云之精华
+
+fluid.cloud_seed_concentrated=浓缩云之精华
+tile.fluid.cloud_seed_concentrated.name=浓缩云之精华
+
+fluid.nutrient_distillation=营养精华
+tile.fluid.nutrient_distillation.name=营养精华
+
+fluid.xpjuice=液态经验
+tile.fluid.xpjuice.name=液态经验
 
 #  Machines
 item.item_material.machine_chassi.name=工业机器框架
@@ -29,6 +59,134 @@ item.item_material.enhanced_machine_chassi.name=强化机器框架
 item.item_material.chassi_parts.name=机器部件
 item.item_material.simple_chassi_parts.name=简易机器部件
 item.item_material.enhanced_chassi_parts.name=强化机器部件
+
+tile.block_wired_charger.name=有线充电器
+tile.block_wired_charger.tooltip.detailed.line1=为物品充电
+tile.block_wired_charger.tooltip.detailed.line2=根据物品存储能量的大小调节输出
+
+tile.block_simple_wired_charger.name=简易有线充电器
+tile.block_simple_wired_charger.tooltip.detailed.line2=为物品充电
+
+tile.block_enhanced_wired_charger.name=强化有线充电器
+tile.block_enhanced_wired_charger.tooltip.detailed.line1=为物品充电
+tile.block_enhanced_wired_charger.tooltip.detailed.line2=根据物品存储能量的大小调节输出
+
+tile.block_farm_station.name=种植站
+tile.block_farm_station.tooltip.detailed.line1=用于种植和收获作物
+tile.block_farm_station.tooltip.detailed.line2=需要能量与相应的工具（锄，斧，剪刀）
+tile.block_farm_station.tooltip.detailed.line3=工具上的附魔（抢夺/时运）会生效
+tile.block_farm_station.tooltip.detailed.line4=升级电容以扩大工作范围，同时增加能耗
+
+enderio.config.enchanter=附魔器
+tile.block_enchanter.name=附魔器
+tile.block_enchanter.tooltip.detailed.line1=使用经验将物品与§6书与笔§r合成在一起以制造相应的附魔书
+
+tile.block_weather_obelisk.name=天气方尖碑
+tile.block_weather_obelisk.tooltip.detailed.line1=用于改变天气
+tile.block_weather_obelisk.tooltip.detailed.line2=需要能量与催化剂
+enderio.gui.weather_obelisk.fuelTank=催化剂
+
+tile.block_killer_joe.name=杀手乔
+tile.block_killer_joe.tooltip.detailed.line1=提供武器与营养精华时攻击附近的生物
+
+enderio.gui.vacuum.header.chest=虚空箱子
+tile.block_vacuum_chest.name=虚空箱子
+tile.block_vacuum_chest.tooltip.detailed.line1=吸收附近的掉落物
+enderio.config.vacuum=虚空箱子/虚空经验箱子
+
+enderio.gui.vacuum.xp.header=虚空经验箱子
+enderio.gui.vacuum.prime=手持一桶液态经验使用鼠标右键单击虚空经验箱子以激活
+
+tile.block_cap_bank.creative.name=创造模式电容库
+tile.block_cap_bank.simple.name=基础电容库
+tile.block_cap_bank.activated.name=电容库
+tile.block_cap_bank.vibrant.name=脉冲电容库
+tile.block_cap_bank.tooltip.detailed.line1=多方块能量存储器。
+tile.block_cap_bank.tooltip.detailed.line2=可以为使用RF作为能量的物品充能。
+tile.block_cap_bank.tooltip.detailed.line3=按住 SHIFT 键盘再鼠标右键一个位置
+tile.block_cap_bank.tooltip.detailed.line4=以禁用该位置的能量交互
+tile.block_cap_bank.tooltip.has_items=§6已存储 §4{0,number,integer}§6 {0,choice,1#item|1<items} 能量
+
+tile.block_detector_block.name=方块检测器
+tile.block_detector_block_silent.name=方块检测器（无声）
+
+tile.block_dark_steel_anvil.name=玄钢砧
+tile.block_dark_steel_anvil.tooltip.common.line1=不会被破坏
+tile.block_dark_steel_anvil.tooltip.detailed.line1=比原版的铁砧耐用许多
+tile.block_dark_steel_anvil.tooltip.detailed.line2=可以用于安装与拆卸玄钢升级
+tile.block_dark_steel_anvil.intact.name=玄钢砧
+tile.block_dark_steel_anvil.slightlyDamaged.name=轻微损坏的玄钢砧
+tile.block_dark_steel_anvil.veryDamaged.name=严重损坏的玄钢砧
+tile.block_broken_anvil.name=损坏的玄钢砧
+
+tile.block_dark_paper_anvil.name=黑色纸砧
+tile.block_dark_paper_anvil.tooltip.common.line1=并不耐用
+tile.block_dark_paper_anvil.tooltip.detailed.line1=比原版的铁砧不耐用许多
+tile.block_dark_paper_anvil.tooltip.detailed.line2=可以用于安装与拆卸玄钢升级
+tile.block_dark_paper_anvil.intact.name=黑色纸砧
+tile.block_dark_paper_anvil.slightlyDamaged.name=轻微损坏的黑色纸砧
+tile.block_dark_paper_anvil.veryDamaged.name=严重损坏的黑色纸砧
+
+tile.block_dark_steel_ladder.name=玄钢梯子
+tile.block_dark_steel_ladder.tooltip.common.line1=比一般的梯子爬的更快
+
+tile.block_dark_steel_trapdoor.name=玄钢活板门
+tile.block_dark_steel_trapdoor.tooltip.detailed.line1=这是个活板门！
+
+item.block_dark_steel_door.name=玄钢门
+
+tile.block_dark_iron_bars.name=玄钢栅栏
+
+tile.block_reinforced_obsidian.name=强化黑曜石
+tile.block_reinforced_obsidian.tooltip.common.line1=凋零终结者
+
+tile.block_painted_pressure_plate.darksteel.name=玄钢压力板
+tile.block_painted_pressure_plate.darksteel.tooltip.detailed.line1=只对玩家生效
+tile.block_painted_pressure_plate.darksteel.silent.name=玄钢压力板（无声）
+tile.block_painted_pressure_plate.darksteel.silent.tooltip.detailed.line1=只对玩家生效
+tile.block_painted_pressure_plate.gold.name=测重压力板（轻质）
+tile.block_painted_pressure_plate.gold.tooltip.detailed.line1=可变红石信号输出：每个物品一次。
+tile.block_painted_pressure_plate.gold.silent.name=测重压力板（轻质|无声）
+tile.block_painted_pressure_plate.gold.silent.tooltip.detailed.line1=可变红石信号输出：每个物品一次。
+tile.block_painted_pressure_plate.iron.name=测重压力板（重质）
+tile.block_painted_pressure_plate.iron.tooltip.detailed.line1=可变红石信号输出：每个实体一次。
+tile.block_painted_pressure_plate.iron.silent.name=测重压力板（重质|无声）
+tile.block_painted_pressure_plate.iron.silent.tooltip.detailed.line1=可变红石信号输出：每个实体一次。
+tile.block_painted_pressure_plate.soularium.name=魂金压力板
+tile.block_painted_pressure_plate.soularium.tooltip.detailed.line1=只对敌对生物生效
+tile.block_painted_pressure_plate.soularium.tooltip.detailed.line3=可以用灵魂绑定器配置。
+tile.block_painted_pressure_plate.soularium.silent.name=魂金压力板（无声）
+tile.block_painted_pressure_plate.soularium.silent.tooltip.detailed.line1=只对敌对生物生效
+tile.block_painted_pressure_plate.soularium.silent.tooltip.detailed.line3=可以用灵魂绑定器配置。
+tile.block_painted_pressure_plate.stone.name=石头压力板
+tile.block_painted_pressure_plate.stone.tooltip.detailed.line1=只对怪物与玩家生效
+tile.block_painted_pressure_plate.stone.silent.name=石头压力板（无声）
+tile.block_painted_pressure_plate.stone.silent.tooltip.detailed.line1=只对怪物与玩家生效
+tile.block_painted_pressure_plate.tuned.name=魂金压力板（已配置）
+tile.block_painted_pressure_plate.tuned.tooltip.detailed.line1=只对特定生物生效
+tile.block_painted_pressure_plate.tuned.tooltip.detailed.line3=可以用灵魂绑定器配置。
+tile.block_painted_pressure_plate.tuned.tooltip=配置：%s
+tile.block_painted_pressure_plate.tuned.silent.name=魂金压力板（无声|已配置）
+tile.block_painted_pressure_plate.tuned.silent.tooltip.detailed.line1=只对特定生物生效
+tile.block_painted_pressure_plate.tuned.silent.tooltip.detailed.line3=可以用灵魂绑定器配置。
+tile.block_painted_pressure_plate.wood.name=木制压力板
+tile.block_painted_pressure_plate.wood.silent.name=木制压力板（无声）
+
+tile.block_self_resetting_lever5.name=自复原拉杆（5秒）
+tile.block_self_resetting_lever10.name=自复原拉杆（10秒）
+tile.block_self_resetting_lever30.name=自复原拉杆（30秒）
+tile.block_self_resetting_lever60.name=自复原拉杆（1分钟）
+tile.block_self_resetting_lever300.name=自复原拉杆（5分钟）
+
+tile.block_self_resetting_lever5i.name=反向自复原拉杆（5秒）
+tile.block_self_resetting_lever10i.name=反向自复原拉杆（10秒）
+tile.block_self_resetting_lever30i.name=反向自复原拉杆（30秒）
+tile.block_self_resetting_lever60i.name=反向自复原拉杆（1分钟）
+tile.block_self_resetting_lever300i.name=反向自复原拉杆（5分钟）
+
+tile.block_soul_binder.name=灵魂绑定器
+tile.block_soul_binder.tooltip.detailed.line1=可用于转换破损的刷怪笼的类型，也可用于其他合成
+enderio.gui.soul_binder.useplayerxp=使用玩家经验
 
 #  Items
 tile.block_enderman_skull.name=末影人头颅
@@ -47,17 +205,24 @@ item.item_material.skull_guardian_diode.name=守卫者二极管
 
 item.item_material.black_paper.name=黑色纸
 
+item.item_material.redstone_filter_base.name=红石过滤器基板
+
+item.item_ender_food.enderios.name=末影珍珠粥
+item.item_ender_food.enderios.tooltip.common.line1=营养均衡的早餐的一部分！
+item.item_ender_food.enderios.tooltip.detailed.line1=并不真的健康。含有253克糖，53克油脂与394克末影珍珠粉。
+item.item_ender_food.enderios.tooltip.detailed.line2=末影珍珠粉的副作用包括：恶心，头晕，困惑与随机传送。
+
 #  Tools
 item.item_conduit_probe.name=导管探测器
 item.item_conduit_probe.tooltip.detailed=在探测模式下鼠标右键单击导管以显示其的详细信息|在复制/粘贴模式下按住 SHIFT 键然后鼠标右键以复制导管的连接设置|鼠标右键单击导管以粘贴设置|使用 SHIFT 键与鼠标滚轮或 Y 键更改模式
 
 item.item_yeta_wrench.name=以太扳手
 item.item_yeta_wrench.tooltip.detailed.line1=手持时隐藏导管框架
-item.item_yeta_wrench.tooltip.detailed.line2=按住Shift再使用鼠标右键可
+item.item_yeta_wrench.tooltip.detailed.line2=按住 SHIFT 键再使用鼠标右键可
 item.item_yeta_wrench.tooltip.detailed.line3=拆除机器与导管
-item.item_yeta_wrench.tooltip.detailed.line4=按住Shift再使用鼠标左键可
+item.item_yeta_wrench.tooltip.detailed.line4=按住 SHIFT 键再使用鼠标左键可
 item.item_yeta_wrench.tooltip.detailed.line5=打开导管设置界面
-item.item_yeta_wrench.tooltip.detailed.line6=按住Shift再使用滚轮或使用%s键可
+item.item_yeta_wrench.tooltip.detailed.line6=按住 SHIFT 键再使用滚轮或使用%s键可
 item.item_yeta_wrench.tooltip.detailed.line7=只渲染单种类型导管
 
 item.item_xp_transfer.name=经验之杖
@@ -99,6 +264,10 @@ item.item_rod_of_return.chat.targetNotSet=%s 未设置目的地
 item.item_rod_of_return.chat.sync=与位置同步
 item.item_rod_of_return.chat.sync.telepad=与传送台同步
 
+item.item_staff_of_levity.name=漂浮之杖
+item.item_staff_of_levity.tooltip.detailed.line1=按住 SHIFT 键然后鼠标右键以
+item.item_staff_of_levity.tooltip.detailed.line2=使得玩家漂浮
+
 item.item_magnet.name=电磁铁
 item.item_magnet.tooltip.detailed.line1=吸附玩家附近的物品
 item.item_magnet.tooltip.detailed.line2=按住 SHIFT 键然后鼠标右键以开启或关闭
@@ -111,6 +280,100 @@ item.item_magnet.everywhere.tooltip.detailed.line4=物品栏或饰品栏中才�
 item.item_magnet.enabled=电磁铁开启
 item.item_magnet.disabled=电磁铁关闭
 
+item.item_material.glider_wing.name=滑翔翼组件
+item.item_material.glider_wings.name=滑翔翼
+item.item_material.glider_wings.tooltip.detailed.line1=可以作为升级安装在玄钢胸甲上
+
+item.item_soul_vial.name=灵魂瓶
+item.item_soul_vial.tooltip.detailed.line1=鼠标右键以捕获怪物
+item.item_soul_vial.tooltip.detailed.line2=再次鼠标右键以释放怪物
+item.item_soul_vial.tooltip.health=生命值：%s
+item.item_soul_vial.tooltip.fluidname=流体名：%s
+item.item_soul_vial.tooltip.color=颜色：%s
+item.item_soul_vial.tooltip.empty=空
+
+item.item_dark_steel_helmet.name=玄钢头盔
+item.item_dark_steel_chestplate.name=玄钢胸甲
+item.item_dark_steel_leggings.name=玄钢护腿
+item.item_dark_steel_boots.name=玄钢靴子
+item.item_dark_steel_boots.tooltip.line1=充能状态下不会受到摔落伤害
+
+item.item_dark_steel_shield.name=玄钢盾牌
+item.item_dark_steel_shield.black.name=黑色玄钢盾牌
+item.item_dark_steel_shield.red.name=红色玄钢盾牌
+item.item_dark_steel_shield.green.name=绿色玄钢盾牌
+item.item_dark_steel_shield.brown.name=棕色玄钢盾牌
+item.item_dark_steel_shield.blue.name=蓝色玄钢盾牌
+item.item_dark_steel_shield.purple.name=紫色玄钢盾牌
+item.item_dark_steel_shield.cyan.name=青色玄钢盾牌
+item.item_dark_steel_shield.silver.name=银色玄钢盾牌
+item.item_dark_steel_shield.gray.name=灰色玄钢盾牌
+item.item_dark_steel_shield.pink.name=粉色玄钢盾牌
+item.item_dark_steel_shield.lime.name=黄绿色玄钢盾牌
+item.item_dark_steel_shield.yellow.name=黄色玄钢盾牌
+item.item_dark_steel_shield.lightBlue.name=浅蓝色玄钢盾牌
+item.item_dark_steel_shield.magenta.name=品红色玄钢盾牌
+item.item_dark_steel_shield.orange.name=橙色玄钢盾牌
+item.item_dark_steel_shield.white.name=白色玄钢盾牌
+
+item.item_dark_steel_sword.name=终结之剑 Mk I
+item.item_dark_steel_sword.tooltip.detailed.line1=提高头颅与末影珍珠的掉率
+item.item_dark_steel_sword.tooltip.detailed.line2=充能状态下击中末影人使其无法传送，且附带额外伤害和攻速
+
+item.item_dark_steel_pickaxe.name=玄钢镐
+item.item_dark_steel_pickaxe.tooltip.effPowered=充能状态效率：%s+%s
+item.item_dark_steel_pickaxe.tooltip.effObs=破坏黑曜石的效率：%s+%s
+item.item_dark_steel_pickaxe.tooltip.cost=%s（消耗%s）
+
+item.item_dark_steel_axe.name=玄钢斧
+item.item_dark_steel_axe.tooltip.effPowered=%s充能后的效率：%s
+item.item_dark_steel_axe.tooltip.multiHarvest=充能状态下可连续砍伐（潜行无效）
+
+item.item_dark_steel_crook.name=玄钢钩
+item.item_dark_steel_crook.tooltip.multiHarvest=充能状态下可清空整个树冠（潜行无效）
+
+item.item_dark_steel_shears.name=玄钢剪刀
+item.item_dark_steel_shears.tooltip.effPowered=%s充能状态效率：%s
+item.item_dark_steel_shears.tooltip.multiHarvest=充能状态下可修剪多个方块/羊
+
+item.item_dark_steel_treetap.name=玄钢木龙头
+item.item_dark_steel_treetap.tooltip.common.line1=仅供种植站使用！
+
+item.item_dark_steel_hand.name=玄钢万用铲
+item.item_dark_steel_hand.tooltip.common.line1=仅供种植站使用！
+item.item_dark_steel_hand.tooltip.detailed.line1=给机器使用时比锄更好
+
+item.item_dark_steel_bow.name=玄钢弓
+
+item.item_end_steel_sword.name=终结之剑 Mk II
+item.item_end_steel_pickaxe.name=末影钢镐
+item.item_end_steel_axe.name=末影钢斧
+item.item_end_steel_bow.name=末影钢弓
+
+item.item_end_steel_helmet.name=末影钢头盔
+item.item_end_steel_chestplate.name=末影钢胸甲
+item.item_end_steel_leggings.name=末影钢护腿
+item.item_end_steel_boots.name=末影钢靴子
+item.item_end_steel_boots.tooltip.line1=充能状态下不会受到摔落伤害
+
+item.item_end_steel_shield.name=末影钢盾牌
+item.item_end_steel_shield.black.name=黑色末影钢盾牌
+item.item_end_steel_shield.red.name=红色末影钢盾牌
+item.item_end_steel_shield.green.name=绿色末影钢盾牌
+item.item_end_steel_shield.brown.name=棕色末影钢盾牌
+item.item_end_steel_shield.blue.name=蓝色末影钢盾牌
+item.item_end_steel_shield.purple.name=紫色末影钢盾牌
+item.item_end_steel_shield.cyan.name=青色末影钢盾牌
+item.item_end_steel_shield.silver.name=银色末影钢盾牌
+item.item_end_steel_shield.gray.name=灰色末影钢盾牌
+item.item_end_steel_shield.pink.name=粉色末影钢盾牌
+item.item_end_steel_shield.lime.name=黄绿色末影钢盾牌
+item.item_end_steel_shield.yellow.name=黄色末影钢盾牌
+item.item_end_steel_shield.lightBlue.name=淡蓝色末影钢盾牌
+item.item_end_steel_shield.magenta.name=品红色末影钢盾牌
+item.item_end_steel_shield.orange.name=橙色末影钢盾牌
+item.item_end_steel_shield.white.name=白色末影钢盾牌
+
 #  Item Groups
 itemGroup.enderio.machines=机器（末影接口）
 itemGroup.enderio.items=物品（末影接口）
@@ -119,3 +382,74 @@ itemGroup.enderio.main=方块（末影接口）
 itemGroup.enderio.mobs=灵魂（末影接口）
 itemGroup.enderio.conduits=导管（末影接口）
 itemGroup.enderio.invpanel=存储面板（末影接口）
+
+
+
+
+
+
+
+
+
+
+
+
+
+enderio.gui.conduit.io_mode.in_out=提取/存入
+enderio.gui.conduit.io_mode.input=提取
+enderio.gui.conduit.io_mode.output=存入
+enderio.gui.conduit.io_mode.disabled=禁用
+enderio.gui.conduit.io_mode.not_set=默认
+enderio.gui.tooltip.redstoneControlMode=红石模式
+
+enderio.config.title=末影接口配置
+
+enderio.farm.note.outputFull=输出栏已满
+enderio.farm.note.noSeeds=缺少种子
+enderio.farm.note.noAxe=缺少斧
+enderio.farm.note.noHoe=缺少锄
+enderio.farm.note.noShears=缺少剪刀
+enderio.farm.note.noTreetap=缺少木龙头
+enderio.farm.note.noPower=能量不足
+enderio.farm.note.noCapacitor=缺少电容
+enderio.farm.note.noWater=缺少水
+
+enderio.gui.edit_item_filter=编辑过滤器
+enderio.gui.item_filter.close=关闭过滤器
+enderio.gui.item_filter.close2=返回至上一界面
+enderio.gui.item_filter.whitelist=白名单
+enderio.gui.item_filter.blacklist=黑名单
+enderio.gui.item_filter.match_meta=匹配元数据
+enderio.gui.item_filter.ignore_meta=忽略元数据
+enderio.gui.item_filter.sticky_enabled=开启粘滞模式
+enderio.gui.item_filter.sticky_enabled2=选定的物品只会被传送于此或其他粘滞输出
+enderio.gui.item_filter.sticky_disabled=关闭粘滞模式
+enderio.gui.item_filter.ore_dic_enabled=匹配矿物词典
+enderio.gui.item_filter.ore_dic_disabled=忽略矿物词典
+enderio.gui.item_filter.match_nbt=匹配 NBT
+enderio.gui.item_filter.ignore_nbt=忽略 NBT
+
+item.item_basic_item_filter.name=基础物品过滤器
+item.item_advanced_item_filter.name=高级物品过滤器
+item.item_limited_item_filter.name=限制物品过滤器
+item.item_big_item_filter.name=大型物品过滤器
+item.item_big_advanced_item_filter.name=高级大型物品过滤器
+item.item_existing_item_filter.name=现有物品过滤器
+item.item_mod_item_filter.name=模组物品过滤器
+item.item_power_item_filter.name=充能物品过滤器
+item.item_soul_filter_normal.name=灵魂物品过滤器
+item.item_soul_filter_big.name=大型灵魂物品过滤器
+item.item_enchantment_filter_normal.name=附魔物品过滤器
+item.item_enchantment_filter_big.name=大型附魔物品过滤器
+item.item_fluid_filter.name=基础流体过滤器
+item.item_redstone_not_filter.name=非门红石过滤器
+item.item_redstone_or_filter.name=或门红石过滤器
+item.item_redstone_and_filter.name=与门红石过滤器
+item.item_redstone_nor_filter.name=或非门红石过滤器
+item.item_redstone_nand_filter.name=与非门红石过滤器
+item.item_redstone_xor_filter.name=异或门红石过滤器
+item.item_redstone_xnor_filter.name=同或门红石过滤器
+item.item_redstone_toggle_filter.name=锁存红石过滤器
+item.item_redstone_sensor_filter.name=感应红石过滤器
+item.item_redstone_counting_filter.name=计次红石过滤器
+item.item_redstone_timer_filter.name=计时红石过滤器

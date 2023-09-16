@@ -502,6 +502,15 @@ mods.jei.JEI.removeAndHide(<enderio:item_material:51>);
 mods.jei.JEI.removeAndHide(<enderio:item_material:52>);
 mods.jei.JEI.removeAndHide(<enderio:block_holy_fog>);
 mods.jei.JEI.removeAndHide(<enderio:block_holier_fog>);
+mods.jei.JEI.removeAndHide(<enderio:item_conduit_facade>);
+mods.jei.JEI.removeAndHide(<enderio:item_conduit_facade:1>);
+mods.jei.JEI.removeAndHide(<enderio:item_conduit_facade:2>);
+mods.jei.JEI.removeAndHide(<enderio:item_conduit_facade:3>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:70>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:8>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:76>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:72>);
+mods.jei.JEI.removeAndHide(<enderio:block_industrial_insulation>);
 
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:4>);
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:3>);

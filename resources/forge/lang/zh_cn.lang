@@ -1,0 +1,43 @@
+#  Personal translate by Magic_Sweepy [2023/09/16]
+
+#! Sort by first letter (A-Z) for every class
+#! Some may not be effective
+
+forge.client.shutdown.internal=正在关闭内置服务端……
+
+fml.menu.mods=模组
+fml.menu.mods.normal=普通
+fml.menu.mods.search=搜索：
+fml.menu.modoptions=模组设定
+
+item.forge.bucketFilled.name=%s桶
+
+fml.messages.mod.missing.dependencies=%s 缺少依赖模组。
+fml.messages.mod.missing.dependencies.fix=需要安装模组，或删除 %s。
+fml.messages.mod.missing.dependencies.compatibility=要使用 %s，你必须安装正确的依赖项：
+fml.messages.mod.missing.dependencies.missing=缺失
+fml.messages.mod.missing.dependencies.compatible.with=仅兼容 %s
+fml.messages.mod.missing.dependencies.requires=需要 %s
+fml.messages.mod.missing.dependencies.you.have=你安装了 %s
+fml.messages.mod.missing.dependencies.see.log=查阅日志 %s 获取技术信息。
+fml.messages.mod.missing.dependencies.multiple=模组缺少其的依赖模组。
+fml.messages.mod.missing.dependencies.multiple.issues=要使用下列模组，你必须安装正确的依赖项：
+fml.messages.mod.missing.multiple=Minecraft 在加载过程中发现了 %s 个错误
+fml.messages.mod.wrongminecraft=下列模组无法在 Minecraft %s 上运行
+fml.messages.mod.wrongminecraft.requirement=%s（%s）只能在 %s 版本的 Minecraft 上运行
+fml.messages.mod.wrongminecraft.fix=请尝试更新或删除 %s。
+fml.messages.mod.wrongminecraft.fix.multiple=请尝试更新或删除这些模组。
+fml.messages.version.restriction.any=任意版本
+fml.messages.version.restriction.lower.inclusive=%s 或更高版本
+fml.messages.version.restriction.lower.exclusive=高于 %s 的版本
+fml.messages.version.restriction.upper.inclusive=%s 或更低版本
+fml.messages.version.restriction.upper.exclusive=低于 %s 的版本
+fml.messages.version.restriction.bounded=介于 %s 和 %s 之间的版本
+fml.messages.version.restriction.bounded.inclusive=%s（含）到 %s（含）
+fml.messages.version.restriction.bounded.exclusive=%s（不含）到 %s（不含）
+fml.messages.version.restriction.bounded.lowerexclusive=%s（不含）到 %s（含）
+fml.messages.version.restriction.bounded.upperexclusive=%s（含）到 %s（不含）
+
+fml.button.continue=继续
+fml.button.open.mods.folder=打开模组文件夹
+fml.button.open.file=打开%s
