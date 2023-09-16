@@ -149,3 +149,33 @@
 - Bug fixes
     - Fixed some wrong recipes;
     - Fixed some quests.
+
+##  from 0.0.4-beta to 0.0.5-alpha
+
+&nbsp;&nbsp;&nbsp;&nbsp;The eighth preview version of Gregtech Lite, add many things, improve some quests.
+
+- Mod Changes
+    - Mod Updates
+        - Update MixinBooter from 8.3 to 8.4;
+        - Update Modern Splash from 1.2.2.2 to 1.3;
+- General Changes
+    - Recipes of supracausal circuits has been added;
+    - New scripts of Actually Additions has been added;
+    - New scripts of Project Red has been added;
+    - New scripts of Ender IO Endergy has been added;
+    - Nerf drills (actually additions), used to emphasize the presence of GT drills;
+    - Add some new materials in OpV tier;
+    - Clean up HEI;
+    - New Multiblock: _Cosmic Ray Detector_
+        - UXV
+        - Producting OpV materials and some other materials.
+    - New Multiblock: _Mass Fabricator Computer_
+        - UEV
+        - UU Matter process (from Gregicality Legacy)
+        - W.I.P
+    - Add new textures of AE2FC;
+    - Add new quests of elements (in real world);
+- Bug fixes
+    - Fix recipe problem of flux crystal dust;
+    - Fix some wrong recipes;
+    - Fix some quests.
