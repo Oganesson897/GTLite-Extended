@@ -352,18 +352,3 @@ mods.extendedcrafting.TableCrafting.addShaped(4, <avaritia:infinity_hoe>,  [
 	[null, <ore:stickHypogen>, null, null, null, null, null, null, null], 
 	[<ore:stickHypogen>, null, null, null, null, null, null, null, null]
 ]);
-
-#  Avaritiaddons
-recipes.remove(<avaritiaddons:avaritiaddons_chest:1>);
-makeShaped("infinity_chest", <avaritiaddons:avaritiaddons_chest:1>,
-    [
-        "ABA",
-        "FCF",
-        "ABA"
-    ],
-    {
-        "F": <contenttweaker:field_generator_max>,
-        "C": <avaritiaddons:avaritiaddons_chest>,
-        "A": <ore:plateCosmicNeutronium>,
-        "B": <ore:plateInfinity>
-    });

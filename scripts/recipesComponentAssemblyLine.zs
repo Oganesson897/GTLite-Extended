@@ -364,6 +364,22 @@ component_assembly_line.recipeBuilder()
     .buildAndRegister();
 
 ##  LuV
+component_assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongSamariumMagnetic> * 64,
+             <ore:stickLongHsss> * 64,
+             <ore:stickLongHsss> * 64,
+             <ore:ringHsss> * 64,
+             <ore:roundHsss> * 64,
+             <ore:roundHsss> * 64,
+             <ore:wireFineRuridit> * 64,
+             <ore:cableGtSingleNiobiumTitanium> * 64,
+             <ore:cableGtSingleNiobiumTitanium> * 64])
+    .fluidInputs([<liquid:soldering_alloy> * 9216,
+                  <liquid:lubricant> * 16000])
+    .outputs([<gregtech:meta_item_1:132> * 64])
+    .EUt(32768)
+    .duration(200)
+    .buildAndRegister();
 
 ##  ZPM
 

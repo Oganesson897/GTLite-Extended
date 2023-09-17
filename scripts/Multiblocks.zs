@@ -990,6 +990,27 @@ val galactic_superscale_structural_circular_particle_collide = Builder.start("ga
     .withBaseTexture(<blockstate:contenttweaker:particle_collider_casing>)
     .buildAndRegister();
 
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:32019>,
+             <ore:plateCosmicNeutronium> * 8,
+             <gregtech:meta_item_1:229> * 4,
+             <gregtech:meta_item_1:244> * 4,
+             <gregtech:meta_item_1:214> * 4,
+             <ore:circuitMax> * 4,
+             <ore:circuitOpv> * 8,
+             <ore:circuitUxv> * 16,
+             <contenttweaker:control_circuit_uv> * 64,
+             <ore:ringNeutronium> * 16,
+             <ore:screwNeutronium> * 32,
+             <ore:springCrystalMatrix> * 32,
+             <ore:wireGtQuadrupleInfinity> * 16])
+    .fluidInputs([<liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 5760,
+                  <liquid:black_hole_matter_polymer_matrix> * 5760])
+    .outputs([<gregtech:machine:32004>])
+    .EUt(500000000)
+    .duration(16000)
+    .buildAndRegister();
+
 // --------------------------------------------------------------------------------------------------------------------------------
 val component_assembly_line = Builder.start("component_assembly_line")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {
@@ -3529,6 +3550,24 @@ var fusion_reactor_mk_vi = Builder.start("fusion_reactor_mk_vi")
             .build()
     )
     .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:32018>,
+             <contenttweaker:fusion_coil_block_mk_iii> * 4,
+             <ore:circuitUxv> * 4,
+             <gregtech:meta_item_1:283> * 8,
+             <ore:plateAurorium> * 4,
+             <gregtech:meta_item_1:211> * 2,
+             <gcys:meta_item_1:357> * 64,
+             <gcys:meta_item_1:357> * 64,
+             <ore:wireGtSingleMithril> * 32])
+    .fluidInputs([<liquid:soldering_alloy> * 9216,
+                  <liquid:vibranium> * 4608,
+                  <liquid:zylon> * 2304])
+    .outputs([<gregtech:machine:32019>])
+    .EUt(8388608)
+    .duration(60000)
     .buildAndRegister();
 
 // --------------------------------------------------------------------------------------------------------------------------------
