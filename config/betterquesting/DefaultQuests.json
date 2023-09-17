@@ -60266,7 +60266,7 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 121,
+            "Damage:2": 122,
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
@@ -60274,7 +60274,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "史诗组装机 IV",
+          "name:8": "传奇组装机",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -60298,7 +60298,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 121,
+              "Damage:2": 122,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -60753,7 +60753,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "氢（Hydrogen）\n\n在§2格雷科技§r中，你可以见到它的两种同位素：§e氘§r与§c氚§r。\n\n§e一些趣事：§r实际上，氢还有许多种同位素，比如现实中很常见的§d氕§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -60788,6 +60788,48 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "hydrogen"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "deuterium"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 1,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "tritium"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -60796,7 +60838,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "锂（Lithium）\n\n§e一些趣事：§r锂是已知金属材料中金属活动性最强的。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -60821,14 +60863,36 @@
       },
       "questID:3": 1042,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 56,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1043:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钠（Sodium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -60853,14 +60917,36 @@
       },
       "questID:3": 1043,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 101,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1044:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钾（Kalium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -60885,14 +60971,36 @@
       },
       "questID:3": 1044,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 83,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1045:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "铷（Rubidium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -60917,14 +61025,36 @@
       },
       "questID:3": 1045,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 92,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1046:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "铯（Cesium）\n\n§e一些趣事：§r铯是已知金属材料中金属性最强的，金属活动性则仅次于锂。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -60949,14 +61079,36 @@
       },
       "questID:3": 1046,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 15,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1047:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钫（Francium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -60981,14 +61133,19 @@
       },
       "questID:3": 1047,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "1048:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "铍（Beryllium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61013,14 +61170,53 @@
       },
       "questID:3": 1048,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 10,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3102,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1049:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "镁（Magnesium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61045,14 +61241,36 @@
       },
       "questID:3": 1049,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 59,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1050:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钙（Calcium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61097,7 +61315,7 @@
               "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:optional_retrieval"
+          "taskID:8": "bq_standard:retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -61114,7 +61332,7 @@
               "id:8": "gregtech:meta_dust"
             }
           },
-          "taskID:8": "bq_standard:optional_retrieval"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -61123,7 +61341,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "锶（Strontium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61148,14 +61366,19 @@
       },
       "questID:3": 1051,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "1052:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钡（Barium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61180,14 +61403,36 @@
       },
       "questID:3": 1052,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1053:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "镭（Radium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61212,14 +61457,19 @@
       },
       "questID:3": 1053,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "1054:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钪（Scandium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61244,7 +61494,29 @@
       },
       "questID:3": 1054,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 96,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1055:10": {
       "preRequisites:11": [],
@@ -61667,7 +61939,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "铝（Aluminium）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61696,6 +61968,23 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -61704,7 +61993,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "硼（Boron）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61729,14 +62018,36 @@
       },
       "questID:3": 1069,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 13,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1070:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "碳（Carbon）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61761,14 +62072,36 @@
       },
       "questID:3": 1070,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 18,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "1071:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "氮（Nitrogen）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61799,14 +62132,33 @@
       },
       "questID:3": 1071,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "nitrogen"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
     },
     "1072:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "氧（Oxygen）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61837,14 +62189,33 @@
       },
       "questID:3": 1072,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "oxygen"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
     },
     "1073:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "氟（Fluorine）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61875,14 +62246,33 @@
       },
       "questID:3": 1073,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "fluorine"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
     },
     "1074:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "氖（Neon）\n\n§e一些趣事：§r氖虽然没有已经证实的化合物，但是存在一些范德华力分子。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61913,14 +62303,33 @@
       },
       "questID:3": 1074,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "neon"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
+        }
+      }
     },
     "1075:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "氦（Helium）\n\n§e一些趣事：§r实际上，氦虽然是稀有气体，但是却有化合物。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -61955,6 +62364,20 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "requiredFluids:9": {
+            "0:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "helium"
+            }
+          },
+          "taskID:8": "bq_standard:fluid"
         }
       }
     },
@@ -63335,7 +63758,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "𬬻?𬬻𬬻𬬻钅卢",
+          "name:8": "钅卢",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -64456,7 +64879,7 @@
               "id:8": "gregtech:meta_ingot"
             }
           },
-          "taskID:8": "bq_standard:optional_retrieval"
+          "taskID:8": "bq_standard:retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -64473,7 +64896,7 @@
               "id:8": "gregtech:meta_ingot"
             }
           },
-          "taskID:8": "bq_standard:optional_retrieval"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -64559,7 +64982,7 @@
               "id:8": "gregtech:meta_ingot"
             }
           },
-          "taskID:8": "bq_standard:optional_retrieval"
+          "taskID:8": "bq_standard:retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -64576,7 +64999,7 @@
               "id:8": "gregtech:meta_ingot"
             }
           },
-          "taskID:8": "bq_standard:optional_retrieval"
+          "taskID:8": "bq_standard:retrieval"
         }
       }
     },
@@ -64879,7 +65302,7 @@
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 646,
+            "Damage:2": 647,
             "OreDict:8": "",
             "id:8": "gregtech:machine"
           },
@@ -64887,7 +65310,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "史诗电路组装机 IV",
+          "name:8": "传奇电路组装机",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -64906,12 +65329,12 @@
           "consume:1": 0,
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
-          "index:3": 0,
+          "index:3": 1,
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 646,
+              "Damage:2": 647,
               "OreDict:8": "",
               "id:8": "gregtech:machine"
             }
@@ -70491,9 +70914,9 @@
         },
         "38:10": {
           "id:3": 1036,
-          "sizeX:3": 24,
+          "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 120,
+          "x:3": 108,
           "y:3": 0
         }
       }
