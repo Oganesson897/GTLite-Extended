@@ -262,6 +262,21 @@ var gamma_ray_mirror_plate = VanillaFactory.createItem("gamma_ray_mirror_plate")
     gamma_ray_mirror_plate.creativeTab = <creativetab:gregtech.main>;
     gamma_ray_mirror_plate.register(); 
 
+var bio_cell = VanillaFactory.createItem("bio_cell");
+    bio_cell.maxStackSize = 16;
+    bio_cell.creativeTab = <creativetab:gregtech.main>;
+    bio_cell.register(); 
+
+var bio_precell = VanillaFactory.createItem("bio_precell");
+    bio_precell.maxStackSize = 16;
+    bio_precell.creativeTab = <creativetab:gregtech.main>;
+    bio_precell.register(); 
+
+var bio_soc = VanillaFactory.createItem("bio_soc");
+    bio_soc.maxStackSize = 16;
+    bio_soc.creativeTab = <creativetab:gregtech.main>;
+    bio_soc.register(); 
+
 #  Components
 
 ##  ULV motor
@@ -447,6 +462,9 @@ var cladded_reactor_casing = VanillaFactory.createBlock("cladded_reactor_casing"
 
 var reactor_core_casing = VanillaFactory.createBlock("reactor_core_casing", <blockmaterial:iron>);
     reactor_core_casing.register();
+
+var hassium_casing = VanillaFactory.createBlock("hassium_casing", <blockmaterial:iron>);
+    hassium_casing.register();
 
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");

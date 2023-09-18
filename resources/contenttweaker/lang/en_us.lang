@@ -59,6 +59,9 @@ item.contenttweaker.rydberg_spinorial_assembly.name=Rydberg Spinorial Assembly
 item.contenttweaker.gamma_ray_laser.name=Gamma-Ray Laser
 item.contenttweaker.microfocus_gamma_ray_tube.name=Microfocus Gamma Ray Tube
 item.contenttweaker.gamma_ray_mirror_plate.name=Gamma-Ray Mirror Plate
+item.contenttweaker.bio_cell.name=Microbial Network Matrix
+item.contenttweaker.bio_precell.name=Microbial Petri Dish
+item.contenttweaker.bio_soc.name=Intravital SoC
 
 #  Endgame
 item.contenttweaker.singularity_of_universe.name=Singularity of Universe
@@ -124,6 +127,7 @@ tile.contenttweaker.space_elevator_core.name=Space Elevator Dynamic Core
 tile.contenttweaker.phantasium_casing.name=Phantasium Machine Casing
 tile.contenttweaker.cladded_reactor_casing.name=Shielded Reactor Casing
 tile.contenttweaker.reactor_core_casing.name=Thorium Reactor Core
+tile.contenttweaker.hassium_casing.name=Hassium Biologically Sterile Casing
 
 #  Others
 tile.contenttweaker.qcd_charge.name=Quantum Chromodynamics Charge

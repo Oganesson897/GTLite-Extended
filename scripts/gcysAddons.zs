@@ -1493,3 +1493,39 @@ chemical_reactor.recipeBuilder()
     .EUt(2000)
     .duration(160)
     .buildAndRegister();
+
+#  Higher Bioware circuit recipes (UHV)
+circuit_assembler.recipeBuilder()
+    .inputs([<gcys:meta_item_1:400>,
+             <contenttweaker:bio_soc>,
+             <gregtech:meta_item_1:530> * 4,
+             <gregtech:meta_item_1:528> * 4,
+             <ore:wireGtSingleEuropium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 72])
+    .outputs([<gcys:meta_item_1> * 2])
+    .EUt(1966080)
+    .duration(200)
+    .buildAndRegister();
+
+circuit_assembler.recipeBuilder()
+    .inputs([<gcys:meta_item_1:400>,
+             <contenttweaker:bio_soc>,
+             <gregtech:meta_item_1:530> * 4,
+             <gregtech:meta_item_1:528> * 4,
+             <ore:wireGtSingleEuropium> * 2])
+    .fluidInputs([<liquid:tin> * 144])
+    .outputs([<gcys:meta_item_1> * 2])
+    .EUt(1966080)
+    .duration(200)
+    .buildAndRegister();
+
+
+assembler.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:705>,
+             <contenttweaker:bio_precell>,
+             <gregtech:meta_item_1:599> * 2])
+    .fluidInputs([<liquid:polyetheretherketone> * 144])
+    .outputs([<contenttweaker:bio_soc> * 4])
+    .EUt(8000)
+    .duration(10)
+    .buildAndRegister();

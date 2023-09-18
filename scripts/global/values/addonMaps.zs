@@ -33,6 +33,7 @@ global cosmic_ray_detector                                      as RecipeMap = R
 global mass_fabricator_computer                                 as RecipeMap = RecipeMap.getByName("mass_fabricator_computer");
 global nuclear_reactor                                          as RecipeMap = RecipeMap.getByName("nuclear_reactor");
 global isotope_gas_centrifuge                                   as RecipeMap = RecipeMap.getByName("isotope_gas_centrifuge");
+global bio_reactor                                              as RecipeMap = RecipeMap.getByName("bio_reactor");
 
 #  Devtech
 global simulation_chamber                                       as RecipeMap = RecipeMap.getByName("simulation_chamber");

@@ -59,6 +59,9 @@ item.contenttweaker.rydberg_spinorial_assembly.name=里德堡旋量集群
 item.contenttweaker.gamma_ray_laser.name=γ射线激光器
 item.contenttweaker.microfocus_gamma_ray_tube.name=微焦点γ射线管
 item.contenttweaker.gamma_ray_mirror_plate.name=γ射线镜片
+item.contenttweaker.bio_cell.name=菌群网络基质
+item.contenttweaker.bio_precell.name=菌群培养皿
+item.contenttweaker.bio_soc.name=活体SoC
 
 #  Components
 item.contenttweaker.motor_ulv.name=电动马达（§8ULV§r）
@@ -142,6 +145,7 @@ tile.contenttweaker.space_elevator_core.name=太空电梯动力核心
 tile.contenttweaker.phantasium_casing.name=彩梦金属机械方块
 tile.contenttweaker.cladded_reactor_casing.name=覆层反应堆外壳
 tile.contenttweaker.reactor_core_casing.name=钍制反应堆堆芯
+tile.contenttweaker.hassium_casing.name=钅黑制灭菌机械方块
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹
