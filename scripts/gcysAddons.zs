@@ -1335,3 +1335,161 @@ mixer.recipeBuilder()
     .EUt(450000)
     .duration(130)
     .buildAndRegister();
+
+#  Higher Cosmic CPU recipe (UXV)
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:cosmic_cpu_unit>,
+             <contenttweaker:rydberg_spinorial_assembly>,
+             <contenttweaker:gamma_ray_laser>,
+             <ore:wireFineNihonium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576,
+                  <liquid:kevlar> * 288,
+                  <liquid:polyetheretherketone> * 144])
+    .outputs([<contenttweaker:cosmic_cpu>])
+    .EUt(134217728)
+    .duration(4500)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:cryogenic_interface>,
+             <contenttweaker:excitation_maintainer>,
+             <contenttweaker:flexible_piezoelectric_cpu_chip>,
+             <contenttweaker:x_ray_waveguide>,
+             <contenttweaker:electron_source>])
+    .fluidInputs([<liquid:zylon> * 144,
+                  <liquid:oganesson> * 144])
+    .outputs([<contenttweaker:rydberg_spinorial_assembly>])
+    .EUt(4000000)
+    .duration(160)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gcys:meta_item_1:202>,
+             <contenttweaker:high_frequency_laser>,
+             <ore:wireFineHassium> * 4])
+    .fluidInputs([<liquid:zylon> * 72])
+    .outputs([<contenttweaker:excitation_maintainer>])
+    .EUt(200000)
+    .duration(160)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateGraphene>,
+             <ore:plateDarmstadtium> * 4,
+             <ore:dustTennessine> * 4])
+    .fluidInputs([<liquid:zylon> * 72])
+    .outputs([<contenttweaker:cryogenic_interface>])
+    .EUt(8000)
+    .duration(160)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:platePolybenzimidazole> * 4,
+             <ore:dustRadium> * 4,
+             <ore:wireFineMercuryCadmiumTelluride> * 4])
+    .fluidInputs([<liquid:polyetheretherketone> * 72])
+    .outputs([<contenttweaker:electron_source>])
+    .EUt(750000)
+    .duration(200)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs([<ore:wireFineCarbonNanotube>])
+    .fluidInputs([<liquid:zylon> * 144])
+    .outputs([<contenttweaker:x_ray_waveguide>])
+    .EUt(800000)
+    .duration(240)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs([<ore:craftingLensGlass>])
+    .fluidInputs([<liquid:zylon> * 144])
+    .outputs([<contenttweaker:gamma_ray_mirror_plate>])
+    .EUt(200000)
+    .duration(240)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:stickCalifornium>,
+             <ore:platePolymethylmethacrylate> * 4,
+             <ore:wireFineCarbonNanotube> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:microfocus_gamma_ray_tube>])
+    .EUt(80000)
+    .duration(160)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<contenttweaker:x_ray_waveguide>,
+             <contenttweaker:microfocus_gamma_ray_tube>,
+             <contenttweaker:gamma_ray_mirror_plate>])
+    .fluidInputs([<liquid:californium_cyclopentadienide> * 10])
+    .outputs([<contenttweaker:gamma_ray_laser>])
+    .EUt(5000)
+    .duration(160)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustCalifornium>])
+    .fluidInputs([<liquid:chlorine> * 3000])
+    .outputs([<gregtech:meta_dust:32092>])
+    .EUt(2000)
+    .duration(240)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustCaliforniumTrichloride> * 4])
+    .fluidInputs([<liquid:lithium_cyclopentadienide> * 3000])
+    .outputs([<gregtech:meta_dust:345> * 6])
+    .fluidOutputs([<liquid:californium_cyclopentadienide> * 1000])
+    .EUt(200000)
+    .duration(160)
+    .buildAndRegister();
+
+large_chemical_reactor.recipeBuilder()
+    .notConsumable([<ore:platePlatinum>])
+    .fluidInputs([<liquid:naphtha> * 1000])
+    .fluidOutputs([<liquid:cyclopentadiene> * 300,
+                   <liquid:isoprene> * 600,
+                   <liquid:butadiene> * 100])
+    .EUt(131060)
+    .duration(600)
+    .buildAndRegister();
+
+large_chemical_reactor.recipeBuilder()
+    .notConsumable([<ore:plateRhenium>])
+    .fluidInputs([<liquid:naphtha> * 1000])
+    .fluidOutputs([<liquid:cyclopentadiene> * 600,
+                   <liquid:isoprene> * 200,
+                   <liquid:butadiene> * 200])
+    .EUt(332080)
+    .duration(600)
+    .buildAndRegister();
+
+large_chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:butyllithium> * 1000,
+                  <liquid:dimethoxyethane> * 500,
+                  <liquid:cyclopentadiene> * 1000])
+    .fluidOutputs([<liquid:butane> * 1000,
+                   <liquid:lithium_cyclopentadienide> * 1000])
+    .EUt(604980)
+    .duration(800)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .notConsumable([<ore:dustAluminiumHydroxide>,
+                    <ore:dustSiliconDioxide>])
+    .fluidInputs([<liquid:methanol> * 2000])
+    .fluidOutputs([<liquid:dimethylether> * 1000,
+                   <liquid:water> * 1000])
+    .EUt(8000)
+    .duration(160)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:dimethylether> * 1000,
+                  <liquid:ethylene_oxide> * 1000])
+    .fluidOutputs([<liquid:dimethoxyethane> * 1000])
+    .EUt(2000)
+    .duration(160)
+    .buildAndRegister();

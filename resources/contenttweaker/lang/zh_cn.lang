@@ -51,6 +51,14 @@ item.contenttweaker.macrowormhole_generator.name=巨型虫洞发生器
 item.contenttweaker.microwormhole_generator.name=微型虫洞发生器
 item.contenttweaker.recursively_folded_negative_space.name=递归折叠负空间
 item.contenttweaker.manifold_oscillatory_power_cell.name=流形振荡能量单元
+item.contenttweaker.excitation_maintainer.name=励磁容器
+item.contenttweaker.cryogenic_interface.name=低温触面
+item.contenttweaker.electron_source.name=电子源
+item.contenttweaker.x_ray_waveguide.name=X射线导波管
+item.contenttweaker.rydberg_spinorial_assembly.name=里德堡旋量集群
+item.contenttweaker.gamma_ray_laser.name=γ射线激光器
+item.contenttweaker.microfocus_gamma_ray_tube.name=微焦点γ射线管
+item.contenttweaker.gamma_ray_mirror_plate.name=γ射线镜片
 
 #  Components
 item.contenttweaker.motor_ulv.name=电动马达（§8ULV§r）

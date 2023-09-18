@@ -51,6 +51,14 @@ item.contenttweaker.macrowormhole_generator.name=Macrowormhole Generator
 item.contenttweaker.microwormhole_generator.name=Microwormhole Generator
 item.contenttweaker.recursively_folded_negative_space.name=Recursively Folded Negative Space
 item.contenttweaker.manifold_oscillatory_power_cell.name=Manifold Oscillatory Power Cell
+item.contenttweaker.excitation_maintainer.name=Excitation Maintainer
+item.contenttweaker.cryogenic_interface.name=Cryogenic Interface
+item.contenttweaker.electron_source.name=Electron Source
+item.contenttweaker.x_ray_waveguide.name=X-Ray Waveguide
+item.contenttweaker.rydberg_spinorial_assembly.name=Rydberg Spinorial Assembly
+item.contenttweaker.gamma_ray_laser.name=Gamma-Ray Laser
+item.contenttweaker.microfocus_gamma_ray_tube.name=Microfocus Gamma Ray Tube
+item.contenttweaker.gamma_ray_mirror_plate.name=Gamma-Ray Mirror Plate
 
 #  Endgame
 item.contenttweaker.singularity_of_universe.name=Singularity of Universe

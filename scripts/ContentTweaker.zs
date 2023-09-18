@@ -222,6 +222,46 @@ var manifold_oscillatory_power_cell = VanillaFactory.createItem("manifold_oscill
     manifold_oscillatory_power_cell.creativeTab = <creativetab:gregtech.main>;
     manifold_oscillatory_power_cell.register();
 
+var excitation_maintainer = VanillaFactory.createItem("excitation_maintainer");
+    excitation_maintainer.maxStackSize = 64;
+    excitation_maintainer.creativeTab = <creativetab:gregtech.main>;
+    excitation_maintainer.register();
+
+var cryogenic_interface = VanillaFactory.createItem("cryogenic_interface");
+    cryogenic_interface.maxStackSize = 64;
+    cryogenic_interface.creativeTab = <creativetab:gregtech.main>;
+    cryogenic_interface.register();
+
+var electron_source = VanillaFactory.createItem("electron_source");
+    electron_source.maxStackSize = 64;
+    electron_source.creativeTab = <creativetab:gregtech.main>;
+    electron_source.register(); 
+
+var x_ray_waveguide = VanillaFactory.createItem("x_ray_waveguide");
+    x_ray_waveguide.maxStackSize = 64;
+    x_ray_waveguide.creativeTab = <creativetab:gregtech.main>;
+    x_ray_waveguide.register(); 
+
+var rydberg_spinorial_assembly = VanillaFactory.createItem("rydberg_spinorial_assembly");
+    rydberg_spinorial_assembly.maxStackSize = 64;
+    rydberg_spinorial_assembly.creativeTab = <creativetab:gregtech.main>;
+    rydberg_spinorial_assembly.register(); 
+
+var gamma_ray_laser = VanillaFactory.createItem("gamma_ray_laser");
+    gamma_ray_laser.maxStackSize = 64;
+    gamma_ray_laser.creativeTab = <creativetab:gregtech.main>;
+    gamma_ray_laser.register(); 
+
+var microfocus_gamma_ray_tube = VanillaFactory.createItem("microfocus_gamma_ray_tube");
+    microfocus_gamma_ray_tube.maxStackSize = 64;
+    microfocus_gamma_ray_tube.creativeTab = <creativetab:gregtech.main>;
+    microfocus_gamma_ray_tube.register(); 
+
+var gamma_ray_mirror_plate = VanillaFactory.createItem("gamma_ray_mirror_plate");
+    gamma_ray_mirror_plate.maxStackSize = 64;
+    gamma_ray_mirror_plate.creativeTab = <creativetab:gregtech.main>;
+    gamma_ray_mirror_plate.register(); 
+
 #  Components
 
 ##  ULV motor

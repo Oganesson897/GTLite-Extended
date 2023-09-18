@@ -726,6 +726,8 @@ var nihonium = MaterialBuilder(32057, "nihonium")
     .color(0xF180C1)
     .iconSet("dull")
     .components([<material:nihonium> * 1])
+    .flags(["generate_foil",
+            "generate_fine_wire"])
     .build();
 
 #  32058 Neptunium
@@ -803,6 +805,7 @@ var californium = MaterialBuilder(32066, "californium")
     .fluid()
     .color(0x808A9B)
     .components([<material:californium> * 1])
+    .flags(["generate_rod"])
     .build();
 
 #  32067 Crystalline Alloy : EV superconductor
@@ -1031,6 +1034,55 @@ var pa_gas = MaterialBuilder(32090, "pa_gas")
     .build();
 
 <material:pa_gas>.setFormula("Pa", false);
+
+#  32091 Californium Cyclopentadienide
+var californium_cyclopentadienide = MaterialBuilder(32091, "californium_cyclopentadienide")
+    .fluid()
+    .color(0x9A377B)
+    .build();
+
+<material:californium_cyclopentadienide>.setFormula("C15H15Cf", true);
+
+#  32092 Californium Trichloride
+var californium_trichloride = MaterialBuilder(32092, "californium_trichloride")
+    .dust()
+    .color(0xD7E58C)
+    .iconSet("metallic")
+    .build();
+
+<material:californium_trichloride>.setFormula("CfCl3", true);
+
+#  32093 Lithium Cyclopentadienide
+var lithium_cyclopentadienide = MaterialBuilder(32093, "lithium_cyclopentadienide")
+    .fluid()
+    .color(0xED6983)
+    .build();
+
+<material:lithium_cyclopentadienide>.setFormula("LiC5H5", true);
+
+#  32094 Dimethoxyethane
+var dimethoxyethane = MaterialBuilder(32094, "dimethoxyethane")
+    .fluid()
+    .color(0x59936C)
+    .build();
+
+<material:dimethoxyethane>.setFormula("C4H10O2", true);
+
+#  32095 Dimethylether
+var dimethylether = MaterialBuilder(32095, "dimethylether")
+    .fluid()
+    .color(0xFBE7BD)
+    .build();
+
+<material:dimethylether>.setFormula("C2H6O", true);
+
+#  32096 Cyclopentadiene
+var cyclopentadiene = MaterialBuilder(32096, "cyclopentadiene")
+    .fluid()
+    .color(0x72BAB6)
+    .build();
+
+<material:cyclopentadiene>.setFormula("C5H6", true);
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")

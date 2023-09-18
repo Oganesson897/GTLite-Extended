@@ -1614,6 +1614,12 @@ gregtech.material.francium=钫
 gregtech.material.protactinium=镤
 gregtech.material.fr_th_ra_gas=钫-钍-镭混合气
 gregtech.material.pa_gas=过热镤气
+gregtech.material.californium_cyclopentadienide=环戊二烯化锎
+gregtech.material.californium_trichloride=三氟化锎
+gregtech.material.lithium_cyclopentadienide=环戊二烯化锂
+gregtech.material.dimethoxyethane=二甲氧基乙烷
+gregtech.material.dimethylether=二甲醚
+gregtech.material.cyclopentadiene=环戊二烯
 
 gregtech.material.polyetheretherketone=聚醚醚酮
 gregtech.material.difluorobenzophenone=二氟二苯甲酮
