@@ -880,6 +880,158 @@ var vivid_alloy = MaterialBuilder(32072, "vivid_alloy")
     .cableProperties(512, 1, 0, true)
     .build();
 
+#  32073 Radium
+var radium = MaterialBuilder(32073, "radium")
+    .dust()
+    .fluid()
+    .color(0xA49E77)
+    .iconSet("metallic")
+    .components([<material:radium> * 1])
+    .build();
+
+#  32074 Radium-Radon Mixture
+var radium_radon_mixture = MaterialBuilder(32074, "radium_radon_mixture")
+    .fluid()
+    .color(0x932C3E)
+    .components([<material:radium> * 1,
+                 <material:radon> * 1])
+    .build();
+
+#  32075 Scandium-Titanium Mixture
+var scandium_titanium_mixture = MaterialBuilder(32075, "scandium_titanium_mixture")
+    .fluid()
+    .color(0xCF6665)
+    .components([<material:scandium> * 1,
+                 <material:titanium> * 1])
+    .build();        
+
+#  32076 Hassium
+var hassium = MaterialBuilder(32076, "hassium")
+    .ingot()
+    .fluid()
+    .color(0x2D3A9D)
+    .iconSet("shiny")
+    .components([<material:hassium> * 1])
+    .blastTemp(11240)
+    .flags(["generate_foil",
+            "generate_fine_wire"])
+    .build();     
+
+#  32077 Trinite
+var trinite = MaterialBuilder(32077, "trinite")
+    .dust()
+    .color(0x8F49EA)
+    .iconSet("bright")
+    .components([<material:trinium> * 3,
+                 <material:actinium> * 3,
+                 <material:selenium> * 4,
+                 <material:astatine> * 4])
+    .build();
+
+#  32078 Nitrated Trinite Solution
+var nitrated_trinite_solution = MaterialBuilder(32078, "nitrated_trinite_solution")
+    .fluid()
+    .color(0xF2BFC1)
+    .build();
+
+#  32079 Actinium Trinium Hydroxides
+var actinium_trinium_hydroxides = MaterialBuilder(32079, "actinium_trinium_hydroxides")
+    .dust()
+    .color(0xBD6D97)
+    .iconSet("bright")
+    .build();
+
+<material:actinium_trinium_hydroxides>.setFormula("Ke3Ac2(OH)12", true);
+
+#  32080 Residual Trinite Solution
+var residual_trinite_solution = MaterialBuilder(32080, "residual_trinite_solution")
+    .fluid()
+    .color(0x7A6EC8)
+    .build();
+
+<material:residual_trinite_solution>.setFormula("(NaNO3)4(H2Nq+F4)2(*Nq*F2)2", true);
+
+#  32081 Actinium Radium Hydroxide Solution
+var actinium_radium_hydroxide_solution = MaterialBuilder(32081, "actinium_radium_hydroxide_solution")
+    .fluid()
+    .color(0x5A3C41)
+    .build();
+
+<material:actinium_radium_hydroxide_solution>.setFormula("AcRa(OH)5", true);
+
+#  32082 Actinium Radium Nitrate Solution
+var actinium_radium_nitrate_solution = MaterialBuilder(32082, "actinium_radium_nitrate_solution")
+    .fluid()
+    .color(0x1AEADB)
+    .build();
+
+<material:actinium_radium_nitrate_solution>.setFormula("AcRa(NO3)5", true);
+
+#  32083 Actinium nitrate
+var actinium_nitrate = MaterialBuilder(32083, "actinium_nitrate")
+    .dust()
+    .color(0x40C44C)
+    .iconSet("dull")
+    .build();
+<material:actinium_nitrate>.setFormula("Ac(NO3)3", true);
+
+#  32084 Radium Nitrate
+var radium_nitrate = MaterialBuilder(32084, "radium_nitrate")
+    .dust()
+    .color(0x9F4839)
+    .iconSet("bright")
+    .build();
+
+<material:radium_nitrate>.setFormula("Ra(NO3)2", true);
+
+#  32085 Fr-Th-Ra-Pa Gas
+var fr_th_ra_pa_gas = MaterialBuilder(32085, "fr_th_ra_pa_gas")
+    .fluid()
+    .color(0x97C812)
+    .build();
+
+<material:fr_th_ra_pa_gas>.setFormula("FrThRaPa", false);
+
+#  32086 Actinium
+var actinium = MaterialBuilder(32086, "actinium")
+    .ingot()
+    .color(0xC3F23F)
+    .iconSet("dull")
+    .components([<material:actinium> * 1])
+    .build();
+
+#  32087 Francium
+var francium = MaterialBuilder(32087, "francium")
+    .dust()
+    .color(0xF3116B)
+    .iconSet("metallic")
+    .components([<material:francium> * 1])
+    .build();
+
+#  32088 Protactinium
+var protactinium = MaterialBuilder(32088, "protactinium")
+    .ingot()
+    .color(0x696F7A)
+    .iconSet("shiny")
+    .components([<material:protactinium> * 1])
+    .build();
+
+#  32089 Fr-Th-Ra Gas
+var fr_th_ra_gas = MaterialBuilder(32089, "fr_th_ra_gas")
+    .fluid()
+    .color(0x998EA6)
+    .build();
+
+<material:fr_th_ra_gas>.setFormula("FrThRa", false);
+
+#  32090 Pa Gas
+var pa_gas = MaterialBuilder(32090, "pa_gas")
+    .fluid()
+    .color(0x3F5061)
+    .build();
+
+<material:pa_gas>.setFormula("Pa", false);
+
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
     .fluid()

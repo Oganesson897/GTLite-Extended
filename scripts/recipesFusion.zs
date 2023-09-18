@@ -2,6 +2,15 @@ import mods.gregtech.recipe.RecipeMap;
 
 #  Fusion reactor Mk III
 fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:radium_radon_mixture> * 288,
+                  <liquid:scandium_titanium_mixture> * 288])
+    .fluidOutputs([<liquid:hassium> * 576])
+    .property("eu_to_start", 520000000)
+    .EUt(491520)
+    .duration(250)
+    .buildAndRegister();
+    
+fusion_reactor.recipeBuilder()
     .fluidInputs([<liquid:nickel> * 288,
                   <liquid:beryllium> * 288])
     .fluidOutputs([<liquid:roentgenium> * 576])

@@ -167,6 +167,8 @@ item.contenttweaker.mining_drone_uiv.name=超维度采矿无人机（§2UIV§r�
 item.contenttweaker.mining_drone_uxv.name=超维度采矿无人机（§eUXV§r）
 item.contenttweaker.mining_drone_opv.name=超维度采矿无人机（§9OpV§r）
 item.contenttweaker.mining_drone_max.name=超维度采矿无人机（§c§lMAX§r）
+item.contenttweaker.protonated_fullerene_sieving_matrix.name=质子化富勒烯筛分基质
+item.contenttweaker.saturated_fullerene_sieving_matrix.name=饱和富勒烯筛分基质
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=精金线圈方块

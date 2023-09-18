@@ -1190,3 +1190,148 @@ sifter.recipeBuilder()
     .EUt(1008)
     .duration(78)
     .buildAndRegister();
+
+#  Actinide series
+
+##  Taranium -> Trinite
+electromagnetic_separator.recipeBuilder()
+    .inputs([<ore:dustTaranium>])
+    .chancedOutput(<gregtech:meta_dust:32077>, 3000, 500)
+    .chancedOutput(<gregtech:meta_dust:126> * 2, 3000, 0)
+    .chancedOutput(<gregtech:meta_dust_small:18028> * 3, 2000, 0)
+    .EUt(12550)
+    .duration(120)
+    .buildAndRegister();
+
+##  NaClO4 + HNO3 + SO2 + Trinite -> At dust + SeO2 + Nitrated Trinite Solution
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustSodiumPerchlorate> * 3,
+             <ore:dustTrinite>])
+    .fluidInputs([<liquid:nitric_acid> * 1000,
+                  <liquid:sulfur_dioxide> * 1000])
+    .outputs([<gregtech:meta_dust:32056>,
+              <gregtech:meta_dust:3547>])
+    .fluidOutputs([<liquid:nitrated_trinite_solution> * 1000])
+    .EUt(7680)
+    .duration(520)
+    .buildAndRegister();
+
+##  Nitrated Trinite Solution + NaOH = Actinium Trinium Hydroxides + Na2S + Residual Trinite Solution
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustSodiumHydroxide> * 2])
+    .fluidInputs([<liquid:nitrated_trinite_solution> * 2000])
+    .outputs([<gregtech:meta_dust:32079>,
+              <gregtech:meta_dust:358>])
+    .fluidOutputs([<liquid:residual_trinite_solution> * 1000])
+    .EUt(491520)
+    .duration(360)
+    .buildAndRegister();
+
+##  Residual Trinite Solution -> Nq+ + *Nq*
+chemical_bath.recipeBuilder()
+    .inputs([<ore:dustNaquadah>])
+    .fluidInputs([<liquid:residual_trinite_solution> * 1000])
+    .outputs([<gregtech:meta_dust:125> * 2])
+    .fluidOutputs([<liquid:acidic_naquadria_solution> * 6000])
+    .EUt(491520)
+    .duration(400)
+    .buildAndRegister();
+
+##  Actinium Trinium Hydroxides + Mutagen + Protonated fullerene sieving matrix -> Actinium Radium Hydroxide Solution + Saturated Fullerene Sieving Matrix
+mixer.recipeBuilder()
+    .inputs([<ore:dustActiniumTriniumHydroxides> * 8,
+             <contenttweaker:protonated_fullerene_sieving_matrix>])
+    .fluidInputs([<liquid:mutagen> * 1000])
+    .outputs([<contenttweaker:saturated_fullerene_sieving_matrix>])
+    .fluidOutputs([<liquid:actinium_radium_hydroxide_solution> * 2000])
+    .EUt(26200)
+    .duration(210)
+    .buildAndRegister();
+
+##  Actinium Radium Nitrate Solution
+mixer.recipeBuilder()
+    .fluidInputs([<liquid:actinium_radium_hydroxide_solution> * 1000,
+                  <liquid:nitric_acid> * 12000])
+    .fluidOutputs([<liquid:actinium_radium_nitrate_solution> * 6000])
+    .EUt(603400)
+    .duration(100)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs([<liquid:actinium_radium_nitrate_solution> * 6000])
+    .outputs([<gregtech:meta_dust:32083>,
+              <gregtech:meta_dust:32084>])
+    .fluidOutputs([<liquid:fr_th_ra_pa_gas> * 4000])
+    .EUt(524288)
+    .duration(1200)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustActiniumNitrate>])
+    .fluidInputs([<liquid:hydrogen> * 3000])
+    .outputs([<gregtech:meta_dust:32086>])
+    .fluidOutputs([<liquid:nitric_acid> * 3000])
+    .EUt(7960)
+    .duration(200)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustRadiumNitrate>])
+    .fluidInputs([<liquid:hydrogen> * 3000])
+    .outputs([<gregtech:meta_dust:32073>])
+    .fluidOutputs([<liquid:nitric_acid> * 3000])
+    .EUt(7960)
+    .duration(200)
+    .buildAndRegister();
+
+##  Protonated fullerene sieving matrix
+assembler.recipeBuilder()
+    .inputs([<ore:plateFullerene>,
+             <ore:wireFineCarbonNanotube> * 16])
+    .fluidInputs([<liquid:raw_growth_medium> * 144])
+    .outputs([<contenttweaker:protonated_fullerene_sieving_matrix>])
+    .EUt(99800)
+    .duration(1200)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs([<contenttweaker:saturated_fullerene_sieving_matrix>])
+    .fluidInputs([<liquid:sterilized_growth_medium> * 144])
+    .outputs([<contenttweaker:protonated_fullerene_sieving_matrix>])
+    .EUt(87810)
+    .duration(100)
+    .buildAndRegister();
+
+##  Pa Gas
+vacuum_freezer.recipeBuilder()
+    .fluidInputs([<liquid:pa_gas> * 144])
+    .outputs([<gregtech:meta_dust:32088>])
+    .EUt(512)
+    .duration(300)
+    .buildAndRegister();
+
+centrifuge.recipeBuilder()
+    .fluidInputs([<liquid:fr_th_ra_gas> * 3000])
+    .outputs([<gregtech:meta_dust:32087>,
+              <gregtech:meta_dust:109>,
+              <gregtech:meta_dust:32073>])
+    .EUt(130000)
+    .duration(800)
+    .buildAndRegister();
+
+#  Hassium
+mixer.recipeBuilder()
+    .fluidInputs([<liquid:radon> * 1000,
+                  <liquid:radium> * 144])
+    .fluidOutputs([<liquid:radium_radon_mixture> * 288])
+    .EUt(450000)
+    .duration(130)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs([<ore:dustScandium>])
+    .fluidInputs([<liquid:titanium> * 144])
+    .fluidOutputs([<liquid:scandium_titanium_mixture> * 288])
+    .EUt(450000)
+    .duration(130)
+    .buildAndRegister();

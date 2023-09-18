@@ -149,6 +149,8 @@ item.contenttweaker.mining_drone_uiv.name=Ultra Immense Voltage Mining Drone
 item.contenttweaker.mining_drone_uxv.name=Ultra Extreme Voltage Mining Drone
 item.contenttweaker.mining_drone_opv.name=Overpowered Voltage Mining Drone
 item.contenttweaker.mining_drone_max.name=Maximum Voltage Mining Drone
+item.contenttweaker.protonated_fullerene_sieving_matrix.name=Protonated Fullerene Sieving Matrix
+item.contenttweaker.saturated_fullerene_sieving_matrix.name=Saturated Fullerene Sieving Matrix
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=Adamantium Coil Block
