@@ -31,6 +31,8 @@ global compressed_fusion_reactor_mk2                            as RecipeMap = R
 global compressed_fusion_reactor_mk3                            as RecipeMap = RecipeMap.getByName("compressed_fusion_reactor_mk3");
 global cosmic_ray_detector                                      as RecipeMap = RecipeMap.getByName("cosmic_ray_detector");
 global mass_fabricator_computer                                 as RecipeMap = RecipeMap.getByName("mass_fabricator_computer");
+global nuclear_reactor                                          as RecipeMap = RecipeMap.getByName("nuclear_reactor");
+global isotope_gas_centrifuge                                   as RecipeMap = RecipeMap.getByName("isotope_gas_centrifuge");
 
 #  Devtech
 global simulation_chamber                                       as RecipeMap = RecipeMap.getByName("simulation_chamber");

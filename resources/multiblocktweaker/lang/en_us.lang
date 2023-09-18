@@ -26,6 +26,8 @@ multiblocktweaker.machine.compressed_fusion_reactor_mk2.name=Compressed Fusion R
 multiblocktweaker.machine.compressed_fusion_reactor_mk3.name=Compressed Fusion Reactor Computer Mark 3
 multiblocktweaker.machine.cosmic_ray_detector.name=Cosmic Ray Detector
 multiblocktweaker.machine.mass_fabricator_computer.name=Mass Fabricator Computer
+multiblocktweaker.machine.nuclear_reactor.name=Nuclear Reactor
+multiblocktweaker.machine.isotope_gas_centrifuge.name=Isotope Gas Centrifuge
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=Virtual Cosmos Simulator Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=Virtual Cosmos Simulator Mk II
@@ -55,3 +57,5 @@ multiblocktweaker.multiblock.compressed_fusion_reactor_mk2.name=Compressed Fusio
 multiblocktweaker.multiblock.compressed_fusion_reactor_mk3.name=Compressed Fusion Reactor Computer Mark 3
 multiblocktweaker.multiblock.cosmic_ray_detector.name=Cosmic Ray Detector
 multiblocktweaker.multiblock.mass_fabricator_computer.name=Mass Fabricator Computer
+multiblocktweaker.multiblock.nuclear_reactor.name=Nuclear Reactor
+multiblocktweaker.multiblock.isotope_gas_centrifuge.name=Isotope Gas Centrifuge

@@ -7293,3 +7293,161 @@ assembly_line.recipeBuilder()
     .EUt(5000000)
     .duration(5000)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var nuclear_reactor = Builder.start("nuclear_reactor")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                "CCC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CCC")
+            .aisle(
+                "CCC",
+                "GBG",
+                "GBG",
+                "GBG",
+                "GBG",
+                "GBG",
+                "GBG",
+                "GBG",
+                "CCC")
+            .aisle(
+                "COC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CGC",
+                "CCC")
+            .where("O", controller.self())
+            .where("G", <blockstate:gregtech:transparent_casing>)
+            .where("B", <blockstate:contenttweaker:reactor_core_casing>)
+            .where("C", CTPredicate.states(<blockstate:contenttweaker:cladded_reactor_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1))
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("nuclear_reactor")
+            .minInputs(1)
+            .maxInputs(2)
+            .minFluidInputs(1)
+            .maxFluidInputs(2)
+            .minOutputs(1)
+            .maxOutputs(2)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(2)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:cladded_reactor_casing>)
+    .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var isotope_gas_centrifuge = Builder.start("isotope_gas_centrifuge")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle(
+                " SSS ",
+                " SSS ",
+                "     ",
+                "     ",
+                "     ",
+                "     ",
+                "     ")
+            .aisle(
+                "SSSSS",
+                "SSSSS",
+                " MTM ",
+                " M M ",
+                " M M ",
+                " M M ",
+                " M M ")
+            .aisle(
+                "SSSSS",
+                "SSGSS",
+                " T T ",
+                "     ",
+                "     ",
+                "     ",
+                "     ")
+            .aisle(
+                "SSSSS",
+                "SSSSS",
+                " MTM ",
+                " M M ",
+                " M M ",
+                " M M ",
+                " M M ")
+            .aisle(
+                " SSS ",
+                " SOS ",
+                "     ",
+                "     ",
+                "     ",
+                "     ",
+                "     ")
+            .where("O", controller.self())
+            .where("M", <metastate:gregtech:metal_casing:4>)
+            .where("T", <metastate:gregtech:boiler_casing:1>)
+            .where("G", <metastate:gregtech:turbine_casing:2>)
+            .where("S", CTPredicate.states(<metastate:gregtech:metal_casing:5>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)  
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("isotope_gas_centrifuge")
+            .minFluidInputs(1)
+            .maxFluidInputs(1)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(3)
+            .build()
+    )
+    .withBaseTexture(<metastate:gregtech:metal_casing:5>)
+    .buildAndRegister();

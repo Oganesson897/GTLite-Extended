@@ -402,6 +402,12 @@ var space_elevator_core = VanillaFactory.createBlock("space_elevator_core", <blo
 var phantasium_casing = VanillaFactory.createBlock("phantasium_casing", <blockmaterial:iron>);
     phantasium_casing.register();
 
+var cladded_reactor_casing = VanillaFactory.createBlock("cladded_reactor_casing", <blockmaterial:iron>);
+    cladded_reactor_casing.register();
+
+var reactor_core_casing = VanillaFactory.createBlock("reactor_core_casing", <blockmaterial:iron>);
+    reactor_core_casing.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;
