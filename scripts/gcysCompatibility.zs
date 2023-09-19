@@ -2226,7 +2226,7 @@ assembly_line.recipeBuilder()
              <ore:screwTiberium> * 8,
              <ore:ringSiliconeRubber> * 64,
              <ore:rotorNeutronium>,
-             <ore:cableGtSingleCrystalMatrix>])
+             <ore:cableGtSingleCrystalMatrix> * 2])
     .fluidInputs([<liquid:soldering_alloy> * 4608,
                   <liquid:lubricant> * 7000,
                   <liquid:black_hole_matter_polymer_matrix> * 576,
@@ -2384,8 +2384,7 @@ assembler.recipeBuilder()
              <ore:cableGtOctalSunnarium>,
              <ore:cableGtHexPedotTma> * 2,
              <ore:springSmallPedotTma>,
-             <ore:springSunnarium>
-    ])
+             <ore:springSunnarium>])
     .fluidInputs([<liquid:lubricant> * 2000])
     .outputs([<gregtech:machine:1295>])
     .EUt(7864320)
@@ -2640,6 +2639,109 @@ assembly_line.recipeBuilder()
                   <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
                   <liquid:infinity> * 576])
     .outputs([<gregtech:meta_item_1:184>])
+    .EUt(100000000)
+    .duration(3000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:139>,
+             <gregtech:hermetic_casing:8> * 8,
+             <ore:plateArcanium> * 2,
+             <ore:screwArcanium> * 8,
+             <ore:ringSiliconeRubber> * 64,
+             <ore:rotorInfinity>,
+             <ore:cableGtSingleSuperheavyElementMixture> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 9216,
+                  <liquid:lubricant> * 9000,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:infinity> * 576])
+    .outputs([<gregtech:meta_item_1:154>])
+    .EUt(100000000)
+    .duration(3000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:139> * 2,
+             <ore:plateArcanium> * 2,
+             <ore:ringArcanium> * 4,
+             <ore:roundArcanium> * 16,
+             <ore:screwArcanium> * 4,
+             <ore:cableGtSingleSuperheavyElementMixture> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 9216,
+                  <liquid:lubricant> * 9000,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<gregtech:meta_item_1:169>])
+    .EUt(100000000)
+    .duration(3000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongArcanium>,
+             <ore:gearHypogen>,
+             <ore:gearSmallHypogen> * 3,
+             <gregtech:meta_item_1:139> * 2,
+             <gregtech:meta_item_1:184>,
+             <ore:circuitOpv>,
+             <ore:circuitUxv> * 2,
+             <ore:circuitUiv> * 4,
+             <ore:cableGtSingleSuperheavyElementMixture> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 8640,
+                  <liquid:lubricant> * 9000,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:infinity> * 576])
+    .outputs([<gregtech:meta_item_1:199>])
+    .EUt(100000000)
+    .duration(3000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtArcanium>,
+             <ore:plateArcanium> * 6,
+             <gregtech:meta_item_1:283> * 32,
+             <gregtech:meta_item_1:229> * 2,
+             <ore:circuitOpv>,
+             <ore:wireFineHypogen> * 64,
+             <ore:wireFineHypogen> * 64,
+             <ore:cableGtSingleSuperheavyElementMixture> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 8640,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:infinity> * 576])
+    .outputs([<gregtech:meta_item_1:214>])
+    .EUt(100000000)
+    .duration(3000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtArcanium>,
+             <gregtech:meta_item_1:139>,
+             <ore:stickLongArcanium> * 4,
+             <gregtech:meta_item_1:283> * 16,
+             <ore:circuitOpv> * 2,
+             <ore:foilHypogen> * 64,
+             <ore:foilHypogen> * 32,
+             <ore:cableGtSingleSuperheavyElementMixture> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 5760,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:infinity> * 576])
+    .outputs([<gregtech:meta_item_1:229>])
+    .EUt(100000000)
+    .duration(3000)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtArcanium>,
+             <gregtech:meta_item_1:139>,
+             <ore:plateArcanium> * 4,
+             <gregtech:meta_item_1:283> * 16,
+             <ore:circuitOpv> * 2,
+             <ore:foilHypogen> * 64,
+             <ore:foilHypogen> * 32,
+             <ore:cableGtSingleSuperheavyElementMixture> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 5760,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:infinity> * 576])
+    .outputs([<gregtech:meta_item_1:244>])
     .EUt(100000000)
     .duration(3000)
     .buildAndRegister();
