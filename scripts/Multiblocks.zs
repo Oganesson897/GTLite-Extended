@@ -7451,3 +7451,84 @@ var isotope_gas_centrifuge = Builder.start("isotope_gas_centrifuge")
     )
     .withBaseTexture(<metastate:gregtech:metal_casing:5>)
     .buildAndRegister();
+
+makeShaped("isotope_gas_centrifuge", <gregtech:machine:32029>,
+    [
+        "OBO",
+        "DCD",
+        "OWO"
+    ],
+    {
+        "C": <gregtech:machine:188>,
+        "B": <gregtech:meta_item_1:290>,
+        "O": <gregtech:meta_item_1:130>,
+        "D": <ore:circuitIv>,
+        "W": <ore:cableGtSingleAluminium>
+    });
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var bio_reactor = Builder.start("bio_reactor")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle("CCCCC", "CCCCC", "GGGGG", "GGGGG", "DDDDD")
+            .aisle("CCCCC", "CCCCC", "G   G", "G   G", "DDDDD")
+            .aisle("CCCCC", "CCCCC", "G   G", "G   G", "DDDDD")
+            .aisle("CCCCC", "CCCCC", "G   G", "G   G", "DDDDD")
+            .aisle("CCCCC", "CCOCC", "GGGGG", "GGGGG", "DDDDD")
+            .where("O", controller.self())
+            .where("D", <blockstate:contenttweaker:hassium_casing>)
+            .where("G", <metastate:gregtech:transparent_casing:1>)
+            .where("C", CTPredicate.states(<blockstate:contenttweaker:hassium_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(3)
+                                   .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("bio_reactor")
+            .minInputs(1)
+            .maxInputs(3)
+            .minFluidInputs(1)
+            .maxFluidInputs(3)
+            .minOutputs(1)
+            .maxOutputs(3)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(3)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:hassium_casing>)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:993>,
+             <ore:circuitUhv> * 4,
+             <ore:plateHassium> * 4,
+             <gregtech:meta_item_1:709> * 32,
+             <ore:cableGtQuadrupleYttriumBariumCuprate> * 4])
+    .fluidInputs([<liquid:polybenzimidazole> * 576])
+    .outputs([<gregtech:machine:32030>])
+    .EUt(491520)
+    .duration(890)
+    .buildAndRegister();
