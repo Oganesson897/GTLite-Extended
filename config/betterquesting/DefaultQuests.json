@@ -21292,7 +21292,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的下一个能源仓。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -21316,7 +21316,20 @@
         }
       },
       "questID:3": 302,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 95,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -27675,7 +27688,20 @@
         }
       },
       "questID:3": 401,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 576,
+              "Damage:2": 99,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -28595,7 +28621,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的组装机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28619,7 +28645,20 @@
         }
       },
       "questID:3": 414,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 2062,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31086,8 +31125,32 @@
         }
       },
       "questID:3": 454,
-      "rewards:9": {},
-      "tasks:9": {}
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "fluorine"
+                }
+              }
+            }
+          }
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "455:10": {
       "preRequisites:11": [
@@ -31120,7 +31183,32 @@
         }
       },
       "questID:3": 455,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_naquadah_0"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_naquadah_0"
+            },
+            "2:10": {
+              "Count:3": 256,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_naquadah_0"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31609,7 +31697,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你制作§b超导线圈方块§r的理由应该有两个：\n\n第一是为了制作§9核聚变反应堆控制电脑§r，第二则是§c有源变压器§r，\n\n它们都是十分重要的机器。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31633,7 +31721,20 @@
         }
       },
       "questID:3": 463,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 429,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31731,7 +31832,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "别担心，你马上就能拿到§d凯金§r了，把它丢进高炉吧！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32104,7 +32205,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的终极变压器，铺排基地线路的不二之选！\n\n§e注意：§r有源变压器是目前版本唯一支持激光仓室的机器。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32128,7 +32229,20 @@
         }
       },
       "questID:3": 471,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 50,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32157,7 +32271,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用于§9数据库§r与§c有源变压器§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32181,7 +32295,20 @@
         }
       },
       "questID:3": 472,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 296,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32209,7 +32336,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "离心含杂富集硅岩溶液得到§a富集硅岩溶液§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32239,7 +32366,20 @@
         }
       },
       "questID:3": 473,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 443,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32264,7 +32404,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的化学反应釜。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32288,7 +32428,26 @@
         }
       },
       "questID:3": 474,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "polytetrafluoroethylene"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32455,7 +32614,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用§6硫酸§r酸化富集硅岩溶液，得到§a富集超能硅岩溶液§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32485,7 +32644,20 @@
         }
       },
       "questID:3": 477,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 103,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32579,7 +32751,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "离心酸性富集硅岩溶液，得到§d硫酸富集硅岩粉§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32603,7 +32775,26 @@
         }
       },
       "questID:3": 479,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "enriched_naquadah_solution"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32701,7 +32892,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "离心含杂超能硅岩溶液，得到§a超能硅岩溶液§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32769,7 +32960,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用§6硫酸§r酸化超能硅岩溶液，得到§a酸性超能硅岩溶液§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32799,7 +32990,20 @@
         }
       },
       "questID:3": 482,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 103,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32855,9 +33059,15 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 128,
-              "Damage:2": 103,
+              "Damage:2": 78,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "naquadria_solution"
+                }
+              }
             }
           }
         }
@@ -35408,7 +35618,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的SoC。\n\n你现在可以更省材料的生产§b纳米电路§r与§a量子电路§r了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35432,7 +35642,20 @@
         }
       },
       "questID:3": 528,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 351,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
