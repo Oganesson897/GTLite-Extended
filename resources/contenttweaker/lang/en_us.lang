@@ -165,6 +165,7 @@ item.contenttweaker.protonated_fullerene_sieving_matrix.name=Protonated Fulleren
 item.contenttweaker.saturated_fullerene_sieving_matrix.name=Saturated Fullerene Sieving Matrix
 item.contenttweaker.prealgae.name=Unknown Extraterrestrial Algae
 item.contenttweaker.tau_ceti_e_algae.name=Tau Ceti E Algae
+item.contenttweaker.cosmic_polymer_matrix_unit.name=Cosmic Polymer Matrix Containment Unit
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=Adamantium Coil Block

@@ -1668,5 +1668,9 @@ gregtech.material.magneto_resonatic=共振紫晶
 gregtech.material.superconducting_magnet_mixture=超导磁体混合物
 gregtech.material.austenite_steel=特种奥氏体复合钢
 gregtech.material.tau_ceti_e_mutagen=畸变诱导剂
+gregtech.material.crude_cosmic_polymer_matrix=寰宇织料
+gregtech.material.cosmic_polymer_matrix_plasma=寰宇织网等离子体
+gregtech.material.meitnerium=钅麦
+gregtech.material.bismuth_209=铋-209
 
 gregtech.material.titanium_platinum_vanadium_alloy=钛铂钒合金

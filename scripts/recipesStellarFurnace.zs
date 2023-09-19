@@ -159,9 +159,10 @@ stellar_furnace.recipeBuilder()
 #  Hypogen
 stellar_furnace.recipeBuilder()
     .inputs([<contenttweaker:qcd_charge>,
-             <ore:dustVoid>])
+             <ore:dustVoid> * 2,
+             <ore:dustDeepOceanSilver> * 4])
     .fluidInputs([<liquid:cosmic_computing_mixture> * 144])
-    .outputs([<gregtech:meta_dust:32048>])
+    .outputs([<gregtech:meta_dust:32048> * 6])
     .EUt(20000000)
     .duration(200)
     .buildAndRegister();
@@ -198,6 +199,15 @@ stellar_furnace.recipeBuilder()
     .fluidInputs([<liquid:primitive_stellar_plasma_fluid> * 512000,
                   <liquid:hyperdimensional_residue> * 15000])
     .fluidOutputs([<liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 1000])
+    .EUt(20000000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Cosmic Polymer Matrix
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>])
+    .fluidInputs([<liquid:crude_cosmic_polymer_matrix> * 1000])
+    .fluidOutputs([<liquid:cosmic_polymer_matrix_plasma> * 1000])
     .EUt(20000000)
     .duration(300)
     .buildAndRegister();

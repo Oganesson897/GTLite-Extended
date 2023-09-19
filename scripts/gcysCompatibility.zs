@@ -2745,3 +2745,17 @@ assembly_line.recipeBuilder()
     .EUt(100000000)
     .duration(3000)
     .buildAndRegister();
+
+#  OpV Machines
+makeShaped("opv_electric_furnace", <gregtech:machine:62>,
+    [
+        "OQO",
+        "QCQ",
+        "PQP"
+    ],
+    {
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Q": <ore:wireGtDoubleLunarium>
+    });

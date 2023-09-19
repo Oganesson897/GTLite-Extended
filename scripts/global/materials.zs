@@ -562,6 +562,8 @@ var cosmic_polymer_matrix = MaterialBuilder(32042, "cosmic_polymer_matrix")
             "generate_ring"])
     .build();
 
+<material:cosmic_polymer_matrix>.setFormula("(CNT)(C60)MtRe2(C14H6N2O2)4", true);
+
 #  32043 Tairitsium
 var tairitsium = MaterialBuilder(32043, "tairitsium")
     .ingot()
@@ -592,6 +594,8 @@ var arcanium = MaterialBuilder(32044, "arcanium")
             "generate_frame"])
     .blastTemp(18800)
     .build();
+
+<material:arcanium>.setFormula("✴3(Ad2Vb3Tr?6)3(Cu(Si(FeS2)5(CrAl2O3)Hg3)4)3(Pb4Pt((CuAu4)(ZnCu3)Fe2(Ni(AuAgCu3)Fe3)4Os)7Dr5(((Si(FeS2)5(CrAl2O3)Hg3)(AgAu))4Ag)3)4?4((InP)13(Ru2Ir)4((Au2(Si(FeS2)5(CrAl2O3)Hg3)?)(BeK4N5))4U3)2", true);
 
 #  32045 Tachyon Plasma
 var tachyon_plasma = MaterialBuilder(32045, "tachyon_plasma")
@@ -640,6 +644,8 @@ var hypogen = MaterialBuilder(32048, "hypogen")
     .cableProperties(536870912, 999, 32, false)
     .blastTemp(18800)
     .build();
+
+<material:hypogen>.setFormula("(Nt3(Ad3O4)7Sd?)2(?4Ag4Nt)4", true);
 
 #  32049 Etoilium
 var etoilium = MaterialBuilder(32049, "etoilium")
@@ -1113,12 +1119,16 @@ var void_metal = MaterialBuilder(32099, "void")
     .iconSet("metallic")
     .build();
 
+<material:void>.setFormula("Nt3(Ad3O4)7Sd?", true);
+
 #  32100 Unknown Liquid
 var unknown_liquid = MaterialBuilder(32100, "unknown_liquid")
     .fluid()
     .color(0x8EF740)
     .iconSet("dull")
     .build();
+
+<material:unknown_liquid>.setFormula("?", false);
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
@@ -1443,3 +1453,41 @@ var tau_ceti_e_mutagen = MaterialBuilder(32140, "tau_ceti_e_mutagen")
     .color(0x9C31F9)
     .iconSet("metallic")
     .build();
+
+#  32141 Crude Cosmic Polymer Matrix
+var crude_cosmic_polymer_matrix = MaterialBuilder(32141, "crude_cosmic_polymer_matrix")
+    .dust()
+    .fluid()
+    .color(0x4F0D68)
+    .iconSet("dull")
+    .build();
+
+<material:crude_cosmic_polymer_matrix>.setFormula("(CNT)(C60)MtRe2(C14H6N2O2)4", true);
+
+#  32142 Cosmic Polymer Matrix Plasma
+var cosmic_polymer_matrix_plasma = MaterialBuilder(32142, "cosmic_polymer_matrix_plasma")
+    .fluid()
+    .color(0x8816B4)
+    .build();
+
+<material:cosmic_polymer_matrix_plasma>.setFormula("(CNT)(C60)MtRe2(C14H6N2O2)4", true);
+
+#  32143 Meitnerium
+var meitnerium = MaterialBuilder(32143, "meitnerium")
+    .ingot()
+    .fluid()
+    .color(0x2246BE)
+    .iconSet("shiny")
+    .flags(["generate_plate"])
+    .components([<material:meitnerium> * 1])
+    .build();
+
+#  32144 Bismuth-209
+var bismuth_209 = MaterialBuilder(32144, "bismuth_209")
+    .dust()
+    .fluid()
+    .color(0x48561E)
+    .iconSet("dull")
+    .build();
+
+<material:bismuth_209>.setFormula("Bi-209", false);

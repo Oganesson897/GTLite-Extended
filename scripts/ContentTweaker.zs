@@ -801,6 +801,11 @@ var tau_ceti_e_algae = VanillaFactory.createItem("tau_ceti_e_algae");
     tau_ceti_e_algae.creativeTab = <creativetab:gregtech.main>;
     tau_ceti_e_algae.register();
 
+var cosmic_polymer_matrix_unit = VanillaFactory.createItem("cosmic_polymer_matrix_unit");
+    cosmic_polymer_matrix_unit.maxStackSize = 64;
+    cosmic_polymer_matrix_unit.creativeTab = <creativetab:gregtech.main>;
+    cosmic_polymer_matrix_unit.register();
+
 #  Wire Coils
 var machine_coil_adamantium = VanillaFactory.createBlock("machine_coil_adamantium", <blockmaterial:iron>);
     machine_coil_adamantium.register();

@@ -1559,3 +1559,23 @@ chemical_bath.recipeBuilder()
     .EUt(33553355)
     .duration(335)
     .buildAndRegister();
+
+#  Cosmic Polymer Matrix
+canner.recipeBuilder()
+    .inputs([<contenttweaker:time_dilation_containment_unit>])
+    .fluidInputs([<liquid:cosmic_polymer_matrix_plasma> * 1000])
+    .outputs([<contenttweaker:cosmic_polymer_matrix_unit>])
+    .EUt(512)
+    .duration(1200)
+    .buildAndRegister();
+
+forming_press.recipeBuilder()
+    .inputs([<ore:plateCarbonNanotube>,
+             <ore:plateFullerene>,
+             <ore:plateMeitnerium>,
+             <ore:plateRhenium> * 2,
+             <ore:dustZylon> * 4])
+    .outputs([<gregtech:meta_dust:32141>])
+    .EUt(100000000)
+    .duration(600)
+    .buildAndRegister();

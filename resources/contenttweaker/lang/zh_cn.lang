@@ -183,6 +183,7 @@ item.contenttweaker.protonated_fullerene_sieving_matrix.name=质子化富勒烯�
 item.contenttweaker.saturated_fullerene_sieving_matrix.name=饱和富勒烯筛分基质
 item.contenttweaker.prealgae.name=未知外星藻类
 item.contenttweaker.tau_ceti_e_algae.name=鲸鱼座T星E藻类
+item.contenttweaker.cosmic_polymer_matrix_unit.name=寰宇织网等离子体遏制装置
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=精金线圈方块

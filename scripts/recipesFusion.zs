@@ -9,6 +9,15 @@ fusion_reactor.recipeBuilder()
     .EUt(491520)
     .duration(250)
     .buildAndRegister();
+
+fusion_reactor.recipeBuilder()
+    .fluidInputs([<liquid:iron> * 288,
+                  <liquid:bismuth_209> * 288])
+    .fluidOutputs([<liquid:meitnerium> * 576])
+    .property("eu_to_start", 560000000)
+    .EUt(477660)
+    .duration(260)
+    .buildAndRegister();
     
 fusion_reactor.recipeBuilder()
     .fluidInputs([<liquid:nickel> * 288,
@@ -349,6 +358,22 @@ compressed_fusion_reactor_mk3.recipeBuilder()
     .fluidOutputs([<liquid:plasma.vibranium> * 9216])
     .EUt(245760)
     .duration(3200)
+    .buildAndRegister();
+
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:radium_radon_mixture> * 18432,
+                  <liquid:scandium_titanium_mixture> * 18432])
+    .fluidOutputs([<liquid:hassium> * 36864])
+    .EUt(491520)
+    .duration(2500)
+    .buildAndRegister();
+
+compressed_fusion_reactor_mk3.recipeBuilder()
+    .fluidInputs([<liquid:iron> * 18432,
+                  <liquid:bismuth_209> * 18432])
+    .fluidOutputs([<liquid:meitnerium> * 36864])
+    .EUt(477660)
+    .duration(260)
     .buildAndRegister();
 
 compressed_fusion_reactor_mk3.recipeBuilder()
