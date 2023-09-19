@@ -163,6 +163,8 @@ item.contenttweaker.mining_drone_opv.name=Overpowered Voltage Mining Drone
 item.contenttweaker.mining_drone_max.name=Maximum Voltage Mining Drone
 item.contenttweaker.protonated_fullerene_sieving_matrix.name=Protonated Fullerene Sieving Matrix
 item.contenttweaker.saturated_fullerene_sieving_matrix.name=Saturated Fullerene Sieving Matrix
+item.contenttweaker.prealgae.name=Unknown Extraterrestrial Algae
+item.contenttweaker.tau_ceti_e_algae.name=Tau Ceti E Algae
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=Adamantium Coil Block

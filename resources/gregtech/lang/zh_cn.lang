@@ -1620,7 +1620,10 @@ gregtech.material.lithium_cyclopentadienide=环戊二烯化锂
 gregtech.material.dimethoxyethane=二甲氧基乙烷
 gregtech.material.dimethylether=二甲醚
 gregtech.material.cyclopentadiene=环戊二烯
-
+gregtech.material.hyperdimensional_residue=超维度残留
+gregtech.material.primitive_stellar_plasma_fluid=原始恒星等离子流体
+gregtech.material.void=虚空金属
+gregtech.material.unknown_liquid=未知液体
 gregtech.material.polyetheretherketone=聚醚醚酮
 gregtech.material.difluorobenzophenone=二氟二苯甲酮
 gregtech.material.hydroquinone=对苯二酚
@@ -1660,10 +1663,10 @@ gregtech.material.nitronium_tetrafluoroborate=四氟硝铵
 gregtech.material.nitrosonium_tetrafluoroborate=四氟合硼酸亚硝铵
 gregtech.material.succinimidyl_acetate=琥珀酰亚胺基乙酸酯
 gregtech.material.n_hydroxysuccinimide=N-羟基丁二酰亚胺
-
 gregtech.material.hdcs=高强度复合钢
 gregtech.material.magneto_resonatic=共振紫晶
 gregtech.material.superconducting_magnet_mixture=超导磁体混合物
 gregtech.material.austenite_steel=特种奥氏体复合钢
+gregtech.material.tau_ceti_e_mutagen=畸变诱导剂
 
 gregtech.material.titanium_platinum_vanadium_alloy=钛铂钒合金

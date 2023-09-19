@@ -666,6 +666,16 @@ space_elevator.recipeBuilder()
     .duration(600)
     .buildAndRegister();
 
+space_elevator.recipeBuilder()
+    .notConsumable([<contenttweaker:mining_drone_uxv>,
+                    <gregtech:meta_item_1:183>])
+    .circuit(1)
+    .fluidInputs([<liquid:rocket_fuel> * 16000])
+    .outputs([<contenttweaker:prealgae> * 64])
+    .EUt(7688600)
+    .duration(600)
+    .buildAndRegister();
+
 #  OpV : 28337500 EU/t : 600 tick
 space_elevator.recipeBuilder()
     .notConsumable([<contenttweaker:mining_drone_opv>,
@@ -1088,11 +1098,21 @@ space_elevator.recipeBuilder()
 
 ##  UXV : 7688600 EU/t : 600 tick
 space_elevator.recipeBuilder()
-    .notConsumable([<contenttweaker:mining_drone_uiv>,
+    .notConsumable([<contenttweaker:mining_drone_uxv>,
                     <gregtech:meta_item_1:153>])
     .circuit(0)
     .fluidInputs([<liquid:rocket_fuel> * 1000])
     .fluidOutputs([<liquid:adamantium> * 16000])
+    .EUt(7688600)
+    .duration(600)
+    .buildAndRegister();
+
+space_elevator.recipeBuilder()
+    .notConsumable([<contenttweaker:mining_drone_uxv>,
+                    <gregtech:meta_item_1:153>])
+    .circuit(1)
+    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .fluidOutputs([<liquid:primitive_stellar_plasma_fluid> * 16000])
     .EUt(7688600)
     .duration(600)
     .buildAndRegister();

@@ -155,3 +155,49 @@ stellar_furnace.recipeBuilder()
     .EUt(1000000)
     .duration(1200)
     .buildAndRegister();
+
+#  Hypogen
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <ore:dustVoid>])
+    .fluidInputs([<liquid:cosmic_computing_mixture> * 144])
+    .outputs([<gregtech:meta_dust:32048>])
+    .EUt(20000000)
+    .duration(200)
+    .buildAndRegister();
+
+#  Hyperdimensional Residue
+stellar_furnace.recipeBuilder()
+    .notConsumable([<gregtech:meta_item_1:213>,
+                    <gregtech:meta_item_1:153>,
+                    <gregtech:meta_item_1:228>,
+                    <gregtech:meta_item_1:198>])
+    .inputs([<contenttweaker:qcd_charge>])
+    .fluidInputs([<liquid:neutron_plasma> * 255,
+                  <liquid:tachyon_plasma> * 255,
+                  <liquid:plasma.adamantium> * 255,
+                  <liquid:plasma.vibranium> * 255,
+                  <liquid:heavy_lepton_mixture> * 255,
+                  <liquid:unknown_liquid> * 255])
+    .fluidOutputs([<liquid:infinity> * 36,
+                   <liquid:sublight_plasma_jet> * 36,
+                   <liquid:quark_gluon_plasma> * 36,
+                   <liquid:adamantium_unstable> * 72,
+                   <liquid:vibranium_unstable> * 72,
+                   <liquid:hyperdimensional_residue> * 1500])
+    .EUt(20000000)
+    .duration(300)
+    .buildAndRegister();
+
+#  Dense Magnetically Constrained Stellar Plasma Fluid
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <ore:dustEtoilium>,
+             <ore:dustStellarDebris>,
+             <gregtech:meta_item_1:283>])
+    .fluidInputs([<liquid:primitive_stellar_plasma_fluid> * 512000,
+                  <liquid:hyperdimensional_residue> * 15000])
+    .fluidOutputs([<liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 1000])
+    .EUt(20000000)
+    .duration(300)
+    .buildAndRegister();

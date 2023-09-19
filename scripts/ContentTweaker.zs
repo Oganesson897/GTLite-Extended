@@ -791,6 +791,16 @@ var saturated_fullerene_sieving_matrix = VanillaFactory.createItem("saturated_fu
     saturated_fullerene_sieving_matrix.creativeTab = <creativetab:gregtech.main>;
     saturated_fullerene_sieving_matrix.register();
 
+var prealgae = VanillaFactory.createItem("prealgae");
+    prealgae.maxStackSize = 64;
+    prealgae.creativeTab = <creativetab:gregtech.main>;
+    prealgae.register();
+
+var tau_ceti_e_algae = VanillaFactory.createItem("tau_ceti_e_algae");
+    tau_ceti_e_algae.maxStackSize = 64;
+    tau_ceti_e_algae.creativeTab = <creativetab:gregtech.main>;
+    tau_ceti_e_algae.register();
+
 #  Wire Coils
 var machine_coil_adamantium = VanillaFactory.createBlock("machine_coil_adamantium", <blockmaterial:iron>);
     machine_coil_adamantium.register();

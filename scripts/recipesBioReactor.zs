@@ -33,3 +33,20 @@ bio_reactor.recipeBuilder()
     .EUt(500000)
     .duration(400)
     .buildAndRegister();
+
+bio_reactor.recipeBuilder()
+    .inputs([<contenttweaker:bio_precell>,
+             <contenttweaker:tau_ceti_e_algae>,
+             <contenttweaker:bio_cell> * 4])
+    .fluidInputs([<liquid:mutagen> * 16000,
+                  <liquid:bz_medium> * 8000,
+                  <liquid:flerovium> * 4000])
+    .chancedOutput(<contenttweaker:bio_cell> * 3, 1000, 500)
+    .chancedOutput(<contenttweaker:bio_cell>, 2000, 1000)
+    .chancedOutput(<contenttweaker:bio_precell>, 1000, 0)
+    .fluidOutputs([<liquid:tau_ceti_e_mutagen> * 4000,
+                   <liquid:xenon> * 1000,
+                   <liquid:bz_medium> * 1000])
+    .EUt(100000000)
+    .duration(1600)
+    .buildAndRegister();

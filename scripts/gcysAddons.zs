@@ -1529,3 +1529,33 @@ assembler.recipeBuilder()
     .EUt(8000)
     .duration(10)
     .buildAndRegister();
+
+#  Unknow liquid
+sifter.recipeBuilder()
+    .inputs([<contenttweaker:prealgae> * 16])
+    .chancedOutput(<contenttweaker:tau_ceti_e_algae> * 4, 500, 0)
+    .chancedOutput(<contenttweaker:tau_ceti_e_algae> * 2, 1000, 0)
+    .chancedOutput(<contenttweaker:tau_ceti_e_algae>, 2000, 0)
+    .chancedOutput(<gregtech:meta_item_1:440> * 34, 2000, 500)
+    .chancedOutput(<gregtech:meta_item_1:440> * 18, 4000, 1000)
+    .chancedOutput(<gregtech:meta_item_1:440> * 7, 6000, 2000)
+    .EUt(1506780)
+    .duration(360)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs([<ore:dustZylon>])
+    .fluidInputs([<liquid:tau_ceti_e_mutagen> * 144])
+    .outputs([<gregtech:meta_dust_small:32113>])
+    .fluidOutputs([<liquid:unknown_liquid> * 144])
+    .EUt(924080)
+    .duration(600)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder()
+    .inputs([<ore:dustTiberium>])
+    .fluidInputs([<liquid:unknown_liquid> * 144])
+    .outputs([<gregtech:meta_dust:32099>])
+    .EUt(33553355)
+    .duration(335)
+    .buildAndRegister();

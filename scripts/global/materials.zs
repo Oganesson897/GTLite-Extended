@@ -993,7 +993,7 @@ var radium_nitrate = MaterialBuilder(32084, "radium_nitrate")
 
 #  32085 Fr-Th-Ra-Pa Gas
 var fr_th_ra_pa_gas = MaterialBuilder(32085, "fr_th_ra_pa_gas")
-    .fluid()
+    .fluid("gas")
     .color(0x97C812)
     .build();
 
@@ -1025,7 +1025,7 @@ var protactinium = MaterialBuilder(32088, "protactinium")
 
 #  32089 Fr-Th-Ra Gas
 var fr_th_ra_gas = MaterialBuilder(32089, "fr_th_ra_gas")
-    .fluid()
+    .fluid("gas")
     .color(0x998EA6)
     .build();
 
@@ -1033,7 +1033,7 @@ var fr_th_ra_gas = MaterialBuilder(32089, "fr_th_ra_gas")
 
 #  32090 Pa Gas
 var pa_gas = MaterialBuilder(32090, "pa_gas")
-    .fluid()
+    .fluid("gas")
     .color(0x3F5061)
     .build();
 
@@ -1087,6 +1087,38 @@ var cyclopentadiene = MaterialBuilder(32096, "cyclopentadiene")
     .build();
 
 <material:cyclopentadiene>.setFormula("C5H6", true);
+
+#  32097 Hyperdimensional Residue
+var hyperdimensional_residue = MaterialBuilder(32097, "hyperdimensional_residue")
+    .fluid()
+    .fluidTemp(30000000)
+    .color(0x85052F)
+    .build();
+
+#  32098 Primitive Stellar Plasma Fluid
+var primitive_stellar_plasma_fluid = MaterialBuilder(32098, "primitive_stellar_plasma_fluid")
+    .fluid()
+    .fluidTemp(60000000)
+    .color(0xB22222)
+    .iconSet("dull")
+    .build();
+
+#  32099 Void
+var void_metal = MaterialBuilder(32099, "void")
+    .ingot()
+    .fluid()
+    .fluidTemp(28800000)
+    .blastTemp(18800)
+    .color(0x6E2F8D)
+    .iconSet("metallic")
+    .build();
+
+#  32100 Unknown Liquid
+var unknown_liquid = MaterialBuilder(32100, "unknown_liquid")
+    .fluid()
+    .color(0x8EF740)
+    .iconSet("dull")
+    .build();
 
 #  32101 Polyetheretherketone (PEEK) : C20H12O3
 var polyetheretherketone = MaterialBuilder(32101, "polyetheretherketone")
@@ -1404,3 +1436,10 @@ var n_hydroxysuccinimide = MaterialBuilder(32139, "n_hydroxysuccinimide")
     .build();
 
 <material:n_hydroxysuccinimide>.setFormula("(CH2CO)2NOH(C4H5NO3)", true);
+
+#  32140 Tau Ceti E Mutagen
+var tau_ceti_e_mutagen = MaterialBuilder(32140, "tau_ceti_e_mutagen")
+    .fluid()
+    .color(0x9C31F9)
+    .iconSet("metallic")
+    .build();
