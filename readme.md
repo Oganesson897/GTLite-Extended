@@ -19,7 +19,7 @@
 
 Want to know more? Go take a look inside the game!
 
-## To do list
+## Stage List
 &nbsp;&nbsp;&nbsp;&nbsp;To help you understand the specific content of this modpack, we have listed a brief list of what you need to do at each stage:
 
 - Stage 0 -  _Stone Age_: mining, smelting ores, making craft station, coke oven;
