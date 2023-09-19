@@ -754,7 +754,7 @@ makeShaped("uev_alloy_smelter", <gregtech:machine:89>,
         "Q": <ore:wireGtQuadrupleTritanium>
     });
 
-makeShaped("uev_cutter", <gregtech:machine:254>,
+makeShaped("uev_cutting_machine", <gregtech:machine:254>,
     [
         "QOG",
         "ACD",
@@ -767,7 +767,7 @@ makeShaped("uev_cutter", <gregtech:machine:254>,
         "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitUev>,
-        "Q": <ore:cableGtSinglePedotTma>,
+        "Q": <ore:cableGtSinglePedotTma>
     });
 
 makeShaped("uev_electrolyzer", <gregtech:machine:284>,
@@ -1080,7 +1080,7 @@ makeShaped("uiv_compressor", <gregtech:machine:240>,
         "A": <gregtech:meta_item_1:182>,
         "C": <gregtech:machine:996>,
         "O": <ore:circuitUiv>,
-        "Q": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:cableGtSingleSunnarium>
     });
 
 makeShaped("uiv_cutting_machine", <gregtech:machine:255>,
@@ -1096,7 +1096,7 @@ makeShaped("uiv_cutting_machine", <gregtech:machine:255>,
         "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitUiv>,
-        "Q": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:cableGtSingleSunnarium>
     });
 
 makeShaped("uiv_distillery", <gregtech:machine:270>,
@@ -1213,7 +1213,7 @@ makeShaped("uiv_fluid_solidifier", <gregtech:machine:405>,
         "E": <ore:chestWood>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitUiv>,
-        "Q": <ore:cableGtSingleSunnarium>,
+        "Q": <ore:cableGtSingleSunnarium>
     });
 
 makeShaped("uiv_forge_hammer", <gregtech:machine:420>,
@@ -1560,7 +1560,7 @@ makeShaped("uxv_brewery", <gregtech:machine:166>,
         "S": <ore:springSunnarium>
     });
 
-makeShaped("uxv_canning_machine", <gregtech:machine:180>,
+makeShaped("uxv_canning_machine", <gregtech:machine:181>,
     [
         "QAQ",
         "OCO",
@@ -1626,7 +1626,7 @@ makeShaped("uxv_compressor", <gregtech:machine:241>,
         "A": <gregtech:meta_item_1:183>,
         "C": <gregtech:machine:997>,
         "O": <ore:circuitUxv>,
-        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
     });
 
 makeShaped("uxv_cutting_machine", <gregtech:machine:256>,
@@ -1759,7 +1759,7 @@ makeShaped("uxv_fluid_solidifier", <gregtech:machine:406>,
         "E": <ore:chestWood>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitUxv>,
-        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
     });
 
 makeShaped("uxv_forge_hammer", <gregtech:machine:421>,
@@ -1942,6 +1942,21 @@ makeShaped("uxv_circuit_assembler", <gregtech:machine:646>,
         "C": <gregtech:machine:997>,
         "D": <gregtech:meta_item_1:168>,
         "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleCrystalMatrix>
+    });
+
+makeShaped("uxv_rock_breaker", <gregtech:machine:676>,
+    [
+        "ABD",
+        "QCQ",
+        "GGG"
+    ],
+    {
+        "A": <gregtech:meta_item_1:183>,
+        "B": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "D": <gcys:meta_item_1:480>,
+        "G": <gcys:transparent_casing>,
         "Q": <ore:cableGtSingleCrystalMatrix>
     });
 
@@ -2166,7 +2181,7 @@ assembler.recipeBuilder()
              <ore:wireFineHikarium> * 16])
     .circuit(1)
     .outputs([<gcys:meta_item_1:353>])
-    .EUt(134217728)
+    .EUt(33554432)
     .duration(200)
     .buildAndRegister();
 
@@ -2179,7 +2194,7 @@ assembly_line.recipeBuilder()
     .fluidInputs([<liquid:sodium_potassium> * 48000,
                   <liquid:soldering_alloy> * 5760])
     .outputs([<gregtech:machine:1222>])
-    .EUt(134217728)
+    .EUt(33554432)
     .duration(1200)
     .buildAndRegister();
 
@@ -2759,3 +2774,559 @@ makeShaped("opv_electric_furnace", <gregtech:machine:62>,
         "P": <ore:cableGtSingleSuperheavyElementMixture>,
         "Q": <ore:wireGtDoubleLunarium>
     });
+
+makeShaped("opv_macerator", <gregtech:machine:77>,
+    [
+        "ABD",
+        "QQC",
+        "OOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "B": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "D": <gcys:meta_item_1:480>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_alloy_smelter", <gregtech:machine:92>,
+    [
+        "OQO",
+        "QCQ",
+        "PQP"
+    ],
+    {
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Q": <ore:wireGtQuadrupleLunarium>
+    });
+    
+makeShaped("opv_arc_furnace", <gregtech:machine:107>,
+    [
+        "QDQ",
+        "OCO",
+        "PPP"
+    ],
+    {
+        "C": <gregtech:machine:998>,
+        "D": <ore:dustGraphite>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:plateInfinity>,
+        "Q": <ore:cableGtQuadrupleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_assembler", <gregtech:machine:122>,
+    [
+        "AOA",
+        "BCB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:199>,
+        "B": <gregtech:meta_item_1:169>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+    });
+    
+makeShaped("opv_autoclave", <gregtech:machine:137>,
+    [
+        "PGP",
+        "PCP",
+        "OAO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:plateInfinity>
+    });
+
+makeShaped("opv_bending_machine", <gregtech:machine:152>,
+    [
+        "AQA",
+        "OCO",
+        "BPB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "B": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:plateInfinity>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_brewery", <gregtech:machine:167>,
+    [
+        "GAG",
+        "QCQ",
+        "OSO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "S": <ore:springCrystalMatrix>
+    });
+
+makeShaped("opv_canning_machine", <gregtech:machine:182>,
+    [
+        "QAQ",
+        "OCO",
+        "GGG"
+    ],
+    {
+        "A": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_centrifuge", <gregtech:machine:197>,
+    [
+        "OAO",
+        "QCQ",
+        "OAO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_chemical_bath", <gregtech:machine:212>,
+    [
+        "AGQ",
+        "BGA",
+        "OCO"
+    ],{
+        "A": <gregtech:meta_item_1:169>,
+        "B": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_chemical_reactor", <gregtech:machine:227>,
+    [
+        "XRX",
+        "QAQ",
+        "OCO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "R": <ore:rotorInfinity>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "X": <ore:pipeHugeFluidPolybenzimidazole>
+    });
+
+makeShaped("opv_compressor", <gregtech:machine:242>,
+    [
+        " O",
+        "ACA",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_cutting_machine", <gregtech:machine:257>,
+    [
+        "QOG",
+        "ACD",
+        "OQB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:169>,
+        "B": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_distillery", <gregtech:machine:272>,
+    [
+        "GSG",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "S": <ore:springCrystalMatrix>
+    });
+    
+makeShaped("opv_electrolyzer", <gregtech:machine:287>,
+    [
+        "QGQ",
+        "QCQ",
+        "OPO"
+    ],
+    {
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Q": <ore:wireGtSingleHikarium>
+    });
+
+makeShaped("opv_electromagnetic_separator", <gregtech:machine:302>,
+    [
+        "APQ",
+        "PCR",
+        "OPQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:169>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Q": <ore:wireGtOctalHypogen>,
+        "R": <ore:stickLongVanadiumGallium>
+    });
+
+makeShaped("opv_extractor", <gregtech:machine:317>,
+    [
+        "GOG",
+        "ACB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "B": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_extruder", <gregtech:machine:332>,
+    [
+        "QQO",
+        "ACL",
+        "QQO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "C": <gregtech:machine:998>,
+        "L": <ore:pipeLargeFluidDuranium>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:wireGtQuadrupleHikarium>
+    });
+
+makeShaped("opv_fermenter", <gregtech:machine:347>,
+    [
+        "QAQ",
+        "GCG",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_fluid_heater", <gregtech:machine:392>,
+    [
+        "QGQ",
+        "ACA",
+        "POP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Q": <ore:wireGtQuadrupleHikarium>
+    });
+
+makeShaped("opv_fluid_solidifier", <gregtech:machine:407>,
+    [
+        "AGA",
+        "QCQ",
+        "OEO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:154>,
+        "C": <gregtech:machine:998>,
+        "E": <ore:chestWood>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+    
+makeShaped("opv_forge_hammer", <gregtech:machine:422>,
+    [
+        "QWQ",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <minecraft:anvil>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "W": <gregtech:meta_item_1:184>
+    });
+
+makeShaped("opv_forming_press", <gregtech:machine:437>,
+    [
+        "QAQ",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_lathe", <gregtech:machine:452>,
+    [
+        "QOQ",
+        "ACS",
+        "OQB"
+    ],
+    {
+        "A": <gregtech:meta_item_1:139>,
+        "B": <gregtech:meta_item_1:184>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "S": <gcys:meta_item_1:480>
+    });
+
+makeShaped("opv_scanner", <gregtech:machine:467>,
+    [
+        "OAO",
+        "QCQ",
+        "OBO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:229>,
+        "B": <gregtech:meta_item_1:244>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_mixer", <gregtech:machine:482>,
+    [
+        "GRG",
+        "GAG",
+        "OCO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "R": <ore:rotorInfinity>
+    });
+
+makeShaped("opv_ore_washing_plant", <gregtech:machine:497>,
+    [
+        "RGR",
+        "OAO",
+        "QCQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "R": <ore:rotorInfinity>
+    });
+
+makeShaped("opv_packager", <gregtech:machine:512>,
+    [
+        "WOW",
+        "ACB",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:199>,
+        "B": <gregtech:meta_item_1:169>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "W": <ore:chestWood>
+    });
+
+makeShaped("opv_polarizer", <gregtech:machine:557>,
+    [
+        "QRQ",
+        "PCP",
+        "QRQ"
+    ],
+    {
+        "C": <gregtech:machine:998>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Q": <ore:wireGtOctalHypogen>,
+        "R": <ore:stickLongVanadiumGallium>
+    });
+
+makeShaped("opv_precision_laser_engraver", <gregtech:machine:572>,
+    [
+        "ABA",
+        "OCO",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "B": <gregtech:meta_item_1:229>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_sifting_machine", <gregtech:machine:587>,
+    [
+        "QYQ",
+        "ACA",
+        "OYO"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Y": <gregtech:meta_item_1:291>
+    });
+
+makeShaped("opv_thermal_centrifuge", <gregtech:machine:617>,
+    [
+        "OAO",
+        "QCQ",
+        "PAP"
+    ],
+    {
+        "A": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "Q": <ore:wireGtQuadrupleHikarium>
+    });
+
+makeShaped("opv_wiremill", <gregtech:machine:632>,
+    [
+        "AQA",
+        "OCO",
+        "AQA"
+    ],
+    {
+        "A": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_circuit_assembler", <gregtech:machine:647>,
+    [
+        "AOB",
+        "DCD",
+        "QOQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:199>,
+        "B": <gregtech:meta_item_1:229>,
+        "C": <gregtech:machine:998>,
+        "D": <gregtech:meta_item_1:169>,
+        "O": <ore:circuitMax>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+makeShaped("opv_rock_breaker", <gregtech:machine:677>,
+    [
+        "ABD",
+        "QCQ",
+        "GGG"
+    ],
+    {
+        "A": <gregtech:meta_item_1:184>,
+        "B": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "D": <gcys:meta_item_1:480>,
+        "G": <gcys:transparent_casing>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+#  OpV Energy Hatch
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:998>,
+             <ore:cableGtSingleSuperheavyElementMixture> * 4,
+             <gcys:meta_item_1:370> * 8,
+             <ore:circuitOpv>,
+             <gcys:meta_item_1:354> * 2])
+    .fluidInputs([<liquid:sodium_potassium> * 60000,
+                  <liquid:soldering_alloy> * 5760])
+    .outputs([<gregtech:machine:1223>])
+    .EUt(134217728)
+    .duration(1200)
+    .buildAndRegister();
+
+#  UIV Dynamo Hatch
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:996>,
+             <ore:springSunnarium> * 4,
+             <gcys:meta_item_1:370> * 2,
+             <ore:circuitUiv>,
+             <gcys:meta_item_1:352> * 2])
+    .fluidInputs([<liquid:sodium_potassium> * 36000,
+                  <liquid:soldering_alloy> * 5760])
+    .outputs([<gregtech:machine:1236>])
+    .EUt(8388608)
+    .duration(1000)
+    .buildAndRegister();
+
+#  UXV Dynamo Hatch
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:997>,
+             <ore:springCrystalMatrix> * 4,
+             <gcys:meta_item_1:370> * 4,
+             <ore:circuitUxv>,
+             <gcys:meta_item_1:353> * 2])
+    .fluidInputs([<liquid:sodium_potassium> * 48000,
+                  <liquid:soldering_alloy> * 5760])
+    .outputs([<gregtech:machine:1237>])
+    .EUt(33554432)
+    .duration(1200)
+    .buildAndRegister();
+
+#  OpV Dynamo Hatch
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:machine:998>,
+             <ore:springSuperheavyElementMixture> * 4,
+             <gcys:meta_item_1:370> * 8,
+             <ore:circuitOpv>,
+             <gcys:meta_item_1:354> * 2])
+    .fluidInputs([<liquid:sodium_potassium> * 60000,
+                  <liquid:soldering_alloy> * 5760])
+    .outputs([<gregtech:machine:1238>])
+    .EUt(134217728)
+    .duration(1200)
+    .buildAndRegister();
