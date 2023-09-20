@@ -211,3 +211,41 @@ stellar_furnace.recipeBuilder()
     .EUt(20000000)
     .duration(300)
     .buildAndRegister();
+
+#  Extremely Durable Plasma Cell
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:time_dilation_containment_unit>])
+    .fluidInputs([<liquid:unknown_liquid> * 288])
+    .outputs([<contenttweaker:extremely_durable_plasma_cell>])
+    .EUt(100000000)
+    .duration(250)
+    .buildAndRegister();
+
+#  Dense Neutronium Sphere
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:neutronium_sphere>])
+    .fluidInputs([<liquid:unknown_liquid> * 144])
+    .outputs([<contenttweaker:dense_neutronium_sphere>])
+    .EUt(100000000)
+    .duration(250)
+    .buildAndRegister();
+
+#  Crude Hyperdimensional Cube
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:four_dimensional_cube>])
+    .fluidInputs([<liquid:neutron_plasma> * 5760])
+    .outputs([<contenttweaker:hyperdimensional_precube>])
+    .EUt(100000000)
+    .duration(100)
+    .buildAndRegister();
+
+#  Hyperdimensional Cube
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:hyperdimensional_precube>])
+    .outputs([<contenttweaker:hyperdimensional_cube>])
+    .EUt(100000000)
+    .duration(300)
+    .buildAndRegister();

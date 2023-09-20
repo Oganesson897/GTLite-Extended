@@ -48,27 +48,6 @@ import mods.gregtech.recipe.RecipeMap;
 ##  Suprachronal assembly line
 <gregtech:machine:32010>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
 <gregtech:machine:32010>.addTooltip("使用§b超维度时空振荡物质§7生产特殊的超时空电路，最多使用一种催化剂。");
-<gregtech:machine:32010>.addTooltip("使用§e氦等离子体§7使得配方时间减少1/10。");
-<gregtech:machine:32010>.addTooltip("使用§a氩等离子体§7使得配方时间减少1/8。");
-<gregtech:machine:32010>.addTooltip("使用§a氮等离子体§7使得配方时间减少1/8。");
-<gregtech:machine:32010>.addTooltip("使用§a氧等离子体§7使得配方时间减少1/8。");
-<gregtech:machine:32010>.addTooltip("使用§c铁等离子体§7使得配方时间减少1/4。");
-<gregtech:machine:32010>.addTooltip("使用§c镍等离子体§7使得配方时间减少1/4。");
-<gregtech:machine:32010>.addTooltip("使用§d精金等离子体§7使得配方时间减少1/2。");
-<gregtech:machine:32010>.addTooltip("使用§d振金等离子体§7使得配方时间减少1/2。");
-<gregtech:machine:32010>.addTooltip("使用§b铕§7使得配方产出×2");
-<gregtech:machine:32010>.addTooltip("使用§b镥§7使得配方产出×2");
-<gregtech:machine:32010>.addTooltip("使用§b铿铀§7使得配方产出×2");
-<gregtech:machine:32010>.addTooltip("使用§2镅§7使得配方产出×4");
-<gregtech:machine:32010>.addTooltip("使用§2三钛合金§7使得配方产出×4");
-<gregtech:machine:32010>.addTooltip("使用§2钅达§7使得配方产出×4");
-<gregtech:machine:32010>.addTooltip("使用§4超能硅岩§7使得配方产出×8");
-<gregtech:machine:32010>.addTooltip("使用§4山铜§7使得配方产出×8");
-<gregtech:machine:32010>.addTooltip("使用§d秘银§7使得配方产出×16");
-<gregtech:machine:32010>.addTooltip("使用§d日光金属§7使得配方产出×16");
-<gregtech:machine:32010>.addTooltip("使用§d极光金属§7使得配方产出×16");
-<gregtech:machine:32010>.addTooltip("使用§9水晶矩阵§7使得配方产出×32");
-<gregtech:machine:32010>.addTooltip("使用§3无尽§7使得配方产出×64");
 
 ##  Industrial Chemical Reactor
 <gregtech:machine:32011>.addTooltip("更大的化学反应釜！");

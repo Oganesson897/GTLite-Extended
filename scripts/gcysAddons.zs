@@ -1579,3 +1579,13 @@ forming_press.recipeBuilder()
     .EUt(100000000)
     .duration(600)
     .buildAndRegister();
+
+#  Cosmic Neutronium
+fluid_solidifier.recipeBuilder()
+    .notConsumable([<gregtech:meta_item_1:17>])
+    .fluidInputs([<liquid:neutronium> * 144])
+    .outputs([<contenttweaker:neutronium_sphere>])
+    .EUt(500000000)
+    .duration(120)
+    .buildAndRegister();
+

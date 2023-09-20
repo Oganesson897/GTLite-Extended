@@ -182,6 +182,31 @@ var contained_schwarzschild_singularity = VanillaFactory.createItem("contained_s
     contained_schwarzschild_singularity.creativeTab = <creativetab:gregtech.main>;
     contained_schwarzschild_singularity.register();
 
+var cosmic_polymer_matrix_unit = VanillaFactory.createItem("cosmic_polymer_matrix_unit");
+    cosmic_polymer_matrix_unit.maxStackSize = 64;
+    cosmic_polymer_matrix_unit.creativeTab = <creativetab:gregtech.main>;
+    cosmic_polymer_matrix_unit.register();
+
+var extremely_durable_plasma_cell = VanillaFactory.createItem("extremely_durable_plasma_cell");
+    extremely_durable_plasma_cell.maxStackSize = 64;
+    extremely_durable_plasma_cell.creativeTab = <creativetab:gregtech.main>;
+    extremely_durable_plasma_cell.register();
+
+var dense_neutron_plasma_cell = VanillaFactory.createItem("dense_neutron_plasma_cell");
+    dense_neutron_plasma_cell.maxStackSize = 64;
+    dense_neutron_plasma_cell.creativeTab = <creativetab:gregtech.main>;
+    dense_neutron_plasma_cell.register();
+
+var cosmic_neutron_plasma_cell = VanillaFactory.createItem("cosmic_neutron_plasma_cell");
+    cosmic_neutron_plasma_cell.maxStackSize = 64;
+    cosmic_neutron_plasma_cell.creativeTab = <creativetab:gregtech.main>;
+    cosmic_neutron_plasma_cell.register();
+
+var contained_exotic_matter = VanillaFactory.createItem("contained_exotic_matter");
+    contained_exotic_matter.maxStackSize = 64;
+    contained_exotic_matter.creativeTab = <creativetab:gregtech.main>;
+    contained_exotic_matter.register();
+
 var relativistic_spinorial_memory_system = VanillaFactory.createItem("relativistic_spinorial_memory_system");
     relativistic_spinorial_memory_system.maxStackSize = 64;
     relativistic_spinorial_memory_system.creativeTab = <creativetab:gregtech.main>;
@@ -828,10 +853,35 @@ var tau_ceti_e_algae = VanillaFactory.createItem("tau_ceti_e_algae");
     tau_ceti_e_algae.creativeTab = <creativetab:gregtech.main>;
     tau_ceti_e_algae.register();
 
-var cosmic_polymer_matrix_unit = VanillaFactory.createItem("cosmic_polymer_matrix_unit");
-    cosmic_polymer_matrix_unit.maxStackSize = 64;
-    cosmic_polymer_matrix_unit.creativeTab = <creativetab:gregtech.main>;
-    cosmic_polymer_matrix_unit.register();
+var neutronium_sphere = VanillaFactory.createItem("neutronium_sphere");
+    neutronium_sphere.maxStackSize = 64;
+    neutronium_sphere.creativeTab = <creativetab:gregtech.main>;
+    neutronium_sphere.register();
+
+var dense_neutronium_sphere = VanillaFactory.createItem("dense_neutronium_sphere");
+    dense_neutronium_sphere.maxStackSize = 64;
+    dense_neutronium_sphere.creativeTab = <creativetab:gregtech.main>;
+    dense_neutronium_sphere.register();
+
+var four_dimensional_cube = VanillaFactory.createItem("four_dimensional_cube");
+    four_dimensional_cube.maxStackSize = 64;
+    four_dimensional_cube.creativeTab = <creativetab:gregtech.main>;
+    four_dimensional_cube.register();
+
+var hyperdimensional_precube = VanillaFactory.createItem("hyperdimensional_precube");
+    hyperdimensional_precube.maxStackSize = 64;
+    hyperdimensional_precube.creativeTab = <creativetab:gregtech.main>;
+    hyperdimensional_precube.register();
+
+var hyperdimensional_cube = VanillaFactory.createItem("hyperdimensional_cube");
+    hyperdimensional_cube.maxStackSize = 64;
+    hyperdimensional_cube.creativeTab = <creativetab:gregtech.main>;
+    hyperdimensional_cube.register();
+
+var eigenfolded_space_time_manifold = VanillaFactory.createItem("eigenfolded_space_time_manifold");
+    eigenfolded_space_time_manifold.maxStackSize = 64;
+    eigenfolded_space_time_manifold.creativeTab = <creativetab:gregtech.main>;
+    eigenfolded_space_time_manifold.register();
 
 #  Wire Coils
 var machine_coil_adamantium = VanillaFactory.createBlock("machine_coil_adamantium", <blockmaterial:iron>);

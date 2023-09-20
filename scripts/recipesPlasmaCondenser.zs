@@ -69,3 +69,13 @@ plasma_condenser.recipeBuilder()
     .EUt(10000000)
     .duration(300)
     .buildAndRegister();
+
+plasma_condenser.recipeBuilder()
+    .inputs([<contenttweaker:cosmic_neutron_plasma_cell>])
+    .fluidInputs([<liquid:liquid_helium> * 32000])
+    .outputs([<contenttweaker:extremely_durable_plasma_cell>])
+    .fluidOutputs([<liquid:cosmic_neutronium> * 1000,
+                   <liquid:helium> * 32000])
+    .EUt(10000000)
+    .duration(300)
+    .buildAndRegister();

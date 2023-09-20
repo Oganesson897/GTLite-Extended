@@ -43,6 +43,11 @@ item.contenttweaker.contained_kerr_newmann_singularity.name=克尔-纽曼黑洞�
 item.contenttweaker.contained_reissner_nordstrom_singularity.name=莱斯纳-诺斯特朗黑洞奇点遏制装置
 item.contenttweaker.contained_kerr_singularity.name=克尔黑洞奇点遏制装置
 item.contenttweaker.contained_schwarzschild_singularity.name=史瓦西黑洞奇点遏制装置
+item.contenttweaker.cosmic_polymer_matrix_unit.name=寰宇织网等离子体遏制装置
+item.contenttweaker.extremely_durable_plasma_cell.name=超高耐久等离子体遏制装置
+item.contenttweaker.dense_neutron_plasma_cell.name=致密中子等离子体遏制装置
+item.contenttweaker.cosmic_neutron_plasma_cell.name=寰宇中子等离子体遏制装置
+item.contenttweaker.contained_exotic_matter.name=奇异物质遏制装置
 item.contenttweaker.relativistic_spinorial_memory_system.name=相对论旋量存储器
 item.contenttweaker.topological_manipulator_unit.name=超空间拓扑操纵器
 item.contenttweaker.graviton_transducer.name=引力子换能器
@@ -192,7 +197,12 @@ item.contenttweaker.protonated_fullerene_sieving_matrix.name=质子化富勒烯�
 item.contenttweaker.saturated_fullerene_sieving_matrix.name=饱和富勒烯筛分基质
 item.contenttweaker.prealgae.name=未知外星藻类
 item.contenttweaker.tau_ceti_e_algae.name=鲸鱼座T星E藻类
-item.contenttweaker.cosmic_polymer_matrix_unit.name=寰宇织网等离子体遏制装置
+item.contenttweaker.neutronium_sphere.name=中子素球体
+item.contenttweaker.dense_neutronium_sphere.name=致密中子素球体
+item.contenttweaker.four_dimensional_cube.name=四维超立方体
+item.contenttweaker.hyperdimensional_precube.name=超维度立方体粗胚
+item.contenttweaker.hyperdimensional_cube.name=超维度立方体
+item.contenttweaker.eigenfolded_space_time_manifold.name=本征折叠时空流形
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=精金线圈方块

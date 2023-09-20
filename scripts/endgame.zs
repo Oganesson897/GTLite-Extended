@@ -60,7 +60,6 @@ recipes.remove(<extendedcrafting:table_elite>);
 recipes.remove(<extendedcrafting:table_ultimate>);
 recipes.remove(<avaritiaddons:infinity_compressor>);
 
-
 makeShaped("basic_crafting_table_1", <extendedcrafting:table_basic>,
     [
         "TTT",

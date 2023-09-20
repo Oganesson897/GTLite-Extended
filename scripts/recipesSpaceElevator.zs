@@ -688,13 +688,26 @@ space_elevator.recipeBuilder()
     .duration(600)
     .buildAndRegister();
 
+space_elevator.recipeBuilder()
+    .notConsumable([<contenttweaker:mining_drone_opv>,
+                    <gregtech:meta_item_1:184>])
+    .inputs([<contenttweaker:time_dilation_containment_unit>])
+    .circuit(1)
+    .fluidInputs([<liquid:rocket_fuel> * 1000,
+                  <liquid:hyperdimensional_residue> * 500])
+    .outputs([<contenttweaker:contained_exotic_matter>])
+    .EUt(28337500)
+    .duration(600)
+    .buildAndRegister();
+
 #  MAX : 28337500 EU/t : 600 tick
 space_elevator.recipeBuilder()
     .notConsumable([<contenttweaker:mining_drone_max>,
                     <contenttweaker:piston_max>])
+    .inputs([<contenttweaker:hyperdimensional_cube>])
     .circuit(0)
     .fluidInputs([<liquid:rocket_fuel> * 1000,
-                  <liquid:cosmic_computing_mixture> * 500])
+                  <liquid:hyperdimensional_residue> * 500])
     .outputs([<contenttweaker:hyperdimensional_oscillating_matter>])
     .EUt(28337500)
     .duration(600)

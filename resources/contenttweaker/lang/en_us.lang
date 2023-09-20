@@ -175,6 +175,15 @@ item.contenttweaker.saturated_fullerene_sieving_matrix.name=Saturated Fullerene 
 item.contenttweaker.prealgae.name=Unknown Extraterrestrial Algae
 item.contenttweaker.tau_ceti_e_algae.name=Tau Ceti E Algae
 item.contenttweaker.cosmic_polymer_matrix_unit.name=Cosmic Polymer Matrix Containment Unit
+item.contenttweaker.extremely_durable_plasma_cell.name=Extremely Durable Plasma Containment Unit
+item.contenttweaker.dense_neutron_plasma_cell.name=Dense Neutron Plasma Containment Unit
+item.contenttweaker.cosmic_neutron_plasma_cell.name=Cosmic Neutron Plasma Containment Unit
+item.contenttweaker.neutronium_sphere.name=Neutronium Sphere
+item.contenttweaker.dense_neutronium_sphere.name=Dense Neutronium Sphere
+item.contenttweaker.four_dimensional_cube.name=Four Dimensional Cube
+item.contenttweaker.hyperdimensional_precube.name=Crude Hyperdimensional Cube
+item.contenttweaker.hyperdimensional_cube.name=Hyperdimensional Cube
+item.contenttweaker.eigenfolded_space_time_manifold.name=Eigenfolded Space Time Manifold
 
 #  Wire coils
 tile.contenttweaker.machine_coil_adamantium.name=Adamantium Coil Block

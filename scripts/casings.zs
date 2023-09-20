@@ -76,7 +76,7 @@ makeShaped("particle_collider_casing", <contenttweaker:particle_collider_casing>
     {
         "F": <ore:frameGtMithril>,
         "H": <ore:craftingToolHardHammer>,
-        "P": <ore:plateCrystalMatrix>,
+        "P": <ore:plateMeitnerium>,
         "W": <ore:craftingToolWrench>
     });
 
@@ -192,7 +192,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 
 assembler.recipeBuilder()
-    .inputs([<ore:plateCrystalMatrix> * 6,
+    .inputs([<ore:plateMeitnerium> * 6,
              <ore:frameGtMithril>])
     .circuit(6)
     .outputs([<contenttweaker:particle_collider_casing> * 2])      
@@ -532,4 +532,16 @@ assembly_line.recipeBuilder()
     .outputs([<contenttweaker:divertor_mk_iii> * 2])
     .EUt(7864320)
     .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:plateCubicBoronNitride>,
+             <contenttweaker:vacuum_mk_iii>,
+             <contenttweaker:cryostat_mk_iii>,
+             <contenttweaker:divertor_mk_iii>,
+             <ore:cableGtDoubleHypogen> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:qcd_lattice_design> * 2])
+    .EUt(100000000)
+    .duration(200)
     .buildAndRegister();
