@@ -128,6 +128,15 @@ tile.contenttweaker.phantasium_casing.name=Phantasium Machine Casing
 tile.contenttweaker.cladded_reactor_casing.name=Shielded Reactor Casing
 tile.contenttweaker.reactor_core_casing.name=Thorium Reactor Core
 tile.contenttweaker.hassium_casing.name=Hassium Biologically Sterile Casing
+tile.contenttweaker.cryostat_mk_i.name=Advanced Fusion Reactor Cryostat MK I
+tile.contenttweaker.cryostat_mk_ii.name=Advanced Fusion Reactor Cryostat MK II
+tile.contenttweaker.cryostat_mk_iii.name=Advanced Fusion Reactor Cryostat MK III
+tile.contenttweaker.divertor_mk_i.name=Advanced Fusion Reactor Divertor MK I
+tile.contenttweaker.divertor_mk_ii.name=Advanced Fusion Reactor Divertor MK II
+tile.contenttweaker.divertor_mk_iii.name=Advanced Fusion Reactor Divertor MK III
+tile.contenttweaker.vacuum_mk_i.name=Advanced Fusion Reactor Vacuum MK I
+tile.contenttweaker.vacuum_mk_ii.name=Advanced Fusion Reactor Vacuum MK II
+tile.contenttweaker.vacuum_mk_iii.name=Advanced Fusion Reactor Vacuum MK III
 
 #  Others
 tile.contenttweaker.qcd_charge.name=Quantum Chromodynamics Charge

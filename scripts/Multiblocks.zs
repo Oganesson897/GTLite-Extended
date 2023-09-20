@@ -3213,91 +3213,135 @@ var fusion_reactor_mk_iv = Builder.start("fusion_reactor_mk_iv")
         return FactoryBlockPattern.start()
             .aisle(
                 "               ",
-                "      OGO      ",
+                "               ",
+                "     ccCcc     ",
+                "     ccCcc     ",
+                "               ",
                 "               ")
-            .aisle(
-                "      ICI      ",
-                "    GGAAAGG    ",
-                "      ICI      ")
-            .aisle(
-                "    CC   CC    ",
-                "   EAAOGOAAE   ",
-                "    CC   CC    ")
-            .aisle(
-                "   C       C   ",
-                "  EKEG   GEKE  ",
-                "   C       C   ")
-            .aisle(
-                "  C         C  ",
-                " GAE       EAG ",
-                "  C         C  ")
-            .aisle(
-                "  C         C  ",
-                " GAG       GAG ",
-                "  C         C  ")
-            .aisle(
-                " I           I ",
-                "OAO         OAO",
-                " I           I ")
-            .aisle(
-                " C           C ",
-                "GAG         GAG",
-                " C           C ")
-            .aisle(
-                " I           I ",
-                "OAO         OAO",
-                " I           I ")
-            .aisle(
-                "  C         C  ",
-                " GAG       GAG ",
-                "  C         C  ")
-            .aisle(
-                "  C         C  ",
-                " GAE       EAG ",
-                "  C         C  ")
-            .aisle(
-                "   C       C   ",
-                "  EKEG   GEKE  ",
-                "   C       C   ")
-            .aisle(
-                "    CC   CC    ",
-                "   EAAOGOAAE   ",
-                "    CC   CC    ")
-            .aisle(
-                "      ICI      ",
-                "    GGAAAGG    ",
-                "      ICI      ")
             .aisle(
                 "               ",
-                "      OSO      ",
+                "       C       ",
+                "   icvvvvvci   ",
+                "   icvvvvvci   ",
+                "       C       ",
+                "               ")
+            .aisle(
+                "       C       ",
+                "  C  ddddd  C  ",
+                "  Cvv     vvC  ",
+                "  Cvv     vvC  ",
+                "  C  bbbbb  C  ",
+                "       C       ")
+            .aisle(
+                "   C   C   C   ",
+                "   ddddddddd   ",
+                " Iv         vI ",
+                " Iv         vI ",
+                "   bbbbbbbbb   ",
+                "   C   C   C   ")
+            .aisle(
+                "    C     C    ",
+                "   ddd C ddd   ",
+                " cv   vvv   vc ",
+                " cv   vvv   vc ",
+                "   bbb C bbb   ",
+                "    C     C    ")
+            .aisle(
+                "               ",
+                "  dddC   Cddd  ",
+                "cv   v C v   vc",
+                "cv   v C v   vc",
+                "  bbbC   Cbbb  ",
+                "               ")
+            .aisle(
+                "               ",
+                "  dd  CCC  dd  ",
+                "Ev  v CXC v  vE",
+                "Ev  v CXC v  vE",
+                "  bb  CCC  bb  ",
+                "               ")
+            .aisle(
+                "  CC       CC  ",
+                " CddC CCC CddC ",
+                "Cv  vCXXXCv  vC",
+                "Cv  vCXXXCv  vC",
+                " CbbC CCC CbbC ",
+                "  CC       CC  ")
+            .aisle(
+                "               ",
+                "  dd  CCC  dd  ",
+                "Ev  v CXC v  vE",
+                "Ev  v CXC v  vE",
+                "  bb  CCC  bb  ",
+                "               ")
+            .aisle(
+                "               ",
+                "  dddC   Cddd  ",
+                "cv   v C v   vc",
+                "cv   v C v   vc",
+                "  bbbC   Cbbb  ",
+                "               ")
+            .aisle(
+                "    C     C    ",
+                "   ddd C ddd   ",
+                " cv   vvv   vc ",
+                " cv   vvv   vc ",
+                "   bbb C bbb   ",
+                "    C     C    ")
+            .aisle(
+                "   C   C   C   ",
+                "   ddddddddd   ",
+                " Iv         vI ",
+                " Iv         vI ",
+                "   bbbbbbbbb   ",
+                "   C   C   C   ")
+            .aisle(
+                "       C       ",
+                "  C  ddddd  C  ",
+                "  Cvv     vvC  ",
+                "  Cvv     vvC  ",
+                "  C  bbbbb  C  ",
+                "       C       ")
+            .aisle(
+                "               ",
+                "       C       ",
+                "   icvvvvvci   ",
+                "   icvvvvvci   ",
+                "       S       ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "     ccCcc     ",
+                "     ccCcc     ",
+                "               ",
                 "               ")
             .where("S", controller.self())
-            .where("G", <metastate:gregtech:transparent_casing:1>)
-            .where("C", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-            .where("K", <blockstate:contenttweaker:fusion_coil_block_mk_i>)
-            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
-                                .setMaxGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
-            .where("O", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
-                                .setMinGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
+            .where("C", <blockstate:contenttweaker:cryostat_mk_i>)
+            .where("X", <blockstate:contenttweaker:fusion_coil_block_mk_i>)
+            .where("d", <blockstate:contenttweaker:divertor_mk_i>)
+            .where("v", <blockstate:contenttweaker:vacuum_mk_i>)
+            .where("c", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
             .where("E", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(4)
+                                   .setPreviewCount(2))
+            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))
+            .where("i", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))   
+            .where("b", CTPredicate.states(<blockstate:contenttweaker:divertor_mk_i>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
                                 .setMinGlobalLimited(1)
                                 .setMaxGlobalLimited(1)
-                                .setPreviewCount(1)
-                    | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
-                                .setMinGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
-            .where("A", CTPredicate.getAir())
+                                .setPreviewCount(1))
             .where(" ", CTPredicate.getAny())
             .build();
         } as IPatternBuilderFunction)
@@ -3334,91 +3378,135 @@ var fusion_reactor_mk_v = Builder.start("fusion_reactor_mk_v")
         return FactoryBlockPattern.start()
             .aisle(
                 "               ",
-                "      OGO      ",
+                "               ",
+                "     ccCcc     ",
+                "     ccCcc     ",
+                "               ",
                 "               ")
-            .aisle(
-                "      ICI      ",
-                "    GGAAAGG    ",
-                "      ICI      ")
-            .aisle(
-                "    CC   CC    ",
-                "   EAAOGOAAE   ",
-                "    CC   CC    ")
-            .aisle(
-                "   C       C   ",
-                "  EKEG   GEKE  ",
-                "   C       C   ")
-            .aisle(
-                "  C         C  ",
-                " GAE       EAG ",
-                "  C         C  ")
-            .aisle(
-                "  C         C  ",
-                " GAG       GAG ",
-                "  C         C  ")
-            .aisle(
-                " I           I ",
-                "OAO         OAO",
-                " I           I ")
-            .aisle(
-                " C           C ",
-                "GAG         GAG",
-                " C           C ")
-            .aisle(
-                " I           I ",
-                "OAO         OAO",
-                " I           I ")
-            .aisle(
-                "  C         C  ",
-                " GAG       GAG ",
-                "  C         C  ")
-            .aisle(
-                "  C         C  ",
-                " GAE       EAG ",
-                "  C         C  ")
-            .aisle(
-                "   C       C   ",
-                "  EKEG   GEKE  ",
-                "   C       C   ")
-            .aisle(
-                "    CC   CC    ",
-                "   EAAOGOAAE   ",
-                "    CC   CC    ")
-            .aisle(
-                "      ICI      ",
-                "    GGAAAGG    ",
-                "      ICI      ")
             .aisle(
                 "               ",
-                "      OSO      ",
+                "       C       ",
+                "   icvvvvvci   ",
+                "   icvvvvvci   ",
+                "       C       ",
+                "               ")
+            .aisle(
+                "       C       ",
+                "  C  ddddd  C  ",
+                "  Cvv     vvC  ",
+                "  Cvv     vvC  ",
+                "  C  bbbbb  C  ",
+                "       C       ")
+            .aisle(
+                "   C   C   C   ",
+                "   ddddddddd   ",
+                " Iv         vI ",
+                " Iv         vI ",
+                "   bbbbbbbbb   ",
+                "   C   C   C   ")
+            .aisle(
+                "    C     C    ",
+                "   ddd C ddd   ",
+                " cv   vvv   vc ",
+                " cv   vvv   vc ",
+                "   bbb C bbb   ",
+                "    C     C    ")
+            .aisle(
+                "               ",
+                "  dddC   Cddd  ",
+                "cv   v C v   vc",
+                "cv   v C v   vc",
+                "  bbbC   Cbbb  ",
+                "               ")
+            .aisle(
+                "               ",
+                "  dd  CCC  dd  ",
+                "Ev  v CXC v  vE",
+                "Ev  v CXC v  vE",
+                "  bb  CCC  bb  ",
+                "               ")
+            .aisle(
+                "  CC       CC  ",
+                " CddC CCC CddC ",
+                "Cv  vCXXXCv  vC",
+                "Cv  vCXXXCv  vC",
+                " CbbC CCC CbbC ",
+                "  CC       CC  ")
+            .aisle(
+                "               ",
+                "  dd  CCC  dd  ",
+                "Ev  v CXC v  vE",
+                "Ev  v CXC v  vE",
+                "  bb  CCC  bb  ",
+                "               ")
+            .aisle(
+                "               ",
+                "  dddC   Cddd  ",
+                "cv   v C v   vc",
+                "cv   v C v   vc",
+                "  bbbC   Cbbb  ",
+                "               ")
+            .aisle(
+                "    C     C    ",
+                "   ddd C ddd   ",
+                " cv   vvv   vc ",
+                " cv   vvv   vc ",
+                "   bbb C bbb   ",
+                "    C     C    ")
+            .aisle(
+                "   C   C   C   ",
+                "   ddddddddd   ",
+                " Iv         vI ",
+                " Iv         vI ",
+                "   bbbbbbbbb   ",
+                "   C   C   C   ")
+            .aisle(
+                "       C       ",
+                "  C  ddddd  C  ",
+                "  Cvv     vvC  ",
+                "  Cvv     vvC  ",
+                "  C  bbbbb  C  ",
+                "       C       ")
+            .aisle(
+                "               ",
+                "       C       ",
+                "   icvvvvvci   ",
+                "   icvvvvvci   ",
+                "       S       ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "     ccCcc     ",
+                "     ccCcc     ",
+                "               ",
                 "               ")
             .where("S", controller.self())
-            .where("G", <metastate:gregtech:transparent_casing:1>)
-            .where("C", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-            .where("K", <blockstate:contenttweaker:fusion_coil_block_mk_ii>)
-            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
-                                .setMaxGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
-            .where("O", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
-                                .setMinGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
+            .where("C", <blockstate:contenttweaker:cryostat_mk_ii>)
+            .where("X", <blockstate:contenttweaker:fusion_coil_block_mk_ii>)
+            .where("d", <blockstate:contenttweaker:divertor_mk_ii>)
+            .where("v", <blockstate:contenttweaker:vacuum_mk_ii>)
+            .where("c", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
             .where("E", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(4)
+                                   .setPreviewCount(2))
+            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))
+            .where("i", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))   
+            .where("b", CTPredicate.states(<blockstate:contenttweaker:divertor_mk_ii>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
                                 .setMinGlobalLimited(1)
                                 .setMaxGlobalLimited(1)
-                                .setPreviewCount(1)
-                    | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
-                                .setMinGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
-            .where("A", CTPredicate.getAir())
+                                .setPreviewCount(1))
             .where(" ", CTPredicate.getAny())
             .build();
         } as IPatternBuilderFunction)
@@ -3455,91 +3543,135 @@ var fusion_reactor_mk_vi = Builder.start("fusion_reactor_mk_vi")
         return FactoryBlockPattern.start()
             .aisle(
                 "               ",
-                "      OGO      ",
+                "               ",
+                "     ccCcc     ",
+                "     ccCcc     ",
+                "               ",
                 "               ")
-            .aisle(
-                "      ICI      ",
-                "    GGAAAGG    ",
-                "      ICI      ")
-            .aisle(
-                "    CC   CC    ",
-                "   EAAOGOAAE   ",
-                "    CC   CC    ")
-            .aisle(
-                "   C       C   ",
-                "  EKEG   GEKE  ",
-                "   C       C   ")
-            .aisle(
-                "  C         C  ",
-                " GAE       EAG ",
-                "  C         C  ")
-            .aisle(
-                "  C         C  ",
-                " GAG       GAG ",
-                "  C         C  ")
-            .aisle(
-                " I           I ",
-                "OAO         OAO",
-                " I           I ")
-            .aisle(
-                " C           C ",
-                "GAG         GAG",
-                " C           C ")
-            .aisle(
-                " I           I ",
-                "OAO         OAO",
-                " I           I ")
-            .aisle(
-                "  C         C  ",
-                " GAG       GAG ",
-                "  C         C  ")
-            .aisle(
-                "  C         C  ",
-                " GAE       EAG ",
-                "  C         C  ")
-            .aisle(
-                "   C       C   ",
-                "  EKEG   GEKE  ",
-                "   C       C   ")
-            .aisle(
-                "    CC   CC    ",
-                "   EAAOGOAAE   ",
-                "    CC   CC    ")
-            .aisle(
-                "      ICI      ",
-                "    GGAAAGG    ",
-                "      ICI      ")
             .aisle(
                 "               ",
-                "      OSO      ",
+                "       C       ",
+                "   icvvvvvci   ",
+                "   icvvvvvci   ",
+                "       C       ",
+                "               ")
+            .aisle(
+                "       C       ",
+                "  C  ddddd  C  ",
+                "  Cvv     vvC  ",
+                "  Cvv     vvC  ",
+                "  C  bbbbb  C  ",
+                "       C       ")
+            .aisle(
+                "   C   C   C   ",
+                "   ddddddddd   ",
+                " Iv         vI ",
+                " Iv         vI ",
+                "   bbbbbbbbb   ",
+                "   C   C   C   ")
+            .aisle(
+                "    C     C    ",
+                "   ddd C ddd   ",
+                " cv   vvv   vc ",
+                " cv   vvv   vc ",
+                "   bbb C bbb   ",
+                "    C     C    ")
+            .aisle(
+                "               ",
+                "  dddC   Cddd  ",
+                "cv   v C v   vc",
+                "cv   v C v   vc",
+                "  bbbC   Cbbb  ",
+                "               ")
+            .aisle(
+                "               ",
+                "  dd  CCC  dd  ",
+                "Ev  v CXC v  vE",
+                "Ev  v CXC v  vE",
+                "  bb  CCC  bb  ",
+                "               ")
+            .aisle(
+                "  CC       CC  ",
+                " CddC CCC CddC ",
+                "Cv  vCXXXCv  vC",
+                "Cv  vCXXXCv  vC",
+                " CbbC CCC CbbC ",
+                "  CC       CC  ")
+            .aisle(
+                "               ",
+                "  dd  CCC  dd  ",
+                "Ev  v CXC v  vE",
+                "Ev  v CXC v  vE",
+                "  bb  CCC  bb  ",
+                "               ")
+            .aisle(
+                "               ",
+                "  dddC   Cddd  ",
+                "cv   v C v   vc",
+                "cv   v C v   vc",
+                "  bbbC   Cbbb  ",
+                "               ")
+            .aisle(
+                "    C     C    ",
+                "   ddd C ddd   ",
+                " cv   vvv   vc ",
+                " cv   vvv   vc ",
+                "   bbb C bbb   ",
+                "    C     C    ")
+            .aisle(
+                "   C   C   C   ",
+                "   ddddddddd   ",
+                " Iv         vI ",
+                " Iv         vI ",
+                "   bbbbbbbbb   ",
+                "   C   C   C   ")
+            .aisle(
+                "       C       ",
+                "  C  ddddd  C  ",
+                "  Cvv     vvC  ",
+                "  Cvv     vvC  ",
+                "  C  bbbbb  C  ",
+                "       C       ")
+            .aisle(
+                "               ",
+                "       C       ",
+                "   icvvvvvci   ",
+                "   icvvvvvci   ",
+                "       S       ",
+                "               ")
+            .aisle(
+                "               ",
+                "               ",
+                "     ccCcc     ",
+                "     ccCcc     ",
+                "               ",
                 "               ")
             .where("S", controller.self())
-            .where("G", <metastate:gregtech:transparent_casing:1>)
-            .where("C", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-            .where("K", <blockstate:contenttweaker:fusion_coil_block_mk_iii>)
-            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
-                                .setMaxGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
-            .where("O", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
-                                .setMinGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
+            .where("C", <blockstate:contenttweaker:cryostat_mk_iii>)
+            .where("X", <blockstate:contenttweaker:fusion_coil_block_mk_iii>)
+            .where("d", <blockstate:contenttweaker:divertor_mk_iii>)
+            .where("v", <blockstate:contenttweaker:vacuum_mk_iii>)
+            .where("c", <blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
             .where("E", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
-                    | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(4)
+                                   .setPreviewCount(2))
+            .where("I", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>)
+                                   .setMinGlobalLimited(2)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))
+            .where("i", CTPredicate.states(<blockstate:contenttweaker:fusion_machine_casing_mk_iv>)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(8)
+                                   .setPreviewCount(2))   
+            .where("b", CTPredicate.states(<blockstate:contenttweaker:divertor_mk_iii>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
                                 .setMinGlobalLimited(1)
                                 .setMaxGlobalLimited(1)
-                                .setPreviewCount(1)
-                    | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
-                                .setMinGlobalLimited(2)
-                                .setMaxGlobalLimited(8)
-                                .setPreviewCount(2)
-            )
-            .where("A", CTPredicate.getAir())
+                                .setPreviewCount(1))
             .where(" ", CTPredicate.getAny())
             .build();
         } as IPatternBuilderFunction)

@@ -132,6 +132,19 @@ makeShaped("phantasium_casing", <contenttweaker:phantasium_casing> * 2,
         "W": <ore:craftingToolWrench>
     });
 
+makeShaped("hassium_casing", <contenttweaker:hassium_casing> * 2,
+    [
+        "PHP",
+        "PFP",
+        "PWP"
+    ],
+    {
+        "F": <ore:frameGtNaquadria>,
+        "H": <ore:craftingToolHardHammer>,
+        "P": <ore:plateHassium>,
+        "W": <ore:craftingToolWrench>
+    });
+
 assembler.recipeBuilder()
     .inputs([<ore:plateBlueSteel> * 6,
              <ore:frameGtBlackSteel>])
@@ -357,12 +370,20 @@ makeShaped("space_elevator_casing", <contenttweaker:space_elevator_casing> * 2,
         "W": <ore:craftingToolWrench>
     });
     
-
 assembler.recipeBuilder()
     .inputs([<ore:plateTairitsium> * 6,
              <ore:frameGtHsss>])
     .circuit(6)
     .outputs([<contenttweaker:space_elevator_casing> * 2])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateHassium> * 6,
+             <ore:frameGtNaquadria>])
+    .circuit(6)
+    .outputs([<contenttweaker:hassium_casing> * 2])
     .EUt(16)
     .duration(50)
     .buildAndRegister();
@@ -393,4 +414,122 @@ assembly_line.recipeBuilder()
     .outputs([<contenttweaker:space_elevator_core>])
     .EUt(100000)
     .duration(350)
+    .buildAndRegister();
+
+#  Advanced Fusion
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:fusion_machine_casing_mk_iv>,
+             <ore:frameGtTitanium>,
+             <gregtech:meta_item_1:149>,
+             <gregtech:meta_item_1:239>,
+             <ore:pipeTinyFluidTitanium> * 4,
+             <ore:ringTitanium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:vacuum_mk_i> * 2])
+    .EUt(491520)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:vacuum_mk_i>,
+             <ore:frameGtEuropium>,
+             <gregtech:meta_item_1:150>,
+             <gregtech:meta_item_1:240>,
+             <ore:pipeTinyFluidEuropium> * 4,
+             <ore:ringEuropium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:vacuum_mk_ii> * 2])
+    .EUt(1966080)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:vacuum_mk_ii>,
+             <ore:frameGtDuranium>,
+             <gregtech:meta_item_1:151>,
+             <gregtech:meta_item_1:241>,
+             <ore:pipeTinyFluidDuranium> * 4,
+             <ore:ringDuranium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:vacuum_mk_iii> * 2])
+    .EUt(7864320)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:fusion_machine_casing_mk_iv>,
+             <ore:frameGtTitanium>,
+             <gregtech:meta_item_1:134>,
+             <gregtech:meta_item_1:209>,
+             <ore:pipeTinyFluidTitanium> * 4,
+             <ore:ringTitanium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:cryostat_mk_i> * 2])
+    .EUt(491520)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:cryostat_mk_i>,
+             <ore:frameGtEuropium>,
+             <gregtech:meta_item_1:135>,
+             <gregtech:meta_item_1:210>,
+             <ore:pipeTinyFluidEuropium> * 4,
+             <ore:ringEuropium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:cryostat_mk_ii> * 2])
+    .EUt(1966080)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:cryostat_mk_ii>,
+             <ore:frameGtDuranium>,
+             <gregtech:meta_item_1:136>,
+             <gregtech:meta_item_1:211>,
+             <ore:pipeTinyFluidDuranium> * 4,
+             <ore:ringDuranium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:cryostat_mk_iii> * 2])
+    .EUt(7864320)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:fusion_machine_casing_mk_iv>,
+             <ore:frameGtTitanium>,
+             <gregtech:meta_item_1:164>,
+             <gregtech:meta_item_1:224>,
+             <ore:pipeTinyFluidTitanium> * 4,
+             <ore:ringTitanium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:divertor_mk_i> * 2])
+    .EUt(491520)
+    .duration(300)
+    .buildAndRegister();
+    
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:divertor_mk_i>,
+             <ore:frameGtEuropium>,
+             <gregtech:meta_item_1:165>,
+             <gregtech:meta_item_1:225>,
+             <ore:pipeTinyFluidEuropium> * 4,
+             <ore:ringEuropium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:divertor_mk_ii> * 2])
+    .EUt(1966080)
+    .duration(300)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:divertor_mk_ii>,
+             <ore:frameGtDuranium>,
+             <gregtech:meta_item_1:166>,
+             <gregtech:meta_item_1:226>,
+             <ore:pipeTinyFluidDuranium> * 4,
+             <ore:ringDuranium> * 16])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<contenttweaker:divertor_mk_iii> * 2])
+    .EUt(7864320)
+    .duration(300)
     .buildAndRegister();

@@ -146,6 +146,15 @@ tile.contenttweaker.phantasium_casing.name=彩梦金属机械方块
 tile.contenttweaker.cladded_reactor_casing.name=覆层反应堆外壳
 tile.contenttweaker.reactor_core_casing.name=钍制反应堆堆芯
 tile.contenttweaker.hassium_casing.name=钅黑制灭菌机械方块
+tile.contenttweaker.cryostat_mk_i.name=次世代聚变反应堆低温恒温仓 Mk I
+tile.contenttweaker.cryostat_mk_ii.name=次世代聚变反应堆低温恒温仓 Mk II
+tile.contenttweaker.cryostat_mk_iii.name=次世代聚变反应堆低温恒温仓 Mk III
+tile.contenttweaker.divertor_mk_i.name=次世代聚变反应堆偏滤器 Mk I
+tile.contenttweaker.divertor_mk_ii.name=次世代聚变反应堆偏滤器 Mk II
+tile.contenttweaker.divertor_mk_iii.name=次世代聚变反应堆偏滤器 Mk III
+tile.contenttweaker.vacuum_mk_i.name=次世代聚变反应堆真空仓 Mk I
+tile.contenttweaker.vacuum_mk_ii.name=次世代聚变反应堆真空仓 Mk II
+tile.contenttweaker.vacuum_mk_iii.name=次世代聚变反应堆真空仓 Mk III
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

@@ -466,6 +466,33 @@ var reactor_core_casing = VanillaFactory.createBlock("reactor_core_casing", <blo
 var hassium_casing = VanillaFactory.createBlock("hassium_casing", <blockmaterial:iron>);
     hassium_casing.register();
 
+var cryostat_mk_i = VanillaFactory.createBlock("cryostat_mk_i", <blockmaterial:iron>);
+    cryostat_mk_i.register();
+
+var cryostat_mk_ii = VanillaFactory.createBlock("cryostat_mk_ii", <blockmaterial:iron>);
+    cryostat_mk_ii.register();
+
+var cryostat_mk_iii = VanillaFactory.createBlock("cryostat_mk_iii", <blockmaterial:iron>);
+    cryostat_mk_iii.register();
+
+var divertor_mk_i = VanillaFactory.createBlock("divertor_mk_i", <blockmaterial:iron>);
+    divertor_mk_i.register();
+
+var divertor_mk_ii = VanillaFactory.createBlock("divertor_mk_ii", <blockmaterial:iron>);
+    divertor_mk_ii.register();
+
+var divertor_mk_iii = VanillaFactory.createBlock("divertor_mk_iii", <blockmaterial:iron>);
+    divertor_mk_iii.register();
+
+var vacuum_mk_i = VanillaFactory.createBlock("vacuum_mk_i", <blockmaterial:iron>);
+    vacuum_mk_i.register();
+
+var vacuum_mk_ii = VanillaFactory.createBlock("vacuum_mk_ii", <blockmaterial:iron>);
+    vacuum_mk_ii.register();
+
+var vacuum_mk_iii = VanillaFactory.createBlock("vacuum_mk_iii", <blockmaterial:iron>);
+    vacuum_mk_iii.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;

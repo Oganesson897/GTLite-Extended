@@ -22,6 +22,9 @@ var vibranium                              = <material:vibranium>;
 var wrought_iron                           = <material:wrought_iron>;
 var orichalcum                             = <material:orichalcum>;
 var neutronium                             = <material:neutronium>;
+var europium                               = <material:europium>;
+var duranium                               = <material:duranium>;
+
 
 #  MaterialFlags : IngotProperty
 
@@ -39,6 +42,8 @@ orichalcum.addFlags(["generate_frame", "generate_long_rod"]);
 vibranium.addFlags(["generate_rod", "generate_frame", "generate_foil", "generate_fine_wire"]);
 wrought_iron.addFlags(["generate_small_gear", "generate_rotor"]);
 neutronium.addFlags(["generate_rotor"]);
+europium.addFlags(["generate_ring"]);
+duranium.addFlags(["generate_frame", "generate_ring"]);
 
 #  MaterialFlags : GemProperty
 topaz.addFlags(["generate_lens"]);
