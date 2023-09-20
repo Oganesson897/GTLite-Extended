@@ -1,6 +1,14 @@
 import mods.gregtech.recipe.RecipeMap;
 
 galactic_superscale_structural_circular_particle_collide.recipeBuilder()
+    .inputs([<ore:frameGtNeutronium>,
+             <contenttweaker:recursively_folded_negative_space> * 4])
+    .outputs([<contenttweaker:eigenfolded_space_time_manifold>])
+    .EUt(500000000)
+    .duration(200)
+    .buildAndRegister();
+
+galactic_superscale_structural_circular_particle_collide.recipeBuilder()
     .inputs([<ore:plateNeutronium>,
              <ore:plateCosmicPolymerMatrix>,
              <ore:plateHypogen>,

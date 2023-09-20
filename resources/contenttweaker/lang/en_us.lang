@@ -183,6 +183,7 @@ item.contenttweaker.dense_neutronium_sphere.name=Dense Neutronium Sphere
 item.contenttweaker.four_dimensional_cube.name=Four Dimensional Cube
 item.contenttweaker.hyperdimensional_precube.name=Crude Hyperdimensional Cube
 item.contenttweaker.hyperdimensional_cube.name=Hyperdimensional Cube
+item.contenttweaker.contained_exotic_matter.name=Exotic Matter Containment Unit
 item.contenttweaker.eigenfolded_space_time_manifold.name=Eigenfolded Space Time Manifold
 
 #  Wire coils

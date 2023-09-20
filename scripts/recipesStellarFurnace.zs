@@ -234,7 +234,8 @@ stellar_furnace.recipeBuilder()
 #  Crude Hyperdimensional Cube
 stellar_furnace.recipeBuilder()
     .inputs([<contenttweaker:qcd_charge>,
-             <contenttweaker:four_dimensional_cube>])
+             <contenttweaker:four_dimensional_cube>,
+             <contenttweaker:eigenfolded_space_time_manifold>])
     .fluidInputs([<liquid:neutron_plasma> * 5760])
     .outputs([<contenttweaker:hyperdimensional_precube>])
     .EUt(100000000)
