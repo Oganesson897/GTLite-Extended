@@ -179,3 +179,26 @@
     - Fix recipe problem of flux crystal dust;
     - Fix some wrong recipes;
     - Fix some quests.
+
+##  from 0.0.5-alpha to 0.0.5-beta
+
+&nbsp;&nbsp;&nbsp;&nbsp;The ninth preview version of GregTech Lite, rework many chains, multiblocks, improve many quests.
+
+- General Changes
+    - All recipes of OpV components and machines has been added;
+    - New element Actinium, Astatine, Francium, Radium and many periodic table elements has been added;
+    - New process of Gooware circuits and Cosmic circuits for higer voltage;
+    - Improve textures of fusion reactor Mk IV-VI and compressed fusion reactors;
+    - Improve textures of some items;
+    - Stellar plasma process has been added;
+    - Cosmic Polymer Matrix process has been added;
+    - Cosmic Neutronium process has been added;
+    - New Multiblock _Nuclear reactor_
+        - From Gregicality Legacy
+        - W.I.P
+    - New Multiblock _Isotope Gas Centrifuge_
+        - From Gregicality Legacy
+        - EV
+- Bug fixes
+    - Fix some wrong recipes;
+    - Fix some quests.
