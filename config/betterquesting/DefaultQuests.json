@@ -12199,7 +12199,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的搅拌机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -12223,7 +12223,20 @@
         }
       },
       "questID:3": 165,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 27,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -20621,9 +20634,9 @@
           "rewards:9": {
             "0:10": {
               "Count:3": 32,
-              "Damage:2": 0,
+              "Damage:2": 1013,
               "OreDict:8": "",
-              "id:8": "minecraft:stone"
+              "id:8": "gregtech:meta_plate"
             }
           }
         }
@@ -22796,7 +22809,26 @@
         }
       },
       "questID:3": 324,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 64000,
+                  "FluidName:8": "aqua_regia"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -22978,7 +23010,26 @@
         }
       },
       "questID:3": 327,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "sodium_bisulfate"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -23067,7 +23118,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "在§3大型化学反应釜§r中，惰性金属混合物与§4四氯化碳§r以及§6硫酸§r反应，得到§6硫酸铑§r与§1氯化钌§r。",
+          "desc:8": "在§3大型化学反应釜§r中，惰性金属混合物与§4四氯化碳§r以及§6硫酸§r反应，\n\n得到§6硫酸铑§r与§1氯化钌§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -23722,7 +23773,20 @@
         }
       },
       "questID:3": 340,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 2060,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24139,7 +24203,20 @@
         }
       },
       "questID:3": 347,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 3525,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24328,7 +24405,26 @@
         }
       },
       "questID:3": 350,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "chlorine"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24381,7 +24477,26 @@
         }
       },
       "questID:3": 351,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "thionyl_chloride"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -25879,7 +25994,26 @@
         }
       },
       "questID:3": 375,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "chlorine"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -25931,7 +26065,26 @@
         }
       },
       "questID:3": 376,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "salt_water"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -26832,7 +26985,20 @@
         }
       },
       "questID:3": 388,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 18,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29021,7 +29187,26 @@
         }
       },
       "questID:3": 421,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 64000,
+                  "FluidName:8": "formic_acid"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -33766,7 +33951,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的搅拌机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -33790,7 +33975,20 @@
         }
       },
       "questID:3": 498,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 2042,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -39545,7 +39743,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的搅拌机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -39569,7 +39767,20 @@
         }
       },
       "questID:3": 597,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 3103,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -40389,7 +40600,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的搅拌机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -40413,7 +40624,20 @@
         }
       },
       "questID:3": 612,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 3105,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -46467,7 +46691,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§8无穷的力量在你手中奔涌而出，你似乎透过这些无形的东西看到了什么...\n\n",
+          "desc:8": "§8§l§o无穷的力量在你手中奔涌而出，\n\n你似乎透过这些无形的东西看到了什么...\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -46985,7 +47209,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的终极电路组装设备。\n\n使用§d超维度时空振荡物质§r生产任意等级的电路板。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -47190,7 +47414,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o你望着手里的物质，不禁思考它是怎么诞生的...\n\n或许一切都是注定的，它在你迈向这个世界之时便注视着你...\n\n这是你的最后一种金属，或许也是第一种金属...\n\n不论如何，你的格雷科技之旅终于迈向了最后的阶段...§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -47214,7 +47438,20 @@
         }
       },
       "questID:3": 756,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 127,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -47818,7 +48055,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§b将夸克禁闭彻底打破。§r\n\n一个超级TNT。",
+          "desc:8": "§b将夸克禁闭彻底打破。§r\n\n一种超级TNT，你会经常用到它的。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -51696,7 +51933,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§8中子凝聚于手中...§r\n\n恭喜你获得了§eUXV§r阶段的主材料！\n\n",
+          "desc:8": "§8§l§o中子凝聚于手中...§r\n\n恭喜你获得了§eUXV§r阶段的主材料！\n\n§e一些趣事：§r在§2GTCEu§r原版中，中子素是§4UHV§r级的材料。\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -58354,7 +58591,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§oAnd in that light, I find deliverance...§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -58845,7 +59082,26 @@
         }
       },
       "questID:3": 1010,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 32017,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            },
+            "1:10": {
+              "Count:3": 32,
+              "Damage:2": 32036,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -59886,7 +60142,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的搅拌机。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -59910,7 +60166,20 @@
         }
       },
       "questID:3": 1031,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 4,
+              "Damage:2": 127,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_rotor"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -65275,7 +65544,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "最好的电路组装机。\n\n它并不能用来制作新的电路...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -67181,7 +67450,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e一些趣事：§r泰伯利亚是来自游戏《命令与征服》的金属材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -67205,7 +67474,26 @@
         }
       },
       "questID:3": 1197,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "sublight_plasma_jet"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -67582,7 +67870,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你在一次正常发射超维度无人机后在太空电梯中发现了它们。\n\n或许...是§c祂们§r...",
+          "desc:8": "你在一次正常发射超维度无人机后在太空电梯中发现了它们。\n\n§l§o或许...是§c§l§o祂们§r§o§l...§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -68068,7 +68356,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "是时候提升你的§b核聚变反应堆§r了...",
+          "desc:8": "是时候提升你的§b核聚变反应堆§r了...\n\n从聚变线圈方块开始是个好主意。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -68092,7 +68380,20 @@
         }
       },
       "questID:3": 1212,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 2042,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -68120,7 +68421,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "次世代聚变反应堆所需的三种仓室之一。\n\n§e注意：§r对于之后更高级的次世代聚变反应堆，这些仓室也需要升级。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -68172,7 +68473,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "次世代聚变反应堆所需的三种仓室之一。\n\n§e注意：§r对于之后更高级的次世代聚变反应堆，这些仓室也需要升级。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -68248,7 +68549,20 @@
         }
       },
       "questID:3": 1215,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 3103,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -68276,7 +68590,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "次世代聚变反应堆所需的三种仓室之一。\n\n§e注意：§r对于之后更高级的次世代聚变反应堆，这些仓室也需要升级。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -68602,7 +68916,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§a核聚变反应堆§r的极限。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -69393,7 +69707,7 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "欢迎来到§a格雷科技精简版（简称GTLite）§r，本章将会指导你了解格雷科技的基本修改与设定。",
+          "desc:8": "欢迎来到§a格雷科技精简版§r，本章将会指导你了解格雷科技的基本修改与设定。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
@@ -71136,7 +71450,7 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "欢迎来到§6高压§r，在这个阶段一些大机器可以被制作了，因此有许多化工线路也可以开始制作了",
+          "desc:8": "欢迎来到§6高压§r，格雷科技的化学工业要开始了。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1005,
@@ -71927,7 +72241,7 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "欢迎来到§1强导压§r。",
+          "desc:8": "欢迎来到§1强导压§r，你最忙碌的阶段。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1019,
@@ -72543,7 +72857,7 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "欢迎来到§d剧差压§r。",
+          "desc:8": "欢迎来到§d剧差压§r，你的科技水平开始急剧上升了。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1020,
@@ -73362,7 +73676,7 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "欢迎来到§3极限压§r。",
+          "desc:8": "欢迎来到§3极限压§r，§2GTCEu§r原版的最后一个阶段。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1022,
@@ -76610,7 +76924,7 @@
         "betterquesting:10": {
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "No Description",
+          "desc:8": "欢迎来到§l终压§r。",
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 1668,

@@ -222,7 +222,7 @@ assembly_line.recipeBuilder()
              <ore:screwHdcs> * 16])
     .fluidInputs([<liquid:kevlar> * 576,
                   <liquid:polyetheretherketone> * 576])
-    .outputs([<contenttweaker:stellar_containment_casing>])
+    .outputs([<contenttweaker:stellar_containment_casing> * 2])
     .EUt(33554432)
     .duration(131072)
     .buildAndRegister();

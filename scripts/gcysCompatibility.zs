@@ -2132,26 +2132,6 @@ makeShaped("opv_machine_hull", <gregtech:machine:998>,
         "W": <ore:cableGtSingleSuperheavyElementMixture>
     });
 
-#  MAX Machines
-makeShaped("max_machine_casing", <gregtech:machine_casing:14>,
-    [
-        "PPP",
-        "PWP",
-        "PPP"
-    ],
-    {
-        "P": <ore:plateCosmicNeutronium>,
-        "W": <ore:craftingToolWrench>
-    });
-
-assembler.recipeBuilder()
-    .inputs([<ore:plateCosmicNeutronium> * 8])
-    .circuit(8)
-    .outputs([<gregtech:machine_casing:14>])
-    .EUt(16)
-    .duration(50)
-    .buildAndRegister();
-
 #  UIV energy hatch
 assembler.recipeBuilder()
     .inputs([<ore:stickSuperconductingMagnetMixture>,
@@ -3330,3 +3310,36 @@ assembly_line.recipeBuilder()
     .EUt(134217728)
     .duration(1200)
     .buildAndRegister();
+
+#  Max Machines
+makeShaped("max_machine_casing", <gregtech:machine_casing:14>,
+    [
+        "PPP",
+        "PWP",
+        "PPP"
+    ],
+    {
+        "P": <ore:plateCosmicNeutronium>,
+        "W": <ore:craftingToolWrench>
+    });
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateCosmicNeutronium> * 8])
+    .circuit(8)
+    .outputs([<gregtech:machine_casing:14>])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
+
+makeShaped("max_machine_hull", <gregtech:machine:999>,
+    [
+        "   ",
+        "KPK",
+        "WCW"
+    ],
+    {
+        "K": <ore:plateCosmicPolymerMatrix>,
+        "P": <ore:plateCosmicNeutronium>,
+        "C": <gregtech:machine_casing:14>,
+        "W": <ore:cableGtSingleEternal>
+    });

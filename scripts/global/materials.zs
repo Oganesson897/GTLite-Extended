@@ -1496,3 +1496,12 @@ var bismuth_209 = MaterialBuilder(32144, "bismuth_209")
     .build();
 
 <material:bismuth_209>.setFormula("Bi-209", false);
+
+#  32145 Eternal
+var eternal = MaterialBuilder(32145, "eternal")
+    .ingot()
+    .fluid()
+    .color(0xEEA2A4)
+    .iconSet("bright")
+    .cableProperties(2147483647, 9999, 9999, false)
+    .build();
