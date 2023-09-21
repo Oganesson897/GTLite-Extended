@@ -3355,6 +3355,8 @@ var fusion_reactor_mk_iv = Builder.start("fusion_reactor_mk_iv")
     .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
     .buildAndRegister();
 
+fusion_reactor_mk_iv.frontOverlay = <cube_renderer:FUSION_REACTOR_OVERLAY>;
+
 assembly_line.recipeBuilder()
     .inputs([<gregtech:machine:1022>,
              <contenttweaker:fusion_coil_block_mk_i> * 4,
@@ -3519,6 +3521,8 @@ var fusion_reactor_mk_v = Builder.start("fusion_reactor_mk_v")
     )
     .withBaseTexture(<blockstate:contenttweaker:fusion_machine_casing_mk_iv_overlay>)
     .buildAndRegister();
+
+fusion_reactor_mk_v.frontOverlay = <cube_renderer:FUSION_REACTOR_OVERLAY>;
 
 assembly_line.recipeBuilder()
     .inputs([<gregtech:machine:32017>,
@@ -3702,6 +3706,8 @@ assembly_line.recipeBuilder()
     .EUt(8388608)
     .duration(60000)
     .buildAndRegister();
+
+fusion_reactor_mk_vi.frontOverlay = <cube_renderer:FUSION_REACTOR_OVERLAY>;
 
 // --------------------------------------------------------------------------------------------------------------------------------
 var mega_alloy_blast_smelter = Builder.start("mega_alloy_blast_smelter")
@@ -6161,6 +6167,8 @@ assembly_line.recipeBuilder()
     .duration(36000)
     .buildAndRegister();
 
+compressed_fusion_reactor_mk1.frontOverlay = <cube_renderer:FUSION_REACTOR_OVERLAY>;
+
 // --------------------------------------------------------------------------------------------------------------------------------
 var compressed_fusion_reactor_mk2 = Builder.start("compressed_fusion_reactor_mk2")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {
@@ -6597,6 +6605,8 @@ assembly_line.recipeBuilder()
     .duration(36000)
     .buildAndRegister();
 
+compressed_fusion_reactor_mk2.frontOverlay = <cube_renderer:FUSION_REACTOR_OVERLAY>;
+
 // --------------------------------------------------------------------------------------------------------------------------------
 var compressed_fusion_reactor_mk3 = Builder.start("compressed_fusion_reactor_mk3")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {
@@ -7032,6 +7042,8 @@ assembly_line.recipeBuilder()
     .EUt(2097152)
     .duration(36000)
     .buildAndRegister();
+
+compressed_fusion_reactor_mk3.frontOverlay = <cube_renderer:FUSION_REACTOR_OVERLAY>;
 
 // --------------------------------------------------------------------------------------------------------------------------------
 var cosmic_ray_detector = Builder.start("cosmic_ray_detector")
