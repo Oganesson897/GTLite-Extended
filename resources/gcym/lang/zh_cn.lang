@@ -14,8 +14,8 @@ gcym.machine.tiered_hatch.uv.name=控制单元（§3UV§r）
 gcym.machine.tiered_hatch.uhv.name=控制单元（§4UHV§r）
 gcym.machine.tiered_hatch.uev.name=控制单元（§aUEV§r）
 gcym.machine.tiered_hatch.uiv.name=控制单元（§2UIV§r）
-gcym.machine.tiered_hatch.umv.name=控制单元（§eUXV§r）
-gcym.machine.tiered_hatch.uxv.name=控制单元（§9OpV§r）
+gcym.machine.tiered_hatch.uxv.name=控制单元（§eUXV§r）
+gcym.machine.tiered_hatch.opv.name=控制单元（§9OpV§r）
 gcym.machine.tiered_hatch.max.name=控制单元（§c§lMAX§r）
 
 gcym.machine.parallel_hatch.iv.name=并行控制仓（§1IV§r）

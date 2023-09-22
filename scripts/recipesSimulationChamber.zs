@@ -158,6 +158,19 @@ makeShaped("simulation_chamber_uxv", <gregtech:machine:32514>,
         "W": <ore:cableGtSingleCrystalMatrix>
     });
 
+makeShaped("simulation_chamber_opv", <gregtech:machine:32515>,
+    [
+        "WAW",
+        "OCO",
+        "WAW"
+    ],
+    {
+        "A": <gregtech:meta_item_1:244>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitMax>,
+        "W": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
 #  LV: Zombie, Skeleton, Creeper, Slime, Spider
 simulation_chamber.recipeBuilder()
     .notConsumable([<deepmoblearning:data_model_zombie>])

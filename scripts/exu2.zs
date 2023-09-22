@@ -315,3 +315,36 @@ makeShaped("exu_pipe", <extrautils2:pipe>,
         "C": <ore:ingotConductiveIron>,
         "G": <ore:blockGlass>
     });
+
+#  Enchanter
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotGold>,
+             <ore:gemLapis>])
+    .outputs([<extrautils2:ingredients:12>])
+    .EUt(16)
+    .duration(160)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotGold>,
+             <ore:gemLazurite>])
+    .outputs([<extrautils2:ingredients:12>])
+    .EUt(16)
+    .duration(160)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustGold>,
+             <ore:gemLapis>])
+    .outputs([<extrautils2:ingredients:12>])
+    .EUt(16)
+    .duration(160)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustGold>,
+             <ore:gemLazurite>])
+    .outputs([<extrautils2:ingredients:12>])
+    .EUt(16)
+    .duration(160)
+    .buildAndRegister();

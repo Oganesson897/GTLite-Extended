@@ -1219,6 +1219,8 @@ gregtech.machine.muffler_hatch.uxv.name=消声仓（§eUXV§r）
 gregtech.machine.muffler_hatch.opv.name=消声仓（§9OpV§r）
 gregtech.machine.muffler_hatch.max.name=消声仓（§c§lMAX§r）
 
+tile.metal_casing.palladium_substation.name=镀钯铱制电容库机器外壳
+
 gregtech.material.biphenyl=联苯
 gregtech.material.polychlorinated_biphenyl=多氯联苯
 gregtech.material.pcb_coolant=电介质多氯联苯冷却液

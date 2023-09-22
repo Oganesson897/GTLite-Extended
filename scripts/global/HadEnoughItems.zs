@@ -747,6 +747,7 @@ mods.jei.JEI.hideCategory("xu2_machine_extrautils2:furnace");
 mods.jei.JEI.hideCategory("xu2_machine_extrautils2:crusher");
 mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator_survival");
 mods.jei.JEI.hideCategory("xu2_machine_extrautils2:generator");
+mods.jei.JEI.hideCategory("xu2_machine_extrautils2:enchanter");
 
 #  Future MC Category
 mods.jei.JEI.hideCategory("container.jei.futuremc.smoker.name");
