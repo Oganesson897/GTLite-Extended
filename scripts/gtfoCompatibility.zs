@@ -124,3 +124,119 @@ makeShaped("opv_cuisine_assembler", <gregtech:machine:8530>,
         "O": <ore:circuitOpv>,
         "Q": <ore:cableGtSingleSuperheavyElementMixture>
     });
+
+makeShaped("uiv_microwave", <gregtech:machine:8541>,
+    [
+        "PQO",
+        "PCA",
+        "PBO"
+    ],
+    {
+        "P": <ore:plateLead>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>,
+        "A": <gregtech:meta_item_1:227>,
+        "B": <gregtech:meta_item_1:137>
+    });
+
+makeShaped("uxv_microwave", <gregtech:machine:8542>,
+    [
+        "PQO",
+        "PCA",
+        "PBO"
+    ],
+    {
+        "P": <ore:plateLead>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>,
+        "A": <gregtech:meta_item_1:228>,
+        "B": <gregtech:meta_item_1:138>
+    });
+
+makeShaped("opv_microwave", <gregtech:machine:8543>,
+    [
+        "PQO",
+        "PCA",
+        "PBO"
+    ],
+    {
+        "P": <ore:plateLead>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>,
+        "A": <gregtech:meta_item_1:229>,
+        "B": <gregtech:meta_item_1:139>
+    });
+
+recipes.remove(<gregtech:machine:8574>);
+makeShaped("uhv_multicooker", <gregtech:machine:8574>,
+    [
+        "OGO",
+        "GCG",
+        "QAQ"
+    ],
+    {
+        "Q": <ore:wireGtQuadrupleMercuryCadmiumTelluride>,
+        "A": <gregtech:meta_item_1:135>,
+        "C": <gregtech:machine:994>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUhv>
+    });
+
+makeShaped("uev_multicooker", <gregtech:machine:8575>,
+    [
+        "OGO",
+        "GCG",
+        "QAQ"
+    ],
+    {
+        "Q": <ore:wireGtQuadrupleCarbonNanotube>,
+        "A": <gregtech:meta_item_1:136>,
+        "C": <gregtech:machine:995>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUev>
+    });
+
+makeShaped("uiv_multicooker", <gregtech:machine:8576>,
+    [
+        "OGO",
+        "GCG",
+        "QAQ"
+    ],
+    {
+        "Q": <ore:wireGtQuadrupleDeepOceanSilver>,
+        "A": <gregtech:meta_item_1:137>,
+        "C": <gregtech:machine:996>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUiv>
+    });
+
+makeShaped("uxv_multicooker", <gregtech:machine:8577>,
+    [
+        "OGO",
+        "GCG",
+        "QAQ"
+    ],
+    {
+        "Q": <ore:wireGtQuadrupleHikarium>,
+        "A": <gregtech:meta_item_1:138>,
+        "C": <gregtech:machine:997>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitUxv>
+    });
+
+makeShaped("opv_multicooker", <gregtech:machine:8578>,
+    [
+        "OGO",
+        "GCG",
+        "QAQ"
+    ],
+    {
+        "Q": <ore:wireGtQuadrupleHypogen>,
+        "A": <gregtech:meta_item_1:139>,
+        "C": <gregtech:machine:998>,
+        "G": <gcys:transparent_casing>,
+        "O": <ore:circuitOpv>
+    });
