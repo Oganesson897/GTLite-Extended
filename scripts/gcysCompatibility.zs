@@ -3343,3 +3343,13 @@ makeShaped("max_machine_hull", <gregtech:machine:999>,
         "C": <gregtech:machine_casing:14>,
         "W": <ore:cableGtSingleEternal>
     });
+
+#  HCOOH
+chemical_plant.recipeBuilder()
+    .fluidInputs([<liquid:water> * 1000,
+                  <liquid:methyl_formate> * 1000])
+    .fluidOutputs([<liquid:formic_acid> * 1000,
+                   <liquid:methanol> * 1000])
+    .EUt(30)
+    .duration(50)
+    .buildAndRegister();
