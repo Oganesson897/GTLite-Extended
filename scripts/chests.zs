@@ -92,23 +92,61 @@ makeShaped("diamond_chest", <ironchest:iron_chest:2>,
         "C": <ironchest:iron_chest:1>
     });
 
+#  Iron chest
+assembler.recipeBuilder()
+    .inputs([<minecraft:chest>,
+             <ore:plateIron> * 8])
+    .outputs([<ironchest:iron_chest>])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+#  Copper chest
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest>,
+             <ore:plateCopper> * 8])
+    .outputs([<ironchest:iron_chest:3>])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+#  Silver chest
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:3>,
+             <ore:plateSilver> * 8])
+    .outputs([<ironchest:iron_chest:4>])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+#  Gold chest
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:4>,
+             <ore:plateGold> * 8])
+    .outputs([<ironchest:iron_chest:1>])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+#  Diamond chest
 assembler.recipeBuilder()
     .inputs([<ironchest:iron_chest:2>,
              <gregtech:transparent_casing> * 4,
              <gregtech:meta_item_1:202> * 2,
              <ore:wireFineTin> * 16])
-    .fluidInputs([<liquid:cupronickel> * 144])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
     .outputs([<ironchest:iron_chest:5>])
     .EUt(16)
     .duration(300)
     .buildAndRegister();
 
+#  Obsidian chest
 assembler.recipeBuilder()
     .inputs([<ironchest:iron_chest:5>,
              <ore:plateObsidian> * 4,
              <gregtech:meta_item_1:202> * 4,
              <ore:wireFineTin> * 32])
-    .fluidInputs([<liquid:cupronickel> * 288])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
     .outputs([<ironchest:iron_chest:6>])
     .EUt(16)
     .duration(300)

@@ -744,3 +744,366 @@ makeShaped("magnet_card", <appliedenergistics2:material:60>.withTag({}),
         "O": <ore:circuitHv>,
         "S": <ore:stickIronMagnetic>
     });
+
+#  Quartz glass
+recipes.remove(<appliedenergistics2:quartz_glass>);
+alloy_smelter.recipeBuilder()
+    .inputs([<minecraft:glass>,
+             <ore:dustNetherQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 2])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<minecraft:glass>,
+             <ore:dustCertusQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 2])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+    
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing>,
+             <ore:dustNetherQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 4])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing>,
+             <ore:dustCertusQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 4])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing:3>,
+             <ore:dustNetherQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 16])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing:3>,
+             <ore:dustCertusQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 16])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing:2>,
+             <ore:dustNetherQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 32])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing:2>,
+             <ore:dustCertusQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 32])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing:1>,
+             <ore:dustNetherQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 48])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gregtech:transparent_casing:1>,
+             <ore:dustCertusQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 48])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+    
+alloy_smelter.recipeBuilder()
+    .inputs([<gcys:transparent_casing>,
+             <ore:dustNetherQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 64])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<gcys:transparent_casing>,
+             <ore:dustCertusQuartz> * 2])
+    .outputs([<appliedenergistics2:quartz_glass> * 64])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+recipes.remove(<appliedenergistics2:quartz_vibrant_glass>);
+alloy_smelter.recipeBuilder()
+    .inputs([<appliedenergistics2:quartz_glass>,
+             <ore:dustGlowstone> * 2])
+    .outputs([<appliedenergistics2:quartz_vibrant_glass> * 4])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<appliedenergistics2:quartz_glass>,
+             <ore:dustEnergeticAlloy> * 2])
+    .outputs([<appliedenergistics2:quartz_vibrant_glass> * 16])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<appliedenergistics2:quartz_glass>,
+             <ore:dustVibrantAlloy> * 2])
+    .outputs([<appliedenergistics2:quartz_vibrant_glass> * 32])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<appliedenergistics2:quartz_glass>,
+             <ore:dustLumium> * 2])
+    .outputs([<appliedenergistics2:quartz_vibrant_glass> * 64])
+    .EUt(16)
+    .duration(40)
+    .buildAndRegister();
+
+#  Sky compass
+recipes.remove(<appliedenergistics2:sky_compass>);
+makeShaped("sky_compass", <appliedenergistics2:sky_compass>,
+    [
+        " P ",
+        "PCP",
+        " P "
+    ],
+    {
+        "C": <minecraft:compass>,
+        "P": <ore:plateCertusQuartz>
+    });
+
+#  Vibration chamber
+recipes.remove(<appliedenergistics2:vibration_chamber>);
+makeShaped("vibration_chamber", <appliedenergistics2:vibration_chamber>,
+    [
+        "PPP",
+        "PCP",
+        "PEP"
+    ],
+    {
+        "C": <morefurnaces:furnaceblock>,
+        "P": <ore:plateSteel>,
+        "E": <appliedenergistics2:energy_acceptor>
+    });
+
+recipes.remove(<aeadditions:vibrantchamberfluid>);
+makeShaped("fluid_vibration_chamber", <aeadditions:vibrantchamberfluid>,
+    [
+        "PPP",
+        "PCP",
+        "PEP"
+    ],
+    {
+        "C": <enderio:block_tank>,
+        "P": <ore:plateSteel>,
+        "E": <appliedenergistics2:energy_acceptor>
+    });
+
+#  Security Station
+recipes.remove(<appliedenergistics2:security_station>);
+makeShaped("security_station", <appliedenergistics2:security_station>,
+    [
+        "PEP",
+        "ADB",
+        "PCP"
+    ],
+    {
+        "P": <ore:plateBlackSteel>,
+        "C": <appliedenergistics2:material:24>,
+        "A": <appliedenergistics2:material:37>,
+        "B": <appliedenergistics2:material:56>,
+        "D": <appliedenergistics2:chest>,
+        "E": <gregtech:meta_item_1:203>
+    });
+
+#  Quartz fixture
+recipes.remove(<appliedenergistics2:quartz_fixture>);
+makeShaped("quartz_fixture", <appliedenergistics2:quartz_fixture> * 4,
+    [
+        " C ",
+        " S ",
+        "   "
+    ],
+    {
+        "S": <ore:stickIron>,
+        "C": <appliedenergistics2:material:1>
+    });
+
+#  Light detector
+recipes.remove(<appliedenergistics2:light_detector>);
+makeShaped("light_detector", <appliedenergistics2:light_detector>,
+    [
+        " C ",
+        " S ",
+        "   "
+    ],
+    {
+        "S": <ore:stickIron>,
+        "C": <ore:gemNetherQuartz>
+    });
+
+#  Quantum ring
+recipes.remove(<appliedenergistics2:quantum_ring>);
+makeShaped("quantum_ring", <appliedenergistics2:quantum_ring>,
+    [
+        "PRP",
+        "CFB",
+        "PAP"
+    ],
+    {
+        "A": <appliedenergistics2:material:23>,
+        "B": <appliedenergistics2:material:24>,
+        "C": <appliedenergistics2:material:22>,
+        "F": <appliedenergistics2:energy_cell>,
+        "R": <ore:ringStainlessSteel>,
+        "P": <ore:plateDoubleHslaSteel>
+    });
+
+#  Cell Workbench
+recipes.remove(<appliedenergistics2:cell_workbench>);
+makeShaped("cell_workbench", <appliedenergistics2:cell_workbench>,
+    [
+        "PAP",
+        "PCP",
+        "P P"
+    ],
+    {
+        "C": <craftingstation:crafting_station>,
+        "A": <appliedenergistics2:material:23>,
+        "P": <ore:plateCertusQuartz>
+    });
+
+#  ME IO part
+recipes.remove(<appliedenergistics2:io_port>);
+makeShaped("me_io_part", <appliedenergistics2:io_port>,
+    [
+        "FWF",
+        "EDC",
+        "FAF"
+    ],
+    {
+        "D": <appliedenergistics2:drive>,
+        "F": <ore:frameGtHslaSteel>,
+        "A": <appliedenergistics2:material:22>,
+        "E": <gregtech:meta_item_1:218>,
+        "C": <gregtech:meta_item_1:158>,
+        "W": <ore:crystalFluix>
+    });
+
+#  Condenser
+recipes.remove(<appliedenergistics2:condenser>);
+makeShaped("condenser", <appliedenergistics2:condenser>,
+    [
+        "SBS",
+        "PCP",
+        "SAS"
+    ],
+    {
+        "C": <gregtech:machine:987>,
+        "A": <gregtech:meta_item_1:203>,
+        "B": <gregtech:meta_item_1:233>,
+        "P": <ore:pearlFluix>,
+        "S": <ore:plateDoubleStainlessSteel>
+    });
+
+#  Quartz growth accelerator
+recipes.remove(<appliedenergistics2:quartz_growth_accelerator>);
+makeShaped("quartz_growth_accelerator", <appliedenergistics2:quartz_growth_accelerator>,
+    [
+        "QNQ",
+        "FBF",
+        "QNQ"
+    ],
+    {
+        "F": <ore:crystalFluix>,
+        "B": <ore:frameGtBlackSteel>,
+        "Q": <ore:plateCertusQuartz>,
+        "N": <ore:plateNetherQuartz>
+    });
+
+#  Spatial pylon
+recipes.remove(<appliedenergistics2:spatial_pylon>);
+assembler.recipeBuilder()
+    .inputs([<ore:frameGtBlackSteel>,
+             <gregtech:meta_item_1:203> * 2,
+             <ore:plateBlackSteel> * 4,
+             <ore:pearlFluix> * 4,
+             <appliedenergistics2:part:16> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 576])
+    .outputs([<appliedenergistics2:spatial_pylon> * 2])
+    .EUt(32)
+    .duration(120)
+    .buildAndRegister();
+
+#  Spatial io part
+recipes.remove(<appliedenergistics2:spatial_io_port>);
+makeShaped("spatial_io_part", <appliedenergistics2:spatial_io_port>,
+    [
+        "GDG",
+        "ACA",
+        "GBG"
+    ],
+    {
+        "C": <appliedenergistics2:io_port>,
+        "A": <appliedenergistics2:material:24>,
+        "B": <gregtech:meta_item_1:203>,
+        "D": <gregtech:meta_item_1:233>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>
+    });
+
+#  Molecular Assembler
+recipes.remove(<appliedenergistics2:molecular_assembler>);
+makeShaped("molecular_assembler", <appliedenergistics2:molecular_assembler> * 2,
+    [
+        "PGP",
+        "ACB",
+        "PGP"
+    ],
+    {
+        "A": <appliedenergistics2:material:44>,
+        "B": <appliedenergistics2:material:43>,
+        "G": <appliedenergistics2:quartz_glass>,
+        "C": <minecraft:crafting_table>,
+        "P": <ore:plateIron>
+    });
+
+#  Charged staff
+recipes.remove(<appliedenergistics2:charged_staff>);
+makeShaped("charged_staff_1", <appliedenergistics2:charged_staff>,
+    [
+        "C  ",
+        " S ",
+        "  S"
+    ],
+    {
+        "S": <ore:stickIron>,
+        "C": <appliedenergistics2:material:1>
+    });
+
+makeShaped("charged_staff_2", <appliedenergistics2:charged_staff>,
+    [
+        "  C",
+        " S ",
+        "S  "
+    ],
+    {
+        "S": <ore:stickIron>,
+        "C": <appliedenergistics2:material:1>
+    });
