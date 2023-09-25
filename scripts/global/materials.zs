@@ -24,7 +24,9 @@ var orichalcum                             = <material:orichalcum>;
 var neutronium                             = <material:neutronium>;
 var europium                               = <material:europium>;
 var duranium                               = <material:duranium>;
-
+var blue_steel                             = <material:blue_steel>;
+var vanadium_steel                         = <material:vanadium_steel>;
+var steel                                  = <material:steel>;
 
 #  MaterialFlags : IngotProperty
 
@@ -38,12 +40,15 @@ rhodium_plated_palladium.addFlags(["generate_frame"]);
 ruthenium_trinium_americium_neutronate.addFlags(["generate_foil", "generate_fine_wire", "generate_rod", "generate_ring"]);
 silver.addFlags(["generate_frame"]);
 uranium_235.addFlags(["generate_frame"]);
-orichalcum.addFlags(["generate_frame", "generate_long_rod"]);
+orichalcum.addFlags(["generate_frame", "generate_long_rod", "generate_dense", "generate_double_plate"]);
 vibranium.addFlags(["generate_rod", "generate_frame", "generate_foil", "generate_fine_wire"]);
 wrought_iron.addFlags(["generate_small_gear", "generate_rotor"]);
 neutronium.addFlags(["generate_rotor"]);
 europium.addFlags(["generate_ring"]);
 duranium.addFlags(["generate_frame", "generate_ring"]);
+blue_steel.addFlags(["generate_dense", "generate_double_plate"]);
+vanadium_steel.addFlags(["generate_dense"]);
+steel.addFlags(["generate_dense"]);
 
 #  MaterialFlags : GemProperty
 topaz.addFlags(["generate_lens"]);

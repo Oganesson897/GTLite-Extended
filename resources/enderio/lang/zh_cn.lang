@@ -275,6 +275,21 @@ item.item_broken_spawner.tooltip.detailed.line2=需要指定对应的怪物种�
 tile.block_slice_and_splice.name=头颅装配机
 tile.block_slice_and_splice.tooltip.detailed.line1=切片并装配与头颅相关的物品
 
+item.item_material.plate_photovoltaic.name=太阳能板
+tile.block_solar_panel.simple.name=磁钢太阳能板
+tile.block_solar_panel.name=充能合金太阳能板
+tile.block_solar_panel.advanced.name=脉冲铁太阳能板
+tile.block_solar_panel.vibrant.name=脉冲合金太阳能板
+tile.block_solar_panel.compressed.name=晶化合金太阳能板
+tile.block_solar_panel.concentrated.name=旋律合金太阳能板
+tile.block_solar_panel.ultimate.name=恒星合金太阳能板
+tile.block_solar_panel.tooltip.common.line1=太阳之力！
+tile.block_solar_panel.tooltip.detailed.line1=在有日光照射之时产生能量
+tile.block_solar_panel.tooltip.detailed.line2=必须无阻挡正对天空
+enderio.jei.solar_panel.output=能量输出：
+enderio.jei.solar_panel.range.line1=实际发电量取决于天气与太阳照射的角度
+enderio.block_solar_panel.tooltip.maxoutput=最大输出：%s
+
 #  Items
 tile.block_enderman_skull.name=末影人头颅
 tile.block_enderman_skull.base.name=末影人头颅

@@ -28,6 +28,7 @@ multiblocktweaker.machine.cosmic_ray_detector.name=Cosmic Ray Detector
 multiblocktweaker.machine.mass_fabricator_computer.name=Mass Fabricator Computer
 multiblocktweaker.machine.nuclear_reactor.name=Nuclear Reactor
 multiblocktweaker.machine.isotope_gas_centrifuge.name=Isotope Gas Centrifuge
+multiblocktweaker.machine.bio_reactor.name=Bio Reactor
 
 multiblocktweaker.multiblock.virtual_cosmos_mk1.name=Virtual Cosmos Simulator Mk I
 multiblocktweaker.multiblock.virtual_cosmos_mk2.name=Virtual Cosmos Simulator Mk II
@@ -59,3 +60,4 @@ multiblocktweaker.multiblock.cosmic_ray_detector.name=Cosmic Ray Detector
 multiblocktweaker.multiblock.mass_fabricator_computer.name=Mass Fabricator Computer
 multiblocktweaker.multiblock.nuclear_reactor.name=Nuclear Reactor
 multiblocktweaker.multiblock.isotope_gas_centrifuge.name=Isotope Gas Centrifuge
+multiblocktweaker.multiblock.bio_reactor.name=Bio Reactor

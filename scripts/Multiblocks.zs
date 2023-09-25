@@ -1573,6 +1573,8 @@ guzzler.runOverclockingLogic = function (recipelogic   as IRecipeLogic,
 } as IRunOverclockingLogicFunction;
 
 // --------------------------------------------------------------------------------------------------------------------------------
+val superheavy_reactor_recipes = mods.gregtech.recipe.RecipeMap.getByName("superheavy_reactor_recipes");
+
 val fuel_refine_factory = Builder.start("fuel_refine_factory")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {
         return FactoryBlockPattern.start()
@@ -1673,18 +1675,7 @@ val fuel_refine_factory = Builder.start("fuel_refine_factory")
         .where(" ", CTPredicate.getAny())
         .build();
     } as IPatternBuilderFunction)
-    .withRecipeMap(
-        FactoryRecipeMap.start("fuel_refine_factory")
-            .minInputs(1)
-            .maxInputs(2)
-            .minOutputs(1)
-            .maxOutputs(4)
-            .minFluidInputs(1)
-            .maxFluidInputs(4)
-            .minFluidOutputs(1)
-            .maxFluidOutputs(2)
-            .build()
-    )
+    .withRecipeMap(superheavy_reactor_recipes)
     .withBaseTexture(<blockstate:contenttweaker:naquadria_neutron_reflection_casing>)
     .buildAndRegister();
 

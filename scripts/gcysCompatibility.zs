@@ -3364,3 +3364,189 @@ electrolyzer.recipeBuilder()
     .EUt(30)
     .duration(1500)
     .buildAndRegister();
+
+#  GCYS UEV+ Machines
+makeShaped("uev_chemical_dryer", <gregtech:machine:2209>,
+    [
+        "QOQ",
+        "SCS",
+        "QOQ"
+    ],
+    {
+        "C": <gregtech:machine:995>,
+        "Q": <ore:cableGtSinglePedotTma>,
+        "O": <ore:circuitUev>,
+        "S": <ore:springPedotTma>
+    });
+
+makeShaped("uiv_chemical_dryer", <gregtech:machine:2210>,
+    [
+        "QOQ",
+        "SCS",
+        "QOQ"
+    ],
+    {
+        "C": <gregtech:machine:996>,
+        "Q": <ore:cableGtSingleSunnarium>,
+        "O": <ore:circuitUiv>,
+        "S": <ore:springSunnarium>
+    });
+
+makeShaped("uxv_chemical_dryer", <gregtech:machine:2211>,
+    [
+        "QOQ",
+        "SCS",
+        "QOQ"
+    ],
+    {
+        "C": <gregtech:machine:997>,
+        "Q": <ore:cableGtSingleCrystalMatrix>,
+        "O": <ore:circuitUxv>,
+        "S": <ore:springCrystalMatrix>
+    });
+
+makeShaped("opv_chemical_dryer", <gregtech:machine:2212>,
+    [
+        "QOQ",
+        "SCS",
+        "QOQ"
+    ],
+    {
+        "C": <gregtech:machine:998>,
+        "Q": <ore:cableGtSingleSuperheavyElementMixture>,
+        "O": <ore:circuitOpv>,
+        "S": <ore:springSuperheavyElementMixture>
+    });
+
+#  Pressure items
+makeShaped("pressure_hatch_lv", <gregtech:machine:3758>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidBronze>,
+        "C": <gregtech:machine:986>,
+        "B": <ore:plateDenseSteel>
+    });
+
+makeShaped("vacuum_hatch_lv", <gregtech:machine:3756>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidBronze>,
+        "C": <gregtech:machine:986>,
+        "B": <ore:plateDoubleSteel>
+    });
+
+makeShaped("pressure_hatch_mv", <gregtech:machine:3759>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidPlastic>,
+        "C": <gregtech:machine:987>,
+        "B": <ore:plateDenseVanadiumSteel>
+    });
+
+makeShaped("vacuum_hatch_mv", <gregtech:machine:3755>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidPlastic>,
+        "C": <gregtech:machine:987>,
+        "B": <ore:plateDoubleVanadiumSteel>
+    });
+
+makeShaped("pressure_hatch_hv", <gregtech:machine:3760>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalItemPolyvinylChloride>,
+        "C": <gregtech:machine:988>,
+        "B": <ore:plateDenseBlueSteel>
+    });
+
+makeShaped("vacuum_hatch_hv", <gregtech:machine:3754>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalItemPolyvinylChloride>,
+        "C": <gregtech:machine:988>,
+        "B": <ore:plateDoubleBlueSteel>
+    });
+
+makeShaped("vacuum_hatch_iv", <gregtech:machine:3752>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidDuranium>,
+        "C": <gregtech:machine:990>,
+        "B": <ore:plateDoubleNaquadahAlloy>    
+    });
+
+makeShaped("pressure_hatch_luv", <gregtech:machine:3763>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidNiobiumTitanium>,
+        "C": <gregtech:machine:991>,
+        "B": <ore:plateDenseDarmstadtium>
+    });
+
+makeShaped("vacuum_hatch_luv", <gregtech:machine:3751>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidNiobiumTitanium>,
+        "C": <gregtech:machine:991>,
+        "B": <ore:plateDoubleDarmstadtium>
+    });
+
+makeShaped("pressure_hatch_zpm", <gregtech:machine:3764>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidPolybenzimidazole>,
+        "C": <gregtech:machine:992>,
+        "B": <ore:plateDenseOrichalcum>
+    });
+
+makeShaped("vacuum_hatch_zpm", <gregtech:machine:3750>,
+    [
+        "PB ",
+        "BC ",
+        "   "
+    ],
+    {
+        "P": <ore:pipeNormalFluidPolybenzimidazole>,
+        "C": <gregtech:machine:992>,
+        "B": <ore:plateDoubleOrichalcum>
+    });
