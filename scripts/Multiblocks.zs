@@ -7341,6 +7341,8 @@ var mass_fabricator_computer = Builder.start("mass_fabricator_computer")
     .withBaseTexture(<blockstate:contenttweaker:phantasium_casing>)
     .buildAndRegister();
 
+mass_fabricator_computer.frontOverlay = <cube_renderer:FUSION_REACTOR_OVERLAY>;
+
 assembly_line.recipeBuilder()
     .inputs([<gregtech:computer_casing:3>,
              <gregtech:computer_casing:1> * 16,

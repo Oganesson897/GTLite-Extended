@@ -9,7 +9,7 @@ cosmic_ray_detector.recipeBuilder()
     .chancedOutput(<gregtech:meta_item_1:263> * 8, 8000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 4000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 2000, 1000)
-    .fluidOutputs([<liquid:quark_gluon_plasma> * 1000,
+    .fluidOutputs([<liquid:quark_gluon_plasma> * 16000,
                    <liquid:helium> * 16000])
     .EUt(100000000)
     .duration(1200)
@@ -24,7 +24,7 @@ cosmic_ray_detector.recipeBuilder()
     .chancedOutput(<gregtech:meta_item_1:263> * 8, 8000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 4000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 2000, 1000)
-    .fluidOutputs([<liquid:lepton_mixture> * 1000,
+    .fluidOutputs([<liquid:lepton_mixture> * 16000,
                    <liquid:helium> * 16000])
     .EUt(100000000)
     .duration(1200)
@@ -39,7 +39,7 @@ cosmic_ray_detector.recipeBuilder()
     .chancedOutput(<gregtech:meta_item_1:263> * 8, 8000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 4000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 2000, 1000)
-    .fluidOutputs([<liquid:higgs> * 1000,
+    .fluidOutputs([<liquid:higgs> * 16000,
                    <liquid:helium> * 16000])
     .EUt(100000000)
     .duration(1200)
@@ -54,7 +54,7 @@ cosmic_ray_detector.recipeBuilder()
     .chancedOutput(<gregtech:meta_item_1:263> * 8, 8000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 4000, 1000)
     .chancedOutput(<gregtech:meta_item_1:263> * 4, 2000, 1000)
-    .fluidOutputs([<liquid:sublight_plasma_jet> * 1000,
+    .fluidOutputs([<liquid:sublight_plasma_jet> * 16000,
                    <liquid:helium> * 16000])
     .EUt(100000000)
     .duration(1200)
@@ -66,7 +66,7 @@ cosmic_ray_detector.recipeBuilder()
                     <gregtech:meta_item_1:213>])
     .inputs([<ore:dustMonazite> * 16])
     .fluidInputs([<liquid:liquid_helium> * 16000,
-                  <liquid:cosmic_computing_mixture> * 1000])
+                  <liquid:cosmic_computing_mixture> * 4000])
     .chancedOutput(<gregtech:meta_dust:32054> * 4, 5000, 1000)
     .chancedOutput(<gregtech:meta_dust:66> * 11, 5000, 2000)
     .chancedOutput(<gregtech:meta_dust:109> * 13, 4000, 500)
