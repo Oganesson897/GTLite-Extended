@@ -686,6 +686,9 @@ mods.jei.JEI.hide(<enderio:item_alloy_nugget:6>);
 mods.jei.JEI.hide(<enderio:item_alloy_nugget:8>);
 mods.jei.JEI.hide(<enderio:item_material:28>);
 
+mods.jei.JEI.removeAndHide(<avaritiaddons:avaritiaddons_chest:1>);
+mods.jei.JEI.removeAndHide(<extrautils2:wrench>);
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 

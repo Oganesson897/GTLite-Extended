@@ -9,7 +9,7 @@ tile.contenttweaker.dust_block.name=Dust Block
 
 #  Circuits
 item.contenttweaker.control_circuit_luv.name=Ludicrous Voltage Control Circuit
-item.contenttweaker.control_circuit_zpm.name=ZPM VoltageControl Circuit
+item.contenttweaker.control_circuit_zpm.name=ZPM Voltage Control Circuit
 item.contenttweaker.control_circuit_uv.name=Ultimate Voltage Control Circuit
 
 #  Circuit Components
