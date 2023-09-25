@@ -3353,3 +3353,14 @@ chemical_plant.recipeBuilder()
     .EUt(30)
     .duration(50)
     .buildAndRegister();
+
+#  Electrolyzer water fix
+<recipemap:electrolyzer>.findRecipe(30, null, [<liquid:water> * 1000]).remove();
+electrolyzer.recipeBuilder()
+    .fluidInputs([<liquid:water> * 1000])
+    .circuit(0)
+    .fluidOutputs([<liquid:hydrogen> * 2000,
+                   <liquid:oxygen> * 1000])
+    .EUt(30)
+    .duration(1500)
+    .buildAndRegister();
