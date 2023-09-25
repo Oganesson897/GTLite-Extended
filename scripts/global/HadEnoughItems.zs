@@ -595,6 +595,7 @@ mods.jei.JEI.removeAndHide(<enderio:item_material:8>);
 mods.jei.JEI.removeAndHide(<enderio:item_material:76>);
 mods.jei.JEI.removeAndHide(<enderio:item_material:72>);
 mods.jei.JEI.removeAndHide(<enderio:block_industrial_insulation>);
+mods.jei.JEI.removeAndHide(<enderio:item_material:38>);
 
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:4>);
 mods.jei.JEI.removeAndHide(<morefurnaces:furnaceblock:3>);
@@ -675,6 +676,16 @@ mods.jei.JEI.removeAndHide(<extrautils2:lawsword>);
 mods.jei.JEI.removeAndHide(<extrautils2:compoundbow>);
 mods.jei.JEI.removeAndHide(<extrautils2:fireaxe>);
 
+mods.jei.JEI.hide(<enderio:item_alloy_nugget>);
+mods.jei.JEI.hide(<enderio:item_alloy_nugget:1>);
+mods.jei.JEI.hide(<enderio:item_alloy_nugget:2>);
+mods.jei.JEI.hide(<enderio:item_alloy_nugget:3>);
+mods.jei.JEI.hide(<enderio:item_alloy_nugget:4>);
+mods.jei.JEI.hide(<enderio:item_alloy_nugget:5>);
+mods.jei.JEI.hide(<enderio:item_alloy_nugget:6>);
+mods.jei.JEI.hide(<enderio:item_alloy_nugget:8>);
+mods.jei.JEI.hide(<enderio:item_material:28>);
+
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
 
@@ -710,6 +721,7 @@ recipes.removeByRecipeName("enderio:cake");
 recipes.addShapeless(<gregtech:meta_gear:51>, [<enderio:item_material:11>]);
 recipes.addShapeless(<gregtech:meta_gear:32005>, [<enderio:item_material:12>]);
 recipes.addShapeless(<gregtech:meta_gear:32006>, [<enderio:item_material:13>]);
+recipes.addShapeless(<gregtech:meta_nugget:2517>, [<enderio:item_alloy_nugget:3>]);
 
 #  Project Red Compatibility
 <ore:ingotElectrotineAlloy>.add(<gregtech:meta_ingot:2527>);

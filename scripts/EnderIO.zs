@@ -24,10 +24,27 @@ alloy_smelter.recipeBuilder()
     .duration(20)
     .buildAndRegister();
 
+#  Electrical steel
 alloy_smelter.recipeBuilder()
-    .inputs([<ore:dustIron>,
-             <ore:dustRedstone>])
-    .outputs([<gregtech:meta_ingot:32002>])
+    .inputs([<ore:ingotSteel>,
+             <ore:ingotSilicon>])
+    .outputs([<gregtech:meta_ingot:32004> * 2])
+    .EUt(16)
+    .duration(20)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotSteel>,
+             <ore:dustSilicon>])
+    .outputs([<gregtech:meta_ingot:32004> * 2])
+    .EUt(16)
+    .duration(20)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustSteel>,
+             <ore:ingotSilicon>])
+    .outputs([<gregtech:meta_ingot:32004> * 2])
     .EUt(16)
     .duration(20)
     .buildAndRegister();
@@ -107,14 +124,6 @@ alloy_smelter.recipeBuilder()
 alloy_smelter.recipeBuilder()
     .inputs([<ore:dustBlackSteel>,
              <minecraft:end_stone> * 2])
-    .outputs([<gregtech:meta_ingot:32007> * 3])
-    .EUt(2048)
-    .duration(200)
-    .buildAndRegister();
-
-alloy_smelter.recipeBuilder()
-    .inputs([<ore:dustBlackSteel>,
-             <ore:dustEndstone> * 2])
     .outputs([<gregtech:meta_ingot:32007> * 3])
     .EUt(2048)
     .duration(200)
@@ -754,3 +763,189 @@ macerator.recipeBuilder()
     .EUt(8)
     .duration(120)
     .buildAndRegister();
+
+#  Ender food
+recipes.remove(<enderio:item_ender_food>);
+makeShaped("ender_food_1", <enderio:item_ender_food>,
+    [
+        "BM ",
+        "WD ",
+        "   "
+    ],
+    {
+        "B": <minecraft:bowl>,
+        "M": <minecraft:milk_bucket>,
+        "W": <minecraft:wheat>,
+        "D": <gregtech:meta_dust:416>
+    });
+
+makeShaped("ender_food_2", <enderio:item_ender_food>,
+    [
+        " BM",
+        " WD",
+        "   "
+    ],
+    {
+        "B": <minecraft:bowl>,
+        "M": <minecraft:milk_bucket>,
+        "W": <minecraft:wheat>,
+        "D": <gregtech:meta_dust:416>
+    });
+
+makeShaped("ender_food_3", <enderio:item_ender_food>,
+    [
+        "   ",
+        "BM ",
+        "WD "
+    ],
+    {
+        "B": <minecraft:bowl>,
+        "M": <minecraft:milk_bucket>,
+        "W": <minecraft:wheat>,
+        "D": <gregtech:meta_dust:416>
+    });
+
+makeShaped("ender_food_4", <enderio:item_ender_food>,
+    [
+        "   ",
+        " BM",
+        " WD"
+    ],
+    {
+        "B": <minecraft:bowl>,
+        "M": <minecraft:milk_bucket>,
+        "W": <minecraft:wheat>,
+        "D": <gregtech:meta_dust:416>
+    });
+
+#  Photovoltaic
+makeShaped("photovoltaic_plate_1", <enderio:item_material:3>,
+    [
+        "SGS",
+        "PCP",
+        "   "
+    ],
+    {
+        "P": <gregtech:meta_item_1:501>,
+        "S": <ore:plateSilicon>,
+        "G": <ore:plateGlass>,
+        "C": <enderio:item_basic_capacitor>
+    });
+
+makeShaped("photovoltaic_plate_2", <enderio:item_material:3>,
+    [
+        "   ",
+        "SGS",
+        "PCP"
+    ],
+    {
+        "P": <gregtech:meta_item_1:501>,
+        "S": <ore:plateSilicon>,
+        "G": <ore:plateGlass>,
+        "C": <enderio:item_basic_capacitor>
+    });
+
+recipes.remove(<enderio:block_solar_panel>);
+makeShaped("electrical_steel_solar_panel", <enderio:block_solar_panel>,
+    [
+        "PGP",
+        "XCX",
+        "PRP"
+    ],
+    {
+        "C": <enderio:item_material:3>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>,
+        "P": <ore:plateElectricalSteel>,
+        "X": <enderio:item_material:3>,
+        "R": <ore:gearElectricalSteel>
+    });
+
+recipes.remove(<enderio:block_solar_panel:1>);
+makeShaped("energetic_alloy_solar_panel", <enderio:block_solar_panel:1>,
+    [
+        "PGP",
+        "XCX",
+        "PRP"
+    ],
+    {
+        "C": <enderio:block_solar_panel>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>,
+        "P": <ore:plateEnergeticAlloy>,
+        "X": <enderio:item_material:3>,
+        "R": <ore:gearEnergeticAlloy>
+    });
+
+recipes.remove(<enderio:block_solar_panel:2>);
+makeShaped("pulsating_iron_solar_panel", <enderio:block_solar_panel:2>,
+    [
+        "PGP",
+        "XCX",
+        "PRP"
+    ],
+    {
+        "C": <enderio:block_solar_panel:1>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>,
+        "P": <ore:platePulsatingIron>,
+        "X": <enderio:item_material:3>,
+        "R": <ore:gearPulsatingIron>
+    });
+
+recipes.remove(<enderio:block_solar_panel:3>);
+makeShaped("vibrant_alloy_solar_panel", <enderio:block_solar_panel:3>,
+    [
+        "PGP",
+        "XCX",
+        "PRP"
+    ],
+    {
+        "C": <enderio:block_solar_panel:2>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>,
+        "P": <ore:plateVibrantAlloy>,
+        "X": <enderio:item_material:3>,
+        "R": <ore:gearVibrantAlloy>
+    });
+
+recipes.remove(<enderio:block_solar_panel:4>);
+makeShaped("crystalline_alloy_solar_panel", <enderio:block_solar_panel:4>,
+    [
+        "PGP",
+        "XCX",
+        "PRP"
+    ],
+    {
+        "C": <enderio:block_solar_panel:3>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>,
+        "P": <ore:plateCrystallineAlloy>,
+        "X": <enderio:item_material:3>,
+        "R": <ore:gearCrystallineAlloy>
+    });
+
+recipes.remove(<enderio:block_solar_panel:5>);
+makeShaped("melodic_alloy_solar_panel", <enderio:block_solar_panel:5>,
+    [
+        "PGP",
+        "XCX",
+        "PRP"
+    ],
+    {
+        "C": <enderio:block_solar_panel:4>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>,
+        "P": <ore:plateMelodicAlloy>,
+        "X": <enderio:item_material:3>,
+        "R": <ore:gearMelodicAlloy>
+    });
+
+recipes.remove(<enderio:block_solar_panel:6>);
+makeShaped("stellar_alloy_solar_panel", <enderio:block_solar_panel:6>,
+    [
+        "PGP",
+        "XCX",
+        "PRP"
+    ],
+    {
+        "C": <enderio:block_solar_panel:5>,
+        "G": <appliedenergistics2:quartz_vibrant_glass>,
+        "P": <ore:plateStellarAlloy>,
+        "X": <enderio:item_material:3>,
+        "R": <ore:gearStellarAlloy>
+    });

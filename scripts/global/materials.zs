@@ -57,6 +57,9 @@ var pulsating_iron = MaterialBuilder(32001, "pulsating_iron")
     .color(0x6ae26e)
     .iconSet("shiny")
     .cableProperties(8, 1, 0, true)
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_gear"])
     .build();
 
 <material:pulsating_iron>.setFormula("FeUO2", true);
@@ -92,7 +95,9 @@ var electrical_steel = MaterialBuilder(32004, "electrical_steel")
     .iconSet("metallic")
     .components([<material:steel> * 1,
                  <material:silicon> * 1])
-    .flags(["generate_plate"])
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_gear"])
     .build();
 
 #  32005 Energetic Alloy : Ender IO : MV superconductor
@@ -830,6 +835,9 @@ var crystalline_alloy = MaterialBuilder(32067, "crystalline_alloy")
     .color(0xA7ECEC)
     .iconSet("bright")
     .cableProperties(2048, 1, 0, true)
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_gear"])
     .components([<material:black_steel> * 1,
                  <material:plutonium_241> * 1])
     .build();
@@ -858,6 +866,9 @@ var melodic_alloy = MaterialBuilder(32069, "melodic_alloy")
                  <material:blue_alloy> * 2])
     .blastTemp(4000, "MID", 120, 12800)
     .cableProperties(32768, 1, 0, true)
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_gear"])
     .build();
 
 #  32070 Stellar Alloy : ZPM superconductor
@@ -872,6 +883,9 @@ var stellar_alloy = MaterialBuilder(32070, "stellar_alloy")
                  <material:blue_steel> * 1,
                  <material:rhodium> * 1])
     .blastTemp(6400, "HIGHEST", 120, 20800)
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_gear"])
     .build();
 
 #  32071 Energetic Silver : MV superconductor 
