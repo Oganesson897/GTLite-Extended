@@ -2452,7 +2452,7 @@ assembler.recipeBuilder()
              <ore:springSuperheavyElementMixture>])
     .fluidInputs([<liquid:lubricant> * 4000])
     .outputs([<gregtech:machine:1742>])
-    .EUt(7864320)
+    .EUt(125829120)
     .duration(200)
     .buildAndRegister();
 
@@ -3550,3 +3550,43 @@ makeShaped("vacuum_hatch_zpm", <gregtech:machine:3750>,
         "C": <gregtech:machine:992>,
         "B": <ore:plateDoubleOrichalcum>
     });
+
+#  OpV Transformer
+makeShaped("opv_transformer", <gregtech:machine:1283>,
+    [
+        "PXX",
+        "QC ",
+        "PXX"
+    ],
+    {
+        "C": <gregtech:machine:998>,
+        "P" :<gcys:meta_item_1:370>,
+        "Q": <ore:cableGtSingleEternal>,
+        "X": <ore:cableGtSingleSuperheavyElementMixture>
+    });
+
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1283>,
+             <gregtech:meta_item_1:151>,
+             <ore:wireGtQuadrupleEternal>,
+             <ore:wireGtOctalSuperheavyElementMixture>,
+             <ore:springSmallSuperheavyElementMixture>,
+             <ore:springEternal>])
+    .fluidInputs([<liquid:lubricant> * 4000])
+    .outputs([<gregtech:machine:1743>])
+    .EUt(503316480)
+    .duration(200)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<gregtech:machine:1743>,
+             <gregtech:meta_item_1:151>,
+             <ore:cableGtOctalEternal>,
+             <ore:cableGtHexSuperheavyElementMixture> * 2,
+             <ore:springSmallSuperheavyElementMixture>,
+             <ore:springEternal>])
+    .fluidInputs([<liquid:lubricant> * 4000])
+    .outputs([<gregtech:machine:1298>])
+    .EUt(503316480)
+    .duration(200)
+    .buildAndRegister();

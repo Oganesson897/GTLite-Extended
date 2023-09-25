@@ -1523,4 +1523,27 @@ var eternal = MaterialBuilder(32145, "eternal")
     .color(0xEEA2A4)
     .iconSet("bright")
     .cableProperties(2147483647, 9999, 9999, false)
+    .flags(["generate_rod",
+            "generate_long_rod",
+            "generate_spring"])
+    .build();
+
+#  32146  Bosonic UU Mater
+var bosonic_uu_matter = MaterialBuilder(32146, "bosonic_uu_matter")
+    .fluid()
+    .color(0x630d56)
+    .iconSet("dull")
+    .build();
+
+#  32147  Fermionic UU Mater
+var fermionic_uu_matter = MaterialBuilder(32147, "fermionic_uu_matter")
+    .fluid()
+    .color(0x5626f2)
+    .iconSet("dull")
+    .build();
+
+#  32148  Fugitive UU Gas
+var fugitive_uu_gas = MaterialBuilder(32148, "fugitive_uu_gas")
+    .fluid()
+    .color(0x6d2a50)
     .build();
