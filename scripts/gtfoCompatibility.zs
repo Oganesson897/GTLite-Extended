@@ -240,3 +240,12 @@ makeShaped("opv_multicooker", <gregtech:machine:8578>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitOpv>
     });
+    
+chemical_reactor.recipeBuilder()
+    .fluidInputs([<liquid:acetic_acid> * 1000])
+    .circuit(1)
+    .fluidOutputs([<liquid:acetic_anhydride> * 1000,
+                   <liquid:water> * 1000])
+    .EUt(512)
+    .duration(200)
+    .buildAndRegister();

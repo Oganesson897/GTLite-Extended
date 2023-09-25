@@ -381,6 +381,21 @@ large_chemical_reactor.recipeBuilder()
     .duration(50)
     .buildAndRegister();
 
+large_chemical_reactor.recipeBuilder()
+    .inputs([<ore:dustMagnesia>])
+    .fluidInputs([<liquid:resorcinol> * 1000,
+                  <liquid:epichlorohydrin> * 1000,
+                  <liquid:gtfo_acetic_anhydride> * 1000,
+                  <liquid:nitric_acid> * 2000,
+                  <liquid:propene> * 1000])
+    .outputs([<gregtech:meta_dust:357>])
+    .fluidOutputs([<liquid:dinitrodipropanyloxybenzene> * 1000,
+                   <liquid:acetic_acid> * 2000,
+                   <liquid:water> * 1000])
+    .EUt(7680)
+    .duration(50)
+    .buildAndRegister();
+
 #  Control Circuit LuV
 assembly_line.recipeBuilder()
     .inputs([<ore:circuitLuv>,
@@ -587,15 +602,6 @@ large_chemical_reactor.recipeBuilder()
     .outputs([<gregtech:meta_dust:32135> * 2])
     .EUt(7680)
     .duration(100)
-    .buildAndRegister();
-
-#  Acetic Anhydride
-chemical_reactor.recipeBuilder()
-    .fluidInputs([<liquid:acetic_acid> * 1000])
-    .fluidOutputs([<liquid:acetic_anhydride> * 1000,
-                   <liquid:water> * 1000])
-    .EUt(512)
-    .duration(200)
     .buildAndRegister();
 
 #  Raw Imprinted Resonatic circuit board
