@@ -202,3 +202,26 @@
 - Bug fixes
     - Fix some wrong recipes;
     - Fix some quests.
+
+##  from 0.0.5-beta to 0.0.6-alpha
+
+&nbsp;&nbsp;&nbsp;&nbsp;The tenth preview version of GregTech Lite, rework many textures, fix many bugs, improve many quests.
+
+- Mod Changes
+    - Mod Additions
+        - GregTech Lite Core - Multiblocks
+            - Special supply mod for GregTech Lite, add many practical items;
+- General Changes
+    - Improve textures of controllers, e.g. Mass Fabricator Computer;
+    - All recipes of GTFO UHV+ machines has been added;
+    - All recipes of UHV+ chemical dryer has been added;
+    - Add formic adic recipe in chemical plant;
+    - Buff recipes of Cosmic Ray Detector;
+    - Buff all compressed fusion reactor recipes;
+    - Update some recipes of Mass Fabricator Computer;
+    - All Ender IO solar plants recipes has been added;
+    - Fuel Refine Factory recipes rework;
+- Bug fixes
+    - Fix acetic anhydride related recipes;
+    - Fix sodium chlorate recipes conflict;
+    - Fix pressure and vacuum hatches recipes.
