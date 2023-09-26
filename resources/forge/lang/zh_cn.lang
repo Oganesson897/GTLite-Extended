@@ -3,7 +3,7 @@
 #! Sort by first letter (A-Z) for every class
 #! Some may not be effective
 
-forge.client.shutdown.internal=正在关闭内置服务端……
+forge.client.shutdown.internal=正在关闭内置服务端…
 
 fml.menu.mods=模组
 fml.menu.mods.normal=普通

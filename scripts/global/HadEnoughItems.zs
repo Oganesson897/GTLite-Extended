@@ -84,6 +84,10 @@ var disabledOreDictBlocks as IItemStack[][IOreDictEntry] = {
     #  blockCrudeSteel : Ender IO Endergy
     <ore:blockCrudeSteel> : [
         <enderio:block_alloy_endergy>
+    ],
+    #  blockNetherStar : Extended Crafting
+    <ore:blockNetherStar> : [
+        <extendedcrafting:storage:2>
     ]
 }; 
 
@@ -300,6 +304,10 @@ var disabledOreDictNuggets as IItemStack[][IOreDictEntry] = {
     #  nuggetCrudeSteel : Ender IO Endergy
     <ore:nuggetCrudeSteel> : [
         <enderio:item_alloy_endergy_nugget>
+    ],
+    #  nuggetNetherStar : Extended Crafting
+    <ore:nuggetNetherStar> : [
+        <extendedcrafting:material:140>
     ]
 };
 
@@ -728,6 +736,12 @@ recipes.addShapeless(<gregtech:meta_nugget:2517>, [<enderio:item_alloy_nugget:3>
 
 #  Project Red Compatibility
 <ore:ingotElectrotineAlloy>.add(<gregtech:meta_ingot:2527>);
+
+#  Other Compatibility
+recipes.removeByRecipeName("extendedcrafting:nether_star_nugget_to");
+recipes.removeByRecipeName("avaritia:blocks/crafting/un_compressed_crafting_table");
+recipes.removeByRecipeName("extrautils2:shortcut_hopper");
+recipes.removeByRecipeName("enderio:tweak_wood_hopper");
 
 #  Vanilla Stack size set
 <minecraft:snowball>.maxStackSize = 64;

@@ -163,6 +163,23 @@ mixer.recipeBuilder()
     .duration(400)
     .buildAndRegister();
 
+#  Soularium
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:ingotGold>,
+             <minecraft:soul_sand>])
+    .outputs([<gregtech:meta_ingot:32051> * 2])
+    .EUt(16)
+    .duration(150)
+    .buildAndRegister();
+
+alloy_smelter.recipeBuilder()
+    .inputs([<ore:dustGold>,
+             <minecraft:soul_sand>])
+    .outputs([<gregtech:meta_ingot:32051> * 2])
+    .EUt(16)
+    .duration(150)
+    .buildAndRegister();
+
 makeShaped("conduit_binder_composite", <enderio:item_material:22>,
     [
         "GCG",

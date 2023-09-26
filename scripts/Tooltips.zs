@@ -26,7 +26,8 @@ import mods.gregtech.recipe.RecipeMap;
 
 ##  Particle collide
 <gregtech:machine:32004>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
-<gregtech:machine:32004>.addTooltip("积累并加速相继向这台多方块结构的环形区域内的前级加速器注入的两束粒子流，并使之对撞以产生足够高的反应能量，以此来窥探微观粒子的宏观机制。");
+<gregtech:machine:32004>.addTooltip("积累并加速相继向这台多方块结构的环形区域内的前级加速器注入的两束粒子流，");
+<gregtech:machine:32004>.addTooltip("并使之对撞以产生足够高的反应能量，以此来窥探微观粒子的宏观机制。");
 <gregtech:machine:32004>.addTooltip("用于生产OpV级以上的材料。");
 
 ##  Component assembly line
@@ -34,10 +35,12 @@ import mods.gregtech.recipe.RecipeMap;
 <gregtech:machine:32005>.addTooltip("大规模生产各个电压等级部件并减少材料的消耗。");
 
 ##  Guzzler
-<gregtech:machine:32006>.addTooltip("使用蒸汽，半流质燃料，等离子体或燃料棒产生能量，恒定输出UEV级电压，不可超频。");
+<gregtech:machine:32006>.addTooltip("使用蒸汽，半流质燃料，等离子体或燃料棒产生能量，");
+<gregtech:machine:32006>.addTooltip("恒定输出UEV级电压，不可超频。");
 
 ##  Fuel refine factory
-<gregtech:machine:32007>.addTooltip("生产供§b化学能吞噬者§7使用的特殊燃料");
+<gregtech:machine:32007>.addTooltip("巨型燃料生产基地！");
+<gregtech:machine:32007>.addTooltip("用于生产超能燃料。");
 
 ##  Chemical plant
 <gregtech:machine:32008>.addTooltip("可以完全替代化学气相沉积（CVD）单元，同时具有一些化学反应釜的功能。");
@@ -49,16 +52,6 @@ import mods.gregtech.recipe.RecipeMap;
 <gregtech:machine:32010>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
 <gregtech:machine:32010>.addTooltip("使用§b超维度时空振荡物质§7生产特殊的超时空电路，最多使用一种催化剂。");
 
-##  Industrial Chemical Reactor
-<gregtech:machine:32011>.addTooltip("更大的化学反应釜！");
-<gregtech:machine:32011>.addTooltip("同时具有以下机器的功能：");
-<gregtech:machine:32011>.addTooltip("化学反应釜");
-<gregtech:machine:32011>.addTooltip("大型化学反应釜");
-<gregtech:machine:32011>.addTooltip("低温反应室");
-<gregtech:machine:32011>.addTooltip("燃烧反应室");
-<gregtech:machine:32011>.addTooltip("化学气相沉积单元");
-<gregtech:machine:32011>.addTooltip("并且可以以更快的速度运行对应的配方。");
-
 ##  Isa Mill
 <gregtech:machine:32012>.addTooltip("一台大型艾萨研磨机。");
 <gregtech:machine:32012>.addTooltip("将矿物或矿粉精磨为碾磨矿粉。");
@@ -69,7 +62,7 @@ import mods.gregtech.recipe.RecipeMap;
 
 ##  Tree Factory
 <gregtech:machine:32014>.addTooltip("无穷无尽的树木资源。");
-<gregtech:machine:32014>.addTooltip("需要使用§b水§7，§9蒸馏水§7或§a生物质§7，分别对应三个电压等级。");
+<gregtech:machine:32014>.addTooltip("需要额外提供§b水§7，§9蒸馏水§7或§a生物质§7才能运行。");
 
 ##  PCB Factory
 <gregtech:machine:32015>.addTooltip("电路板制作：从入门到精通。");
@@ -117,6 +110,13 @@ import mods.gregtech.recipe.RecipeMap;
 <gregtech:machine:32025>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
 <gregtech:machine:32025>.addTooltip("御星天炉。");
 
+##  Cosmic Ray Detector
+<gregtech:machine:32026>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
+<gregtech:machine:32026>.addTooltip("并不是电视天线锅盖。");
+
+##  Mass Fabricator Computer
+<gregtech:machine:32027>.addTooltip("结构太复杂了！使用§b多方块构建器§7来建筑这个超大的多方块结构吧。");
+
 #  Circuits
 <contenttweaker:control_circuit_luv>.addTooltip("用于制作一些特殊机器");
 <contenttweaker:control_circuit_luv>.addTooltip("§4LuV级控制电路");
@@ -150,6 +150,18 @@ import mods.gregtech.recipe.RecipeMap;
 <ore:circuitUv>.add(<contenttweaker:magneto_resonatic_circuit_uv>);
 <ore:circuitUhv>.add(<contenttweaker:magneto_resonatic_circuit_uhv>);
 <ore:circuitUev>.add(<contenttweaker:magneto_resonatic_circuit_uev>);
+
+<contenttweaker:cosmic_capacitor>.addTooltip("寰宇电容");
+<contenttweaker:cosmic_diode>.addTooltip("寰宇二极管");
+<contenttweaker:cosmic_resistor>.addTooltip("寰宇电阻");
+<contenttweaker:cosmic_transistor>.addTooltip("寰宇晶体管");
+<contenttweaker:cosmic_inductor>.addTooltip("寰宇电感");
+
+<contenttweaker:supracausal_capacitor>.addTooltip("超因果电容");
+<contenttweaker:supracausal_diode>.addTooltip("超因果二极管");
+<contenttweaker:supracausal_resistor>.addTooltip("超因果电阻");
+<contenttweaker:supracausal_transistor>.addTooltip("超因果晶体管");
+<contenttweaker:supracausal_inductor>.addTooltip("超因果电感");
 
 #  Wire coils
 <contenttweaker:machine_coil_adamantium>.addTooltip("§c基础热容：§r13501 K");

@@ -20,7 +20,7 @@ if (!isNull(AppliedEnergistics2)) {
     for item in itemAppliedEnergistics2 {
         if (item.displayName has "线缆伪装板") {
             if (item.displayName has "草方块") {
-                item.addTooltip("线缆伪装板的配方均于此一致，将对应方块替换为你需要制作的线缆伪装板对应的方块即可，故在HEI中隐去其他线缆伪装板");
+                item.addTooltip("线缆伪装板的配方均于此类似，故在HEI中隐去其他线缆伪装板");
             } else {
                 mods.jei.JEI.hide(item);
             }
@@ -69,7 +69,7 @@ if (!isNull(GregTechCEu)) {
     for item in itemGregTechCEu {
         if (item.displayName has "伪装板") {
             if (item.displayName has "草方块") {
-                item.addTooltip("伪装板的配方均于此一致，将对应方块替换为你需要制作的线缆伪装板对应的方块即可，故在HEI中隐去其他伪装板");
+                item.addTooltip("伪装板的配方均于此类似，故在HEI中隐去其他伪装板");
             } else {
                 mods.jei.JEI.hide(item);
             }
