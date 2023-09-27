@@ -520,7 +520,7 @@ var cosmic_neutronium = MaterialBuilder(32038, "cosmic_neutronium")
     .cableProperties(2147483647, 9999, 0, true)
     .build();
 
-<material:cosmic_neutronium>.setFormula("∞", false);
+<material:cosmic_neutronium>.setFormula("SpNt", false);
 
 #  32039 Hikarium
 var hikarium = MaterialBuilder(32039, "hikarium")
