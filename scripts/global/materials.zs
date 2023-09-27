@@ -518,7 +518,8 @@ var cosmic_neutronium = MaterialBuilder(32038, "cosmic_neutronium")
     .iconSet("bright")
     .flags(["generate_plate",
             "generate_rod",
-            "generate_frame"])
+            "generate_frame",
+            "generate_rotor"])
     .cableProperties(2147483647, 9999, 0, true)
     .build();
 
@@ -1530,6 +1531,8 @@ var eternal = MaterialBuilder(32145, "eternal")
             "generate_spring"])
     .build();
 
+<material:eternal>.setFormula("Nt3(Ad3O4)8Sd?", true);
+
 #  32146  Bosonic UU Mater
 var bosonic_uu_matter = MaterialBuilder(32146, "bosonic_uu_matter")
     .fluid()
@@ -1668,4 +1671,20 @@ var galaxium_plasma = MaterialBuilder(32162, "galaxium_plasma")
     .fluid()
     .color(0x29288A)
     .iconSet("dull")
+    .build();
+
+#  32163 Spacetime
+var spacetime = MaterialBuilder(32163, "spacetime")
+    .ingot()
+    .fluid()
+    .color(0x9E19CF)
+    .iconSet("metallic")
+    .blastTemp(18800)
+    .flags(["generate_plate",
+            "generate_foil",
+            "generate_fine_wire",
+            "generate_gear",
+            "generate_small_gear",
+            "generate_frame"])
+    .cableProperties(2147483647, 4444, 4444, false)
     .build();

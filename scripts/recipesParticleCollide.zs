@@ -38,6 +38,47 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
     .buildAndRegister();
 
 galactic_superscale_structural_circular_particle_collide.recipeBuilder()
+    .notConsumable([<contenttweaker:topological_manipulator_unit>,
+                    <contenttweaker:graviton_transducer>,
+                    <gregtech:meta_item_1:229>,
+                    <gregtech:meta_item_1:244>])
+    .inputs([<ore:dustVoid>,
+             <contenttweaker:manifold_oscillatory_power_cell> * 64])
+    .fluidInputs([<liquid:hyperdimensional_residue> * 3000])
+    .outputs([<gregtech:meta_dust:32145>])
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell> * 33, 1000, 0)
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell> * 24, 2000, 0)
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell> * 3, 4000, 0)
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell> * 3, 6000, 0)
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell>, 8000, 0)
+    .EUt(500000000)
+    .duration(600)
+    .buildAndRegister();
+
+galactic_superscale_structural_circular_particle_collide.recipeBuilder()
+    .notConsumable([<contenttweaker:relativistic_spinorial_memory_system>,
+                    <contenttweaker:eigenfolded_space_time_manifold>,
+                    <contenttweaker:hyperdimensional_cube>,
+                    <gregtech:meta_item_1:199>,
+                    <gregtech:meta_item_1:214>])
+    .inputs([<contenttweaker:manifold_oscillatory_power_cell> * 64])
+    .fluidInputs([<liquid:liquid_air> * 4096000,
+                  <liquid:liquid_nether_air> * 409600,
+                  <liquid:liquid_ender_air> * 409600])
+    .outputs([<gregtech:meta_dust_tiny:32163> * 3])
+    .chancedOutput(<gregtech:meta_dust_tiny:32163> * 4, 1000, 0)
+    .chancedOutput(<gregtech:meta_dust_tiny:32163> * 2, 2000, 0)
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell> * 33, 4000, 0)
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell> * 24, 6000, 0)
+    .chancedOutput(<contenttweaker:manifold_oscillatory_power_cell> * 7, 8000, 0)
+    .fluidOutputs([<liquid:air> * 102400,
+                   <liquid:nether_air> * 102400,
+                   <liquid:ender_air> * 102400])
+    .EUt(500000000)
+    .duration(600)
+    .buildAndRegister();
+
+galactic_superscale_structural_circular_particle_collide.recipeBuilder()
     .notConsumable([<gregtech:meta_item_1:229>,
                     <gregtech:meta_item_1:214>])
     .inputs([<contenttweaker:dense_neutron_plasma_cell>,

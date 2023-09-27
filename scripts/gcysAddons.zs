@@ -1686,3 +1686,149 @@ mixer.recipeBuilder()
     .EUt(134217728)
     .duration(320)
     .buildAndRegister();
+
+#  MAX Components
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongStellarDebris>,
+             <ore:stickLongGalaxium> * 4,
+             <ore:ringGalaxium> * 4,
+             <ore:roundGalaxium> * 8,
+             <ore:wireFineSpacetime> * 64,
+             <ore:wireFineSpacetime> * 64,
+             <ore:cableGtSingleEternal> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 5760,
+                  <liquid:lubricant> * 11000,
+                  <liquid:rado_x> * 864,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720])
+    .outputs([<contenttweaker:motor_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:motor_max>,
+             <ore:plateGalaxium> * 4,
+             <ore:ringGalaxium> * 4,
+             <ore:roundGalaxium> * 16,
+             <ore:stickGalaxium> * 4,
+             <ore:gearSpacetime>,
+             <ore:gearSmallSpacetime> * 2,
+             <ore:cableGtSingleEternal> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 18432,
+                  <liquid:lubricant> * 11000,
+                  <liquid:rado_x> * 864,
+                  <liquid:cosmic_neutronium> * 720])
+    .outputs([<contenttweaker:piston_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongGalaxium>,
+             <ore:gearSpacetime>,
+             <ore:gearSmallSpacetime> * 3,
+             <contenttweaker:motor_max> * 2,
+             <contenttweaker:piston_max>,
+             <ore:circuitMax>,
+             <ore:circuitOpv> * 2,
+             <ore:circuitUxv> * 4,
+             <ore:cableGtSingleEternal> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 10368,
+                  <liquid:lubricant> * 11000,
+                  <liquid:rado_x> * 864,
+                  <liquid:cosmic_neutronium> * 720])
+    .outputs([<contenttweaker:robot_arm_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:motor_max> * 2,
+             <ore:plateGalaxium> * 2,
+             <ore:ringGalaxium> * 4,
+             <ore:roundGalaxium> * 16,
+             <ore:screwGalaxium> * 4,
+             <ore:cableGtSingleEternal> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 18432,
+                  <liquid:lubricant> * 11000,
+                  <liquid:rado_x> * 864,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<contenttweaker:conveyor_module_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<contenttweaker:motor_max>,
+             <gregtech:hermetic_casing:8> * 16,
+             <ore:plateGalaxium> * 2,
+             <ore:screwGalaxium> * 8,
+             <ore:ringSiliconeRubber> * 64,
+             <ore:rotorCosmicNeutronium>,
+             <ore:cableGtSingleEternal> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 18432,
+                  <liquid:lubricant> * 11000,
+                  <liquid:rado_x> * 864,
+                  <liquid:cosmic_neutronium> * 720])
+    .outputs([<contenttweaker:electric_pump_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtGalaxium>,
+             <contenttweaker:motor_max>,
+             <ore:stickLongGalaxium> * 4,
+             <contenttweaker:ultimate_nether_star>,
+             <ore:circuitMax> * 2,
+             <ore:foilSpacetime> * 64,
+             <ore:foilSpacetime> * 32,
+             <ore:cableGtSingleEternal> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 6912,
+                  <liquid:rado_x> * 864,
+                  <liquid:cosmic_neutronium> * 720])
+    .outputs([<contenttweaker:emitter_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtGalaxium>,
+             <contenttweaker:motor_max>,
+             <ore:plateGalaxium> * 4,
+             <contenttweaker:ultimate_nether_star>,
+             <ore:circuitMax> * 2,
+             <ore:foilSpacetime> * 64,
+             <ore:foilSpacetime> * 32,
+             <ore:cableGtSingleEternal> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 6912,
+                  <liquid:rado_x> * 864,
+                  <liquid:cosmic_neutronium> * 720])
+    .outputs([<contenttweaker:sensor_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+    
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtGalaxium>,
+             <ore:plateGalaxium> * 6,
+             <contenttweaker:ultimate_nether_star>,
+             <ore:circuitMax>,
+             <ore:wireFineSpacetime> * 64,
+             <ore:wireFineSpacetime> * 64,
+             <ore:cableGtSingleEternal> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 10368,
+                  <liquid:rado_x> * 864,
+                  <liquid:cosmic_neutronium> * 720])
+    .outputs([<contenttweaker:field_generator_max>])
+    .EUt(500000000)
+    .duration(3600)
+    .buildAndRegister();
+
+autoclave.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:283>])
+    .fluidInputs([<liquid:cosmic_neutronium> * 288])
+    .outputs([<contenttweaker:ultimate_nether_star>])
+    .EUt(500000000)
+    .duration(960)
+    .buildAndRegister();
