@@ -1687,9 +1687,10 @@ gregtech.material.light_rado_x_gas=轻拉多-X气
 gregtech.material.crude_rado_x=拉多-X烟溶液
 gregtech.material.cracked_rado_x=鿫裂化拉多-X烟溶液
 gregtech.material.rado_x_plasma=拉多-X等离子体
-gregtech.material.star_dust=星尘
-gregtech.material.galaxium=银河
 gregtech.material.crude_eglin_steel=埃格林钢粗胚
 gregtech.material.eglin_steel=埃格林钢
+gregtech.material.terrasteel=泰拉钢
+gregtech.material.galaxium=银河
+gregtech.material.galaxium_plasma=银河等离子体
 
 gregtech.material.titanium_platinum_vanadium_alloy=钛铂钒合金

@@ -1657,3 +1657,32 @@ cracker.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
+#  Eglin Steel
+mixer.recipeBuilder()
+    .inputs([<ore:dustIron> * 4,
+             <ore:dustKanthal> * 1,
+             <ore:dustInvar> * 5])
+    .outputs([<gregtech:meta_dust:32158> * 10])
+    .EUt(22)
+    .duration(80)
+    .buildAndRegister();
+
+mixer.recipeBuilder()
+    .inputs([<ore:dustCrudeEglinSteel> * 1,
+             <ore:dustSulfur> * 1,
+             <ore:dustSilicon> * 1,
+             <ore:dustCarbon> * 1])
+    .outputs([<gregtech:meta_dust:32159> * 4])
+    .EUt(44)
+    .duration(160)
+    .buildAndRegister();
+
+#  Terrasteel
+mixer.recipeBuilder()
+    .inputs([<ore:dustEtoilium> * 1,
+             <ore:dustLumium> * 2,
+             <ore:dustEglinSteel> * 4])
+    .outputs([<gregtech:meta_dust:32160> * 7])
+    .EUt(134217728)
+    .duration(320)
+    .buildAndRegister();

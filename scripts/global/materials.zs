@@ -1611,16 +1611,46 @@ var rado_x_plasma = MaterialBuilder(32157, "rado_x_plasma")
     .color(0x9E8DB9)
     .build();
 
-#  32158 Star dust
-var star_dust = MaterialBuilder(32158, "star_dust")
+#  32158 Crude Eglin Steel
+var crude_eglin_steel = MaterialBuilder(32158, "crude_eglin_steel")
     .dust()
-    .color(0x9999FF)
+    .color(0x8B4513)
+    .iconSet("sand")
+    .components([<material:iron> * 4,
+                 <material:kanthal> * 1,
+                 <material:invar> * 5])
     .build();
 
-#  32159 Galaxium
-var galaxium = MaterialBuilder(32159, "galaxium")
+#  32159 Eglin Steel
+var eglin_steel = MaterialBuilder(32159, "eglin_steel")
     .ingot()
-    .color(0xF5FFFA)
+    .color(0x8B4513)
+    .iconSet("metallic")
+    .components([<material:crude_eglin_steel> * 1,
+                 <material:sulfur> * 1,
+                 <material:silicon> * 1,
+                 <material:carbon> * 1])
+    .blastTemp(1048)
+    .build();
+
+#  32160 terrasteel
+var terrasteel = MaterialBuilder(32160, "terrasteel")
+    .ingot()
+    .fluid()
+    .color(0x79FE00)
+    .iconSet("metallic")
+    .components([<material:etoilium> * 1,
+                 <material:lumium> * 2,
+                 <material:eglin_steel> * 4])
+    .blastTemp(13000)
+    .cableProperties(134217728, 2, 16, false)
+    .build();
+
+#  32161 Galaxium
+var galaxium = MaterialBuilder(32161, "galaxium")
+    .ingot()
+    .fluid()
+    .color(0x29288A)
     .iconSet("bright")
     .flags(["generate_plate",
             "generate_rod",
@@ -1630,26 +1660,12 @@ var galaxium = MaterialBuilder(32159, "galaxium")
             "generate_bolt_screw",
             "generate_frame"])
     .blastTemp(18800)
+    .components([<material:terrasteel> * 1])
     .build();
 
-#  32160 Crude Eglin Steel
-var crude_eglin_steel = MaterialBuilder(32160, "crude_eglin_steel")
-    .dust()
-    .color(0x8B4513)
-    .iconSet("sand")
-    .components([<material:iron> * 4,
-                 <material:kanthal> * 1,
-                 <material:invar> * 5])
-    .build();
-
-#  32161 Eglin Steel
-var eglin_steel = MaterialBuilder(32161, "eglin_steel")
-    .ingot()
-    .color(0x8B4513)
-    .iconSet("metallic")
-    .components([<material:crude_eglin_steel> * 1,
-                 <material:sulfur> * 1,
-                 <material:silicon> * 1,
-                 <material:carbon> * 1])
-    .blastTemp(1048)
+#  32162 Galaxium Plasma
+var galaxium_plasma = MaterialBuilder(32162, "galaxium_plasma")
+    .fluid()
+    .color(0x29288A)
+    .iconSet("dull")
     .build();

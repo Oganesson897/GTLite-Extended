@@ -211,7 +211,7 @@ stellar_furnace.recipeBuilder()
     .EUt(20000000)
     .duration(250)
     .buildAndRegister();
-    
+
 #  Cosmic Polymer Matrix
 stellar_furnace.recipeBuilder()
     .inputs([<contenttweaker:qcd_charge>])
@@ -221,6 +221,16 @@ stellar_furnace.recipeBuilder()
     .duration(300)
     .buildAndRegister();
 
+#  Galaxium
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>])
+    .fluidInputs([<liquid:terrasteel> * 1000,
+                  <liquid:hyperdimensional_residue> * 1000])
+    .fluidOutputs([<liquid:galaxium_plasma> * 1000])
+    .EUt(20000000)
+    .duration(300)
+    .buildAndRegister();
+    
 #  Extremely Durable Plasma Cell
 stellar_furnace.recipeBuilder()
     .inputs([<contenttweaker:time_dilation_containment_unit>])
