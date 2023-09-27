@@ -308,6 +308,14 @@ var disabledOreDictNuggets as IItemStack[][IOreDictEntry] = {
     #  nuggetNetherStar : Extended Crafting
     <ore:nuggetNetherStar> : [
         <extendedcrafting:material:140>
+    ],
+    #  nuggetEmerald : Extended Crafting
+    <ore:nuggetEmerald> : [
+        <extendedcrafting:material:129>
+    ],
+    #  nuggetDiamond : Extended Crafting
+    <ore:nuggetDiamond> : [
+        <extendedcrafting:material:128>
     ]
 };
 
@@ -742,6 +750,14 @@ recipes.removeByRecipeName("extendedcrafting:nether_star_nugget_to");
 recipes.removeByRecipeName("avaritia:blocks/crafting/un_compressed_crafting_table");
 recipes.removeByRecipeName("extrautils2:shortcut_hopper");
 recipes.removeByRecipeName("enderio:tweak_wood_hopper");
+recipes.removeByRecipeName("extrautils2:shortcut_chest");
+recipes.removeByRecipeName("enderio:tweak_chest_from_wood");
+recipes.removeByRecipeName("minecraft:daylight_detector");
+recipes.removeByRecipeName("minecraft:comparator");
+recipes.removeByRecipeName("extendedcrafting:block_of_nether_stars_from");
+recipes.removeByRecipeName("extendedcrafting:emerald_nugget_to");
+recipes.removeByRecipeName("extendedcrafting:diamond_nugget_to");
+recipes.removeByRecipeName("projectred-core:panel_2_diamonds");
 
 #  Vanilla Stack size set
 <minecraft:snowball>.maxStackSize = 64;

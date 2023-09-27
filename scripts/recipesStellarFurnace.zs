@@ -203,6 +203,15 @@ stellar_furnace.recipeBuilder()
     .duration(300)
     .buildAndRegister();
 
+#  Rado-X
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>])
+    .fluidInputs([<liquid:cracked_rado_x> * 1440])
+    .fluidOutputs([<liquid:rado_x_plasma> * 1440])
+    .EUt(20000000)
+    .duration(250)
+    .buildAndRegister();
+    
 #  Cosmic Polymer Matrix
 stellar_furnace.recipeBuilder()
     .inputs([<contenttweaker:qcd_charge>])

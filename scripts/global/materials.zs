@@ -516,7 +516,9 @@ var cosmic_neutronium = MaterialBuilder(32038, "cosmic_neutronium")
     .fluid()
     .color(0xF3F3F3)
     .iconSet("bright")
-    .flags(["generate_plate"])
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_frame"])
     .cableProperties(2147483647, 9999, 0, true)
     .build();
 
@@ -1546,4 +1548,108 @@ var fermionic_uu_matter = MaterialBuilder(32147, "fermionic_uu_matter")
 var fugitive_uu_gas = MaterialBuilder(32148, "fugitive_uu_gas")
     .fluid()
     .color(0x6d2a50)
+    .build();
+
+#  32149  Rado-X
+var rado_x = MaterialBuilder(32149, "rado_x")
+    .fluid()
+    .color(0x9E8DB9)
+    .iconSet("dull")
+    .build();
+
+#  32150 Exotic Gas
+var exotic_gas = MaterialBuilder(32150, "exotic_gas")
+    .fluid()
+    .color(0xBEF32C)
+    .build();
+
+#  32151 Crude Exotic Gas
+var crude_exotic_gas = MaterialBuilder(32151, "crude_exotic_gas")
+    .fluid()
+    .color(0xBEF32C)
+    .iconSet("dull")
+    .build();
+
+#  32152 Medium Rado-X Gas
+var medium_rado_x_gas = MaterialBuilder(32152, "medium_rado_x_gas")
+    .fluid()
+    .color(0xACA3B9)
+    .iconSet("dull")
+    .build();
+
+#  32153 Heavy Rado-X Gas
+var heavy_rado_x_gas = MaterialBuilder(32153, "heavy_rado_x_gas")
+    .fluid()
+    .color(0x6F6382)
+    .iconSet("dull")
+    .build();
+
+#  32154 Light Rado-X Gas
+var light_rado_x_gas = MaterialBuilder(32154, "light_rado_x_gas")
+    .fluid()
+    .color(0x9999CC)
+    .iconSet("dull")
+    .build();
+
+#  32155 Crude Rado-X
+var crude_rado_x = MaterialBuilder(32155, "crude_rado_x")
+    .fluid()
+    .color(0x9E8DB9)
+    .iconSet("dull")
+    .build();
+
+#  32156 Cracked Rado-X
+var cracked_rado_x = MaterialBuilder(32156, "cracked_rado_x")
+    .fluid()
+    .color(0x9E8DB9)
+    .iconSet("dull")
+    .build();
+
+#  32157 Rado-X plasma
+var rado_x_plasma = MaterialBuilder(32157, "rado_x_plasma")
+    .fluid()
+    .color(0x9E8DB9)
+    .build();
+
+#  32158 Star dust
+var star_dust = MaterialBuilder(32158, "star_dust")
+    .dust()
+    .color(0x9999FF)
+    .build();
+
+#  32159 Galaxium
+var galaxium = MaterialBuilder(32159, "galaxium")
+    .ingot()
+    .color(0xF5FFFA)
+    .iconSet("bright")
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_long_rod",
+            "generate_ring",
+            "generate_round",
+            "generate_bolt_screw",
+            "generate_frame"])
+    .blastTemp(18800)
+    .build();
+
+#  32160 Crude Eglin Steel
+var crude_eglin_steel = MaterialBuilder(32160, "crude_eglin_steel")
+    .dust()
+    .color(0x8B4513)
+    .iconSet("sand")
+    .components([<material:iron> * 4,
+                 <material:kanthal> * 1,
+                 <material:invar> * 5])
+    .build();
+
+#  32161 Eglin Steel
+var eglin_steel = MaterialBuilder(32161, "eglin_steel")
+    .ingot()
+    .color(0x8B4513)
+    .iconSet("metallic")
+    .components([<material:crude_eglin_steel> * 1,
+                 <material:sulfur> * 1,
+                 <material:silicon> * 1,
+                 <material:carbon> * 1])
+    .blastTemp(1048)
     .build();

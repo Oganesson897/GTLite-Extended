@@ -1595,3 +1595,65 @@ fluid_solidifier.recipeBuilder()
     .duration(120)
     .buildAndRegister();
 
+#  Exotic Gas
+mixer.recipeBuilder()
+    .fluidInputs([<liquid:exotic_gas> * 1000,
+                  <liquid:unknown_liquid> * 1000])
+    .fluidOutputs([<liquid:crude_exotic_gas> * 2000])
+    .EUt(524288)
+    .duration(1200)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs([<liquid:heavy_rado_x_gas> * 16000])
+    .fluidOutputs([<liquid:crude_rado_x> * 200,
+                   <liquid:medium_rado_x_gas> * 800,
+                   <liquid:light_rado_x_gas> * 600,
+                   <liquid:heavy_taranium_gas> * 400,
+                   <liquid:medium_taranium_gas> * 2800,
+                   <liquid:light_taranium_gas> * 6200,
+                   <liquid:tiberium> * 1000,
+                   <liquid:tritanium> * 2000,
+                   <liquid:trinium> * 2000])
+    .EUt(503316480)
+    .duration(1200)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs([<liquid:medium_rado_x_gas> * 16000])
+    .fluidOutputs([<liquid:crude_rado_x> * 200,
+                   <liquid:heavy_rado_x_gas> * 400,
+                   <liquid:light_rado_x_gas> * 1000,
+                   <liquid:heavy_taranium_gas> * 200,
+                   <liquid:medium_taranium_gas> * 3000,
+                   <liquid:light_taranium_gas> * 6000,
+                   <liquid:tiberium> * 1200,
+                   <liquid:tritanium> * 3000,
+                   <liquid:trinium> * 1000])
+    .EUt(503316480)
+    .duration(1200)
+    .buildAndRegister();
+
+distillation_tower.recipeBuilder()
+    .fluidInputs([<liquid:light_rado_x_gas> * 16000])
+    .fluidOutputs([<liquid:crude_rado_x> * 200,
+                   <liquid:heavy_rado_x_gas> * 200,
+                   <liquid:light_rado_x_gas> * 600,
+                   <liquid:heavy_taranium_gas> * 200,
+                   <liquid:medium_taranium_gas> * 1000,
+                   <liquid:light_taranium_gas> * 8800,
+                   <liquid:tiberium> * 800,
+                   <liquid:tritanium> * 1000,
+                   <liquid:trinium> * 3200])
+    .EUt(503316480)
+    .duration(1200)
+    .buildAndRegister();
+
+cracker.recipeBuilder()
+    .fluidInputs([<liquid:crude_rado_x> * 1000,
+                  <liquid:oganesson> * 2000])
+    .fluidOutputs([<liquid:cracked_rado_x> * 1440])
+    .EUt(8866300)
+    .duration(200)
+    .buildAndRegister();
+

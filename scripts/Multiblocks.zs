@@ -1009,7 +1009,7 @@ assembly_line.recipeBuilder()
                   <liquid:black_hole_matter_polymer_matrix> * 5760])
     .outputs([<gregtech:machine:32004>])
     .EUt(500000000)
-    .duration(16000)
+    .duration(80000)
     .buildAndRegister();
 
 // --------------------------------------------------------------------------------------------------------------------------------
@@ -2882,7 +2882,7 @@ assembly_line.recipeBuilder()
                   <liquid:naquadah_enriched> * 288])
     .outputs([<gregtech:machine:32015>])
     .EUt(130000)
-    .duration(80000)
+    .duration(40000)
     .buildAndRegister();
 
 // --------------------------------------------------------------------------------------------------------------------------------

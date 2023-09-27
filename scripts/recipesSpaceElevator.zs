@@ -1141,4 +1141,14 @@ space_elevator.recipeBuilder()
     .duration(600)
     .buildAndRegister();
 
+space_elevator.recipeBuilder()
+    .notConsumable([<contenttweaker:mining_drone_opv>,
+                    <gregtech:meta_item_1:154>])
+    .circuit(1)
+    .fluidInputs([<liquid:rocket_fuel> * 1000])
+    .fluidOutputs([<liquid:exotic_gas> * 16000])
+    .EUt(28337500)
+    .duration(600)
+    .buildAndRegister();
+
 ##  MAX : 28337500 EU/t : 600 tick
