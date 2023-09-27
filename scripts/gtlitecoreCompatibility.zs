@@ -32,6 +32,49 @@ makeShaped("large_chemical_dryer", <gregtech:machine:11302>,
         "Q": <ore:cableGtSingleGraphene>
     });
 
+makeShaped("large_slicer", <gregtech:machine:11303>,
+    [
+        "GAG",
+        "BCB",
+        "GQG"
+    ],
+    {
+        "A": <ore:toolHeadBuzzSawUltimet>,
+        "C": <gregtech:machine:8506>,
+        "B": <gregtech:meta_item_1:160>,
+        "Q": <ore:cableGtSingleAluminium>,
+        "G": <gregtech:transparent_casing:3>
+    });
+
+makeShaped("large_multicooker", <gregtech:machine:11304>,
+    [
+        "GGG",
+        "COD",
+        "QAQ"
+    ],
+    {
+        "C": <gregtech:machine:8569>,
+        "D": <gregtech:machine:8534>,
+        "A": <gregtech:meta_item_1:130>,
+        "Q": <ore:cableGtSingleAluminium>,
+        "O": <ore:circuitIv>,
+        "G": <gregtech:transparent_casing>
+    });
+
+makeShaped("large_alloy_smelter", <gregtech:machine:11305>,
+    [
+        "TST",
+        "XCX",
+        "TQT"
+    ],
+    {
+        "C": <gregtech:machine:83>,
+        "X": <gregtech:meta_item_1:100>,
+        "S": <ore:springNichrome>,
+        "T": <ore:stickNichrome>,
+        "Q": <ore:cableGtSingleAluminium>
+    });
+
 #  Energy hatches
 
 ##  4A UEV
