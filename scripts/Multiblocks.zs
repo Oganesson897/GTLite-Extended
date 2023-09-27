@@ -7442,6 +7442,21 @@ var nuclear_reactor = Builder.start("nuclear_reactor")
     .withBaseTexture(<blockstate:contenttweaker:cladded_reactor_casing>)
     .buildAndRegister();
 
+makeShaped("nuclear_reactor", <gregtech:machine:32028>,
+    [
+        "APA",
+        "BCB",
+        "QOQ"
+    ],
+    {
+        "C": <gregtech:machine:989>,
+        "P": <ore:plateUranium238>,
+        "O": <ore:circuitIv>,
+        "Q": <ore:cableGtSingleAluminium>,
+        "A": <gregtech:meta_item_1:130>,
+        "B": <gregtech:meta_item_1:291>
+    });
+
 // --------------------------------------------------------------------------------------------------------------------------------
 var isotope_gas_centrifuge = Builder.start("isotope_gas_centrifuge")
     .withPattern(function (controller as IControllerTile) as IBlockPattern {

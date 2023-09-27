@@ -24024,7 +24024,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用镓与§d氡§r聚变得到§a铿铀§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24048,7 +24048,26 @@
         }
       },
       "questID:3": 344,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "radon"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24073,7 +24092,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "§a核聚变型烧水机§r\n\n或许也可以算作在烧锅炉...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -24097,7 +24116,20 @@
         }
       },
       "questID:3": 345,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 2013,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -24150,7 +24182,20 @@
         }
       },
       "questID:3": 346,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:transparent_casing"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31743,7 +31788,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用§8钕§r与§b氢§r聚变得到§9铕§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -31767,7 +31812,20 @@
         }
       },
       "questID:3": 462,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 66,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -31976,7 +32034,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的第一个聚变机器外壳！\n\n它看起来像一个蓝莓果冻，不是么？",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -32000,7 +32058,20 @@
         }
       },
       "questID:3": 466,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "gregtech:fusion_casing"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -53485,7 +53556,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你的超维度采矿无人机似乎又带来了些意想不到的收获...",
+          "desc:8": "你的超维度采矿无人机似乎又带来了些意想不到的收获...\n\n这种特殊的天然气十分珍贵，\n\n至少比起你曾经获取的一般的§6天然气§r要含有更多有价值的东西。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53515,7 +53586,26 @@
         }
       },
       "questID:3": 867,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 512000,
+                  "FluidName:8": "natural_gas"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -53542,7 +53632,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "在数次试图分离异星天然气无果后，你试着混合异星天然气与§a未知液体§r。\n\n它们似乎成功地混合在一起了！这肯定是个好的开始。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53572,7 +53662,26 @@
         }
       },
       "questID:3": 868,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "unknown_liquid"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -53597,7 +53706,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你试着将混合后得到的液体倒入蒸馏塔，但是什么都没发生。\n\n在你把能想到的合理容器都试验了一遍仍旧没有成果后，\n\n你有些自暴自弃地将它们倒入了§6同位素气体离心机§r，\n\n但这次操作却成功将这些液体分离了，这也就是说：\n\n§2§l这些液体其实是看起来是液体的气体？",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53627,7 +53736,26 @@
         }
       },
       "questID:3": 869,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 512,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "exotic_gas"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -53680,7 +53808,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "在§b拉多-X气§r的蒸馏中你可以获取各种资源，\n\n其中最为重要的一种是§d拉多-X烟溶液§r。\n\n除此以外，你还可以获取塔兰金属气，泰伯利亚，三钛合金与凯金等资源。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53698,7 +53826,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "拉多-X沉淀基质",
+          "name:8": "拉多-X烟溶液",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -53710,7 +53838,26 @@
         }
       },
       "questID:3": 870,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 512000,
+                  "FluidName:8": "rocket_fuel"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -53735,7 +53882,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "一种新型聚合物！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53765,7 +53912,74 @@
         }
       },
       "questID:3": 871,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 32,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 512000,
+                  "FluidName:8": "black_hole_matter_polymer_matrix"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 64,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 512000,
+                  "FluidName:8": "zylon"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 128,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 512000,
+                  "FluidName:8": "kevlar"
+                }
+              }
+            },
+            "3:10": {
+              "Count:3": 256,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 512000,
+                  "FluidName:8": "polyetheretherketone"
+                }
+              }
+            },
+            "4:10": {
+              "Count:3": 512,
+              "Damage:2": 84,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 512000,
+                  "FluidName:8": "polybenzimidazole"
+                }
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -53804,7 +54018,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o你的意识无穷逼近于空，而连空这个概念仿佛都消失了...\n\n时间与空间的概念就此消解，而你最终矗立在绝对虚无的世界中...\n\n手中所剩无几的粉末或许就是物质这一概念消失后的产物...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53828,7 +54042,20 @@
         }
       },
       "questID:3": 872,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 32099,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -59307,7 +59534,26 @@
         }
       },
       "questID:3": 1002,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "tachyon_plasma"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -70363,7 +70609,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§e用宇宙物质织布！§r\n\n或许不需要一台纺织机，而只需要一个§6冲压机床§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -70393,7 +70639,26 @@
         }
       },
       "questID:3": 1208,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 32143,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 89,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -71840,7 +72105,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o你将银河挤压，一颗颗星体在你手中碎裂...\n\n璀璨的星河在你的手中坍缩，你似乎听到了若有若无的哀嚎声...\n\n这些星辰最终回归太初，仿佛大爆炸从未发生...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -71864,7 +72129,20 @@
         }
       },
       "questID:3": 1235,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 32160,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -71944,7 +72222,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o手握时间与空间，你的思考轻易洞穿了过去，现在与未来...\n\n历史对你而言不过眼前之事，因果的障壁也只需随手便可击破...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -71968,7 +72246,50 @@
         }
       },
       "questID:3": 1237,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 512,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 64000,
+                  "FluidName:8": "liquid_air"
+                }
+              }
+            },
+            "1:10": {
+              "Count:3": 512,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 64000,
+                  "FluidName:8": "liquid_nether_air"
+                }
+              }
+            },
+            "2:10": {
+              "Count:3": 512,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 64000,
+                  "FluidName:8": "liquid_ender_air"
+                }
+              }
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -74432,7 +74753,7 @@
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
+          "x:3": 288,
           "y:3": -132
         },
         "21:10": {
@@ -74446,7 +74767,7 @@
           "id:3": 258,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 324,
+          "x:3": 336,
           "y:3": -132
         },
         "23:10": {
@@ -74579,14 +74900,14 @@
           "id:3": 311,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
+          "x:3": 288,
           "y:3": -84
         },
         "42:10": {
           "id:3": 312,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 324,
+          "x:3": 336,
           "y:3": -84
         },
         "43:10": {
@@ -74605,7 +74926,7 @@
         },
         "45:10": {
           "id:3": 363,
-          "sizeX:3": 24,
+          "sizeX:3": 36,
           "sizeY:3": 24,
           "x:3": 228,
           "y:3": -132
@@ -75321,7 +75642,7 @@
           "id:3": 289,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 516,
+          "x:3": 492,
           "y:3": 120
         },
         "1:10": {
@@ -75335,7 +75656,7 @@
           "id:3": 299,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 516,
+          "x:3": 492,
           "y:3": -144
         },
         "3:10": {
@@ -75343,41 +75664,41 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 252,
-          "y:3": -72
+          "y:3": -96
         },
         "4:10": {
           "id:3": 301,
-          "sizeX:3": 72,
-          "sizeY:3": 72,
-          "x:3": 168,
-          "y:3": -168
+          "sizeX:3": 48,
+          "sizeY:3": 48,
+          "x:3": 180,
+          "y:3": -156
         },
         "5:10": {
           "id:3": 302,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 252,
-          "y:3": 24
+          "y:3": 12
         },
         "6:10": {
           "id:3": 330,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 516,
+          "x:3": 492,
           "y:3": -48
         },
         "7:10": {
           "id:3": 331,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 516,
-          "y:3": 24
+          "x:3": 492,
+          "y:3": 12
         },
         "8:10": {
           "id:3": 332,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 516,
+          "x:3": 492,
           "y:3": 72
         },
         "9:10": {
@@ -75391,7 +75712,7 @@
           "id:3": 344,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 276,
+          "x:3": 300,
           "y:3": -144
         },
         "11:10": {
@@ -75399,21 +75720,21 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": -72
+          "y:3": -96
         },
         "12:10": {
           "id:3": 346,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": -72
+          "y:3": -96
         },
         "13:10": {
           "id:3": 384,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 252,
-          "y:3": -24
+          "y:3": -48
         },
         "14:10": {
           "id:3": 401,
@@ -75427,14 +75748,14 @@
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 180,
-          "y:3": 12
+          "y:3": 0
         },
         "16:10": {
           "id:3": 414,
           "sizeX:3": 24,
           "sizeY:3": 48,
           "x:3": 120,
-          "y:3": 12
+          "y:3": 0
         },
         "17:10": {
           "id:3": 419,
@@ -75539,7 +75860,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 444,
-          "y:3": 24
+          "y:3": 12
         },
         "32:10": {
           "id:3": 461,
@@ -75552,7 +75873,7 @@
           "id:3": 462,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 324,
+          "x:3": 348,
           "y:3": -144
         },
         "34:10": {
@@ -75560,14 +75881,14 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 120,
-          "y:3": -24
+          "y:3": -48
         },
         "35:10": {
           "id:3": 464,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 192,
-          "y:3": -24
+          "y:3": -48
         },
         "36:10": {
           "id:3": 465,
@@ -75592,31 +75913,31 @@
         },
         "39:10": {
           "id:3": 468,
-          "sizeX:3": 72,
+          "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 576,
+          "x:3": 540,
           "y:3": -156
         },
         "40:10": {
           "id:3": 469,
           "sizeX:3": 48,
           "sizeY:3": 24,
-          "x:3": 588,
-          "y:3": -72
+          "x:3": 540,
+          "y:3": -96
         },
         "41:10": {
           "id:3": 471,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 588,
-          "y:3": 12
+          "x:3": 540,
+          "y:3": 0
         },
         "42:10": {
           "id:3": 472,
           "sizeX:3": 24,
-          "sizeY:3": 36,
-          "x:3": 600,
-          "y:3": -36
+          "sizeY:3": 24,
+          "x:3": 552,
+          "y:3": -48
         },
         "43:10": {
           "id:3": 473,
@@ -75637,7 +75958,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
-          "y:3": 24
+          "y:3": 12
         },
         "46:10": {
           "id:3": 476,
@@ -75672,7 +75993,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 348,
-          "y:3": 24
+          "y:3": 12
         },
         "51:10": {
           "id:3": 481,
@@ -75700,7 +76021,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 300,
-          "y:3": -72
+          "y:3": -96
         },
         "55:10": {
           "id:3": 528,
