@@ -62,7 +62,7 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
                     <gregtech:meta_item_1:199>,
                     <gregtech:meta_item_1:214>])
     .inputs([<contenttweaker:manifold_oscillatory_power_cell> * 64])
-    .fluidInputs([<liquid:liquid_air> * 4096000,
+    .fluidInputs([<liquid:liquid_air> * 409600,
                   <liquid:liquid_nether_air> * 409600,
                   <liquid:liquid_ender_air> * 409600])
     .outputs([<gregtech:meta_dust_tiny:32163> * 3])

@@ -145,6 +145,18 @@ makeShaped("hassium_casing", <contenttweaker:hassium_casing> * 2,
         "W": <ore:craftingToolWrench>
     });
 
+makeShaped("ultimate_fusion_binding_unit", <contenttweaker:ultimate_fusion_binding_unit>,
+    [
+        "MUM",
+        "UCU",
+        "MUM"
+    ],
+    {
+        "C": <contenttweaker:naquadah_fusion_binding_unit>,
+        "M": <gregtech:fusion_casing:4>,
+        "U": <ore:circuitUv>
+    });
+
 assembler.recipeBuilder()
     .inputs([<ore:plateBlueSteel> * 6,
              <ore:frameGtBlackSteel>])
