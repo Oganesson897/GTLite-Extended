@@ -692,7 +692,7 @@ metaitem.turbine_rotor.name=%s涡轮转子
 metaitem.turbine_rotor.tooltip=供涡轮机使用的涡轮转子
 
 metaitem.clipboard.name=写字板
-metaitem.clipboard.tooltip=可以在上面写东西（不需要任何书写工具）。手持写字板鼠标右击墙面可放置，按住 SHIFT 后鼠标右击则可取下
+metaitem.clipboard.tooltip=可以在上面写东西。手持写字板右击墙面可放置，按住 SHIFT 后鼠标右击则可取下
 
 metaitem.behavior.mode_switch.tooltip=按住 SHIFT 鼠标右击以切换模式
 metaitem.behavior.mode_switch.mode_switched=§e模式设置为：%s
@@ -1138,6 +1138,10 @@ gregtech.multiblock.research_station.description=研究站是一个用于研究�
 
 recipemap.research_station.name=研究站
 
+gregtech.machine.assembly_line.tooltip_ordered_items=§f物品§7必须有序输入
+gregtech.machine.assembly_line.tooltip_ordered_fluids=§f流体§7必须有序输入
+gregtech.machine.assembly_line.tooltip_ordered_both=§f物品§7与§f流体§7均必须有序输入
+
 tile.optical_pipe_normal.name=光缆
 tile.optical_pipe_normal.tooltip1=传递 §f算力§7 或 §f研究数据§7
 tile.laser_pipe_normal.name=激光传导线缆
@@ -1224,6 +1228,9 @@ tile.metal_casing.palladium_substation.name=镀钯铱制电容库机器外壳
 gregtech.material.biphenyl=联苯
 gregtech.material.polychlorinated_biphenyl=多氯联苯
 gregtech.material.pcb_coolant=电介质多氯联苯冷却液
+
+metaitem.cover.maintenance.detector.name=故障覆盖板
+metaitem.cover.maintenance.detector.tooltip=作§f覆盖板§7时接收红石信号使得机器出现§f维修问题§7
 
 #  GCYS
 gregtech.material.lithium_6=锂-6

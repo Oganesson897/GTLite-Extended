@@ -557,3 +557,21 @@ assembly_line.recipeBuilder()
     .EUt(100000000)
     .duration(200)
     .buildAndRegister();
+
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtGalaxium>,
+             <gregtech:multiblock_casing:3> * 2,
+             <gregtech:meta_item_1:199>,
+             <gregtech:meta_item_1:229>,
+             <gregtech:meta_item_1:169> * 2,
+             <ore:gearSpacetime> * 2,
+             <ore:gearSmallSpacetime> * 6,
+             <ore:foilEternal> * 32,
+             <ore:cableGtHexHypogen> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 5760,
+                  <liquid:rado_x> * 576,
+                  <liquid:cosmic_polymer_matrix> * 576])
+    .outputs([<contenttweaker:suprachronal_assembler_casing> * 2])
+    .EUt(503316480)
+    .duration(160)
+    .buildAndRegister();
