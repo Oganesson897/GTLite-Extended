@@ -28,6 +28,7 @@ var blue_steel                             = <material:blue_steel>;
 var vanadium_steel                         = <material:vanadium_steel>;
 var steel                                  = <material:steel>;
 var adamantium                             = <material:adamantium>;
+var obsidian                               = <material:obsidian>;
 
 #  MaterialFlags : IngotProperty
 
@@ -51,6 +52,7 @@ blue_steel.addFlags(["generate_dense", "generate_double_plate"]);
 vanadium_steel.addFlags(["generate_dense"]);
 steel.addFlags(["generate_dense"]);
 adamantium.addFlags(["generate_dense"]);
+obsidian.addFlags(["generate_rod"]);
 
 #  MaterialFlags : GemProperty
 topaz.addFlags(["generate_lens"]);
@@ -1640,6 +1642,9 @@ var eglin_steel = MaterialBuilder(32159, "eglin_steel")
                  <material:sulfur> * 1,
                  <material:silicon> * 1,
                  <material:carbon> * 1])
+    .flags(["generate_plate",
+            "generate_rod",
+            "generate_frame"])
     .blastTemp(1048)
     .build();
 

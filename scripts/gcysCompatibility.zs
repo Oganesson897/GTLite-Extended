@@ -3591,7 +3591,7 @@ assembler.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
-#  Grinder
+#  Boron Nitride Grinder
 makeShaped("boron_nitride_grinder", <gcys:meta_item_1:480>,
     [
         "NDN",

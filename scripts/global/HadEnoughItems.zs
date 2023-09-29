@@ -760,6 +760,8 @@ recipes.removeByRecipeName("extendedcrafting:block_of_nether_stars_from");
 recipes.removeByRecipeName("extendedcrafting:emerald_nugget_to");
 recipes.removeByRecipeName("extendedcrafting:diamond_nugget_to");
 recipes.removeByRecipeName("projectred-core:panel_2_diamonds");
+recipes.removeByRecipeName("avaritiaddons:infinity_compressor");
+recipes.removeByRecipeName("avaritiaddons:infinity_chest");
 
 #  Vanilla Stack size set
 <minecraft:snowball>.maxStackSize = 64;

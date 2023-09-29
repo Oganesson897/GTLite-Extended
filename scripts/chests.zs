@@ -131,7 +131,7 @@ assembler.recipeBuilder()
 #  Diamond chest
 assembler.recipeBuilder()
     .inputs([<ironchest:iron_chest:1>,
-             <ore:plateDiamond>])
+             <ore:plateDiamond> * 8])
     .outputs([<ironchest:iron_chest:2>])
     .EUt(16)
     .duration(300)
@@ -160,3 +160,107 @@ assembler.recipeBuilder()
     .EUt(16)
     .duration(300)
     .buildAndRegister();
+
+#  Transporters
+lathe.recipeBuilder()
+    .inputs([<minecraft:obsidian>])
+    .outputs([<gregtech:meta_stick:297> * 2])
+    .EUt(16)
+    .duration(60)
+    .buildAndRegister();
+
+recipes.remove(<chesttransporter:chesttransporter>);
+makeShaped("wood_transporter", <chesttransporter:chesttransporter>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickWood>
+    });
+
+recipes.remove(<chesttransporter:chesttransporter_iron>);
+makeShaped("iron_transporter", <chesttransporter:chesttransporter_iron>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickIron>
+    });
+
+recipes.remove(<chesttransporter:chesttransporter_gold>);
+makeShaped("gold_transporter", <chesttransporter:chesttransporter_gold>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickGold>
+    });
+
+recipes.remove(<chesttransporter:chesttransporter_diamond>);
+makeShaped("diamond_transporter", <chesttransporter:chesttransporter_diamond>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickDiamond>
+    });
+
+recipes.remove(<chesttransporter:chesttransporter_copper>);
+makeShaped("copper_transporter", <chesttransporter:chesttransporter_copper>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickCopper>
+    });
+
+recipes.remove(<chesttransporter:chesttransporter_silver>);
+makeShaped("silver_transporter", <chesttransporter:chesttransporter_silver>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickSilver>
+    });
+
+recipes.remove(<chesttransporter:chesttransporter_tin>);
+makeShaped("tin_transporter", <chesttransporter:chesttransporter_tin>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickTin>
+    });
+
+recipes.remove(<chesttransporter:chesttransporter_obsidian>);
+makeShaped("obsidian_transporter", <chesttransporter:chesttransporter_obsidian>,
+    [
+        "S S",
+        "SSS",
+        " R "
+    ],
+    {
+        "S": <ore:stickWood>,
+        "R": <ore:stickObsidian>
+    });
