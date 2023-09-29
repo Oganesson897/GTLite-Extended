@@ -414,8 +414,7 @@ makeShaped("charger_2", <appliedenergistics2:charger>,
     });
 
 recipes.remove(<appliedenergistics2:chest>);
-
-makeShaped("me_chest", <appliedenergistics2:chest>,
+makeShaped("me_chest_lv", <appliedenergistics2:chest>,
     [
         "FAF",
         "PCP",
@@ -429,7 +428,6 @@ makeShaped("me_chest", <appliedenergistics2:chest>,
     });
 
 recipes.remove(<appliedenergistics2:drive>);
-
 makeShaped("me_drive", <appliedenergistics2:drive>,
     [
         "PBP",

@@ -149,6 +149,50 @@ assembler.recipeBuilder()
     .duration(300)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:2>,
+             <gregtech:transparent_casing> * 4,
+             <gregtech:meta_item_1:203> * 2,
+             <ore:wireFineCopper> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:5> * 4])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:2>,
+             <gregtech:transparent_casing> * 4,
+             <gregtech:meta_item_1:204> * 2,
+             <ore:wireFineGold> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:5> * 16])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:2>,
+             <gregtech:transparent_casing:2> * 4,
+             <gregtech:meta_item_1:205> * 2,
+             <ore:wireFineAluminium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:5> * 32])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:2>,
+             <gregtech:transparent_casing:2> * 4,
+             <gregtech:meta_item_1:206> * 2,
+             <ore:wireFineTungstenSteel> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:5> * 64])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
 #  Obsidian chest
 assembler.recipeBuilder()
     .inputs([<ironchest:iron_chest:5>,
@@ -157,6 +201,50 @@ assembler.recipeBuilder()
              <ore:wireFineTin> * 4])
     .fluidInputs([<liquid:soldering_alloy> * 144])
     .outputs([<ironchest:iron_chest:6>])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:5>,
+             <ore:plateObsidian> * 4,
+             <gregtech:meta_item_1:203> * 2,
+             <ore:wireFineCopper> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:6> * 4])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:5>,
+             <ore:plateObsidian> * 4,
+             <gregtech:meta_item_1:204> * 2,
+             <ore:wireFineGold> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:6> * 16])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:5>,
+             <ore:plateObsidian> * 4,
+             <gregtech:meta_item_1:205> * 2,
+             <ore:wireFineAluminium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:6> * 32])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:5>,
+             <ore:plateObsidian> * 4,
+             <gregtech:meta_item_1:206> * 2,
+             <ore:wireFineTungstenSteel> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 144])
+    .outputs([<ironchest:iron_chest:6> * 64])
     .EUt(16)
     .duration(300)
     .buildAndRegister();
