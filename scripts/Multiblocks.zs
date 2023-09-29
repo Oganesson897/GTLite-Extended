@@ -7618,3 +7618,61 @@ assembler.recipeBuilder()
     .EUt(491520)
     .duration(890)
     .buildAndRegister();
+
+// --------------------------------------------------------------------------------------------------------------------------------
+var large_gas_collector = Builder.start("large_gas_collector")
+    .withPattern(function (controller as IControllerTile) as IBlockPattern {
+        return FactoryBlockPattern.start()
+            .aisle("F   F", "F   F", "CCCCC", "CCCCC", "CCCCC")
+            .aisle("     ", "     ", "CCCCC", "GACAG", "CCCCC")
+            .aisle("F   F", "F   F", "CCCCC", "CCOCC", "CCCCC")
+            .where("O", controller.self())
+            .where("A", <blockstate:gcys:multiblock_casing_active>)
+            .where("G", <metastate:gregtech:transparent_casing:2>)
+            .where("F", <metastate:gregtech:meta_block_frame_2009:15>)
+            .where("C", CTPredicate.states(<blockstate:contenttweaker:eglin_steel_casing>)
+                      | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(1)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1)
+                      | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>)
+                                   .setMinGlobalLimited(1)
+                                   .setMaxGlobalLimited(2)
+                                   .setPreviewCount(1))
+            .where(" ", CTPredicate.getAny())
+            .build();
+        } as IPatternBuilderFunction)
+    .withRecipeMap(
+        FactoryRecipeMap.start("large_gas_collector")
+            .minInputs(1)
+            .maxInputs(2)
+            .minFluidOutputs(1)
+            .maxFluidOutputs(1)
+            .build()
+    )
+    .withBaseTexture(<blockstate:contenttweaker:eglin_steel_casing>)
+    .buildAndRegister();
+
+large_gas_collector.frontOverlay = <cube_renderer:GAS_COLLECTOR_OVERLAY>;
+
+makeShaped("large_gas_collector", <gregtech:machine:32031>,
+    [
+        "QRQ",
+        "OCO",
+        "QAQ"
+    ],
+    {
+        "R": <ore:rotorStainlessSteel>,
+        "C": <gregtech:machine:532>,
+        "O": <ore:circuitEv>,
+        "A": <gregtech:meta_item_1:129>,
+        "Q": <ore:cableGtSingleGold>
+    });

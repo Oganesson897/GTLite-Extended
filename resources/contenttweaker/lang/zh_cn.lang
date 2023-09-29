@@ -160,6 +160,7 @@ tile.contenttweaker.divertor_mk_iii.name=次世代聚变反应堆偏滤器 Mk II
 tile.contenttweaker.vacuum_mk_i.name=次世代聚变反应堆真空仓 Mk I
 tile.contenttweaker.vacuum_mk_ii.name=次世代聚变反应堆真空仓 Mk II
 tile.contenttweaker.vacuum_mk_iii.name=次世代聚变反应堆真空仓 Mk III
+tile.contenttweaker.eglin_steel_casing.name=埃格林钢机器外壳
 
 #  Others
 tile.contenttweaker.qcd_charge.name=量子色动力学爆弹

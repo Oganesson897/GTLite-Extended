@@ -518,6 +518,9 @@ var vacuum_mk_ii = VanillaFactory.createBlock("vacuum_mk_ii", <blockmaterial:iro
 var vacuum_mk_iii = VanillaFactory.createBlock("vacuum_mk_iii", <blockmaterial:iron>);
     vacuum_mk_iii.register();
 
+var eglin_steel_casing = VanillaFactory.createBlock("eglin_steel_casing", <blockmaterial:iron>);
+    eglin_steel_casing.register();
+
 #  End Game items
 var singularity_of_universe = VanillaFactory.createItem("singularity_of_universe");
     singularity_of_universe.maxStackSize = 64;

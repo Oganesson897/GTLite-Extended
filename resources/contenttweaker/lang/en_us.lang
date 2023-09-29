@@ -137,6 +137,7 @@ tile.contenttweaker.divertor_mk_iii.name=Advanced Fusion Reactor Divertor MK III
 tile.contenttweaker.vacuum_mk_i.name=Advanced Fusion Reactor Vacuum MK I
 tile.contenttweaker.vacuum_mk_ii.name=Advanced Fusion Reactor Vacuum MK II
 tile.contenttweaker.vacuum_mk_iii.name=Advanced Fusion Reactor Vacuum MK III
+tile.contenttweaker.eglin_steel_casing.name=Eglin Steel Machine Casing
 
 #  Others
 tile.contenttweaker.qcd_charge.name=Quantum Chromodynamics Charge
