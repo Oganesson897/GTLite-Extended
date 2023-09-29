@@ -285,6 +285,31 @@ makeShaped("eio_basic_capacitor_2", <enderio:item_basic_capacitor> * 16,
         "A": <gregtech:meta_item_1:520>
     });
 
+recipes.remove(<enderio:item_capacitor_silver>);
+makeShaped("eio_silver_capacitor_1", <enderio:item_capacitor_silver> * 16,
+    [
+        " BA",
+        "BCB",
+        "AB "
+    ],
+    {
+        "B": <ore:boltElectrum>,
+        "C": <ore:ingotSilver>,
+        "A": <gregtech:meta_item_1:520>
+    });
+
+makeShaped("eio_silver_capacitor_2", <enderio:item_capacitor_silver> * 16,
+    [
+        "AB ",
+        "BCB",
+        " BA"
+    ],
+    {
+        "B": <ore:boltElectrum>,
+        "C": <ore:ingotSilver>,
+        "A": <gregtech:meta_item_1:520>
+    });
+
 recipes.remove(<enderio:item_basic_capacitor:1>);
 makeShaped("eio_double_layer_capacitor", <enderio:item_basic_capacitor:1> * 16,
     [
@@ -298,6 +323,19 @@ makeShaped("eio_double_layer_capacitor", <enderio:item_basic_capacitor:1> * 16,
         "S": <ore:stickBlueAlloy>
     });
 
+recipes.remove(<enderio:item_capacitor_energetic_silver>);
+makeShaped("eio_energetic_silver_capacitor", <enderio:item_capacitor_energetic_silver> * 16,
+    [
+        " E ",
+        "CSC",
+        " E "
+    ],
+    {
+        "C": <enderio:item_capacitor_silver>,
+        "E": <ore:ingotEnergeticSilver>,
+        "S": <ore:stickBlueAlloy>
+    });
+
 recipes.remove(<enderio:item_basic_capacitor:2>);
 makeShaped("eio_octadic_capacitor", <enderio:item_basic_capacitor:2> * 16,
     [
@@ -308,6 +346,19 @@ makeShaped("eio_octadic_capacitor", <enderio:item_basic_capacitor:2> * 16,
     {
         "C": <enderio:item_basic_capacitor:1>,
         "V": <ore:ingotVibrantAlloy>,
+        "S": <ore:stickKanthal>
+    });
+
+recipes.remove(<enderio:item_capacitor_vivid>);
+makeShaped("eio_vivid_alloy_capacitor", <enderio:item_capacitor_vivid> * 16,
+    [
+        " V ",
+        "CSC",
+        " V "
+    ],
+    {
+        "C": <enderio:item_capacitor_energetic_silver>,
+        "V": <ore:ingotVividAlloy>,
         "S": <ore:stickKanthal>
     });
 
@@ -966,3 +1017,11 @@ makeShaped("stellar_alloy_solar_panel", <enderio:block_solar_panel:6>,
         "X": <enderio:item_material:3>,
         "R": <ore:gearStellarAlloy>
     });
+
+chemical_bath.recipeBuilder()
+    .inputs([<enderio:item_material:43>])
+    .fluidInputs([<liquid:glowstone> * 144])
+    .outputs([<enderio:item_material:44>])
+    .EUt(512)
+    .duration(160)
+    .buildAndRegister();
