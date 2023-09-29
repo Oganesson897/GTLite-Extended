@@ -27,6 +27,7 @@ var duranium                               = <material:duranium>;
 var blue_steel                             = <material:blue_steel>;
 var vanadium_steel                         = <material:vanadium_steel>;
 var steel                                  = <material:steel>;
+var adamantium                             = <material:adamantium>;
 
 #  MaterialFlags : IngotProperty
 
@@ -49,6 +50,7 @@ duranium.addFlags(["generate_frame", "generate_ring"]);
 blue_steel.addFlags(["generate_dense", "generate_double_plate"]);
 vanadium_steel.addFlags(["generate_dense"]);
 steel.addFlags(["generate_dense"]);
+adamantium.addFlags(["generate_dense"]);
 
 #  MaterialFlags : GemProperty
 topaz.addFlags(["generate_lens"]);
@@ -263,7 +265,8 @@ var aurorium = MaterialBuilder(32016, "aurorium")
             "generate_long_rod",
             "generate_round",
             "generate_ring",
-            "generate_rotor"])
+            "generate_rotor",
+            "generate_dense"])
     .cableProperties(134217728, 32, 0, true)
     .build();
 
@@ -294,7 +297,8 @@ var infinity = MaterialBuilder(32018, "infinity")
             "generate_rod",
             "generate_screw",
             "generate_ring",
-            "generate_rotor"])
+            "generate_rotor",
+            "generate_dense"])
     .cableProperties(536870912, 64, 0, true)
     .build();
 
@@ -359,6 +363,7 @@ var hdcs = MaterialBuilder(32022, "hdcs")
             "generate_round",
             "generate_bolt_screw",
             "generate_frame"])
+    .toolStats(20.0F, 10.0F, 18000, 18)
     .blastTemp(13501)
     .build();
 
@@ -505,6 +510,7 @@ var austenite_steel = MaterialBuilder(32037, "austenite_steel")
             "generate_round",
             "generate_bolt_screw",
             "generate_frame"])
+    .toolStats(30.0F, 25.0F, 33800, 25)
     .blastTemp(16600)
     .build();
     
@@ -661,6 +667,7 @@ var hypogen = MaterialBuilder(32048, "hypogen")
             "generate_frame"])
     .cableProperties(536870912, 999, 32, false)
     .blastTemp(18800)
+    .toolStats(80.0F, 40.0F, 2147483647, 99)
     .build();
 
 <material:hypogen>.setFormula("(Nt3(Ad3O4)7Sd?)2(?4Ag4Nt)4", true);

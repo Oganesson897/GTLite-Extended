@@ -764,7 +764,7 @@ makeShaped("uev_cutting_machine", <gregtech:machine:254>,
         "A": <gregtech:meta_item_1:166>,
         "B": <gregtech:meta_item_1:136>,
         "C": <gregtech:machine:995>,
-        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "D": <ore:toolHeadBuzzSawHdcs>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitUev>,
         "Q": <ore:cableGtSinglePedotTma>
@@ -1093,7 +1093,7 @@ makeShaped("uiv_cutting_machine", <gregtech:machine:255>,
         "A": <gregtech:meta_item_1:167>,
         "B": <gregtech:meta_item_1:137>,
         "C": <gregtech:machine:996>,
-        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "D": <ore:toolHeadBuzzSawAusteniteSteel>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitUiv>,
         "Q": <ore:cableGtSingleSunnarium>
@@ -1639,7 +1639,7 @@ makeShaped("uxv_cutting_machine", <gregtech:machine:256>,
         "A": <gregtech:meta_item_1:168>,
         "B": <gregtech:meta_item_1:138>,
         "C": <gregtech:machine:997>,
-        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "D": <ore:toolHeadBuzzSawNeutronium>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitUxv>,
         "Q": <ore:cableGtSingleCrystalMatrix>,
@@ -2934,7 +2934,7 @@ makeShaped("opv_cutting_machine", <gregtech:machine:257>,
         "A": <gregtech:meta_item_1:169>,
         "B": <gregtech:meta_item_1:139>,
         "C": <gregtech:machine:998>,
-        "D": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "D": <ore:toolHeadBuzzSawHypogen>,
         "G": <gcys:transparent_casing>,
         "O": <ore:circuitOpv>,
         "Q": <ore:cableGtSingleSuperheavyElementMixture>
@@ -3606,4 +3606,16 @@ makeShaped("mega_vacuum_freezer", <gregtech:machine:2026>,
         "C": <gregtech:machine:1002>,
         "W": <ore:cableGtHexSiliconCarbide>,
         "V": <ore:plateVibranium>
+    });
+
+makeShaped("boron_nitride_grinder", <gcys:meta_item_1:480>,
+    [
+        "NDN",
+        "DCD",
+        "NDN"
+    ],
+    {
+        "D": <ore:plateDoubleOrichalcum>,
+        "C": <minecraft:diamond>,
+        "N": <ore:plateCubicBoronNitride>
     });

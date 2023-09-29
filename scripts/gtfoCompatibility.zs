@@ -2,6 +2,23 @@ import mods.gregtech.recipe.RecipeMap;
 
 import scripts.magicbook.makeShaped as makeShaped;
 
+recipes.remove(<gregtech:machine:8503>);
+makeShaped("lv_slicing_machine", <gregtech:machine:8503>,
+    [
+        "AOQ",
+        "SCO",
+        "PBQ"
+    ],
+    {
+        "A": <gregtech:meta_item_1:172>,
+        "S": <ore:toolHeadBuzzSawCobaltBrass>,
+        "P": <ore:plateDenseSteel>,
+        "C": <gregtech:machine:986>,
+        "O": <ore:circuitLv>,
+        "B": <gregtech:meta_item_1:157>,
+        "Q": <ore:cableGtSingleTin>
+    });
+
 recipes.remove(<gregtech:machine:8511>);
 makeShaped("uhv_slicing_machine", <gregtech:machine:8511>,
     [
@@ -11,8 +28,8 @@ makeShaped("uhv_slicing_machine", <gregtech:machine:8511>,
     ],
     {
         "A": <gregtech:meta_item_1:180>,
-        "S": <gregtech:meta_tool_head_buzz_saw:3559>,
-        "P": <ore:plateOrichalcum>,
+        "S": <ore:toolHeadBuzzSawCubicBoronNitride>,
+        "P": <ore:plateDenseOrichalcum>,
         "C": <gregtech:machine:994>,
         "O": <ore:circuitUhv>,
         "B": <gregtech:meta_item_1:165>,
@@ -27,8 +44,8 @@ makeShaped("uev_slicing_machine", <gregtech:machine:8512>,
     ],
     {
         "A": <gregtech:meta_item_1:181>,
-        "S": <gregtech:meta_tool_head_buzz_saw:3559>,
-        "P": <ore:plateAdamantium>,
+        "S": <ore:toolHeadBuzzSawHdcs>,
+        "P": <ore:plateDenseAdamantium>,
         "C": <gregtech:machine:995>,
         "O": <ore:circuitUev>,
         "B": <gregtech:meta_item_1:166>,
@@ -43,8 +60,8 @@ makeShaped("uiv_slicing_machine", <gregtech:machine:8513>,
     ],
     {
         "A": <gregtech:meta_item_1:182>,
-        "S": <gregtech:meta_tool_head_buzz_saw:3559>,
-        "P": <ore:plateAurorium>,
+        "S": <ore:toolHeadBuzzSawAusteniteSteel>,
+        "P": <ore:plateDenseAurorium>,
         "C": <gregtech:machine:996>,
         "O": <ore:circuitUiv>,
         "B": <gregtech:meta_item_1:167>,
@@ -59,7 +76,7 @@ makeShaped("uxv_slicing_machine", <gregtech:machine:8514>,
     ],
     {
         "A": <gregtech:meta_item_1:183>,
-        "S": <gregtech:meta_tool_head_buzz_saw:3559>,
+        "S": <ore:toolHeadBuzzSawNeutronium>,
         "P": <ore:plateDenseNeutronium>,
         "C": <gregtech:machine:997>,
         "O": <ore:circuitUxv>,
@@ -75,8 +92,8 @@ makeShaped("opv_slicing_machine", <gregtech:machine:8515>,
     ],
     {
         "A": <gregtech:meta_item_1:184>,
-        "S": <gregtech:meta_tool_head_buzz_saw:3559>,
-        "P": <ore:plateInfinity>,
+        "S": <ore:toolHeadBuzzSawHypogen>,
+        "P": <ore:plateDenseInfinity>,
         "C": <gregtech:machine:998>,
         "O": <ore:circuitOpv>,
         "B": <gregtech:meta_item_1:169>,
