@@ -692,6 +692,8 @@ mods.jei.JEI.removeAndHide(<extrautils2:lawsword>);
 mods.jei.JEI.removeAndHide(<extrautils2:compoundbow>);
 mods.jei.JEI.removeAndHide(<extrautils2:fireaxe>);
 
+mods.jei.JEI.removeAndHide(<base:wrench>);
+
 mods.jei.JEI.hide(<enderio:item_alloy_nugget>);
 mods.jei.JEI.hide(<enderio:item_alloy_nugget:1>);
 mods.jei.JEI.hide(<enderio:item_alloy_nugget:2>);

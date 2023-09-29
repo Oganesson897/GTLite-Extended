@@ -130,10 +130,19 @@ assembler.recipeBuilder()
 
 #  Diamond chest
 assembler.recipeBuilder()
+    .inputs([<ironchest:iron_chest:1>,
+             <ore:plateDiamond>])
+    .outputs([<ironchest:iron_chest:2>])
+    .EUt(16)
+    .duration(300)
+    .buildAndRegister();
+
+#  Crystal chest
+assembler.recipeBuilder()
     .inputs([<ironchest:iron_chest:2>,
              <gregtech:transparent_casing> * 4,
              <gregtech:meta_item_1:202> * 2,
-             <ore:wireFineTin> * 16])
+             <ore:wireFineTin> * 4])
     .fluidInputs([<liquid:soldering_alloy> * 144])
     .outputs([<ironchest:iron_chest:5>])
     .EUt(16)
@@ -144,8 +153,8 @@ assembler.recipeBuilder()
 assembler.recipeBuilder()
     .inputs([<ironchest:iron_chest:5>,
              <ore:plateObsidian> * 4,
-             <gregtech:meta_item_1:202> * 4,
-             <ore:wireFineTin> * 32])
+             <gregtech:meta_item_1:202> * 2,
+             <ore:wireFineTin> * 4])
     .fluidInputs([<liquid:soldering_alloy> * 144])
     .outputs([<ironchest:iron_chest:6>])
     .EUt(16)

@@ -144,6 +144,17 @@ assembler.recipeBuilder()
     .duration(780)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs([<ore:plateCosmicNeutronium>,
+             <contenttweaker:emitter_max> * 2,
+             <contenttweaker:sensor_max> * 2,
+             <ore:cableGtSingleEternal> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 2016])
+    .outputs([<contenttweaker:mining_drone_max>])
+    .EUt(524288)
+    .duration(840)
+    .buildAndRegister();
+
 #  Ore
 
 ##  LV : 1920 EU/t : 600 tick

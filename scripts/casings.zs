@@ -575,3 +575,25 @@ assembly_line.recipeBuilder()
     .EUt(503316480)
     .duration(160)
     .buildAndRegister();
+
+makeShaped("eglin_steel_casing", <contenttweaker:eglin_steel_casing> * 2,
+    [
+        "PHP",
+        "PFP",
+        "PWP"
+    ],
+    {
+        "F": <ore:frameGtEglinSteel>,
+        "H": <ore:craftingToolHardHammer>,
+        "P": <ore:plateEglinSteel>,
+        "W": <ore:craftingToolWrench>
+    });
+
+assembler.recipeBuilder()
+    .inputs([<ore:plateEglinSteel> * 6,
+             <ore:frameGtEglinSteel>])
+    .circuit(6)
+    .outputs([<contenttweaker:eglin_steel_casing> * 2])
+    .EUt(16)
+    .duration(50)
+    .buildAndRegister();
