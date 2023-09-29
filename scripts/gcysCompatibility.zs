@@ -3603,3 +3603,160 @@ makeShaped("boron_nitride_grinder", <gcys:meta_item_1:480>,
         "C": <minecraft:diamond>,
         "N": <ore:plateCubicBoronNitride>
     });
+
+#  Energy Converters
+makeShaped("1A_uiv_energy_converter", <gregtech:machine:1714>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtSingleRedAlloy>,
+        "P": <ore:cableGtSingleSunnarium>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>
+    });
+
+makeShaped("4A_uiv_energy_converter", <gregtech:machine:1715>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtQuadrupleRedAlloy>,
+        "P": <ore:cableGtQuadrupleSunnarium>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>
+    });
+
+makeShaped("8A_uiv_energy_converter", <gregtech:machine:1716>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtOctalRedAlloy>,
+        "P": <ore:cableGtOctalSunnarium>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>
+    });
+
+makeShaped("16A_uiv_energy_converter", <gregtech:machine:1717>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtHexRedAlloy>,
+        "P": <ore:cableGtHexSunnarium>,
+        "C": <gregtech:machine:996>,
+        "O": <ore:circuitUiv>
+    });
+
+makeShaped("1A_uxv_energy_converter", <gregtech:machine:1718>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtSingleRedAlloy>,
+        "P": <ore:cableGtSingleCrystalMatrix>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>
+    });
+
+makeShaped("4A_uxv_energy_converter", <gregtech:machine:1719>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtQuadrupleRedAlloy>,
+        "P": <ore:cableGtQuadrupleCrystalMatrix>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>
+    });
+
+makeShaped("8A_uxv_energy_converter", <gregtech:machine:1720>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtOctalRedAlloy>,
+        "P": <ore:cableGtOctalCrystalMatrix>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>
+    });
+
+makeShaped("16A_uxv_energy_converter", <gregtech:machine:1721>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtHexRedAlloy>,
+        "P": <ore:cableGtHexCrystalMatrix>,
+        "C": <gregtech:machine:997>,
+        "O": <ore:circuitUxv>
+    });
+
+makeShaped("1A_opv_energy_converter", <gregtech:machine:1722>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtSingleRedAlloy>,
+        "P": <ore:cableGtSingleSuperheavyElementMixture>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>
+    });
+
+makeShaped("4A_opv_energy_converter", <gregtech:machine:1723>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtQuadrupleRedAlloy>,
+        "P": <ore:cableGtQuadrupleSuperheavyElementMixture>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>
+    });
+
+makeShaped("8A_opv_energy_converter", <gregtech:machine:1724>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtOctalRedAlloy>,
+        "P": <ore:cableGtOctalSuperheavyElementMixture>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>
+    });
+
+makeShaped("16A_opv_energy_converter", <gregtech:machine:1725>,
+    [
+        " PP",
+        "QCO",
+        " PP"
+    ],
+    {
+        "Q": <ore:cableGtHexRedAlloy>,
+        "P": <ore:cableGtHexSuperheavyElementMixture>,
+        "C": <gregtech:machine:998>,
+        "O": <ore:circuitOpv>
+    });
