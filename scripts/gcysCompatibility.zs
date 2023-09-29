@@ -3591,23 +3591,7 @@ assembler.recipeBuilder()
     .duration(200)
     .buildAndRegister();
 
-#  Mega Vacuum Freezer Recipe Fix
-recipes.remove(<gregtech:machine:2026>);
-makeShaped("mega_vacuum_freezer", <gregtech:machine:2026>,
-    [
-        "POP",
-        "ACA",
-        "VWV"
-    ],
-    {
-        "P": <ore:pipeHugeFluidDuranium>,
-        "O": <ore:circuitUhv>,
-        "A": <gregtech:meta_item_1:210>,
-        "C": <gregtech:machine:1002>,
-        "W": <ore:cableGtHexSiliconCarbide>,
-        "V": <ore:plateVibranium>
-    });
-
+#  Grinder
 makeShaped("boron_nitride_grinder", <gcys:meta_item_1:480>,
     [
         "NDN",
