@@ -88,7 +88,7 @@ forming_press.recipeBuilder()
 
 forming_press.recipeBuilder()
     .notConsumable([<appliedenergistics2:material:19>])
-    .circuit(0)
+    .circuit(1)
     .inputs([<ore:plateSilicon>])
     .outputs([<appliedenergistics2:material:20>])
     .EUt(16)

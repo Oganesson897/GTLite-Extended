@@ -36,7 +36,7 @@ makeShaped("atomic_reconstructor_1", <actuallyadditions:block_atomic_reconstruct
         "C": <actuallyadditions:block_misc:9>,
         "P": <ore:plateBlackSteel>,
         "E": <ore:craftingLensGreen>,
-        "B": <gregtech:meta_item_1:218>,
+        "A": <gregtech:meta_item_1:218>,
     });
 
 makeShaped("atomic_reconstructor_2", <actuallyadditions:block_atomic_reconstructor>,
@@ -49,7 +49,7 @@ makeShaped("atomic_reconstructor_2", <actuallyadditions:block_atomic_reconstruct
         "C": <actuallyadditions:block_misc:9>,
         "P": <ore:plateBlackSteel>,
         "E": <ore:craftingLensGreen>,
-        "B": <gregtech:meta_item_1:218>
+        "A": <gregtech:meta_item_1:218>
     });
 
 #  Coils
