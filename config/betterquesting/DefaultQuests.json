@@ -448,7 +448,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "忙碌的§3UV§r阶段来了！\n\n在这个阶段，你即将开启你的第一条后期化工线路——基岩处理。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -473,7 +473,12 @@
       },
       "questID:3": 5,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "6:10": {
       "preRequisites:11": [
@@ -4783,7 +4788,20 @@
         }
       },
       "questID:3": 57,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 112,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "allowAnvil:1": 0,
@@ -6414,7 +6432,20 @@
         }
       },
       "questID:3": 80,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -17003,7 +17034,12 @@
       },
       "questID:3": 238,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "239:10": {
       "preRequisites:11": [],
@@ -19291,7 +19327,20 @@
         }
       },
       "questID:3": 272,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 362,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -19349,7 +19398,7 @@
           "rewardID:8": "bq_standard:item",
           "rewards:9": {
             "0:10": {
-              "Count:3": 64,
+              "Count:3": 128,
               "Damage:2": 252,
               "OreDict:8": "",
               "id:8": "gregtech:meta_ingot"
@@ -20963,7 +21012,26 @@
         }
       },
       "questID:3": 297,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 128,
+              "Damage:2": 82,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 64000,
+                  "FluidName:8": "nitric_acid"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -23629,7 +23697,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "恭喜你获得了§3UV§r阶段的主材料。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -28717,7 +28785,26 @@
         }
       },
       "questID:3": 412,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_bastnasite_0"
+            },
+            "1:10": {
+              "Count:3": 256,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_monazite_0"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -29863,7 +29950,20 @@
         }
       },
       "questID:3": 431,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 64,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -32453,7 +32553,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "用于§9数据库§r与§c有源变压器§r。",
+          "desc:8": "用于§9数据库§r与§c有源变压器§r。\n\n§e一些趣事：§r这个机器外壳的材质来自模组§bTecTech§r，这几台机器也是如此。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34337,7 +34437,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§a未经加工的智慧生命§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34999,7 +35099,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "使用对二甲苯与氯甲烷反应得到§2均四甲苯§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35023,7 +35123,26 @@
         }
       },
       "questID:3": 515,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "chloromethane"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -35160,7 +35279,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "",
+          "desc:8": "用于催化重整§6甲苯§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -35184,7 +35303,20 @@
         }
       },
       "questID:3": 518,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 113,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_ingot"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -35583,7 +35715,20 @@
         }
       },
       "questID:3": 524,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 8,
+              "Damage:2": 3,
+              "OreDict:8": "",
+              "id:8": "gcym:unique_casing"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -35612,7 +35757,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "将立方氧化锆粉与铕粉放入§6结晶坩埚§r后，\n\n在不低于§c3000 K§r的温度下合成得到。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36581,7 +36726,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "用§4二氯化硫§r，§2乙二醇§r与§e丁二酮§r反应，得到EDOT与一些盐酸。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36611,7 +36756,26 @@
         }
       },
       "questID:3": 541,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 256,
+              "Damage:2": 78,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1",
+              "tag:10": {
+                "Fluid:10": {
+                  "Amount:3": 1000,
+                  "FluidName:8": "chlorine"
+                }
+              }
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -38324,7 +38488,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的冲压机床，用于制作§dPRAM晶片§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -38348,7 +38512,20 @@
         }
       },
       "questID:3": 572,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 180,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -70006,7 +70183,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§r§b你的资源收集技术的顶端，终极的资源提取设备。§r\n\n想要运行§6太空电梯§r，你首先需要制作各个等级的§c超维度采矿无人机§r，\n\n然后根据配方类型放入对应等级的§9电力活塞§r或§9电动泵§r，\n\n再输入一定量的§d火箭燃料§r（也可能需要一些其他的流体）。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -70762,7 +70939,20 @@
         }
       },
       "questID:3": 1210,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 2,
+              "Damage:2": 183,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -72416,7 +72606,9 @@
       }
     },
     "1240:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        910
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -75263,7 +75455,7 @@
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 312,
-          "y:3": 120
+          "y:3": 132
         },
         "27:10": {
           "id:3": 343,
@@ -75365,10 +75557,10 @@
         },
         "41:10": {
           "id:3": 393,
-          "sizeX:3": 60,
-          "sizeY:3": 24,
-          "x:3": 204,
-          "y:3": 132
+          "sizeX:3": 24,
+          "sizeY:3": 48,
+          "x:3": 168,
+          "y:3": 120
         },
         "42:10": {
           "id:3": 394,
@@ -75423,14 +75615,14 @@
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 192
+          "x:3": 120,
+          "y:3": 240
         },
         "50:10": {
           "id:3": 403,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 348,
+          "x:3": 312,
           "y:3": 12
         },
         "51:10": {
@@ -75451,35 +75643,35 @@
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 312,
-          "y:3": 156
+          "x:3": 264,
+          "y:3": 132
         },
         "54:10": {
           "id:3": 410,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 312,
-          "y:3": 192
+          "x:3": 216,
+          "y:3": 132
         },
         "55:10": {
           "id:3": 411,
-          "sizeX:3": 36,
+          "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 216,
+          "x:3": 168,
           "y:3": 192
         },
         "56:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 240
+          "x:3": 216,
+          "y:3": 72
         },
         "57:10": {
           "id:3": 415,
-          "sizeX:3": 36,
+          "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 216,
+          "x:3": 264,
           "y:3": 72
         },
         "58:10": {
@@ -75512,9 +75704,9 @@
         },
         "62:10": {
           "id:3": 422,
-          "sizeX:3": 48,
+          "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
+          "x:3": 312,
           "y:3": 72
         },
         "63:10": {
@@ -75570,85 +75762,85 @@
           "id:3": 434,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 216,
-          "y:3": 240
+          "x:3": 168,
+          "y:3": 288
         },
         "71:10": {
           "id:3": 435,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 264,
+          "x:3": 216,
           "y:3": 240
         },
         "72:10": {
           "id:3": 436,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 216,
+          "x:3": 120,
           "y:3": 288
         },
         "73:10": {
           "id:3": 437,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 168,
-          "y:3": 288
+          "x:3": 120,
+          "y:3": 336
         },
         "74:10": {
           "id:3": 438,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 216,
+          "x:3": 168,
           "y:3": 336
         },
         "75:10": {
           "id:3": 439,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 312,
-          "y:3": 240
+          "x:3": 216,
+          "y:3": 288
         },
         "76:10": {
           "id:3": 440,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 312,
+          "x:3": 264,
           "y:3": 288
         },
         "77:10": {
           "id:3": 441,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 264,
+          "x:3": 312,
           "y:3": 288
         },
         "78:10": {
           "id:3": 442,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 288
+          "x:3": 216,
+          "y:3": 192
         },
         "79:10": {
           "id:3": 443,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 288
+          "x:3": 264,
+          "y:3": 192
         },
         "80:10": {
           "id:3": 444,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": 288
+          "x:3": 264,
+          "y:3": 240
         },
         "81:10": {
           "id:3": 445,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 336
+          "x:3": 312,
+          "y:3": 192
         },
         "82:10": {
           "id:3": 453,
@@ -81675,7 +81867,7 @@
   },
   "questSettings:10": {
     "betterquesting:10": {
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_anchor_x:5": 0.5,
       "home_anchor_y:5": 0.0,
