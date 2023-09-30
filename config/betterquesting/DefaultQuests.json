@@ -44491,7 +44491,7 @@
               "id:8": "contenttweaker:untreated_flexible_pezoelectric_cpu"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "1:10": {
           "autoConsume:1": 0,
@@ -44508,7 +44508,7 @@
               "id:8": "contenttweaker:flexible_piezoelectric_cpu"
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "taskID:8": "bq_standard:optional_retrieval"
         },
         "2:10": {
           "autoConsume:1": 0,
@@ -45091,7 +45091,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更好的能源仓。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
