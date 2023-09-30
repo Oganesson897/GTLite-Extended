@@ -47732,7 +47732,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o你的最后一个电动马达。\n\n你或许会怀念它们的，怀念这些可爱的小零部件们。\n\n它们陪伴着你走过漫长的格雷科技旅程，直到现在也陪伴在你身边。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -52537,7 +52537,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o你的最后一个阶段...\n\n在这个阶段，所有创造物品都可以被合成了。\n\n这个阶段并没有什么实际意义，\n\n如果你想挑战自己的话，那么这个阶段是你最好的选择。\n\n除此以外，你或许可以试着看一看HEI中的一些物品的合成表？",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -52562,7 +52562,12 @@
       },
       "questID:3": 844,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "845:10": {
       "preRequisites:11": [
@@ -52623,7 +52628,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o无穷无尽的流体。\n\n§e注意：§r你可以无限复制§6创造量子缸§r，还可以将其转换为§d创造桶§r。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -52675,7 +52680,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o最后的最后...§r\n\n恭喜你，你的§2格雷科技§r之旅到此结束！\n\n虽然旅途之上出现了许多困难，但你出色地克服了它们。\n\n希望你在旅途之中收获了许多快乐，\n\n谢谢你游玩这个整合包，也谢谢你体验了§2格雷科技§r，或许你会喜欢它！\n\n不管如此，这个整合包的所有内容就到此结束了！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53044,7 +53049,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o一张包含着宇宙全部信息的内存卡...\n\n将它插入计算机中或许可以模拟出整个宇宙，\n\n而你，就是这个宇宙的创造者。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53096,7 +53101,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o宇宙的全部物质汇聚于此...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53120,7 +53125,62 @@
         }
       },
       "questID:3": 855,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "choices:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:motor_max"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:piston_max"
+            },
+            "2:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:conveyor_module_max"
+            },
+            "3:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:robot_arm_max"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:electric_pump_max"
+            },
+            "5:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:emitter_max"
+            },
+            "6:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:sensor_max"
+            },
+            "7:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:field_generator_max"
+            }
+          },
+          "index:3": 0,
+          "rewardID:8": "bq_standard:choice"
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -53148,7 +53208,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o一张小小的内存卡...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -53172,7 +53232,20 @@
         }
       },
       "questID:3": 856,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:hyperdimensional_oscillating_matter"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -71872,7 +71945,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -71926,7 +71999,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o超致密...§r\n\n比§d中子等离子体§r的密度要高得多！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -71950,7 +72023,20 @@
         }
       },
       "questID:3": 1228,
-      "rewards:9": {},
+      "rewards:9": {
+        "0:10": {
+          "index:3": 0,
+          "rewardID:8": "bq_standard:item",
+          "rewards:9": {
+            "0:10": {
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "contenttweaker:neutronium_sphere"
+            }
+          }
+        }
+      },
       "tasks:9": {
         "0:10": {
           "autoConsume:1": 0,
@@ -72032,7 +72118,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o似乎是某种来自更高维度的物质的渗透...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -72243,7 +72329,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§l§o超越四维结构的约束的第一步...",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -72560,7 +72646,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "§6§l§o一闪一闪亮晶晶§r",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
