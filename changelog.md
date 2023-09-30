@@ -225,3 +225,33 @@
     - Fix acetic anhydride related recipes;
     - Fix sodium chlorate recipes conflict;
     - Fix pressure and vacuum hatches recipes.
+
+##  from 0.0.6-alpha to 0.0.6-beta
+
+&nbsp;&nbsp;&nbsp;&nbsp;The first complete preview version of GregTech Lite, all gregtech contents has been added!
+
+- Mod Changes
+    - Mod Updates
+        - Update GregTech Lite Core - Multiblocks from 0.0.1-alpha to 0.0.1-beta;
+- General Changes
+    - New scripts of Building Gadgets has been added;
+    - Rado-X process has been added;
+    - Add some MAX materials (e.g. galaxium and spacetime);
+    - All recipes of MAX components has been added;
+    - Add some recipes of fuel rods;
+    - Add UHV+ tool components:
+        - HDCS for UEV, Austenite Steel for UIV, Neutronium for UXV, Hypogen for OpV;
+    - New Multiblock _Large Gas Collector_
+        - HV-EV
+    - Buff recipes of crystal chest and obsidian chest;
+    - Some recipes of chest transporters has been added;
+    - Some recipes of Ender IO has been added;
+    - All recipes of UEV+ energy converters has been added;
+    - Change textures of multiblock builder (from _TecTech_);
+    - Change textures of buckets in Future MC;
+    - Some recipes of creative mode items has been added;
+- Bug fixes
+    - Fix recipe problem of mega vacuum freezer (caused by Gregicality Science);
+    - Fix symbol of cosmic neutronium to SpNt;
+    - Fix recipe problem of automic reconstructor;
+    - Fix some quests.
