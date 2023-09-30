@@ -75,7 +75,7 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
                    <liquid:nether_air> * 102400,
                    <liquid:ender_air> * 102400])
     .EUt(500000000)
-    .duration(600)
+    .duration(300)
     .buildAndRegister();
 
 galactic_superscale_structural_circular_particle_collide.recipeBuilder()
@@ -94,5 +94,14 @@ galactic_superscale_structural_circular_particle_collide.recipeBuilder()
     .chancedOutput(<gregtech:meta_dust_small:32141> * 3, 4000, 0)
     .fluidOutputs([<liquid:hyperdimensional_residue> * 5760])
     .EUt(500000000)
-    .duration(1200)
+    .duration(300)
+    .buildAndRegister();
+
+galactic_superscale_structural_circular_particle_collide.recipeBuilder()
+    .notConsumable([<contenttweaker:field_generator_max>])
+    .inputs([<contenttweaker:ultimate_nether_star>,
+             <avaritia:endest_pearl>])
+    .outputs([<extendedcrafting:singularity_ultimate>])
+    .EUt(2147483647)
+    .duration(200)
     .buildAndRegister();

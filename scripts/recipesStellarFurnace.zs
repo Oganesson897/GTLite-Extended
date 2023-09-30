@@ -269,3 +269,43 @@ stellar_furnace.recipeBuilder()
     .EUt(100000000)
     .duration(300)
     .buildAndRegister();
+
+#  Endest Pearl
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <minecraft:ender_pearl>])
+    .fluidInputs([<liquid:spacetime> * 144])
+    .outputs([<avaritia:endest_pearl>])
+    .EUt(500000000)
+    .duration(20)
+    .buildAndRegister();
+
+#  Singularity of Universe
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <extendedcrafting:singularity_ultimate>])
+    .fluidInputs([<liquid:hyperdimensional_residue> * 576,
+                  <liquid:cosmic_computing_mixture> * 576])
+    .outputs([<contenttweaker:singularity_of_universe>])
+    .EUt(2147483647)
+    .duration(1200)
+    .buildAndRegister();
+
+#  Heart Container
+stellar_furnace.recipeBuilder()
+    .inputs([<contenttweaker:qcd_charge>,
+             <contenttweaker:hyperdimensional_oscillating_matter>])
+    .fluidInputs([<liquid:rado_x> * 576,
+                  <liquid:cosmic_polymer_matrix> * 576])
+    .outputs([<contenttweaker:heart_container>])
+    .EUt(2147483647)
+    .duration(1200)
+    .buildAndRegister();
+
+canner.recipeBuilder()
+    .inputs([<contenttweaker:heart_container>,
+             <contenttweaker:singularity_of_universe>])
+    .outputs([<contenttweaker:heart_of_universe>])
+    .EUt(100000000)
+    .duration(1200)
+    .buildAndRegister();

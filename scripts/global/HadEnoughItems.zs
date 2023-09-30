@@ -707,6 +707,7 @@ mods.jei.JEI.hide(<gregtech:machine:10490>);
 
 mods.jei.JEI.removeAndHide(<avaritiaddons:avaritiaddons_chest:1>);
 mods.jei.JEI.removeAndHide(<extrautils2:wrench>);
+mods.jei.JEI.removeAndHide(<avaritia:resource:5>);
 
 #  AE2 Compatibility
 recipes.addShapeless(<gregtech:meta_gem:214>, [<appliedenergistics2:material>]);
