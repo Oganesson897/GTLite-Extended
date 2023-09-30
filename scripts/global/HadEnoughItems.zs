@@ -703,6 +703,7 @@ mods.jei.JEI.hide(<enderio:item_alloy_nugget:5>);
 mods.jei.JEI.hide(<enderio:item_alloy_nugget:6>);
 mods.jei.JEI.hide(<enderio:item_alloy_nugget:8>);
 mods.jei.JEI.hide(<enderio:item_material:28>);
+mods.jei.JEI.hide(<gregtech:machine:10490>);
 
 mods.jei.JEI.removeAndHide(<avaritiaddons:avaritiaddons_chest:1>);
 mods.jei.JEI.removeAndHide(<extrautils2:wrench>);
