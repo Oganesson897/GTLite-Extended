@@ -1078,7 +1078,7 @@ gregtech.recipe.computation_per_tick=算力：%,d CWU/t
 
 metaitem.tool.multiblock_builder.name=多方块构建器
 metaitem.tool.multiblock_builder.tooltip=检查与建造你的多方块结构！
-metaitem.tool.multiblock_builder.tooltip2=shift+右键单击多方块结构控制器以自动构建
+metaitem.tool.multiblock_builder.tooltip2=按住 SHIFT 键后右键单击多方块结构控制器以自动构建
 
 gregtech.machine.hpca.empty_component.name=空HPCA组件
 gregtech.machine.hpca.empty_component.tooltip=只是为了填充空间
