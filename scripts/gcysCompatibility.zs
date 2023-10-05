@@ -356,6 +356,7 @@ large_chemical_reactor.recipeBuilder()
     .outputs([<gcys:meta_item_1:356>])
     .EUt(2097152)
     .duration(3000)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 cutter.recipeBuilder()
@@ -363,6 +364,7 @@ cutter.recipeBuilder()
     .outputs([<gcys:meta_item_1:368> * 2])
     .EUt(2097152)
     .duration(300)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  PPIC
@@ -373,6 +375,7 @@ chemical_reactor.recipeBuilder()
     .outputs([<gcys:meta_item_1:357>])
     .EUt(2097152)
     .duration(6000)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 cutter.recipeBuilder()
@@ -380,6 +383,7 @@ cutter.recipeBuilder()
     .outputs([<gcys:meta_item_1:369>])
     .EUt(8388608)
     .duration(600)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  FPIC
@@ -389,6 +393,7 @@ chemical_reactor.recipeBuilder()
     .outputs([<gcys:meta_item_1:358>])
     .EUt(2097152)
     .duration(60000)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 cutter.recipeBuilder()
@@ -396,6 +401,7 @@ cutter.recipeBuilder()
     .outputs([<gcys:meta_item_1:370>])
     .EUt(33554432)
     .duration(1200)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  h-BN
@@ -2465,6 +2471,7 @@ laser_engraver.recipeBuilder()
     .outputs([<gregtech:meta_item_1:574>])
     .EUt(7680)
     .duration(900)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 laser_engraver.recipeBuilder()
@@ -2473,6 +2480,7 @@ laser_engraver.recipeBuilder()
     .outputs([<gregtech:meta_item_1:574> * 2])
     .EUt(7680)
     .duration(900)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  Fix recovery problem
