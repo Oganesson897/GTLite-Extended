@@ -234,6 +234,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:12> * 2])
     .EUt(33554432)
     .duration(200)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
@@ -247,6 +248,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:12> * 2])
     .EUt(33554432)
     .duration(200)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  Cosmic assembly
@@ -261,6 +263,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:13> * 2])
     .EUt(33554432)
     .duration(400)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
@@ -274,6 +277,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:13> * 2])
     .EUt(33554432)
     .duration(400)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  Cosmic supercomputer
@@ -1032,6 +1036,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:16> * 2])
     .EUt(134217728)
     .duration(200)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
@@ -1045,6 +1050,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:16> * 2])
     .EUt(134217728)
     .duration(200)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  Supracausal Assembly
@@ -1059,6 +1065,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:17> * 2])
     .EUt(134217728)
     .duration(400)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 circuit_assembler.recipeBuilder()
@@ -1072,6 +1079,7 @@ circuit_assembler.recipeBuilder()
     .outputs([<gcys:meta_item_1:17> * 2])
     .EUt(134217728)
     .duration(400)
+    .property("cleanroom", "cleanroom")
     .buildAndRegister();
 
 #  Supracausal Supercomputer
@@ -1547,6 +1555,7 @@ sifter.recipeBuilder()
     .chancedOutput(<gregtech:meta_item_1:440> * 7, 6000, 2000)
     .EUt(1506780)
     .duration(360)
+    .property("cleanroom","sterile_cleanroom")
     .buildAndRegister();
 
 chemical_bath.recipeBuilder()
@@ -1556,6 +1565,7 @@ chemical_bath.recipeBuilder()
     .fluidOutputs([<liquid:unknown_liquid> * 144])
     .EUt(924080)
     .duration(600)
+    .property("cleanroom","sterile_cleanroom")
     .buildAndRegister();
 
 chemical_bath.recipeBuilder()
@@ -1564,6 +1574,7 @@ chemical_bath.recipeBuilder()
     .outputs([<gregtech:meta_dust:32099>])
     .EUt(33553355)
     .duration(335)
+    .property("cleanroom","sterile_cleanroom")
     .buildAndRegister();
 
 #  Cosmic Polymer Matrix
