@@ -470,7 +470,166 @@ assembly_line.recipeBuilder()
     .duration(8000)
     .buildAndRegister();
 
+#  UHV Components Rework
+
+##  UHV Motor
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:stickLongCgtMagnetic>, <metaitem:stickLongAdamantium> * 4, <metaitem:ringAdamantium> * 4, <metaitem:roundAdamantium> * 8, <metaitem:wireFineSiliconCarbide> * 64, <metaitem:wireFineSiliconCarbide> * 64, <metaitem:cableGtSingleEuropium> * 2], [<liquid:soldering_alloy> * 576, <liquid:lubricant> * 1000, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongCgtMagnetic>,
+             <ore:stickLongAdamantium> * 4,
+             <ore:ringAdamantium> * 4,
+             <ore:roundAdamantium> * 8,
+             <ore:wireFineSiliconCarbide> * 64,
+             <ore:wireFineSiliconCarbide> * 64,
+             <ore:cableGtSingleEuropium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 576,
+                  <liquid:lubricant> * 1000,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:135>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:134>)
+    .buildAndRegister();
+
+##  UHV Electric Pump
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:electric.motor.uhv>, <metaitem:pipeLargeFluidDuranium>, <metaitem:plateAdamantium> * 2, <metaitem:screwAdamantium> * 8, <metaitem:ringSiliconeRubber> * 16, <metaitem:rotorOrichalcum>, <metaitem:cableGtSingleEuropium> * 2], [<liquid:soldering_alloy> * 576, <liquid:lubricant> * 1000, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:135>,
+             <ore:pipeLargeFluidDuranium>,
+             <ore:plateAdamantium> * 2,
+             <ore:screwAdamantium> * 8,
+             <ore:ringSiliconeRubber> * 16,
+             <ore:rotorOrichalcum>,
+             <ore:cableGtSingleEuropium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 576,
+                  <liquid:lubricant> * 1000,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:150>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:149>)
+    .buildAndRegister();
+
+##  UHV Conveyor Module
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:electric.motor.uhv> * 2, <metaitem:plateAdamantium> * 2, <metaitem:ringAdamantium> * 4, <metaitem:roundAdamantium> * 16, <metaitem:screwAdamantium> * 4, <metaitem:cableGtSingleEuropium> * 2], [<liquid:soldering_alloy> * 576, <liquid:lubricant> * 1000, <liquid:styrene_butadiene_rubber> * 3456, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:135>,
+             <ore:plateAdamantium> * 2,
+             <ore:ringAdamantium> * 4,
+             <ore:roundAdamantium> * 16,
+             <ore:screwAdamantium> * 4,
+             <ore:cableGtSingleEuropium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 576,
+                  <liquid:lubricant> * 1000,
+                  <liquid:styrene_butadiene_rubber> * 3456,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:165>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:164>)
+    .buildAndRegister();
+
+##  UHV Electric Piston
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:electric.motor.uhv>, <metaitem:plateAdamantium> * 4, <metaitem:ringAdamantium> * 4, <metaitem:roundAdamantium> * 16, <metaitem:stickAdamantium> * 4, <metaitem:gearOrichalcum>, <metaitem:gearSmallOrichalcum> * 2, <metaitem:cableGtSingleEuropium> * 2], [<liquid:soldering_alloy> * 576, <liquid:lubricant> * 1000, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:135>,
+              <ore:plateAdamantium> * 4,
+              <ore:ringAdamantium> * 4,
+              <ore:roundAdamantium> * 16,
+              <ore:stickAdamantium> * 4,
+              <ore:gearOrichalcum>,
+              <ore:gearSmallOrichalcum> * 2,
+              <ore:cableGtSingleEuropium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 576,
+                  <liquid:lubricant> * 1000,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:180>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:179>)
+    .buildAndRegister();
+
+##  UHV Robot Arm
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:stickLongAdamantium> * 4, <metaitem:gearAdamantium>, <metaitem:gearSmallAdamantium> * 3, <metaitem:electric.motor.uhv> * 2, <metaitem:electric.piston.uhv>, <metaitem:circuit.wetware_mainframe>, <metaitem:circuit.crystal_mainframe> * 2, <metaitem:circuit.quantum_mainframe> * 4, <metaitem:cableGtSingleEuropium> * 4], [<liquid:soldering_alloy> * 1728, <liquid:lubricant> * 1000, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<ore:stickLongAdamantium> * 4,
+             <ore:gearAdamantium>,
+             <ore:gearSmallAdamantium> * 3,
+             <gregtech:meta_item_1:135> * 2,
+             <gregtech:meta_item_1:180>,
+             <ore:circuitUhv>,
+             <ore:circuitUv> * 2,
+             <ore:circuitZpm> * 4,
+             <ore:cableGtSingleEuropium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 1728,
+                  <liquid:lubricant> * 1000,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:195>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:194>)
+    .buildAndRegister();
+
+##  UHV Field Generator
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:frameAdamantium>, <metaitem:plateAdamantium> * 6, <metaitem:gravistar>, <metaitem:emitter.uhv> * 2, <metaitem:circuit.wetware_mainframe> * 2, <metaitem:wireFinePedotPss> * 64, <metaitem:wireFinePedotPss> * 64, <metaitem:cableGtSingleEuropium> * 4], [<liquid:soldering_alloy> * 1728, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAdamantium>,
+             <ore:plateAdamantium> * 6,
+             <gregtech:meta_item_1:283>,
+             <gregtech:meta_item_1:225> * 2,
+             <ore:circuitUhv> * 2,
+             <ore:wireFinePedotPss> * 64,
+             <ore:wireFinePedotPss> * 64,
+             <ore:cableGtSingleEuropium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 1728,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:210>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:209>)
+    .buildAndRegister();
+
+##  UHV Emitter
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:frameAdamantium>, <metaitem:electric.motor.uhv>, <metaitem:stickLongAdamantium> * 4, <metaitem:gravistar>, <metaitem:circuit.wetware_mainframe> * 2, <metaitem:foilVibranium> * 64, <metaitem:foilVibranium> * 32, <metaitem:cableGtSingleEuropium> * 4], [<liquid:soldering_alloy> * 1152, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAdamantium>,
+             <gregtech:meta_item_1:135>,
+             <ore:stickLongAdamantium> * 4,
+             <gregtech:meta_item_1:283>,
+             <ore:circuitUhv> * 2,
+             <ore:foilVibranium> * 64,
+             <ore:foilVibranium> * 32,
+             <ore:cableGtSingleEuropium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 1152,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:225>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:224>)
+    .buildAndRegister();
+
+##  UHV Sensor
+<recipemap:assembly_line>.findRecipe(400000, [<metaitem:frameAdamantium>, <metaitem:electric.motor.uhv>, <metaitem:plateAdamantium> * 4, <metaitem:gravistar>, <metaitem:circuit.wetware_mainframe> * 2, <metaitem:foilNaquadria> * 64, <metaitem:foilNaquadria> * 32, <metaitem:cableGtSingleEuropium> * 4], [<liquid:soldering_alloy> * 1152, <liquid:vibranium> * 144]).remove();
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAdamantium>,
+             <gregtech:meta_item_1:135>,
+             <ore:plateAdamantium> * 4,
+             <gregtech:meta_item_1:283>,
+             <ore:circuitUhv> * 2,
+             <ore:foilNaquadria> * 64,
+             <ore:foilNaquadria> * 32,
+             <ore:cableGtSingleEuropium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 1152,
+                  <liquid:vibranium> * 144])
+    .outputs([<gregtech:meta_item_1:240>])
+    .EUt(400000)
+    .duration(600)
+    .property("research", <gregtech:meta_item_1:239>)
+    .buildAndRegister();
+
 #  UEV Components
+
+##  UEV Motor
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongCgtMagnetic>,
              <ore:stickLongHdcs> * 4,
@@ -486,8 +645,47 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:136>])
     .EUt(2000000)
     .duration(1200)
+    .property("research", <gregtech:meta_item_1:135>)
     .buildAndRegister();
 
+##  UEV Electric Pump
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:136>,
+             <gregtech:hermetic_casing:8>,
+             <ore:plateHdcs> * 2,
+             <ore:screwHdcs> * 8,
+             <ore:ringSiliconeRubber> * 32,
+             <ore:rotorAdamantium>,
+             <ore:cableGtSinglePedotTma> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1152,
+                  <liquid:lubricant> * 3000,
+                  <liquid:polyetheretherketone> * 288,
+                  <liquid:adamantium> * 144])
+    .outputs([<gregtech:meta_item_1:151>])
+    .EUt(2000000)
+    .duration(1200)
+    .property("research", <gregtech:meta_item_1:150>)
+    .buildAndRegister();
+
+##  UEV Conveyor Module
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:136> * 2,
+             <ore:plateHdcs> * 2,
+             <ore:ringHdcs> * 4,
+             <ore:roundHdcs> * 16,
+             <ore:screwHdcs> * 4,
+             <ore:cableGtSinglePedotTma> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 1152,
+                  <liquid:lubricant> * 3000,
+                  <liquid:polyetheretherketone> * 288,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<gregtech:meta_item_1:166>])
+    .EUt(2000000)
+    .duration(1200)
+    .property("research", <gregtech:meta_item_1:165>)
+    .buildAndRegister();
+
+##  UEV Electric Piston
 assembly_line.recipeBuilder()
     .inputs([<gregtech:meta_item_1:136>,
              <ore:plateHdcs> * 4,
@@ -504,8 +702,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:181>])
     .EUt(2000000)
     .duration(1200)
+    .property("research", <gregtech:meta_item_1:180>)
     .buildAndRegister();
 
+##  UEV Robot Arm
 assembly_line.recipeBuilder()
     .inputs([
         <ore:stickLongHdcs> * 4,
@@ -524,59 +724,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:196>])
     .EUt(2000000)
     .duration(1200)
+    .property("research", <gregtech:meta_item_1:195>)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:136> * 2,
-             <ore:plateHdcs> * 2,
-             <ore:ringHdcs> * 4,
-             <ore:roundHdcs> * 16,
-             <ore:screwHdcs> * 4,
-             <ore:cableGtSinglePedotTma> * 2
-    ])
-    .fluidInputs([<liquid:soldering_alloy> * 1152,
-                  <liquid:lubricant> * 3000,
-                  <liquid:polyetheretherketone> * 288,
-                  <liquid:styrene_butadiene_rubber> * 3456])
-    .outputs([<gregtech:meta_item_1:166>])
-    .EUt(2000000)
-    .duration(1200)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs([<ore:frameGtHdcs>,
-             <gregtech:meta_item_1:136>,
-             <ore:stickLongHdcs> * 4,
-             <gregtech:meta_item_1:283> * 2,
-             <ore:circuitUev> * 2,
-             <ore:foilMithril> * 64,
-             <ore:foilMithril> * 32,
-             <ore:cableGtSinglePedotTma> * 4])
-    .fluidInputs([<liquid:soldering_alloy> * 2304,
-                  <liquid:polyetheretherketone> * 288,
-                  <liquid:adamantium> * 144])
-    .outputs([<gregtech:meta_item_1:226>])
-    .EUt(2000000)
-    .duration(1200)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:136>,
-             <gregtech:hermetic_casing:8>,
-             <ore:plateHdcs> * 2,
-             <ore:screwHdcs> * 8,
-             <ore:ringSiliconeRubber> * 32,
-             <ore:rotorAdamantium>,
-             <ore:cableGtSinglePedotTma> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 1152,
-                  <liquid:lubricant> * 3000,
-                  <liquid:polyetheretherketone> * 288,
-                  <liquid:adamantium> * 144])
-    .outputs([<gregtech:meta_item_1:151>])
-    .EUt(2000000)
-    .duration(1200)
-    .buildAndRegister();
-
+##  UEV Field Generator
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtHdcs>,
              <ore:plateHdcs> * 6,
@@ -592,8 +743,29 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:211>])
     .EUt(2000000)
     .duration(1200)
+    .property("research", <gregtech:meta_item_1:210>)
     .buildAndRegister();
 
+##  UEV Emitter
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtHdcs>,
+             <gregtech:meta_item_1:136>,
+             <ore:stickLongHdcs> * 4,
+             <gregtech:meta_item_1:283> * 2,
+             <ore:circuitUev> * 2,
+             <ore:foilMithril> * 64,
+             <ore:foilMithril> * 32,
+             <ore:cableGtSinglePedotTma> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 2304,
+                  <liquid:polyetheretherketone> * 288,
+                  <liquid:adamantium> * 144])
+    .outputs([<gregtech:meta_item_1:226>])
+    .EUt(2000000)
+    .duration(1200)
+    .property("research", <gregtech:meta_item_1:225>)
+    .buildAndRegister();
+
+##  UEV Sensor
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtHdcs>,
              <gregtech:meta_item_1:136>,
@@ -609,6 +781,7 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:241>])
     .EUt(2000000)
     .duration(1200)
+    .property("research", <gregtech:meta_item_1:240>)
     .buildAndRegister();
 
 mixer.recipeBuilder()
@@ -1967,6 +2140,8 @@ makeShaped("uxv_rock_breaker", <gregtech:machine:676>,
     });
 
 #  UIV Components
+
+##  UIV Motor
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongSuperconductingMagnetMixture>,
              <ore:stickLongAusteniteSteel> * 4,
@@ -1982,8 +2157,47 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:137>])
     .EUt(8000000)
     .duration(1800)
+    .property("research", <gregtech:meta_item_1:136>)
     .buildAndRegister();
 
+##  UIV Electric Pump
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:137>,
+             <gregtech:hermetic_casing:8> * 2,
+             <ore:plateAusteniteSteel> * 2,
+             <ore:screwAusteniteSteel> * 8,
+             <ore:ringSiliconeRubber> * 48,
+             <ore:rotorAurorium>,
+             <ore:cableGtSingleSunnarium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 2304,
+                  <liquid:lubricant> * 5000,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:152>])
+    .EUt(8000000)
+    .duration(1800)
+    .property("research", <gregtech:meta_item_1:151>)
+    .buildAndRegister();
+
+##  UIV Conveyor Module
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:137> * 2,
+             <ore:plateAusteniteSteel> * 2,
+             <ore:ringAusteniteSteel> * 4,
+             <ore:roundAusteniteSteel> * 16,
+             <ore:screwAusteniteSteel> * 4,
+             <ore:cableGtSingleSunnarium> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 2304,
+                  <liquid:lubricant> * 5000,
+                  <liquid:zylon> * 432,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<gregtech:meta_item_1:167>])
+    .EUt(8000000)
+    .duration(1800)
+    .property("research", <gregtech:meta_item_1:166>)
+    .buildAndRegister();
+
+##  UIV Electric Piston
 assembly_line.recipeBuilder()
     .inputs([<gregtech:meta_item_1:137>,
              <ore:plateAusteniteSteel> * 4,
@@ -2000,75 +2214,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:182>])
     .EUt(8000000)
     .duration(1800)
+    .property("research", <gregtech:meta_item_1:181>)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:137>,
-             <gregtech:hermetic_casing:8> * 2,
-             <ore:plateAusteniteSteel> * 2,
-             <ore:screwAusteniteSteel> * 8,
-             <ore:ringSiliconeRubber> * 48,
-             <ore:rotorAurorium>,
-             <ore:cableGtSingleSunnarium> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 2304,
-                  <liquid:lubricant> * 5000,
-                  <liquid:zylon> * 432,
-                  <liquid:aurorium> * 288])
-    .outputs([<gregtech:meta_item_1:152>])
-    .EUt(8000000)
-    .duration(1800)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:137> * 2,
-             <ore:plateAusteniteSteel> * 2,
-             <ore:ringAusteniteSteel> * 4,
-             <ore:roundAusteniteSteel> * 16,
-             <ore:screwAusteniteSteel> * 4,
-             <ore:cableGtSingleSunnarium> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 2304,
-                  <liquid:lubricant> * 5000,
-                  <liquid:zylon> * 432,
-                  <liquid:styrene_butadiene_rubber> * 3456])
-    .outputs([<gregtech:meta_item_1:167>])
-    .EUt(8000000)
-    .duration(1800)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs([<ore:frameGtAusteniteSteel>,
-             <gregtech:meta_item_1:137>,
-             <ore:stickLongAusteniteSteel> * 4,
-             <gregtech:meta_item_1:283> * 4,
-             <ore:circuitUiv> * 2,
-             <ore:foilLunarium> * 64,
-             <ore:foilLunarium> * 32,
-             <ore:cableGtSingleSunnarium> * 4])
-    .fluidInputs([<liquid:soldering_alloy> * 3456,
-                  <liquid:zylon> * 432,
-                  <liquid:aurorium> * 288])
-    .outputs([<gregtech:meta_item_1:227>])
-    .EUt(8000000)
-    .duration(1800)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs([<ore:frameGtAusteniteSteel>,
-             <gregtech:meta_item_1:137>,
-             <ore:plateAusteniteSteel> * 4,
-             <gregtech:meta_item_1:283> * 4,
-             <ore:circuitUiv> * 2,
-             <ore:foilLunarium> * 64,
-             <ore:foilLunarium> * 64,
-             <ore:cableGtSingleLunarium> * 4])
-    .fluidInputs([<liquid:soldering_alloy> * 3456,
-                  <liquid:zylon> * 432,
-                  <liquid:aurorium> * 288])
-    .outputs([<gregtech:meta_item_1:242>])
-    .EUt(8000000)
-    .duration(1800)
-    .buildAndRegister();
-
+##  UIV Robot Arm
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongAusteniteSteel> * 4,
              <ore:gearLunarium>,
@@ -2086,8 +2235,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:197>])
     .EUt(8000000)
     .duration(1800)
+    .property("research", <gregtech:meta_item_1:196>)
     .buildAndRegister();
 
+##  UIV Field Generator
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtAusteniteSteel>,
              <ore:plateAusteniteSteel> * 6,
@@ -2103,6 +2254,46 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:212>])
     .EUt(8000000)
     .duration(1800)
+    .property("research", <gregtech:meta_item_1:211>)
+    .buildAndRegister();
+
+##  UIV Emitter
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAusteniteSteel>,
+             <gregtech:meta_item_1:137>,
+             <ore:stickLongAusteniteSteel> * 4,
+             <gregtech:meta_item_1:283> * 4,
+             <ore:circuitUiv> * 2,
+             <ore:foilLunarium> * 64,
+             <ore:foilLunarium> * 32,
+             <ore:cableGtSingleSunnarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 3456,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:227>])
+    .EUt(8000000)
+    .duration(1800)
+    .property("research", <gregtech:meta_item_1:226>)
+    .buildAndRegister();
+
+##  UIV Sensor
+assembly_line.recipeBuilder()
+    .inputs([<ore:frameGtAusteniteSteel>,
+             <gregtech:meta_item_1:137>,
+             <ore:plateAusteniteSteel> * 4,
+             <gregtech:meta_item_1:283> * 4,
+             <ore:circuitUiv> * 2,
+             <ore:foilDeepOceanSilver> * 64,
+             <ore:foilDeepOceanSilver> * 64,
+             <ore:cableGtSingleLunarium> * 4])
+    .fluidInputs([<liquid:soldering_alloy> * 3456,
+                  <liquid:zylon> * 432,
+                  <liquid:aurorium> * 288])
+    .outputs([<gregtech:meta_item_1:242>])
+    .EUt(8000000)
+    .property("research", <gregtech:meta_item_1:241>)
+    .duration(1800)
+
     .buildAndRegister();
 
 #  OpV Machines
@@ -2185,6 +2376,8 @@ assembly_line.recipeBuilder()
     .buildAndRegister();
 
 #  UXV Components
+
+##  UXV Motor
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongSuperconductingMagnetMixture>,
              <ore:stickLongTiberium> * 4,
@@ -2200,8 +2393,47 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:138>])
     .EUt(30000000)
     .duration(2400)
+    .property("research", <gregtech:meta_item_1:137>)
     .buildAndRegister();
 
+##  UXV Electric Pump
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:138>,
+             <gregtech:hermetic_casing:8> * 4,
+             <ore:plateTiberium> * 2,
+             <ore:screwTiberium> * 8,
+             <ore:ringSiliconeRubber> * 64,
+             <ore:rotorNeutronium>,
+             <ore:cableGtSingleCrystalMatrix> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:lubricant> * 7000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:neutronium> * 432])
+    .outputs([<gregtech:meta_item_1:153>])
+    .EUt(30000000)
+    .duration(2400)
+    .property("research", <gregtech:meta_item_1:152>)
+    .buildAndRegister();
+
+##  UXV Conveyor Module
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:138> * 2,
+             <ore:plateTiberium> * 2,
+             <ore:ringTiberium> * 4,
+             <ore:roundTiberium> * 16,
+             <ore:screwTiberium> * 4,
+             <ore:cableGtSingleCrystalMatrix> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 4608,
+                  <liquid:lubricant> * 7000,
+                  <liquid:black_hole_matter_polymer_matrix> * 576,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<gregtech:meta_item_1:168>])
+    .EUt(30000000)
+    .duration(2400)
+    .property("research", <gregtech:meta_item_1:167>)
+    .buildAndRegister();
+
+##  UXV Electric Piston
 assembly_line.recipeBuilder()
     .inputs([<gregtech:meta_item_1:138>,
              <ore:plateTiberium> * 4,
@@ -2218,41 +2450,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:183>])
     .EUt(30000000)
     .duration(2400)
+    .property("research", <gregtech:meta_item_1:182>)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:138>,
-             <gregtech:hermetic_casing:8> * 4,
-             <ore:plateTiberium> * 2,
-             <ore:screwTiberium> * 8,
-             <ore:ringSiliconeRubber> * 64,
-             <ore:rotorNeutronium>,
-             <ore:cableGtSingleCrystalMatrix> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 4608,
-                  <liquid:lubricant> * 7000,
-                  <liquid:black_hole_matter_polymer_matrix> * 576,
-                  <liquid:neutronium> * 432])
-    .outputs([<gregtech:meta_item_1:153>])
-    .EUt(30000000)
-    .duration(2400)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:138> * 2,
-             <ore:plateTiberium> * 2,
-             <ore:ringTiberium> * 4,
-             <ore:roundTiberium> * 16,
-             <ore:screwTiberium> * 4,
-             <ore:cableGtSingleCrystalMatrix> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 4608,
-                  <liquid:lubricant> * 7000,
-                  <liquid:black_hole_matter_polymer_matrix> * 576,
-                  <liquid:styrene_butadiene_rubber> * 3456])
-    .outputs([<gregtech:meta_item_1:168>])
-    .EUt(30000000)
-    .duration(2400)
-    .buildAndRegister();
-
+##  UXV Robot Arm
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongTiberium>,
              <ore:gearHikarium>,
@@ -2270,16 +2471,18 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:198>])
     .EUt(30000000)
     .duration(2400)
+    .property("research", <gregtech:meta_item_1:197>)
     .buildAndRegister();
 
+##  UXV Field Generator
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtTiberium>,
              <ore:plateTiberium> * 6,
              <gregtech:meta_item_1:283> * 16,
              <gregtech:meta_item_1:228> * 2,
              <ore:circuitUxv>,
-             <ore:wireFineHikarium> * 64,
-             <ore:wireFineHikarium> * 64,
+             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 64,
+             <ore:wireFineRutheniumTriniumAmericiumNeutronate> * 64,
              <ore:cableGtSingleHikarium> * 4])
     .fluidInputs([<liquid:soldering_alloy> * 6912,
                   <liquid:black_hole_matter_polymer_matrix> * 576,
@@ -2287,8 +2490,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:213>])
     .EUt(30000000)
     .duration(2400)
+    .property("research", <gregtech:meta_item_1:212>)
     .buildAndRegister();
 
+##  UXV Emitter
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtTiberium>,
              <gregtech:meta_item_1:138>,
@@ -2304,16 +2509,18 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:228>])
     .EUt(30000000)
     .duration(2400)
+    .property("research", <gregtech:meta_item_1:227>)
     .buildAndRegister();
 
+##  UXV Sensor
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtTiberium>,
              <gregtech:meta_item_1:138>,
              <ore:plateTiberium> * 4,
              <gregtech:meta_item_1:283> * 8,
              <ore:circuitUxv> * 2,
-             <ore:foilHikarium> * 64,
-             <ore:foilHikarium> * 32,
+             <ore:foilTerrasteel> * 64,
+             <ore:foilTerrasteel> * 32,
              <ore:cableGtSingleHikarium> * 4])
     .fluidInputs([<liquid:soldering_alloy> * 4608,
                   <liquid:black_hole_matter_polymer_matrix> * 576,
@@ -2321,6 +2528,7 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:243>])
     .EUt(30000000)
     .duration(2400)
+    .property("research", <gregtech:meta_item_1:242>)
     .buildAndRegister();
 
 #  UIV Transformer
@@ -2611,6 +2819,8 @@ large_chemical_reactor.recipeBuilder()
     .buildAndRegister();
 
 #  OpV Components
+
+##  OpV Motor
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongStellarDebris>,
              <ore:stickLongArcanium> * 4,
@@ -2626,8 +2836,47 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:139>])
     .EUt(100000000)
     .duration(3000)
+    .property("research", <gregtech:meta_item_1:138>)
     .buildAndRegister();
 
+##  OpV Electric Pump
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:139>,
+             <gregtech:hermetic_casing:8> * 8,
+             <ore:plateArcanium> * 2,
+             <ore:screwArcanium> * 8,
+             <ore:ringSiliconeRubber> * 64,
+             <ore:rotorInfinity>,
+             <ore:cableGtSingleSuperheavyElementMixture> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 9216,
+                  <liquid:lubricant> * 9000,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:infinity> * 576])
+    .outputs([<gregtech:meta_item_1:154>])
+    .EUt(100000000)
+    .duration(3000)
+    .property("research", <gregtech:meta_item_1:153>)
+    .buildAndRegister();
+
+#  OpV Conveyor Module
+assembly_line.recipeBuilder()
+    .inputs([<gregtech:meta_item_1:139> * 2,
+             <ore:plateArcanium> * 2,
+             <ore:ringArcanium> * 4,
+             <ore:roundArcanium> * 16,
+             <ore:screwArcanium> * 4,
+             <ore:cableGtSingleSuperheavyElementMixture> * 2])
+    .fluidInputs([<liquid:soldering_alloy> * 9216,
+                  <liquid:lubricant> * 9000,
+                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
+                  <liquid:styrene_butadiene_rubber> * 3456])
+    .outputs([<gregtech:meta_item_1:169>])
+    .EUt(100000000)
+    .duration(3000)
+    .property("research", <gregtech:meta_item_1:168>)
+    .buildAndRegister();
+
+##  OpV Electric Piston
 assembly_line.recipeBuilder()
     .inputs([<gregtech:meta_item_1:139>,
              <ore:plateArcanium> * 4,
@@ -2644,41 +2893,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:184>])
     .EUt(100000000)
     .duration(3000)
+    .property("research", <gregtech:meta_item_1:183>)
     .buildAndRegister();
 
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:139>,
-             <gregtech:hermetic_casing:8> * 8,
-             <ore:plateArcanium> * 2,
-             <ore:screwArcanium> * 8,
-             <ore:ringSiliconeRubber> * 64,
-             <ore:rotorInfinity>,
-             <ore:cableGtSingleSuperheavyElementMixture> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 9216,
-                  <liquid:lubricant> * 9000,
-                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
-                  <liquid:infinity> * 576])
-    .outputs([<gregtech:meta_item_1:154>])
-    .EUt(100000000)
-    .duration(3000)
-    .buildAndRegister();
-
-assembly_line.recipeBuilder()
-    .inputs([<gregtech:meta_item_1:139> * 2,
-             <ore:plateArcanium> * 2,
-             <ore:ringArcanium> * 4,
-             <ore:roundArcanium> * 16,
-             <ore:screwArcanium> * 4,
-             <ore:cableGtSingleSuperheavyElementMixture> * 2])
-    .fluidInputs([<liquid:soldering_alloy> * 9216,
-                  <liquid:lubricant> * 9000,
-                  <liquid:dense_magnetically_constrained_stellar_plasma_fluid> * 720,
-                  <liquid:styrene_butadiene_rubber> * 3456])
-    .outputs([<gregtech:meta_item_1:169>])
-    .EUt(100000000)
-    .duration(3000)
-    .buildAndRegister();
-
+##  OpV Robot Arm
 assembly_line.recipeBuilder()
     .inputs([<ore:stickLongArcanium>,
              <ore:gearHypogen>,
@@ -2696,8 +2914,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:199>])
     .EUt(100000000)
     .duration(3000)
+    .property("research", <gregtech:meta_item_1:198>)
     .buildAndRegister();
 
+##  OpV Field Generator
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtArcanium>,
              <ore:plateArcanium> * 6,
@@ -2713,8 +2933,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:214>])
     .EUt(100000000)
     .duration(3000)
+    .property("research", <gregtech:meta_item_1:213>)
     .buildAndRegister();
 
+##  OpV Emitter
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtArcanium>,
              <gregtech:meta_item_1:139>,
@@ -2730,8 +2952,10 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:229>])
     .EUt(100000000)
     .duration(3000)
+    .property("research", <gregtech:meta_item_1:228>)
     .buildAndRegister();
 
+##  OpV Sensor
 assembly_line.recipeBuilder()
     .inputs([<ore:frameGtArcanium>,
              <gregtech:meta_item_1:139>,
@@ -2747,6 +2971,7 @@ assembly_line.recipeBuilder()
     .outputs([<gregtech:meta_item_1:244>])
     .EUt(100000000)
     .duration(3000)
+    .property("research", <gregtech:meta_item_1:243>)
     .buildAndRegister();
 
 #  OpV Machines
