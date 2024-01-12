@@ -1,0 +1,17 @@
+#  Items
+
+##  Applied Energistics 2
+item.contenttweaker.material_redstone_alloy_print.name=刻蚀红石合金板
+item.contenttweaker.material_parallel_processor_print.name=并行电路基板
+item.contenttweaker.material_spec_processor_print.name=推测电路基板
+item.contenttweaker.material_deduction_processor_print.name=演绎电路基板
+item.contenttweaker.material_deduction_processor.name=演绎处理器
+item.contenttweaker.machine_core_assembly.name=福鲁伊克斯逻辑单元集群
+
+##  Extra Utils 2
+item.contenttweaker.rainbow_stone_dust.name=彩虹石粉
+item.contenttweaker.rainbow_gem.name=彩虹宝石
+item.contenttweaker.empowered_rainbow_gem.name=充能彩虹宝石
+
+#  Blocks
+tile.contenttweaker.dust_block.name=尘土块
