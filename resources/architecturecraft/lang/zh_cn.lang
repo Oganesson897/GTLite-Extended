@@ -1,0 +1,24 @@
+tile.architecturecraft.sawbench.name=建筑师锯台
+tile.architecturecraft.shape.name=建筑师方块
+item.architecturecraft.largePulley.name=大滑轮
+item.architecturecraft.sawblade.name=圆锯刃
+item.architecturecraft.chisel.name=建筑师凿子
+item.architecturecraft.hammer.name=建筑师锤
+item.architecturecraft.cladding.name=Cladding
+itemGroup.architecture.tool=建筑师工具
+itemGroup.architecture.shape=建筑师方块
+
+architecturecraft.shapepage.roofing=屋顶方块
+architecturecraft.shapepage.rounded=圆状方块
+architecturecraft.shapepage.classical=经典风格方块
+architecturecraft.shapepage.window=窗户方块
+architecturecraft.shapepage.arches=拱形方块
+architecturecraft.shapepage.railings=栏杆方块
+architecturecraft.shapepage.other=其他方块
+
+tooltip.architecturecraft.basematerial=基底：%s
+tooltip.architecturecraft.secondarymaterial=次选：%s
+tooltip.architecturecraft.cutfrom=由 %s 切制而成
+
+architecturecraft.gui.sawbench.title=建筑师锯台
+architecturecraft.gui.sawbench.ratio=%s 个制作 %s 个

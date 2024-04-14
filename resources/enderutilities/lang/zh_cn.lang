@@ -1,0 +1,10 @@
+#  Overrides
+item.enderutilities.enderpart_enderalloy_0.name=高强度末影合金 Mk I
+item.enderutilities.enderpart_enderalloy_1.name=高强度末影合金 Mk II
+item.enderutilities.enderpart_enderalloy_2.name=高强度末影合金 Mk III
+item.enderutilities.enderpart_endercore_0_active.name=末影核心 Mk I
+item.enderutilities.enderpart_endercore_1_active.name=末影核心 Mk II
+item.enderutilities.enderpart_endercore_2_active.name=末影核心 Mk III
+item.enderutilities.enderpart_endercore_0_inactive.name=末影核心容器 Mk I
+item.enderutilities.enderpart_endercore_1_inactive.name=末影核心容器 Mk II
+item.enderutilities.enderpart_endercore_2_inactive.name=末影核心容器 Mk III

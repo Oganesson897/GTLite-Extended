@@ -1,0 +1,32 @@
+#  Personal translate by Magic_Sweepy [2024/01/23]
+
+#! Some may not be effective
+
+simplybackpacks.shift=按住 SHIFT 以查看更多信息。
+
+item.simplybackpacks.commonbackpack.name=普通背包
+item.simplybackpacks.commonbackpack.info=最寻常的背包。
+item.simplybackpacks.commonbackpack.info2=§f可容纳18组物品§r
+
+item.simplybackpacks.uncommonbackpack.name=非凡背包
+item.simplybackpacks.uncommonbackpack.info=略优于常见的背包。
+item.simplybackpacks.uncommonbackpack.info2=§e可容纳33组物品§r
+
+item.simplybackpacks.rarebackpack.name=史诗背包
+item.simplybackpacks.rarebackpack.info=精良的背包。
+item.simplybackpacks.rarebackpack.info2=§b可容纳66组物品§r
+
+item.simplybackpacks.epicbackpack.name=传奇背包
+item.simplybackpacks.epicbackpack.info=终焉背包。
+item.simplybackpacks.epicbackpack.info2=§d可容纳99组物品§r
+
+key.simplybackpacks.category=Simply Backpacks
+key.simplybackpacks.backpackpickup.desc=切换自动拾取
+key.simplybackpacks.backpackopen.desc=打开背包
+
+simplybackpacks.autopickupenabled=自动拾取：§a启用§r
+simplybackpacks.autopickupdisabled=自动拾取：§c禁用§r
+
+simplybackpacks.whitelist=白名单
+simplybackpacks.metadata=元数据
+simplybackpacks.nbtdata=NBT标签
